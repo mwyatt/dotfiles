@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+@extend .${1:class};${2}
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>ext</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <!-- <scope>scss</scope> -->
+    <!-- Optional: Description to show in the menu -->
+    <description>scss-extend</description>
+</snippet>
