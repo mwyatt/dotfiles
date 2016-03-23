@@ -1,0 +1,1214 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"review",
+				"reviews"
+			],
+			[
+				"product",
+				"productIdSkus"
+			],
+			[
+				"co",
+				"connection"
+			],
+			[
+				"comme",
+				"comment"
+			],
+			[
+				"commen",
+				"comments"
+			],
+			[
+				"cusna",
+				"customerName"
+			],
+			[
+				"customern",
+				"customerName"
+			],
+			[
+				"ex",
+				"exception"
+			],
+			[
+				"prod",
+				"product"
+			],
+			[
+				"image",
+				"image_url"
+			],
+			[
+				"prodpromo",
+				"productPromotion"
+			],
+			[
+				"en",
+				"entities"
+			],
+			[
+				"media",
+				"media-screen	Media query screen"
+			],
+			[
+				"medi",
+				"media-screen	Media query screen"
+			],
+			[
+				"unse",
+				"unset"
+			],
+			[
+				"dialogueFa",
+				"dialogueFactory"
+			],
+			[
+				"_",
+				"_FILES"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/var/www/html/sandbox/barcode/barcode.php",
+			"settings":
+			{
+				"buffer_size": 504,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/sandbox/barcode/index.php",
+			"settings":
+			{
+				"buffer_size": 1354,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 159.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": true,
+		"show_open_files": false,
+		"show_tabs": true,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/html/sandbox",
+		"/var/www/html/sandbox/barcode",
+		"/var/www/html/sandbox/reevoo-scrape"
+	],
+	"file_history":
+	[
+		"/var/www/html/sandbox/barcode/composer.json",
+		"/var/www/html/sandbox/barcode/index.php",
+		"/var/www/html/sandbox/implode.php",
+		"/var/www/html/sandbox/barcode/pdf.php",
+		"/var/www/html/sandbox/barcode/example-pdf.html",
+		"/var/www/html/sandbox/barcode/barcode.html",
+		"/var/www/html/sandbox/royal-mail-shipping-api/init-soap.php",
+		"/var/www/html/sandbox/royal-mail-shipping-api/dan/soap-current-attempt-request.xml",
+		"/var/www/html/sandbox/sublime-text-3/user.preferences.json",
+		"/var/www/html/sandbox/cups/print-code",
+		"/var/www/html/sandbox/reevoo-scrape/store-reviews.php",
+		"/var/www/html/sandbox/reevoo-scrape/cache-done.json",
+		"/var/www/html/sandbox/reevoo-scrape/scrape.php",
+		"/var/www/html/sandbox/reevoo-scrape/scraped-reviews.json",
+		"/home/martin/.config/sublime-text-3/Packages/User/Emmet.sublime-settings",
+		"/var/www/html/sandbox/royal-mail-shipping-api/dan/AudioVisualOnline-Create01-Request",
+		"/var/www/html/sandbox/royal-mail-shipping-api/index.php",
+		"/var/www/html/sandbox/royal-mail-shipping-api/dan/soap-current-attempt.php",
+		"/var/www/html/store/trunk/sass/_product-tag.scss",
+		"/var/www/html/store/trunk/app/classes/inventory/product.php",
+		"/var/www/html/store/trunk/sass/category.scss",
+		"/var/www/html/store/trunk/app/classes/admin/modules/products.php",
+		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/bundle.php",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/products/bundle/_product.tpl",
+		"/var/www/html/store/trunk/app/classes/common/template.php",
+		"/var/www/html/store/trunk/app/classes/inventory/promotion.php",
+		"/var/www/html/store/trunk/app/classes/admin/modules/promotion.php",
+		"/var/www/html/store/trunk/app/classes/storage/promotion.php",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/promotion/edit.tpl",
+		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/product/_promotion.tpl",
+		"/var/www/html/store/trunk/gulpfile.js",
+		"/var/www/html/store/trunk/js/admin/mediaBrowser.js",
+		"/var/www/html/store/trunk/js/product/single.js",
+		"/var/www/html/store/trunk/js/home.js",
+		"/var/www/html/store/trunk/sass/product-single.scss",
+		"/var/www/html/store/trunk/asset/vendor/owl-carousel/owl.carousel.css",
+		"/var/www/html/store/trunk/node_modules/owl-carousel-2/assets/owl.theme.default.css",
+		"/var/www/html/store/trunk/sass/common.scss",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/account/offer/all.tpl",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/account/offer/single.tpl",
+		"/var/www/html/store/trunk/sass/checkout.scss",
+		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/account/create-update.tpl",
+		"/var/www/html/store/trunk/app/classes/frontend/modules/createaccount.php",
+		"/var/www/html/store/trunk/mustache/checkout/drop-address.mst",
+		"/var/www/html/store/trunk/app/classes/frontend/modules/checkout.php",
+		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/checkout/single.tpl",
+		"/var/www/html/store/trunk/app/skin/custom/frontend/common/_contents-products.tpl",
+		"/var/www/html/store/trunk/.htaccess",
+		"/var/www/html/store/trunk/app/classes/frontend/modules/account.php",
+		"/var/www/html/store/trunk/app/classes/frontend/modules/product.php",
+		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/product/single.tpl",
+		"/var/www/html/store/trunk/sass/_reset.scss",
+		"/var/www/html/store/trunk/sass/page/warranty.scss",
+		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/page/warranty.tpl",
+		"/var/www/html/store/trunk/app/classes/frontend/modules/page/warranty.php",
+		"/var/www/html/store/trunk/js/admin/product/single.js",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/products/create-update.tpl",
+		"/var/www/html/store/trunk/sass/admin/_media-browser.scss",
+		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/mediabrowser.php",
+		"/var/www/html/store/trunk/package.json",
+		"/var/www/html/store/trunk/image/avo/logo.svg",
+		"/var/www/html/store/trunk/asset/logo.svg",
+		"/var/www/html/store/trunk/js/admin/mediaBrowser/mustacheTemplates.js",
+		"/var/www/html/store/trunk/app/classes/common/media.php",
+		"/var/www/html/store/trunk/sass/admin/common.scss",
+		"/var/www/html/store/trunk/sass/admin/vendor/_zebra-datepicker.scss",
+		"/var/www/html/store/trunk/sass/admin/vendor/_ui.jqgrid.scss",
+		"/var/www/html/store/trunk/sass/admin/vendor/mwyatt/grid.scss",
+		"/var/www/html/store/trunk/sass/_grid.scss",
+		"/var/www/html/store/trunk/js/admin/misc.js",
+		"/var/www/html/store/trunk/app/classes/frontend/modules/media.php",
+		"/var/www/html/store/trunk/index.php",
+		"/var/www/html/store/trunk/sass/_form.scss",
+		"/var/www/html/store/trunk/sass/admin/order/_email-authorised.scss",
+		"/var/www/html/store/trunk/sass/admin/tinymceContent.scss",
+		"/var/www/html/store/trunk/app/config/config.php",
+		"/var/www/html/store/trunk/js/buttonToTop.js",
+		"/var/www/html/store/trunk/mustache/admin/media/browser/tree.mst",
+		"/var/www/html/store/trunk/mustache/admin/media/browser/layout-control.mst",
+		"/var/www/html/store/trunk/app/classes/admin/modules/features.php",
+		"/var/www/html/store/trunk/app/classes/admin/modules/inbox.php",
+		"/var/www/html/store/trunk/app/classes/admin/modules/media.php",
+		"/var/www/html/store/trunk/mustache/admin/media/browser/file.mst",
+		"/var/www/html/store/trunk/mustache/admin/media/browser/file-context.mst",
+		"/var/www/html/store/trunk/mustache/admin/media/browser/file-pdf.mst",
+		"/var/www/html/store/trunk/mustache/admin/media/browser/directory.mst",
+		"/var/www/html/store/trunk/js/admin/order/single.js",
+		"/var/www/html/store/trunk/js/admin/order/all.js",
+		"/var/www/html/store/trunk/js/admin/note.js",
+		"/var/www/html/store/trunk/js/admin/features.js",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/features/create-update.tpl",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/features/create.tpl",
+		"/var/www/html/store/trunk/sass/admin/order/_list.scss",
+		"/var/www/html/store/trunk/app/skin/custom/frontend/common/footer.tpl",
+		"/var/www/html/store/trunk/js/product/single/basket-added.js",
+		"/var/www/html/store/trunk/js/product.js",
+		"/var/www/html/store/trunk/app/classes/ajax/modules/product.php",
+		"/var/www/html/store/trunk/app/skin/custom/frontend/common/_product.tpl",
+		"/var/www/html/store/trunk/js/admin/order/label.js",
+		"/var/www/html/store/trunk/js/admin/order/single/payment.js",
+		"/var/www/html/store/trunk/js/admin/order/single/summary.js",
+		"/var/www/html/store/trunk/js/checkout/previous-order-lookup.js",
+		"/var/www/html/store/trunk/initialise.php",
+		"/var/www/html/store/trunk/sass/_site.scss",
+		"/var/www/html/store/trunk/app/classes/admin/ajax/abstract/module.php",
+		"/var/www/html/store/trunk/sass/admin/_dialogue.scss",
+		"/var/www/html/store/trunk/app/classes/inventory/product/multiloader.php",
+		"/var/www/html/store/trunk/app/classes/inventory/feature.php",
+		"/var/www/html/store/trunk/app/classes/inventory.php",
+		"/var/www/html/store/trunk/administration/ajax.php",
+		"/var/www/html/store/trunk/node_modules/dialogue/dialogue.js",
+		"/var/www/html/store/trunk/js/admin/common.bundle.js",
+		"/var/www/html/store/trunk/app/classes/frontend/modules/unsubscribe.php",
+		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/showroomclearance/single.tpl",
+		"/var/www/html/store/trunk/js/helper.js",
+		"/var/www/html/store/trunk/js/form.js",
+		"/var/www/html/store/trunk/node_modules/codex/utility/url.js",
+		"/var/www/html/store/trunk/app/skin/custom/admin/common/footer.tpl",
+		"/var/www/html/store/trunk/js/common.bundle.js",
+		"/var/www/html/store/trunk/asset/admin/common.js",
+		"/var/www/html/store/trunk/js/utility/url.js",
+		"/var/www/html/store/trunk/composer.json",
+		"/var/www/html/store/trunk/js/admin/advanced-search/all.bundle.js",
+		"/var/www/html/store/trunk/js/bundle/single.js",
+		"/var/www/html/store/trunk/js/global.js",
+		"/var/www/html/store/trunk/js/basket.js",
+		"/var/www/html/store/trunk/asset/common.js",
+		"/var/www/html/store/trunk/app/classes/frontend/modules/advancedsearch.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"-node_modules/, -asset/, ",
+			"-node_modules/, -asset/, sass/",
+			"-node_modules/, -asset/, sass",
+			"-node_modules/, -asset/, js/",
+			"-node_modules/, -asset/, sass/",
+			"-node_modules/, -asset/, -vendor/, sass/",
+			"-node_modules/, -asset/, -vendor/, sass/admin/",
+			"-node_modules/, -asset/, -vendor/, sass/",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, ",
+			"-node_modules/, -asset/, js/",
+			"-node_modules/, -asset/, ",
+			"-node_modules/, -asset/, js/",
+			"-node_modules/, -asset/",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, -vendor/, js/",
+			"-node_modules/, -asset/, -vendor/, js/, ",
+			"-node_modules/, -asset/, -vendor/, js/, -administration/",
+			"-node_modules/, -asset/, -vendor/, js/",
+			"-node_modules/, -asset/, -vendor/,",
+			"-node_modules/, -asset/, -vendor/, js/admin/",
+			"-node_modules/, -asset/, -vendor/, js/",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/",
+			"-node_modules/",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			");",
+			"1",
+			"5",
+			"'],\n",
+			"snappy",
+			"4cm",
+			"$barcode",
+			"mixin",
+			"rotation",
+			"productId",
+			"reviews",
+			"strong",
+			"->",
+			"rating",
+			"nonceDate",
+			"nonceDatePassword",
+			"applicationPassword",
+			"nonceEncoded",
+			", ",
+			",\n    ",
+			"    ",
+			"\n",
+			"continue",
+			"source",
+			">",
+			"theProduct",
+			"productSku",
+			"Id",
+			"data",
+			"customerLocation",
+			"rows",
+			"productIdSkus",
+			"idSkus",
+			"Occ",
+			"Occurence",
+			"Format",
+			"requestCreateShipment",
+			"Format",
+			"(),\n",
+			"orderId",
+			"things",
+			"$this->ch",
+			"UsernameToken",
+			"UsernameToken-",
+			"requestD1Ranges",
+			"Offering",
+			"creationDate",
+			"data",
+			"data\n",
+			"orderTrackingWeight",
+			"response",
+			"shippingCompany",
+			"<wsse:UsernameToken wsu:Id=\"UsernameToken-0000\">",
+			"xmlns:wsse=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd",
+			"transactionId",
+			"applicationId",
+			"creationDate",
+			"orderTrackingWeight",
+			"orderTrackingBoxes",
+			"requestD1Ranges",
+			"requestD1Ranges\n",
+			"orderTrackingBoxes",
+			"transactionId",
+			"local_cert",
+			"https://api.royalmail.com/shipping/onboarding",
+			"location",
+			"onboarding",
+			"soapaction",
+			"wss",
+			"$firstImage->url",
+			"$firstImage",
+			"firstImage",
+			"getMediaImagesSorted",
+			"firstImage",
+			".home .product-tag-new,",
+			"product-tag-new",
+			"get_name",
+			"// reset checkbox to off",
+			"				id,\n				name,\n				content,\n				image,\n				time_start,\n				time_end,\n				hidden_field,\n				status\n",
+			"$entity->imageOnly ? 1 : 0",
+			"input-checkbox",
+			"image",
+			"Please create the promotion first to then assign products.",
+			"filesAttached",
+			"// forget about ie8 now?",
+			"owlCarousel",
+			"owl",
+			"'time ",
+			"Time Start",
+			"Time",
+			"Time Start",
+			"push_saved_data",
+			"'contents'",
+			"Confirm your order",
+			"push_saved_data",
+			"set('offline_order'",
+			"offline_order",
+			"'offline_order'",
+			"offline",
+			"->fetch",
+			"parser",
+			"$s",
+			"$s ",
+			"$s[",
+			"$s",
+			"'s'",
+			"checkout-address-drop-single",
+			"mustache",
+			"I have read and agree to the",
+			"alt_ids",
+			"auto_data",
+			"alt_data",
+			"'alt_data'",
+			"You Might",
+			".page-warranty-product",
+			"page-warranty-shield-container",
+			"js-product-single-button-group",
+			".media-browser-layout-grid .media-browser-file-container {",
+			".media-browser-layout-grid .media-browser-file-container",
+			"Information",
+			"contentType: false",
+			"300",
+			" Feedback",
+			"Feedback",
+			"mediaBrowser.getDirectory",
+			"'Ok'",
+			"prepareUpload",
+			"watch"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": false,
+		"replace_history":
+		[
+			"require('mwyatt-codex/",
+			"require('mwyatt-dialogue'",
+			"return false; // should not run, return needed to be removed",
+			"require('./vendor/jqGrid');",
+			"require('./vendor/grid.locale-en');",
+			"'./user",
+			"'../feedbackStream",
+			"'./feedbackStream",
+			"'../feedbackStream",
+			"require('./utility/url')",
+			"require('./buttonToTop'",
+			"require('./smoothScroll')",
+			"mustache",
+			"require('./config')",
+			"require('./finance')",
+			"require('./equalHeight')",
+			"require('/equalHeight')",
+			"require('admin/vendor/grid.locale-en');",
+			"require('vendor/grid.locale-en');",
+			"owl-carousel-2/owl.carousel",
+			"owl-carousel-2",
+			"jquery-scrolltofixed",
+			"vendor/jquery.hoverIntent",
+			"jquery.hoverIntent",
+			"braintree-web",
+			"require('jquery-ui')"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/var/www/html/sandbox"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/var/www/html/sandbox/barcode/barcode.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 504,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								298,
+								298
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/var/www/html/sandbox/barcode/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1354,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								545,
+								545
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 171.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"barcocompos",
+				"barcode/composer.json"
+			],
+			[
+				"barb",
+				"barcode/barcode.php"
+			],
+			[
+				"barcodindex",
+				"barcode/index.php"
+			],
+			[
+				"barindex",
+				"barcode/index.php"
+			],
+			[
+				"barcodeindex",
+				"barcode/index.php"
+			],
+			[
+				"currattemre",
+				"royal-mail-shipping-api/dan/soap-current-attempt-request.xml"
+			],
+			[
+				"initsoap",
+				"royal-mail-shipping-api/init-soap.php"
+			],
+			[
+				"userpref",
+				"sublime-text-3/user.preferences.json"
+			],
+			[
+				"print",
+				"cups/print-code"
+			],
+			[
+				"scrapedrev",
+				"reevoo-scrape/scraped-reviews.json"
+			],
+			[
+				"cachedon",
+				"reevoo-scrape/cache-done.json"
+			],
+			[
+				"scrape",
+				"reevoo-scrape/scraped-reviews.json"
+			],
+			[
+				"scraped",
+				"reevoo-scrape/scraped-reviews.json"
+			],
+			[
+				"cachedone",
+				"reevoo-scrape/cache-done.json"
+			],
+			[
+				"soapcurr",
+				"royal-mail-shipping-api/dan/soap-current-attempt-request.xml"
+			],
+			[
+				"initspa",
+				"royal-mail-shipping-api/init-soap.php"
+			],
+			[
+				"royalindex",
+				"royal-mail-shipping-api/index.php"
+			],
+			[
+				"initsoa",
+				"royal-mail-shipping-api/init-soap.php"
+			],
+			[
+				"comtem",
+				"app/classes/common/template.php"
+			],
+			[
+				"",
+				"app/skin/custom/admin/modules/products/bundle/_product.tpl"
+			],
+			[
+				"invpro",
+				"app/classes/inventory/product.php"
+			],
+			[
+				"invprod",
+				"app/classes/inventory/product.php"
+			],
+			[
+				"adminmodprodbunpro",
+				"app/skin/custom/admin/modules/products/bundle/_product.tpl"
+			],
+			[
+				"adminajaxmodbundle",
+				"app/classes/admin/ajax/modules/bundle.php"
+			],
+			[
+				"adminmodprod",
+				"app/classes/admin/modules/products.php"
+			],
+			[
+				"categorscs",
+				"sass/category.scss"
+			],
+			[
+				"frontpromotion",
+				"app/skin/custom/frontend/modules/product/_promotion.tpl"
+			],
+			[
+				"invpromot",
+				"app/classes/inventory/promotion.php"
+			],
+			[
+				"storagepromot",
+				"app/classes/storage/promotion.php"
+			],
+			[
+				"adminmodpromo",
+				"app/classes/admin/modules/promotion.php"
+			],
+			[
+				"adminmodpromotion",
+				"app/classes/admin/modules/promotion.php"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"homejs",
+				"js/home.js"
+			],
+			[
+				"prodsingle",
+				"js/product/single.js"
+			],
+			[
+				"owlcathem",
+				"node_modules/owl-carousel-2/assets/owl.theme.default.css"
+			],
+			[
+				"owlcarou",
+				"asset/vendor/owl-carousel/owl.carousel.css"
+			],
+			[
+				"prodsinglesc",
+				"sass/product-single.scss"
+			],
+			[
+				"commonsc",
+				"sass/common.scss"
+			],
+			[
+				"accountoffer.tpl",
+				"app/skin/custom/admin/modules/account/offer/single.tpl"
+			],
+			[
+				"frontcommoncontentpro",
+				"app/skin/custom/frontend/common/_contents-products.tpl"
+			],
+			[
+				"frontmodcheckout",
+				"app/classes/frontend/modules/checkout.php"
+			],
+			[
+				"checkoutsingle",
+				"app/skin/custom/frontend/modules/checkout/single.tpl"
+			],
+			[
+				"checkoutphp",
+				"app/classes/frontend/modules/checkout.php"
+			],
+			[
+				"frontmodcheck",
+				"app/classes/frontend/modules/checkout.php"
+			],
+			[
+				"checkdropadd",
+				"mustache/checkout/drop-address.mst"
+			],
+			[
+				"frontmodcreacc",
+				"app/classes/frontend/modules/createaccount.php"
+			],
+			[
+				"htacc",
+				".htaccess"
+			],
+			[
+				"frontmodacc",
+				"app/classes/frontend/modules/account.php"
+			],
+			[
+				"frontmdoacc",
+				"app/classes/frontend/modules/account.php"
+			],
+			[
+				"frontmodaccou",
+				"app/classes/frontend/modules/account.php"
+			],
+			[
+				"resetscss",
+				"sass/_reset.scss"
+			],
+			[
+				"warrantytpl",
+				"app/skin/custom/frontend/modules/page/warranty.tpl"
+			],
+			[
+				"pagewarrant",
+				"app/skin/custom/frontend/modules/page/warranty.tpl"
+			],
+			[
+				"frontmodwarr",
+				"app/classes/frontend/modules/page/warranty.php"
+			],
+			[
+				"mediabrow",
+				"js/admin/mediaBrowser.js"
+			],
+			[
+				"ajaxmediabro",
+				"app/classes/admin/ajax/modules/mediabrowser.php"
+			],
+			[
+				"logosvg",
+				"image/avo/logo.svg"
+			],
+			[
+				"asslogo",
+				"asset/logo.svg"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"invproduc",
+				"app/classes/inventory/product.php"
+			],
+			[
+				"mediabrowtem",
+				"js/admin/mediaBrowser/mustacheTemplates.js"
+			],
+			[
+				"commonmedia",
+				"app/classes/common/media.php"
+			],
+			[
+				"uijqgrid",
+				"sass/admin/vendor/_ui.jqgrid.scss"
+			],
+			[
+				"venzebra",
+				"sass/admin/vendor/_zebra-datepicker.scss"
+			],
+			[
+				"gridsc",
+				"sass/_grid.scss"
+			],
+			[
+				"admincommonsc",
+				"sass/admin/common.scss"
+			],
+			[
+				"formscs",
+				"sass/_form.scss"
+			],
+			[
+				"admincomm",
+				"sass/admin/common.scss"
+			],
+			[
+				"gridscss",
+				"sass/_grid.scss"
+			],
+			[
+				"config",
+				"app/config/config.php"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"commmedia",
+				"app/classes/common/media.php"
+			],
+			[
+				"frontmodmedia",
+				"app/classes/frontend/modules/media.php"
+			],
+			[
+				"medbmusta",
+				"js/admin/mediaBrowser/mustacheTemplates.js"
+			],
+			[
+				"layoutcontrol",
+				"mustache/admin/media/browser/layout-control.mst"
+			],
+			[
+				"filecontex",
+				"mustache/admin/media/browser/file-context.mst"
+			],
+			[
+				"medaibrowtree",
+				"mustache/admin/media/browser/tree.mst"
+			],
+			[
+				"adminmediabrowfile",
+				"mustache/admin/media/browser/file.mst"
+			],
+			[
+				"adminmodmedia",
+				"app/classes/admin/modules/media.php"
+			],
+			[
+				"footertpl",
+				"app/skin/custom/frontend/common/footer.tpl"
+			],
+			[
+				"basketadd",
+				"js/product/single/basket-added.js"
+			],
+			[
+				"baskadded",
+				"js/product/single/basket-added.js"
+			],
+			[
+				"sitescs",
+				"sass/_site.scss"
+			],
+			[
+				"initial",
+				"initialise.php"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"mediabrows",
+				"trunk/js/admin/mediaBrowser.js"
+			],
+			[
+				"pakca",
+				"trunk/package.json"
+			],
+			[
+				"dialoguescss",
+				"trunk/sass/admin/_dialogue.scss"
+			],
+			[
+				"dialogu.js",
+				"trunk/node_modules/dialogue/dialogue.js"
+			],
+			[
+				"mediabrowjs",
+				"trunk/js/admin/mediaBrowser.js"
+			],
+			[
+				"media",
+				"trunk/app/classes/common/media.php"
+			],
+			[
+				"inve",
+				"trunk/app/classes/inventory.php"
+			],
+			[
+				"prodmultiload",
+				"trunk/app/classes/inventory/product/multiloader.php"
+			],
+			[
+				"adminajax",
+				"trunk/administration/ajax.php"
+			],
+			[
+				"adminproductjs",
+				"trunk/js/admin/product/single.js"
+			],
+			[
+				"unsubscribe",
+				"trunk/app/classes/frontend/modules/unsubscribe.php"
+			],
+			[
+				"mediabrowser",
+				"trunk/js/admin/mediaBrowser.js"
+			],
+			[
+				"ajaxmediabrow",
+				"trunk/app/classes/admin/ajax/modules/mediabrowser.php"
+			],
+			[
+				"showroomclear",
+				"trunk/app/skin/custom/frontend/modules/showroomclearance/single.tpl"
+			],
+			[
+				"adminajax.php",
+				"trunk/administration/ajax.php"
+			],
+			[
+				"ajax.php",
+				"trunk/administration/ajax.php"
+			],
+			[
+				"helper",
+				"trunk/js/helper.js"
+			],
+			[
+				"formjs",
+				"trunk/js/form.js"
+			],
+			[
+				"admincommonbun",
+				"trunk/js/admin/common.bundle.js"
+			],
+			[
+				"jscommonjs",
+				"trunk/js/common.bundle.js"
+			],
+			[
+				"commonjs",
+				"trunk/asset/admin/common.js"
+			],
+			[
+				"adminajaxabsmod",
+				"trunk/app/classes/admin/ajax/abstract/module.php"
+			],
+			[
+				"url",
+				"trunk/js/utility/url.js"
+			],
+			[
+				"compos",
+				"trunk/composer.json"
+			],
+			[
+				"codexurl",
+				"trunk/node_modules/codex/utility/url.js"
+			],
+			[
+				"adminfooter",
+				"trunk/app/skin/custom/admin/common/footer.tpl"
+			],
+			[
+				"allbundle",
+				"trunk/js/admin/advanced-search/all.bundle.js"
+			],
+			[
+				"adminmediabro",
+				"trunk/js/admin/mediaBrowser.js"
+			],
+			[
+				"adminmediabrow",
+				"trunk/js/admin/mediaBrowser.js"
+			],
+			[
+				"basketjs",
+				"trunk/js/basket.js"
+			],
+			[
+				"globaljs",
+				"trunk/js/global.js"
+			],
+			[
+				"producjs",
+				"trunk/js/product.js"
+			],
+			[
+				"resetsc",
+				"trunk/sass/_reset.scss"
+			],
+			[
+				"admincommon",
+				"trunk/asset/admin/common.js"
+			],
+			[
+				"common",
+				"trunk/asset/common.js"
+			],
+			[
+				"advancedse",
+				"trunk/app/classes/frontend/modules/advancedsearch.php"
+			],
+			[
+				"jqbundle",
+				"trunk/asset/jqueryBundle.js"
+			],
+			[
+				"assadmincommon",
+				"trunk/asset/admin/common.js"
+			],
+			[
+				"asscommonjs",
+				"trunk/asset/common.js"
+			],
+			[
+				"mediabrojs",
+				"trunk/js/admin/mediaBrowser.js"
+			],
+			[
+				"prodsinnc",
+				"trunk/js/product/single/ncs.js"
+			],
+			[
+				"prodsinncs",
+				"trunk/js/product/single/ncs.js"
+			],
+			[
+				"singlencs",
+				"trunk/js/product/single/ncs.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/var/www/html/sublime-workspace/store.sublime-workspace"
+			],
+			[
+				"core",
+				"/var/www/html/sublime-workspace/core.sublime-workspace"
+			],
+			[
+				"store",
+				"/var/www/html/sublime-workspace/store.sublime-workspace"
+			],
+			[
+				"el",
+				"/var/www/html/sublime-workspace/elttl.sublime-workspace"
+			],
+			[
+				"codex",
+				"/var/www/html/sublime-workspace/codex.sublime-workspace"
+			],
+			[
+				"sto",
+				"/var/www/html/sublime-workspace/store.sublime-workspace"
+			],
+			[
+				"grid",
+				"/var/www/html/sublime-workspace/grid.sublime-workspace"
+			],
+			[
+				"elt",
+				"/var/www/html/sublime-workspace/elttl.sublime-workspace"
+			],
+			[
+				"dia",
+				"/var/www/html/sublime-workspace/dialogue.sublime-workspace"
+			],
+			[
+				"diua",
+				"/var/www/html/sublime-workspace/dialogue.sublime-workspace"
+			],
+			[
+				"dialo",
+				"/var/www/html/sublime-project/dialogue.sublime-workspace"
+			],
+			[
+				"code",
+				"/var/www/html/codex/codex.sublime-project"
+			],
+			[
+				"inv",
+				"/var/www/html/sublime-project/inventory.sublime-project"
+			],
+			[
+				"gri",
+				"/var/www/html/grid/grid.sublime-project"
+			],
+			[
+				"g",
+				"/var/www/html/grid/grid.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 269.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}

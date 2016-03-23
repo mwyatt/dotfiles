@@ -1,0 +1,1058 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ajx",
+				"ajax	mw-js-ajax"
+			],
+			[
+				"pv",
+				"pv	mw-php-varDump"
+			],
+			[
+				"cl",
+				"cl	mw-js-consoleLog"
+			],
+			[
+				"ajax",
+				"ajax	mw-js-ajax"
+			],
+			[
+				"read",
+				"readRender"
+			],
+			[
+				"contain",
+				"container"
+			],
+			[
+				"dialogu",
+				"dialogueFactory"
+			],
+			[
+				"close",
+				"closest	.closest()"
+			],
+			[
+				"jqaja",
+				"jquery-ajax	common ajax construct"
+			],
+			[
+				"selcel",
+				"selectedCell"
+			],
+			[
+				"dialogucrea",
+				"dialogueCreate"
+			],
+			[
+				"tempalte",
+				"mustacheTemplates"
+			],
+			[
+				"templa",
+				"readTemplate"
+			],
+			[
+				"ext",
+				"extend	$.extend()"
+			],
+			[
+				"headingclas",
+				"cellHeadingClass"
+			],
+			[
+				"getstor",
+				"getStoredReadModel"
+			],
+			[
+				"unde",
+				"undefined"
+			],
+			[
+				"type",
+				"typeof"
+			],
+			[
+				"unse",
+				"unset"
+			],
+			[
+				"dialogueFa",
+				"dialogueFactory"
+			],
+			[
+				"_",
+				"_FILES"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 119.0,
+		"last_filter": "php",
+		"selected_items":
+		[
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"html",
+				"Snippet: mw-html-table"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"tog",
+				"View: Toggle Status Bar"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"toggl",
+				"View: Toggle Status Bar"
+			],
+			[
+				"remove packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"javascri",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": true,
+		"show_open_files": false,
+		"show_tabs": true,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/html/grid"
+	],
+	"file_history":
+	[
+		"/var/www/html/grid/grid.css",
+		"/var/www/html/grid/common.js",
+		"/var/www/html/grid/request/grid-secondary/delete.php",
+		"/var/www/html/grid/package.json",
+		"/var/www/html/grid/request/grid-secondary/read.php",
+		"/var/www/html/grid/templates.js",
+		"/var/www/html/grid/grid.js",
+		"/var/www/html/setting/sublime-text/Preferences.sublime-settings",
+		"/home/martin/.config/sublime-text-3/Packages/User/CSS.sublime-settings",
+		"/home/martin/.config/sublime-text-3/Packages/User/PHP.sublime-settings",
+		"/home/martin/.config/sublime-text-3/Packages/User/R.sublime-settings",
+		"/home/martin/.config/sublime-text-3/Packages/User/snippet/js/ajax.sublime-snippet",
+		"/home/martin/.config/sublime-text-3/Packages/User/snippet/mw-php-varDump.sublime-snippet",
+		"/home/martin/.config/sublime-text-3/Packages/User/snippet/jquery-ajax.sublime-snippet",
+		"/home/martin/.config/sublime-text-3/Packages/User/snippet/css-media.sublime-snippet",
+		"/var/www/html/grid/request/grid-primary/read.php",
+		"/home/martin/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/martin/.config/sublime-text-3/Packages/User/Emmet.sublime-settings",
+		"/var/www/html/grid/index.php",
+		"/var/www/html/grid/request/connection.php",
+		"/var/www/html/grid/common.css",
+		"/var/www/html/grid/request/grid-secondary/create.php",
+		"/var/www/html/grid/request/grid-secondary/update.php",
+		"/var/www/html/grid/settings.css",
+		"/var/www/html/grid/gulpfile.js",
+		"/var/www/html/grid/request/grid-primary/update.php",
+		"/var/www/html/grid/request/read.php",
+		"/var/www/html/grid/request/read-baby.php",
+		"/var/www/html/dialogue/node_modules/mustache/mustache.js",
+		"/var/www/html/store/trunk/app/classes/admin/ajax/abstract/module.php",
+		"/var/www/html/store/trunk/sass/admin/_dialogue.scss",
+		"/var/www/html/store/trunk/sass/admin/_media-browser.scss",
+		"/var/www/html/store/trunk/gulpfile.js",
+		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/mediabrowser.php",
+		"/var/www/html/store/trunk/app/classes/inventory/product/multiloader.php",
+		"/var/www/html/store/trunk/app/classes/inventory/feature.php",
+		"/var/www/html/store/trunk/.htaccess",
+		"/var/www/html/store/trunk/app/classes/common/media.php",
+		"/var/www/html/store/trunk/app/classes/inventory.php",
+		"/var/www/html/store/trunk/administration/ajax.php",
+		"/var/www/html/store/trunk/js/admin/mediaBrowser.js",
+		"/var/www/html/store/trunk/js/admin/order/label.js",
+		"/var/www/html/store/trunk/js/admin/order/single/payment.js",
+		"/var/www/html/store/trunk/package.json",
+		"/var/www/html/store/trunk/node_modules/dialogue/dialogue.js",
+		"/var/www/html/store/trunk/js/admin/product/single.js",
+		"/var/www/html/store/trunk/js/admin/common.bundle.js",
+		"/var/www/html/store/trunk/app/classes/frontend/modules/unsubscribe.php",
+		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/showroomclearance/single.tpl",
+		"/var/www/html/store/trunk/js/admin/misc.js",
+		"/var/www/html/store/trunk/index.php",
+		"/var/www/html/store/trunk/js/helper.js",
+		"/var/www/html/store/trunk/js/form.js",
+		"/var/www/html/store/trunk/node_modules/codex/utility/url.js",
+		"/var/www/html/store/trunk/app/skin/custom/admin/common/footer.tpl",
+		"/var/www/html/store/trunk/js/common.bundle.js",
+		"/var/www/html/store/trunk/asset/admin/common.js",
+		"/var/www/html/store/trunk/js/utility/url.js",
+		"/var/www/html/store/trunk/composer.json",
+		"/var/www/html/store/trunk/js/admin/advanced-search/all.bundle.js",
+		"/var/www/html/store/trunk/js/bundle/single.js",
+		"/var/www/html/store/trunk/sass/_reset.scss",
+		"/var/www/html/store/trunk/js/product/single.js",
+		"/var/www/html/store/trunk/js/product.js",
+		"/var/www/html/store/trunk/js/global.js",
+		"/var/www/html/store/trunk/js/basket.js",
+		"/var/www/html/store/trunk/asset/common.js",
+		"/var/www/html/store/trunk/app/classes/frontend/modules/advancedsearch.php",
+		"/var/www/html/store/trunk/js/jqueryBundle.js",
+		"/var/www/html/store/trunk/asset/jqueryBundle.js",
+		"/var/www/html/store/trunk/js/product/single/ncs.js",
+		"/var/www/html/store/trunk/js/checkout/previous-order-lookup.js",
+		"/var/www/html/store/trunk/js/test.bundle.js",
+		"/var/www/html/store/trunk/js/admin/category/product.js",
+		"/var/www/html/store/trunk/js/admin/mail/subscribers.js",
+		"/var/www/html/store/trunk/js/admin/product/list.js",
+		"/var/www/html/store/trunk/js/admin/discount.js",
+		"/var/www/html/store/trunk/js/admin/feedExclusions.js",
+		"/var/www/html/store/trunk/js/admin/news.js",
+		"/var/www/html/store/trunk/js/admin/pay4laterRates.js",
+		"/var/www/html/store/trunk/js/admin/productPricingGuide.js",
+		"/var/www/html/store/trunk/js/admin/productsEav.js",
+		"/var/www/html/store/trunk/js/admin/productsEavTemplates.js",
+		"/var/www/html/store/trunk/js/admin/scheduledDiscount.js",
+		"/var/www/html/store/trunk/js/admin/specialPricing.js",
+		"/var/www/html/store/trunk/js/admin/warehouse.js",
+		"/var/www/html/store/trunk/js/admin/voucher/single.js",
+		"/var/www/html/store/trunk/js/admin/note.js",
+		"/var/www/html/store/trunk/js/admin/exception/single.js",
+		"/var/www/html/store/trunk/js/admin/exception/email.js",
+		"/var/www/html/store/trunk/js/admin/order/dpd-create-shipment.bundle.js",
+		"/var/www/html/store/trunk/js/admin/order/pick-print.js",
+		"/var/www/html/store/trunk/js/admin/product/bundle.js",
+		"/var/www/html/store/trunk/js/admin/exception.js",
+		"/var/www/html/store/trunk/js/admin/feedbackStream.js",
+		"/var/www/html/store/trunk/js/admin/features.js",
+		"/var/www/html/store/trunk/js/admin/account/offer/single.bundle.js",
+		"/var/www/html/store/trunk/js/admin/order/all.js",
+		"/var/www/html/store/trunk/js/admin/order/single.js",
+		"/var/www/html/store/trunk/js/admin/order/single/summary.js",
+		"/var/www/html/store/trunk/js/admin/product/stock-reminder.bundle.js",
+		"/var/www/html/store/trunk/js/checkout/payment.js",
+		"/var/www/html/store/trunk/js/product/single/wish.js",
+		"/var/www/html/store/trunk/js/utility/postcodeLookup.js",
+		"/var/www/html/store/trunk/js/checkout/delivery-address-toggle.js",
+		"/var/www/html/store/trunk/js/admin/exception/create.js",
+		"/var/www/html/store/trunk/js/filter.js",
+		"/var/www/html/store/trunk/js/account.js",
+		"/var/www/html/store/trunk/js/category.js",
+		"/var/www/html/store/trunk/js/header.js",
+		"/var/www/html/store/trunk/js/finance.js",
+		"/var/www/html/store/trunk/js/contact.js",
+		"/var/www/html/store/trunk/node_modules/gulp-sass/node_modules/node-sass/node_modules/sass-graph/node_modules/lodash/_assignInDefaults.js",
+		"/var/www/html/store/trunk/js/checkout.js",
+		"/var/www/html/store/trunk/js/admin/ebay.js",
+		"/var/www/html/store/trunk/js/admin/promotion.js",
+		"/var/www/html/store/trunk/js/admin/ad/all.js",
+		"/var/www/html/store/trunk/js/admin/order/create.js",
+		"/var/www/html/store/trunk/js/admin/product/associated.js",
+		"/var/www/html/store/trunk/js/news.js",
+		"/var/www/html/store/trunk/js/orderComplete.js",
+		"/var/www/html/store/trunk/js/config.js",
+		"/var/www/html/store/trunk/js/header/mainDrop.js",
+		"/var/www/html/store/trunk/js/header/search.js",
+		"/var/www/html/store/trunk/js/product/bundle.js",
+		"/var/www/html/store/trunk/js/page/return/guide.bundle.js",
+		"/var/www/html/store/trunk/js/product/termination.js",
+		"/var/www/html/store/trunk/js/product/tab.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"-node_modules/, -asset/, ",
+			"-node_modules/, -asset/, js/",
+			"-node_modules/, -asset/, ",
+			"-node_modules/, -asset/, js/",
+			"-node_modules/, -asset/",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, -vendor/, js/",
+			"-node_modules/, -asset/, -vendor/, js/, ",
+			"-node_modules/, -asset/, -vendor/, js/, -administration/",
+			"-node_modules/, -asset/, -vendor/, js/",
+			"-node_modules/, -asset/, -vendor/,",
+			"-node_modules/, -asset/, -vendor/, js/admin/",
+			"-node_modules/, -asset/, -vendor/, js/",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/",
+			"-node_modules/",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"value",
+			"storeReadModel",
+			"getStoredReadModel",
+			"getInputTypeFromModel",
+			"wasChanged",
+			"cellHtml",
+			"status",
+			"readRender",
+			"rows[indexRow][indexCell]",
+			"readRender",
+			"getContent",
+			"favicon",
+			"tinymceConfig",
+			"tinymce.init",
+			"$cell",
+			"$row",
+			"dialogueCellWysi",
+			"gS(event.data.rowClass) + gS(event.data.selectedClass)",
+			"gS(event.data.cellClass) + gS(event.data.selectedClass)",
+			"var $selectedCell ",
+			"var $selectedCell = ",
+			"getSelectedRow",
+			"primaryKeyValue",
+			"getSelectedCellInputValue",
+			"$selectedRow.find(gS(event.data.cellClass) + gS(event.data.selectedClass))",
+			"primaryKeyValue",
+			"event.data.$container.find(gS(event.data.rowClass) + gS(event.data.selectedClass))",
+			"event.data.$container.find(gS(event.data.rowClass) + gS(event.data.selectedClass));",
+			"$cell.data('value')",
+			"getRowCellValue",
+			"$cell.data('value')",
+			"getRowCellValue",
+			"cellSelect(",
+			"true",
+			"html",
+			".rows, ",
+			".rows",
+			"dialogueCellWysi",
+			"getSelectedCellInputValue",
+			"var $selectedCellInput = $selectedRow.find(gS(event.data.cellClass) + gS(event.data.selectedClass)).find(gS(event.data.inputClass));",
+			"  var $selectedRow = event.data.$container.find(gS(event.data.rowClass) + gS(event.data.selectedClass));\n",
+			"selectedRow",
+			"dialogueWysiSave",
+			"getSelectedCellInputValue",
+			"cellDeselect",
+			"tinymce",
+			"onClose",
+			"dialogueCellWysi",
+			"var",
+			"// New event",
+			"browserify-shim",
+			"var",
+			"grid-no-rows",
+			".read(",
+			"deleteRow",
+			"There was a problem",
+			"closest",
+			"primaryKeyValue",
+			"$.ajax({",
+			"spinnerClass",
+			"delete",
+			"button",
+			"persist",
+			"cellDeselect",
+			"persist",
+			"cellDese",
+			"event, ",
+			"cellDeselect",
+			".esc",
+			"of ",
+			"possiblePages",
+			"getPageCurrent",
+			"mouseDocument",
+			"cellSelect",
+			"$cell",
+			"cellDeselect",
+			"cellDeselectNoSave",
+			"cellDeselect",
+			"\n@",
+			"div",
+			"js-grid-search-field",
+			"grid-heading-is-order",
+			"\n.",
+			"order",
+			"asc",
+			"is-order",
+			"is-order-asc",
+			"onSelectCell",
+			"$(gS",
+			"$(gS(event.data.pageSelectClass)).val(1);",
+			"$(gS",
+			"(gS(event.data",
+			"perPageSelectClass",
+			"js-grid-cell-input-perpage",
+			"implode",
+			"\\",
+			"name",
+			"createRow",
+			"response.success == 1",
+			"'success' in response",
+			"formCreateCells",
+			"formCreateCell",
+			"createRow",
+			"dialogueCreate",
+			"type",
+			"\n@",
+			"connection",
+			"$value",
+			"value",
+			"name",
+			"id",
+			"update(",
+			"search",
+			"isEmptyObject",
+			"getReadModelDataDefaults",
+			"rowsPerPage",
+			"js-grid-cell-heading-orderable",
+			"pagination",
+			"renderPagination",
+			"keySearchInput",
+			"storeReadModel",
+			"appendSelectOptionsKeyValue",
+			"css",
+			"');\n",
+			"mustacheTemplates",
+			"js-grid-table",
+			"classNames",
+			"optionsOriginal"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": false,
+		"replace_history":
+		[
+			"require('mwyatt-dialogue'",
+			"return false; // should not run, return needed to be removed",
+			"require('./vendor/jqGrid');",
+			"require('./vendor/grid.locale-en');",
+			"'./user",
+			"'../feedbackStream",
+			"'./feedbackStream",
+			"'../feedbackStream",
+			"require('./utility/url')",
+			"require('./buttonToTop'",
+			"require('./smoothScroll')",
+			"mustache",
+			"require('./config')",
+			"require('./finance')",
+			"require('./equalHeight')",
+			"require('/equalHeight')",
+			"require('admin/vendor/grid.locale-en');",
+			"require('vendor/grid.locale-en');",
+			"owl-carousel-2/owl.carousel",
+			"owl-carousel-2",
+			"jquery-scrolltofixed",
+			"vendor/jquery.hoverIntent",
+			"jquery.hoverIntent",
+			"braintree-web",
+			"require('jquery-ui')"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/var/www/html/grid"
+		}
+	],
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"common",
+				"common.js"
+			],
+			[
+				"css",
+				"grid.css"
+			],
+			[
+				"deele",
+				"request/grid-secondary/delete.php"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"template",
+				"templates.js"
+			],
+			[
+				"read",
+				"request/grid-secondary/read.php"
+			],
+			[
+				"primaryre",
+				"request/grid-primary/read.php"
+			],
+			[
+				"grid",
+				"grid.js"
+			],
+			[
+				"primary",
+				"request/grid-primary/read.php"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"conne",
+				"request/connection.php"
+			],
+			[
+				"connec",
+				"request/connection.php"
+			],
+			[
+				"gridsecondaread",
+				"request/grid-secondary/read.php"
+			],
+			[
+				"primarread",
+				"request/grid-primary/read.php"
+			],
+			[
+				"gridsc",
+				"grid.css"
+			],
+			[
+				"",
+				"grid.js"
+			],
+			[
+				"delete",
+				"request/grid-secondary/delete.php"
+			],
+			[
+				"tempalte",
+				"templates.js"
+			],
+			[
+				"update",
+				"request/grid-secondary/update.php"
+			],
+			[
+				"upda",
+				"request/grid-secondary/update.php"
+			],
+			[
+				"comm",
+				"common.js"
+			],
+			[
+				"crea",
+				"request/grid-secondary/create.php"
+			],
+			[
+				"com",
+				"common.js"
+			],
+			[
+				"comsc",
+				"common.css"
+			],
+			[
+				"setting",
+				"settings.css"
+			],
+			[
+				"commonc",
+				"common.css"
+			],
+			[
+				"sett",
+				"settings.css"
+			],
+			[
+				"connect",
+				"request/connection.php"
+			],
+			[
+				"udpate",
+				"request/grid-primary/update.php"
+			],
+			[
+				"secondarre",
+				"request/grid-secondary/read.php"
+			],
+			[
+				"gridsecrea",
+				"request/grid-secondary/read.php"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"tmepla",
+				"templates.js"
+			],
+			[
+				"templ",
+				"templates.js"
+			],
+			[
+				"templates",
+				"templates.js"
+			],
+			[
+				"second",
+				"request/grid-secondary/read.php"
+			],
+			[
+				"reque",
+				"request/read.php"
+			],
+			[
+				"readb",
+				"request/read-baby.php"
+			],
+			[
+				"mustach",
+				"node_modules/mustache/mustache.js"
+			],
+			[
+				"dia",
+				"dialogue.js"
+			],
+			[
+				"mediabrows",
+				"trunk/js/admin/mediaBrowser.js"
+			],
+			[
+				"pakca",
+				"trunk/package.json"
+			],
+			[
+				"dialoguescss",
+				"trunk/sass/admin/_dialogue.scss"
+			],
+			[
+				"dialogu.js",
+				"trunk/node_modules/dialogue/dialogue.js"
+			],
+			[
+				"mediabrowjs",
+				"trunk/js/admin/mediaBrowser.js"
+			],
+			[
+				"media",
+				"trunk/app/classes/common/media.php"
+			],
+			[
+				"htacc",
+				"trunk/.htaccess"
+			],
+			[
+				"inve",
+				"trunk/app/classes/inventory.php"
+			],
+			[
+				"prodmultiload",
+				"trunk/app/classes/inventory/product/multiloader.php"
+			],
+			[
+				"adminajax",
+				"trunk/administration/ajax.php"
+			],
+			[
+				"adminproductjs",
+				"trunk/js/admin/product/single.js"
+			],
+			[
+				"unsubscribe",
+				"trunk/app/classes/frontend/modules/unsubscribe.php"
+			],
+			[
+				"mediabrowser",
+				"trunk/js/admin/mediaBrowser.js"
+			],
+			[
+				"ajaxmediabrow",
+				"trunk/app/classes/admin/ajax/modules/mediabrowser.php"
+			],
+			[
+				"showroomclear",
+				"trunk/app/skin/custom/frontend/modules/showroomclearance/single.tpl"
+			],
+			[
+				"adminajax.php",
+				"trunk/administration/ajax.php"
+			],
+			[
+				"ajax.php",
+				"trunk/administration/ajax.php"
+			],
+			[
+				"helper",
+				"trunk/js/helper.js"
+			],
+			[
+				"formjs",
+				"trunk/js/form.js"
+			],
+			[
+				"admincommonbun",
+				"trunk/js/admin/common.bundle.js"
+			],
+			[
+				"jscommonjs",
+				"trunk/js/common.bundle.js"
+			],
+			[
+				"commonjs",
+				"trunk/asset/admin/common.js"
+			],
+			[
+				"ajaxmediabro",
+				"trunk/app/classes/admin/ajax/modules/mediabrowser.php"
+			],
+			[
+				"adminajaxabsmod",
+				"trunk/app/classes/admin/ajax/abstract/module.php"
+			],
+			[
+				"url",
+				"trunk/js/utility/url.js"
+			],
+			[
+				"compos",
+				"trunk/composer.json"
+			],
+			[
+				"codexurl",
+				"trunk/node_modules/codex/utility/url.js"
+			],
+			[
+				"adminfooter",
+				"trunk/app/skin/custom/admin/common/footer.tpl"
+			],
+			[
+				"allbundle",
+				"trunk/js/admin/advanced-search/all.bundle.js"
+			],
+			[
+				"adminmediabro",
+				"trunk/js/admin/mediaBrowser.js"
+			],
+			[
+				"adminmediabrow",
+				"trunk/js/admin/mediaBrowser.js"
+			],
+			[
+				"basketjs",
+				"trunk/js/basket.js"
+			],
+			[
+				"globaljs",
+				"trunk/js/global.js"
+			],
+			[
+				"producjs",
+				"trunk/js/product.js"
+			],
+			[
+				"prodsingle",
+				"trunk/js/product/single.js"
+			],
+			[
+				"resetsc",
+				"trunk/sass/_reset.scss"
+			],
+			[
+				"admincommon",
+				"trunk/asset/admin/common.js"
+			],
+			[
+				"advancedse",
+				"trunk/app/classes/frontend/modules/advancedsearch.php"
+			],
+			[
+				"jqbundle",
+				"trunk/asset/jqueryBundle.js"
+			],
+			[
+				"assadmincommon",
+				"trunk/asset/admin/common.js"
+			],
+			[
+				"asscommonjs",
+				"trunk/asset/common.js"
+			],
+			[
+				"mediabrojs",
+				"trunk/js/admin/mediaBrowser.js"
+			],
+			[
+				"prodsinnc",
+				"trunk/js/product/single/ncs.js"
+			],
+			[
+				"inde",
+				"trunk/node_modules/gulp-sass/node_modules/node-sass/node_modules/sass-graph/node_modules/lodash/_assignInDefaults.js"
+			],
+			[
+				"prodsinncs",
+				"trunk/js/product/single/ncs.js"
+			],
+			[
+				"singlencs",
+				"trunk/js/product/single/ncs.js"
+			],
+			[
+				"adminmediab",
+				"trunk/js/admin/mediaBrowser.js"
+			],
+			[
+				"utilurl",
+				"trunk/js/utility/url.js"
+			],
+			[
+				"prodsinglejs",
+				"trunk/js/product/single.js"
+			],
+			[
+				"product",
+				"trunk/js/product.js"
+			],
+			[
+				"config",
+				"trunk/js/config.js"
+			],
+			[
+				"jsproduc",
+				"trunk/js/product.js"
+			],
+			[
+				"equl",
+				"trunk/js/equalHeight.js"
+			],
+			[
+				"localeen",
+				"trunk/js/admin/vendor/grid.locale-en.js"
+			],
+			[
+				"jquerui/jqu",
+				"trunk/node_modules/jquery-ui/jquery-ui.js"
+			],
+			[
+				"sassrese",
+				"trunk/sass/_reset.scss"
+			],
+			[
+				"htac",
+				"public_html/.htaccess"
+			],
+			[
+				"router",
+				"src/php/Router.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/var/www/html/sublime-workspace/store.sublime-workspace"
+			],
+			[
+				"store",
+				"/var/www/html/sublime-workspace/store.sublime-workspace"
+			],
+			[
+				"gri",
+				"/var/www/html/sublime-workspace/grid.sublime-workspace"
+			],
+			[
+				"dia",
+				"/var/www/html/sublime-workspace/dialogue.sublime-workspace"
+			],
+			[
+				"dialo",
+				"/var/www/html/sublime-workspace/dialogue.sublime-workspace"
+			],
+			[
+				"dialog",
+				"/var/www/html/sublime-workspace/dialogue.sublime-workspace"
+			],
+			[
+				"inv",
+				"/var/www/html/sublime-workspace/inventory.sublime-workspace"
+			],
+			[
+				"code",
+				"/var/www/html/sublime-workspace/codex.sublime-workspace"
+			],
+			[
+				"elt",
+				"/var/www/html/sublime-workspace/elttl.sublime-workspace"
+			],
+			[
+				"core",
+				"/var/www/html/sublime-workspace/codex.sublime-workspace"
+			],
+			[
+				"eltt",
+				"/var/www/html/sublime-workspace/elttl.sublime-workspace"
+			],
+			[
+				"sto",
+				"/var/www/html/sublime-workspace/store.sublime-workspace"
+			],
+			[
+				"s",
+				"/var/www/html/sublime-workspace/store.sublime-workspace"
+			],
+			[
+				"grid",
+				"/var/www/html/grid/grid.sublime-project"
+			],
+			[
+				"g",
+				"/var/www/html/grid/grid.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}
