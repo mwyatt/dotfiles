@@ -31,10 +31,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 371.0,
-		"last_filter": "toggle",
+		"height": 392.0,
+		"last_filter": "men",
 		"selected_items":
 		[
+			[
+				"men",
+				"View: Toggle Menu"
+			],
 			[
 				"toggle",
 				"View: Toggle Status Bar"
@@ -52,7 +56,7 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 467.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -447,7 +451,7 @@
 			1.0
 		]
 	},
-	"menu_visible": true,
+	"menu_visible": false,
 	"output.find_results":
 	{
 		"height": 0.0
@@ -759,9 +763,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "store",
 		"selected_items":
 		[
+			[
+				"store",
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
 			[
 				"",
 				"/var/www/html/sublime-workspace/grid.sublime-workspace"
@@ -773,10 +781,6 @@
 			[
 				"dialo",
 				"/var/www/html/sublime-workspace/dialogue.sublime-workspace"
-			],
-			[
-				"store",
-				"/var/www/html/sublime-workspace/store.sublime-workspace"
 			],
 			[
 				"stroe",

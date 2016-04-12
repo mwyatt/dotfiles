@@ -76,19 +76,11 @@
 	"buffers":
 	[
 		{
-			"file": "/var/www/html/sandbox/barcode/barcode.php",
+			"file": "/var/www/html/sandbox/.gitignore",
 			"settings":
 			{
-				"buffer_size": 504,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/sandbox/barcode/index.php",
-			"settings":
-			{
-				"buffer_size": 1354,
-				"line_ending": "Unix"
+				"buffer_size": 87,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -99,10 +91,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 159.0,
-		"last_filter": "install",
+		"height": 392.0,
+		"last_filter": "men",
 		"selected_items":
 		[
+			[
+				"men",
+				"View: Toggle Menu"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -137,14 +133,14 @@
 	},
 	"expanded_folders":
 	[
-		"/var/www/html/sandbox",
-		"/var/www/html/sandbox/barcode",
-		"/var/www/html/sandbox/reevoo-scrape"
+		"/var/www/html/sandbox"
 	],
 	"file_history":
 	[
-		"/var/www/html/sandbox/barcode/composer.json",
+		"/var/www/html/sandbox/.gitignore",
 		"/var/www/html/sandbox/barcode/index.php",
+		"/var/www/html/sandbox/barcode/barcode.php",
+		"/var/www/html/sandbox/barcode/composer.json",
 		"/var/www/html/sandbox/implode.php",
 		"/var/www/html/sandbox/barcode/pdf.php",
 		"/var/www/html/sandbox/barcode/example-pdf.html",
@@ -268,9 +264,7 @@
 		"/var/www/html/store/trunk/js/admin/advanced-search/all.bundle.js",
 		"/var/www/html/store/trunk/js/bundle/single.js",
 		"/var/www/html/store/trunk/js/global.js",
-		"/var/www/html/store/trunk/js/basket.js",
-		"/var/www/html/store/trunk/asset/common.js",
-		"/var/www/html/store/trunk/app/classes/frontend/modules/advancedsearch.php"
+		"/var/www/html/store/trunk/js/basket.js"
 	],
 	"find":
 	{
@@ -496,62 +490,30 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/var/www/html/sandbox/barcode/barcode.php",
+					"file": "/var/www/html/sandbox/.gitignore",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 504,
+						"buffer_size": 87,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								298,
-								298
+								87,
+								87
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/var/www/html/sandbox/barcode/index.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1354,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								545,
-								545
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 171.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -587,7 +549,7 @@
 			1.0
 		]
 	},
-	"menu_visible": true,
+	"menu_visible": false,
 	"output.find_results":
 	{
 		"height": 0.0
@@ -605,6 +567,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"gitig",
+				".gitignore"
+			],
 			[
 				"barcocompos",
 				"barcode/composer.json"
@@ -1112,10 +1078,6 @@
 			[
 				"prodsinncs",
 				"trunk/js/product/single/ncs.js"
-			],
-			[
-				"singlencs",
-				"trunk/js/product/single/ncs.js"
 			]
 		],
 		"width": 0.0
@@ -1123,9 +1085,17 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "store",
 		"selected_items":
 		[
+			[
+				"store",
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"codex",
+				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
+			],
 			[
 				"",
 				"/var/www/html/sublime-workspace/store.sublime-workspace"
@@ -1135,16 +1105,8 @@
 				"/var/www/html/sublime-workspace/core.sublime-workspace"
 			],
 			[
-				"store",
-				"/var/www/html/sublime-workspace/store.sublime-workspace"
-			],
-			[
 				"el",
 				"/var/www/html/sublime-workspace/elttl.sublime-workspace"
-			],
-			[
-				"codex",
-				"/var/www/html/sublime-workspace/codex.sublime-workspace"
 			],
 			[
 				"sto",
@@ -1205,7 +1167,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 269.0,
 	"status_bar_visible": false,
 	"template_settings":

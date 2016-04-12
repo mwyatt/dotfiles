@@ -79,10 +79,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 159.0,
-		"last_filter": "install",
+		"height": 329.0,
+		"last_filter": "menu",
 		"selected_items":
 		[
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -121,11 +125,20 @@
 	],
 	"file_history":
 	[
+		"/var/www/html/codex/json/structure/css.json",
+		"/var/www/html/codex/src/Controller/Index.php",
+		"/var/www/html/codex/gulpfile.js",
+		"/var/www/html/codex/package.json",
+		"/var/www/html/codex/js/utility/url.js",
+		"/var/www/html/codex/js/feedbackQueue.js",
+		"/var/www/html/codex/js/utility/getMotionEventName.js",
+		"/var/www/html/codex/js/test/utility/testUrl.js",
+		"/var/www/html/codex/js/utility/url/defaults.js",
+		"/var/www/html/codex/template/_feedbackQueue.php",
+		"/var/www/html/codex/template/_scrollTop.php",
 		"/var/www/html/codex/index.php",
 		"/var/www/html/codex/composer.json",
 		"/var/www/html/codex/settings.css",
-		"/var/www/html/codex/gulpfile.js",
-		"/var/www/html/codex/package.json",
 		"/var/www/html/codex/common.css",
 		"/var/www/html/codex/reusable.css",
 		"/var/www/html/codex/mixin.css",
@@ -239,16 +252,7 @@
 		"/var/www/html/store/trunk/app/classes/frontend/modules/unsubscribe.php",
 		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/showroomclearance/single.tpl",
 		"/var/www/html/store/trunk/js/helper.js",
-		"/var/www/html/store/trunk/js/form.js",
-		"/var/www/html/store/trunk/node_modules/codex/utility/url.js",
-		"/var/www/html/store/trunk/app/skin/custom/admin/common/footer.tpl",
-		"/var/www/html/store/trunk/js/common.bundle.js",
-		"/var/www/html/store/trunk/asset/admin/common.js",
-		"/var/www/html/store/trunk/js/utility/url.js",
-		"/var/www/html/store/trunk/composer.json",
-		"/var/www/html/store/trunk/js/admin/advanced-search/all.bundle.js",
-		"/var/www/html/store/trunk/js/bundle/single.js",
-		"/var/www/html/store/trunk/js/global.js"
+		"/var/www/html/store/trunk/js/form.js"
 	],
 	"find":
 	{
@@ -292,6 +296,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"options",
 			"link-primary",
 			"focus",
 			":focus",
@@ -418,8 +423,7 @@
 			"grid",
 			".grid-row",
 			"body {",
-			".container",
-			"js-media-browser-file-container"
+			".container"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -504,7 +508,7 @@
 			1.0
 		]
 	},
-	"menu_visible": true,
+	"menu_visible": false,
 	"output.find_results":
 	{
 		"height": 0.0
@@ -523,16 +527,52 @@
 		"selected_items":
 		[
 			[
-				"composer",
-				"composer.json"
+				"index",
+				"src/Controller/Index.php"
 			],
 			[
-				"index",
-				"index.php"
+				"strucutre",
+				"json/structure/css.json"
+			],
+			[
+				"getmotio",
+				"js/utility/getMotionEventName.js"
+			],
+			[
+				"feedq",
+				"js/feedbackQueue.js"
+			],
+			[
+				"url",
+				"js/utility/url.js"
 			],
 			[
 				"gulp",
 				"gulpfile.js"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"test",
+				"js/test/utility/testUrl.js"
+			],
+			[
+				"defau",
+				"js/utility/url/defaults.js"
+			],
+			[
+				"url.js",
+				"js/utility/url.js"
+			],
+			[
+				"scrolltop",
+				"template/_scrollTop.php"
+			],
+			[
+				"composer",
+				"composer.json"
 			],
 			[
 				"setting",
@@ -541,10 +581,6 @@
 			[
 				"common",
 				"common.css"
-			],
-			[
-				"packa",
-				"package.json"
 			],
 			[
 				"mixin",
@@ -564,10 +600,6 @@
 			],
 			[
 				".js",
-				"utility/url.js"
-			],
-			[
-				"url",
 				"utility/url.js"
 			],
 			[
@@ -1005,34 +1037,6 @@
 			[
 				"jqbundle",
 				"trunk/asset/jqueryBundle.js"
-			],
-			[
-				"assadmincommon",
-				"trunk/asset/admin/common.js"
-			],
-			[
-				"asscommonjs",
-				"trunk/asset/common.js"
-			],
-			[
-				"mediabrojs",
-				"trunk/js/admin/mediaBrowser.js"
-			],
-			[
-				"prodsinnc",
-				"trunk/js/product/single/ncs.js"
-			],
-			[
-				"prodsinncs",
-				"trunk/js/product/single/ncs.js"
-			],
-			[
-				"singlencs",
-				"trunk/js/product/single/ncs.js"
-			],
-			[
-				"adminmediab",
-				"trunk/js/admin/mediaBrowser.js"
 			]
 		],
 		"width": 0.0
@@ -1040,20 +1044,32 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "core",
+		"last_filter": "",
 		"selected_items":
 		[
 			[
-				"core",
-				"/var/www/html/sublime-workspace/core.sublime-workspace"
+				"",
+				"/var/www/html/setting/sublime-text-workspaces/url.sublime-workspace"
 			],
 			[
-				"",
-				"/var/www/html/sublime-workspace/elttl.sublime-workspace"
+				"fee",
+				"/var/www/html/setting/sublime-text-workspaces/feedback-queue.sublime-workspace"
+			],
+			[
+				"url",
+				"/var/www/html/setting/sublime-text-workspaces/url.sublime-workspace"
+			],
+			[
+				"sand",
+				"/var/www/html/setting/sublime-text-workspaces/sandbox.sublime-workspace"
 			],
 			[
 				"store",
-				"/var/www/html/sublime-workspace/store.sublime-workspace"
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"core",
+				"/var/www/html/sublime-workspace/core.sublime-workspace"
 			],
 			[
 				"sto",
