@@ -367,54 +367,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/var/www/html/store/trunk/app/skin/custom/frontend/modules/category/spectral.tpl",
-			"settings":
-			{
-				"buffer_size": 4239,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/store/trunk/app/skin/custom/frontend/common/footer.tpl",
-			"settings":
-			{
-				"buffer_size": 9452,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/store/trunk/sass/category-spectral.scss",
-			"settings":
-			{
-				"buffer_size": 4722,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/store/trunk/gulpfile.js",
-			"settings":
-			{
-				"buffer_size": 5358,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/store/trunk/js/category/spectral.bundle.js",
-			"settings":
-			{
-				"buffer_size": 541,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/store/trunk/app/classes/frontend/modules/category/spectral.php",
-			"settings":
-			{
-				"buffer_size": 1722,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -423,10 +375,26 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 203.0,
-		"last_filter": "",
+		"height": 392.0,
+		"last_filter": "close",
 		"selected_items":
 		[
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"save",
+				"File: Save All"
+			],
+			[
+				"close al",
+				"File: Close All"
+			],
+			[
+				"save all",
+				"File: Save All"
+			],
 			[
 				"about",
 				"About"
@@ -476,7 +444,7 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 467.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -501,6 +469,122 @@
 	],
 	"file_history":
 	[
+		"/var/www/html/store/trunk/app/classes/admin/modules/order.php",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/order/create.tpl",
+		"/var/www/html/store/trunk/mustache/admin/order/create/product.mst",
+		"/var/www/html/store/trunk/app/classes/admin/modules/inbox.php",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/ordercreate/mainform.tpl",
+		"/var/www/html/store/trunk/css/settings.css",
+		"/var/www/html/store/trunk/css/settings-avo.css",
+		"/var/www/html/store/trunk/css/settings-hifi.css",
+		"/var/www/html/store/trunk/css/basket.bundle.css",
+		"/var/www/html/store/trunk/css/palette.css",
+		"/var/www/html/store/trunk/css/product-single.bundle.css",
+		"/var/www/html/store/trunk/css/admin/header/global-search.css",
+		"/var/www/html/store/trunk/css/admin/old.css",
+		"/var/www/html/store/trunk/css/tab.css",
+		"/var/www/html/store/trunk/css/to-top.css",
+		"/var/www/html/store/trunk/css/tooltip.css",
+		"/var/www/html/store/trunk/css/typography.css",
+		"/var/www/html/store/trunk/css/product/tab.css",
+		"/var/www/html/store/trunk/css/product/termination.css",
+		"/var/www/html/store/trunk/css/product/single/promotion.css",
+		"/var/www/html/store/trunk/css/product/single/basket-added.css",
+		"/var/www/html/store/trunk/css/404.bundle.css",
+		"/var/www/html/store/trunk/css/account.bundle.css",
+		"/var/www/html/store/trunk/css/ad.css",
+		"/var/www/html/store/trunk/css/admin-header.css",
+		"/var/www/html/store/trunk/css/brand.bundle.css",
+		"/var/www/html/store/trunk/css/bread.css",
+		"/var/www/html/store/trunk/css/bundles.bundle.css",
+		"/var/www/html/store/trunk/css/contents-product.css",
+		"/var/www/html/store/trunk/css/message.css",
+		"/var/www/html/store/trunk/css/mixin.css",
+		"/var/www/html/store/trunk/css/page.bundle.css",
+		"/var/www/html/store/trunk/css/category.bundle.css",
+		"/var/www/html/store/trunk/css/checkout.css",
+		"/var/www/html/store/trunk/css/contact.css",
+		"/var/www/html/store/trunk/css/common.bundle.css",
+		"/var/www/html/store/trunk/css/compare.css",
+		"/var/www/html/store/trunk/css/email.bundle.css",
+		"/var/www/html/store/trunk/css/footer.css",
+		"/var/www/html/store/trunk/css/header-menu-mobile.css",
+		"/var/www/html/store/trunk/css/header-nav.css",
+		"/var/www/html/store/trunk/css/header.css",
+		"/var/www/html/store/trunk/css/offline.bundle.css",
+		"/var/www/html/store/trunk/css/home.bundle.css",
+		"/var/www/html/store/trunk/css/lightbox.css",
+		"/var/www/html/store/trunk/css/logo.css",
+		"/var/www/html/store/trunk/css/magnific-popup-poly.css",
+		"/var/www/html/store/trunk/css/admin/common.bundle.css",
+		"/var/www/html/store/trunk/css/admin/ebay.css",
+		"/var/www/html/store/trunk/css/admin/help.css",
+		"/var/www/html/store/trunk/css/admin/listing-quality.css",
+		"/var/www/html/store/trunk/css/admin/exception/list.css",
+		"/var/www/html/store/trunk/css/admin/tinymceContent.bundle.css",
+		"/var/www/html/store/trunk/css/admin/exception/email.css",
+		"/var/www/html/store/trunk/css/admin/header/menu.css",
+		"/var/www/html/store/trunk/css/admin/order/create.css",
+		"/var/www/html/store/trunk/css/admin/order/list.css",
+		"/var/www/html/store/trunk/css/admin/order/invoice.css",
+		"/var/www/html/store/trunk/css/admin/product/bundle.css",
+		"/var/www/html/store/trunk/css/admin/product/single.css",
+		"/var/www/html/store/trunk/css/bundle/single.css",
+		"/var/www/html/store/trunk/css/ebay/preview.bundle.css",
+		"/var/www/html/store/trunk/css/filter/layout-control.css",
+		"/var/www/html/store/trunk/css/ebay/screen.bundle.css",
+		"/var/www/html/store/trunk/css/filter/bar-refine.css",
+		"/var/www/html/store/trunk/css/home/cover-rev2.css",
+		"/var/www/html/store/trunk/css/home/cover-slider.css",
+		"/var/www/html/store/trunk/css/product/description-layout.css",
+		"/var/www/html/store/trunk/css/admin/settings.css",
+		"/var/www/html/store/trunk/gulpfile.js",
+		"/var/www/html/store/trunk/css/site.css",
+		"/var/www/html/store/trunk/css/pop-over.css",
+		"/var/www/html/store/trunk/css/pay4later.css",
+		"/var/www/html/store/trunk/css/product-tag.css",
+		"/var/www/html/store/trunk/css/product.css",
+		"/var/www/html/store/trunk/css/prompt.css",
+		"/var/www/html/store/trunk/css/admin/media-browser.css",
+		"/var/www/html/store/trunk/css/page/warranty.bundle.css",
+		"/var/www/html/store/trunk/css/reset.css",
+		"/var/www/html/store/trunk/css/account-offers.bundle.css",
+		"/var/www/html/store/trunk/css/brands.bundle.css",
+		"/var/www/html/store/trunk/css/bundle.bundle.css",
+		"/var/www/html/store/trunk/css/category-spectral.css",
+		"/var/www/html/store/trunk/css/news.bundle.css",
+		"/var/www/html/store/trunk/css/owl-carousel.css",
+		"/var/www/html/store/trunk/css/page-newsletter.bundle.css",
+		"/var/www/html/store/trunk/css/pos.bundle.css",
+		"/var/www/html/store/trunk/css/return.bundle.css",
+		"/var/www/html/store/trunk/css/search.bundle.css",
+		"/var/www/html/store/trunk/css/showroom-clearance.bundle.css",
+		"/var/www/html/store/trunk/css/spectral-lead-store.bundle.css",
+		"/var/www/html/store/trunk/css/vat.bundle.css",
+		"/var/www/html/store/trunk/css/admin/stock-reminder.bundle.css",
+		"/var/www/html/store/trunk/css/page/return/guide.bundle.css",
+		"/var/www/html/store/trunk/css/product/single/ncs.css",
+		"/var/www/html/store/trunk/css/common.css",
+		"/var/www/html/store/.gitignore",
+		"/var/www/html/store/trunk/.gitignore",
+		"/var/www/html/store/trunk/css/pos.bundle.scss",
+		"/var/www/html/store/trunk/css/home.bundle.scss",
+		"/var/www/html/store/trunk/css/page-newsletter.scss",
+		"/var/www/html/store/trunk/package.json",
+		"/var/www/html/store/trunk/sass/_site.scss",
+		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/category/spectral.tpl",
+		"/var/www/html/store/trunk/sass/category-spectral.scss",
+		"/var/www/html/store/trunk/js/category/spectral.bundle.js",
+		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/product/_gallery-reduced.tpl",
+		"/var/www/html/store/trunk/sass/common.scss",
+		"/var/www/html/store/trunk/app/skin/custom/frontend/common/footer.tpl",
+		"/var/www/html/store/trunk/sass/product-single.scss",
+		"/var/www/html/store/trunk/js/home.js",
+		"/var/www/html/store/trunk/js/product/single.js",
+		"/var/www/html/store/trunk/js/product.js",
+		"/var/www/html/store/trunk/app/skin/custom/frontend/common/_background-positional.tpl",
+		"/var/www/html/store/trunk/app/classes/frontend/modules/category/spectral.php",
+		"/var/www/html/store/trunk/js/contact.js",
 		"/var/www/html/store/trunk/sass/spectral-lead-store.scss",
 		"/var/www/html/store/trunk/js/config.js",
 		"/var/www/html/store/trunk/app/skin/custom/frontend/common/_nav-main-ad-accessories.tpl",
@@ -512,123 +596,7 @@
 		"/var/www/html/store/trunk/js/admin/mail/template/all.js",
 		"/var/www/html/setting/git-status.sh",
 		"/var/www/html/setting/sublime-text-copy.sh",
-		"/var/www/html/store/trunk/vendor/braintree/braintree_php/ci.sh",
-		"/var/www/html/store/trunk/package.json",
-		"/var/www/html/store/trunk/node_modules/mwyatt-grid/package.json",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/mail/template/all.tpl",
-		"/var/www/html/store/trunk/app/classes/admin/modules/template.php",
-		"/var/www/html/store/trunk/sass/filter/_bar-refine.scss",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/order/single/_product.tpl",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/order/single.tpl",
-		"/var/www/html/store/trunk/app/classes/admin/modules/inbox.php",
-		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/order.php",
-		"/var/www/html/store/trunk/sass/common.scss",
-		"/var/www/html/store/trunk/mustache/admin/order/single/payment/all.mst",
-		"/var/www/html/store/trunk/app/skin/custom/emails/contact.tpl",
-		"/var/www/html/store/trunk/sass/_dialogue.scss",
-		"/var/www/html/store/trunk/sass/_product.scss",
-		"/var/www/html/store/trunk/sass/home.scss",
-		"/var/www/html/store/trunk/sass/product-single.scss",
-		"/var/www/html/store/trunk/sass/admin/_dialogue.scss",
-		"/var/www/html/store/trunk/sass/admin/_feedback-queue.scss",
-		"/var/www/html/store/trunk/sass/admin/order/_list.scss",
-		"/var/www/html/store/trunk/sass/admin/order/_single.scss",
-		"/var/www/html/store/trunk/sass/page/warranty.scss",
-		"/var/www/html/store/trunk/sass/product/_description-layout.scss",
-		"/var/www/html/store/trunk/sass/product/single/ncs.scss",
-		"/var/www/html/store/trunk/app/skin/custom/emails/test.tpl",
-		"/var/www/html/store/trunk/app/classes/frontend/modules/basket.php",
-		"/var/www/html/store/trunk/app/skin/custom/frontend/common/_contents-products.tpl",
-		"/var/www/html/store/trunk/js/admin/order/single/payment.js",
-		"/var/www/html/store/trunk/app/classes/admin/order/label.php",
-		"/var/www/html/store/trunk/app/classes/storage/company.php",
-		"/var/www/html/store/trunk/app/classes/storage/interface.php",
-		"/var/www/html/store/trunk/app/classes/storage/abstract.php",
-		"/var/www/html/store/trunk/app/skin/custom/frontend/common/footer.tpl",
-		"/var/www/html/store/trunk/app/classes/common/tools.php",
-		"/var/www/html/store/trunk/app/classes/admin/app.php",
-		"/var/www/html/store/trunk/app/classes/admin/modules/company.php",
-		"/var/www/html/store/trunk/js/admin/order/single.js",
-		"/var/www/html/store/trunk/composer.json",
-		"/var/www/html/store/trunk/app/classes/external/printer.php",
-		"/var/www/html/store/trunk/index.php",
-		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/dpd.php",
-		"/var/www/html/store/trunk/js/admin/order/dpd-create-shipment.bundle.js",
-		"/var/www/html/store/trunk/app/classes/external/dpd.php",
-		"/home/martin/Documents/dumps/swiftmail-settings.sql",
-		"/var/www/html/store/sql/4.sql",
-		"/var/www/html/store/trunk/app/classes/storage/order/dpd/shipment.php",
-		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/royalmail.php",
-		"/var/www/html/store/trunk/gulpfile.js",
-		"/var/www/html/store/trunk/.htaccess",
-		"/var/www/html/store/trunk/asset/product-single.css",
-		"/var/www/html/store/trunk/asset/common.css",
-		"/var/www/html/store/trunk/sass/_site.scss",
-		"/var/www/html/store/trunk/image/avo/badge.svg",
-		"/var/www/html/store/trunk/image/avo/arrow.svg",
-		"/var/www/html/store/trunk/initialise.php",
-		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/vat/body.tpl",
-		"/var/www/html/store/trunk/app/classes/ajax/modules/quickbasket.php",
-		"/var/www/html/store/trunk/app/classes/cron/tabs/stockupdates.php",
-		"/var/www/html/store/trunk/js/admin/order/all.js",
-		"/var/www/html/store/trunk/app/skin/custom/emails/_footer-content.tpl",
-		"/var/www/html/store/trunk/app/skin/custom/common/_terms.tpl",
-		"/var/www/html/store/trunk/app/classes/storage/label.php",
-		"/var/www/html/store/trunk/app/classes/common/config.php",
-		"/home/martin/Documents/dumps/shop-mail-template.sql",
-		"/var/www/html/store/trunk/app/classes/storage/mail/queue.php",
-		"/var/www/html/store/trunk/app/classes/cron/tabs/mailcall.php",
-		"/var/www/html/store/trunk/app/classes/ajax/modules/braintree/transaction.php",
-		"/var/www/html/store/trunk/app/classes/common/queuedmail.php",
-		"/var/www/html/store/trunk/app/classes/common/mysql.php",
-		"/var/www/html/store/trunk/app/classes/storage/mail/queue/attachment.php",
-		"/var/www/html/store/trunk/app/skin/custom/emails/order/authorised.tpl",
-		"/var/www/html/store/trunk/app/skin/custom/emails/order/_invoice.tpl",
-		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/vatreceipt/vatreceipt.tpl",
-		"/var/www/html/store/trunk/app/classes/ajax/modules/braintree.php",
-		"/var/www/html/store/trunk/app/classes/inventory/order/payment.php",
-		"/var/www/html/store/trunk/app/classes/storage/order/payment.php",
-		"/var/www/html/store/trunk/app/classes/frontend/modules/account.php",
-		"/var/www/html/store/trunk/js/checkout/payment.js",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/order/_invoice.tpl",
-		"/var/www/html/store/trunk/app/classes/frontend/modules/accountview.php",
-		"/var/www/html/store/trunk/app/classes/view/common.php",
-		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/accountview/accountview.tpl",
-		"/var/www/html/store/trunk/app/classes/frontend/modules/vatreceipt.php",
-		"/var/www/html/store/trunk/app/classes/callback/modules/pay4later.php",
-		"/var/www/html/store/trunk/app/classes/listingquality/tests/media.php",
-		"/var/www/html/store/trunk/app/classes/admin/modules/cron.php",
-		"/var/www/html/store/trunk/app/classes/callback/abstract/module.php",
-		"/var/www/html/store/trunk/app/skin/custom/frontend/common/_login.tpl",
-		"/var/www/html/store/trunk/app/classes/frontend/modules/forgotpassword.php",
-		"/var/www/html/store/trunk/app/skin/custom/frontend/common/_logo.tpl",
-		"/var/www/html/store/trunk/app/skin/custom/frontend/common/header.tpl",
-		"/var/www/html/store/trunk/sass/offline.scss",
-		"/var/www/html/store/trunk/app/skin/custom/common/index-offline.tpl",
-		"/var/www/html/store/trunk/app/skin/custom/common/index-offline.php",
-		"/var/www/html/store/trunk/app/index-offline.php",
-		"/var/www/html/store/sql/1.sql",
-		"/home/martin/Documents/filezilla-transfer-backup/15-03-16/.htaccess",
-		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/braintree.php",
-		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/checkout/single/_form.tpl",
-		"/var/www/html/store/trunk/app/classes/frontend/payment/pay4later.php",
-		"/var/www/html/store/trunk/app/classes/inventory/order/address.php",
-		"/var/www/html/store/trunk/app/classes/inventory/order.php",
-		"/var/www/html/store/trunk/app/classes/frontend/modules/checkout.php",
-		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/checkout/single.tpl",
-		"/var/www/html/store/trunk/js/finance.js",
-		"/var/www/html/store/trunk/app/classes/ajax/modules/pay4laterinit.php",
-		"/var/www/html/store/trunk/app/classes/frontend/modules/checkout/pay4laterapi.php",
-		"/var/www/html/store/trunk/app/classes/frontend/payment/braintree.php",
-		"/var/www/html/store/trunk/app/classes/inventory/product.php",
-		"/var/www/html/store/trunk/app/classes/ajax/modules/checkout.php",
-		"/var/www/html/store/trunk/app/classes/frontend/abstract/module.php",
-		"/var/www/html/store/trunk/app/classes/inventory/promotion.php",
-		"/var/www/html/store/trunk/app/classes/ajax/modules/order.php",
-		"/var/www/html/store/trunk/app/classes/storage/country.php",
-		"/var/www/html/store/trunk/app/classes/inventory/country.php",
-		"/var/www/html/store/sql/3.sql",
-		"/var/www/html/store/trunk/vendor/braintree/braintree_php/lib/Braintree/PaymentMethodNonce.php"
+		"/var/www/html/store/trunk/vendor/braintree/braintree_php/ci.sh"
 	],
 	"find":
 	{
@@ -639,6 +607,11 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, css/, ",
+			"-node_modules/, -asset/, -vendor/, css/, -palette.css",
+			"-node_modules/, -asset/, -vendor/, css/, !palette.css",
+			"-node_modules/, -asset/, -vendor/, css/",
 			"-node_modules/, -asset/, -vendor/",
 			"-node_modules/, -asset/, -vendor/, sass/",
 			"-node_modules/, -asset/, -vendor/",
@@ -706,6 +679,54 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"order-create-basket-product-input-quantity js-order-create-basket-product-quantity",
+			"$color-finance",
+			"$color-senary",
+			"$color-whathifi-primary",
+			"$color-facebook",
+			"$color-twitter",
+			"$color-gray-40",
+			"$color-gray-30",
+			"$color-gray-20",
+			"$color-gray-10",
+			"$color-gray-60",
+			"$color-gray-",
+			"$color-black",
+			"$color-white",
+			"$color-secondary-40",
+			"$color-secondary-30",
+			"$color-secondary-20",
+			"$color-secondary-10",
+			"$color-text",
+			"$color-nav-main-background",
+			"$",
+			"$color-finance",
+			"finance",
+			"$",
+			"$color-background",
+			"$color-quinary",
+			"$color-quaternary",
+			"@import (.*?)';",
+			"@import (.*?);",
+			"@import 'site';",
+			"vendor",
+			"page-newsletter",
+			"image/",
+			"jshint",
+			"gulp.task",
+			"es(",
+			"es",
+			"theme",
+			"js-product-single-gallery-reduced",
+			"owl",
+			"require('owl-carousel-2/owl.carousel');",
+			"js-reliant",
+			"margin-bottom: 30px;",
+			"company",
+			"companyDetails",
+			"}",
+			"imageKey",
+			"'name' =>",
 			"margin: 0 auto",
 			"max-widt",
 			"watch",
@@ -785,55 +806,7 @@
 			"If for any reason you chose ",
 			"<p class=\"footer-p\">",
 			"The contract",
-			"subject to ",
-			"contract",
-			"The contact",
-			"the contact",
-			"contact",
-			"<p class=\"footer-p\">",
-			"footer-p",
-			"Yes (Send",
-			"updateStatusMulti",
-			"new External_Printer",
-			"$registry = Common_Registry::getInstance();",
-			"Registry",
-			"$configuration = ",
-			"apiUrlBase",
-			"$mail",
-			"$order",
-			"order",
-			"</p>",
-			"?>",
-			"this",
-			"order",
-			"getEmailOrderConfirmationOrDispatchHtml",
-			"),",
-			"(",
-			"Braintree_Transaction",
-			"send_email_authorisation",
-			"persistPayment",
-			"createOrderAndSettle",
-			"send_email_authorisation",
-			"['",
-			"->extract()",
-			"details",
-			"extract",
-			"admin/modules/order/_invoice.tpl",
-			"<strong>Order status:</strong>",
-			"destination country",
-			"please validate your email address by using the verifica",
-			"Please validate your email address by using the verifica",
-			"insert into",
-			"\n\n",
-			"(",
-			"),(",
-			"swiftmail",
-			"swift",
-			"media",
-			"TYPE_BRAINTREE",
-			"1",
-			";\n",
-			"Inventory_Order_Payment"
+			"subject to "
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -841,6 +814,17 @@
 		"regex": false,
 		"replace_history":
 		[
+			"$color-quinary",
+			"#ccc",
+			"#e5e5e5",
+			"#eee",
+			"#000",
+			"#fff",
+			"$color-secondary-1-4",
+			"$color-secondary-1-3",
+			"#ff7711",
+			"#06a2cb",
+			"@import $1.css';",
 			"@if $site == 'avo' {font-weight: 100;} else {font-weight: 400;}",
 			"require('mwyatt-grid')",
 			"templateSingle: require('feedbackQueueSingleMst')",
@@ -888,189 +872,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/var/www/html/store/trunk/app/skin/custom/frontend/modules/category/spectral.tpl",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4239,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								388,
-								388
-							]
-						],
-						"settings":
-						{
-							"spell_check": true,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/var/www/html/store/trunk/app/skin/custom/frontend/common/footer.tpl",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9452,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5985,
-								5985
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2558.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/var/www/html/store/trunk/sass/category-spectral.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4722,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2121,
-								2121
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1539.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/var/www/html/store/trunk/gulpfile.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5358,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1411,
-								1411
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 753.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/var/www/html/store/trunk/js/category/spectral.bundle.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 541,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								541,
-								541
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/var/www/html/store/trunk/app/classes/frontend/modules/category/spectral.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1722,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								302,
-								302
-							]
-						],
-						"settings":
-						{
-							"spell_check": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1123,8 +926,124 @@
 		"selected_items":
 		[
 			[
+				"adminmodordercrea.tpl",
+				"trunk/app/skin/custom/admin/modules/order/create.tpl"
+			],
+			[
+				"adminmodorder.php",
+				"trunk/app/classes/admin/modules/order.php"
+			],
+			[
+				"adminmodinbox",
+				"trunk/app/classes/admin/modules/inbox.php"
+			],
+			[
+				"adminmodordecreate",
+				"trunk/app/skin/custom/admin/modules/ordercreate/mainform.tpl"
+			],
+			[
+				"settingavo",
+				"trunk/css/settings-avo.css"
+			],
+			[
+				"pale",
+				"trunk/css/palette.css"
+			],
+			[
+				"setting",
+				"trunk/css/settings.css"
+			],
+			[
 				"gulp",
 				"trunk/gulpfile.js"
+			],
+			[
+				"site",
+				"trunk/css/site.css"
+			],
+			[
+				"palett",
+				"trunk/css/palette.css"
+			],
+			[
+				"settings",
+				"trunk/css/settings.css"
+			],
+			[
+				"common",
+				"trunk/css/common.bundle.css"
+			],
+			[
+				"rese",
+				"trunk/css/reset.css"
+			],
+			[
+				"reset",
+				"trunk/css/reset.css"
+			],
+			[
+				"commonbun",
+				"trunk/css/common.bundle.css"
+			],
+			[
+				"commoncss",
+				"trunk/css/common.css"
+			],
+			[
+				"gitig",
+				"trunk/.gitignore"
+			],
+			[
+				"pos",
+				"trunk/css/pos.bundle.scss"
+			],
+			[
+				"pagenewsle",
+				"trunk/css/page-newsletter.scss"
+			],
+			[
+				"packa",
+				"trunk/package.json"
+			],
+			[
+				"sitesc",
+				"trunk/sass/_site.scss"
+			],
+			[
+				"pakca",
+				"trunk/package.json"
+			],
+			[
+				"gulpfile",
+				"trunk/gulpfile.js"
+			],
+			[
+				"commonsc",
+				"trunk/sass/common.scss"
+			],
+			[
+				"prodsinglesc",
+				"trunk/sass/product-single.scss"
+			],
+			[
+				"homej",
+				"trunk/js/home.js"
+			],
+			[
+				"prodsinglejs",
+				"trunk/js/product/single.js"
+			],
+			[
+				"",
+				"trunk/js/contact.js"
+			],
+			[
+				"contactjs",
+				"trunk/js/contact.js"
+			],
+			[
+				"backposit",
+				"trunk/app/skin/custom/frontend/common/_background-positional.tpl"
 			],
 			[
 				"footertpl",
@@ -1167,20 +1086,12 @@
 				"trunk/sass/admin/vendor/mwyatt/grid.scss"
 			],
 			[
-				"packa",
-				"trunk/package.json"
-			],
-			[
 				"adminmodmailtempall",
 				"trunk/app/skin/custom/admin/modules/mail/template/all.tpl"
 			],
 			[
 				"adminmodtemplate",
 				"trunk/app/classes/admin/modules/template.php"
-			],
-			[
-				"adminmodinbox",
-				"trunk/app/classes/admin/modules/inbox.php"
 			],
 			[
 				"ordersingleproduct",
@@ -1221,10 +1132,6 @@
 			[
 				"homesc",
 				"trunk/sass/home.scss"
-			],
-			[
-				"",
-				"trunk/js/admin/order/single/payment.js"
 			],
 			[
 				"allmst",
@@ -1289,10 +1196,6 @@
 			[
 				"htacc",
 				"trunk/.htaccess"
-			],
-			[
-				"sitesc",
-				"trunk/sass/_site.scss"
 			],
 			[
 				"svg",
@@ -1533,106 +1436,6 @@
 			[
 				"frontpaymentbrai",
 				"trunk/app/classes/frontend/payment/braintree.php"
-			],
-			[
-				"invprod",
-				"trunk/app/classes/inventory/product.php"
-			],
-			[
-				"orderpayment",
-				"trunk/js/admin/order/single/payment.js"
-			],
-			[
-				"ajaxmodbraintran",
-				"trunk/app/classes/ajax/modules/braintree/transaction.php"
-			],
-			[
-				"frontmodcheckout",
-				"trunk/app/classes/frontend/modules/checkout.php"
-			],
-			[
-				"checkoutphp",
-				"trunk/app/classes/ajax/modules/checkout.php"
-			],
-			[
-				"mustacheorderpayment",
-				"trunk/mustache/admin/order/single/payment/all.mst"
-			],
-			[
-				"paymentbrain",
-				"trunk/app/classes/frontend/payment/braintree.php"
-			],
-			[
-				"invorderpay",
-				"trunk/app/classes/inventory/order/payment.php"
-			],
-			[
-				"commonmyql",
-				"trunk/app/classes/common/mysql.php"
-			],
-			[
-				"storageorderpayment",
-				"trunk/app/classes/storage/order/payment.php"
-			],
-			[
-				"invorderpayment",
-				"trunk/app/classes/inventory/order/payment.php"
-			],
-			[
-				"invpayment",
-				"trunk/app/classes/inventory/order/payment.php"
-			],
-			[
-				"adminajaxorder",
-				"trunk/app/classes/admin/ajax/modules/order.php"
-			],
-			[
-				"3.sl",
-				"sql/3.sql"
-			],
-			[
-				"storagepayment",
-				"trunk/app/classes/storage/order/payment.php"
-			],
-			[
-				"invpomotion",
-				"trunk/app/classes/inventory/promotion.php"
-			],
-			[
-				"brainnonce",
-				"trunk/vendor/braintree/braintree_php/lib/Braintree/PaymentMethodNonce.php"
-			],
-			[
-				"brainresult",
-				"trunk/vendor/braintree/braintree_php/tests/unit/Result/SuccessfulTest.php"
-			],
-			[
-				"ajaxbraintrans",
-				"trunk/app/classes/ajax/modules/braintree/transaction.php"
-			],
-			[
-				"invcountr",
-				"trunk/app/classes/inventory/country.php"
-			],
-			[
-				"storagecount",
-				"trunk/app/classes/storage/country.php"
-			],
-			[
-				"paymentbraintree",
-				"trunk/app/classes/frontend/payment/braintree.php"
-			],
-			[
-				"ajaxbraintrtran",
-				"trunk/app/classes/ajax/modules/braintree/transaction.php"
-			],
-			[
-				"frontmodchecksingl",
-				"trunk/app/skin/custom/frontend/modules/checkout/single.tpl"
-			],
-			[
-				"ajaxmodbraintr",
-				"trunk/app/classes/admin/ajax/modules/braintree.php"
 			]
 		],
 		"width": 0.0
@@ -1640,9 +1443,49 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "url",
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
+				"codex",
+				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
+				"c",
+				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
+				"code",
+				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
+				"gr",
+				"/var/www/html/setting/sublime-text-workspaces/grid.sublime-workspace"
+			],
+			[
+				"grid",
+				"/var/www/html/setting/sublime-text-workspaces/grid.sublime-workspace"
+			],
+			[
+				"dialo",
+				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
+			],
+			[
+				"cod",
+				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
+				"inv",
+				"/var/www/html/setting/sublime-text-workspaces/inventory.sublime-workspace"
+			],
+			[
+				"feed",
+				"/var/www/html/setting/sublime-text-workspaces/feedback-queue.sublime-workspace"
+			],
 			[
 				"url",
 				"/var/www/html/setting/sublime-text-workspaces/url.sublime-workspace"
@@ -1652,20 +1495,8 @@
 				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
 			],
 			[
-				"",
-				"/var/www/html/setting/sublime-text-workspaces/url.sublime-workspace"
-			],
-			[
 				"sand",
 				"/var/www/html/setting/sublime-text-workspaces/sandbox.sublime-workspace"
-			],
-			[
-				"codex",
-				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
-			],
-			[
-				"code",
-				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
 			],
 			[
 				"stor",
@@ -1680,16 +1511,8 @@
 				"/var/www/html/sublime-workspace/game-engine.sublime-workspace"
 			],
 			[
-				"grid",
-				"/var/www/html/sublime-workspace/grid.sublime-workspace"
-			],
-			[
 				"store",
 				"/var/www/html/sublime-workspace/store.sublime-workspace"
-			],
-			[
-				"inv",
-				"/var/www/html/sublime-workspace/inventory.sublime-workspace"
 			],
 			[
 				"stire",
@@ -1718,10 +1541,6 @@
 			[
 				"gri",
 				"/var/www/html/sublime-workspace/grid.sublime-workspace"
-			],
-			[
-				"dialo",
-				"/var/www/html/sublime-workspace/dialogue.sublime-workspace"
 			],
 			[
 				"sto",

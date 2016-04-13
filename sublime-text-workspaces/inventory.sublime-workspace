@@ -71,10 +71,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 98.0,
-		"last_filter": "",
+		"height": 329.0,
+		"last_filter": "menu",
 		"selected_items":
 		[
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -114,6 +118,7 @@
 	],
 	"file_history":
 	[
+		"/var/www/html/inventory/package.json",
 		"/var/www/html/inventory/public_html/.htaccess",
 		"/var/www/html/inventory/config/route/api.php",
 		"/var/www/html/inventory/src/php/Controller/Api/Printer.php",
@@ -142,7 +147,6 @@
 		"/home/martin/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 		"/var/www/html/inventory/src/php/Controller/Ajax/PurchaseOrder.php",
 		"/var/www/html/inventory/src/sass/_admin-module-purchaseorder.scss",
-		"/var/www/html/inventory/package.json",
 		"/var/www/html/inventory/src/js/purchaseOrder/all.js",
 		"/var/www/html/inventory/src/templates/admin/module/purchaseorder/list.tpl",
 		"/var/www/html/inventory/config/route/admin.php",
@@ -499,7 +503,7 @@
 			1.0
 		]
 	},
-	"menu_visible": true,
+	"menu_visible": false,
 	"output.find_results":
 	{
 		"height": 0.0
@@ -517,6 +521,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"packa",
+				"package.json"
+			],
 			[
 				"htac",
 				"public_html/.htaccess"
@@ -616,10 +624,6 @@
 			[
 				"api",
 				"src/php/Controller/Api/ApiAbstract.php"
-			],
-			[
-				"packa",
-				"package.json"
 			],
 			[
 				"purorderjs",
@@ -1035,16 +1039,16 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "store",
 		"selected_items":
 		[
 			[
-				"",
-				"/var/www/html/sublime-workspace/store.sublime-workspace"
+				"store",
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
-				"store",
-				"/var/www/html/sublime-workspace/store.sublime-workspace"
+				"",
+				"/var/www/html/setting/sublime-text-workspaces/inventory.sublime-workspace"
 			],
 			[
 				"game",
