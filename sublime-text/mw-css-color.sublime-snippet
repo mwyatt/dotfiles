@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+color(${1:#hex} ${2:tint|shade}(${3:00}%))
+]]></content>
+    <tabTrigger>color</tabTrigger>
+    <scope>source.css</scope>
+</snippet>

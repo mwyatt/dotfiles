@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"pathBa",
+				"pathBase"
+			],
+			[
+				"key",
+				"keyed"
+			],
+			[
 				"docum",
 				"document"
 			],
@@ -269,16 +277,44 @@
 	],
 	"file_history":
 	[
-		"/var/www/html/core/index.php",
+		"/var/www/html/core/src/Cache.php",
+		"/var/www/html/core/src/Error.php",
 		"/var/www/html/core/phpunit.xml",
+		"/var/www/html/core/test/ErrorTest.php",
+		"/var/www/html/core/src/ObjectIterator.php",
+		"/var/www/html/core/src/ObjectIteratorInterface.php",
+		"/var/www/html/core/test/ObjectIteratorTest.php",
+		"/var/www/html/core/test/DatabaseTest.php",
+		"/var/www/html/core/test/UtilityObjectIteratorTest.php",
+		"/var/www/html/core/src/Utility/ObjectIterator.php",
+		"/var/www/html/core/src/CacheInterface.php",
+		"/var/www/html/core/.gitignore",
+		"/var/www/html/core/cache/.gitignore",
+		"/var/www/html/core/test/CacheTest.php",
+		"/var/www/html/core/test/MailTest.php",
+		"/var/www/html/core/src/Model/User.php",
+		"/var/www/html/core/test/ModelTest.php",
+		"/var/www/html/core/src/ModelInterface.php",
+		"/var/www/html/core/src/ModelFactory.php",
+		"/var/www/html/core/src/ModelAbstract.php",
+		"/var/www/html/core/test/ServiceTest.php",
+		"/var/www/html/core/src/Mapper/User.php",
+		"/var/www/html/core/sql/user.sql",
+		"/var/www/html/core/src/MapperAbstract.php",
+		"/var/www/html/core/src/Service/User.php",
+		"/var/www/html/core/src/ServiceAbstract.php",
+		"/var/www/html/core/src/Helper.php",
+		"/var/www/html/core/src/Database/Pdo.php",
+		"/var/www/html/core/src/DatabaseInterface.php",
+		"/var/www/html/core/src/Url.php",
+		"/var/www/html/core/src/Pagination.php",
+		"/var/www/html/core/src/Database.php",
+		"/var/www/html/core/composer.json",
+		"/var/www/html/core/src/Router.php",
 		"/var/www/html/core/src/Controller.php",
+		"/var/www/html/core/index.php",
 		"/var/www/html/core/src/View.php",
 		"/var/www/html/core/src/Controller/User.php",
-		"/var/www/html/core/src/MapperAbstract.php",
-		"/var/www/html/core/src/ServiceAbstract.php",
-		"/var/www/html/core/src/Mapper/User.php",
-		"/var/www/html/core/src/Service/User.php",
-		"/var/www/html/core/test/ServiceTest.php",
 		"/var/www/html/store/trunk/js/admin/order/pick-print.js",
 		"/var/www/html/store/trunk/js/admin/order/all.js",
 		"/var/www/html/store/trunk/js/home.js",
@@ -368,35 +404,7 @@
 		"/var/www/html/store/trunk/app/skin/custom/admin/modules/order/dpd-create-shipment.tpl",
 		"/var/www/html/store/trunk/app/classes/storage/mail/template.php",
 		"/var/www/html/store/trunk/js/admin/tinymceConfig.js",
-		"/var/www/html/store/trunk/app/classes/admin/grids/modules/mail/template.php",
-		"/var/www/html/store/trunk/js/admin/mail/template/all.js",
-		"/var/www/html/store/trunk/app/skin/custom/frontend/common/_background-positional.tpl",
-		"/var/www/html/store/trunk/app/classes/admin/modules/template.php",
-		"/var/www/html/store/trunk/app/classes/admin/modules/mail/template.php",
-		"/var/www/html/store/trunk/app/classes/common/mysql.php",
-		"/var/www/html/store/trunk/sass/admin/vendor/mwyatt/grid.scss",
-		"/var/www/html/store/trunk/gulpfile.js",
-		"/var/www/html/store/trunk/app/classes/admin/modules/advancedsearch.php",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/advanced-search/all.tpl",
-		"/var/www/html/store/trunk/js/admin/advanced-search/all.bundle.js",
-		"/var/www/html/store/trunk/js/admin/exception/gridProduct.js",
-		"/var/www/html/store/trunk/app/classes/inventory/promotion.php",
-		"/var/www/html/store/trunk/js/product/single/wish.js",
-		"/var/www/html/store/sql/3.sql",
-		"/var/www/html/store/trunk/sass/admin/order/_single.scss",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/products/grid.tpl",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/template.tpl",
-		"/var/www/html/store/trunk/app/classes/storage/interface.php",
-		"/var/www/html/store/sql/2.sql",
-		"/var/www/html/store/sql/1.sql",
-		"/var/www/html/store/trunk/index.php",
-		"/var/www/html/store/trunk/app/classes/storage/exception/template.php",
-		"/var/www/html/store/trunk/app/skin/custom/admin/common/footer.tpl",
-		"/var/www/html/store/trunk/app/skin/custom/admin/common/_notes-panel.tpl",
-		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/exceptions.php",
-		"/var/www/html/store/trunk/sass/_form.scss",
-		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/contact-form.tpl",
-		"/var/www/html/store/trunk/sass/_reusable.scss"
+		"/var/www/html/store/trunk/app/classes/admin/grids/modules/mail/template.php"
 	],
 	"find":
 	{
@@ -468,6 +476,47 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			" . \"",
+			"\" . ",
+			"'",
+			"pathFile",
+			"setPathBase",
+			"pathBase",
+			"path",
+			"public function",
+			"model",
+			"getByPropertyValue",
+			"order",
+			"$this",
+			"value",
+			"thisCopy",
+			"model",
+			"unsetGetCopy",
+			"time",
+			"get(",
+			"suppliers",
+			"->get",
+			"filterOutByProperty",
+			"$iterator",
+			"public function setUp",
+			"stdClass",
+			"cat3",
+			"cat2",
+			"cat1",
+			"ObjectIterator",
+			"'example.stored'",
+			"'unique-name-cache'",
+			"public function",
+			"! ",
+			"file_put_contents",
+			"getFilePath",
+			"pathDefault",
+			"getFilePath",
+			"pathBase",
+			"@expected",
+			"end(explode('\\\\', get_class($this)))",
+			"fetcheroo",
+			".nav-main-eisa-wording-container",
 			"phpunit",
 			"offsetSet",
 			"userMapper",
@@ -554,48 +603,7 @@
 			"return ",
 			"avsPostalCodeResponseCode",
 			"avs",
-			"payment_address_matched",
-			"'mwyatt-dialogue'",
-			"avs",
-			"braintree_result",
-			"ettle",
-			"Settle",
-			"settle",
-			"transaction",
-			"$braintree_result",
-			"braintree_result",
-			"cvv",
-			"braintree_result",
-			"$basket",
-			"basket",
-			"transaction_options",
-			"Ajax_Modules_Braintree_Transaction",
-			"orderUpdateMultiPickedPrint",
-			"admin-common-row-notice-warning",
-			"orderUpdateMultiPickedPrint",
-			"(Skip Em",
-			"fraud",
-			"admin-common-row-",
-			"if",
-			"refreshPage",
-			"skipDis",
-			"email_review_sender_name",
-			"refreshPage",
-			"dialogue.create({",
-			"dialogue.create",
-			"Problem while",
-			"skipDispatchEmails",
-			"skip",
-			"dispatch_skip",
-			"sendDispatchEmails",
-			"query_string",
-			"setDispatchMailed",
-			"dispatch_mailed",
-			"emilAddress",
-			"$emailAddress",
-			"getEmailOrderConfirmationOrDispatchHtml",
-			"getEmailOrderConfirmationHtml",
-			"sendDispatchEmailQuestion"
+			"payment_address_matched"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -703,6 +711,158 @@
 		"selected_items":
 		[
 			[
+				"cache",
+				"src/Cache.php"
+			],
+			[
+				"error",
+				"src/Error.php"
+			],
+			[
+				"objeiterte",
+				"test/ObjectIteratorTest.php"
+			],
+			[
+				"objiera",
+				"test/UtilityObjectIteratorTest.php"
+			],
+			[
+				"objiterate",
+				"src/ObjectIteratorInterface.php"
+			],
+			[
+				"interfa",
+				"src/UrlInterface.php"
+			],
+			[
+				"objeciter",
+				"src/ObjectIterator.php"
+			],
+			[
+				"objectirer",
+				"test/UtilityObjectIteratorTest.php"
+			],
+			[
+				"utilobjec",
+				"src/Utility/ObjectIterator.php"
+			],
+			[
+				"gitig",
+				".gitignore"
+			],
+			[
+				"cachetes",
+				"test/CacheTest.php"
+			],
+			[
+				"cacheinterfa",
+				"src/CacheInterface.php"
+			],
+			[
+				"mailtest",
+				"test/MailTest.php"
+			],
+			[
+				"modelfacto",
+				"src/ModelFactory.php"
+			],
+			[
+				"modelabs",
+				"src/ModelAbstract.php"
+			],
+			[
+				"modelinterfa",
+				"src/ModelInterface.php"
+			],
+			[
+				"cachetest",
+				"test/CacheTest.php"
+			],
+			[
+				"servicetes",
+				"test/ServiceTest.php"
+			],
+			[
+				"modeltest",
+				"test/ModelTest.php"
+			],
+			[
+				"modeluser",
+				"src/Model/User.php"
+			],
+			[
+				"",
+				"src/ServiceAbstract.php"
+			],
+			[
+				"helper",
+				"src/Helper.php"
+			],
+			[
+				"serviceuser",
+				"src/Service/User.php"
+			],
+			[
+				"datbainter",
+				"src/DatabaseInterface.php"
+			],
+			[
+				"pdo",
+				"src/Database/Pdo.php"
+			],
+			[
+				"datbastes",
+				"test/DatabaseTest.php"
+			],
+			[
+				"mapperuser",
+				"src/Mapper/User.php"
+			],
+			[
+				"servicetest",
+				"test/ServiceTest.php"
+			],
+			[
+				"url",
+				"src/Url.php"
+			],
+			[
+				"pagination",
+				"src/Pagination.php"
+			],
+			[
+				"phpu",
+				"phpunit.xml"
+			],
+			[
+				"service",
+				"src/ServiceAbstract.php"
+			],
+			[
+				"database",
+				"src/Database.php"
+			],
+			[
+				"compos",
+				"composer.json"
+			],
+			[
+				"databasetest",
+				"test/DatabaseTest.php"
+			],
+			[
+				"php",
+				"phpunit.xml"
+			],
+			[
+				"router",
+				"src/Router.php"
+			],
+			[
+				"control",
+				"src/Controller.php"
+			],
+			[
 				"index",
 				"index.php"
 			],
@@ -715,24 +875,12 @@
 				"src/Controller.php"
 			],
 			[
-				"phpu",
-				"phpunit.xml"
-			],
-			[
 				"controlleruser",
 				"src/Controller/User.php"
 			],
 			[
 				"view",
 				"src/View.php"
-			],
-			[
-				"",
-				"src/Mapper/User.php"
-			],
-			[
-				"mapperuser",
-				"src/Mapper/User.php"
 			],
 			[
 				"servabs",
@@ -1073,146 +1221,6 @@
 			[
 				"singleshipment",
 				"trunk/js/admin/order/single/shipment.js"
-			],
-			[
-				"invorderdpdshi",
-				"trunk/app/classes/inventory/order/dpd/shipment.php"
-			],
-			[
-				"exceptionsummar",
-				"trunk/app/skin/custom/admin/modules/exceptions/single/_summary.tpl"
-			],
-			[
-				"adminajaxmoddpd",
-				"trunk/app/classes/admin/ajax/modules/dpd.php"
-			],
-			[
-				"dpdcreshi",
-				"trunk/js/admin/order/dpd-create-shipment.bundle.js"
-			],
-			[
-				"orderdpdcre",
-				"trunk/app/skin/custom/admin/modules/order/dpd-create-shipment.tpl"
-			],
-			[
-				"adminmodexception",
-				"trunk/app/classes/admin/modules/exceptions.php"
-			],
-			[
-				"invmailtem",
-				"trunk/app/classes/inventory/mail/template.php"
-			],
-			[
-				"ajaxordr",
-				"trunk/app/classes/admin/ajax/modules/order.php"
-			],
-			[
-				"tinymcecon",
-				"trunk/js/admin/tinymceConfig.js"
-			],
-			[
-				"invmailtempla",
-				"trunk/app/classes/inventory/mail/template.php"
-			],
-			[
-				"adminmodnbox",
-				"trunk/app/classes/admin/modules/inbox.php"
-			],
-			[
-				"storageabs",
-				"trunk/app/classes/storage/abstract.php"
-			],
-			[
-				"templateall",
-				"trunk/app/skin/custom/admin/modules/mail/template/all.tpl"
-			],
-			[
-				"gridmailtempla",
-				"trunk/app/classes/admin/grids/modules/mail/template.php"
-			],
-			[
-				"backpos",
-				"trunk/app/skin/custom/frontend/common/_background-positional.tpl"
-			],
-			[
-				"commonmys",
-				"trunk/app/classes/common/mysql.php"
-			],
-			[
-				"gridsc",
-				"trunk/sass/admin/vendor/mwyatt/grid.scss"
-			],
-			[
-				"adminmodemailtemplate",
-				"trunk/app/classes/admin/modules/mail/template.php"
-			],
-			[
-				"adminmailtemplatejs",
-				"trunk/js/admin/mail/template/all.js"
-			],
-			[
-				"commonbund",
-				"trunk/js/admin/common.bundle.js"
-			],
-			[
-				"pakca",
-				"trunk/package.json"
-			],
-			[
-				"adminmodadvancese",
-				"trunk/app/skin/custom/admin/modules/advanced-search/all.tpl"
-			],
-			[
-				"advancedsear",
-				"trunk/app/classes/admin/modules/advancedsearch.php"
-			],
-			[
-				"adminmomailtemplateall",
-				"trunk/app/skin/custom/admin/modules/mail/template/all.tpl"
-			],
-			[
-				"adminmodtemplate",
-				"trunk/app/classes/admin/modules/template.php"
-			],
-			[
-				"gulp",
-				"trunk/gulpfile.js"
-			],
-			[
-				"singlewish",
-				"trunk/js/product/single/wish.js"
-			],
-			[
-				"adminmod.tpl",
-				"trunk/app/skin/custom/admin/modules/products/grid.tpl"
-			],
-			[
-				"adminmodinbo",
-				"trunk/app/classes/admin/modules/inbox.php"
-			],
-			[
-				"adminajaxorder",
-				"trunk/app/classes/admin/ajax/modules/order.php"
-			],
-			[
-				"invmailtemplate",
-				"trunk/app/classes/inventory/mail/template.php"
-			],
-			[
-				"adminmodexcep",
-				"trunk/app/classes/admin/modules/exceptions.php"
-			],
-			[
-				"ajaxorer",
-				"trunk/app/classes/admin/ajax/modules/order.php"
-			],
-			[
-				"adminexception",
-				"trunk/app/classes/admin/modules/exceptions.php"
-			],
-			[
-				"invpromot",
-				"trunk/app/classes/inventory/promotion.php"
 			]
 		],
 		"width": 0.0
@@ -1228,12 +1236,24 @@
 				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
 			],
 			[
-				"codex",
-				"/var/www/html/sublime-workspace/codex.sublime-workspace"
+				"inv",
+				"/var/www/html/setting/sublime-text-workspaces/inventory.sublime-workspace"
 			],
 			[
 				"store",
-				"/var/www/html/sublime-workspace/store.sublime-workspace"
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"url",
+				"/var/www/html/setting/sublime-text-workspaces/url.sublime-workspace"
+			],
+			[
+				"el",
+				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"codex",
+				"/var/www/html/sublime-workspace/codex.sublime-workspace"
 			],
 			[
 				"grid",
@@ -1242,10 +1262,6 @@
 			[
 				"dialo",
 				"/var/www/html/sublime-workspace/dialogue.sublime-workspace"
-			],
-			[
-				"inv",
-				"/var/www/html/sublime-workspace/inventory.sublime-workspace"
 			],
 			[
 				"gri",

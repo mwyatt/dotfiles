@@ -91,14 +91,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/var/www/html/grid/package.json",
-			"settings":
-			{
-				"buffer_size": 1199,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -189,13 +181,15 @@
 	],
 	"file_history":
 	[
+		"/var/www/html/grid/grid.js",
+		"/var/www/html/grid/package.json",
+		"/var/www/html/grid/index.css",
 		"/var/www/html/grid/grid.css",
+		"/var/www/html/grid/dialogue.css",
 		"/var/www/html/grid/common.js",
 		"/var/www/html/grid/request/grid-secondary/delete.php",
-		"/var/www/html/grid/package.json",
 		"/var/www/html/grid/request/grid-secondary/read.php",
 		"/var/www/html/grid/templates.js",
-		"/var/www/html/grid/grid.js",
 		"/var/www/html/setting/sublime-text/Preferences.sublime-settings",
 		"/home/martin/.config/sublime-text-3/Packages/User/CSS.sublime-settings",
 		"/home/martin/.config/sublime-text-3/Packages/User/PHP.sublime-settings",
@@ -314,9 +308,7 @@
 		"/var/www/html/store/trunk/js/header/mainDrop.js",
 		"/var/www/html/store/trunk/js/header/search.js",
 		"/var/www/html/store/trunk/js/product/bundle.js",
-		"/var/www/html/store/trunk/js/page/return/guide.bundle.js",
-		"/var/www/html/store/trunk/js/product/termination.js",
-		"/var/www/html/store/trunk/js/product/tab.js"
+		"/var/www/html/store/trunk/js/page/return/guide.bundle.js"
 	],
 	"find":
 	{
@@ -352,6 +344,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"local",
 			"value",
 			"storeReadModel",
 			"getStoredReadModel",
@@ -478,8 +471,7 @@
 			"');\n",
 			"mustacheTemplates",
 			"js-grid-table",
-			"classNames",
-			"optionsOriginal"
+			"classNames"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -528,39 +520,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/var/www/html/grid/package.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1199,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -617,12 +578,20 @@
 				"package.json"
 			],
 			[
-				"common",
-				"common.js"
+				"grid",
+				"grid.js"
+			],
+			[
+				"gridcs",
+				"grid.css"
 			],
 			[
 				"css",
-				"grid.css"
+				"dialogue.css"
+			],
+			[
+				"common",
+				"common.js"
 			],
 			[
 				"deele",
@@ -639,10 +608,6 @@
 			[
 				"primaryre",
 				"request/grid-primary/read.php"
-			],
-			[
-				"grid",
-				"grid.js"
 			],
 			[
 				"primary",
@@ -1018,6 +983,14 @@
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
+				"code",
+				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
+				"grid",
+				"/var/www/html/setting/sublime-text-workspaces/grid.sublime-workspace"
+			],
+			[
 				"store",
 				"/var/www/html/sublime-workspace/store.sublime-workspace"
 			],
@@ -1042,10 +1015,6 @@
 				"/var/www/html/sublime-workspace/inventory.sublime-workspace"
 			],
 			[
-				"code",
-				"/var/www/html/sublime-workspace/codex.sublime-workspace"
-			],
-			[
 				"elt",
 				"/var/www/html/sublime-workspace/elttl.sublime-workspace"
 			],
@@ -1064,10 +1033,6 @@
 			[
 				"s",
 				"/var/www/html/sublime-workspace/store.sublime-workspace"
-			],
-			[
-				"grid",
-				"/var/www/html/grid/grid.sublime-project"
 			],
 			[
 				"g",

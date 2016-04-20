@@ -27,10 +27,18 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 96.0,
-		"last_filter": "instal",
+		"height": 392.0,
+		"last_filter": "stat",
 		"selected_items":
 		[
+			[
+				"stat",
+				"View: Toggle Status Bar"
+			],
+			[
+				"men",
+				"View: Toggle Menu"
+			],
 			[
 				"instal",
 				"Package Control: Install Package"
@@ -44,7 +52,7 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 467.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -69,11 +77,14 @@
 	],
 	"file_history":
 	[
-		"/var/www/html/elttl/js/admin/tennis/fixture/single.bundle.js",
+		"/var/www/html/elttl/config-sample.php",
+		"/var/www/html/elttl/vendor/mwyatt/core/config-sample.php",
 		"/var/www/html/elttl/index.php",
+		"/var/www/html/elttl/indexAdmin.php",
+		"/var/www/html/elttl/src/Error.php",
+		"/var/www/html/elttl/js/admin/tennis/fixture/single.bundle.js",
 		"/var/www/html/elttl/src/Model.php",
 		"/var/www/html/elttl/src/Json.php",
-		"/var/www/html/elttl/src/Error.php",
 		"/var/www/html/elttl/sql/table.sql",
 		"/var/www/html/store/trunk/js/buttonToTop.js",
 		"/var/www/html/store/trunk/js/admin/mediaBrowser/mustacheTemplates.js",
@@ -193,10 +204,7 @@
 		"/var/www/html/store/trunk/js/header/search.js",
 		"/var/www/html/store/trunk/js/product/bundle.js",
 		"/var/www/html/store/trunk/js/page/return/guide.bundle.js",
-		"/var/www/html/store/trunk/js/product/termination.js",
-		"/var/www/html/store/trunk/js/product/tab.js",
-		"/var/www/html/store/trunk/js/equalHeight.js",
-		"/var/www/html/store/trunk/js/admin/vendor/grid.locale-en.js"
+		"/var/www/html/store/trunk/js/product/termination.js"
 	],
 	"find":
 	{
@@ -445,7 +453,7 @@
 			1.0
 		]
 	},
-	"menu_visible": true,
+	"menu_visible": false,
 	"output.find_results":
 	{
 		"height": 0.0
@@ -463,6 +471,26 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"confgi",
+				"vendor/mwyatt/core/config-sample.php"
+			],
+			[
+				"config",
+				"config-sample.php"
+			],
+			[
+				"indexadmin",
+				"indexAdmin.php"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"error",
+				"src/Error.php"
+			],
 			[
 				"index",
 				"index.php"
@@ -736,10 +764,6 @@
 				"trunk/js/product/single/ncs.js"
 			],
 			[
-				"inde",
-				"trunk/node_modules/gulp-sass/node_modules/node-sass/node_modules/sass-graph/node_modules/lodash/_assignInDefaults.js"
-			],
-			[
 				"prodsinncs",
 				"trunk/js/product/single/ncs.js"
 			],
@@ -762,10 +786,6 @@
 			[
 				"product",
 				"trunk/js/product.js"
-			],
-			[
-				"config",
-				"trunk/js/config.js"
 			],
 			[
 				"jsproduc",
@@ -810,7 +830,7 @@
 		[
 			[
 				"",
-				"/var/www/html/sublime-workspace/inventory.sublime-workspace"
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
 				"dia",
@@ -877,7 +897,7 @@
 	"show_tabs": true,
 	"side_bar_visible": false,
 	"side_bar_width": 150.0,
-	"status_bar_visible": true,
+	"status_bar_visible": false,
 	"template_settings":
 	{
 	}

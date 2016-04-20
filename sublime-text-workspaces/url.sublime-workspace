@@ -371,14 +371,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/var/www/html/url/package.json",
-			"settings":
-			{
-				"buffer_size": 614,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -465,8 +457,8 @@
 	],
 	"file_history":
 	[
-		"/var/www/html/url/.gitignore",
 		"/var/www/html/url/package.json",
+		"/var/www/html/url/.gitignore",
 		"/var/www/html/url/index.html",
 		"/var/www/html/url/index.js",
 		"/var/www/html/url/gulpfile.js",
@@ -852,39 +844,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/var/www/html/url/package.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 614,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1454,9 +1415,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "stor",
+		"last_filter": "dialo",
 		"selected_items":
 		[
+			[
+				"dialo",
+				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
+			],
 			[
 				"stor",
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
@@ -1528,10 +1493,6 @@
 			[
 				"gri",
 				"/var/www/html/sublime-workspace/grid.sublime-workspace"
-			],
-			[
-				"dialo",
-				"/var/www/html/sublime-workspace/dialogue.sublime-workspace"
 			],
 			[
 				"sto",

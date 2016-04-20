@@ -23,14 +23,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/var/www/html/dialogue/package.json",
-			"settings":
-			{
-				"buffer_size": 1402,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -89,15 +81,17 @@
 	],
 	"file_history":
 	[
+		"/var/www/html/dialogue/template/index.php",
+		"/var/www/html/dialogue/index.php",
+		"/var/www/html/dialogue/index.js",
+		"/var/www/html/dialogue/vendor/mwyatt/core/index.php",
+		"/var/www/html/dialogue/package.json",
 		"/var/www/html/dialogue/index.html",
 		"/etc/apache2/mods-enabled/dir.conf",
 		"/var/www/html/dialogue/src/Controller/Index.php",
 		"/var/www/html/dialogue/css/common.bundle.css",
-		"/var/www/html/dialogue/template/index.php",
-		"/var/www/html/dialogue/index.php",
 		"/var/www/html/dialogue/composer.json",
 		"/var/www/html/dialogue/js/common.bundle.js",
-		"/var/www/html/dialogue/package.json",
 		"/var/www/html/dialogue/testedOn.json",
 		"/var/www/html/dialogue/js/dialogue.js",
 		"/etc/apache2/sites-available/default-ssl.conf",
@@ -214,9 +208,7 @@
 		"/var/www/html/store/trunk/js/checkout/braintree.bundle.js",
 		"/var/www/html/store/trunk/js/home.js",
 		"/var/www/html/store/trunk/node_modules/jquery-ui/jquery-ui.js",
-		"/var/www/html/store/trunk/sass/common.scss",
-		"/var/www/html/store/trunk/app/config/config.php",
-		"/var/www/html/inventory/public_html/index.php"
+		"/var/www/html/store/trunk/sass/common.scss"
 	],
 	"find":
 	{
@@ -251,6 +243,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			".call",
 			":",
 			": ",
 			"router",
@@ -377,8 +370,7 @@
 			"require('admin/vendor/grid.locale-en');",
 			"admin/vendor/grid",
 			"./exception",
-			"./exception'",
-			"./exception"
+			"./exception'"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -427,39 +419,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/var/www/html/dialogue/package.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1402,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -512,6 +473,22 @@
 		"selected_items":
 		[
 			[
+				"template/",
+				"template/index.php"
+			],
+			[
+				"index.php",
+				"index.php"
+			],
+			[
+				"index",
+				"index.js"
+			],
+			[
+				"",
+				"package.json"
+			],
+			[
 				"packa",
 				"package.json"
 			],
@@ -530,10 +507,6 @@
 			[
 				"compos",
 				"composer.json"
-			],
-			[
-				"index",
-				"src/Controller/Index.php"
 			],
 			[
 				"pack",
@@ -582,10 +555,6 @@
 			[
 				"pakca",
 				"trunk/package.json"
-			],
-			[
-				"",
-				"trunk/js/admin/mediaBrowser.js"
 			],
 			[
 				"dialoguescss",
@@ -817,20 +786,28 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "code",
 		"selected_items":
 		[
 			[
-				"",
-				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+				"code",
+				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
 			],
 			[
-				"store",
+				"",
+				"/var/www/html/setting/sublime-text-workspaces/grid.sublime-workspace"
+			],
+			[
+				"stoe",
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
 				"grid",
-				"/var/www/html/sublime-workspace/grid.sublime-workspace"
+				"/var/www/html/setting/sublime-text-workspaces/grid.sublime-workspace"
+			],
+			[
+				"store",
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
 				"dialo",
@@ -863,10 +840,6 @@
 			[
 				"core",
 				"/var/www/html/sublime-project/core.sublime-workspace"
-			],
-			[
-				"code",
-				"/var/www/html/codex/codex.sublime-project"
 			],
 			[
 				"sto",
