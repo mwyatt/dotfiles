@@ -19,12 +19,13 @@ fi
 # Loop all sub-directories
 for f in $dir
 do
+
 	# Only interested in directories
 	[ -d "${f}" ] || continue
 
-	echo -en "\033[0;35m"
+	# echo -en "\033[0;35m"
 	echo "${f}"
-	echo -en "\033[0m"
+	# echo -en "\033[0m"
 
 	# Check if directory is a git repository
 	if [ -d "$f/.git" ]
