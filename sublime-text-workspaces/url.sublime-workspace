@@ -1415,9 +1415,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "dialo",
+		"last_filter": "store",
 		"selected_items":
 		[
+			[
+				"store",
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
 			[
 				"dialo",
 				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
@@ -1433,10 +1437,6 @@
 			[
 				"dia",
 				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
-			],
-			[
-				"store",
-				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
 				"codex",

@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"color",
+				"color"
+			],
+			[
 				"product",
 				"productIdSkus"
 			],
@@ -129,23 +133,29 @@
 	],
 	"file_history":
 	[
-		"/var/www/html/codex/package.json",
-		"/var/www/html/codex/README.md",
-		"/var/www/html/codex/gulpfile.js",
-		"/var/www/html/codex/index.html",
-		"/var/www/html/codex/css/alert.css",
-		"/var/www/html/codex/index.css",
-		"/var/www/html/codex/css/typography.css",
 		"/var/www/html/codex/css/reusable.css",
-		"/var/www/html/codex/template/_installation.php",
-		"/var/www/html/codex/css/form.css",
-		"/var/www/html/codex/css/link.css",
 		"/var/www/html/codex/css/settings.css",
-		"/var/www/html/codex/js/common.bundle.js",
-		"/var/www/html/codex/css/table.css",
+		"/var/www/html/codex/index.css",
+		"/var/www/html/codex/package.json",
+		"/var/www/html/codex/index.html",
+		"/var/www/html/codex/gulpfile.js",
+		"/var/www/html/codex/bin/git-gh-deploy",
+		"/var/www/html/codex/.gitignore",
 		"/var/www/html/codex/css/reset.css",
 		"/var/www/html/codex/css/common.bundle.css",
 		"/var/www/html/codex/css/button.css",
+		"/var/www/html/codex/css/general.css",
+		"/var/www/html/codex/asset/common.bundle.css",
+		"/var/www/html/codex/js/common.bundle.js",
+		"/var/www/html/codex/gulp/.csscomb.json",
+		"/var/www/html/codex/.htaccess",
+		"/var/www/html/codex/README.md",
+		"/var/www/html/codex/css/alert.css",
+		"/var/www/html/codex/css/typography.css",
+		"/var/www/html/codex/template/_installation.php",
+		"/var/www/html/codex/css/form.css",
+		"/var/www/html/codex/css/link.css",
+		"/var/www/html/codex/css/table.css",
 		"/var/www/html/codex/js/spinner.js",
 		"/var/www/html/codex/template/index.php",
 		"/var/www/html/codex/template/_reusable.php",
@@ -250,13 +260,7 @@
 		"/var/www/html/store/trunk/mustache/admin/media/browser/file-pdf.mst",
 		"/var/www/html/store/trunk/mustache/admin/media/browser/directory.mst",
 		"/var/www/html/store/trunk/js/admin/order/single.js",
-		"/var/www/html/store/trunk/js/admin/order/all.js",
-		"/var/www/html/store/trunk/js/admin/note.js",
-		"/var/www/html/store/trunk/js/admin/features.js",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/features/create-update.tpl",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/features/create.tpl",
-		"/var/www/html/store/trunk/sass/admin/order/_list.scss",
-		"/var/www/html/store/trunk/app/skin/custom/frontend/common/footer.tpl"
+		"/var/www/html/store/trunk/js/admin/order/all.js"
 	],
 	"find":
 	{
@@ -267,6 +271,7 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"-node_modules/, -asset/, css/",
 			"-node_modules/, -asset/, ",
 			"-node_modules/, -asset/, css/",
 			"-node_modules/, -asset/, ",
@@ -302,6 +307,13 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"tint(10%)",
+			".site-heading-menu-link:hover {\n    transform: translateY(2px);\n    box-shadow: 0 1px 0 color(var(--background-color) shade(20%));\n}\n\n",
+			"site-heading-menu-link",
+			"-secondary",
+			"highlight",
+			".js",
+			"comb",
 			".nav-main-eisa-wording-container",
 			":",
 			"postcssProcesses",
@@ -422,14 +434,7 @@
 			"page-warranty-shield-container",
 			"js-product-single-button-group",
 			".media-browser-layout-grid .media-browser-file-container {",
-			".media-browser-layout-grid .media-browser-file-container",
-			"Information",
-			"contentType: false",
-			"300",
-			" Feedback",
-			"Feedback",
-			"mediaBrowser.getDirectory",
-			"'Ok'"
+			".media-browser-layout-grid .media-browser-file-container"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -533,48 +538,96 @@
 		"selected_items":
 		[
 			[
-				"packa",
-				"package.json"
-			],
-			[
-				"gulp",
-				"gulpfile.js"
-			],
-			[
-				"readme",
-				"README.md"
-			],
-			[
-				"inde",
-				"index.html"
-			],
-			[
-				"css/",
-				"css/alert.css"
-			],
-			[
 				"reusa",
 				"css/reusable.css"
 			],
 			[
-				"typog",
-				"css/typography.css"
+				"inde",
+				"index.css"
 			],
 			[
-				"index",
-				"index.css"
+				"sett",
+				"css/settings.css"
 			],
 			[
 				"pack",
 				"package.json"
 			],
 			[
-				"",
-				"css/typography.css"
+				"packa",
+				"package.json"
+			],
+			[
+				"bin/",
+				"bin/git-gh-deploy"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"giti",
+				".gitignore"
+			],
+			[
+				"gitig",
+				".gitignore"
+			],
+			[
+				"ign",
+				".gitignore"
 			],
 			[
 				"setting",
 				"css/settings.css"
+			],
+			[
+				"button",
+				"css/button.css"
+			],
+			[
+				"common",
+				"css/common.bundle.css"
+			],
+			[
+				"commonbun",
+				"js/common.bundle.js"
+			],
+			[
+				"rese",
+				"css/reset.css"
+			],
+			[
+				"ine",
+				"index.css"
+			],
+			[
+				"csscomb",
+				"gulp/.csscomb.json"
+			],
+			[
+				"htacc",
+				".htaccess"
+			],
+			[
+				"readme",
+				"README.md"
+			],
+			[
+				"css/",
+				"css/alert.css"
+			],
+			[
+				"typog",
+				"css/typography.css"
+			],
+			[
+				"",
+				"css/typography.css"
 			],
 			[
 				"typo",
@@ -597,10 +650,6 @@
 				"css/link.css"
 			],
 			[
-				"common",
-				"js/common.bundle.js"
-			],
-			[
 				"spinner",
 				"js/spinner.js"
 			],
@@ -609,16 +658,8 @@
 				"css/settings.css"
 			],
 			[
-				"rese",
-				"css/reset.css"
-			],
-			[
 				"reua",
 				"css/reusable.css"
-			],
-			[
-				"button",
-				"css/button.css"
 			],
 			[
 				"comm",
@@ -865,10 +906,6 @@
 				"app/classes/frontend/modules/createaccount.php"
 			],
 			[
-				"htacc",
-				".htaccess"
-			],
-			[
 				"frontmodacc",
 				"app/classes/frontend/modules/account.php"
 			],
@@ -1011,38 +1048,6 @@
 			[
 				"mediabrows",
 				"trunk/js/admin/mediaBrowser.js"
-			],
-			[
-				"dialoguescss",
-				"trunk/sass/admin/_dialogue.scss"
-			],
-			[
-				"dialogu.js",
-				"trunk/node_modules/dialogue/dialogue.js"
-			],
-			[
-				"mediabrowjs",
-				"trunk/js/admin/mediaBrowser.js"
-			],
-			[
-				"media",
-				"trunk/app/classes/common/media.php"
-			],
-			[
-				"inve",
-				"trunk/app/classes/inventory.php"
-			],
-			[
-				"prodmultiload",
-				"trunk/app/classes/inventory/product/multiloader.php"
-			],
-			[
-				"adminajax",
-				"trunk/administration/ajax.php"
-			],
-			[
-				"adminproductjs",
-				"trunk/js/admin/product/single.js"
 			]
 		],
 		"width": 0.0
@@ -1055,15 +1060,15 @@
 		[
 			[
 				"",
-				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
-			],
-			[
-				"core",
-				"/var/www/html/setting/sublime-text-workspaces/core.sublime-workspace"
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
 				"store",
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"core",
+				"/var/www/html/setting/sublime-text-workspaces/core.sublime-workspace"
 			],
 			[
 				"sor",

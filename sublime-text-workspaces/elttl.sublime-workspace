@@ -77,10 +77,11 @@
 	],
 	"file_history":
 	[
-		"/var/www/html/elttl/config-sample.php",
-		"/var/www/html/elttl/vendor/mwyatt/core/config-sample.php",
 		"/var/www/html/elttl/index.php",
 		"/var/www/html/elttl/indexAdmin.php",
+		"/var/www/html/elttl/route.php",
+		"/var/www/html/elttl/config-sample.php",
+		"/var/www/html/elttl/vendor/mwyatt/core/config-sample.php",
 		"/var/www/html/elttl/src/Error.php",
 		"/var/www/html/elttl/js/admin/tennis/fixture/single.bundle.js",
 		"/var/www/html/elttl/src/Model.php",
@@ -203,8 +204,7 @@
 		"/var/www/html/store/trunk/js/header/mainDrop.js",
 		"/var/www/html/store/trunk/js/header/search.js",
 		"/var/www/html/store/trunk/js/product/bundle.js",
-		"/var/www/html/store/trunk/js/page/return/guide.bundle.js",
-		"/var/www/html/store/trunk/js/product/termination.js"
+		"/var/www/html/store/trunk/js/page/return/guide.bundle.js"
 	],
 	"find":
 	{
@@ -241,6 +241,9 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"container",
+			"container\n",
+			"$router",
 			"getSthExecutePositionalWriteable",
 			"getSqlPositionalPlaceholdersWriteable",
 			"longtext",
@@ -365,10 +368,7 @@
 			"{urlBase: url.getUrlBase(), files",
 			"libs",
 			"copy-tinymce-plugins",
-			"'copy-js'",
-			"product/single/bas",
-			"codex",
-			"'config'"
+			"'copy-js'"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -472,6 +472,18 @@
 		"selected_items":
 		[
 			[
+				"indexad",
+				"indexAdmin.php"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"route",
+				"route.php"
+			],
+			[
 				"confgi",
 				"vendor/mwyatt/core/config-sample.php"
 			],
@@ -490,10 +502,6 @@
 			[
 				"error",
 				"src/Error.php"
-			],
-			[
-				"index",
-				"index.php"
 			],
 			[
 				"fixture.js",
@@ -830,7 +838,7 @@
 		[
 			[
 				"",
-				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+				"/var/www/html/setting/sublime-text-workspaces/core.sublime-workspace"
 			],
 			[
 				"dia",

@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"pv",
+				"pv	mw-php-varDump"
+			],
+			[
 				"pathBa",
 				"pathBase"
 			],
@@ -231,10 +235,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 329.0,
-		"last_filter": "menu",
+		"height": 140.0,
+		"last_filter": "closea",
 		"selected_items":
 		[
+			[
+				"closea",
+				"File: Close All"
+			],
 			[
 				"menu",
 				"View: Toggle Menu"
@@ -252,7 +260,7 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 449.0
+		"width": 575.0
 	},
 	"console":
 	{
@@ -277,21 +285,40 @@
 	],
 	"file_history":
 	[
-		"/var/www/html/core/src/Cache.php",
-		"/var/www/html/core/src/Error.php",
+		"/var/www/html/core/src/Router.php",
+		"/var/www/html/core/src/Controller.php",
+		"/var/www/html/core/src/Url.php",
+		"/var/www/html/core/test/SessionTest.php",
+		"/var/www/html/core/src/Request.php",
 		"/var/www/html/core/phpunit.xml",
-		"/var/www/html/core/test/ErrorTest.php",
 		"/var/www/html/core/src/ObjectIterator.php",
-		"/var/www/html/core/src/ObjectIteratorInterface.php",
+		"/var/www/html/core/src/RouterInterface.php",
 		"/var/www/html/core/test/ObjectIteratorTest.php",
+		"/var/www/html/core/example-sort.php",
+		"/var/www/html/core/error.txt",
+		"/var/www/html/core/routes.php",
+		"/var/www/html/core/test/RouterTest.php",
+		"/var/www/html/core/test/UrlTest.php",
+		"/var/www/html/core/src/MapperAbstract.php",
+		"/var/www/html/core/config.php",
+		"/var/www/html/core/test/MailTest.php",
+		"/var/www/html/core/src/MailInterface.php",
+		"/var/www/html/core/src/Mail.php",
+		"/var/www/html/core/index.php",
+		"/var/www/html/core/.gitignore",
+		"/var/www/html/core/src/Cache.php",
+		"/var/www/html/core/config-sample.php",
+		"/var/www/html/core/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Message.php",
+		"/var/www/html/core/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleMessage.php",
+		"/var/www/html/core/test/ErrorTest.php",
+		"/var/www/html/core/src/Error.php",
+		"/var/www/html/core/src/ObjectIteratorInterface.php",
 		"/var/www/html/core/test/DatabaseTest.php",
 		"/var/www/html/core/test/UtilityObjectIteratorTest.php",
 		"/var/www/html/core/src/Utility/ObjectIterator.php",
 		"/var/www/html/core/src/CacheInterface.php",
-		"/var/www/html/core/.gitignore",
 		"/var/www/html/core/cache/.gitignore",
 		"/var/www/html/core/test/CacheTest.php",
-		"/var/www/html/core/test/MailTest.php",
 		"/var/www/html/core/src/Model/User.php",
 		"/var/www/html/core/test/ModelTest.php",
 		"/var/www/html/core/src/ModelInterface.php",
@@ -300,19 +327,14 @@
 		"/var/www/html/core/test/ServiceTest.php",
 		"/var/www/html/core/src/Mapper/User.php",
 		"/var/www/html/core/sql/user.sql",
-		"/var/www/html/core/src/MapperAbstract.php",
 		"/var/www/html/core/src/Service/User.php",
 		"/var/www/html/core/src/ServiceAbstract.php",
 		"/var/www/html/core/src/Helper.php",
 		"/var/www/html/core/src/Database/Pdo.php",
 		"/var/www/html/core/src/DatabaseInterface.php",
-		"/var/www/html/core/src/Url.php",
 		"/var/www/html/core/src/Pagination.php",
 		"/var/www/html/core/src/Database.php",
 		"/var/www/html/core/composer.json",
-		"/var/www/html/core/src/Router.php",
-		"/var/www/html/core/src/Controller.php",
-		"/var/www/html/core/index.php",
 		"/var/www/html/core/src/View.php",
 		"/var/www/html/core/src/Controller/User.php",
 		"/var/www/html/store/trunk/js/admin/order/pick-print.js",
@@ -390,21 +412,7 @@
 		"/var/www/html/store/trunk/js/admin/order/label.js",
 		"/var/www/html/store/trunk/app/skin/custom/admin/common/_follow-jumps.tpl",
 		"/var/www/html/store/trunk/app/skin/custom/admin/common/_follow-jump.tpl",
-		"/var/www/html/store/trunk/app/classes/inventory/order/labelloader.php",
-		"/var/www/html/store/trunk/app/classes/ajax/modules/order.php",
-		"/var/www/html/store/trunk/app/classes/admin/utility/fgtextcolour.php",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/order/_order-rows.tpl",
-		"/var/www/html/store/trunk/sass/common.scss",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/exceptions/single/_summary.tpl",
-		"/var/www/html/store/trunk/js/admin/order/single/shipment.js",
-		"/var/www/html/store/trunk/app/classes/inventory/order/dpd/shipment.php",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/exceptions/_email.tpl",
-		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/dpd.php",
-		"/var/www/html/store/trunk/js/admin/order/dpd-create-shipment.bundle.js",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/order/dpd-create-shipment.tpl",
-		"/var/www/html/store/trunk/app/classes/storage/mail/template.php",
-		"/var/www/html/store/trunk/js/admin/tinymceConfig.js",
-		"/var/www/html/store/trunk/app/classes/admin/grids/modules/mail/template.php"
+		"/var/www/html/store/trunk/app/classes/inventory/order/labelloader.php"
 	],
 	"find":
 	{
@@ -476,6 +484,17 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"Utility\\Object",
+			"getInlinedHtml",
+			"'<h1>example body</h1>'",
+			"$config[",
+			"$config['body']",
+			"container",
+			"public function",
+			"private",
+			"swiftMailer",
+			"     ",
+			"pathFile",
 			" . \"",
 			"\" . ",
 			"'",
@@ -592,18 +611,7 @@
 			"Mail Skipped",
 			"Mail Skippe",
 			"payment_id",
-			"payment_avs",
-			"payment_error",
-			"return ",
-			"return $this->getResponseJson(['",
-			"return $this->getResponseJson(",
-			"Braintree_Transaction::",
-			"avs",
-			"Ajax_Modules_Braintree_Transaction",
-			"return ",
-			"avsPostalCodeResponseCode",
-			"avs",
-			"payment_address_matched"
+			"payment_avs"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -711,12 +719,112 @@
 		"selected_items":
 		[
 			[
+				"phpu",
+				"phpunit.xml"
+			],
+			[
+				"reques",
+				"src/Request.php"
+			],
+			[
+				"sessionte",
+				"test/SessionTest.php"
+			],
+			[
+				"session",
+				"test/SessionTest.php"
+			],
+			[
+				"ojec",
+				"src/ObjectIterator.php"
+			],
+			[
+				"url",
+				"src/Url.php"
+			],
+			[
+				"controller",
+				"src/Controller.php"
+			],
+			[
+				"router",
+				"src/Router.php"
+			],
+			[
+				"routerinter",
+				"src/RouterInterface.php"
+			],
+			[
+				"objectiter",
+				"test/ObjectIteratorTest.php"
+			],
+			[
+				"examplesor",
+				"example-sort.php"
+			],
+			[
+				"error",
+				"error.txt"
+			],
+			[
+				"",
+				"test/RouterTest.php"
+			],
+			[
+				"urltes",
+				"test/UrlTest.php"
+			],
+			[
+				"route",
+				"routes.php"
+			],
+			[
+				"routes",
+				"routes.php"
+			],
+			[
+				"routertest",
+				"test/RouterTest.php"
+			],
+			[
+				"mail",
+				"src/Mail.php"
+			],
+			[
+				"gitig",
+				".gitignore"
+			],
+			[
+				"config",
+				"config-sample.php"
+			],
+			[
 				"cache",
 				"src/Cache.php"
 			],
 			[
-				"error",
-				"src/Error.php"
+				"configphp",
+				"config-sample.php"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"mailtest",
+				"test/MailTest.php"
+			],
+			[
+				"mailinterf",
+				"src/MailInterface.php"
+			],
+			[
+				"eror",
+				"error.txt"
+			],
+			[
+				"errortest",
+				"test/ErrorTest.php"
 			],
 			[
 				"objeiterte",
@@ -747,20 +855,12 @@
 				"src/Utility/ObjectIterator.php"
 			],
 			[
-				"gitig",
-				".gitignore"
-			],
-			[
 				"cachetes",
 				"test/CacheTest.php"
 			],
 			[
 				"cacheinterfa",
 				"src/CacheInterface.php"
-			],
-			[
-				"mailtest",
-				"test/MailTest.php"
 			],
 			[
 				"modelfacto",
@@ -791,10 +891,6 @@
 				"src/Model/User.php"
 			],
 			[
-				"",
-				"src/ServiceAbstract.php"
-			],
-			[
 				"helper",
 				"src/Helper.php"
 			],
@@ -823,16 +919,8 @@
 				"test/ServiceTest.php"
 			],
 			[
-				"url",
-				"src/Url.php"
-			],
-			[
 				"pagination",
 				"src/Pagination.php"
-			],
-			[
-				"phpu",
-				"phpunit.xml"
 			],
 			[
 				"service",
@@ -855,24 +943,12 @@
 				"phpunit.xml"
 			],
 			[
-				"router",
-				"src/Router.php"
-			],
-			[
 				"control",
 				"src/Controller.php"
 			],
 			[
-				"index",
-				"index.php"
-			],
-			[
 				"phu",
 				"phpunit.xml"
-			],
-			[
-				"controller",
-				"src/Controller.php"
 			],
 			[
 				"controlleruser",
@@ -1153,74 +1229,6 @@
 			[
 				"externalprint",
 				"trunk/app/classes/external/printer.php"
-			],
-			[
-				"pick",
-				"trunk/js/admin/order/pick-print.js"
-			],
-			[
-				"adminorder",
-				"trunk/app/classes/admin/ajax/modules/order.php"
-			],
-			[
-				"ordersinglejs",
-				"trunk/js/admin/order/single.js"
-			],
-			[
-				"adminmodinboxedit",
-				"trunk/app/classes/admin/modules/inboxedit.php"
-			],
-			[
-				"ajaxord",
-				"trunk/app/classes/admin/ajax/modules/order.php"
-			],
-			[
-				"labeljs",
-				"trunk/js/admin/order/label.js"
-			],
-			[
-				"invordermulti",
-				"trunk/app/classes/inventory/order/multiloader.php"
-			],
-			[
-				"followjum",
-				"trunk/app/skin/custom/admin/common/_follow-jump.tpl"
-			],
-			[
-				"admincommonjumps",
-				"trunk/app/skin/custom/admin/common/_follow-jumps.tpl"
-			],
-			[
-				"orderrows",
-				"trunk/app/skin/custom/admin/modules/order/_order-rows.tpl"
-			],
-			[
-				"storageorder",
-				"trunk/app/classes/storage/order.php"
-			],
-			[
-				"adminmodinbox",
-				"trunk/app/classes/admin/modules/inbox.php"
-			],
-			[
-				"orderfollow",
-				"trunk/app/skin/custom/admin/modules/order/_follow.tpl"
-			],
-			[
-				"commonsc",
-				"trunk/sass/common.scss"
-			],
-			[
-				"pickpri",
-				"trunk/js/admin/order/pick-print.js"
-			],
-			[
-				"ajaxprint",
-				"trunk/app/classes/admin/ajax/modules/order/print.php"
-			],
-			[
-				"singleshipment",
-				"trunk/js/admin/order/single/shipment.js"
 			]
 		],
 		"width": 0.0
@@ -1233,6 +1241,18 @@
 		[
 			[
 				"",
+				"/var/www/html/setting/sublime-text-workspaces/feedback-queue.sublime-workspace"
+			],
+			[
+				"eltt",
+				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"elt",
+				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"code",
 				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
 			],
 			[
@@ -1272,10 +1292,6 @@
 				"/var/www/html/sublime-workspace/dialogue.sublime-workspace"
 			],
 			[
-				"code",
-				"/var/www/html/sublime-workspace/codex.sublime-workspace"
-			],
-			[
 				"sto",
 				"/var/www/html/sublime-workspace/store.sublime-workspace"
 			],
@@ -1296,16 +1312,8 @@
 				"/var/www/html/sublime-workspace/sandbox.sublime-workspace"
 			],
 			[
-				"eltt",
-				"/var/www/html/sublime-workspace/elttl.sublime-workspace"
-			],
-			[
 				"st",
 				"/var/www/html/sublime-workspace/store.sublime-workspace"
-			],
-			[
-				"elt",
-				"/var/www/html/sublime-workspace/elttl.sublime-workspace"
 			],
 			[
 				"diua",
