@@ -156,7 +156,7 @@
     </property>
     <property name="custom" type="empty">
       <property name="&lt;Control&gt;F1" type="string" value="workspace_1_key"/>
-      <property name="&lt;Control&gt;F2" type="string" value="workspace_2_key"/>
+      <property name="&lt;Control&gt;F2" type="string" value=""/>
       <property name="&lt;Control&gt;F3" type="string" value="workspace_3_key"/>
       <property name="&lt;Control&gt;F4" type="string" value="workspace_4_key"/>
       <property name="&lt;Control&gt;F5" type="string" value="workspace_5_key"/>

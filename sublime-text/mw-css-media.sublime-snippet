@@ -7,7 +7,7 @@
     <!-- Optional: Tab trigger to activate the snippet -->
     <tabTrigger>media-screen</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
-    <!-- <scope>scss</scope> -->
+    <scope>source.css</scope>
     <!-- Optional: Description to show in the menu -->
     <description>Media query screen</description>
 </snippet>

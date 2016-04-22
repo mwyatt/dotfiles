@@ -457,8 +457,8 @@
 	],
 	"file_history":
 	[
-		"/var/www/html/url/.gitignore",
 		"/var/www/html/url/package.json",
+		"/var/www/html/url/.gitignore",
 		"/var/www/html/url/index.html",
 		"/var/www/html/url/index.js",
 		"/var/www/html/url/gulpfile.js",
@@ -662,6 +662,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"console.assert(",
 			"protocol",
 			"shim",
 			"pngquant",
@@ -788,8 +789,7 @@
 			"swift",
 			"media",
 			"TYPE_BRAINTREE",
-			"1",
-			";\n"
+			"1"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1415,16 +1415,28 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "code",
+		"last_filter": "store",
 		"selected_items":
 		[
+			[
+				"store",
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"dialo",
+				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
+			],
+			[
+				"stor",
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
 			[
 				"code",
 				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
 			],
 			[
-				"store",
-				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+				"dia",
+				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
 			],
 			[
 				"codex",
@@ -1437,10 +1449,6 @@
 			[
 				"sand",
 				"/var/www/html/setting/sublime-text-workspaces/sandbox.sublime-workspace"
-			],
-			[
-				"stor",
-				"/var/www/html/sublime-workspace/store.sublime-workspace"
 			],
 			[
 				"core",
@@ -1485,14 +1493,6 @@
 			[
 				"gri",
 				"/var/www/html/sublime-workspace/grid.sublime-workspace"
-			],
-			[
-				"dialo",
-				"/var/www/html/sublime-workspace/dialogue.sublime-workspace"
-			],
-			[
-				"dia",
-				"/var/www/html/sublime-workspace/dialogue.sublime-workspace"
 			],
 			[
 				"sto",

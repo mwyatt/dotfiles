@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"color",
+				"color"
+			],
+			[
 				"product",
 				"productIdSkus"
 			],
@@ -80,9 +84,13 @@
 	"command_palette":
 	{
 		"height": 329.0,
-		"last_filter": "menu",
+		"last_filter": "clos a",
 		"selected_items":
 		[
+			[
+				"clos a",
+				"File: Close All"
+			],
 			[
 				"menu",
 				"View: Toggle Menu"
@@ -125,10 +133,39 @@
 	],
 	"file_history":
 	[
-		"/var/www/html/codex/json/structure/css.json",
-		"/var/www/html/codex/src/Controller/Index.php",
-		"/var/www/html/codex/gulpfile.js",
+		"/var/www/html/codex/css/reusable.css",
+		"/var/www/html/codex/css/settings.css",
+		"/var/www/html/codex/index.css",
 		"/var/www/html/codex/package.json",
+		"/var/www/html/codex/index.html",
+		"/var/www/html/codex/gulpfile.js",
+		"/var/www/html/codex/bin/git-gh-deploy",
+		"/var/www/html/codex/.gitignore",
+		"/var/www/html/codex/css/reset.css",
+		"/var/www/html/codex/css/common.bundle.css",
+		"/var/www/html/codex/css/button.css",
+		"/var/www/html/codex/css/general.css",
+		"/var/www/html/codex/asset/common.bundle.css",
+		"/var/www/html/codex/js/common.bundle.js",
+		"/var/www/html/codex/gulp/.csscomb.json",
+		"/var/www/html/codex/.htaccess",
+		"/var/www/html/codex/README.md",
+		"/var/www/html/codex/css/alert.css",
+		"/var/www/html/codex/css/typography.css",
+		"/var/www/html/codex/template/_installation.php",
+		"/var/www/html/codex/css/form.css",
+		"/var/www/html/codex/css/link.css",
+		"/var/www/html/codex/css/table.css",
+		"/var/www/html/codex/js/spinner.js",
+		"/var/www/html/codex/template/index.php",
+		"/var/www/html/codex/template/_reusable.php",
+		"/var/www/html/codex/node_modules/ease-component/index.js",
+		"/var/www/html/codex/index.php",
+		"/var/www/html/codex/structure.php",
+		"/var/www/html/codex/src/Controller/Index.php",
+		"/var/www/html/codex/src/structure.php",
+		"/var/www/html/codex/vendor/mwyatt/core/src/View.php",
+		"/var/www/html/codex/json/structure/css.json",
 		"/var/www/html/codex/js/utility/url.js",
 		"/var/www/html/codex/js/feedbackQueue.js",
 		"/var/www/html/codex/js/utility/getMotionEventName.js",
@@ -136,7 +173,6 @@
 		"/var/www/html/codex/js/utility/url/defaults.js",
 		"/var/www/html/codex/template/_feedbackQueue.php",
 		"/var/www/html/codex/template/_scrollTop.php",
-		"/var/www/html/codex/index.php",
 		"/var/www/html/codex/composer.json",
 		"/var/www/html/codex/settings.css",
 		"/var/www/html/codex/common.css",
@@ -224,35 +260,7 @@
 		"/var/www/html/store/trunk/mustache/admin/media/browser/file-pdf.mst",
 		"/var/www/html/store/trunk/mustache/admin/media/browser/directory.mst",
 		"/var/www/html/store/trunk/js/admin/order/single.js",
-		"/var/www/html/store/trunk/js/admin/order/all.js",
-		"/var/www/html/store/trunk/js/admin/note.js",
-		"/var/www/html/store/trunk/js/admin/features.js",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/features/create-update.tpl",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/features/create.tpl",
-		"/var/www/html/store/trunk/sass/admin/order/_list.scss",
-		"/var/www/html/store/trunk/app/skin/custom/frontend/common/footer.tpl",
-		"/var/www/html/store/trunk/js/product/single/basket-added.js",
-		"/var/www/html/store/trunk/js/product.js",
-		"/var/www/html/store/trunk/app/classes/ajax/modules/product.php",
-		"/var/www/html/store/trunk/app/skin/custom/frontend/common/_product.tpl",
-		"/var/www/html/store/trunk/js/admin/order/label.js",
-		"/var/www/html/store/trunk/js/admin/order/single/payment.js",
-		"/var/www/html/store/trunk/js/admin/order/single/summary.js",
-		"/var/www/html/store/trunk/js/checkout/previous-order-lookup.js",
-		"/var/www/html/store/trunk/initialise.php",
-		"/var/www/html/store/trunk/sass/_site.scss",
-		"/var/www/html/store/trunk/app/classes/admin/ajax/abstract/module.php",
-		"/var/www/html/store/trunk/sass/admin/_dialogue.scss",
-		"/var/www/html/store/trunk/app/classes/inventory/product/multiloader.php",
-		"/var/www/html/store/trunk/app/classes/inventory/feature.php",
-		"/var/www/html/store/trunk/app/classes/inventory.php",
-		"/var/www/html/store/trunk/administration/ajax.php",
-		"/var/www/html/store/trunk/node_modules/dialogue/dialogue.js",
-		"/var/www/html/store/trunk/js/admin/common.bundle.js",
-		"/var/www/html/store/trunk/app/classes/frontend/modules/unsubscribe.php",
-		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/showroomclearance/single.tpl",
-		"/var/www/html/store/trunk/js/helper.js",
-		"/var/www/html/store/trunk/js/form.js"
+		"/var/www/html/store/trunk/js/admin/order/all.js"
 	],
 	"find":
 	{
@@ -263,6 +271,9 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"-node_modules/, -asset/, css/",
+			"-node_modules/, -asset/, ",
+			"-node_modules/, -asset/, css/",
 			"-node_modules/, -asset/, ",
 			"-node_modules/, -asset/, sass/",
 			"-node_modules/, -asset/, sass",
@@ -296,6 +307,36 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"tint(10%)",
+			".site-heading-menu-link:hover {\n    transform: translateY(2px);\n    box-shadow: 0 1px 0 color(var(--background-color) shade(20%));\n}\n\n",
+			"site-heading-menu-link",
+			"-secondary",
+			"highlight",
+			".js",
+			"comb",
+			".nav-main-eisa-wording-container",
+			":",
+			"postcssProcesses",
+			"buffer",
+			": ",
+			"\"",
+			"Scripts can be",
+			"@if",
+			"box-sizing: content-box;",
+			"line-height",
+			"postcssCustomProperties",
+			"postcssImport",
+			"postcssCustomProperties",
+			"postcssHexrgba",
+			"postcssConditionals",
+			"postcssConditional",
+			"postcssConditionals",
+			"condition",
+			"js-smooth-scroll",
+			"Fac",
+			"postcss",
+			"view",
+			":",
 			"options",
 			"link-primary",
 			"focus",
@@ -393,37 +434,7 @@
 			"page-warranty-shield-container",
 			"js-product-single-button-group",
 			".media-browser-layout-grid .media-browser-file-container {",
-			".media-browser-layout-grid .media-browser-file-container",
-			"Information",
-			"contentType: false",
-			"300",
-			" Feedback",
-			"Feedback",
-			"mediaBrowser.getDirectory",
-			"'Ok'",
-			"prepareUpload",
-			"watch",
-			"copy-js",
-			"copy-image-admin",
-			"copy-image-site",
-			"const",
-			"imagemin",
-			"media-browser-file-container",
-			"commonMedia",
-			"deleteDirectory",
-			"js-container",
-			"padding: 2em;",
-			"body",
-			"zebra",
-			"sourcemaps",
-			".is-order-desc {",
-			"body {",
-			".grid-container {",
-			"padding",
-			"grid",
-			".grid-row",
-			"body {",
-			".container"
+			".media-browser-layout-grid .media-browser-file-container"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -527,8 +538,176 @@
 		"selected_items":
 		[
 			[
+				"reusa",
+				"css/reusable.css"
+			],
+			[
+				"inde",
+				"index.css"
+			],
+			[
+				"sett",
+				"css/settings.css"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"bin/",
+				"bin/git-gh-deploy"
+			],
+			[
 				"index",
+				"index.html"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"giti",
+				".gitignore"
+			],
+			[
+				"gitig",
+				".gitignore"
+			],
+			[
+				"ign",
+				".gitignore"
+			],
+			[
+				"setting",
+				"css/settings.css"
+			],
+			[
+				"button",
+				"css/button.css"
+			],
+			[
+				"common",
+				"css/common.bundle.css"
+			],
+			[
+				"commonbun",
+				"js/common.bundle.js"
+			],
+			[
+				"rese",
+				"css/reset.css"
+			],
+			[
+				"ine",
+				"index.css"
+			],
+			[
+				"csscomb",
+				"gulp/.csscomb.json"
+			],
+			[
+				"htacc",
+				".htaccess"
+			],
+			[
+				"readme",
+				"README.md"
+			],
+			[
+				"css/",
+				"css/alert.css"
+			],
+			[
+				"typog",
+				"css/typography.css"
+			],
+			[
+				"",
+				"css/typography.css"
+			],
+			[
+				"typo",
+				"css/typography.css"
+			],
+			[
+				"form",
+				"css/form.css"
+			],
+			[
+				"li",
+				"css/link.css"
+			],
+			[
+				"table",
+				"css/table.css"
+			],
+			[
+				"link",
+				"css/link.css"
+			],
+			[
+				"spinner",
+				"js/spinner.js"
+			],
+			[
+				"csssetting",
+				"css/settings.css"
+			],
+			[
+				"reua",
+				"css/reusable.css"
+			],
+			[
+				"comm",
+				"css/common.bundle.css"
+			],
+			[
+				"gulpf",
+				"gulpfile.js"
+			],
+			[
+				"pakca",
+				"package.json"
+			],
+			[
+				"commonjs",
+				"js/common.bundle.js"
+			],
+			[
+				"reusab",
+				"template/_reusable.php"
+			],
+			[
+				"reus",
+				"css/reusable.css"
+			],
+			[
+				"commonbund",
+				"css/common.bundle.css"
+			],
+			[
+				"struc",
+				"structure.php"
+			],
+			[
+				"controlinde",
 				"src/Controller/Index.php"
+			],
+			[
+				"teminde",
+				"template/index.php"
+			],
+			[
+				"structure",
+				"json/structure/css.json"
+			],
+			[
+				"reset",
+				"css/reset.css"
 			],
 			[
 				"strucutre",
@@ -545,14 +724,6 @@
 			[
 				"url",
 				"js/utility/url.js"
-			],
-			[
-				"gulp",
-				"gulpfile.js"
-			],
-			[
-				"packa",
-				"package.json"
 			],
 			[
 				"test",
@@ -575,24 +746,8 @@
 				"composer.json"
 			],
 			[
-				"setting",
-				"settings.css"
-			],
-			[
-				"common",
-				"common.css"
-			],
-			[
 				"mixin",
 				"mixin.css"
-			],
-			[
-				"reusa",
-				"reusable.css"
-			],
-			[
-				"",
-				"feedback-queue.css"
 			],
 			[
 				"feed",
@@ -751,10 +906,6 @@
 				"app/classes/frontend/modules/createaccount.php"
 			],
 			[
-				"htacc",
-				".htaccess"
-			],
-			[
 				"frontmodacc",
 				"app/classes/frontend/modules/account.php"
 			],
@@ -843,10 +994,6 @@
 				"app/config/config.php"
 			],
 			[
-				"inde",
-				"index.php"
-			],
-			[
 				"commmedia",
 				"app/classes/common/media.php"
 			],
@@ -901,142 +1048,6 @@
 			[
 				"mediabrows",
 				"trunk/js/admin/mediaBrowser.js"
-			],
-			[
-				"pakca",
-				"trunk/package.json"
-			],
-			[
-				"dialoguescss",
-				"trunk/sass/admin/_dialogue.scss"
-			],
-			[
-				"dialogu.js",
-				"trunk/node_modules/dialogue/dialogue.js"
-			],
-			[
-				"mediabrowjs",
-				"trunk/js/admin/mediaBrowser.js"
-			],
-			[
-				"media",
-				"trunk/app/classes/common/media.php"
-			],
-			[
-				"inve",
-				"trunk/app/classes/inventory.php"
-			],
-			[
-				"prodmultiload",
-				"trunk/app/classes/inventory/product/multiloader.php"
-			],
-			[
-				"adminajax",
-				"trunk/administration/ajax.php"
-			],
-			[
-				"adminproductjs",
-				"trunk/js/admin/product/single.js"
-			],
-			[
-				"unsubscribe",
-				"trunk/app/classes/frontend/modules/unsubscribe.php"
-			],
-			[
-				"mediabrowser",
-				"trunk/js/admin/mediaBrowser.js"
-			],
-			[
-				"ajaxmediabrow",
-				"trunk/app/classes/admin/ajax/modules/mediabrowser.php"
-			],
-			[
-				"showroomclear",
-				"trunk/app/skin/custom/frontend/modules/showroomclearance/single.tpl"
-			],
-			[
-				"adminajax.php",
-				"trunk/administration/ajax.php"
-			],
-			[
-				"ajax.php",
-				"trunk/administration/ajax.php"
-			],
-			[
-				"helper",
-				"trunk/js/helper.js"
-			],
-			[
-				"formjs",
-				"trunk/js/form.js"
-			],
-			[
-				"admincommonbun",
-				"trunk/js/admin/common.bundle.js"
-			],
-			[
-				"jscommonjs",
-				"trunk/js/common.bundle.js"
-			],
-			[
-				"commonjs",
-				"trunk/asset/admin/common.js"
-			],
-			[
-				"adminajaxabsmod",
-				"trunk/app/classes/admin/ajax/abstract/module.php"
-			],
-			[
-				"compos",
-				"trunk/composer.json"
-			],
-			[
-				"codexurl",
-				"trunk/node_modules/codex/utility/url.js"
-			],
-			[
-				"adminfooter",
-				"trunk/app/skin/custom/admin/common/footer.tpl"
-			],
-			[
-				"allbundle",
-				"trunk/js/admin/advanced-search/all.bundle.js"
-			],
-			[
-				"adminmediabro",
-				"trunk/js/admin/mediaBrowser.js"
-			],
-			[
-				"adminmediabrow",
-				"trunk/js/admin/mediaBrowser.js"
-			],
-			[
-				"basketjs",
-				"trunk/js/basket.js"
-			],
-			[
-				"globaljs",
-				"trunk/js/global.js"
-			],
-			[
-				"producjs",
-				"trunk/js/product.js"
-			],
-			[
-				"resetsc",
-				"trunk/sass/_reset.scss"
-			],
-			[
-				"admincommon",
-				"trunk/asset/admin/common.js"
-			],
-			[
-				"advancedse",
-				"trunk/app/classes/frontend/modules/advancedsearch.php"
-			],
-			[
-				"jqbundle",
-				"trunk/asset/jqueryBundle.js"
 			]
 		],
 		"width": 0.0
@@ -1049,6 +1060,30 @@
 		[
 			[
 				"",
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"store",
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"core",
+				"/var/www/html/setting/sublime-text-workspaces/core.sublime-workspace"
+			],
+			[
+				"sor",
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"elt",
+				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"sto",
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"urk",
 				"/var/www/html/setting/sublime-text-workspaces/url.sublime-workspace"
 			],
 			[
@@ -1064,27 +1099,11 @@
 				"/var/www/html/setting/sublime-text-workspaces/sandbox.sublime-workspace"
 			],
 			[
-				"store",
-				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
-			],
-			[
-				"core",
-				"/var/www/html/sublime-workspace/core.sublime-workspace"
-			],
-			[
-				"sto",
-				"/var/www/html/sublime-workspace/store.sublime-workspace"
-			],
-			[
 				"grid",
 				"/var/www/html/sublime-workspace/grid.sublime-workspace"
 			],
 			[
 				"el",
-				"/var/www/html/sublime-workspace/elttl.sublime-workspace"
-			],
-			[
-				"elt",
 				"/var/www/html/sublime-workspace/elttl.sublime-workspace"
 			],
 			[

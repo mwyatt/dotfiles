@@ -81,13 +81,27 @@
 	],
 	"file_history":
 	[
-		"/var/www/html/dialogue/dialogue.js",
+		"/var/www/html/dialogue/index.css",
+		"/var/www/html/dialogue/package.json",
+		"/var/www/html/dialogue/css/common.bundle.css",
+		"/var/www/html/dialogue/css/default.css",
+		"/var/www/html/dialogue/template/index.php",
 		"/var/www/html/dialogue/index.php",
+		"/var/www/html/dialogue/index.js",
+		"/var/www/html/dialogue/vendor/mwyatt/core/index.php",
+		"/var/www/html/dialogue/index.html",
+		"/etc/apache2/mods-enabled/dir.conf",
+		"/var/www/html/dialogue/src/Controller/Index.php",
+		"/var/www/html/dialogue/composer.json",
+		"/var/www/html/dialogue/js/common.bundle.js",
+		"/var/www/html/dialogue/testedOn.json",
+		"/var/www/html/dialogue/js/dialogue.js",
+		"/etc/apache2/sites-available/default-ssl.conf",
+		"/var/www/html/dialogue/dialogue.js",
 		"/var/www/html/dialogue/dialogue.css",
 		"/var/www/html/dialogue/common.js",
 		"/var/www/html/dialogue/README.md",
 		"/var/www/html/dialogue/common.css",
-		"/var/www/html/dialogue/package.json",
 		"/home/martin/.config/sublime-text-3/Packages/User/JavaScript.sublime-settings",
 		"/home/martin/.config/sublime-text-3/Packages/User/CSS.sublime-settings",
 		"/var/www/html/dialogue/gulpfile.js",
@@ -194,18 +208,7 @@
 		"/var/www/html/store/trunk/js/equalHeight.js",
 		"/var/www/html/store/trunk/js/admin/vendor/grid.locale-en.js",
 		"/var/www/html/store/trunk/js/checkout/braintree.bundle.js",
-		"/var/www/html/store/trunk/js/home.js",
-		"/var/www/html/store/trunk/node_modules/jquery-ui/jquery-ui.js",
-		"/var/www/html/store/trunk/sass/common.scss",
-		"/var/www/html/store/trunk/app/config/config.php",
-		"/var/www/html/inventory/public_html/index.php",
-		"/var/www/html/inventory/src/php/Router.php",
-		"/var/www/html/inventory/public_html/.htaccess",
-		"/var/www/html/inventory/src/sass/screen.scss",
-		"/var/www/html/inventory/gulpfile.js",
-		"/var/www/html/inventory/package.json",
-		"/var/www/html/inventory/node_modules/codex/common.bundle.css",
-		"/var/www/html/inventory/config/config.php"
+		"/var/www/html/store/trunk/js/home.js"
 	],
 	"find":
 	{
@@ -240,6 +243,10 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			".call",
+			":",
+			": ",
+			"router",
 			"onComplete",
 			"frame",
 			"onComplete",
@@ -363,11 +370,7 @@
 			"require('admin/vendor/grid.locale-en');",
 			"admin/vendor/grid",
 			"./exception",
-			"./exception'",
-			"./exception",
-			"./single",
-			"admin/exception",
-			"'admin/exception"
+			"./exception'"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -470,16 +473,60 @@
 		"selected_items":
 		[
 			[
+				"index",
+				"index.css"
+			],
+			[
+				"defau",
+				"css/default.css"
+			],
+			[
+				"common",
+				"css/common.bundle.css"
+			],
+			[
+				"pacak",
+				"package.json"
+			],
+			[
+				"template/",
+				"template/index.php"
+			],
+			[
+				"index.php",
+				"index.php"
+			],
+			[
+				"",
+				"package.json"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"teste",
+				"testedOn.json"
+			],
+			[
+				"dialogue",
+				"js/dialogue.js"
+			],
+			[
+				"compos",
+				"composer.json"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
 				"dialo",
 				"dialogue.js"
 			],
 			[
 				"dilo",
 				"dialogue.js"
-			],
-			[
-				"index",
-				"index.php"
 			],
 			[
 				"dialog",
@@ -502,16 +549,8 @@
 				"dialogue.js"
 			],
 			[
-				"packa",
-				"package.json"
-			],
-			[
 				"gulp",
 				"gulpfile.js"
-			],
-			[
-				"common",
-				"common.css"
 			],
 			[
 				"mustach",
@@ -524,10 +563,6 @@
 			[
 				"pakca",
 				"trunk/package.json"
-			],
-			[
-				"",
-				"trunk/js/admin/mediaBrowser.js"
 			],
 			[
 				"dialoguescss",
@@ -620,10 +655,6 @@
 			[
 				"url",
 				"trunk/js/utility/url.js"
-			],
-			[
-				"compos",
-				"trunk/composer.json"
 			],
 			[
 				"codexurl",
@@ -763,20 +794,32 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "store",
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
+				"gri",
+				"/var/www/html/setting/sublime-text-workspaces/grid.sublime-workspace"
+			],
 			[
 				"store",
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
-				"",
-				"/var/www/html/sublime-workspace/grid.sublime-workspace"
+				"code",
+				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
+				"stoe",
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
 				"grid",
-				"/var/www/html/sublime-workspace/grid.sublime-workspace"
+				"/var/www/html/setting/sublime-text-workspaces/grid.sublime-workspace"
 			],
 			[
 				"dialo",
@@ -811,20 +854,12 @@
 				"/var/www/html/sublime-project/core.sublime-workspace"
 			],
 			[
-				"code",
-				"/var/www/html/codex/codex.sublime-project"
-			],
-			[
 				"sto",
 				"/var/www/html/sublime-project/store.sublime-project"
 			],
 			[
 				"inv",
 				"/var/www/html/sublime-project/inventory.sublime-project"
-			],
-			[
-				"gri",
-				"/var/www/html/grid/grid.sublime-project"
 			],
 			[
 				"g",

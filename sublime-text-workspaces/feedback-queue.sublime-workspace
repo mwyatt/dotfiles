@@ -461,8 +461,15 @@
 	],
 	"file_history":
 	[
+		"/var/www/html/feedback-queue/package.json",
+		"/var/www/html/feedback-queue/css/common.bundle.css",
+		"/var/www/html/feedback-queue/index.css",
+		"/var/www/html/feedback-queue/css/theme/default.css",
 		"/var/www/html/feedback-queue/index.js",
 		"/var/www/html/feedback-queue/getMotionEventName.js",
+		"/var/www/html/feedback-queue/index.html",
+		"/var/www/html/feedback-queue/js/common.bundle.js",
+		"/var/www/html/feedback-queue/css/feedback-queue.css",
 		"/var/www/html/url/.gitignore",
 		"/var/www/html/url/package.json",
 		"/var/www/html/url/index.html",
@@ -581,14 +588,7 @@
 		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/checkout/single/_form.tpl",
 		"/var/www/html/store/trunk/app/classes/frontend/payment/pay4later.php",
 		"/var/www/html/store/trunk/app/classes/inventory/order/address.php",
-		"/var/www/html/store/trunk/app/classes/inventory/order.php",
-		"/var/www/html/store/trunk/app/classes/frontend/modules/checkout.php",
-		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/checkout/single.tpl",
-		"/var/www/html/store/trunk/js/finance.js",
-		"/var/www/html/store/trunk/app/classes/ajax/modules/pay4laterinit.php",
-		"/var/www/html/store/trunk/app/classes/frontend/modules/checkout/pay4laterapi.php",
-		"/var/www/html/store/trunk/app/classes/frontend/payment/braintree.php",
-		"/var/www/html/store/trunk/app/classes/inventory/product.php"
+		"/var/www/html/store/trunk/app/classes/inventory/order.php"
 	],
 	"find":
 	{
@@ -599,6 +599,7 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"-node_modules/, -asset/, -vendor/, feedback-queue.css",
 			"-node_modules/, -asset/, -vendor/",
 			"-node_modules/, -asset/, -vendor/, sass/",
 			"-node_modules/, -asset/, -vendor/",
@@ -666,6 +667,9 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"keyframe",
+			"/\\*var\\((.*?)\\)\\*/",
+			"var\\((.*?)\\)",
 			"getMotionEventName",
 			"$",
 			"protocol",
@@ -790,17 +794,15 @@
 			"\n\n",
 			"(",
 			"),(",
-			"swiftmail",
-			"swift",
-			"media",
-			"TYPE_BRAINTREE"
+			"swiftmail"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": true,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
+			"var($1)",
 			"@if $site == 'avo' {font-weight: 100;} else {font-weight: 400;}",
 			"require('mwyatt-grid')",
 			"templateSingle: require('feedbackQueueSingleMst')",
@@ -902,8 +904,16 @@
 		"selected_items":
 		[
 			[
-				"i",
-				"index.js"
+				"themedefa",
+				"css/theme/default.css"
+			],
+			[
+				"themede",
+				"css/theme/default.css"
+			],
+			[
+				"common",
+				"css/common.bundle.css"
 			],
 			[
 				"packa",
@@ -911,6 +921,22 @@
 			],
 			[
 				"index",
+				"index.js"
+			],
+			[
+				"getmot",
+				"getMotionEventName.js"
+			],
+			[
+				"bund",
+				"js/common.bundle.js"
+			],
+			[
+				"feed",
+				"css/feedback-queue.css"
+			],
+			[
+				"i",
 				"index.js"
 			],
 			[
@@ -1388,30 +1414,6 @@
 			[
 				"ajaxbraintrans",
 				"trunk/app/classes/ajax/modules/braintree/transaction.php"
-			],
-			[
-				"invcountr",
-				"trunk/app/classes/inventory/country.php"
-			],
-			[
-				"storagecount",
-				"trunk/app/classes/storage/country.php"
-			],
-			[
-				"paymentbraintree",
-				"trunk/app/classes/frontend/payment/braintree.php"
-			],
-			[
-				"ajaxbraintrtran",
-				"trunk/app/classes/ajax/modules/braintree/transaction.php"
-			],
-			[
-				"frontmodchecksingl",
-				"trunk/app/skin/custom/frontend/modules/checkout/single.tpl"
-			],
-			[
-				"ajaxmodbraintr",
-				"trunk/app/classes/admin/ajax/modules/braintree.php"
 			]
 		],
 		"width": 0.0
@@ -1424,6 +1426,10 @@
 		[
 			[
 				"",
+				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
+			],
+			[
+				"code",
 				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
 			],
 			[
@@ -1432,10 +1438,6 @@
 			],
 			[
 				"codex",
-				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
-			],
-			[
-				"code",
 				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
 			],
 			[
