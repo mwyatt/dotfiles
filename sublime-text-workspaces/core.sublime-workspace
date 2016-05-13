@@ -227,6 +227,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/var/www/html/core/test/ErrorTest.php",
+			"settings":
+			{
+				"buffer_size": 256,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -235,10 +243,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 140.0,
-		"last_filter": "closea",
+		"height": 392.0,
+		"last_filter": "close",
 		"selected_items":
 		[
+			[
+				"close",
+				"File: Close All"
+			],
 			[
 				"closea",
 				"File: Close All"
@@ -260,7 +272,7 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 575.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -285,33 +297,46 @@
 	],
 	"file_history":
 	[
-		"/var/www/html/core/src/Router.php",
+		"/var/www/html/core/test/ViewTest.php",
+		"/var/www/html/core/composer.json",
+		"/var/www/html/core/index.php",
+		"/var/www/html/core/test/RouterTest.php",
 		"/var/www/html/core/src/Controller.php",
-		"/var/www/html/core/src/Url.php",
-		"/var/www/html/core/test/SessionTest.php",
-		"/var/www/html/core/src/Request.php",
-		"/var/www/html/core/phpunit.xml",
+		"/var/www/html/core/test/ControllerTest.php",
 		"/var/www/html/core/src/ObjectIterator.php",
-		"/var/www/html/core/src/RouterInterface.php",
+		"/var/www/html/core/AbstractModel.php",
+		"/var/www/html/core/src/ViewInterface.php",
+		"/var/www/html/core/src/Model/User.php",
+		"/var/www/html/core/src/ModelFactory.php",
+		"/var/www/html/core/src/UrlInterface.php",
 		"/var/www/html/core/test/ObjectIteratorTest.php",
+		"/var/www/html/core/routes.php",
+		"/var/www/html/core/src/ModelAbstract.php",
+		"/var/www/html/core/src/ServiceAbstract.php",
+		"/var/www/html/core/src/Service/User.php",
+		"/var/www/html/core/test/SessionTest.php",
+		"/var/www/html/core/phpunit.xml",
+		"/var/www/html/core/src/Mapper/User.php",
+		"/var/www/html/core/src/MapperAbstract.php",
+		"/var/www/html/core/src/Router.php",
+		"/var/www/html/core/src/RouterInterface.php",
+		"/var/www/html/core/src/View.php",
+		"/var/www/html/core/src/Error.php",
+		"/var/www/html/core/src/Url.php",
+		"/var/www/html/core/src/Request.php",
 		"/var/www/html/core/example-sort.php",
 		"/var/www/html/core/error.txt",
-		"/var/www/html/core/routes.php",
-		"/var/www/html/core/test/RouterTest.php",
 		"/var/www/html/core/test/UrlTest.php",
-		"/var/www/html/core/src/MapperAbstract.php",
 		"/var/www/html/core/config.php",
 		"/var/www/html/core/test/MailTest.php",
 		"/var/www/html/core/src/MailInterface.php",
 		"/var/www/html/core/src/Mail.php",
-		"/var/www/html/core/index.php",
 		"/var/www/html/core/.gitignore",
 		"/var/www/html/core/src/Cache.php",
 		"/var/www/html/core/config-sample.php",
 		"/var/www/html/core/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Message.php",
 		"/var/www/html/core/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleMessage.php",
 		"/var/www/html/core/test/ErrorTest.php",
-		"/var/www/html/core/src/Error.php",
 		"/var/www/html/core/src/ObjectIteratorInterface.php",
 		"/var/www/html/core/test/DatabaseTest.php",
 		"/var/www/html/core/test/UtilityObjectIteratorTest.php",
@@ -319,23 +344,15 @@
 		"/var/www/html/core/src/CacheInterface.php",
 		"/var/www/html/core/cache/.gitignore",
 		"/var/www/html/core/test/CacheTest.php",
-		"/var/www/html/core/src/Model/User.php",
 		"/var/www/html/core/test/ModelTest.php",
 		"/var/www/html/core/src/ModelInterface.php",
-		"/var/www/html/core/src/ModelFactory.php",
-		"/var/www/html/core/src/ModelAbstract.php",
 		"/var/www/html/core/test/ServiceTest.php",
-		"/var/www/html/core/src/Mapper/User.php",
 		"/var/www/html/core/sql/user.sql",
-		"/var/www/html/core/src/Service/User.php",
-		"/var/www/html/core/src/ServiceAbstract.php",
 		"/var/www/html/core/src/Helper.php",
 		"/var/www/html/core/src/Database/Pdo.php",
 		"/var/www/html/core/src/DatabaseInterface.php",
 		"/var/www/html/core/src/Pagination.php",
 		"/var/www/html/core/src/Database.php",
-		"/var/www/html/core/composer.json",
-		"/var/www/html/core/src/View.php",
 		"/var/www/html/core/src/Controller/User.php",
 		"/var/www/html/store/trunk/js/admin/order/pick-print.js",
 		"/var/www/html/store/trunk/js/admin/order/all.js",
@@ -407,12 +424,7 @@
 		"/var/www/html/store/trunk/app/classes/admin/ajax/abstract/module.php",
 		"/var/www/html/store/trunk/app/classes/external/printer.php",
 		"/var/www/html/store/trunk/app/classes/admin/modules/order.php",
-		"/var/www/html/store/trunk/app/classes/inventory/news.php",
-		"/var/www/html/store/trunk/app/classes/storage/order.php",
-		"/var/www/html/store/trunk/js/admin/order/label.js",
-		"/var/www/html/store/trunk/app/skin/custom/admin/common/_follow-jumps.tpl",
-		"/var/www/html/store/trunk/app/skin/custom/admin/common/_follow-jump.tpl",
-		"/var/www/html/store/trunk/app/classes/inventory/order/labelloader.php"
+		"/var/www/html/store/trunk/app/classes/inventory/news.php"
 	],
 	"find":
 	{
@@ -484,6 +496,12 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"setPathBase",
+			"items",
+			"$url",
+			"\n\n\n",
+			"\n\n",
+			"public",
 			"Utility\\Object",
 			"getInlinedHtml",
 			"'<h1>example body</h1>'",
@@ -605,13 +623,7 @@
 			"masterId",
 			"$button",
 			"normal",
-			"-feedback'",
-			"Payment Error",
-			"Skipped",
-			"Mail Skipped",
-			"Mail Skippe",
-			"payment_id",
-			"payment_avs"
+			"-feedback'"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -665,8 +677,48 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/var/www/html/core/test/ErrorTest.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 256,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								126,
+								126
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -701,6 +753,10 @@
 		]
 	},
 	"menu_visible": false,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -718,6 +774,122 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"errtes",
+				"test/ErrorTest.php"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"viewtes",
+				"test/ViewTest.php"
+			],
+			[
+				"compos",
+				"composer.json"
+			],
+			[
+				"viewinter",
+				"src/ViewInterface.php"
+			],
+			[
+				"absmod",
+				"AbstractModel.php"
+			],
+			[
+				"modeluser",
+				"src/Model/User.php"
+			],
+			[
+				"interface",
+				"src/UrlInterface.php"
+			],
+			[
+				"model",
+				"src/ModelFactory.php"
+			],
+			[
+				"abstract",
+				"src/ModelAbstract.php"
+			],
+			[
+				"objecitertes",
+				"test/ObjectIteratorTest.php"
+			],
+			[
+				"objec",
+				"src/ObjectIterator.php"
+			],
+			[
+				"viewtest",
+				"test/ViewTest.php"
+			],
+			[
+				"controlltes",
+				"test/ControllerTest.php"
+			],
+			[
+				"controller",
+				"src/Controller.php"
+			],
+			[
+				"route",
+				"routes.php"
+			],
+			[
+				"routetes",
+				"test/RouterTest.php"
+			],
+			[
+				"compoer",
+				"composer.json"
+			],
+			[
+				"serviceuser",
+				"src/Service/User.php"
+			],
+			[
+				"service",
+				"src/ServiceAbstract.php"
+			],
+			[
+				"",
+				"src/Model/User.php"
+			],
+			[
+				"maperuser",
+				"src/Mapper/User.php"
+			],
+			[
+				"php",
+				"phpunit.xml"
+			],
+			[
+				"session.php",
+				"test/SessionTest.php"
+			],
+			[
+				"router",
+				"src/Router.php"
+			],
+			[
+				"routerinter",
+				"src/RouterInterface.php"
+			],
+			[
+				"view",
+				"src/View.php"
+			],
+			[
+				"viewiner",
+				"src/ViewInterface.php"
+			],
+			[
+				"error",
+				"src/Error.php"
+			],
 			[
 				"phpu",
 				"phpunit.xml"
@@ -743,18 +915,6 @@
 				"src/Url.php"
 			],
 			[
-				"controller",
-				"src/Controller.php"
-			],
-			[
-				"router",
-				"src/Router.php"
-			],
-			[
-				"routerinter",
-				"src/RouterInterface.php"
-			],
-			[
 				"objectiter",
 				"test/ObjectIteratorTest.php"
 			],
@@ -763,20 +923,8 @@
 				"example-sort.php"
 			],
 			[
-				"error",
-				"error.txt"
-			],
-			[
-				"",
-				"test/RouterTest.php"
-			],
-			[
 				"urltes",
 				"test/UrlTest.php"
-			],
-			[
-				"route",
-				"routes.php"
 			],
 			[
 				"routes",
@@ -805,10 +953,6 @@
 			[
 				"configphp",
 				"config-sample.php"
-			],
-			[
-				"index",
-				"index.php"
 			],
 			[
 				"mailtest",
@@ -887,16 +1031,8 @@
 				"test/ModelTest.php"
 			],
 			[
-				"modeluser",
-				"src/Model/User.php"
-			],
-			[
 				"helper",
 				"src/Helper.php"
-			],
-			[
-				"serviceuser",
-				"src/Service/User.php"
 			],
 			[
 				"datbainter",
@@ -923,24 +1059,12 @@
 				"src/Pagination.php"
 			],
 			[
-				"service",
-				"src/ServiceAbstract.php"
-			],
-			[
 				"database",
 				"src/Database.php"
 			],
 			[
-				"compos",
-				"composer.json"
-			],
-			[
 				"databasetest",
 				"test/DatabaseTest.php"
-			],
-			[
-				"php",
-				"phpunit.xml"
 			],
 			[
 				"control",
@@ -953,10 +1077,6 @@
 			[
 				"controlleruser",
 				"src/Controller/User.php"
-			],
-			[
-				"view",
-				"src/View.php"
 			],
 			[
 				"servabs",
@@ -1165,70 +1285,6 @@
 			[
 				"orderrow",
 				"trunk/app/skin/custom/admin/modules/order/_order-row.tpl"
-			],
-			[
-				"ajaxbraintr",
-				"trunk/app/classes/admin/ajax/modules/braintree.php"
-			],
-			[
-				"braintran",
-				"trunk/app/classes/ajax/modules/braintree/transaction.php"
-			],
-			[
-				"adminorderscss",
-				"trunk/sass/admin/order/_list.scss"
-			],
-			[
-				"abstrac",
-				"trunk/app/classes/storage/abstract.php"
-			],
-			[
-				"invorder",
-				"trunk/app/classes/inventory/order.php"
-			],
-			[
-				"admininbox",
-				"trunk/app/classes/admin/modules/inbox.php"
-			],
-			[
-				"invorderadd",
-				"trunk/app/classes/inventory/order/address.php"
-			],
-			[
-				"emailorder/",
-				"trunk/app/skin/custom/emails/order/authorised.tpl"
-			],
-			[
-				"emailor",
-				"trunk/app/skin/custom/admin/modules/order/email-authorised.tpl"
-			],
-			[
-				"emaildispatch",
-				"trunk/app/skin/custom/emails/order/dispatch.tpl"
-			],
-			[
-				"ordermultilo",
-				"trunk/app/classes/inventory/order/multiloader.php"
-			],
-			[
-				"utilurl",
-				"trunk/js/utility/url.js"
-			],
-			[
-				"packa",
-				"trunk/package.json"
-			],
-			[
-				"ajaxabstract",
-				"trunk/app/classes/admin/ajax/abstract/module.php"
-			],
-			[
-				"pickp",
-				"trunk/js/admin/order/pick-print.js"
-			],
-			[
-				"externalprint",
-				"trunk/app/classes/external/printer.php"
 			]
 		],
 		"width": 0.0
@@ -1236,32 +1292,48 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "elt",
 		"selected_items":
 		[
 			[
-				"",
-				"/var/www/html/setting/sublime-text-workspaces/feedback-queue.sublime-workspace"
-			],
-			[
-				"eltt",
-				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
-			],
-			[
 				"elt",
 				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"",
+				"/var/www/html/setting/sublime-text-workspaces/portfolio.sublime-workspace"
 			],
 			[
 				"code",
 				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
 			],
 			[
-				"inv",
-				"/var/www/html/setting/sublime-text-workspaces/inventory.sublime-workspace"
+				"port",
+				"/var/www/html/setting/sublime-text-workspaces/portfolio.sublime-workspace"
+			],
+			[
+				"eltt",
+				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
 			],
 			[
 				"store",
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"core",
+				"/var/www/html/setting/sublime-text-workspaces/core.sublime-workspace"
+			],
+			[
+				"stor",
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"sand",
+				"/var/www/html/setting/sublime-text-workspaces/sandbox.sublime-workspace"
+			],
+			[
+				"inv",
+				"/var/www/html/setting/sublime-text-workspaces/inventory.sublime-workspace"
 			],
 			[
 				"url",
@@ -1296,10 +1368,6 @@
 				"/var/www/html/sublime-workspace/store.sublime-workspace"
 			],
 			[
-				"stor",
-				"/var/www/html/sublime-workspace/store.sublime-workspace"
-			],
-			[
 				"diao",
 				"/var/www/html/sublime-workspace/dialogue.sublime-workspace"
 			],
@@ -1308,20 +1376,12 @@
 				"/var/www/html/sublime-workspace/dialogue.sublime-workspace"
 			],
 			[
-				"sand",
-				"/var/www/html/sublime-workspace/sandbox.sublime-workspace"
-			],
-			[
 				"st",
 				"/var/www/html/sublime-workspace/store.sublime-workspace"
 			],
 			[
 				"diua",
 				"/var/www/html/sublime-workspace/dialogue.sublime-workspace"
-			],
-			[
-				"core",
-				"/var/www/html/sublime-project/core.sublime-workspace"
 			],
 			[
 				"g",

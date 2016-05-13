@@ -63,6 +63,38 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/var/www/html/inventory/src/js/stockTake.js",
+			"settings":
+			{
+				"buffer_size": 6425,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/inventory/config/route/ajax.php",
+			"settings":
+			{
+				"buffer_size": 5185,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/inventory/src/php/Controller/Ajax/StockTake.php",
+			"settings":
+			{
+				"buffer_size": 3716,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/inventory/src/sass/screen.scss",
+			"settings":
+			{
+				"buffer_size": 1545,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -118,14 +150,19 @@
 	],
 	"file_history":
 	[
+		"/var/www/html/inventory/src/php/Router.php",
+		"/var/www/html/inventory/src/sass/_message.scss",
+		"/var/www/html/inventory/config/route/admin.php",
+		"/var/www/html/inventory/src/php/Controller/Ajax/AjaxAbstract.php",
+		"/var/www/html/inventory/src/php/Controller/Admin/Index.php",
+		"/var/www/html/inventory/composer.json",
+		"/var/www/html/inventory/package.json",
 		"/var/www/html/inventory/src/sass/screen.scss",
 		"/var/www/html/inventory/src/php/Controller/Admin/Item.php",
 		"/var/www/html/inventory/src/php/ObjectIterator.php",
 		"/var/www/html/inventory/src/php/Controller/Admin/Log.php",
 		"/var/www/html/inventory/config/route/api.php",
-		"/var/www/html/inventory/config/route/admin.php",
 		"/var/www/html/inventory/src/php/Controller/Api/Printer.php",
-		"/var/www/html/inventory/package.json",
 		"/var/www/html/inventory/public_html/.htaccess",
 		"/var/www/html/inventory/docs/php/API.md",
 		"/var/www/html/inventory/src/php/Controller/Api/Label.php",
@@ -133,9 +170,7 @@
 		"/var/www/html/inventory/src/php/Controller/Ajax/Item/CompositeRule.php",
 		"/var/www/html/inventory/src/php/Controller/Ajax/Scan.php",
 		"/var/www/html/inventory/src/php/Utility/Logger.php",
-		"/var/www/html/inventory/src/php/Router.php",
 		"/var/www/html/inventory/src/php/Utility/Session.php",
-		"/var/www/html/inventory/src/php/Controller/Ajax/AjaxAbstract.php",
 		"/var/www/html/inventory/src/php/Controller/ControllerAbstract.php",
 		"/var/www/html/inventory/src/php/Controller/Ajax/Sessioncheck.php",
 		"/var/www/html/inventory/public_html/index.php",
@@ -143,7 +178,6 @@
 		"/var/www/html/inventory/src/js/main.bundle.js",
 		"/var/www/html/inventory/src/js/longPoll.js",
 		"/var/www/html/inventory/src/php/System/Handler/Session.php",
-		"/var/www/html/inventory/src/php/Controller/Admin/Index.php",
 		"/var/www/html/inventory/src/sass/_feedback-queue.scss",
 		"/var/www/html/inventory/src/php/Controller/Api/Ping.php",
 		"/var/www/html/inventory/src/php/Controller/Api/ApiAbstract.php",
@@ -243,9 +277,7 @@
 		"/var/www/html/store/trunk/.htaccess",
 		"/var/www/html/store/trunk/app/classes/frontend/modules/account.php",
 		"/var/www/html/store/trunk/app/classes/frontend/modules/product.php",
-		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/product/single.tpl",
-		"/var/www/html/store/trunk/sass/_reset.scss",
-		"/var/www/html/store/trunk/sass/page/warranty.scss"
+		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/product/single.tpl"
 	],
 	"find":
 	{
@@ -256,6 +288,7 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"-node_modules/, -asset/, -vendor/, sass/",
 			"-node_modules/, -asset/, -vendor/",
 			"-node_modules/, -asset/,",
 			"-node_modules/, -asset/, ",
@@ -291,6 +324,12 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"@extend .rounded-corners;",
+			".rounded-corners",
+			".rounded-corners {",
+			"message",
+			"pending",
+			"stock-take",
 			"->uasort(",
 			"->uasort",
 			"print/",
@@ -412,13 +451,7 @@
 			"Time Start",
 			"push_saved_data",
 			"'contents'",
-			"Confirm your order",
-			"push_saved_data",
-			"set('offline_order'",
-			"offline_order",
-			"'offline_order'",
-			"offline",
-			"->fetch"
+			"Confirm your order"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -468,8 +501,220 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/var/www/html/inventory/src/js/stockTake.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6425,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1854,
+								1854
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1096.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/var/www/html/inventory/config/route/ajax.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5185,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1146,
+								1146
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/var/www/html/inventory/src/php/Controller/Ajax/StockTake.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3716,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1384,
+								1384
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 285.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/var/www/html/inventory/src/sass/screen.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1545,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								599,
+								599
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -504,6 +749,10 @@
 		]
 	},
 	"menu_visible": false,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -522,6 +771,38 @@
 		"selected_items":
 		[
 			[
+				"router",
+				"src/php/Router.php"
+			],
+			[
+				"mesagescss",
+				"src/sass/_message.scss"
+			],
+			[
+				"ajax",
+				"config/route/ajax.php"
+			],
+			[
+				"aja",
+				"src/php/Controller/Ajax/AjaxAbstract.php"
+			],
+			[
+				"route",
+				"config/route/admin.php"
+			],
+			[
+				"stocktak",
+				"src/js/stockTake.js"
+			],
+			[
+				"composer",
+				"composer.json"
+			],
+			[
+				"pacak",
+				"package.json"
+			],
+			[
 				"screen",
 				"src/sass/screen.scss"
 			],
@@ -532,10 +813,6 @@
 			[
 				"routeapi",
 				"config/route/api.php"
-			],
-			[
-				"route",
-				"config/route/admin.php"
 			],
 			[
 				"apiprint",
@@ -596,10 +873,6 @@
 			[
 				"index",
 				"public_html/index.php"
-			],
-			[
-				"router",
-				"src/php/Router.php"
 			],
 			[
 				"controllerajax",
@@ -1008,30 +1281,6 @@
 			[
 				"frontmodacc",
 				"app/classes/frontend/modules/account.php"
-			],
-			[
-				"frontmdoacc",
-				"app/classes/frontend/modules/account.php"
-			],
-			[
-				"frontmodaccou",
-				"app/classes/frontend/modules/account.php"
-			],
-			[
-				"resetscss",
-				"sass/_reset.scss"
-			],
-			[
-				"warrantytpl",
-				"app/skin/custom/frontend/modules/page/warranty.tpl"
-			],
-			[
-				"pagewarrant",
-				"app/skin/custom/frontend/modules/page/warranty.tpl"
-			],
-			[
-				"frontmodwarr",
-				"app/classes/frontend/modules/page/warranty.php"
 			]
 		],
 		"width": 0.0
@@ -1045,6 +1294,10 @@
 			[
 				"",
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"pot",
+				"/var/www/html/setting/sublime-text-workspaces/portfolio.sublime-workspace"
 			],
 			[
 				"store",

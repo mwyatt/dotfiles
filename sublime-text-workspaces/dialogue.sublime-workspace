@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"contain",
+				"container"
+			],
+			[
+				"diamask",
+				"dialogueMask"
+			],
+			[
 				"appl",
 				"applyCss"
 			],
@@ -81,19 +89,20 @@
 	],
 	"file_history":
 	[
+		"/var/www/html/dialogue/index.js",
+		"/var/www/html/dialogue/index.html",
+		"/var/www/html/dialogue/js/common.bundle.js",
+		"/var/www/html/dialogue/css/common.bundle.css",
+		"/var/www/html/dialogue/gulpfile.js",
+		"/var/www/html/dialogue/css/default.css",
 		"/var/www/html/dialogue/index.css",
 		"/var/www/html/dialogue/package.json",
-		"/var/www/html/dialogue/css/common.bundle.css",
-		"/var/www/html/dialogue/css/default.css",
 		"/var/www/html/dialogue/template/index.php",
 		"/var/www/html/dialogue/index.php",
-		"/var/www/html/dialogue/index.js",
 		"/var/www/html/dialogue/vendor/mwyatt/core/index.php",
-		"/var/www/html/dialogue/index.html",
 		"/etc/apache2/mods-enabled/dir.conf",
 		"/var/www/html/dialogue/src/Controller/Index.php",
 		"/var/www/html/dialogue/composer.json",
-		"/var/www/html/dialogue/js/common.bundle.js",
 		"/var/www/html/dialogue/testedOn.json",
 		"/var/www/html/dialogue/js/dialogue.js",
 		"/etc/apache2/sites-available/default-ssl.conf",
@@ -104,7 +113,6 @@
 		"/var/www/html/dialogue/common.css",
 		"/home/martin/.config/sublime-text-3/Packages/User/JavaScript.sublime-settings",
 		"/home/martin/.config/sublime-text-3/Packages/User/CSS.sublime-settings",
-		"/var/www/html/dialogue/gulpfile.js",
 		"/var/www/html/dialogue/node_modules/mustache/mustache.js",
 		"/var/www/html/store/trunk/app/classes/admin/ajax/abstract/module.php",
 		"/var/www/html/store/trunk/sass/admin/_dialogue.scss",
@@ -243,6 +251,20 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"frame",
+			"getRandomString",
+			"$document.on(",
+			".on(",
+			".$container ",
+			"event.data.$container = ",
+			"event.data.$",
+			"event.data.$dialogue",
+			"classNames",
+			"applyCss",
+			"getRandomString",
+			"html",
+			"shim",
+			"ajaxConfig",
 			".call",
 			":",
 			": ",
@@ -356,21 +378,7 @@
 			"should not run",
 			"index.php",
 			"Rewrite",
-			"trunk",
-			"require('lightbox'",
-			"'lightbox'",
-			"paths",
-			"jquery",
-			"tinymce",
-			"jquer",
-			"require('admin/vendor/jqGrid');",
-			"require('./vendor/grid.locale-en');",
-			"require('./admin/vendor/grid.locale-en');",
-			"require('.admin/vendor/grid.locale-en');",
-			"require('admin/vendor/grid.locale-en');",
-			"admin/vendor/grid",
-			"./exception",
-			"./exception'"
+			"trunk"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -455,6 +463,10 @@
 		]
 	},
 	"menu_visible": false,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -473,16 +485,40 @@
 		"selected_items":
 		[
 			[
+				"common",
+				"js/common.bundle.js"
+			],
+			[
 				"index",
-				"index.css"
+				"index.html"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"combunjs",
+				"js/common.bundle.js"
+			],
+			[
+				"combun",
+				"css/common.bundle.css"
+			],
+			[
+				"indexjs",
+				"index.js"
 			],
 			[
 				"defau",
 				"css/default.css"
 			],
 			[
-				"common",
-				"css/common.bundle.css"
+				"packa",
+				"package.json"
+			],
+			[
+				"inde",
+				"index.js"
 			],
 			[
 				"pacak",
@@ -498,10 +534,6 @@
 			],
 			[
 				"",
-				"package.json"
-			],
-			[
-				"packa",
 				"package.json"
 			],
 			[
@@ -547,10 +579,6 @@
 			[
 				"dia",
 				"dialogue.js"
-			],
-			[
-				"gulp",
-				"gulpfile.js"
 			],
 			[
 				"mustach",
@@ -725,10 +753,6 @@
 				"trunk/js/product/single/ncs.js"
 			],
 			[
-				"inde",
-				"trunk/node_modules/gulp-sass/node_modules/node-sass/node_modules/sass-graph/node_modules/lodash/_assignInDefaults.js"
-			],
-			[
 				"prodsinncs",
 				"trunk/js/product/single/ncs.js"
 			],
@@ -794,28 +818,40 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "codex",
 		"selected_items":
 		[
 			[
-				"",
+				"codex",
 				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
 			],
 			[
-				"gri",
-				"/var/www/html/setting/sublime-text-workspaces/grid.sublime-workspace"
+				"",
+				"/var/www/html/setting/sublime-text-workspaces/sandbox.sublime-workspace"
+			],
+			[
+				"sand",
+				"/var/www/html/setting/sublime-text-workspaces/sandbox.sublime-workspace"
 			],
 			[
 				"store",
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
-				"code",
-				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
-			],
-			[
 				"stoe",
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"port",
+				"/var/www/html/setting/sublime-text-workspaces/portfolio.sublime-workspace"
+			],
+			[
+				"gri",
+				"/var/www/html/setting/sublime-text-workspaces/grid.sublime-workspace"
+			],
+			[
+				"code",
+				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
 			],
 			[
 				"grid",
@@ -832,14 +868,6 @@
 			[
 				"sor",
 				"/var/www/html/sublime-workspace/store.sublime-workspace"
-			],
-			[
-				"codex",
-				"/var/www/html/sublime-workspace/codex.sublime-workspace"
-			],
-			[
-				"sand",
-				"/var/www/html/sublime-workspace/sandbox.sublime-workspace"
 			],
 			[
 				"s",
