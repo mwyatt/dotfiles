@@ -28,9 +28,13 @@
 	"command_palette":
 	{
 		"height": 392.0,
-		"last_filter": "stat",
+		"last_filter": "close",
 		"selected_items":
 		[
+			[
+				"close",
+				"File: Close All"
+			],
 			[
 				"stat",
 				"View: Toggle Status Bar"
@@ -77,7 +81,16 @@
 	],
 	"file_history":
 	[
+		"/var/www/html/elttl/gulpfile.js",
+		"/var/www/html/elttl/package.json",
 		"/var/www/html/elttl/index.php",
+		"/var/www/html/elttl/sql/table.sql",
+		"/var/www/html/elttl/template/_header.php",
+		"/var/www/html/elttl/js/common.bundle.js",
+		"/var/www/html/elttl/sql/2.sql",
+		"/var/www/html/elttl/src/Admin/Controller/Index.php",
+		"/var/www/html/elttl/src/Session/Form.php",
+		"/var/www/html/elttl/src/Controller/Admin.php",
 		"/var/www/html/elttl/indexAdmin.php",
 		"/var/www/html/elttl/route.php",
 		"/var/www/html/elttl/config-sample.php",
@@ -86,7 +99,6 @@
 		"/var/www/html/elttl/js/admin/tennis/fixture/single.bundle.js",
 		"/var/www/html/elttl/src/Model.php",
 		"/var/www/html/elttl/src/Json.php",
-		"/var/www/html/elttl/sql/table.sql",
 		"/var/www/html/store/trunk/js/buttonToTop.js",
 		"/var/www/html/store/trunk/js/admin/mediaBrowser/mustacheTemplates.js",
 		"/var/www/html/store/trunk/mustache/admin/media/browser/tree.mst",
@@ -196,15 +208,7 @@
 		"/var/www/html/store/trunk/js/admin/ebay.js",
 		"/var/www/html/store/trunk/js/admin/promotion.js",
 		"/var/www/html/store/trunk/js/admin/ad/all.js",
-		"/var/www/html/store/trunk/js/admin/order/create.js",
-		"/var/www/html/store/trunk/js/admin/product/associated.js",
-		"/var/www/html/store/trunk/js/news.js",
-		"/var/www/html/store/trunk/js/orderComplete.js",
-		"/var/www/html/store/trunk/js/config.js",
-		"/var/www/html/store/trunk/js/header/mainDrop.js",
-		"/var/www/html/store/trunk/js/header/search.js",
-		"/var/www/html/store/trunk/js/product/bundle.js",
-		"/var/www/html/store/trunk/js/page/return/guide.bundle.js"
+		"/var/www/html/store/trunk/js/admin/order/create.js"
 	],
 	"find":
 	{
@@ -215,6 +219,7 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"-node_modules/, -asset/, -vendor/, ",
 			"-node_modules/, -asset/, -vendor/, sass/",
 			"-node_modules/, -asset/, -vendor/",
 			"-node_modules/, -asset/, ",
@@ -241,6 +246,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"anchor-scroll",
 			"container",
 			"container\n",
 			"$router",
@@ -367,8 +373,7 @@
 			"$('.js-media-attached').html(mustache.render(mustacheMediaBrowserFile, {urlBase: url.getUrlBase(), files: filesAttached}));",
 			"{urlBase: url.getUrlBase(), files",
 			"libs",
-			"copy-tinymce-plugins",
-			"'copy-js'"
+			"copy-tinymce-plugins"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -454,6 +459,10 @@
 		]
 	},
 	"menu_visible": false,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -472,12 +481,48 @@
 		"selected_items":
 		[
 			[
-				"indexad",
-				"indexAdmin.php"
+				"sql",
+				"sql/2.sql"
+			],
+			[
+				".sql",
+				"sql/table.sql"
 			],
 			[
 				"index",
 				"index.php"
+			],
+			[
+				"header",
+				"template/_header.php"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"sessform",
+				"src/Session/Form.php"
+			],
+			[
+				"admincontrollerindex",
+				"src/Admin/Controller/Index.php"
+			],
+			[
+				"controlleradmin",
+				"src/Controller/Admin.php"
+			],
+			[
+				"indexad",
+				"indexAdmin.php"
 			],
 			[
 				"route",
@@ -518,10 +563,6 @@
 			[
 				"inex",
 				"index.php"
-			],
-			[
-				".sql",
-				"sql/table.sql"
 			],
 			[
 				"erro",
@@ -580,10 +621,6 @@
 				"js/product/single/basket-added.js"
 			],
 			[
-				"gulp",
-				"gulpfile.js"
-			],
-			[
 				"baskadded",
 				"js/product/single/basket-added.js"
 			],
@@ -594,10 +631,6 @@
 			[
 				"initial",
 				"initialise.php"
-			],
-			[
-				"packa",
-				"package.json"
 			],
 			[
 				"mediabrows",
@@ -838,6 +871,18 @@
 		[
 			[
 				"",
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"port",
+				"/var/www/html/setting/sublime-text-workspaces/portfolio.sublime-workspace"
+			],
+			[
+				"store",
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"core",
 				"/var/www/html/setting/sublime-text-workspaces/core.sublime-workspace"
 			],
 			[
@@ -849,16 +894,8 @@
 				"/var/www/html/sublime-workspace/dialogue.sublime-workspace"
 			],
 			[
-				"store",
-				"/var/www/html/sublime-project/store.sublime-project"
-			],
-			[
 				"dialo",
 				"/var/www/html/sublime-project/dialogue.sublime-workspace"
-			],
-			[
-				"core",
-				"/var/www/html/sublime-project/core.sublime-workspace"
 			],
 			[
 				"grid",
