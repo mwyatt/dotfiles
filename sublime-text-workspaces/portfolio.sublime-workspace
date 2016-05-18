@@ -1863,9 +1863,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "codex",
 		"selected_items":
 		[
+			[
+				"codex",
+				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
+			],
 			[
 				"",
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
@@ -1893,10 +1897,6 @@
 			[
 				"core",
 				"/var/www/html/setting/sublime-text-workspaces/core.sublime-workspace"
-			],
-			[
-				"codex",
-				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
 			],
 			[
 				"dialog",

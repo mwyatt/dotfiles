@@ -81,19 +81,23 @@
 	],
 	"file_history":
 	[
+		"/var/www/html/elttl/indexAdmin.php",
+		"/var/www/html/elttl/index.php",
+		"/var/www/html/elttl/src/Admin/Controller/Index.php",
+		"/var/www/html/elttl/src/Admin/Service/User.php",
+		"/var/www/html/elttl/src/Admin/Session/User.php",
+		"/var/www/html/elttl/src/Session.php",
+		"/var/www/html/elttl/src/Controller/Admin.php",
+		"/var/www/html/elttl/routeAdmin.php",
+		"/var/www/html/elttl/config-sample.php",
 		"/var/www/html/elttl/gulpfile.js",
 		"/var/www/html/elttl/package.json",
-		"/var/www/html/elttl/index.php",
 		"/var/www/html/elttl/sql/table.sql",
 		"/var/www/html/elttl/template/_header.php",
 		"/var/www/html/elttl/js/common.bundle.js",
 		"/var/www/html/elttl/sql/2.sql",
-		"/var/www/html/elttl/src/Admin/Controller/Index.php",
 		"/var/www/html/elttl/src/Session/Form.php",
-		"/var/www/html/elttl/src/Controller/Admin.php",
-		"/var/www/html/elttl/indexAdmin.php",
 		"/var/www/html/elttl/route.php",
-		"/var/www/html/elttl/config-sample.php",
 		"/var/www/html/elttl/vendor/mwyatt/core/config-sample.php",
 		"/var/www/html/elttl/src/Error.php",
 		"/var/www/html/elttl/js/admin/tennis/fixture/single.bundle.js",
@@ -204,11 +208,7 @@
 		"/var/www/html/store/trunk/js/finance.js",
 		"/var/www/html/store/trunk/js/contact.js",
 		"/var/www/html/store/trunk/node_modules/gulp-sass/node_modules/node-sass/node_modules/sass-graph/node_modules/lodash/_assignInDefaults.js",
-		"/var/www/html/store/trunk/js/checkout.js",
-		"/var/www/html/store/trunk/js/admin/ebay.js",
-		"/var/www/html/store/trunk/js/admin/promotion.js",
-		"/var/www/html/store/trunk/js/admin/ad/all.js",
-		"/var/www/html/store/trunk/js/admin/order/create.js"
+		"/var/www/html/store/trunk/js/checkout.js"
 	],
 	"find":
 	{
@@ -246,6 +246,10 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"router",
+			"redirect",
+			" . ",
+			"routeCurrent",
 			"anchor-scroll",
 			"container",
 			"container\n",
@@ -369,11 +373,7 @@
 			"getRequestBody",
 			"STATUS_SUCCESS",
 			"url",
-			"getUrlBase",
-			"$('.js-media-attached').html(mustache.render(mustacheMediaBrowserFile, {urlBase: url.getUrlBase(), files: filesAttached}));",
-			"{urlBase: url.getUrlBase(), files",
-			"libs",
-			"copy-tinymce-plugins"
+			"getUrlBase"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -481,16 +481,56 @@
 		"selected_items":
 		[
 			[
+				"index",
+				"index.php"
+			],
+			[
+				"indexadmin",
+				"indexAdmin.php"
+			],
+			[
+				"session",
+				"src/Session.php"
+			],
+			[
+				"sessuser",
+				"src/Admin/Session/User.php"
+			],
+			[
+				"servuser",
+				"src/Admin/Service/User.php"
+			],
+			[
+				"admincontroller.php",
+				"src/Admin/Controller/Index.php"
+			],
+			[
+				"controlleradmin",
+				"src/Controller/Admin.php"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"config",
+				"config-sample.php"
+			],
+			[
+				"",
+				"indexAdmin.php"
+			],
+			[
+				"routeadmin",
+				"routeAdmin.php"
+			],
+			[
 				"sql",
 				"sql/2.sql"
 			],
 			[
 				".sql",
 				"sql/table.sql"
-			],
-			[
-				"index",
-				"index.php"
 			],
 			[
 				"header",
@@ -517,10 +557,6 @@
 				"src/Admin/Controller/Index.php"
 			],
 			[
-				"controlleradmin",
-				"src/Controller/Admin.php"
-			],
-			[
 				"indexad",
 				"indexAdmin.php"
 			],
@@ -531,18 +567,6 @@
 			[
 				"confgi",
 				"vendor/mwyatt/core/config-sample.php"
-			],
-			[
-				"config",
-				"config-sample.php"
-			],
-			[
-				"indexadmin",
-				"indexAdmin.php"
-			],
-			[
-				"inde",
-				"index.php"
 			],
 			[
 				"error",
@@ -583,10 +607,6 @@
 			[
 				"medbmusta",
 				"js/admin/mediaBrowser/mustacheTemplates.js"
-			],
-			[
-				"",
-				"Find Results"
 			],
 			[
 				"layoutcontrol",
@@ -876,6 +896,10 @@
 			[
 				"port",
 				"/var/www/html/setting/sublime-text-workspaces/portfolio.sublime-workspace"
+			],
+			[
+				"sor",
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
 				"store",

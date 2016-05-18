@@ -40,9 +40,13 @@
 	"command_palette":
 	{
 		"height": 392.0,
-		"last_filter": "men",
+		"last_filter": "close",
 		"selected_items":
 		[
+			[
+				"close",
+				"File: Close All"
+			],
 			[
 				"men",
 				"View: Toggle Menu"
@@ -89,14 +93,15 @@
 	],
 	"file_history":
 	[
-		"/var/www/html/dialogue/index.js",
 		"/var/www/html/dialogue/index.html",
 		"/var/www/html/dialogue/js/common.bundle.js",
+		"/var/www/html/dialogue/index.js",
 		"/var/www/html/dialogue/css/common.bundle.css",
-		"/var/www/html/dialogue/gulpfile.js",
 		"/var/www/html/dialogue/css/default.css",
-		"/var/www/html/dialogue/index.css",
 		"/var/www/html/dialogue/package.json",
+		"/var/www/html/dialogue/css/settings.css",
+		"/var/www/html/dialogue/gulpfile.js",
+		"/var/www/html/dialogue/index.css",
 		"/var/www/html/dialogue/template/index.php",
 		"/var/www/html/dialogue/index.php",
 		"/var/www/html/dialogue/vendor/mwyatt/core/index.php",
@@ -215,8 +220,7 @@
 		"/var/www/html/store/trunk/js/product/tab.js",
 		"/var/www/html/store/trunk/js/equalHeight.js",
 		"/var/www/html/store/trunk/js/admin/vendor/grid.locale-en.js",
-		"/var/www/html/store/trunk/js/checkout/braintree.bundle.js",
-		"/var/www/html/store/trunk/js/home.js"
+		"/var/www/html/store/trunk/js/checkout/braintree.bundle.js"
 	],
 	"find":
 	{
@@ -251,6 +255,15 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"dialogue2",
+			"dialogue1",
+			"Hi",
+			"codex",
+			"onComplete",
+			"<li>",
+			"span",
+			"demo",
+			"link primary",
 			"frame",
 			"getRandomString",
 			"$document.on(",
@@ -369,16 +382,7 @@
 			"jQuery",
 			"Library",
 			"1.11",
-			"require('jquery'",
-			"require('jQ",
-			"require('jquery",
-			"scripts/tiny",
-			".datepicker",
-			"alert('should not run, return needed to be removed');",
-			"should not run",
-			"index.php",
-			"Rewrite",
-			"trunk"
+			"require('jquery'"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -485,12 +489,48 @@
 		"selected_items":
 		[
 			[
-				"common",
-				"js/common.bundle.js"
+				"defau",
+				"css/default.css"
+			],
+			[
+				"defu",
+				"css/default.css"
+			],
+			[
+				"setting",
+				"css/settings.css"
+			],
+			[
+				"comcss",
+				"css/common.bundle.css"
 			],
 			[
 				"index",
 				"index.html"
+			],
+			[
+				"indexjs",
+				"index.js"
+			],
+			[
+				"",
+				"js/common.bundle.js"
+			],
+			[
+				"commonbun",
+				"js/common.bundle.js"
+			],
+			[
+				"defaul",
+				"css/default.css"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"common",
+				"js/common.bundle.js"
 			],
 			[
 				"gulp",
@@ -503,18 +543,6 @@
 			[
 				"combun",
 				"css/common.bundle.css"
-			],
-			[
-				"indexjs",
-				"index.js"
-			],
-			[
-				"defau",
-				"css/default.css"
-			],
-			[
-				"packa",
-				"package.json"
 			],
 			[
 				"inde",
@@ -531,10 +559,6 @@
 			[
 				"index.php",
 				"index.php"
-			],
-			[
-				"",
-				"package.json"
 			],
 			[
 				"teste",
@@ -818,24 +842,32 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "codex",
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
+			],
 			[
 				"codex",
 				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
 			],
 			[
-				"",
-				"/var/www/html/setting/sublime-text-workspaces/sandbox.sublime-workspace"
+				"store",
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"code",
+				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
+				"dialo",
+				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
 			],
 			[
 				"sand",
 				"/var/www/html/setting/sublime-text-workspaces/sandbox.sublime-workspace"
-			],
-			[
-				"store",
-				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
 				"stoe",
@@ -850,16 +882,8 @@
 				"/var/www/html/setting/sublime-text-workspaces/grid.sublime-workspace"
 			],
 			[
-				"code",
-				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
-			],
-			[
 				"grid",
 				"/var/www/html/setting/sublime-text-workspaces/grid.sublime-workspace"
-			],
-			[
-				"dialo",
-				"/var/www/html/sublime-workspace/dialogue.sublime-workspace"
 			],
 			[
 				"stroe",
