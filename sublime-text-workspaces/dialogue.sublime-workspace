@@ -93,17 +93,20 @@
 	],
 	"file_history":
 	[
+		"/var/www/html/dialogue/vendor/symfony/css-selector/Parser/Tokenizer/TokenizerEscaping.php",
+		"/var/www/html/dialogue/bin/deploy.sh",
+		"/var/www/html/dialogue/index.php",
 		"/var/www/html/dialogue/index.html",
-		"/var/www/html/dialogue/js/common.bundle.js",
+		"/var/www/html/dialogue/.gitignore",
 		"/var/www/html/dialogue/index.js",
-		"/var/www/html/dialogue/css/common.bundle.css",
 		"/var/www/html/dialogue/css/default.css",
+		"/var/www/html/dialogue/css/common.bundle.css",
+		"/var/www/html/dialogue/index.css",
+		"/var/www/html/dialogue/js/common.bundle.js",
 		"/var/www/html/dialogue/package.json",
 		"/var/www/html/dialogue/css/settings.css",
 		"/var/www/html/dialogue/gulpfile.js",
-		"/var/www/html/dialogue/index.css",
 		"/var/www/html/dialogue/template/index.php",
-		"/var/www/html/dialogue/index.php",
 		"/var/www/html/dialogue/vendor/mwyatt/core/index.php",
 		"/etc/apache2/mods-enabled/dir.conf",
 		"/var/www/html/dialogue/src/Controller/Index.php",
@@ -217,10 +220,7 @@
 		"/var/www/html/store/trunk/js/product/bundle.js",
 		"/var/www/html/store/trunk/js/page/return/guide.bundle.js",
 		"/var/www/html/store/trunk/js/product/termination.js",
-		"/var/www/html/store/trunk/js/product/tab.js",
-		"/var/www/html/store/trunk/js/equalHeight.js",
-		"/var/www/html/store/trunk/js/admin/vendor/grid.locale-en.js",
-		"/var/www/html/store/trunk/js/checkout/braintree.bundle.js"
+		"/var/www/html/store/trunk/js/product/tab.js"
 	],
 	"find":
 	{
@@ -489,8 +489,48 @@
 		"selected_items":
 		[
 			[
+				"store",
+				"vendor/symfony/css-selector/Parser/Tokenizer/TokenizerEscaping.php"
+			],
+			[
+				"deplo",
+				"bin/deploy.sh"
+			],
+			[
+				"indexphp",
+				"index.php"
+			],
+			[
+				"deply",
+				"bin/deploy.sh"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"deploy",
+				"bin/deploy.sh"
+			],
+			[
+				"gitig",
+				".gitignore"
+			],
+			[
+				"common",
+				"css/common.bundle.css"
+			],
+			[
+				"js",
+				"index.js"
+			],
+			[
 				"defau",
 				"css/default.css"
+			],
+			[
+				"indexcss",
+				"index.css"
 			],
 			[
 				"defu",
@@ -503,10 +543,6 @@
 			[
 				"comcss",
 				"css/common.bundle.css"
-			],
-			[
-				"index",
-				"index.html"
 			],
 			[
 				"indexjs",
@@ -527,10 +563,6 @@
 			[
 				"packa",
 				"package.json"
-			],
-			[
-				"common",
-				"js/common.bundle.js"
 			],
 			[
 				"gulp",
@@ -842,20 +874,28 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "store",
 		"selected_items":
 		[
 			[
+				"store",
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
 				"",
-				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"sand",
+				"/var/www/html/setting/sublime-text-workspaces/sandbox.sublime-workspace"
+			],
+			[
+				"port",
+				"/var/www/html/setting/sublime-text-workspaces/portfolio.sublime-workspace"
 			],
 			[
 				"codex",
 				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
-			],
-			[
-				"store",
-				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
 				"code",
@@ -866,16 +906,8 @@
 				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
 			],
 			[
-				"sand",
-				"/var/www/html/setting/sublime-text-workspaces/sandbox.sublime-workspace"
-			],
-			[
 				"stoe",
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
-			],
-			[
-				"port",
-				"/var/www/html/setting/sublime-text-workspaces/portfolio.sublime-workspace"
 			],
 			[
 				"gri",

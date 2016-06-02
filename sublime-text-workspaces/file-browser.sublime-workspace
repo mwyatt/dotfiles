@@ -527,10 +527,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 203.0,
-		"last_filter": "js",
+		"height": 308.0,
+		"last_filter": "togl",
 		"selected_items":
 		[
+			[
+				"togl",
+				"View: Toggle Menu"
+			],
 			[
 				"js",
 				"Set Syntax: JavaScript"
@@ -745,10 +749,12 @@
 	},
 	"expanded_folders":
 	[
-		"/var/www/html/store"
+		"/var/www/html/file-browser"
 	],
 	"file_history":
 	[
+		"/var/www/html/file-browser/README.md",
+		"/var/www/html/file-browser/.gitignore",
 		"/var/www/html/store/trunk/js/admin/order/single/paymentTemplates.js",
 		"/var/www/html/store/trunk/js/admin/mediaBrowser.js",
 		"/var/www/html/store/trunk/app/skin/custom/admin/modules/media/_browser.tpl",
@@ -874,9 +880,7 @@
 		"/var/www/html/store/trunk/app/skin/custom/admin/modules/products/bundle.tpl",
 		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/bundle.php",
 		"/var/www/html/store/trunk/app/classes/admin/modules/ebay.php",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/products/countries.tpl",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/upsellandrelated/upsellandrelated.tpl",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/products/quantitydiscounts.tpl"
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/products/countries.tpl"
 	],
 	"find":
 	{
@@ -1291,7 +1295,7 @@
 	"folders":
 	[
 		{
-			"path": "/var/www/html/store"
+			"path": "/var/www/html/file-browser"
 		}
 	],
 	"groups":
@@ -1304,7 +1308,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 35.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -1354,6 +1358,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"ig",
+				".gitignore"
+			],
 			[
 				"mediabro",
 				"trunk/js/admin/mediaBrowser.js"
@@ -1857,14 +1869,6 @@
 			[
 				"prodtabbundle",
 				"trunk/app/skin/custom/frontend/modules/product/tab/_bundle.tpl"
-			],
-			[
-				"ajaxmodbundle",
-				"trunk/app/classes/ajax/modules/bundle.php"
-			],
-			[
-				"frontmodcheckpaypa",
-				"trunk/app/classes/frontend/modules/checkout/paypal.php"
 			]
 		],
 		"width": 0.0
@@ -1872,13 +1876,9 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "file",
+		"last_filter": "",
 		"selected_items":
 		[
-			[
-				"file",
-				"/var/www/html/setting/sublime-text-workspaces/file-browser.sublime-workspace"
-			],
 			[
 				"dial",
 				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"

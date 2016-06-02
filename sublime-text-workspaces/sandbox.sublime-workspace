@@ -80,18 +80,18 @@
 	"buffers":
 	[
 		{
-			"file": "/var/www/html/sandbox/ksort.php",
-			"settings":
-			{
-				"buffer_size": 171,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "/var/www/html/sandbox/flexbox/css/common.css",
 			"settings":
 			{
-				"buffer_size": 316,
+				"buffer_size": 506,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/var/www/html/sandbox/royal-mail-shipping-api/init-soap.php",
+			"settings":
+			{
+				"buffer_size": 5396,
 				"line_ending": "Windows"
 			}
 		}
@@ -103,10 +103,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 182.0,
-		"last_filter": "media",
+		"height": 392.0,
+		"last_filter": "xml",
 		"selected_items":
 		[
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
 			[
 				"media",
 				"Snippet: Media query screen"
@@ -154,8 +158,13 @@
 	"file_history":
 	[
 		"/var/www/html/sandbox/royal-mail-shipping-api/dan/soap-current-attempt-request.xml",
-		"/var/www/html/sandbox/royal-mail-shipping-api/init-soap-fat.php",
+		"/var/www/html/sandbox/flexbox/css/common.css",
+		"/var/www/html/sandbox/flexbox/index.php",
+		"/var/www/html/sandbox/flexbox/package.json",
+		"/var/www/html/sandbox/flexbox/gulpfile.js",
 		"/var/www/html/sandbox/royal-mail-shipping-api/init-soap.php",
+		"/var/www/html/sandbox/ksort.php",
+		"/var/www/html/sandbox/royal-mail-shipping-api/init-soap-fat.php",
 		"/var/www/html/sandbox/image-center/index.html",
 		"/var/www/html/sandbox/explode.php",
 		"/var/www/html/sandbox/composer-symfony/.htaccess",
@@ -275,12 +284,7 @@
 		"/var/www/html/store/trunk/js/admin/common.bundle.js",
 		"/var/www/html/store/trunk/app/classes/frontend/modules/unsubscribe.php",
 		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/showroomclearance/single.tpl",
-		"/var/www/html/store/trunk/js/helper.js",
-		"/var/www/html/store/trunk/js/form.js",
-		"/var/www/html/store/trunk/node_modules/codex/utility/url.js",
-		"/var/www/html/store/trunk/app/skin/custom/admin/common/footer.tpl",
-		"/var/www/html/store/trunk/js/common.bundle.js",
-		"/var/www/html/store/trunk/asset/admin/common.js"
+		"/var/www/html/store/trunk/js/helper.js"
 	],
 	"find":
 	{
@@ -324,6 +328,16 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"world world world world world world world world world world world world world world world world world world world.",
+			"button",
+			"flext-item",
+			" class=\"h1\"",
+			"flex-item",
+			"<p>world world world world world world world world world world world world world world world world world world world.</p>\n			<p>world world world world world world world world world world world world world world world world world world world.</p>",
+			"<div class=\"flex-item\">",
+			"stretch",
+			"cell",
+			"location",
 			"[",
 			"Password2014!",
 			"martin@audiovisualonline.co.ukAPI",
@@ -441,17 +455,7 @@
 			"I have read and agree to the",
 			"alt_ids",
 			"auto_data",
-			"alt_data",
-			"'alt_data'",
-			"You Might",
-			".page-warranty-product",
-			"page-warranty-shield-container",
-			"js-product-single-button-group",
-			".media-browser-layout-grid .media-browser-file-container {",
-			".media-browser-layout-grid .media-browser-file-container",
-			"Information",
-			"contentType: false",
-			"300"
+			"alt_data"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -506,62 +510,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/var/www/html/sandbox/ksort.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 171,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								171,
-								171
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "/var/www/html/sandbox/flexbox/css/common.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 316,
+						"buffer_size": 506,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10,
-								316
+								506,
+								506
 							]
 						],
 						"settings":
@@ -570,6 +531,14 @@
 							[
 								{
 									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
 									"selector": "text.html"
 								},
 								{
@@ -583,6 +552,51 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/var/www/html/sandbox/royal-mail-shipping-api/init-soap.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5396,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5396,
+								5396
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2288.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -644,8 +658,32 @@
 		"selected_items":
 		[
 			[
+				"soapcurren",
+				"royal-mail-shipping-api/dan/soap-current-attempt-request.xml"
+			],
+			[
+				"royalmailinit",
+				"royal-mail-shipping-api/init-soap.php"
+			],
+			[
 				"flexbox",
 				"flexbox/css/common.css"
+			],
+			[
+				"flexgulpfi",
+				"flexbox/gulpfile.js"
+			],
+			[
+				"flexpacka",
+				"flexbox/package.json"
+			],
+			[
+				"flex/",
+				"flexbox/index.php"
+			],
+			[
+				"initsoap",
+				"royal-mail-shipping-api/init-soap.php"
 			],
 			[
 				"soapfat",
@@ -702,10 +740,6 @@
 			[
 				"currattemre",
 				"royal-mail-shipping-api/dan/soap-current-attempt-request.xml"
-			],
-			[
-				"initsoap",
-				"royal-mail-shipping-api/init-soap.php"
 			],
 			[
 				"userpref",
@@ -1134,26 +1168,6 @@
 			[
 				"globaljs",
 				"trunk/js/global.js"
-			],
-			[
-				"producjs",
-				"trunk/js/product.js"
-			],
-			[
-				"resetsc",
-				"trunk/sass/_reset.scss"
-			],
-			[
-				"admincommon",
-				"trunk/asset/admin/common.js"
-			],
-			[
-				"common",
-				"trunk/asset/common.js"
-			],
-			[
-				"advancedse",
-				"trunk/app/classes/frontend/modules/advancedsearch.php"
 			]
 		],
 		"width": 0.0
@@ -1161,13 +1175,9 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "dialo",
+		"last_filter": "",
 		"selected_items":
 		[
-			[
-				"dialo",
-				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
-			],
 			[
 				"",
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
@@ -1175,6 +1185,18 @@
 			[
 				"store",
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"codex",
+				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
+				"el",
+				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"dialo",
+				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
 			],
 			[
 				"dia",
@@ -1191,14 +1213,6 @@
 			[
 				"grid",
 				"/var/www/html/setting/sublime-text-workspaces/grid.sublime-workspace"
-			],
-			[
-				"codex",
-				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
-			],
-			[
-				"el",
-				"/var/www/html/sublime-workspace/elttl.sublime-workspace"
 			],
 			[
 				"sto",

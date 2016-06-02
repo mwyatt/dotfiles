@@ -141,10 +141,13 @@
 	],
 	"file_history":
 	[
+		"/var/www/html/codex/package.json",
+		"/var/www/html/codex/bin/deploy.sh",
+		"/var/www/html/codex/.gitignore",
+		"/var/www/html/codex/bin/deploy",
 		"/var/www/html/codex/index.php",
 		"/var/www/html/codex/css/general.css",
 		"/var/www/html/codex/keyframe.css",
-		"/var/www/html/codex/package.json",
 		"/var/www/html/codex/css/keyframe.css",
 		"/var/www/html/codex/css/form.css",
 		"/var/www/html/codex/css/settings.css",
@@ -160,8 +163,6 @@
 		"/var/www/html/codex/js/scrollTop.js",
 		"/var/www/html/codex/reusable.css",
 		"/var/www/html/codex/css/spinner.css",
-		"/var/www/html/codex/bin/deploy",
-		"/var/www/html/codex/.gitignore",
 		"/var/www/html/codex/dist/index.html",
 		"/var/www/html/codex/bin/git-gh-deploy",
 		"/var/www/html/codex/index.html",
@@ -267,8 +268,7 @@
 		"/var/www/html/store/trunk/mustache/admin/media/browser/tree.mst",
 		"/var/www/html/store/trunk/mustache/admin/media/browser/layout-control.mst",
 		"/var/www/html/store/trunk/app/classes/admin/modules/features.php",
-		"/var/www/html/store/trunk/app/classes/admin/modules/inbox.php",
-		"/var/www/html/store/trunk/app/classes/admin/modules/media.php"
+		"/var/www/html/store/trunk/app/classes/admin/modules/inbox.php"
 	],
 	"find":
 	{
@@ -315,6 +315,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"dist",
 			"body-inner-container",
 			"@keyframes ",
 			"<?",
@@ -441,8 +442,7 @@
 			"'offline_order'",
 			"offline",
 			"->fetch",
-			"parser",
-			"$s"
+			"parser"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -550,6 +550,30 @@
 		"selected_items":
 		[
 			[
+				"packa",
+				"package.json"
+			],
+			[
+				"de",
+				"bin/deploy.sh"
+			],
+			[
+				"gitig",
+				".gitignore"
+			],
+			[
+				"depl",
+				"bin/deploy"
+			],
+			[
+				"dep",
+				"bin/deploy"
+			],
+			[
+				"deplo",
+				"bin/deploy"
+			],
+			[
 				"key",
 				"css/keyframe.css"
 			],
@@ -572,10 +596,6 @@
 			[
 				"index",
 				"index.php"
-			],
-			[
-				"packa",
-				"package.json"
 			],
 			[
 				"form",
@@ -640,18 +660,6 @@
 			[
 				"spin",
 				"css/spinner.css"
-			],
-			[
-				"deplo",
-				"bin/deploy"
-			],
-			[
-				"gitig",
-				".gitignore"
-			],
-			[
-				"depl",
-				"bin/deploy"
 			],
 			[
 				"distinde",
@@ -1052,14 +1060,6 @@
 			[
 				"formscs",
 				"sass/_form.scss"
-			],
-			[
-				"admincomm",
-				"sass/admin/common.scss"
-			],
-			[
-				"gridscss",
-				"sass/_grid.scss"
 			]
 		],
 		"width": 0.0
@@ -1067,12 +1067,32 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "store",
 		"selected_items":
 		[
 			[
-				"",
+				"store",
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"sand",
+				"/var/www/html/setting/sublime-text-workspaces/sandbox.sublime-workspace"
+			],
+			[
+				"eltt",
+				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"dia",
+				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
+			],
+			[
+				"stroe",
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"",
+				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
 			],
 			[
 				"dialo",
@@ -1083,16 +1103,8 @@
 				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
 			],
 			[
-				"store",
-				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
-			],
-			[
 				"codex",
 				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
-			],
-			[
-				"eltt",
-				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
 			],
 			[
 				"port",
@@ -1131,20 +1143,12 @@
 				"/var/www/html/setting/sublime-text-workspaces/url.sublime-workspace"
 			],
 			[
-				"sand",
-				"/var/www/html/setting/sublime-text-workspaces/sandbox.sublime-workspace"
-			],
-			[
 				"grid",
 				"/var/www/html/sublime-workspace/grid.sublime-workspace"
 			],
 			[
 				"el",
 				"/var/www/html/sublime-workspace/elttl.sublime-workspace"
-			],
-			[
-				"dia",
-				"/var/www/html/sublime-workspace/dialogue.sublime-workspace"
 			],
 			[
 				"diua",
