@@ -4,12 +4,16 @@
 		"selected_items":
 		[
 			[
-				"ajx",
-				"ajax	mw-js-ajax"
+				"pv",
+				"pv	mw-php-printPre"
 			],
 			[
-				"pv",
-				"pv	mw-php-varDump"
+				"class",
+				"classes"
+			],
+			[
+				"ajx",
+				"ajax	mw-js-ajax"
 			],
 			[
 				"cl",
@@ -99,10 +103,22 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 329.0,
-		"last_filter": "menu",
+		"height": 392.0,
+		"last_filter": "close",
 		"selected_items":
 		[
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"closeall",
+				"File: Close All"
+			],
 			[
 				"menu",
 				"View: Toggle Menu"
@@ -148,15 +164,11 @@
 				"Package Control: Install Package"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
 				"list",
 				"Package Control: List Packages"
 			]
 		],
-		"width": 449.0
+		"width": 467.0
 	},
 	"console":
 	{
@@ -181,22 +193,26 @@
 	],
 	"file_history":
 	[
-		"/var/www/html/grid/package.json",
-		"/var/www/html/grid/js/grid.js",
+		"/var/www/html/grid/css/grid.css",
+		"/var/www/html/grid/js/tinymceConfig.js",
 		"/var/www/html/grid/js/common.bundle.js",
-		"/var/www/html/grid/index.js",
-		"/var/www/html/grid/request/connection.php",
-		"/var/www/html/grid/request/grid-secondary/read.php",
-		"/var/www/html/grid/gulpfile.js",
+		"/var/www/html/grid/js/grid.js",
+		"/var/www/html/grid/js/classes.js",
 		"/var/www/html/grid/js/templates.js",
-		"/var/www/html/grid/css/common.bundle.css",
-		"/var/www/html/grid/index.html",
-		"/var/www/html/grid/request/grid-primary/read.php",
 		"/var/www/html/grid/css/settings.css",
+		"/var/www/html/grid/request/grid-primary/read.php",
+		"/var/www/html/grid/css/common.bundle.css",
+		"/var/www/html/grid/request/grid-secondary/read.php",
+		"/var/www/html/grid/request/connection.php",
+		"/var/www/html/grid/js/utilities.js",
+		"/var/www/html/grid/index.css",
+		"/var/www/html/grid/index.js",
+		"/var/www/html/grid/package.json",
+		"/var/www/html/grid/gulpfile.js",
+		"/var/www/html/grid/index.html",
 		"/var/www/html/grid/package.json.save",
 		"/var/www/html/grid/.gitignore",
 		"/var/www/html/grid/composer.json",
-		"/var/www/html/grid/index.css",
 		"/var/www/html/grid/grid.css",
 		"/var/www/html/grid/css/dialogue.css",
 		"/var/www/html/grid/grid.js",
@@ -304,11 +320,7 @@
 		"/var/www/html/store/trunk/js/account.js",
 		"/var/www/html/store/trunk/js/category.js",
 		"/var/www/html/store/trunk/js/header.js",
-		"/var/www/html/store/trunk/js/finance.js",
-		"/var/www/html/store/trunk/js/contact.js",
-		"/var/www/html/store/trunk/node_modules/gulp-sass/node_modules/node-sass/node_modules/sass-graph/node_modules/lodash/_assignInDefaults.js",
-		"/var/www/html/store/trunk/js/checkout.js",
-		"/var/www/html/store/trunk/js/admin/ebay.js"
+		"/var/www/html/store/trunk/js/finance.js"
 	],
 	"find":
 	{
@@ -344,6 +356,124 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"cellDeselect",
+			"'Save':",
+			".grid-button-remove-filters {",
+			"&times",
+			"remove-filters",
+			"1px solid #cccccc",
+			"border: 1px",
+			"opacity: ",
+			"RemoveFilters",
+			"classes.buttonRemoveFilters",
+			".grid-spinner {",
+			"mouseup",
+			"js-grid-no-rows",
+			"selected",
+			"classes.spinner",
+			"getFirstReadModel",
+			"markContainerFiltering",
+			"this.",
+			"mouseHeadingCell",
+			"is-order",
+			".grid-cell-heading-name:before",
+			"/",
+			":before",
+			"Remove Filters",
+			"Remove Fil",
+			"overflow",
+			"primaryKeyValue",
+			"this",
+			"this, model, type",
+			"persistedValue",
+			"onSelectCell",
+			"onSelectRow",
+			"classes.searchField",
+			".grid-cell-heading-name {",
+			"5px",
+			"event.data",
+			"js-grid-button-create",
+			"event.data",
+			".grid-search-input {",
+			"grid-pagination-select",
+			"event.data.",
+			"rowsPerPage",
+			"event.data",
+			"perPageSelect",
+			"'grid-pagination-select'",
+			": {",
+			"grid-pagination-select",
+			"keyCode.esc",
+			"event.data.cell)",
+			"event.data.cell",
+			"mouseDocument",
+			".grid-' + event.data.options.id",
+			"link-primary",
+			"limit",
+			"gEvtNs",
+			"getContainerSelector",
+			"utilities",
+			"event",
+			"gS(",
+			" gS(",
+			", gS(",
+			"gS(",
+			"(gS(",
+			"gS(",
+			"classes.",
+			"buttonDeleteClass",
+			"spinnerClass",
+			"buttonRemoveFiltersClass",
+			"pageContainerClass",
+			"buttonRemoveFiltersClass",
+			"pageContainerClass",
+			"perPageSelectClass",
+			"pageSelectClass",
+			"searchSelectClass",
+			"searchInputClass",
+			"searchFieldClass",
+			"cellClass",
+			"inputClass",
+			"cellClass",
+			"rowHeadingClass",
+			"rowClass",
+			"tableClass",
+			"cellHeadingClass",
+			"selectedClass",
+			"formCreateCellClass",
+			"gridCellHeadingOrderableClass",
+			"gS\\(event.data.(.*?)\\)",
+			"gS(",
+			"gS(event.data.pageSelectClass)",
+			"gS\\(event.data.(.*?)\\)",
+			"gS(event.data.cellClass)",
+			"gS\\(event.data.(.*?)\\)",
+			"rowHeadingClass",
+			"event.data.rowClass",
+			"rowClass",
+			"event.data.tableClass",
+			"tableClass",
+			"event.data.cellHeadingClass",
+			"cellHeadingClass",
+			"event.data.selectedClass",
+			"selectedClass",
+			"formCreateCellClass",
+			"classes",
+			"gridCellHeadingOrderableClass",
+			"gridCellLolHeading",
+			"'.",
+			"js-form-create-cell",
+			"classes",
+			"var ",
+			"js-form-create-cell",
+			"'.",
+			".",
+			"gS(event.data.rowClass)",
+			"gS\\((.*?)\\)",
+			"gS \\((.*?)\\)",
+			"function ",
+			"function (.*?)\\((.*?)\\) {",
+			"gS(",
 			"readTemplate",
 			"selectOptions",
 			"common.",
@@ -353,125 +483,7 @@
 			"value",
 			"storeReadModel",
 			"getStoredReadModel",
-			"getInputTypeFromModel",
-			"wasChanged",
-			"cellHtml",
-			"status",
-			"readRender",
-			"rows[indexRow][indexCell]",
-			"readRender",
-			"getContent",
-			"favicon",
-			"tinymceConfig",
-			"tinymce.init",
-			"$cell",
-			"$row",
-			"dialogueCellWysi",
-			"gS(event.data.rowClass) + gS(event.data.selectedClass)",
-			"gS(event.data.cellClass) + gS(event.data.selectedClass)",
-			"var $selectedCell ",
-			"var $selectedCell = ",
-			"getSelectedRow",
-			"primaryKeyValue",
-			"getSelectedCellInputValue",
-			"$selectedRow.find(gS(event.data.cellClass) + gS(event.data.selectedClass))",
-			"primaryKeyValue",
-			"event.data.$container.find(gS(event.data.rowClass) + gS(event.data.selectedClass))",
-			"event.data.$container.find(gS(event.data.rowClass) + gS(event.data.selectedClass));",
-			"$cell.data('value')",
-			"getRowCellValue",
-			"$cell.data('value')",
-			"getRowCellValue",
-			"cellSelect(",
-			"true",
-			"html",
-			".rows, ",
-			".rows",
-			"dialogueCellWysi",
-			"getSelectedCellInputValue",
-			"var $selectedCellInput = $selectedRow.find(gS(event.data.cellClass) + gS(event.data.selectedClass)).find(gS(event.data.inputClass));",
-			"  var $selectedRow = event.data.$container.find(gS(event.data.rowClass) + gS(event.data.selectedClass));\n",
-			"selectedRow",
-			"dialogueWysiSave",
-			"getSelectedCellInputValue",
-			"cellDeselect",
-			"tinymce",
-			"onClose",
-			"dialogueCellWysi",
-			"var",
-			"// New event",
-			"browserify-shim",
-			"var",
-			"grid-no-rows",
-			".read(",
-			"deleteRow",
-			"There was a problem",
-			"closest",
-			"primaryKeyValue",
-			"$.ajax({",
-			"spinnerClass",
-			"delete",
-			"button",
-			"persist",
-			"cellDeselect",
-			"persist",
-			"cellDese",
-			"event, ",
-			"cellDeselect",
-			".esc",
-			"of ",
-			"possiblePages",
-			"getPageCurrent",
-			"mouseDocument",
-			"cellSelect",
-			"$cell",
-			"cellDeselect",
-			"cellDeselectNoSave",
-			"cellDeselect",
-			"\n@",
-			"div",
-			"js-grid-search-field",
-			"grid-heading-is-order",
-			"\n.",
-			"order",
-			"asc",
-			"is-order",
-			"is-order-asc",
-			"onSelectCell",
-			"$(gS",
-			"$(gS(event.data.pageSelectClass)).val(1);",
-			"$(gS",
-			"(gS(event.data",
-			"perPageSelectClass",
-			"js-grid-cell-input-perpage",
-			"implode",
-			"\\",
-			"name",
-			"createRow",
-			"response.success == 1",
-			"'success' in response",
-			"formCreateCells",
-			"formCreateCell",
-			"createRow",
-			"dialogueCreate",
-			"type",
-			"\n@",
-			"connection",
-			"$value",
-			"value",
-			"name",
-			"id",
-			"update(",
-			"search",
-			"isEmptyObject",
-			"getReadModelDataDefaults",
-			"rowsPerPage",
-			"js-grid-cell-heading-orderable",
-			"pagination",
-			"renderPagination",
-			"keySearchInput",
-			"storeReadModel",
-			"appendSelectOptionsKeyValue"
+			"getInputTypeFromModel"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -479,6 +491,26 @@
 		"regex": false,
 		"replace_history":
 		[
+			"buttonDelete",
+			"spinner",
+			"buttonRemoveFilters",
+			"pageContainer",
+			"perPageSelect",
+			"pageSelect",
+			"searchSelect",
+			"searchInput",
+			"searchField",
+			"cell",
+			"input",
+			"cellClass",
+			"rowHeading",
+			"row",
+			"table",
+			"cellHeading",
+			"selected",
+			"formCreateCell",
+			"gridCellHeadingOrderable",
+			"gS(classes.$1)",
 			"require('mwyatt-dialogue'",
 			"return false; // should not run, return needed to be removed",
 			"require('./vendor/jqGrid');",
@@ -578,12 +610,84 @@
 		"selected_items":
 		[
 			[
-				"common",
+				"combun",
+				"js/common.bundle.js"
+			],
+			[
+				"config",
+				"js/tinymceConfig.js"
+			],
+			[
+				"",
+				"js/grid.js"
+			],
+			[
+				"class",
+				"js/classes.js"
+			],
+			[
+				"commonbun",
 				"js/common.bundle.js"
 			],
 			[
 				"grid",
 				"js/grid.js"
+			],
+			[
+				"gridc",
+				"css/grid.css"
+			],
+			[
+				"common",
+				"js/common.bundle.js"
+			],
+			[
+				"tem",
+				"js/templates.js"
+			],
+			[
+				"clas",
+				"js/classes.js"
+			],
+			[
+				"setting",
+				"css/settings.css"
+			],
+			[
+				"indecs",
+				"index.css"
+			],
+			[
+				"gridcs",
+				"css/grid.css"
+			],
+			[
+				"tempalte",
+				"js/templates.js"
+			],
+			[
+				"util",
+				"js/utilities.js"
+			],
+			[
+				"seconda",
+				"request/grid-secondary/read.php"
+			],
+			[
+				"comjs",
+				"js/common.bundle.js"
+			],
+			[
+				"connec",
+				"request/connection.php"
+			],
+			[
+				"gridprimar",
+				"request/grid-primary/read.php"
+			],
+			[
+				"index",
+				"index.js"
 			],
 			[
 				"packa",
@@ -598,20 +702,12 @@
 				"js/grid.js"
 			],
 			[
-				"index",
-				"index.js"
-			],
-			[
 				"template",
 				"js/templates.js"
 			],
 			[
 				"commonbu",
 				"js/common.bundle.js"
-			],
-			[
-				"connec",
-				"request/connection.php"
 			],
 			[
 				"gridsecondarread",
@@ -624,14 +720,6 @@
 			[
 				"gridprimaryre",
 				"request/grid-primary/read.php"
-			],
-			[
-				"setting",
-				"css/settings.css"
-			],
-			[
-				"commonbun",
-				"css/common.bundle.css"
 			],
 			[
 				"giti",
@@ -660,10 +748,6 @@
 			[
 				"dialogu",
 				"css/dialogue.css"
-			],
-			[
-				"gridcs",
-				"grid.css"
 			],
 			[
 				"css",
@@ -702,16 +786,8 @@
 				"grid.css"
 			],
 			[
-				"",
-				"grid.js"
-			],
-			[
 				"delete",
 				"request/grid-secondary/delete.php"
-			],
-			[
-				"tempalte",
-				"templates.js"
 			],
 			[
 				"update",
@@ -986,10 +1062,6 @@
 				"trunk/js/product.js"
 			],
 			[
-				"config",
-				"trunk/js/config.js"
-			],
-			[
 				"jsproduc",
 				"trunk/js/product.js"
 			],
@@ -1023,16 +1095,20 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "store",
 		"selected_items":
 		[
+			[
+				"store",
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
 			[
 				"",
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
-				"store",
-				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+				"codex",
+				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
 			],
 			[
 				"code",
@@ -1045,10 +1121,6 @@
 			[
 				"feed",
 				"/var/www/html/setting/sublime-text-workspaces/feedback-queue.sublime-workspace"
-			],
-			[
-				"codex",
-				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
 			],
 			[
 				"sto",

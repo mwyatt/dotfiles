@@ -1,0 +1,1303 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"filetim",
+				"filemtime"
+			],
+			[
+				"dialo",
+				"dialogue"
+			],
+			[
+				"pv",
+				"pv	mw-php-printPre"
+			],
+			[
+				"feeds",
+				"feedbackStreamFactory"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"passcon",
+				"passwordConfirm"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"passc",
+				"passwordConfirm"
+			],
+			[
+				"getpa",
+				"getPathBase"
+			],
+			[
+				"permis",
+				"permissions"
+			],
+			[
+				"unse",
+				"unset"
+			],
+			[
+				"dialogueFa",
+				"dialogueFactory"
+			],
+			[
+				"_",
+				"_FILES"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/var/www/html/claire/index.php",
+			"settings":
+			{
+				"buffer_size": 1746,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "stat",
+		"selected_items":
+		[
+			[
+				"stat",
+				"View: Toggle Status Bar"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"closea",
+				"File: Close All"
+			],
+			[
+				"save",
+				"File: Save All"
+			],
+			[
+				"closeall",
+				"File: Close All"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"clos",
+				"File: Close All"
+			],
+			[
+				"men",
+				"View: Toggle Menu"
+			],
+			[
+				"clo",
+				"File: Close All"
+			],
+			[
+				"sa",
+				"File: Save All"
+			],
+			[
+				"status",
+				"View: Toggle Status Bar"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": true,
+		"show_open_files": false,
+		"show_tabs": true,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/html/claire"
+	],
+	"file_history":
+	[
+		"/var/www/html/claire/composer.json",
+		"/var/www/html/claire/index.php",
+		"/var/www/html/claire/App/route.php",
+		"/var/www/html/claire/package.json",
+		"/var/www/html/claire/App/config.php",
+		"/var/www/html/claire/css/500.css",
+		"/var/www/html/claire/temporary/common.css",
+		"/var/www/html/claire/temporary/_settings.css",
+		"/var/www/html/claire/App/config-sample.php",
+		"/var/www/html/claire/App/Admin/package.json",
+		"/var/www/html/claire/gulpfile.js",
+		"/var/www/html/claire/Test/ModelTest.php",
+		"/var/www/html/claire/Test/DatabaseTest.php",
+		"/var/www/html/elttl/index.php",
+		"/var/www/html/elttl/error.txt",
+		"/var/www/html/elttl/vendor/mwyatt/core/src/Router.php",
+		"/var/www/html/elttl/template/home.php",
+		"/var/www/html/elttl/src/Controller.php",
+		"/var/www/html/elttl/src/Error.php",
+		"/var/www/html/elttl/vendor/mwyatt/core/src/Error.php",
+		"/var/www/html/elttl/config.php",
+		"/var/www/html/elttl/css/admin/common.bundle.css",
+		"/var/www/html/elttl/template/admin/_header.php",
+		"/var/www/html/elttl/js/admin/login.js",
+		"/var/www/html/elttl/css/admin/header.css",
+		"/var/www/html/elttl/contrib/pre-commit",
+		"/var/www/html/elttl/gulpfile.js",
+		"/var/www/html/elttl/css/admin/dialogue.css",
+		"/var/www/html/elttl/package.json",
+		"/var/www/html/elttl/js/common.bundle.js",
+		"/var/www/html/elttl/composer.json",
+		"/var/www/html/elttl/template/result/_division-single.php",
+		"/var/www/html/elttl/template/_header.php",
+		"/var/www/html/elttl/css/print.css",
+		"/var/www/html/elttl/template/print/header.php",
+		"/var/www/html/elttl/src/Controller/Result.php",
+		"/var/www/html/elttl/template/_footer.php",
+		"/var/www/html/elttl/template/_menu-secondary.php",
+		"/var/www/html/elttl/src/Admin/Controller/Content.php",
+		"/var/www/html/elttl/src/Admin/Controller/Player.php",
+		"/var/www/html/elttl/src/Admin/Controller/Crud.php",
+		"/var/www/html/elttl/src/Admin/Controller/Ad.php",
+		"/var/www/html/elttl/src/Service/Common.php",
+		"/var/www/html/elttl/json/menu-tertiary.json",
+		"/var/www/html/elttl/json/menu-secondary.json",
+		"/var/www/html/elttl/indexAdmin.php",
+		"/var/www/html/elttl/.htaccess",
+		"/var/www/html/elttl/credentials.php",
+		"/var/www/html/elttl/.gitignore",
+		"/var/www/html/elttl/credentials-sample.php",
+		"/home/martin/Documents/elttl-backup/credentials.php",
+		"/home/martin/Documents/elttl-backup/config.php",
+		"/var/www/html/elttl/src/Controller/Thumb.php",
+		"/var/www/html/elttl/src/Service/Thumb.php",
+		"/var/www/html/elttl/css/common.bundle.css",
+		"/var/www/html/elttl/css/general.css",
+		"/var/www/html/elttl/js/admin/common.bundle.js",
+		"/var/www/html/elttl/route.php",
+		"/var/www/html/elttl/src/Controller/Content.php",
+		"/var/www/html/elttl/vendor/mwyatt/core/src/Controller.php",
+		"/var/www/html/elttl/pimple.php",
+		"/var/www/html/elttl/vendor/mwyatt/core/src/View.php",
+		"/var/www/html/elttl/src/Entity/File.php",
+		"/home/martin/Downloads/phpinfo.php",
+		"/var/www/html/elttl/css/division/overview.css",
+		"/var/www/html/elttl/src/Service.php",
+		"/var/www/html/elttl/src/Data.php",
+		"/var/www/html/elttl/src/Controller/Media.php",
+		"/var/www/html/elttl/css/home.css",
+		"/var/www/html/elttl/indexFront.php",
+		"/var/www/html/elttl/css/pagination.css",
+		"/var/www/html/elttl/template/division/_menu-tables.php",
+		"/var/www/html/elttl/template/_fixture.php",
+		"/var/www/html/elttl/template/fixture-single.php",
+		"/var/www/html/elttl/template/_encounters.php",
+		"/var/www/html/elttl/src/Controller/Error.php",
+		"/var/www/html/elttl/css/home/cover.css",
+		"/var/www/html/elttl/src/Entity.php",
+		"/var/www/html/elttl/src/Controller/Fixture.php",
+		"/var/www/html/elttl/index.html",
+		"/var/www/html/elttl/template/error.php",
+		"/var/www/html/elttl/css/header.css",
+		"/var/www/html/elttl/template/header/_logo.php",
+		"/var/www/html/elttl/src/View.php",
+		"/var/www/html/elttl/indexCommon.php",
+		"/var/www/html/elttl/template/result/_year-single.php",
+		"/var/www/html/elttl/template/print",
+		"/var/www/html/elttl/js/admin/content/single.bundle.js",
+		"/var/www/html/elttl/js/admin/utility/slug.js",
+		"/var/www/html/elttl/src/Admin/Controller/Ajax/Content.php",
+		"/var/www/html/elttl/src/Admin/Service/Fixture/Fulfill.php",
+		"/var/www/html/elttl/template/admin/tennis/fixture/single.php",
+		"/var/www/html/elttl/src/Admin/Controller/Fixture.php",
+		"/var/www/html/elttl/src/Service/Fixture.php",
+		"/var/www/html/elttl/src/Admin/Controller/System/Tennis.php",
+		"/var/www/html/elttl/template/admin/system/tennis/all.php",
+		"/var/www/html/elttl/src/Helper.php",
+		"/var/www/html/elttl/template/admin/content/single.php",
+		"/var/www/html/elttl/routeAdmin.php",
+		"/var/www/html/elttl/template/admin/_footer.php",
+		"/var/www/html/elttl/js/admin/tinymceConfig.js",
+		"/var/www/html/elttl/css/admin/tinymce-content.bundle.css",
+		"/var/www/html/elttl/template/footer/_js.php",
+		"/var/www/html/elttl/config-sample.php",
+		"/var/www/html/elttl/src/Admin/Controller/System.php",
+		"/var/www/html/elttl/template/admin/system.bundle.php",
+		"/var/www/html/elttl/src/Admin/Service/System/Upgrade.php",
+		"/var/www/html/elttl/src/Model/Database/Version.php",
+		"/var/www/html/elttl/sql/table.sql",
+		"/var/www/html/elttl/template/admin/dashboard.php",
+		"/var/www/html/elttl/src/Admin/Controller.php",
+		"/var/www/html/elttl/src/Admin/Controller/Index.php",
+		"/var/www/html/elttl/src/Controller/Index.php",
+		"/var/www/html/elttl/template/admin/header/_menu.php",
+		"/var/www/html/elttl/src/Admin/Controller/User.php",
+		"/var/www/html/elttl/template/admin/user/single.php",
+		"/var/www/html/elttl/src/Admin/Service/User/Permission.php",
+		"/var/www/html/elttl/template/admin/user/all.php",
+		"/var/www/html/elttl/vendor/mwyatt/core/src/Request.php",
+		"/var/www/html/elttl/src/Entity/User.php",
+		"/var/www/html/elttl/src/Admin/Controller/Team.php",
+		"/var/www/html/elttl/template/admin/tennis/division/all.php",
+		"/var/www/html/elttl/template/admin/tennis/division/single.php",
+		"/var/www/html/elttl/template/admin/tennis/fixture/all.php",
+		"/var/www/html/elttl/template/admin/tennis/player/all.php",
+		"/var/www/html/elttl/template/admin/tennis/player/list.php",
+		"/var/www/html/elttl/template/admin/tennis/player/single.php",
+		"/var/www/html/elttl/template/admin/tennis/team/all.php"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, template/",
+			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, template/",
+			"-node_modules/, -asset/, -vendor/,",
+			"-node_modules/, -asset/, -vendor/, js",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, -vendor/, Controller/",
+			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, controller/",
+			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, template/",
+			"-node_modules/, -asset/, -vendor/, css/",
+			"-node_modules/, -asset/, -vendor/, template/",
+			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, src/",
+			"-node_modules/, -asset/, -vendor/, js/",
+			"-node_modules/, -asset/, -vendor/, css/",
+			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, css/",
+			"-node_modules/, -asset/, -vendor/, template/",
+			"-node_modules/, -asset/, -vendor/, css/",
+			"-node_modules/, -asset/, -vendor/, template/",
+			"-node_modules/, -asset/, -vendor/, css/",
+			"-node_modules/, -asset/, -vendor/, sass/",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, ",
+			"-node_modules/, -asset/, js/",
+			"-node_modules/, -asset/, ",
+			"-node_modules/, -asset/, js/",
+			"-node_modules/, -asset/",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, -vendor/, js/",
+			"-node_modules/, -asset/, -vendor/, js/, ",
+			"-node_modules/, -asset/, -vendor/, js/, -administration/",
+			"-node_modules/, -asset/, -vendor/, js/",
+			"-node_modules/, -asset/, -vendor/,",
+			"-node_modules/, -asset/, -vendor/, js/admin/",
+			"-node_modules/, -asset/, -vendor/, js/",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/",
+			"-node_modules/",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"->weight",
+			"Error",
+			"path",
+			"$path",
+			"galleryPaths",
+			"menu-primary-level-1-link",
+			".menu-primary-level-1-link",
+			"ancho",
+			"update",
+			"Merit Doubles",
+			"print/header",
+			"100",
+			"print-header",
+			"\"url\": \"/",
+			"	{\n		\"name\": \"Town Teams\",\n		\"url\": \"/page/town-teams/\"\n	}\n",
+			"\"url\": \"",
+			"menuTertiary",
+			"menu-tertiary",
+			"Town Teams",
+			"routeCurrent",
+			"gallery-link",
+			"media/",
+			"$(this)",
+			"success",
+			"{},\n",
+			"$path",
+			"$this->getUrlAsset(",
+			"galleryPaths",
+			"files",
+			"PATH_BASE",
+			"$request->getUrlVar('type')",
+			"slug",
+			"'not found'",
+			"Exception",
+			"            ",
+			"pathOnly",
+			"fileName",
+			"getFilePath",
+			"$this->view->getPathBase(",
+			"BASE_PATH . 'media/'",
+			"legacy",
+			"getPathMedia",
+			"render",
+			"pathRequest",
+			"public",
+			"pathRequest",
+			"commonMedia",
+			"View",
+			"commonMedia",
+			"-9",
+			"-10",
+			"-11",
+			"11",
+			"condition",
+			"yearName",
+			"'yearSingle'",
+			"yearSingle",
+			"header-select-year",
+			".header-select-year",
+			".pagination-next",
+			"margin",
+			"@media only screen and (min-width: 600px) {\n  .cover {\n    width: 50%;\n  }\n}\n\n",
+			"class^=",
+			" class=\"",
+			"header-",
+			"data",
+			"$this->view->data->offsetGet('",
+			"$view->data->offsetGet('",
+			"$option[",
+			"\n  ",
+			"create(",
+			"update(",
+			"getUrlVar",
+			"isDebug",
+			"OriginalAppName",
+			"slug",
+			"feedbackStream",
+			"/delete",
+			"OriginalAppName",
+			"Dashboard",
+			"<a href",
+			"admin/system",
+			"system/",
+			"content/all",
+			"];",
+			"$class",
+			"];",
+			"$class",
+			",\n    []",
+			"];",
+			"$class",
+			"Controller",
+			"Index",
+			"permission",
+			"=> ",
+			"'martin.wyatt@gmail.com'",
+			"'<pre>'",
+			"permiss",
+			"$route[0] . ':' . $route[1]",
+			"js-toggle-all-permissions",
+			"permissionRoutes",
+			"RoutesAdmin",
+			"getAdminRoutes",
+			"->",
+			"setNameFirst",
+			"nameFirst",
+			"'.'",
+			"TimeRegistered",
+			"_POST['ad']",
+			" js-fixture-single-button-play-up",
+			"fixture-single-section",
+			"class=\"admin-button-delete js-form-button-submit js-form-button-fixture-delete\"",
+			"tennis/",
+			"button-secondary",
+			"yearId",
+			"button-primary",
+			"page-primary-title",
+			"';\n",
+			"\n@",
+			"reset token",
+			"return ",
+			"return",
+			"Service/User",
+			"welcome,",
+			"$metaTitle",
+			"Model/Options",
+			"Model/Option",
+			"$metaTitle"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": false,
+		"replace_history":
+		[
+			"button secondary",
+			"button",
+			"user.forgot-password.key",
+			"PATH_BASE",
+			".getBase(",
+			"$url",
+			"$this->view->getData('adminUser')",
+			"new \\Mwyatt\\Elttl",
+			"return $this->response(",
+			"use Mwyatt\\Elttl",
+			"= new \\Mwyatt\\Elttl\\",
+			"extends \\Mwyatt\\Core\\Controller",
+			"Mwyatt\\Elttl\\Admin\\Controller",
+			"button secondary",
+			"button",
+			"link secondary",
+			"link",
+			"\"page-actions clearfix\"",
+			"var(--$1);",
+			"var(--$1) ",
+			"--$1:",
+			"",
+			"@import \"$1$2\";",
+			"$url",
+			"return $this->response",
+			"extends \\Mwyatt\\Core\\Controller",
+			"var url = require('mwyatt-url');",
+			"",
+			";",
+			"",
+			"\"fixture-single-section clearfix\"",
+			"\"home-heading clearfix\"",
+			"\"page clearfix ",
+			"var(--grid-gutter);",
+			"var(--border-radius);",
+			"var(--color-$1);",
+			"@import \"$1\";",
+			"@import \"$1$2\";",
+			"require('mwyatt-codex/",
+			"require('mwyatt-dialogue'",
+			"return false; // should not run, return needed to be removed",
+			"require('./vendor/jqGrid');",
+			"require('./vendor/grid.locale-en');",
+			"'./user",
+			"'../feedbackStream",
+			"'./feedbackStream",
+			"'../feedbackStream",
+			"require('./utility/url')",
+			"require('./buttonToTop'",
+			"require('./smoothScroll')",
+			"mustache",
+			"require('./config')",
+			"require('./finance')",
+			"require('./equalHeight')",
+			"require('/equalHeight')",
+			"require('admin/vendor/grid.locale-en');",
+			"require('vendor/grid.locale-en');",
+			"owl-carousel-2/owl.carousel",
+			"owl-carousel-2",
+			"jquery-scrolltofixed",
+			"vendor/jquery.hoverIntent",
+			"jquery.hoverIntent",
+			"braintree-web",
+			"require('jquery-ui')"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/var/www/html/claire"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/var/www/html/claire/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1746,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								99,
+								270
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"i",
+				"index.php"
+			],
+			[
+				"compos",
+				"composer.json"
+			],
+			[
+				"route",
+				"App/route.php"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"commoncss",
+				"temporary/common.css"
+			],
+			[
+				"settings",
+				"temporary/_settings.css"
+			],
+			[
+				"500c",
+				"css/500.css"
+			],
+			[
+				"config",
+				"App/config-sample.php"
+			],
+			[
+				"paca",
+				"package.json"
+			],
+			[
+				"packa",
+				"App/Admin/package.json"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"tesmodel",
+				"Test/ModelTest.php"
+			],
+			[
+				"test/da",
+				"Test/DatabaseTest.php"
+			],
+			[
+				"error",
+				"error.txt"
+			],
+			[
+				"er",
+				"error.txt"
+			],
+			[
+				"err",
+				"error.txt"
+			],
+			[
+				"homephp",
+				"template/home.php"
+			],
+			[
+				"controller.pp",
+				"src/Controller.php"
+			],
+			[
+				"commit",
+				"contrib/pre-commit"
+			],
+			[
+				"adminheader",
+				"template/admin/_header.php"
+			],
+			[
+				"admincommon",
+				"css/admin/common.bundle.css"
+			],
+			[
+				"dialogue",
+				"css/admin/dialogue.css"
+			],
+			[
+				"login.js",
+				"js/admin/login.js"
+			],
+			[
+				"common",
+				"js/common.bundle.js"
+			],
+			[
+				"composer",
+				"composer.json"
+			],
+			[
+				"",
+				"src/Admin/Controller/Crud.php"
+			],
+			[
+				"controlcrud",
+				"src/Admin/Controller/Crud.php"
+			],
+			[
+				"controllerplayer",
+				"src/Admin/Controller/Player.php"
+			],
+			[
+				"controllerad",
+				"src/Admin/Controller/Ad.php"
+			],
+			[
+				"admincontrolcontent",
+				"src/Admin/Controller/Content.php"
+			],
+			[
+				"menusen",
+				"template/_menu-secondary.php"
+			],
+			[
+				"controllresult",
+				"src/Controller/Result.php"
+			],
+			[
+				"printheader",
+				"template/print/header.php"
+			],
+			[
+				"header",
+				"template/_header.php"
+			],
+			[
+				"menuseconda",
+				"json/menu-secondary.json"
+			],
+			[
+				"indexadmin",
+				"indexAdmin.php"
+			],
+			[
+				"htacc",
+				".htaccess"
+			],
+			[
+				"cred",
+				"credentials.php"
+			],
+			[
+				"gitig",
+				".gitignore"
+			],
+			[
+				"credsam",
+				"credentials-sample.php"
+			],
+			[
+				"creden",
+				"credentials.php"
+			],
+			[
+				"admincontrolad",
+				"src/Admin/Controller/Ad.php"
+			],
+			[
+				"erro",
+				"error.txt"
+			],
+			[
+				"servicethumb",
+				"src/Service/Thumb.php"
+			],
+			[
+				"controlthumb",
+				"src/Controller/Thumb.php"
+			],
+			[
+				"gitignore",
+				".gitignore"
+			],
+			[
+				"gener",
+				"css/general.css"
+			],
+			[
+				"commonbun",
+				"css/common.bundle.css"
+			],
+			[
+				"dialoguecss",
+				"css/admin/dialogue.css"
+			],
+			[
+				"loginjs",
+				"js/admin/login.js"
+			],
+			[
+				"admincommonbun",
+				"js/admin/common.bundle.js"
+			],
+			[
+				"commonbunlde",
+				"js/common.bundle.js"
+			],
+			[
+				"contrib/",
+				"contrib/pre-commit"
+			],
+			[
+				"srvicthub",
+				"src/Service/Thumb.php"
+			],
+			[
+				"controle",
+				"src/Controller.php"
+			],
+			[
+				"controllercontent",
+				"src/Controller/Content.php"
+			],
+			[
+				"contor",
+				"vendor/mwyatt/core/src/Controller.php"
+			],
+			[
+				"coreview",
+				"vendor/mwyatt/core/src/View.php"
+			],
+			[
+				"corecontroller",
+				"vendor/mwyatt/core/src/Controller.php"
+			],
+			[
+				"data.php",
+				"src/Data.php"
+			],
+			[
+				"service.php",
+				"src/Service.php"
+			],
+			[
+				"pimple",
+				"pimple.php"
+			],
+			[
+				"control",
+				"src/Controller.php"
+			],
+			[
+				"thumb",
+				"src/Controller/Thumb.php"
+			],
+			[
+				"mediaphp",
+				"src/Controller/Media.php"
+			],
+			[
+				"contro",
+				"src/Controller.php"
+			],
+			[
+				"ent",
+				"src/Entity.php"
+			],
+			[
+				"indexfront",
+				"indexFront.php"
+			],
+			[
+				"encounters",
+				"template/_encounters.php"
+			],
+			[
+				"fixturesingle",
+				"template/fixture-single.php"
+			],
+			[
+				"_fixture",
+				"template/_fixture.php"
+			],
+			[
+				"menutabl",
+				"template/division/_menu-tables.php"
+			],
+			[
+				"controlerro",
+				"src/Controller/Error.php"
+			],
+			[
+				"htac",
+				".htaccess"
+			],
+			[
+				"covercs",
+				"css/home/cover.css"
+			],
+			[
+				"homecss",
+				"css/home.css"
+			],
+			[
+				"covercss",
+				"css/home/cover.css"
+			],
+			[
+				"homecs",
+				"css/home.css"
+			],
+			[
+				"controlelr",
+				"src/Controller.php"
+			],
+			[
+				"controllerresutl",
+				"src/Controller/Result.php"
+			],
+			[
+				"general",
+				"css/general.css"
+			],
+			[
+				"commonbund",
+				"css/common.bundle.css"
+			],
+			[
+				"controllerresult",
+				"src/Controller/Result.php"
+			],
+			[
+				"view",
+				"src/View.php"
+			],
+			[
+				"indexcom",
+				"indexCommon.php"
+			],
+			[
+				"templatedivisionsingle",
+				"template/result/_division-single.php"
+			],
+			[
+				"templateresult",
+				"template/result/_year-single.php"
+			],
+			[
+				"haderphp",
+				"template/_header.php"
+			],
+			[
+				"logo",
+				"template/header/_logo.php"
+			],
+			[
+				"printcs",
+				"css/print.css"
+			],
+			[
+				"adminsystennall",
+				"template/admin/system/tennis/all.php"
+			],
+			[
+				"indexad",
+				"indexAdmin.php"
+			],
+			[
+				"systemtennis",
+				"src/Admin/Controller/System/Tennis.php"
+			],
+			[
+				"servicefixture",
+				"src/Service/Fixture.php"
+			],
+			[
+				"admincontrolfix",
+				"src/Admin/Controller/Fixture.php"
+			],
+			[
+				"templateadminfixture",
+				"template/admin/tennis/fixture/single.php"
+			],
+			[
+				"serviceful",
+				"src/Admin/Service/Fixture/Fulfill.php"
+			],
+			[
+				"routeadmin",
+				"routeAdmin.php"
+			],
+			[
+				"controllerajax",
+				"src/Admin/Controller/Ajax/Content.php"
+			],
+			[
+				"slug",
+				"js/admin/utility/slug.js"
+			],
+			[
+				"tnymce",
+				"js/admin/tinymceConfig.js"
+			],
+			[
+				"admicommon",
+				"css/admin/common.bundle.css"
+			],
+			[
+				"tinymcecon",
+				"css/admin/tinymce-content.bundle.css"
+			],
+			[
+				"adminfot",
+				"template/admin/_footer.php"
+			],
+			[
+				"admincss",
+				"css/admin/header.css"
+			],
+			[
+				"footerjs",
+				"template/footer/_js.php"
+			],
+			[
+				"admincontentsingle",
+				"js/admin/content/single.bundle.js"
+			],
+			[
+				"admincontrollercontent",
+				"src/Admin/Controller/Content.php"
+			],
+			[
+				"footer",
+				"template/admin/_footer.php"
+			],
+			[
+				"adminutilslug",
+				"js/admin/utility/slug.js"
+			],
+			[
+				"jscontentsingle",
+				"js/admin/content/single.bundle.js"
+			],
+			[
+				"table",
+				"sql/table.sql"
+			],
+			[
+				"modeldatav",
+				"src/Model/Database/Version.php"
+			],
+			[
+				"adminservsyu",
+				"src/Admin/Service/System/Upgrade.php"
+			],
+			[
+				"systenall",
+				"template/admin/system/tennis/all.php"
+			],
+			[
+				"dashboa",
+				"template/admin/dashboard.php"
+			],
+			[
+				"adminlogin",
+				"template/admin/login.php"
+			],
+			[
+				"adminsystem",
+				"src/Admin/Controller/System.php"
+			],
+			[
+				"controlsystem",
+				"src/Admin/Controller/System/Tennis.php"
+			],
+			[
+				"confgi",
+				"config.php"
+			],
+			[
+				"routeamn",
+				"routeAdmin.php"
+			],
+			[
+				"admincon",
+				"src/Admin/Controller.php"
+			],
+			[
+				"admincontroller",
+				"src/Admin/Controller/Ad.php"
+			],
+			[
+				"admincontroll",
+				"src/Admin/Controller.php"
+			],
+			[
+				"contr",
+				"src/Controller.php"
+			],
+			[
+				"routeadm",
+				"routeAdmin.php"
+			],
+			[
+				"controllerindex",
+				"src/Controller/Index.php"
+			],
+			[
+				"admincontrollerindex",
+				"src/Admin/Controller/Index.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "elt",
+		"selected_items":
+		[
+			[
+				"elt",
+				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"el",
+				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"port",
+				"/var/www/html/setting/sublime-text-workspaces/portfolio.sublime-workspace"
+			],
+			[
+				"",
+				"/var/www/html/setting/sublime-text-workspaces/portfolio.sublime-workspace"
+			],
+			[
+				"eltt",
+				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"mvcc",
+				"/var/www/html/setting/sublime-text-workspaces/mvc.sublime-workspace"
+			],
+			[
+				"core",
+				"/var/www/html/setting/sublime-text-workspaces/core.sublime-workspace"
+			],
+			[
+				"dialo",
+				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
+			],
+			[
+				"mvc",
+				"/var/www/html/setting/sublime-text-workspaces/mvc.sublime-workspace"
+			],
+			[
+				"ia",
+				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
+			],
+			[
+				"dia",
+				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
+			],
+			[
+				"store",
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"sand",
+				"/var/www/html/setting/sublime-text-workspaces/sandbox.sublime-workspace"
+			],
+			[
+				"code",
+				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
+				"elttl",
+				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"codex",
+				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
+				"url",
+				"/var/www/html/setting/sublime-text-workspaces/url.sublime-workspace"
+			],
+			[
+				"mv",
+				"/var/www/html/setting/sublime-text-workspaces/mvc.sublime-workspace"
+			],
+			[
+				"feed",
+				"/var/www/html/setting/sublime-text-workspaces/feedback-queue.sublime-workspace"
+			],
+			[
+				"stor",
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"diua",
+				"/var/www/html/sublime-workspace/dialogue.sublime-workspace"
+			],
+			[
+				"grid",
+				"/var/www/html/grid/grid.sublime-project"
+			],
+			[
+				"sto",
+				"/var/www/html/sublime-project/store.sublime-project"
+			],
+			[
+				"inv",
+				"/var/www/html/sublime-project/inventory.sublime-project"
+			],
+			[
+				"gri",
+				"/var/www/html/grid/grid.sublime-project"
+			],
+			[
+				"g",
+				"/var/www/html/grid/grid.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 348.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}
