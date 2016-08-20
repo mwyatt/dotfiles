@@ -101,6 +101,10 @@
 	],
 	"file_history":
 	[
+		"/var/www/html/mvc/App/Admin/js/user/single.bundle.js",
+		"/var/www/html/mvc/App/sql/table.sql",
+		"/var/www/html/mvc/App/Admin/Controller/Ajax.php",
+		"/var/www/html/mvc/App/Site/Elttl/Controller/Index.php",
 		"/var/www/html/mvc/App/Class/Model/User/Permission.php",
 		"/var/www/html/mvc/App/Class/Session/Expire.php",
 		"/var/www/html/mvc/App/Site/Codex/css/_dependencies.css",
@@ -224,21 +228,18 @@
 		"/var/www/html/store/trunk/js/jqueryBundle.js",
 		"/var/www/html/store/trunk/asset/jqueryBundle.js",
 		"/var/www/html/store/trunk/js/product/single/ncs.js",
-		"/var/www/html/store/trunk/js/test.bundle.js",
-		"/var/www/html/store/trunk/js/admin/category/product.js",
-		"/var/www/html/store/trunk/js/admin/mail/subscribers.js",
-		"/var/www/html/store/trunk/js/admin/product/list.js",
-		"/var/www/html/store/trunk/js/admin/discount.js"
+		"/var/www/html/store/trunk/js/test.bundle.js"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
 		"height": 93.0,
 		"where_history":
 		[
+			"-node_modules/, -asset/, -vendor/, ",
 			"-node_modules/, -asset/, -vendor/, css/",
 			"-node_modules/, -asset/, -vendor/, template/",
 			"-node_modules/, -asset/, -vendor/, css/",
@@ -270,6 +271,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"js-toggle-all-permissions",
 			")))",
 			";;",
 			"@mixin clearfix (.*?);",
@@ -396,8 +398,7 @@
 			".upload(",
 			"prepareUpload",
 			".upload(",
-			"require('./mediaBrowser",
-			"document"
+			"require('./mediaBrowser"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -510,6 +511,18 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"controllerindex",
+				"App/Site/Elttl/Controller/Index.php"
+			],
+			[
+				"admincontrolajax",
+				"App/Admin/Controller/Ajax.php"
+			],
+			[
+				"table",
+				"App/sql/table.sql"
+			],
 			[
 				"sessionexpi",
 				"App/Class/Session/Expire.php"
@@ -888,12 +901,16 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "claire",
 		"selected_items":
 		[
 			[
+				"claire",
+				"/var/www/html/setting/sublime-text-workspaces/claire.sublime-workspace"
+			],
+			[
 				"",
-				"/var/www/html/setting/sublime-text-workspaces/core.sublime-workspace"
+				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
 			],
 			[
 				"codex",

@@ -4,6 +4,46 @@
 		"selected_items":
 		[
 			[
+				"filetim",
+				"filemtime"
+			],
+			[
+				"dialo",
+				"dialogue"
+			],
+			[
+				"pv",
+				"pv	mw-php-printPre"
+			],
+			[
+				"feeds",
+				"feedbackStreamFactory"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"passcon",
+				"passwordConfirm"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"passc",
+				"passwordConfirm"
+			],
+			[
+				"getpa",
+				"getPathBase"
+			],
+			[
+				"permis",
+				"permissions"
+			],
+			[
 				"unse",
 				"unset"
 			],
@@ -27,7 +67,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 354.0,
 		"last_filter": "close",
 		"selected_items":
 		[
@@ -36,16 +76,20 @@
 				"File: Close All"
 			],
 			[
+				"closeal",
+				"File: Close All"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
 				"stat",
 				"View: Toggle Status Bar"
-			],
-			[
-				"men",
-				"View: Toggle Menu"
-			],
-			[
-				"instal",
-				"Package Control: Install Package"
 			],
 			[
 				"install",
@@ -54,15 +98,64 @@
 			[
 				"list",
 				"Package Control: List Packages"
+			],
+			[
+				"closea",
+				"File: Close All"
+			],
+			[
+				"save",
+				"File: Save All"
+			],
+			[
+				"closeall",
+				"File: Close All"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"clos",
+				"File: Close All"
+			],
+			[
+				"men",
+				"View: Toggle Menu"
+			],
+			[
+				"clo",
+				"File: Close All"
+			],
+			[
+				"sa",
+				"File: Save All"
+			],
+			[
+				"status",
+				"View: Toggle Status Bar"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
 			]
 		],
-		"width": 449.0
+		"width": 431.0
 	},
 	"console":
 	{
 		"height": 139.0,
 		"history":
 		[
+			"sublime.log_commands(False) ",
+			"sublime.log_commands(True) ",
+			"sublime.log_commands(False) ",
+			"sublime.log_commands(false) ",
+			"sublime.log_commands(True) ",
 			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 		]
 	},
@@ -81,145 +174,170 @@
 	],
 	"file_history":
 	[
-		"/var/www/html/elttl/gulpfile.js",
-		"/var/www/html/elttl/package.json",
-		"/var/www/html/elttl/index.php",
-		"/var/www/html/elttl/sql/table.sql",
-		"/var/www/html/elttl/template/_header.php",
-		"/var/www/html/elttl/js/common.bundle.js",
-		"/var/www/html/elttl/sql/2.sql",
-		"/var/www/html/elttl/src/Admin/Controller/Index.php",
-		"/var/www/html/elttl/src/Session/Form.php",
-		"/var/www/html/elttl/src/Controller/Admin.php",
-		"/var/www/html/elttl/indexAdmin.php",
+		"/var/www/html/elttl/css/header.css",
+		"/var/www/html/elttl/indexCommon.php",
 		"/var/www/html/elttl/route.php",
-		"/var/www/html/elttl/config-sample.php",
-		"/var/www/html/elttl/vendor/mwyatt/core/config-sample.php",
+		"/var/www/html/elttl/src/Controller/Content.php",
+		"/var/www/html/elttl/src/Controller/Fixture.php",
+		"/var/www/html/elttl/src/Controller/Team.php",
+		"/var/www/html/elttl/src/Controller/Player.php",
+		"/var/www/html/elttl/pimple.php",
+		"/var/www/html/elttl/src/Entity.php",
+		"/var/www/html/elttl/vendor/mwyatt/core/src/AbstractModel.php",
+		"/var/www/html/elttl/src/Controller/Result.php",
+		"/var/www/html/elttl/template/result/_year-all.php",
+		"/var/www/html/elttl/src/Entity/Content.php",
+		"/var/www/html/elttl/src/Controller/User.php",
+		"/var/www/html/elttl/src/Entity/Player.php",
+		"/var/www/html/elttl/vendor/mwyatt/core/src/Entity.php",
+		"/var/www/html/elttl/src/Admin/Controller/Player.php",
+		"/var/www/html/elttl/src/Controller/Error.php",
+		"/var/www/html/elttl/src/Controller.php",
+		"/var/www/html/elttl/index.php",
+		"/var/www/html/elttl/vendor/mwyatt/core/src/Response.php",
+		"/var/www/html/elttl/template/header/_meta.php",
+		"/var/www/html/elttl/src/Entity/Year.php",
+		"/var/www/html/elttl/vendor/mwyatt/core/src/Controller.php",
+		"/var/www/html/elttl/src/Service/Thumb.php",
+		"/var/www/html/elttl/template/_header.php",
+		"/var/www/html/elttl/indexAdmin.php",
+		"/var/www/html/elttl/config.php",
+		"/var/www/html/elttl/template/home.php",
+		"/var/www/html/elttl/css/home.css",
+		"/var/www/html/elttl/css/common.bundle.css",
+		"/var/www/html/elttl/css/general.css",
+		"/var/www/html/elttl/.gitignore",
+		"/var/www/html/elttl/error-sample.txt",
+		"/var/www/html/elttl/css/home/cover.css",
+		"/var/www/html/setting/pull.sh",
+		"/home/martin/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/martin/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/martin/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/var/www/html/elttl/vendor/mwyatt/core/src/View.php",
+		"/var/www/html/elttl/template/header/_logo.php",
+		"/var/www/html/elttl/src/View.php",
+		"/var/www/html/elttl/template/admin/option/all.php",
+		"/var/www/html/elttl/src/Admin/Service/System/Upgrade.php",
+		"/var/www/html/elttl/src/Entity/User.php",
+		"/var/www/html/elttl/src/Model/Option.php",
+		"/var/www/html/elttl/gulpfile.js",
+		"/var/www/html/elttl/js/admin/login.js",
+		"/var/www/html/elttl/package.json",
+		"/var/www/html/elttl/composer.json",
+		"/var/www/html/elttl/template/_footer.php",
+		"/var/www/html/elttl/sql/table.sql",
+		"/var/www/html/elttl/error.txt",
+		"/var/www/html/elttl/vendor/mwyatt/core/src/Router.php",
 		"/var/www/html/elttl/src/Error.php",
-		"/var/www/html/elttl/js/admin/tennis/fixture/single.bundle.js",
-		"/var/www/html/elttl/src/Model.php",
-		"/var/www/html/elttl/src/Json.php",
-		"/var/www/html/store/trunk/js/buttonToTop.js",
-		"/var/www/html/store/trunk/js/admin/mediaBrowser/mustacheTemplates.js",
-		"/var/www/html/store/trunk/mustache/admin/media/browser/tree.mst",
-		"/var/www/html/store/trunk/mustache/admin/media/browser/layout-control.mst",
-		"/var/www/html/store/trunk/app/classes/admin/modules/products.php",
-		"/var/www/html/store/trunk/app/classes/admin/modules/features.php",
-		"/var/www/html/store/trunk/app/classes/admin/modules/inbox.php",
-		"/var/www/html/store/trunk/app/classes/admin/modules/media.php",
-		"/var/www/html/store/trunk/mustache/admin/media/browser/file.mst",
-		"/var/www/html/store/trunk/mustache/admin/media/browser/file-context.mst",
-		"/var/www/html/store/trunk/mustache/admin/media/browser/file-pdf.mst",
-		"/var/www/html/store/trunk/mustache/admin/media/browser/directory.mst",
-		"/var/www/html/store/trunk/js/admin/order/single.js",
-		"/var/www/html/store/trunk/js/admin/order/all.js",
-		"/var/www/html/store/trunk/js/admin/note.js",
-		"/var/www/html/store/trunk/js/admin/features.js",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/features/create-update.tpl",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/features/create.tpl",
-		"/var/www/html/store/trunk/sass/admin/order/_list.scss",
-		"/var/www/html/store/trunk/app/skin/custom/frontend/common/footer.tpl",
-		"/var/www/html/store/trunk/js/product/single/basket-added.js",
-		"/var/www/html/store/trunk/js/product.js",
-		"/var/www/html/store/trunk/app/classes/ajax/modules/product.php",
-		"/var/www/html/store/trunk/app/skin/custom/frontend/common/_product.tpl",
-		"/var/www/html/store/trunk/js/product/single.js",
-		"/var/www/html/store/trunk/js/admin/mediaBrowser.js",
-		"/var/www/html/store/trunk/js/admin/order/label.js",
-		"/var/www/html/store/trunk/js/admin/order/single/payment.js",
-		"/var/www/html/store/trunk/js/admin/order/single/summary.js",
-		"/var/www/html/store/trunk/js/checkout/previous-order-lookup.js",
-		"/var/www/html/store/trunk/gulpfile.js",
-		"/var/www/html/store/trunk/package.json",
-		"/var/www/html/store/trunk/index.php",
-		"/var/www/html/store/trunk/initialise.php",
-		"/var/www/html/store/trunk/sass/_site.scss",
-		"/var/www/html/store/trunk/app/classes/admin/ajax/abstract/module.php",
-		"/var/www/html/store/trunk/sass/admin/_dialogue.scss",
-		"/var/www/html/store/trunk/sass/admin/_media-browser.scss",
-		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/mediabrowser.php",
-		"/var/www/html/store/trunk/app/classes/inventory/product/multiloader.php",
-		"/var/www/html/store/trunk/app/classes/inventory/feature.php",
-		"/var/www/html/store/trunk/.htaccess",
-		"/var/www/html/store/trunk/app/classes/common/media.php",
-		"/var/www/html/store/trunk/app/classes/inventory.php",
-		"/var/www/html/store/trunk/administration/ajax.php",
-		"/var/www/html/store/trunk/node_modules/dialogue/dialogue.js",
-		"/var/www/html/store/trunk/js/admin/product/single.js",
-		"/var/www/html/store/trunk/js/admin/common.bundle.js",
-		"/var/www/html/store/trunk/app/classes/frontend/modules/unsubscribe.php",
-		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/showroomclearance/single.tpl",
-		"/var/www/html/store/trunk/js/admin/misc.js",
-		"/var/www/html/store/trunk/js/helper.js",
-		"/var/www/html/store/trunk/js/form.js",
-		"/var/www/html/store/trunk/node_modules/codex/utility/url.js",
-		"/var/www/html/store/trunk/app/skin/custom/admin/common/footer.tpl",
-		"/var/www/html/store/trunk/js/common.bundle.js",
-		"/var/www/html/store/trunk/asset/admin/common.js",
-		"/var/www/html/store/trunk/js/utility/url.js",
-		"/var/www/html/store/trunk/composer.json",
-		"/var/www/html/store/trunk/js/admin/advanced-search/all.bundle.js",
-		"/var/www/html/store/trunk/js/bundle/single.js",
-		"/var/www/html/store/trunk/sass/_reset.scss",
-		"/var/www/html/store/trunk/js/global.js",
-		"/var/www/html/store/trunk/js/basket.js",
-		"/var/www/html/store/trunk/asset/common.js",
-		"/var/www/html/store/trunk/app/classes/frontend/modules/advancedsearch.php",
-		"/var/www/html/store/trunk/js/jqueryBundle.js",
-		"/var/www/html/store/trunk/asset/jqueryBundle.js",
-		"/var/www/html/store/trunk/js/product/single/ncs.js",
-		"/var/www/html/store/trunk/js/test.bundle.js",
-		"/var/www/html/store/trunk/js/admin/category/product.js",
-		"/var/www/html/store/trunk/js/admin/mail/subscribers.js",
-		"/var/www/html/store/trunk/js/admin/product/list.js",
-		"/var/www/html/store/trunk/js/admin/discount.js",
-		"/var/www/html/store/trunk/js/admin/feedExclusions.js",
-		"/var/www/html/store/trunk/js/admin/news.js",
-		"/var/www/html/store/trunk/js/admin/pay4laterRates.js",
-		"/var/www/html/store/trunk/js/admin/productPricingGuide.js",
-		"/var/www/html/store/trunk/js/admin/productsEav.js",
-		"/var/www/html/store/trunk/js/admin/productsEavTemplates.js",
-		"/var/www/html/store/trunk/js/admin/scheduledDiscount.js",
-		"/var/www/html/store/trunk/js/admin/specialPricing.js",
-		"/var/www/html/store/trunk/js/admin/warehouse.js",
-		"/var/www/html/store/trunk/js/admin/voucher/single.js",
-		"/var/www/html/store/trunk/js/admin/exception/single.js",
-		"/var/www/html/store/trunk/js/admin/exception/email.js",
-		"/var/www/html/store/trunk/js/admin/order/dpd-create-shipment.bundle.js",
-		"/var/www/html/store/trunk/js/admin/order/pick-print.js",
-		"/var/www/html/store/trunk/js/admin/product/bundle.js",
-		"/var/www/html/store/trunk/js/admin/exception.js",
-		"/var/www/html/store/trunk/js/admin/feedbackStream.js",
-		"/var/www/html/store/trunk/js/admin/account/offer/single.bundle.js",
-		"/var/www/html/store/trunk/js/admin/product/stock-reminder.bundle.js",
-		"/var/www/html/store/trunk/js/checkout/payment.js",
-		"/var/www/html/store/trunk/js/product/single/wish.js",
-		"/var/www/html/store/trunk/js/utility/postcodeLookup.js",
-		"/var/www/html/store/trunk/js/checkout/delivery-address-toggle.js",
-		"/var/www/html/store/trunk/js/admin/exception/create.js",
-		"/var/www/html/store/trunk/js/filter.js",
-		"/var/www/html/store/trunk/js/account.js",
-		"/var/www/html/store/trunk/js/category.js",
-		"/var/www/html/store/trunk/js/header.js",
-		"/var/www/html/store/trunk/js/finance.js",
-		"/var/www/html/store/trunk/js/contact.js",
-		"/var/www/html/store/trunk/node_modules/gulp-sass/node_modules/node-sass/node_modules/sass-graph/node_modules/lodash/_assignInDefaults.js",
-		"/var/www/html/store/trunk/js/checkout.js",
-		"/var/www/html/store/trunk/js/admin/ebay.js",
-		"/var/www/html/store/trunk/js/admin/promotion.js",
-		"/var/www/html/store/trunk/js/admin/ad/all.js",
-		"/var/www/html/store/trunk/js/admin/order/create.js"
+		"/var/www/html/elttl/vendor/mwyatt/core/src/Error.php",
+		"/var/www/html/elttl/css/admin/common.bundle.css",
+		"/var/www/html/elttl/template/admin/_header.php",
+		"/var/www/html/elttl/css/admin/header.css",
+		"/var/www/html/elttl/contrib/pre-commit",
+		"/var/www/html/elttl/css/admin/dialogue.css",
+		"/var/www/html/elttl/js/common.bundle.js",
+		"/var/www/html/elttl/template/result/_division-single.php",
+		"/var/www/html/elttl/css/print.css",
+		"/var/www/html/elttl/template/print/header.php",
+		"/var/www/html/elttl/template/_menu-secondary.php",
+		"/var/www/html/elttl/src/Admin/Controller/Content.php",
+		"/var/www/html/elttl/src/Admin/Controller/Crud.php",
+		"/var/www/html/elttl/src/Admin/Controller/Ad.php",
+		"/var/www/html/elttl/src/Service/Common.php",
+		"/var/www/html/elttl/json/menu-tertiary.json",
+		"/var/www/html/elttl/json/menu-secondary.json",
+		"/var/www/html/elttl/.htaccess",
+		"/var/www/html/elttl/credentials.php",
+		"/var/www/html/elttl/credentials-sample.php",
+		"/home/martin/Documents/elttl-backup/credentials.php",
+		"/home/martin/Documents/elttl-backup/config.php",
+		"/var/www/html/elttl/src/Controller/Thumb.php",
+		"/var/www/html/elttl/js/admin/common.bundle.js",
+		"/var/www/html/elttl/src/Entity/File.php",
+		"/home/martin/Downloads/phpinfo.php",
+		"/var/www/html/elttl/css/division/overview.css",
+		"/var/www/html/elttl/src/Service.php",
+		"/var/www/html/elttl/src/Data.php",
+		"/var/www/html/elttl/src/Controller/Media.php",
+		"/var/www/html/elttl/indexFront.php",
+		"/var/www/html/elttl/css/pagination.css",
+		"/var/www/html/elttl/template/division/_menu-tables.php",
+		"/var/www/html/elttl/template/_fixture.php",
+		"/var/www/html/elttl/template/fixture-single.php",
+		"/var/www/html/elttl/template/_encounters.php",
+		"/var/www/html/elttl/index.html",
+		"/var/www/html/elttl/template/error.php",
+		"/var/www/html/elttl/template/result/_year-single.php",
+		"/var/www/html/elttl/template/print",
+		"/var/www/html/elttl/js/admin/content/single.bundle.js",
+		"/var/www/html/elttl/js/admin/utility/slug.js",
+		"/var/www/html/elttl/src/Admin/Controller/Ajax/Content.php",
+		"/var/www/html/elttl/src/Admin/Service/Fixture/Fulfill.php",
+		"/var/www/html/elttl/template/admin/tennis/fixture/single.php",
+		"/var/www/html/elttl/src/Admin/Controller/Fixture.php",
+		"/var/www/html/elttl/src/Service/Fixture.php",
+		"/var/www/html/elttl/src/Admin/Controller/System/Tennis.php",
+		"/var/www/html/elttl/template/admin/system/tennis/all.php",
+		"/var/www/html/elttl/src/Helper.php",
+		"/var/www/html/elttl/template/admin/content/single.php",
+		"/var/www/html/elttl/routeAdmin.php",
+		"/var/www/html/elttl/template/admin/_footer.php",
+		"/var/www/html/elttl/js/admin/tinymceConfig.js",
+		"/var/www/html/elttl/css/admin/tinymce-content.bundle.css",
+		"/var/www/html/elttl/template/footer/_js.php",
+		"/var/www/html/elttl/config-sample.php",
+		"/var/www/html/elttl/src/Admin/Controller/System.php",
+		"/var/www/html/elttl/template/admin/system.bundle.php",
+		"/var/www/html/elttl/src/Model/Database/Version.php",
+		"/var/www/html/elttl/template/admin/dashboard.php",
+		"/var/www/html/elttl/src/Admin/Controller.php",
+		"/var/www/html/elttl/src/Admin/Controller/Index.php",
+		"/var/www/html/elttl/src/Controller/Index.php",
+		"/var/www/html/elttl/template/admin/header/_menu.php",
+		"/var/www/html/elttl/src/Admin/Controller/User.php",
+		"/var/www/html/elttl/template/admin/user/single.php",
+		"/var/www/html/elttl/src/Admin/Service/User/Permission.php",
+		"/var/www/html/elttl/template/admin/user/all.php",
+		"/var/www/html/elttl/vendor/mwyatt/core/src/Request.php",
+		"/var/www/html/elttl/src/Admin/Controller/Team.php",
+		"/var/www/html/elttl/template/admin/tennis/division/all.php",
+		"/var/www/html/elttl/template/admin/tennis/division/single.php"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
 		"height": 93.0,
 		"where_history":
 		[
+			"-node_modules/, -asset/, -vendor/,",
+			"-node_modules/, -asset/, -vendor/, template/",
 			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, template/",
+			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, template/",
+			"-node_modules/, -asset/, -vendor/,",
+			"-node_modules/, -asset/, -vendor/, js",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, -vendor/, Controller/",
+			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, controller/",
+			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, template/",
+			"-node_modules/, -asset/, -vendor/, css/",
+			"-node_modules/, -asset/, -vendor/, template/",
+			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, src/",
+			"-node_modules/, -asset/, -vendor/, js/",
+			"-node_modules/, -asset/, -vendor/, css/",
+			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, css/",
+			"-node_modules/, -asset/, -vendor/, template/",
+			"-node_modules/, -asset/, -vendor/, css/",
+			"-node_modules/, -asset/, -vendor/, template/",
+			"-node_modules/, -asset/, -vendor/, css/",
 			"-node_modules/, -asset/, -vendor/, sass/",
 			"-node_modules/, -asset/, -vendor/",
 			"-node_modules/, -asset/, ",
@@ -246,134 +364,134 @@
 		"case_sensitive": true,
 		"find_history":
 		[
-			"anchor-scroll",
-			"container",
-			"container\n",
-			"$router",
-			"getSthExecutePositionalWriteable",
-			"getSqlPositionalPlaceholdersWriteable",
-			"longtext",
-			"text",
-			",",
-			".container",
-			"js-media-browser-file-container",
-			"width: ",
-			".join()",
-			"mustache.render",
-			"module.exports = ",
-			"append_asset('mustache', 'admin/dialogue');",
-			"mustache.render($('#admin-media-browser-layout-control').html()",
-			"$('#admin-media-browser-file-context').html()",
-			"media-browser-file-context",
-			"media-browser-tree",
-			"mustacheMediaBrowserFile",
-			"media-browser-file",
-			"dialogueInfo",
-			"createEditGeneral",
-			"'mustache', 'admin/media/browser/file'",
-			"$('#",
-			"append_asset('mustache', 'dialogue')",
-			"dialogue",
-			"Technology",
-			"Create Tech",
-			"();\n",
-			"lightbox-inbox-preview",
-			"dialogueFactory",
-			"mainClass: 'lightbox-inbox-preview',",
-			".magnificPop",
-			"dialogue",
-			"data-get-image",
-			"$productSingleGetThumbAjax",
-			"basket-added",
-			"data-get-image",
-			"get_thumb",
-			"Ajax_Modules_Product",
-			"get_thumb",
-			"$('img[data-get-image=\"' + productId + '\"]').attr('src', url.getUrlBase(path));",
-			"dialogueBasket",
-			"dialogue",
-			"dialogueDelete",
-			"dialogue",
-			"require('mwyatt-codex/dialogue')",
-			"dialogue",
-			"new dialogue",
-			"dialogue",
-			"require('mwyatt-codex/dialogue')",
-			"require('codex/",
-			"package.json",
-			"pkg.",
-			"url: url.getUrlBase('ajax.php?' + $('.js-product-single-form-buy').serialize()),",
-			"deleteSomething",
-			"require('dialogue'",
-			"dialogueRemove",
-			"media-browser-file-remove",
-			"dialogueDeleteThumbs",
-			"dialogueRemove",
-			"media-browser-file-remove-dialogue",
-			"dialogueDeleteThumbs",
-			"media-browser-file-info-dialogue",
-			"media-browser-file-info",
-			".media-browser-file-info",
-			"media-browser-file-info",
-			"consume_array",
-			"mediaBrowser.uploadFormData",
-			"mediaBrowser",
-			"upload(",
-			"mediaBrowser.uploadFormData",
-			".append",
-			"fieldUpload",
-			"  $(mediaBrowser.fieldUpload).on('change', function() {",
-			"uploadFormData",
-			".upload(",
-			"prepareUpload",
-			".upload(",
-			"require('./mediaBrowser",
-			"document",
-			"uploadFormData",
-			"overflowFiles",
-			"uploadFormData",
-			"actions: {",
-			"actions: [",
-			"dialogueRemove",
-			"][$key]",
-			"$_FILES[\"images\"]",
-			"upload",
-			"dialogueDeleteThumbs",
-			"dialogueRemove",
-			"dialogueDeleteThumbs",
-			"dialogueInfo",
-			"dialogueRemove",
-			"new dialogueFactory",
-			"new dialogue",
-			"dialogue",
-			"mediaBrowser.upload(",
-			"mediaBrowser.upload",
-			"upload",
-			"mustache",
-			"getResponseJson",
-			"Lowbo",
-			"Scala Low",
-			"mimeAcceptable",
-			"vendor/jquery.magnific",
-			"require('jquery')",
-			"datepicker",
-			"jquery-ui",
-			"$('#datepicker1').datepicker",
-			"'js'",
-			"setSubmitButtons",
-			"js-submit",
-			"setRequiredFlags",
-			"form",
-			"console",
-			"getResponseJson",
-			"getRequestBody",
-			"STATUS_SUCCESS",
-			"url",
-			"getUrlBase",
-			"$('.js-media-attached').html(mustache.render(mustacheMediaBrowserFile, {urlBase: url.getUrlBase(), files: filesAttached}));",
-			"{urlBase: url.getUrlBase(), files",
-			"libs",
-			"copy-tinymce-plugins"
+			"container-header-inner",
+			"player",
+			"getNameFull",
+			"$player",
+			"$player->getNameFull()",
+			"consumeArray",
+			"redirect",
+			"generateThumb",
+			"$this->view->data->offsetSet('title",
+			"(! ",
+			"$item['routeToken']",
+			"routeToken",
+			"home-gallery-cont",
+			"1em",
+			".home.page",
+			"699",
+			"banner-primary js-home-cover",
+			".cover {",
+			"options",
+			"meta_title",
+			"option",
+			"$option",
+			"optionValues",
+			"entity",
+			"name",
+			"Options",
+			"cr",
+			"' . DS . '",
+			"APP_PATH",
+			"routeToken",
+			"'meta_title'",
+			"required value",
+			"Missing required value",
+			"Forgot Password",
+			"->weight",
+			"Error",
+			"path",
+			"$path",
+			"galleryPaths",
+			"menu-primary-level-1-link",
+			".menu-primary-level-1-link",
+			"ancho",
+			"update",
+			"Merit Doubles",
+			"print/header",
+			"100",
+			"print-header",
+			"\"url\": \"/",
+			"	{\n		\"name\": \"Town Teams\",\n		\"url\": \"/page/town-teams/\"\n	}\n",
+			"\"url\": \"",
+			"menuTertiary",
+			"menu-tertiary",
+			"Town Teams",
+			"routeCurrent",
+			"gallery-link",
+			"media/",
+			"$(this)",
+			"success",
+			"{},\n",
+			"$path",
+			"$this->getUrlAsset(",
+			"galleryPaths",
+			"files",
+			"PATH_BASE",
+			"$request->getUrlVar('type')",
+			"slug",
+			"'not found'",
+			"Exception",
+			"            ",
+			"pathOnly",
+			"fileName",
+			"getFilePath",
+			"$this->view->getPathBase(",
+			"BASE_PATH . 'media/'",
+			"legacy",
+			"getPathMedia",
+			"render",
+			"pathRequest",
+			"public",
+			"pathRequest",
+			"commonMedia",
+			"View",
+			"commonMedia",
+			"-9",
+			"-10",
+			"-11",
+			"11",
+			"condition",
+			"yearName",
+			"'yearSingle'",
+			"yearSingle",
+			"header-select-year",
+			".header-select-year",
+			".pagination-next",
+			"margin",
+			"@media only screen and (min-width: 600px) {\n  .cover {\n    width: 50%;\n  }\n}\n\n",
+			"class^=",
+			" class=\"",
+			"header-",
+			"data",
+			"$this->view->data->offsetGet('",
+			"$view->data->offsetGet('",
+			"$option[",
+			"\n  ",
+			"create(",
+			"update(",
+			"getUrlVar",
+			"isDebug",
+			"OriginalAppName",
+			"slug",
+			"feedbackStream",
+			"/delete",
+			"OriginalAppName",
+			"Dashboard",
+			"<a href",
+			"admin/system",
+			"system/",
+			"content/all",
+			"];",
+			"$class",
+			"];",
+			"$class",
+			",\n    []",
+			"];",
+			"$class",
+			"Controller",
+			"Index",
+			"permission"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -381,6 +499,44 @@
 		"regex": false,
 		"replace_history":
 		[
+			"button secondary",
+			"button",
+			"user.forgot-password.key",
+			"PATH_BASE",
+			".getBase(",
+			"$url",
+			"$this->view->getData('adminUser')",
+			"new \\Mwyatt\\Elttl",
+			"return $this->response(",
+			"use Mwyatt\\Elttl",
+			"= new \\Mwyatt\\Elttl\\",
+			"extends \\Mwyatt\\Core\\Controller",
+			"Mwyatt\\Elttl\\Admin\\Controller",
+			"button secondary",
+			"button",
+			"link secondary",
+			"link",
+			"\"page-actions clearfix\"",
+			"var(--$1);",
+			"var(--$1) ",
+			"--$1:",
+			"",
+			"@import \"$1$2\";",
+			"$url",
+			"return $this->response",
+			"extends \\Mwyatt\\Core\\Controller",
+			"var url = require('mwyatt-url');",
+			"",
+			";",
+			"",
+			"\"fixture-single-section clearfix\"",
+			"\"home-heading clearfix\"",
+			"\"page clearfix ",
+			"var(--grid-gutter);",
+			"var(--border-radius);",
+			"var(--color-$1);",
+			"@import \"$1\";",
+			"@import \"$1$2\";",
 			"require('mwyatt-codex/",
 			"require('mwyatt-dialogue'",
 			"return false; // should not run, return needed to be removed",
@@ -434,7 +590,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"layout":
 	{
@@ -459,10 +615,6 @@
 		]
 	},
 	"menu_visible": false,
-	"output.CSS Extended Completions":
-	{
-		"height": 0.0
-	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -481,384 +633,516 @@
 		"selected_items":
 		[
 			[
-				"sql",
-				"sql/2.sql"
+				"indexcommon",
+				"indexCommon.php"
 			],
 			[
-				".sql",
-				"sql/table.sql"
-			],
-			[
-				"index",
-				"index.php"
-			],
-			[
-				"header",
-				"template/_header.php"
-			],
-			[
-				"packa",
-				"package.json"
-			],
-			[
-				"pack",
-				"package.json"
-			],
-			[
-				"gulp",
-				"gulpfile.js"
-			],
-			[
-				"sessform",
-				"src/Session/Form.php"
-			],
-			[
-				"admincontrollerindex",
-				"src/Admin/Controller/Index.php"
-			],
-			[
-				"controlleradmin",
-				"src/Controller/Admin.php"
-			],
-			[
-				"indexad",
-				"indexAdmin.php"
+				"headercss",
+				"css/header.css"
 			],
 			[
 				"route",
 				"route.php"
 			],
 			[
-				"confgi",
-				"vendor/mwyatt/core/config-sample.php"
+				"entcontent",
+				"src/Entity/Content.php"
 			],
 			[
-				"config",
-				"config-sample.php"
+				"controllerteam",
+				"src/Controller/Team.php"
+			],
+			[
+				"",
+				"src/Controller/Player.php"
+			],
+			[
+				"pimple",
+				"pimple.php"
+			],
+			[
+				"entplayer",
+				"src/Entity/Player.php"
+			],
+			[
+				"coremodel",
+				"vendor/mwyatt/core/src/AbstractModel.php"
+			],
+			[
+				"controllerplayer",
+				"src/Controller/Player.php"
+			],
+			[
+				"resultyearall",
+				"template/result/_year-all.php"
+			],
+			[
+				"response",
+				"vendor/mwyatt/core/src/Response.php"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"controllercontent",
+				"src/Controller/Content.php"
+			],
+			[
+				"controllererrro",
+				"src/Controller/Error.php"
+			],
+			[
+				"headermeta",
+				"template/header/_meta.php"
 			],
 			[
 				"indexadmin",
 				"indexAdmin.php"
 			],
 			[
-				"inde",
-				"index.php"
+				"servicethum",
+				"src/Service/Thumb.php"
 			],
 			[
-				"error",
-				"src/Error.php"
+				"header",
+				"template/_header.php"
 			],
 			[
-				"fixture.js",
-				"js/admin/tennis/fixture/single.bundle.js"
+				"config",
+				"config.php"
 			],
 			[
-				"model",
-				"src/Model.php"
-			],
-			[
-				"json",
-				"src/Json.php"
-			],
-			[
-				"inex",
-				"index.php"
-			],
-			[
-				"erro",
-				"src/Error.php"
-			],
-			[
-				"commmedia",
-				"app/classes/common/media.php"
-			],
-			[
-				"frontmodmedia",
-				"app/classes/frontend/modules/media.php"
-			],
-			[
-				"ajaxmediabro",
-				"app/classes/admin/ajax/modules/mediabrowser.php"
-			],
-			[
-				"medbmusta",
-				"js/admin/mediaBrowser/mustacheTemplates.js"
-			],
-			[
-				"",
-				"Find Results"
-			],
-			[
-				"layoutcontrol",
-				"mustache/admin/media/browser/layout-control.mst"
-			],
-			[
-				"filecontex",
-				"mustache/admin/media/browser/file-context.mst"
-			],
-			[
-				"medaibrowtree",
-				"mustache/admin/media/browser/tree.mst"
-			],
-			[
-				"adminmediabrowfile",
-				"mustache/admin/media/browser/file.mst"
-			],
-			[
-				"adminmodmedia",
-				"app/classes/admin/modules/media.php"
-			],
-			[
-				"mediabrow",
-				"js/admin/mediaBrowser.js"
-			],
-			[
-				"footertpl",
-				"app/skin/custom/frontend/common/footer.tpl"
-			],
-			[
-				"basketadd",
-				"js/product/single/basket-added.js"
-			],
-			[
-				"baskadded",
-				"js/product/single/basket-added.js"
-			],
-			[
-				"sitescs",
-				"sass/_site.scss"
-			],
-			[
-				"initial",
-				"initialise.php"
-			],
-			[
-				"mediabrows",
-				"trunk/js/admin/mediaBrowser.js"
-			],
-			[
-				"pakca",
-				"trunk/package.json"
-			],
-			[
-				"dialoguescss",
-				"trunk/sass/admin/_dialogue.scss"
-			],
-			[
-				"dialogu.js",
-				"trunk/node_modules/dialogue/dialogue.js"
-			],
-			[
-				"mediabrowjs",
-				"trunk/js/admin/mediaBrowser.js"
-			],
-			[
-				"media",
-				"trunk/app/classes/common/media.php"
-			],
-			[
-				"htacc",
-				"trunk/.htaccess"
-			],
-			[
-				"inve",
-				"trunk/app/classes/inventory.php"
-			],
-			[
-				"prodmultiload",
-				"trunk/app/classes/inventory/product/multiloader.php"
-			],
-			[
-				"adminajax",
-				"trunk/administration/ajax.php"
-			],
-			[
-				"adminproductjs",
-				"trunk/js/admin/product/single.js"
-			],
-			[
-				"unsubscribe",
-				"trunk/app/classes/frontend/modules/unsubscribe.php"
-			],
-			[
-				"mediabrowser",
-				"trunk/js/admin/mediaBrowser.js"
-			],
-			[
-				"ajaxmediabrow",
-				"trunk/app/classes/admin/ajax/modules/mediabrowser.php"
-			],
-			[
-				"showroomclear",
-				"trunk/app/skin/custom/frontend/modules/showroomclearance/single.tpl"
-			],
-			[
-				"adminajax.php",
-				"trunk/administration/ajax.php"
-			],
-			[
-				"ajax.php",
-				"trunk/administration/ajax.php"
-			],
-			[
-				"helper",
-				"trunk/js/helper.js"
-			],
-			[
-				"formjs",
-				"trunk/js/form.js"
-			],
-			[
-				"admincommonbun",
-				"trunk/js/admin/common.bundle.js"
-			],
-			[
-				"jscommonjs",
-				"trunk/js/common.bundle.js"
-			],
-			[
-				"commonjs",
-				"trunk/asset/admin/common.js"
-			],
-			[
-				"adminajaxabsmod",
-				"trunk/app/classes/admin/ajax/abstract/module.php"
-			],
-			[
-				"url",
-				"trunk/js/utility/url.js"
-			],
-			[
-				"compos",
-				"trunk/composer.json"
-			],
-			[
-				"codexurl",
-				"trunk/node_modules/codex/utility/url.js"
-			],
-			[
-				"adminfooter",
-				"trunk/app/skin/custom/admin/common/footer.tpl"
-			],
-			[
-				"allbundle",
-				"trunk/js/admin/advanced-search/all.bundle.js"
-			],
-			[
-				"adminmediabro",
-				"trunk/js/admin/mediaBrowser.js"
-			],
-			[
-				"adminmediabrow",
-				"trunk/js/admin/mediaBrowser.js"
-			],
-			[
-				"basketjs",
-				"trunk/js/basket.js"
-			],
-			[
-				"globaljs",
-				"trunk/js/global.js"
-			],
-			[
-				"producjs",
-				"trunk/js/product.js"
-			],
-			[
-				"prodsingle",
-				"trunk/js/product/single.js"
-			],
-			[
-				"resetsc",
-				"trunk/sass/_reset.scss"
-			],
-			[
-				"admincommon",
-				"trunk/asset/admin/common.js"
+				"general",
+				"css/general.css"
 			],
 			[
 				"common",
-				"trunk/asset/common.js"
+				"css/common.bundle.css"
 			],
 			[
-				"advancedse",
-				"trunk/app/classes/frontend/modules/advancedsearch.php"
+				"gitig",
+				".gitignore"
 			],
 			[
-				"jqbundle",
-				"trunk/asset/jqueryBundle.js"
+				"homecover",
+				"css/home/cover.css"
 			],
 			[
-				"assadmincommon",
-				"trunk/asset/admin/common.js"
+				"commonbundlec",
+				"css/common.bundle.css"
 			],
 			[
-				"asscommonjs",
-				"trunk/asset/common.js"
+				"headloo",
+				"template/header/_logo.php"
 			],
 			[
-				"mediabrojs",
-				"trunk/js/admin/mediaBrowser.js"
+				"heade",
+				"template/_header.php"
 			],
 			[
-				"prodsinnc",
-				"trunk/js/product/single/ncs.js"
+				"view",
+				"src/View.php"
 			],
 			[
-				"prodsinncs",
-				"trunk/js/product/single/ncs.js"
+				"headmeta",
+				"template/header/_meta.php"
 			],
 			[
-				"singlencs",
-				"trunk/js/product/single/ncs.js"
+				"pim",
+				"pimple.php"
 			],
 			[
-				"adminmediab",
-				"trunk/js/admin/mediaBrowser.js"
+				"entuser",
+				"src/Entity/User.php"
 			],
 			[
-				"utilurl",
-				"trunk/js/utility/url.js"
+				"servsystemupg",
+				"src/Admin/Service/System/Upgrade.php"
 			],
 			[
-				"prodsinglejs",
-				"trunk/js/product/single.js"
+				"modeloption",
+				"src/Model/Option.php"
 			],
 			[
-				"product",
-				"trunk/js/product.js"
+				"indexcom",
+				"indexCommon.php"
 			],
 			[
-				"jsproduc",
-				"trunk/js/product.js"
+				"gulp",
+				"gulpfile.js"
 			],
 			[
-				"equl",
-				"trunk/js/equalHeight.js"
+				"composer",
+				"composer.json"
 			],
 			[
-				"localeen",
-				"trunk/js/admin/vendor/grid.locale-en.js"
+				"packa",
+				"package.json"
 			],
 			[
-				"jquerui/jqu",
-				"trunk/node_modules/jquery-ui/jquery-ui.js"
+				"templatefooter",
+				"template/_footer.php"
 			],
 			[
-				"sassrese",
-				"trunk/sass/_reset.scss"
+				"sql",
+				"sql/table.sql"
+			],
+			[
+				"error",
+				"error.txt"
+			],
+			[
+				"er",
+				"error.txt"
+			],
+			[
+				"err",
+				"error.txt"
+			],
+			[
+				"homephp",
+				"template/home.php"
+			],
+			[
+				"controller.pp",
+				"src/Controller.php"
+			],
+			[
+				"commit",
+				"contrib/pre-commit"
+			],
+			[
+				"adminheader",
+				"template/admin/_header.php"
+			],
+			[
+				"admincommon",
+				"css/admin/common.bundle.css"
+			],
+			[
+				"dialogue",
+				"css/admin/dialogue.css"
+			],
+			[
+				"login.js",
+				"js/admin/login.js"
+			],
+			[
+				"controlcrud",
+				"src/Admin/Controller/Crud.php"
+			],
+			[
+				"controllerad",
+				"src/Admin/Controller/Ad.php"
+			],
+			[
+				"admincontrolcontent",
+				"src/Admin/Controller/Content.php"
+			],
+			[
+				"menusen",
+				"template/_menu-secondary.php"
+			],
+			[
+				"controllresult",
+				"src/Controller/Result.php"
+			],
+			[
+				"printheader",
+				"template/print/header.php"
+			],
+			[
+				"menuseconda",
+				"json/menu-secondary.json"
+			],
+			[
+				"htacc",
+				".htaccess"
+			],
+			[
+				"cred",
+				"credentials.php"
+			],
+			[
+				"credsam",
+				"credentials-sample.php"
+			],
+			[
+				"creden",
+				"credentials.php"
+			],
+			[
+				"admincontrolad",
+				"src/Admin/Controller/Ad.php"
+			],
+			[
+				"erro",
+				"error.txt"
+			],
+			[
+				"servicethumb",
+				"src/Service/Thumb.php"
+			],
+			[
+				"controlthumb",
+				"src/Controller/Thumb.php"
+			],
+			[
+				"gitignore",
+				".gitignore"
+			],
+			[
+				"gener",
+				"css/general.css"
+			],
+			[
+				"commonbun",
+				"css/common.bundle.css"
+			],
+			[
+				"commoncss",
+				"css/common.bundle.css"
+			],
+			[
+				"dialoguecss",
+				"css/admin/dialogue.css"
+			],
+			[
+				"loginjs",
+				"js/admin/login.js"
+			],
+			[
+				"admincommonbun",
+				"js/admin/common.bundle.js"
+			],
+			[
+				"commonbunlde",
+				"js/common.bundle.js"
+			],
+			[
+				"contrib/",
+				"contrib/pre-commit"
+			],
+			[
+				"srvicthub",
+				"src/Service/Thumb.php"
+			],
+			[
+				"controle",
+				"src/Controller.php"
+			],
+			[
+				"contor",
+				"vendor/mwyatt/core/src/Controller.php"
+			],
+			[
+				"coreview",
+				"vendor/mwyatt/core/src/View.php"
+			],
+			[
+				"corecontroller",
+				"vendor/mwyatt/core/src/Controller.php"
+			],
+			[
+				"data.php",
+				"src/Data.php"
+			],
+			[
+				"service.php",
+				"src/Service.php"
+			],
+			[
+				"control",
+				"src/Controller.php"
+			],
+			[
+				"thumb",
+				"src/Controller/Thumb.php"
+			],
+			[
+				"mediaphp",
+				"src/Controller/Media.php"
+			],
+			[
+				"contro",
+				"src/Controller.php"
+			],
+			[
+				"ent",
+				"src/Entity.php"
+			],
+			[
+				"indexfront",
+				"indexFront.php"
+			],
+			[
+				"encounters",
+				"template/_encounters.php"
+			],
+			[
+				"fixturesingle",
+				"template/fixture-single.php"
+			],
+			[
+				"_fixture",
+				"template/_fixture.php"
+			],
+			[
+				"menutabl",
+				"template/division/_menu-tables.php"
+			],
+			[
+				"controlerro",
+				"src/Controller/Error.php"
 			],
 			[
 				"htac",
-				"public_html/.htaccess"
+				".htaccess"
 			],
 			[
-				"router",
-				"src/php/Router.php"
+				"covercs",
+				"css/home/cover.css"
 			],
 			[
-				"read",
-				"request/read.php"
+				"homecss",
+				"css/home.css"
+			],
+			[
+				"covercss",
+				"css/home/cover.css"
+			],
+			[
+				"homecs",
+				"css/home.css"
+			],
+			[
+				"controlelr",
+				"src/Controller.php"
+			],
+			[
+				"controllerresutl",
+				"src/Controller/Result.php"
+			],
+			[
+				"commonbund",
+				"css/common.bundle.css"
+			],
+			[
+				"controllerresult",
+				"src/Controller/Result.php"
+			],
+			[
+				"templatedivisionsingle",
+				"template/result/_division-single.php"
+			],
+			[
+				"templateresult",
+				"template/result/_year-single.php"
+			],
+			[
+				"haderphp",
+				"template/_header.php"
+			],
+			[
+				"logo",
+				"template/header/_logo.php"
+			],
+			[
+				"printcs",
+				"css/print.css"
+			],
+			[
+				"adminsystennall",
+				"template/admin/system/tennis/all.php"
+			],
+			[
+				"indexad",
+				"indexAdmin.php"
+			],
+			[
+				"systemtennis",
+				"src/Admin/Controller/System/Tennis.php"
+			],
+			[
+				"servicefixture",
+				"src/Service/Fixture.php"
+			],
+			[
+				"admincontrolfix",
+				"src/Admin/Controller/Fixture.php"
+			],
+			[
+				"templateadminfixture",
+				"template/admin/tennis/fixture/single.php"
+			],
+			[
+				"serviceful",
+				"src/Admin/Service/Fixture/Fulfill.php"
+			],
+			[
+				"routeadmin",
+				"routeAdmin.php"
+			],
+			[
+				"controllerajax",
+				"src/Admin/Controller/Ajax/Content.php"
+			],
+			[
+				"slug",
+				"js/admin/utility/slug.js"
+			],
+			[
+				"tnymce",
+				"js/admin/tinymceConfig.js"
+			],
+			[
+				"admicommon",
+				"css/admin/common.bundle.css"
+			],
+			[
+				"tinymcecon",
+				"css/admin/tinymce-content.bundle.css"
+			],
+			[
+				"adminfot",
+				"template/admin/_footer.php"
+			],
+			[
+				"admincss",
+				"css/admin/header.css"
+			],
+			[
+				"footerjs",
+				"template/footer/_js.php"
+			],
+			[
+				"admincontentsingle",
+				"js/admin/content/single.bundle.js"
+			],
+			[
+				"admincontrollercontent",
+				"src/Admin/Controller/Content.php"
+			],
+			[
+				"footer",
+				"template/admin/_footer.php"
+			],
+			[
+				"adminutilslug",
+				"js/admin/utility/slug.js"
+			],
+			[
+				"jscontentsingle",
+				"js/admin/content/single.bundle.js"
+			],
+			[
+				"table",
+				"sql/table.sql"
+			],
+			[
+				"modeldatav",
+				"src/Model/Database/Version.php"
 			]
 		],
 		"width": 0.0
@@ -870,40 +1154,88 @@
 		"selected_items":
 		[
 			[
-				"",
-				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+				"claire",
+				"/var/www/html/setting/sublime-text-workspaces/claire.sublime-workspace"
 			],
 			[
 				"port",
 				"/var/www/html/setting/sublime-text-workspaces/portfolio.sublime-workspace"
 			],
 			[
-				"store",
-				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+				"",
+				"/var/www/html/setting/sublime-text-workspaces/claire.sublime-workspace"
+			],
+			[
+				"eltt",
+				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
 			],
 			[
 				"core",
 				"/var/www/html/setting/sublime-text-workspaces/core.sublime-workspace"
 			],
 			[
+				"dialo",
+				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
+			],
+			[
+				"mvc",
+				"/var/www/html/setting/sublime-text-workspaces/mvc.sublime-workspace"
+			],
+			[
+				"ia",
+				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
+			],
+			[
 				"dia",
-				"/var/www/html/sublime-workspace/dialogue.sublime-workspace"
+				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
+			],
+			[
+				"store",
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"sand",
+				"/var/www/html/setting/sublime-text-workspaces/sandbox.sublime-workspace"
+			],
+			[
+				"code",
+				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
+				"elttl",
+				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"codex",
+				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
+				"elt",
+				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"url",
+				"/var/www/html/setting/sublime-text-workspaces/url.sublime-workspace"
+			],
+			[
+				"mv",
+				"/var/www/html/setting/sublime-text-workspaces/mvc.sublime-workspace"
+			],
+			[
+				"feed",
+				"/var/www/html/setting/sublime-text-workspaces/feedback-queue.sublime-workspace"
+			],
+			[
+				"stor",
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
 				"diua",
 				"/var/www/html/sublime-workspace/dialogue.sublime-workspace"
 			],
 			[
-				"dialo",
-				"/var/www/html/sublime-project/dialogue.sublime-workspace"
-			],
-			[
 				"grid",
 				"/var/www/html/grid/grid.sublime-project"
-			],
-			[
-				"code",
-				"/var/www/html/codex/codex.sublime-project"
 			],
 			[
 				"sto",
@@ -926,12 +1258,12 @@
 	},
 	"select_symbol":
 	{
-		"height": 0.0,
+		"height": 354.0,
 		"last_filter": "",
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 809.0
 	},
 	"selected_group": 0,
 	"settings":
@@ -940,8 +1272,8 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
-	"side_bar_width": 150.0,
+	"side_bar_visible": true,
+	"side_bar_width": 348.0,
 	"status_bar_visible": false,
 	"template_settings":
 	{

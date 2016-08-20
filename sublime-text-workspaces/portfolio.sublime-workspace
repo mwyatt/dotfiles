@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"transition",
+				"transition-duration"
+			],
+			[
+				"colo",
+				"color"
+			],
+			[
+				"eas",
+				"ease-in"
+			],
+			[
+				"ease",
+				"ease-out"
+			],
+			[
+				"trnsiio",
+				"transition-property"
+			],
+			[
+				"color",
+				"color"
+			],
+			[
 				"req",
 				"request"
 			],
@@ -160,10 +184,6 @@
 				"orderId"
 			],
 			[
-				"color",
-				"color-primary-0"
-			],
-			[
 				"orderProductsB",
 				"orderProductsBySku"
 			],
@@ -250,10 +270,6 @@
 			[
 				"productI",
 				"productIds"
-			],
-			[
-				"colo",
-				"color	mw-css-color"
 			],
 			[
 				"colse",
@@ -498,27 +514,19 @@
 			[
 				"jqaj",
 				"jquery-ajax	common ajax construct"
-			],
-			[
-				"define",
-				"defined"
-			],
-			[
-				"ordersMo",
-				"ordersMod"
-			],
-			[
-				"invor",
-				"Inventory_Order"
-			],
-			[
-				"dela",
-				"deliveryAddress"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "/var/www/html/portfolio/composer.json",
+			"settings":
+			{
+				"buffer_size": 519,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -536,6 +544,10 @@
 				"File: Close All"
 			],
 			[
+				"media",
+				"Snippet: Media query screen"
+			],
+			[
 				"clsoe",
 				"Project: Close"
 			],
@@ -546,10 +558,6 @@
 			[
 				"musta",
 				"Set Syntax: HTML with mustaches"
-			],
-			[
-				"media",
-				"Snippet: Media query screen"
 			],
 			[
 				"im",
@@ -720,7 +728,7 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 575.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -745,54 +753,75 @@
 	],
 	"file_history":
 	[
-		"/var/www/html/portfolio/.gitignore",
-		"/var/www/html/portfolio/src/Model/Post.php",
-		"/var/www/html/portfolio/config.php",
-		"/var/www/html/portfolio/config-sample.php",
-		"/var/www/html/portfolio/src/Admin/Controller.php",
-		"/var/www/html/portfolio/src/Controller/Post.php",
-		"/var/www/html/portfolio/vendor/mwyatt/core/src/Controller.php",
-		"/var/www/html/portfolio/src/Service/Post.php",
+		"/var/www/html/portfolio/routes.php",
+		"/var/www/html/portfolio/index.php",
+		"/var/www/html/portfolio/css/common.bundle.css",
+		"/var/www/html/portfolio/template/_header.php",
+		"/var/www/html/portfolio/json/skills.json",
+		"/var/www/html/portfolio/template/header/_meta.php",
+		"/var/www/html/portfolio/template/index.php",
+		"/var/www/html/portfolio/css/settings.css",
 		"/var/www/html/portfolio/src/Controller.php",
-		"/var/www/html/portfolio/vendor/mwyatt/core/src/ModelAbstract.php",
-		"/var/www/html/portfolio/vendor/mwyatt/core/src/Mapper/User.php",
-		"/var/www/html/portfolio/src/Mapper/Post.php",
-		"/var/www/html/portfolio/vendor/mwyatt/core/src/MapperAbstract.php",
-		"/var/www/html/portfolio/template/admin/home.bundle.php",
+		"/var/www/html/portfolio/json/cv/martin-cv.json",
+		"/var/www/html/portfolio/json/projects.json",
+		"/var/www/html/portfolio/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PEAR/Docs/Formatting/MultiLineAssignmentStandard.xml",
+		"/var/www/html/portfolio/json/cv/claire-cv.json",
+		"/var/www/html/portfolio/template/_footer.php",
+		"/var/www/html/portfolio/template/admin/footer.php",
+		"/var/www/html/portfolio/src/Controller/Cv.php",
+		"/var/www/html/portfolio/config.php",
+		"/var/www/html/portfolio/template/cv/single.bundle.php",
+		"/var/www/html/portfolio/template/cv/panels.php",
+		"/var/www/html/portfolio/template/cv/panel-children.php",
+		"/var/www/html/portfolio/error.txt",
 		"/var/www/html/portfolio/pimple.php",
+		"/var/www/html/portfolio/vendor/mwyatt/core/src/Error.php",
+		"/var/www/html/portfolio/template/cv/children.php",
+		"/var/www/html/portfolio/template/error.bundle.php",
+		"/var/www/html/portfolio/gulpfile.js",
+		"/var/www/html/portfolio/cv/martin/config.json",
+		"/var/www/html/portfolio/cv/index.php",
+		"/var/www/html/portfolio/cv/CV - html.php",
+		"/home/martin/Documents/portfolio_1.sql",
+		"/var/www/html/portfolio/vendor/mwyatt/core/src/Database/Pdo.php",
+		"/var/www/html/portfolio/js/common.bundle.js",
+		"/var/www/html/portfolio/package.json",
+		"/var/www/html/portfolio/css/dialogue.css",
+		"/var/www/html/portfolio/src/Model/Post.php",
+		"/var/www/html/portfolio/src/Admin/Controller/Post.php",
+		"/var/www/html/portfolio/src/Mapper/Post.php",
+		"/var/www/html/portfolio/template/admin/post/single.bundle.php",
+		"/var/www/html/portfolio/vendor/mwyatt/core/src/MapperAbstract.php",
+		"/var/www/html/portfolio/src/Service/Post.php",
+		"/var/www/html/portfolio/template/admin/home.bundle.php",
+		"/var/www/html/portfolio/src/Controller/Post.php",
+		"/var/www/html/portfolio/template/post/single.bundle.php",
+		"/var/www/html/portfolio/src/Admin/Controller.php",
+		"/var/www/html/portfolio/vendor/mwyatt/core/src/Mapper/User.php",
+		"/var/www/html/portfolio/sql/post.sql",
+		"/var/www/html/portfolio/vendor/mwyatt/core/src/ModelAbstract.php",
+		"/var/www/html/portfolio/vendor/mwyatt/core/src/Mapper/Person.php",
+		"/var/www/html/portfolio/vendor/mwyatt/core/src/MapperInterface.php",
+		"/var/www/html/portfolio/template/admin/post/home.bundle.php",
+		"/var/www/html/portfolio/vendor/mwyatt/core/src/ServiceAbstract.php",
+		"/var/www/html/portfolio/.gitignore",
+		"/var/www/html/portfolio/config-sample.php",
+		"/var/www/html/portfolio/vendor/mwyatt/core/src/Controller.php",
 		"/var/www/html/portfolio/vendor/mwyatt/core/src/ModelFactory.php",
 		"/var/www/html/portfolio/vendor/mwyatt/core/src/MapperFactory.php",
-		"/var/www/html/portfolio/vendor/mwyatt/core/src/ServiceAbstract.php",
 		"/var/www/html/portfolio/vendor/mwyatt/core/test/ServiceTest.php",
-		"/var/www/html/portfolio/routes.php",
-		"/var/www/html/portfolio/sql/post.sql",
 		"/var/www/html/portfolio/sql/upgrade/0.0.1.sql",
-		"/var/www/html/portfolio/index.php",
-		"/var/www/html/portfolio/error.txt",
-		"/var/www/html/portfolio/template/error.bundle.php",
 		"/var/www/html/portfolio/vendor/corneltek/cliframework/src/CLIFramework/CommandBase.php",
 		"/var/www/html/portfolio/vendor/mwyatt/core/src/Factory.php",
-		"/var/www/html/portfolio/vendor/mwyatt/core/src/MapperInterface.php",
 		"/var/www/html/portfolio/vendor/mwyatt/core/src/Request.php",
 		"/var/www/html/portfolio/vendor/michelf/php-markdown/Michelf/Markdown.php",
 		"/var/www/html/portfolio/template/admin/header.php",
-		"/var/www/html/portfolio/template/admin/footer.php",
-		"/var/www/html/portfolio/template/header/_meta.php",
-		"/var/www/html/portfolio/template/index.php",
 		"/var/www/html/portfolio/vendor/mwyatt/core/src/Response.php",
 		"/var/www/html/portfolio/vendor/mwyatt/core/src/Router.php",
 		"/var/www/html/portfolio/vendor/mwyatt/core/src/Url.php",
 		"/var/www/html/portfolio/template/not-found.bundle.php",
-		"/var/www/html/portfolio/package.json",
-		"/var/www/html/portfolio/gulpfile.js",
-		"/var/www/html/portfolio/css/settings.css",
-		"/var/www/html/portfolio/js/common.bundle.js",
-		"/var/www/html/portfolio/css/common.bundle.css",
-		"/var/www/html/portfolio/css/dialogue.css",
-		"/var/www/html/portfolio/template/_header.php",
 		"/var/www/html/portfolio/template/mst/dialogue.mst",
 		"/var/www/html/portfolio/asset/common.bundle.js",
-		"/var/www/html/portfolio/template/_footer.php",
 		"/var/www/html/portfolio/composer.json",
 		"/var/www/html/portfolio/template/header/_css.php",
 		"/var/www/html/portfolio/vendor/mwyatt/core/template/footer/_js.php",
@@ -851,28 +880,7 @@
 		"/var/www/html/store/trunk/app/skin/custom/frontend/common/header.tpl",
 		"/var/www/html/store/trunk/app/skin/custom/frontend/common/_header-cookies.tpl",
 		"/var/www/html/store/trunk/app/skin/custom/frontend/common/_config-module.tpl",
-		"/var/www/html/store/trunk/app/classes/frontend/skin/loaders/cookiepolicy.php",
-		"/var/www/html/store/trunk/app/classes/ajax/modules/cookiemessage.php",
-		"/var/www/html/store/trunk/app/config/cron.php",
-		"/var/www/html/store/trunk/app/php/Cron/Task/Order/Review.php",
-		"/var/www/html/store/contrib/sql/v280/5.sql",
-		"/var/www/html/store/trunk/css/settings-hifi.css",
-		"/var/www/html/store/trunk/css/settings.css",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/order/single/_address.tpl",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/order/single.tpl",
-		"/var/www/html/store/trunk/js/admin/order/single/summary.js",
-		"/var/www/html/store/trunk/css/admin/order/single.css",
-		"/var/www/html/store/trunk/js/admin/order/single/payment.js",
-		"/var/www/html/store/trunk/js/admin/order/single.js",
-		"/var/www/html/store/trunk/app/classes/storage/order/address.php",
-		"/var/www/html/store/trunk/js/admin/order/single/address.js",
-		"/var/www/html/store/trunk/js/admin/order/single/addressPanelUpdate.js",
-		"/var/www/html/store/trunk/js/admin/exception.js",
-		"/var/www/html/store/trunk/app/classes/ajax/modules/getaddress.php",
-		"/home/martin/.config/sublime-text-3/Packages/User/mw-js-require.sublime-snippet",
-		"/var/www/html/store/trunk/app/classes/admin/modules/inbox.php",
-		"/var/www/html/store/trunk/js/order/review.bundle.js",
-		"/var/www/html/store/trunk/css/email.bundle.css"
+		"/var/www/html/store/trunk/app/classes/frontend/skin/loaders/cookiepolicy.php"
 	],
 	"find":
 	{
@@ -883,6 +891,9 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, controller",
+			"-node_modules/, -asset/, -vendor/, controller/",
 			"-node_modules/, -asset/, -vendor/, ",
 			"-node_modules/, -asset/, -vendor/, css/",
 			"-node_modules/, -asset/, -vendor/, ",
@@ -1007,10 +1018,7 @@
 			"-node_modules/, -asset/, -vendor/, js/, -administration/",
 			"-node_modules/, -asset/, -vendor/, js/",
 			"-node_modules/, -asset/, -vendor/,",
-			"-node_modules/, -asset/, -vendor/, js/admin/",
-			"-node_modules/, -asset/, -vendor/, js/",
-			"-node_modules/, -asset/, -vendor/",
-			"-node_modules/, -asset/"
+			"-node_modules/, -asset/, -vendor/, js/admin/"
 		]
 	},
 	"find_state":
@@ -1018,6 +1026,60 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"%));*/",
+			".menu-primary-item:hover {",
+			"cursor: pointer;",
+			"Integration",
+			"\",\n",
+			"\n.",
+			"Print",
+			"print",
+			"border-radius: 3px;",
+			"border-ra",
+			"about-contact-item",
+			"panel-about-me",
+			"class=\"",
+			":",
+			";;",
+			"offsetSet",
+			"print",
+			"json/",
+			"Router",
+			"variable",
+			"\n    ",
+			"projects",
+			"config",
+			"post",
+			"slug",
+			".skill-child-name {",
+			".to-top:hover {\n  opacity: 0.8;\n}\n\n",
+			"print",
+			"89px",
+			".skill {",
+			"skill",
+			"Twitter",
+			"menu-primary-item",
+			"';\n",
+			"\n@",
+			"'url' => ",
+			"this->view",
+			"admin/",
+			"getModel",
+			"h1",
+			"html",
+			"    [\n        'post', '/admin/:slug/',\n        '\\\\Mwyatt\\\\Portfolio\\\\Admin\\\\Controller\\\\Post', 'persist'\n    ]\n",
+			"title",
+			"?",
+			"    public function setTitle($value)\n    {\n        \\Assert\\Assertion::string($value);\n        \\Assert\\Assertion::betweenLength($value, 5, 255);\n        $this->title = $value;\n    }\n\n\n",
+			"insert",
+			"`",
+			", ",
+			"user",
+			"findBySlug",
+			"());\n",
+			"</input>",
+			"postModel",
+			"postModels",
 			"=>",
 			", ",
 			" =>",
@@ -1091,61 +1153,7 @@
 			"getPath",
 			"$this->url->",
 			"$this->view->",
-			"codex",
-			"menu/toggle",
-			"med_desc",
-			"med_des",
-			"tax_options",
-			"_tax",
-			"tax",
-			"\"featured_2\"",
-			"featured",
-			"was set to hidde",
-			"errors",
-			"htmlspecialchars",
-			"ENT_QUOTES",
-			"smoothScroll.init({",
-			"product-submenu-link",
-			".eventGlobal",
-			"eventGlobal",
-			"js-smooth-scroll",
-			"get_med_description",
-			"med_desc",
-			" Description</h2>",
-			"getGoogleCategories",
-			"googleCatego",
-			"./",
-			"<form",
-			"selected",
-			"setProductResourceCategories",
-			"featuresGrouped",
-			"$features = $this->db->get_all_rows($sth);",
-			"featuresAttached",
-			"features",
-			"rows",
-			"technologies",
-			"$isNew",
-			"isset($isNew)",
-			"$isNew",
-			"View",
-			"public",
-			"brand_options",
-			"brand",
-			"<",
-			"Inventory_Product_Review",
-			"public function readAll()",
-			"query_string",
-			"brand_id",
-			"'Create'",
-			"Create<",
-			"product[",
-			"product",
-			"\\$product\\['(.*?)'\\]",
-			"$product['id']",
-			"\\$product\\['(.*?)'\\]",
-			"$product->get",
-			"\\$product\\['(.*?)'\\]",
-			"\\$product\\[\\'(.*?)\\'"
+			"codex"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1288,8 +1296,39 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/var/www/html/portfolio/composer.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 519,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								519
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1346,44 +1385,352 @@
 		"selected_items":
 		[
 			[
-				"modelpost",
-				"src/Model/Post.php"
+				"compos",
+				"composer.json"
 			],
 			[
-				"confsam",
-				"config-sample.php"
+				"route",
+				"routes.php"
 			],
 			[
-				"config",
-				"config.php"
+				"indexpp",
+				"index.php"
 			],
 			[
-				"giig",
-				".gitignore"
+				"header",
+				"template/_header.php"
 			],
 			[
-				"",
-				"src/Controller/Post.php"
+				"skills",
+				"json/skills.json"
 			],
 			[
-				"servpost",
-				"src/Service/Post.php"
+				"commoncss",
+				"css/common.bundle.css"
 			],
 			[
-				"pim",
-				"pimple.php"
+				"settingc",
+				"css/settings.css"
+			],
+			[
+				"commoncs",
+				"css/common.bundle.css"
+			],
+			[
+				"headmeta",
+				"template/header/_meta.php"
+			],
+			[
+				"headmeata",
+				"vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/PEAR/Docs/Formatting/MultiLineAssignmentStandard.xml"
+			],
+			[
+				"templateheader",
+				"template/_header.php"
+			],
+			[
+				"index",
+				"template/index.php"
 			],
 			[
 				"controller",
 				"src/Controller.php"
 			],
 			[
-				"servpos",
-				"src/Service/Post.php"
+				"heade",
+				"template/_header.php"
+			],
+			[
+				"clairecv",
+				"json/cv/claire-cv.json"
+			],
+			[
+				"footer",
+				"template/_footer.php"
+			],
+			[
+				"cont",
+				"src/Controller.php"
+			],
+			[
+				"cvsinglebund",
+				"template/cv/single.bundle.php"
+			],
+			[
+				"erro",
+				"error.txt"
+			],
+			[
+				"routes",
+				"routes.php"
+			],
+			[
+				"pimpl",
+				"pimple.php"
+			],
+			[
+				"error",
+				"error.txt"
+			],
+			[
+				"config",
+				"config.php"
+			],
+			[
+				"coreerror",
+				"vendor/mwyatt/core/src/Error.php"
+			],
+			[
+				"martin",
+				"json/cv/martin-cv.json"
+			],
+			[
+				"contro",
+				"src/Controller.php"
+			],
+			[
+				"panelchid",
+				"template/cv/panel-children.php"
+			],
+			[
+				"childre",
+				"template/cv/children.php"
+			],
+			[
+				"tempbundle",
+				"template/error.bundle.php"
+			],
+			[
+				"tempsinglebun",
+				"template/cv/single.bundle.php"
+			],
+			[
+				"panels",
+				"template/cv/panels.php"
+			],
+			[
+				"cvsinglebun",
+				"template/cv/single.bundle.php"
+			],
+			[
+				"controller/po",
+				"src/Controller/Post.php"
+			],
+			[
+				"cvmarconfi",
+				"cv/martin/config.json"
+			],
+			[
+				"cvindex",
+				"cv/index.php"
+			],
+			[
+				"cvhtm",
+				"cv/CV - html.php"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"pimple",
+				"pimple.php"
+			],
+			[
+				"commnocss",
+				"css/common.bundle.css"
+			],
+			[
+				"proje",
+				"json/projects.json"
+			],
+			[
+				"foote",
+				"template/_footer.php"
+			],
+			[
+				"skill",
+				"json/skills.json"
+			],
+			[
+				"proj",
+				"json/projects.json"
+			],
+			[
+				"",
+				"js/common.bundle.js"
+			],
+			[
+				"setting",
+				"css/settings.css"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"commonjs",
+				"js/common.bundle.js"
+			],
+			[
+				"common",
+				"css/common.bundle.css"
+			],
+			[
+				"commonbun",
+				"css/common.bundle.css"
+			],
+			[
+				"dialogu",
+				"css/dialogue.css"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"project",
+				"json/projects.json"
+			],
+			[
+				"templateindex",
+				"template/index.php"
+			],
+			[
+				"control",
+				"src/Admin/Controller.php"
+			],
+			[
+				"postsingle",
+				"template/post/single.bundle.php"
+			],
+			[
+				"possingle",
+				"template/post/single.bundle.php"
+			],
+			[
+				"controler",
+				"src/Controller.php"
 			],
 			[
 				"controllerpost",
 				"src/Controller/Post.php"
+			],
+			[
+				"servicepost",
+				"src/Service/Post.php"
+			],
+			[
+				"mapperpost",
+				"src/Mapper/Post.php"
+			],
+			[
+				"servpost",
+				"src/Service/Post.php"
+			],
+			[
+				"controllerpos",
+				"src/Controller/Post.php"
+			],
+			[
+				"home",
+				"template/admin/home.bundle.php"
+			],
+			[
+				"mappost",
+				"src/Mapper/Post.php"
+			],
+			[
+				"mapperuser",
+				"vendor/mwyatt/core/src/Mapper/User.php"
+			],
+			[
+				"modelpost",
+				"src/Model/Post.php"
+			],
+			[
+				"pdo",
+				"vendor/mwyatt/core/src/Database/Pdo.php"
+			],
+			[
+				".sql",
+				"sql/post.sql"
+			],
+			[
+				"errobun",
+				"template/error.bundle.php"
+			],
+			[
+				"mapperpos",
+				"src/Mapper/Post.php"
+			],
+			[
+				"mapperabs",
+				"vendor/mwyatt/core/src/MapperAbstract.php"
+			],
+			[
+				"servpos",
+				"src/Service/Post.php"
+			],
+			[
+				"controlpost",
+				"src/Admin/Controller/Post.php"
+			],
+			[
+				"modelabs",
+				"vendor/mwyatt/core/src/ModelAbstract.php"
+			],
+			[
+				"mapperperson",
+				"vendor/mwyatt/core/src/Mapper/Person.php"
+			],
+			[
+				"mapper",
+				"vendor/mwyatt/core/src/MapperInterface.php"
+			],
+			[
+				"mapeprpos",
+				"src/Mapper/Post.php"
+			],
+			[
+				"templateadminhome",
+				"template/admin/home.bundle.php"
+			],
+			[
+				"templateadmin",
+				"template/admin/post/single.bundle.php"
+			],
+			[
+				"mapperab",
+				"vendor/mwyatt/core/src/MapperAbstract.php"
+			],
+			[
+				"servicepos",
+				"src/Service/Post.php"
+			],
+			[
+				"adminpost",
+				"template/admin/post/home.bundle.php"
+			],
+			[
+				"servabs",
+				"vendor/mwyatt/core/src/ServiceAbstract.php"
+			],
+			[
+				"homebund",
+				"template/admin/home.bundle.php"
+			],
+			[
+				"confsam",
+				"config-sample.php"
+			],
+			[
+				"giig",
+				".gitignore"
+			],
+			[
+				"pim",
+				"pimple.php"
 			],
 			[
 				"modelpos",
@@ -1394,44 +1741,12 @@
 				"config.php"
 			],
 			[
-				"pimple",
-				"pimple.php"
-			],
-			[
 				"err",
 				"error.txt"
 			],
 			[
-				"index",
-				"index.php"
-			],
-			[
-				"mapperpos",
-				"src/Mapper/Post.php"
-			],
-			[
 				"servipos",
 				"src/Service/Post.php"
-			],
-			[
-				"mapperab",
-				"vendor/mwyatt/core/src/MapperAbstract.php"
-			],
-			[
-				"mapperuser",
-				"vendor/mwyatt/core/src/Mapper/User.php"
-			],
-			[
-				"mapperpost",
-				"src/Mapper/Post.php"
-			],
-			[
-				"route",
-				"routes.php"
-			],
-			[
-				"controlpost",
-				"src/Controller/Post.php"
 			],
 			[
 				"modelfa",
@@ -1450,20 +1765,12 @@
 				"vendor/mwyatt/core/src/Model/User.php"
 			],
 			[
-				"mapperabs",
-				"vendor/mwyatt/core/src/MapperAbstract.php"
-			],
-			[
 				"mapperinter",
 				"vendor/mwyatt/core/src/MapperInterface.php"
 			],
 			[
 				"servicetes",
 				"vendor/mwyatt/core/test/ServiceTest.php"
-			],
-			[
-				"servabs",
-				"vendor/mwyatt/core/src/ServiceAbstract.php"
 			],
 			[
 				"corecontroll",
@@ -1490,20 +1797,12 @@
 				"template/admin/home.bundle.php"
 			],
 			[
-				"routes",
-				"routes.php"
-			],
-			[
 				"admincontroler",
 				"src/Admin/Controller.php"
 			],
 			[
 				"corecontroller",
 				"vendor/mwyatt/core/src/Controller.php"
-			],
-			[
-				"pimpl",
-				"pimple.php"
 			],
 			[
 				"admincontrol",
@@ -1526,32 +1825,12 @@
 				"template/error.bundle.php"
 			],
 			[
-				"headmeta",
-				"template/header/_meta.php"
-			],
-			[
-				"header",
-				"template/admin/header.php"
-			],
-			[
-				"homebund",
-				"template/admin/home.bundle.php"
-			],
-			[
 				"controlelr",
 				"src/Controller.php"
 			],
 			[
 				"reques",
 				"vendor/mwyatt/core/src/Request.php"
-			],
-			[
-				"contro",
-				"src/Controller.php"
-			],
-			[
-				"errobun",
-				"template/error.bundle.php"
 			],
 			[
 				"coreresp",
@@ -1578,28 +1857,12 @@
 				"index.php"
 			],
 			[
-				"common",
-				"css/common.bundle.css"
-			],
-			[
 				"css/",
 				"css/common.bundle.css"
 			],
 			[
 				"dialo",
 				"template/mst/dialogue.mst"
-			],
-			[
-				"packa",
-				"package.json"
-			],
-			[
-				"gulp",
-				"gulpfile.js"
-			],
-			[
-				"commonjs",
-				"js/common.bundle.js"
 			],
 			[
 				"footerjs",
@@ -1630,232 +1893,8 @@
 				"css/settings.css"
 			],
 			[
-				"commonbun",
-				"js/common.bundle.js"
-			],
-			[
 				"session",
 				"vendor/mwyatt/core/test/SessionTest.php"
-			],
-			[
-				"controler",
-				"src/Controller.php"
-			],
-			[
-				"headermet",
-				"template/header/_meta.php"
-			],
-			[
-				"view",
-				"vendor/mwyatt/core/src/View.php"
-			],
-			[
-				"routertest",
-				"vendor/mwyatt/core/test/RouterTest.php"
-			],
-			[
-				"controltest",
-				"vendor/mwyatt/core/test/ControllerTest.php"
-			],
-			[
-				"router",
-				"vendor/mwyatt/core/src/Router.php"
-			],
-			[
-				"compos",
-				"composer.json"
-			],
-			[
-				"htacc",
-				".htaccess"
-			],
-			[
-				"adminmodproduc",
-				"trunk/app/classes/admin/modules/products.php"
-			],
-			[
-				"commonmys",
-				"trunk/app/classes/common/mysql.php"
-			],
-			[
-				"invprodu",
-				"trunk/app/classes/inventory/product.php"
-			],
-			[
-				"asat",
-				"contrib/sql/reference/as_at_280.sql"
-			],
-			[
-				"procreupdate",
-				"trunk/app/skin/custom/admin/modules/products/create-update.tpl"
-			],
-			[
-				"storageprodu",
-				"trunk/app/classes/storage/product.php"
-			],
-			[
-				"adminmodprodu",
-				"trunk/app/classes/admin/modules/products.php"
-			],
-			[
-				"storageproduc",
-				"trunk/app/classes/storage/product.php"
-			],
-			[
-				"invproduc",
-				"trunk/app/classes/inventory/product.php"
-			],
-			[
-				"longdescription",
-				"trunk/app/skin/custom/frontend/modules/product/description-layout-long-description.tpl"
-			],
-			[
-				"proddescription",
-				"trunk/app/skin/custom/frontend/modules/product/description-layout.tpl"
-			],
-			[
-				"global",
-				"trunk/js/global.js"
-			],
-			[
-				"admincommonjs",
-				"trunk/js/admin/common.bundle.js"
-			],
-			[
-				"jumptpl",
-				"trunk/app/skin/custom/admin/common/_follow-jump.tpl"
-			],
-			[
-				"prodmenu",
-				"trunk/app/skin/custom/admin/modules/products/_sub-menu.tpl"
-			],
-			[
-				"admincommonbun",
-				"trunk/js/admin/common.bundle.js"
-			],
-			[
-				"helper",
-				"trunk/js/helper.js"
-			],
-			[
-				"commonbunlde",
-				"trunk/js/common.bundle.js"
-			],
-			[
-				"helepr",
-				"trunk/js/helper.js"
-			],
-			[
-				"adminprodsingle",
-				"trunk/js/admin/product/single.js"
-			],
-			[
-				"inventor",
-				"trunk/app/classes/inventory.php"
-			],
-			[
-				"prodfixed",
-				"trunk/app/skin/custom/admin/modules/products/_fixed-bar.tpl"
-			],
-			[
-				"invbrand",
-				"trunk/app/classes/inventory/brand.php"
-			],
-			[
-				"prodcreupdate",
-				"trunk/app/skin/custom/admin/modules/products/create-update.tpl"
-			],
-			[
-				"storagebrand",
-				"trunk/app/classes/storage/brand.php"
-			],
-			[
-				"bundlecss",
-				"trunk/css/bundle.bundle.css"
-			],
-			[
-				"ncsbund",
-				"trunk/css/product/single/ncs.bundle.css"
-			],
-			[
-				"ncscss",
-				"trunk/css/product/single/ncs.css"
-			],
-			[
-				"adminmodprodsubmenu",
-				"trunk/app/skin/custom/admin/modules/products/_sub-menu.tpl"
-			],
-			[
-				"adminmodprodfixed",
-				"trunk/app/skin/custom/admin/modules/products/_fixed-bar.tpl"
-			],
-			[
-				"productcreupdate",
-				"trunk/app/skin/custom/admin/modules/products/create-update.tpl"
-			],
-			[
-				"inven",
-				"trunk/app/classes/inventory.php"
-			],
-			[
-				"storageproduct",
-				"trunk/app/classes/storage/product.php"
-			],
-			[
-				"storageinterface",
-				"trunk/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/CacheStorageInterface.php"
-			],
-			[
-				"storageexceptionlog",
-				"trunk/app/classes/storage/exception/log.php"
-			],
-			[
-				"grids.php",
-				"trunk/administration/grids.php"
-			],
-			[
-				"admingrid",
-				"trunk/administration/grids.php"
-			],
-			[
-				"product",
-				"trunk/css/product.css"
-			],
-			[
-				"ajaxorder",
-				"trunk/app/classes/admin/ajax/modules/order.php"
-			],
-			[
-				"emailreviewtpl",
-				"trunk/app/skin/custom/emails/order/review.tpl"
-			],
-			[
-				"emailorderinvoice",
-				"trunk/app/skin/custom/emails/order/_invoice.tpl"
-			],
-			[
-				"trunkindex",
-				"trunk/index.php"
-			],
-			[
-				"orderinv",
-				"trunk/app/skin/custom/emails/order/_invoice.tpl"
-			],
-			[
-				"emaildispath",
-				"trunk/app/skin/custom/emails/order/dispatch.tpl"
-			],
-			[
-				"emailreview",
-				"trunk/app/skin/custom/emails/order/review.tpl"
-			],
-			[
-				"adminindex",
-				"trunk/administration/index.php"
-			],
-			[
-				"index.p",
-				"trunk/index.php"
 			]
 		],
 		"width": 0.0
@@ -1868,11 +1907,43 @@
 		[
 			[
 				"",
-				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+				"/var/www/html/setting/sublime-text-workspaces/claire.sublime-workspace"
+			],
+			[
+				"claire",
+				"/var/www/html/setting/sublime-text-workspaces/claire.sublime-workspace"
 			],
 			[
 				"elt",
 				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"dia",
+				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
+			],
+			[
+				"sand",
+				"/var/www/html/setting/sublime-text-workspaces/sandbox.sublime-workspace"
+			],
+			[
+				"port",
+				"/var/www/html/setting/sublime-text-workspaces/portfolio.sublime-workspace"
+			],
+			[
+				"eltt",
+				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"elttl",
+				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"codex",
+				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
+				"code",
+				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
 			],
 			[
 				"co",
@@ -1883,10 +1954,6 @@
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
-				"code",
-				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
-			],
-			[
 				"inven",
 				"/var/www/html/setting/sublime-text-workspaces/inventory.sublime-workspace"
 			],
@@ -1895,28 +1962,12 @@
 				"/var/www/html/setting/sublime-text-workspaces/core.sublime-workspace"
 			],
 			[
-				"codex",
-				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
-			],
-			[
 				"dialog",
 				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
 			],
 			[
 				"dialo",
 				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
-			],
-			[
-				"sand",
-				"/var/www/html/setting/sublime-text-workspaces/sandbox.sublime-workspace"
-			],
-			[
-				"eltt",
-				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
-			],
-			[
-				"port",
-				"/var/www/html/setting/sublime-text-workspaces/portfolio.sublime-workspace"
 			],
 			[
 				"game",
@@ -1948,10 +1999,6 @@
 			],
 			[
 				"diaa",
-				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
-			],
-			[
-				"dia",
 				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
 			],
 			[

@@ -39,10 +39,22 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "men",
+		"height": 220.0,
+		"last_filter": "must",
 		"selected_items":
 		[
+			[
+				"must",
+				"Set Syntax: HTML with mustaches"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
 			[
 				"men",
 				"View: Toggle Menu"
@@ -56,15 +68,11 @@
 				"Package Control: Install Package"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
 				"list",
 				"Package Control: List Packages"
 			]
 		],
-		"width": 449.0
+		"width": 431.0
 	},
 	"console":
 	{
@@ -90,15 +98,18 @@
 	"file_history":
 	[
 		"/var/www/html/dialogue/index.js",
-		"/var/www/html/dialogue/index.html",
-		"/var/www/html/dialogue/js/common.bundle.js",
-		"/var/www/html/dialogue/css/common.bundle.css",
-		"/var/www/html/dialogue/gulpfile.js",
-		"/var/www/html/dialogue/css/default.css",
-		"/var/www/html/dialogue/index.css",
 		"/var/www/html/dialogue/package.json",
-		"/var/www/html/dialogue/template/index.php",
+		"/var/www/html/dialogue/template/home.php",
 		"/var/www/html/dialogue/index.php",
+		"/var/www/html/dialogue/css/common.bundle.css",
+		"/var/www/html/dialogue/js/common.bundle.js",
+		"/var/www/html/dialogue/css/default.css",
+		"/var/www/html/dialogue/js/container.mustache",
+		"/home/martin/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/var/www/html/dialogue/index.css",
+		"/var/www/html/dialogue/index.html",
+		"/var/www/html/dialogue/gulpfile.js",
+		"/var/www/html/dialogue/template/index.php",
 		"/var/www/html/dialogue/vendor/mwyatt/core/index.php",
 		"/etc/apache2/mods-enabled/dir.conf",
 		"/var/www/html/dialogue/src/Controller/Index.php",
@@ -213,14 +224,11 @@
 		"/var/www/html/store/trunk/js/page/return/guide.bundle.js",
 		"/var/www/html/store/trunk/js/product/termination.js",
 		"/var/www/html/store/trunk/js/product/tab.js",
-		"/var/www/html/store/trunk/js/equalHeight.js",
-		"/var/www/html/store/trunk/js/admin/vendor/grid.locale-en.js",
-		"/var/www/html/store/trunk/js/checkout/braintree.bundle.js",
-		"/var/www/html/store/trunk/js/home.js"
+		"/var/www/html/store/trunk/js/equalHeight.js"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
@@ -251,6 +259,17 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"clearfix",
+			"Dialogue",
+			"closeWithEvent",
+			"window",
+			"$('body')",
+			"body",
+			"close",
+			"title",
+			"this.$dialogue",
+			"rotation",
+			"ajaxConfi",
 			"frame",
 			"getRandomString",
 			"$document.on(",
@@ -367,18 +386,7 @@
 			"1.11",
 			"jquer",
 			"jQuery",
-			"Library",
-			"1.11",
-			"require('jquery'",
-			"require('jQ",
-			"require('jquery",
-			"scripts/tiny",
-			".datepicker",
-			"alert('should not run, return needed to be removed');",
-			"should not run",
-			"index.php",
-			"Rewrite",
-			"trunk"
+			"Library"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -434,7 +442,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 30.0
 	},
 	"input":
 	{
@@ -475,7 +483,7 @@
 	"project": "",
 	"replace":
 	{
-		"height": 46.0
+		"height": 56.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -485,12 +493,52 @@
 		"selected_items":
 		[
 			[
+				"index",
+				"index.js"
+			],
+			[
+				"",
+				"template/home.php"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"indexphp",
+				"index.php"
+			],
+			[
 				"common",
 				"js/common.bundle.js"
 			],
 			[
-				"index",
-				"index.html"
+				"defa",
+				"css/default.css"
+			],
+			[
+				"defau",
+				"css/default.css"
+			],
+			[
+				"commoncss",
+				"css/common.bundle.css"
+			],
+			[
+				"musta",
+				"js/container.mustache"
+			],
+			[
+				"comm",
+				"css/common.bundle.css"
+			],
+			[
+				"indexcss",
+				"index.css"
+			],
+			[
+				"pack",
+				"package.json"
 			],
 			[
 				"gulp",
@@ -509,14 +557,6 @@
 				"index.js"
 			],
 			[
-				"defau",
-				"css/default.css"
-			],
-			[
-				"packa",
-				"package.json"
-			],
-			[
 				"inde",
 				"index.js"
 			],
@@ -533,10 +573,6 @@
 				"index.php"
 			],
 			[
-				"",
-				"package.json"
-			],
-			[
 				"teste",
 				"testedOn.json"
 			],
@@ -547,10 +583,6 @@
 			[
 				"compos",
 				"composer.json"
-			],
-			[
-				"pack",
-				"package.json"
 			],
 			[
 				"dialo",
@@ -567,10 +599,6 @@
 			[
 				"reade",
 				"README.md"
-			],
-			[
-				"comm",
-				"common.js"
 			],
 			[
 				"dialogu",
@@ -826,8 +854,20 @@
 				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
 			],
 			[
+				"dia",
+				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
+			],
+			[
+				"port",
+				"/var/www/html/setting/sublime-text-workspaces/portfolio.sublime-workspace"
+			],
+			[
+				"code",
+				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
 				"",
-				"/var/www/html/setting/sublime-text-workspaces/sandbox.sublime-workspace"
+				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
 			],
 			[
 				"sand",
@@ -842,16 +882,8 @@
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
-				"port",
-				"/var/www/html/setting/sublime-text-workspaces/portfolio.sublime-workspace"
-			],
-			[
 				"gri",
 				"/var/www/html/setting/sublime-text-workspaces/grid.sublime-workspace"
-			],
-			[
-				"code",
-				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
 			],
 			[
 				"grid",
@@ -872,10 +904,6 @@
 			[
 				"s",
 				"/var/www/html/sublime-workspace/store.sublime-workspace"
-			],
-			[
-				"dia",
-				"/var/www/html/sublime-project/dialogue.sublime-workspace"
 			],
 			[
 				"core",
