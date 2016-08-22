@@ -283,6 +283,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/var/www/html/avodrafts/newsletter/newsletters.php",
+			"settings":
+			{
+				"buffer_size": 2776,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/avodrafts/newsletter/template/body/_27-07-2016-avo.php",
+			"settings":
+			{
+				"buffer_size": 8056,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -291,10 +307,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 98.0,
-		"last_filter": "",
+		"height": 318.0,
+		"last_filter": "menu",
 		"selected_items":
 		[
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -308,7 +328,7 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 467.0
+		"width": 431.0
 	},
 	"console":
 	{
@@ -333,6 +353,8 @@
 	],
 	"file_history":
 	[
+		"/var/www/html/avodrafts/newsletter/template/body/_23-06-2016-avo.php",
+		"/var/www/html/avodrafts/newsletter/newsletters.php",
 		"/var/www/html/store/trunk/app/classes/admin/modules/promotion.php",
 		"/var/www/html/store/trunk/app/classes/storage/promotion.php",
 		"/var/www/html/store/trunk/app/classes/admin/grids/modules/mail/template.php",
@@ -458,13 +480,11 @@
 		"/var/www/html/store/trunk/app/classes/inventory/order/multiloader.php",
 		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/order/print.php",
 		"/var/www/html/store/trunk/app/skin/custom/admin/modules/order/_follow.tpl",
-		"/var/www/html/store/trunk/app/classes/admin/modules/inboxedit.php",
-		"/var/www/html/store/trunk/app/classes/admin/ajax/abstract/module.php",
-		"/var/www/html/store/trunk/app/classes/admin/modules/order.php"
+		"/var/www/html/store/trunk/app/classes/admin/modules/inboxedit.php"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 48.0
 	},
 	"find_in_files":
 	{
@@ -534,6 +554,25 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"http://www.audiovisualonline.co.uk/",
+			"https://www.audiovisualonline.co.uk/",
+			"advancedsearch",
+			"advanced",
+			"<tr role=\"row\" id=\"",
+			"product/_",
+			"<tr role=\"row\" id=\"",
+			"rel",
+			"<tr role=\"row\" id=\"",
+			"id=\"",
+			"product/_",
+			"trade",
+			"</tr>\n<tr>\n<td style=\"padding-top: 20px;\">",
+			"h1",
+			"newsletter-2",
+			"newsletter_",
+			"silver",
+			"silver-6",
+			"newsletter/___/",
 			"$order_id",
 			"persistOrder",
 			"order_id",
@@ -642,26 +681,7 @@
 			"->printOrdersById",
 			"printOrdersById",
 			"orderIds",
-			"printOrdersById",
-			"includeShipments",
-			"printOrdersById",
-			"orderMultiload",
-			"orderMultiload\n",
-			"load_products",
-			"printOrders",
-			"clickOrderUpdateStatusMulti",
-			"js-order-update-status-multi",
-			"createShipment",
-			"'createShipment'",
-			"order",
-			"login(",
-			"login",
-			"externalDpd",
-			"new External_Dpd",
-			"<h2 class=\"order-single-panel-title\">Address</h2>",
-			".order-single-panel-action",
-			".order-single-panel-title",
-			"order-single-panel-title"
+			"printOrdersById"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -715,8 +735,115 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/var/www/html/avodrafts/newsletter/newsletters.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2776,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2732,
+								2732
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2294.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/var/www/html/avodrafts/newsletter/template/body/_27-07-2016-avo.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8056,
+						"regions":
+						{
+							"bookmarks":
+							{
+								"flags": 144,
+								"icon": "bookmark",
+								"regions":
+								[
+								],
+								"scope": "bookmarks"
+							}
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"spell_check": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -750,7 +877,11 @@
 			1.0
 		]
 	},
-	"menu_visible": true,
+	"menu_visible": false,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -768,6 +899,22 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"2707",
+				"newsletter/template/body/_27-07-2016-avo.php"
+			],
+			[
+				"newsle",
+				"newsletter/newsletters.php"
+			],
+			[
+				"newsletter",
+				"newsletter/newsletters.php"
+			],
+			[
+				"newsletter062016",
+				"newsletter/template/body/_23-06-2016-avo.php"
+			],
 			[
 				"",
 				"trunk/app/classes/ajax/modules/braintree/transaction.php"
@@ -1263,22 +1410,6 @@
 			[
 				"mediabro",
 				"trunk/sass/admin/_media-browser.scss"
-			],
-			[
-				"mediabrowser",
-				"trunk/js/admin/mediaBrowser.js"
-			],
-			[
-				"produ",
-				"trunk/js/product.js"
-			],
-			[
-				"termination",
-				"trunk/js/product/termination.js"
-			],
-			[
-				"frontcommonddon",
-				"trunk/app/skin/custom/frontend/common/_addon.tpl"
 			]
 		],
 		"width": 0.0
@@ -1291,7 +1422,19 @@
 		[
 			[
 				"",
-				"/var/www/html/sublime-workspace/store.sublime-workspace"
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"stor",
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"store",
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"ida",
+				"/var/www/html/setting/sublime-text-workspaces/grid.sublime-workspace"
 			],
 			[
 				"game",
@@ -1316,14 +1459,6 @@
 			[
 				"core",
 				"/var/www/html/sublime-workspace/core.sublime-workspace"
-			],
-			[
-				"stor",
-				"/var/www/html/sublime-workspace/store.sublime-workspace"
-			],
-			[
-				"store",
-				"/var/www/html/sublime-workspace/store.sublime-workspace"
 			],
 			[
 				"dialo",

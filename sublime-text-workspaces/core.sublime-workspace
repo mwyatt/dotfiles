@@ -4,12 +4,24 @@
 		"selected_items":
 		[
 			[
-				"setcooki",
-				"setcookie"
+				"pat",
+				"paths"
+			],
+			[
+				"pathA",
+				"pathAbsolute"
 			],
 			[
 				"pv",
-				"pv	mw-php-varDump"
+				"pv	mw-php-printPre"
+			],
+			[
+				"file",
+				"files"
+			],
+			[
+				"setcooki",
+				"setcookie"
 			],
 			[
 				"pathBa",
@@ -268,7 +280,7 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 449.0
+		"width": 575.0
 	},
 	"console":
 	{
@@ -289,48 +301,58 @@
 	},
 	"expanded_folders":
 	[
-		"/var/www/html/core"
+		"/var/www/html/core",
+		"/var/www/html/core/src"
 	],
 	"file_history":
 	[
+		"/var/www/html/core/test/ModelTest.php",
+		"/var/www/html/core/test/ServiceTest.php",
+		"/var/www/html/core/src/Controller.php",
+		"/var/www/html/core/error.txt",
+		"/var/www/html/core/test/ErrorTest.php",
+		"/var/www/html/core/phpunit.xml",
+		"/var/www/html/core/src/Error.php",
+		"/var/www/html/core/src/Helper.php",
+		"/var/www/html/core/src/ObjectIterator.php",
+		"/var/www/html/core/test/ObjectIteratorTest.php",
+		"/var/www/html/core/src/FileSystem.php",
+		"/var/www/html/core/src/Model/File.php",
+		"/var/www/html/core/test/FileSystemTest.php",
+		"/var/www/html/core/sql/user.sql",
+		"/var/www/html/core/src/File.php",
+		"/var/www/html/core/src/AbstractModel.php",
+		"/var/www/html/core/src/Entity.php",
+		"/var/www/html/core/src/Entity/Address.php",
+		"/var/www/html/core/src/Model/User.php",
 		"/var/www/html/core/test/CookieTest.php",
 		"/var/www/html/core/test/SessionTest.php",
 		"/var/www/html/core/src/MapperAbstract.php",
-		"/var/www/html/core/phpunit.xml",
 		"/var/www/html/core/src/Response.php",
 		"/var/www/html/core/vendor/twig/twig/test/Twig/Tests/Node/SpacelessTest.php",
 		"/var/www/html/core/composer.json",
 		"/var/www/html/core/index.php",
 		"/var/www/html/core/src/Router.php",
-		"/var/www/html/core/src/Controller.php",
 		"/var/www/html/core/src/Request.php",
 		"/var/www/html/core/test/RequestTest.php",
 		"/var/www/html/core/src/Session.php",
 		"/var/www/html/core/src/Cookie.php",
-		"/var/www/html/core/test/ModelTest.php",
 		"/var/www/html/core/src/Mapper/User.php",
 		"/var/www/html/core/src/Service/User.php",
-		"/var/www/html/core/test/ServiceTest.php",
-		"/var/www/html/core/src/Model/User.php",
-		"/var/www/html/core/test/ErrorTest.php",
 		"/var/www/html/core/test/ViewTest.php",
 		"/var/www/html/core/test/RouterTest.php",
 		"/var/www/html/core/test/ControllerTest.php",
-		"/var/www/html/core/src/ObjectIterator.php",
 		"/var/www/html/core/AbstractModel.php",
 		"/var/www/html/core/src/ViewInterface.php",
 		"/var/www/html/core/src/ModelFactory.php",
 		"/var/www/html/core/src/UrlInterface.php",
-		"/var/www/html/core/test/ObjectIteratorTest.php",
 		"/var/www/html/core/routes.php",
 		"/var/www/html/core/src/ModelAbstract.php",
 		"/var/www/html/core/src/ServiceAbstract.php",
 		"/var/www/html/core/src/RouterInterface.php",
 		"/var/www/html/core/src/View.php",
-		"/var/www/html/core/src/Error.php",
 		"/var/www/html/core/src/Url.php",
 		"/var/www/html/core/example-sort.php",
-		"/var/www/html/core/error.txt",
 		"/var/www/html/core/test/UrlTest.php",
 		"/var/www/html/core/config.php",
 		"/var/www/html/core/test/MailTest.php",
@@ -349,8 +371,6 @@
 		"/var/www/html/core/cache/.gitignore",
 		"/var/www/html/core/test/CacheTest.php",
 		"/var/www/html/core/src/ModelInterface.php",
-		"/var/www/html/core/sql/user.sql",
-		"/var/www/html/core/src/Helper.php",
 		"/var/www/html/core/src/Database/Pdo.php",
 		"/var/www/html/core/src/DatabaseInterface.php",
 		"/var/www/html/core/src/Pagination.php",
@@ -413,18 +433,11 @@
 		"/var/www/html/store/trunk/app/classes/storage/abstract.php",
 		"/var/www/html/store/trunk/js/utility/url.js",
 		"/var/www/html/store/trunk/app/classes/inventory/order/address.php",
-		"/var/www/html/store/trunk/app/classes/admin/modules/inbox.php",
-		"/var/www/html/store/trunk/app/classes/common/queuedmail.php",
-		"/var/www/html/store/trunk/app/skin/custom/emails/order/authorised.tpl",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/order/email-authorised.tpl",
-		"/var/www/html/store/trunk/app/classes/inventory/order/multiloader.php",
-		"/var/www/html/store/trunk/app/classes/admin/order/label.php",
-		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/order/print.php",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/order/_follow.tpl"
+		"/var/www/html/store/trunk/app/classes/admin/modules/inbox.php"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 48.0
 	},
 	"find_in_files":
 	{
@@ -492,6 +505,16 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"getFile",
+			"$path",
+			"./",
+			"FileSystemTest",
+			"type",
+			"timeModified",
+			"pathBase",
+			"if (!$this->validatePath($path)) {",
+			"validatePath",
+			"public",
 			"modelUser->",
 			"session",
 			"Session",
@@ -609,17 +632,7 @@
 			"dropArea",
 			"setEvents",
 			".media-browser-file-info-dialogue-dialogue .media-browser-file-img-container",
-			"media-browser-file-info-dialogue",
-			"media-browser-file-img-container",
-			"$document.on",
-			"$doc",
-			".on(",
-			"$('.js-addon-confirm')",
-			"priceUpdate",
-			".html",
-			"get_custom_cable_price",
-			"addonAllDiscontinuedAndOutOfStock",
-			"allDiscontinuedAndOutOfStock"
+			"media-browser-file-info-dialogue"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -731,12 +744,104 @@
 		"selected_items":
 		[
 			[
-				"response",
-				"src/Response.php"
+				"servicetest",
+				"test/ServiceTest.php"
+			],
+			[
+				"modeltest",
+				"test/ModelTest.php"
+			],
+			[
+				"controller",
+				"src/Controller.php"
+			],
+			[
+				"error",
+				"src/Error.php"
+			],
+			[
+				"errr",
+				"src/Error.php"
+			],
+			[
+				"err",
+				"error.txt"
 			],
 			[
 				"phpu",
 				"phpunit.xml"
+			],
+			[
+				"errtes",
+				"test/ErrorTest.php"
+			],
+			[
+				"helper",
+				"src/Helper.php"
+			],
+			[
+				"testobjec",
+				"test/ObjectIteratorTest.php"
+			],
+			[
+				"iterator",
+				"src/ObjectIterator.php"
+			],
+			[
+				"erro",
+				"src/Error.php"
+			],
+			[
+				".sql",
+				"sql/user.sql"
+			],
+			[
+				"file",
+				"src/Model/File.php"
+			],
+			[
+				"filesy",
+				"test/FileSystemTest.php"
+			],
+			[
+				"controltest",
+				"test/ControllerTest.php"
+			],
+			[
+				"objecit",
+				"src/ObjectIterator.php"
+			],
+			[
+				"",
+				"src/FileSystem.php"
+			],
+			[
+				"files",
+				"src/FileSystem.php"
+			],
+			[
+				"modeluser",
+				"src/Model/User.php"
+			],
+			[
+				"entity",
+				"src/Entity.php"
+			],
+			[
+				"entity/",
+				"src/Entity/Address.php"
+			],
+			[
+				"src/cook",
+				"src/Cookie.php"
+			],
+			[
+				"model",
+				"test/ModelTest.php"
+			],
+			[
+				"response",
+				"src/Response.php"
 			],
 			[
 				"mapperab",
@@ -767,20 +872,8 @@
 				"index.php"
 			],
 			[
-				"controller",
-				"src/Controller.php"
-			],
-			[
 				"router",
 				"src/Router.php"
-			],
-			[
-				"",
-				"test/ServiceTest.php"
-			],
-			[
-				"modeluser",
-				"src/Model/User.php"
 			],
 			[
 				"servtest",
@@ -795,10 +888,6 @@
 				"src/Mapper/User.php"
 			],
 			[
-				"modeltest",
-				"test/ModelTest.php"
-			],
-			[
 				"requestest",
 				"test/RequestTest.php"
 			],
@@ -811,10 +900,6 @@
 				"src/Session.php"
 			],
 			[
-				"error",
-				"src/Error.php"
-			],
-			[
 				"session",
 				"test/SessionTest.php"
 			],
@@ -825,10 +910,6 @@
 			[
 				"requtes",
 				"test/RequestTest.php"
-			],
-			[
-				"errtes",
-				"test/ErrorTest.php"
 			],
 			[
 				"index",
@@ -853,10 +934,6 @@
 			[
 				"interface",
 				"src/UrlInterface.php"
-			],
-			[
-				"model",
-				"src/ModelFactory.php"
 			],
 			[
 				"abstract",
@@ -1047,10 +1124,6 @@
 				"test/ServiceTest.php"
 			],
 			[
-				"helper",
-				"src/Helper.php"
-			],
-			[
 				"datbainter",
 				"src/DatabaseInterface.php"
 			],
@@ -1061,10 +1134,6 @@
 			[
 				"datbastes",
 				"test/DatabaseTest.php"
-			],
-			[
-				"servicetest",
-				"test/ServiceTest.php"
 			],
 			[
 				"pagination",
@@ -1185,62 +1254,6 @@
 			[
 				"orderinvoicetpl",
 				"trunk/app/skin/custom/emails/order/_invoice.tpl"
-			],
-			[
-				"emaildispat",
-				"trunk/app/skin/custom/emails/order/dispatch.tpl"
-			],
-			[
-				"exceptionsingletpl",
-				"trunk/app/skin/custom/admin/modules/exceptions/single.tpl"
-			],
-			[
-				"ordersingletpl",
-				"trunk/app/skin/custom/admin/modules/order/single.tpl"
-			],
-			[
-				"emailjs",
-				"trunk/js/admin/order/single/email.js"
-			],
-			[
-				"mediabro",
-				"trunk/sass/admin/_media-browser.scss"
-			],
-			[
-				"mediabrow",
-				"trunk/js/admin/mediaBrowser.js"
-			],
-			[
-				"mediabrowser",
-				"trunk/js/admin/mediaBrowser.js"
-			],
-			[
-				"produ",
-				"trunk/js/product.js"
-			],
-			[
-				"termination",
-				"trunk/js/product/termination.js"
-			],
-			[
-				"frontcommonddon",
-				"trunk/app/skin/custom/frontend/common/_addon.tpl"
-			],
-			[
-				"frondmodprodaddons",
-				"trunk/app/skin/custom/frontend/modules/product/_addons.tpl"
-			],
-			[
-				"frontmodproductcolright",
-				"trunk/app/skin/custom/frontend/modules/product/col-right.tpl"
-			],
-			[
-				"frontmodproduct",
-				"trunk/app/classes/frontend/modules/product.php"
-			],
-			[
-				"mediabrowserscss",
-				"trunk/sass/admin/_media-browser.scss"
 			]
 		],
 		"width": 0.0
@@ -1258,6 +1271,14 @@
 			[
 				"store",
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"claire",
+				"/var/www/html/setting/sublime-text-workspaces/claire.sublime-workspace"
+			],
+			[
+				"file",
+				"/var/www/html/setting/sublime-text-workspaces/file-browser.sublime-workspace"
 			],
 			[
 				"eltt",
@@ -1362,7 +1383,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 253.0,
 	"status_bar_visible": false,
 	"template_settings":

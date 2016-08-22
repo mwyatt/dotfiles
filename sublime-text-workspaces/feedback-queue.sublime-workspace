@@ -461,14 +461,22 @@
 	],
 	"file_history":
 	[
+		"/var/www/html/feedback-queue/js/feedbackQueue.js",
+		"/var/www/html/feedback-queue/asset/common.bundle.js",
+		"/var/www/html/feedback-queue/gulpfile.js",
+		"/var/www/html/feedback-queue/index.php",
+		"/var/www/html/feedback-queue/js/common.bundle.js",
+		"/var/www/html/feedback-queue/js/single.mustache",
+		"/var/www/html/feedback-queue/index.html",
+		"/var/www/html/feedback-queue/js/container.mustache",
+		"/var/www/html/feedback-queue/js/getMotionEventName.js",
 		"/var/www/html/feedback-queue/package.json",
+		"/var/www/html/feedback-queue/js/domready.bundle.js",
+		"/var/www/html/feedback-queue/getMotionEventName.js",
 		"/var/www/html/feedback-queue/css/common.bundle.css",
+		"/var/www/html/feedback-queue/index.js",
 		"/var/www/html/feedback-queue/index.css",
 		"/var/www/html/feedback-queue/css/theme/default.css",
-		"/var/www/html/feedback-queue/index.js",
-		"/var/www/html/feedback-queue/getMotionEventName.js",
-		"/var/www/html/feedback-queue/index.html",
-		"/var/www/html/feedback-queue/js/common.bundle.js",
 		"/var/www/html/feedback-queue/css/feedback-queue.css",
 		"/var/www/html/url/.gitignore",
 		"/var/www/html/url/package.json",
@@ -580,19 +588,11 @@
 		"/var/www/html/store/trunk/app/skin/custom/frontend/common/header.tpl",
 		"/var/www/html/store/trunk/sass/offline.scss",
 		"/var/www/html/store/trunk/app/skin/custom/common/index-offline.tpl",
-		"/var/www/html/store/trunk/app/skin/custom/common/index-offline.php",
-		"/var/www/html/store/trunk/app/index-offline.php",
-		"/var/www/html/store/sql/1.sql",
-		"/home/martin/Documents/filezilla-transfer-backup/15-03-16/.htaccess",
-		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/braintree.php",
-		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/checkout/single/_form.tpl",
-		"/var/www/html/store/trunk/app/classes/frontend/payment/pay4later.php",
-		"/var/www/html/store/trunk/app/classes/inventory/order/address.php",
-		"/var/www/html/store/trunk/app/classes/inventory/order.php"
+		"/var/www/html/store/trunk/app/skin/custom/common/index-offline.php"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 48.0
 	},
 	"find_in_files":
 	{
@@ -667,6 +667,22 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"data",
+			"$",
+			"removeAfterAnimation",
+			"createMessage",
+			"options",
+			"theContainer",
+			"getContainer",
+			"removeAfterAnimation",
+			"getMotionEventName",
+			"$",
+			"config",
+			"singleLife",
+			"container",
+			"document",
+			"$",
+			"console.log('scrolling')",
 			"keyframe",
 			"/\\*var\\((.*?)\\)\\*/",
 			"var\\((.*?)\\)",
@@ -778,28 +794,12 @@
 			"(",
 			"Braintree_Transaction",
 			"send_email_authorisation",
-			"persistPayment",
-			"createOrderAndSettle",
-			"send_email_authorisation",
-			"['",
-			"->extract()",
-			"details",
-			"extract",
-			"admin/modules/order/_invoice.tpl",
-			"<strong>Order status:</strong>",
-			"destination country",
-			"please validate your email address by using the verifica",
-			"Please validate your email address by using the verifica",
-			"insert into",
-			"\n\n",
-			"(",
-			"),(",
-			"swiftmail"
+			"persistPayment"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": true,
-		"regex": true,
+		"regex": false,
 		"replace_history":
 		[
 			"var($1)",
@@ -886,6 +886,10 @@
 		]
 	},
 	"menu_visible": false,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -904,6 +908,62 @@
 		"selected_items":
 		[
 			[
+				"feed",
+				"js/feedbackQueue.js"
+			],
+			[
+				"single",
+				"js/single.mustache"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"common",
+				"js/common.bundle.js"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"contei",
+				"js/container.mustache"
+			],
+			[
+				"getmoio",
+				"js/getMotionEventName.js"
+			],
+			[
+				"fed",
+				"js/feedbackQueue.js"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"",
+				"js/feedbackQueue.js"
+			],
+			[
+				"getmot",
+				"getMotionEventName.js"
+			],
+			[
+				"bundle",
+				"js/common.bundle.js"
+			],
+			[
+				"gu",
+				"gulpfile.js"
+			],
+			[
+				"indexjs",
+				"index.js"
+			],
+			[
 				"themedefa",
 				"css/theme/default.css"
 			],
@@ -912,28 +972,8 @@
 				"css/theme/default.css"
 			],
 			[
-				"common",
-				"css/common.bundle.css"
-			],
-			[
-				"packa",
-				"package.json"
-			],
-			[
-				"index",
-				"index.js"
-			],
-			[
-				"getmot",
-				"getMotionEventName.js"
-			],
-			[
 				"bund",
 				"js/common.bundle.js"
-			],
-			[
-				"feed",
-				"css/feedback-queue.css"
 			],
 			[
 				"i",
@@ -944,16 +984,8 @@
 				"js/test/general.bundle.js"
 			],
 			[
-				"gulp",
-				"gulpfile.js"
-			],
-			[
 				"pakca",
 				"package.json"
-			],
-			[
-				"",
-				"defaults.js"
 			],
 			[
 				"gitig",
@@ -1386,34 +1418,6 @@
 			[
 				"invpayment",
 				"trunk/app/classes/inventory/order/payment.php"
-			],
-			[
-				"adminajaxorder",
-				"trunk/app/classes/admin/ajax/modules/order.php"
-			],
-			[
-				"3.sl",
-				"sql/3.sql"
-			],
-			[
-				"storagepayment",
-				"trunk/app/classes/storage/order/payment.php"
-			],
-			[
-				"invpomotion",
-				"trunk/app/classes/inventory/promotion.php"
-			],
-			[
-				"brainnonce",
-				"trunk/vendor/braintree/braintree_php/lib/Braintree/PaymentMethodNonce.php"
-			],
-			[
-				"brainresult",
-				"trunk/vendor/braintree/braintree_php/tests/unit/Result/SuccessfulTest.php"
-			],
-			[
-				"ajaxbraintrans",
-				"trunk/app/classes/ajax/modules/braintree/transaction.php"
 			]
 		],
 		"width": 0.0
@@ -1426,15 +1430,27 @@
 		[
 			[
 				"",
-				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
-			],
-			[
-				"code",
-				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
+				"/var/www/html/setting/sublime-text-workspaces/grid.sublime-workspace"
 			],
 			[
 				"store",
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"dia",
+				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
+			],
+			[
+				"dialo",
+				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
+			],
+			[
+				"draf",
+				"/var/www/html/setting/sublime-text-workspaces/avodrafts.sublime-workspace"
+			],
+			[
+				"code",
+				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
 			],
 			[
 				"codex",
@@ -1491,14 +1507,6 @@
 			[
 				"gri",
 				"/var/www/html/sublime-workspace/grid.sublime-workspace"
-			],
-			[
-				"dialo",
-				"/var/www/html/sublime-workspace/dialogue.sublime-workspace"
-			],
-			[
-				"dia",
-				"/var/www/html/sublime-workspace/dialogue.sublime-workspace"
 			],
 			[
 				"sto",

@@ -79,22 +79,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/var/www/html/sandbox/flexbox/css/common.css",
-			"settings":
-			{
-				"buffer_size": 506,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/var/www/html/sandbox/royal-mail-shipping-api/init-soap.php",
-			"settings":
-			{
-				"buffer_size": 5396,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -103,10 +87,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "xml",
+		"height": 354.0,
+		"last_filter": "menu",
 		"selected_items":
 		[
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
 			[
 				"xml",
 				"Set Syntax: XML"
@@ -132,7 +120,7 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 449.0
+		"width": 431.0
 	},
 	"console":
 	{
@@ -157,12 +145,19 @@
 	],
 	"file_history":
 	[
-		"/var/www/html/sandbox/royal-mail-shipping-api/dan/soap-current-attempt-request.xml",
+		"/var/www/html/sandbox/browserify-shim/common.js",
+		"/var/www/html/sandbox/browserify-shim/package.json",
+		"/var/www/html/sandbox/browserify-shim/common.bundle.js",
+		"/var/www/html/sandbox/browserify-shim/subl",
+		"/var/www/html/dialogue/package.json",
+		"/var/www/html/sandbox/royal-mail-shipping-api/init-soap.php",
+		"/var/www/html/sandbox/dragabilly/common.bundle.js",
 		"/var/www/html/sandbox/flexbox/css/common.css",
+		"/var/www/html/sandbox/royal-mail-shipping-api/soap.php",
+		"/var/www/html/sandbox/royal-mail-shipping-api/dan/soap-current-attempt-request.xml",
 		"/var/www/html/sandbox/flexbox/index.php",
 		"/var/www/html/sandbox/flexbox/package.json",
 		"/var/www/html/sandbox/flexbox/gulpfile.js",
-		"/var/www/html/sandbox/royal-mail-shipping-api/init-soap.php",
 		"/var/www/html/sandbox/ksort.php",
 		"/var/www/html/sandbox/royal-mail-shipping-api/init-soap-fat.php",
 		"/var/www/html/sandbox/image-center/index.html",
@@ -277,18 +272,11 @@
 		"/var/www/html/store/trunk/app/classes/admin/ajax/abstract/module.php",
 		"/var/www/html/store/trunk/sass/admin/_dialogue.scss",
 		"/var/www/html/store/trunk/app/classes/inventory/product/multiloader.php",
-		"/var/www/html/store/trunk/app/classes/inventory/feature.php",
-		"/var/www/html/store/trunk/app/classes/inventory.php",
-		"/var/www/html/store/trunk/administration/ajax.php",
-		"/var/www/html/store/trunk/node_modules/dialogue/dialogue.js",
-		"/var/www/html/store/trunk/js/admin/common.bundle.js",
-		"/var/www/html/store/trunk/app/classes/frontend/modules/unsubscribe.php",
-		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/showroomclearance/single.tpl",
-		"/var/www/html/store/trunk/js/helper.js"
+		"/var/www/html/store/trunk/app/classes/inventory/feature.php"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 48.0
 	},
 	"find_in_files":
 	{
@@ -328,6 +316,12 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"var $ = ",
+			"require('jque",
+			"jQuery JavaScript Library v1.11.2",
+			"1.11.2",
+			"jquery",
+			"adminPassword",
 			"world world world world world world world world world world world world world world world world world world world.",
 			"button",
 			"flext-item",
@@ -449,13 +443,7 @@
 			"$s ",
 			"$s[",
 			"$s",
-			"'s'",
-			"checkout-address-drop-single",
-			"mustache",
-			"I have read and agree to the",
-			"alt_ids",
-			"auto_data",
-			"alt_data"
+			"'s'"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -505,103 +493,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/var/www/html/sandbox/flexbox/css/common.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 506,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								506,
-								506
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/var/www/html/sandbox/royal-mail-shipping-api/init-soap.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5396,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5396,
-								5396
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2288.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -658,12 +551,20 @@
 		"selected_items":
 		[
 			[
-				"soapcurren",
-				"royal-mail-shipping-api/dan/soap-current-attempt-request.xml"
+				"drag",
+				"dragabilly/common.bundle.js"
+			],
+			[
+				"initsoap",
+				"royal-mail-shipping-api/init-soap.php"
 			],
 			[
 				"royalmailinit",
 				"royal-mail-shipping-api/init-soap.php"
+			],
+			[
+				"soapcurren",
+				"royal-mail-shipping-api/dan/soap-current-attempt-request.xml"
 			],
 			[
 				"flexbox",
@@ -680,10 +581,6 @@
 			[
 				"flex/",
 				"flexbox/index.php"
-			],
-			[
-				"initsoap",
-				"royal-mail-shipping-api/init-soap.php"
 			],
 			[
 				"soapfat",
@@ -1164,10 +1061,6 @@
 			[
 				"basketjs",
 				"trunk/js/basket.js"
-			],
-			[
-				"globaljs",
-				"trunk/js/global.js"
 			]
 		],
 		"width": 0.0
@@ -1187,20 +1080,20 @@
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
-				"codex",
-				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
-			],
-			[
-				"el",
-				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
+				"dia",
+				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
 			],
 			[
 				"dialo",
 				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
 			],
 			[
-				"dia",
-				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
+				"codex",
+				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
+				"el",
+				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
 			],
 			[
 				"core",

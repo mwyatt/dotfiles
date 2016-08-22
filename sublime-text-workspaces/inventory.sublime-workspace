@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"base64",
+				"base64Encoded"
+			],
+			[
 				"itemcomru",
 				"itemCompositeRules"
 			],
@@ -63,6 +67,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/var/www/html/inventory/src/php/Controller/Api/Printer.php",
+			"settings":
+			{
+				"buffer_size": 6734,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -118,6 +130,10 @@
 	],
 	"file_history":
 	[
+		"/var/www/html/inventory/config/route/api.php",
+		"/var/www/html/inventory/src/php/Router.php",
+		"/var/www/html/inventory/src/php/Access/Handler/User.php",
+		"/var/www/html/inventory/src/php/Controller/Api/ApiAbstract.php",
 		"/var/www/html/inventory/src/php/Access/Handler/Log/Scan.php",
 		"/var/www/html/inventory/src/php/ObjectIterator.php",
 		"/var/www/html/inventory/src/php/Controller/Ajax/Log/Scan.php",
@@ -127,7 +143,6 @@
 		"/var/www/html/inventory/src/sass/screen.scss",
 		"/var/www/html/inventory/src/js/stockTake.js",
 		"/var/www/html/inventory/src/php/Controller/Ajax/StockTake.php",
-		"/var/www/html/inventory/src/php/Router.php",
 		"/var/www/html/inventory/src/sass/_message.scss",
 		"/var/www/html/inventory/config/route/admin.php",
 		"/var/www/html/inventory/src/php/Controller/Ajax/AjaxAbstract.php",
@@ -136,7 +151,6 @@
 		"/var/www/html/inventory/package.json",
 		"/var/www/html/inventory/src/php/Controller/Admin/Item.php",
 		"/var/www/html/inventory/src/php/Controller/Admin/Log.php",
-		"/var/www/html/inventory/config/route/api.php",
 		"/var/www/html/inventory/src/php/Controller/Api/Printer.php",
 		"/var/www/html/inventory/public_html/.htaccess",
 		"/var/www/html/inventory/docs/php/API.md",
@@ -155,7 +169,6 @@
 		"/var/www/html/inventory/src/php/System/Handler/Session.php",
 		"/var/www/html/inventory/src/sass/_feedback-queue.scss",
 		"/var/www/html/inventory/src/php/Controller/Api/Ping.php",
-		"/var/www/html/inventory/src/php/Controller/Api/ApiAbstract.php",
 		"/home/martin/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 		"/var/www/html/inventory/src/php/Controller/Ajax/PurchaseOrder.php",
 		"/var/www/html/inventory/src/sass/_admin-module-purchaseorder.scss",
@@ -163,7 +176,6 @@
 		"/var/www/html/inventory/src/templates/admin/module/purchaseorder/list.tpl",
 		"/var/www/html/inventory/src/php/Access/Handler/PurchaseOrder.php",
 		"/var/www/html/inventory/src/php/Controller/Admin/PurchaseOrder.php",
-		"/var/www/html/inventory/src/php/Access/Handler/User.php",
 		"/var/www/html/inventory/src/php/Controller/Ajax/PrintBarcode.php",
 		"/var/www/html/inventory/src/php/Request.php",
 		"/var/www/html/inventory/src/php/Controller/Printer.php",
@@ -249,13 +261,14 @@
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 48.0
 	},
 	"find_in_files":
 	{
 		"height": 93.0,
 		"where_history":
 		[
+			"-node_modules/, -asset/, -vendor/",
 			"-node_modules/, -asset/, -vendor/, sass/",
 			"-node_modules/, -asset/, -vendor/",
 			"-node_modules/, -asset/,",
@@ -292,6 +305,16 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"LocalStorage",
+			"localStorage",
+			"lp -d $printerName ",
+			"$page->data",
+			"resultStrings",
+			"setPrinterName",
+			"$raw",
+			"/print/",
+			"jobStoragePath",
+			"api",
 			"ObjectIterator",
 			"@extend .rounded-corners;",
 			".rounded-corners",
@@ -409,17 +432,7 @@
 			"$entity->imageOnly ? 1 : 0",
 			"input-checkbox",
 			"image",
-			"Please create the promotion first to then assign products.",
-			"filesAttached",
-			"// forget about ie8 now?",
-			"owlCarousel",
-			"owl",
-			"'time ",
-			"Time Start",
-			"Time",
-			"Time Start",
-			"push_saved_data",
-			"'contents'"
+			"Please create the promotion first to then assign products."
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -469,8 +482,146 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/var/www/html/inventory/src/php/Controller/Api/Printer.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6734,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4073,
+								4073
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2860.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -527,6 +678,22 @@
 		"selected_items":
 		[
 			[
+				"routeapi",
+				"config/route/api.php"
+			],
+			[
+				"router",
+				"src/php/Router.php"
+			],
+			[
+				"apiprint",
+				"src/php/Controller/Api/Printer.php"
+			],
+			[
+				"api",
+				"config/route/api.php"
+			],
+			[
 				"objeiter",
 				"src/php/ObjectIterator.php"
 			],
@@ -537,10 +704,6 @@
 			[
 				"rouajax",
 				"config/route/ajax.php"
-			],
-			[
-				"router",
-				"src/php/Router.php"
 			],
 			[
 				"mesagescss",
@@ -577,14 +740,6 @@
 			[
 				"objiter",
 				"src/php/ObjectIterator.php"
-			],
-			[
-				"routeapi",
-				"config/route/api.php"
-			],
-			[
-				"apiprint",
-				"src/php/Controller/Api/Printer.php"
 			],
 			[
 				"packa",
@@ -673,10 +828,6 @@
 			[
 				"apiprinter",
 				"src/php/Controller/Api/Printer.php"
-			],
-			[
-				"api",
-				"src/php/Controller/Api/ApiAbstract.php"
 			],
 			[
 				"purorderjs",
@@ -1044,9 +1195,21 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "store",
+		"last_filter": "dia",
 		"selected_items":
 		[
+			[
+				"dia",
+				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
+			],
+			[
+				"",
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"dialog",
+				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
+			],
 			[
 				"store",
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
@@ -1054,10 +1217,6 @@
 			[
 				"grid",
 				"/var/www/html/setting/sublime-text-workspaces/grid.sublime-workspace"
-			],
-			[
-				"",
-				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
 				"pot",
@@ -1094,10 +1253,6 @@
 			[
 				"elt",
 				"/var/www/html/sublime-workspace/elttl.sublime-workspace"
-			],
-			[
-				"dia",
-				"/var/www/html/sublime-workspace/dialogue.sublime-workspace"
 			],
 			[
 				"diua",
