@@ -243,6 +243,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/var/www/html/core/src/ObjectIterator.php",
+			"settings":
+			{
+				"buffer_size": 2260,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -686,8 +694,54 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/var/www/html/core/src/ObjectIterator.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2260,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1515,
+								1838
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1526.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -743,6 +797,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"objeciterator",
+				"src/ObjectIterator.php"
+			],
 			[
 				"servicetest",
 				"test/ServiceTest.php"
@@ -1250,10 +1308,6 @@
 			[
 				"frontcontents",
 				"trunk/app/skin/custom/frontend/common/_contents-products.tpl"
-			],
-			[
-				"orderinvoicetpl",
-				"trunk/app/skin/custom/emails/order/_invoice.tpl"
 			]
 		],
 		"width": 0.0

@@ -19,22 +19,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/var/www/html/elttl/index.php",
-			"settings":
-			{
-				"buffer_size": 1515,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/elttl/pimple.php",
-			"settings":
-			{
-				"buffer_size": 2247,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -43,21 +27,41 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "close",
+		"height": 119.0,
+		"last_filter": "menu",
 		"selected_items":
 		[
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"men",
+				"View: Toggle Menu"
+			],
+			[
+				"save",
+				"File: Save All"
+			],
+			[
+				"clos",
+				"File: Close All"
+			],
+			[
+				"clo",
+				"File: Close All"
+			],
+			[
+				"sa",
+				"File: Save All"
+			],
 			[
 				"close",
 				"File: Close All"
 			],
 			[
-				"stat",
+				"status",
 				"View: Toggle Status Bar"
-			],
-			[
-				"men",
-				"View: Toggle Menu"
 			],
 			[
 				"instal",
@@ -72,7 +76,7 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 449.0
+		"width": 392.0
 	},
 	"console":
 	{
@@ -93,43 +97,68 @@
 	},
 	"expanded_folders":
 	[
-		"/var/www/html/elttl",
-		"/var/www/html/elttl/src"
+		"/var/www/html/mvc"
 	],
 	"file_history":
 	[
-		"/var/www/html/elttl/config.php",
-		"/var/www/html/elttl/src/Controller/Ajax/User.php",
-		"/var/www/html/elttl/src/Controller/Admin.php",
-		"/var/www/html/elttl/.gitignore",
-		"/var/www/html/elttl/vendor/mwyatt/core/src/Error.php",
-		"/var/www/html/elttl/src/Database.php",
-		"/var/www/html/elttl/pimple.php",
-		"/var/www/html/elttl/index.php",
-		"/var/www/html/elttl/src/Error.php",
-		"/var/www/html/elttl/.htaccess",
+		"/var/www/html/mvc/App/Admin/js/user/single.bundle.js",
+		"/var/www/html/mvc/App/sql/table.sql",
+		"/var/www/html/mvc/App/Admin/Controller/Ajax.php",
+		"/var/www/html/mvc/App/Site/Elttl/Controller/Index.php",
+		"/var/www/html/mvc/App/Class/Model/User/Permission.php",
+		"/var/www/html/mvc/App/Class/Session/Expire.php",
+		"/var/www/html/mvc/App/Site/Codex/css/_dependencies.css",
+		"/var/www/html/elttl/css/ad.css",
+		"/var/www/html/elttl/css/common.bundle.css",
+		"/var/www/html/elttl/css/content.css",
+		"/var/www/html/elttl/css/footer.css",
 		"/var/www/html/elttl/css/home.css",
-		"/var/www/html/elttl/js/admin/fixture/single.bundle.js",
-		"/var/www/html/elttl/css/general.css",
-		"/var/www/html/elttl/route.php",
-		"/var/www/html/elttl/indexAdmin.php",
-		"/var/www/html/elttl/src/Admin/Controller/Index.php",
-		"/var/www/html/elttl/src/Admin/Service/User.php",
-		"/var/www/html/elttl/src/Admin/Session/User.php",
-		"/var/www/html/elttl/src/Session.php",
-		"/var/www/html/elttl/routeAdmin.php",
-		"/var/www/html/elttl/config-sample.php",
+		"/var/www/html/elttl/css/admin/css/tennis/fixture/single.bundle.css",
+		"/var/www/html/elttl/css/division/overview.css",
+		"/var/www/html/elttl/css/fixture/card.css",
+		"/var/www/html/elttl/css/home/cover.css",
+		"/var/www/html/elttl/css/year/all.css",
+		"/var/www/html/elttl/template/_footer.php",
+		"/var/www/html/elttl/template/_divisions.php",
+		"/var/www/html/elttl/template/_fixture.php",
+		"/var/www/html/elttl/template/_fixtures.php",
+		"/var/www/html/elttl/template/_contents.php",
+		"/var/www/html/elttl/template/_header.php",
+		"/var/www/html/elttl/template/content-single.php",
+		"/var/www/html/elttl/template/content.php",
+		"/var/www/html/elttl/template/error.php",
+		"/var/www/html/elttl/template/fixture-single.php",
+		"/var/www/html/elttl/template/home.php",
+		"/var/www/html/elttl/template/player-single.php",
+		"/var/www/html/elttl/template/team-single.php",
+		"/var/www/html/elttl/template/year-single.php",
+		"/var/www/html/elttl/template/admin/content/single.php",
+		"/var/www/html/elttl/template/admin/tennis/fixture/list.php",
+		"/var/www/html/elttl/template/admin/tennis/fixture/single.php",
+		"/var/www/html/elttl/template/admin/tennis/player/list.php",
+		"/var/www/html/elttl/template/admin/tennis/team/list.php",
+		"/var/www/html/elttl/template/admin/tennis/year/single.php",
+		"/var/www/html/elttl/template/division/league.php",
+		"/var/www/html/elttl/template/division/merit.php",
+		"/var/www/html/elttl/template/result/_division-single.php",
+		"/var/www/html/elttl/template/result/_year-all.php",
+		"/var/www/html/elttl/template/result/_year-single.php",
+		"/var/www/html/elttl/template/_advertisements.php",
+		"/var/www/html/elttl/css/elttl-table.css",
+		"/var/www/html/elttl/css/pagination.css",
+		"/var/www/html/elttl/css/header.css",
+		"/var/www/html/elttl/css/division-single.bundle.css",
+		"/var/www/html/elttl/css/settings.css",
 		"/var/www/html/elttl/gulpfile.js",
 		"/var/www/html/elttl/package.json",
-		"/var/www/html/elttl/sql/table.sql",
-		"/var/www/html/elttl/template/_header.php",
-		"/var/www/html/elttl/js/common.bundle.js",
-		"/var/www/html/elttl/sql/2.sql",
-		"/var/www/html/elttl/src/Session/Form.php",
-		"/var/www/html/elttl/vendor/mwyatt/core/config-sample.php",
+		"/var/www/html/elttl/css/fixture-card.bundle.css",
+		"/var/www/html/elttl/css/common.css",
 		"/var/www/html/elttl/js/admin/tennis/fixture/single.bundle.js",
+		"/var/www/html/elttl/index.php",
 		"/var/www/html/elttl/src/Model.php",
 		"/var/www/html/elttl/src/Json.php",
+		"/var/www/html/elttl/src/Error.php",
+		"/var/www/html/elttl/sql/table.sql",
 		"/var/www/html/store/trunk/js/buttonToTop.js",
 		"/var/www/html/store/trunk/js/admin/mediaBrowser/mustacheTemplates.js",
 		"/var/www/html/store/trunk/mustache/admin/media/browser/tree.mst",
@@ -199,37 +228,11 @@
 		"/var/www/html/store/trunk/js/jqueryBundle.js",
 		"/var/www/html/store/trunk/asset/jqueryBundle.js",
 		"/var/www/html/store/trunk/js/product/single/ncs.js",
-		"/var/www/html/store/trunk/js/test.bundle.js",
-		"/var/www/html/store/trunk/js/admin/category/product.js",
-		"/var/www/html/store/trunk/js/admin/mail/subscribers.js",
-		"/var/www/html/store/trunk/js/admin/product/list.js",
-		"/var/www/html/store/trunk/js/admin/discount.js",
-		"/var/www/html/store/trunk/js/admin/feedExclusions.js",
-		"/var/www/html/store/trunk/js/admin/news.js",
-		"/var/www/html/store/trunk/js/admin/pay4laterRates.js",
-		"/var/www/html/store/trunk/js/admin/productPricingGuide.js",
-		"/var/www/html/store/trunk/js/admin/productsEav.js",
-		"/var/www/html/store/trunk/js/admin/productsEavTemplates.js",
-		"/var/www/html/store/trunk/js/admin/scheduledDiscount.js",
-		"/var/www/html/store/trunk/js/admin/specialPricing.js",
-		"/var/www/html/store/trunk/js/admin/warehouse.js",
-		"/var/www/html/store/trunk/js/admin/voucher/single.js",
-		"/var/www/html/store/trunk/js/admin/exception/single.js",
-		"/var/www/html/store/trunk/js/admin/exception/email.js",
-		"/var/www/html/store/trunk/js/admin/order/dpd-create-shipment.bundle.js",
-		"/var/www/html/store/trunk/js/admin/order/pick-print.js",
-		"/var/www/html/store/trunk/js/admin/product/bundle.js",
-		"/var/www/html/store/trunk/js/admin/exception.js",
-		"/var/www/html/store/trunk/js/admin/feedbackStream.js",
-		"/var/www/html/store/trunk/js/admin/account/offer/single.bundle.js",
-		"/var/www/html/store/trunk/js/admin/product/stock-reminder.bundle.js",
-		"/var/www/html/store/trunk/js/checkout/payment.js",
-		"/var/www/html/store/trunk/js/product/single/wish.js",
-		"/var/www/html/store/trunk/js/utility/postcodeLookup.js"
+		"/var/www/html/store/trunk/js/test.bundle.js"
 	],
 	"find":
 	{
-		"height": 48.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -237,6 +240,11 @@
 		"where_history":
 		[
 			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, css/",
+			"-node_modules/, -asset/, -vendor/, template/",
+			"-node_modules/, -asset/, -vendor/, css/",
+			"-node_modules/, -asset/, -vendor/, template/",
+			"-node_modules/, -asset/, -vendor/, css/",
 			"-node_modules/, -asset/, -vendor/, sass/",
 			"-node_modules/, -asset/, -vendor/",
 			"-node_modules/, -asset/, ",
@@ -263,15 +271,56 @@
 		"case_sensitive": true,
 		"find_history":
 		[
-			"error",
-			"router",
-			"redirect",
-			" . ",
-			"routeCurrent",
-			"anchor-scroll",
-			"container",
-			"container\n",
-			"$router",
+			"js-toggle-all-permissions",
+			")))",
+			";;",
+			"@mixin clearfix (.*?);",
+			"years",
+			"divisions",
+			"cover",
+			"\"fixture\"",
+			"fixture",
+			"fixtures",
+			"division-overview-option",
+			"division-overview-options",
+			"\"fixture-single-section\"",
+			"fixture-single-section",
+			"gallery-container",
+			"home-heading",
+			"@mixin",
+			"\"home-heading\"",
+			"home-heading",
+			"banner-and-press",
+			"container-footer-inner",
+			"footer-socials",
+			"form-search",
+			"menu-secondaries-container",
+			"footer-container-address-socials",
+			"contents",
+			"container-header-inner",
+			"\"page ",
+			"\"page",
+			"advertisements",
+			"@mixin",
+			"\\$",
+			"\\$grid-gutter",
+			"\\$border-radius",
+			"\\$",
+			"@mixin ",
+			"color: ",
+			"\\$color-(.*?),",
+			"\\$color-(.*?) ",
+			"\\$color-(.*?);",
+			"\\$color-(.*?)",
+			"$color-primary-0",
+			"$",
+			"@import \"(.*?).css\";",
+			"@import \"(.*?)_(.*?).css\";",
+			"@import '(.*?)_(.*?).css';",
+			"@import \"(.*?)_(.*?).css\";",
+			"@import \"(.*?)_(.*?)\";",
+			"@import \"_(.*?)\";",
+			"@import '_(.*?)';",
 			"getSthExecutePositionalWriteable",
 			"getSqlPositionalPlaceholdersWriteable",
 			"longtext",
@@ -349,55 +398,24 @@
 			".upload(",
 			"prepareUpload",
 			".upload(",
-			"require('./mediaBrowser",
-			"document",
-			"uploadFormData",
-			"overflowFiles",
-			"uploadFormData",
-			"actions: {",
-			"actions: [",
-			"dialogueRemove",
-			"][$key]",
-			"$_FILES[\"images\"]",
-			"upload",
-			"dialogueDeleteThumbs",
-			"dialogueRemove",
-			"dialogueDeleteThumbs",
-			"dialogueInfo",
-			"dialogueRemove",
-			"new dialogueFactory",
-			"new dialogue",
-			"dialogue",
-			"mediaBrowser.upload(",
-			"mediaBrowser.upload",
-			"upload",
-			"mustache",
-			"getResponseJson",
-			"Lowbo",
-			"Scala Low",
-			"mimeAcceptable",
-			"vendor/jquery.magnific",
-			"require('jquery')",
-			"datepicker",
-			"jquery-ui",
-			"$('#datepicker1').datepicker",
-			"'js'",
-			"setSubmitButtons",
-			"js-submit",
-			"setRequiredFlags",
-			"form",
-			"console",
-			"getResponseJson",
-			"getRequestBody",
-			"STATUS_SUCCESS",
-			"url"
+			"require('./mediaBrowser"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": true,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
+			";",
+			"",
+			"\"fixture-single-section clearfix\"",
+			"\"home-heading clearfix\"",
+			"\"page clearfix ",
+			"var(--grid-gutter);",
+			"var(--border-radius);",
+			"var(--color-$1);",
+			"@import \"$1\";",
+			"@import \"$1$2\";",
 			"require('mwyatt-codex/",
 			"require('mwyatt-dialogue'",
 			"return false; // should not run, return needed to be removed",
@@ -434,155 +452,24 @@
 	"folders":
 	[
 		{
-			"path": "/var/www/html/elttl"
+			"path": "/var/www/html/mvc"
 		}
 	],
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/var/www/html/elttl/index.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1515,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/var/www/html/elttl/pimple.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2247,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1912,
-								1912
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 960.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 27.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"layout":
 	{
@@ -607,10 +494,6 @@
 		]
 	},
 	"menu_visible": false,
-	"output.CSS Extended Completions":
-	{
-		"height": 0.0
-	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -619,7 +502,7 @@
 	"project": "",
 	"replace":
 	{
-		"height": 46.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -629,127 +512,51 @@
 		"selected_items":
 		[
 			[
-				"index",
-				"index.php"
+				"controllerindex",
+				"App/Site/Elttl/Controller/Index.php"
 			],
 			[
-				"pimple",
-				"pimple.php"
+				"admincontrolajax",
+				"App/Admin/Controller/Ajax.php"
 			],
 			[
-				"controllerajaxuser",
-				"src/Controller/Ajax/User.php"
+				"table",
+				"App/sql/table.sql"
 			],
 			[
-				"controlleradmin",
-				"src/Controller/Admin.php"
+				"sessionexpi",
+				"App/Class/Session/Expire.php"
 			],
 			[
-				"config",
-				"config.php"
+				"modeluserper",
+				"App/Class/Model/User/Permission.php"
 			],
 			[
-				"giti",
-				".gitignore"
+				"depende",
+				"App/Site/Codex/css/_dependencies.css"
 			],
 			[
-				"database",
-				"src/Database.php"
+				"divsinbun",
+				"css/division-single.bundle.css"
 			],
 			[
-				"pim",
-				"pimple.php"
+				"headercss",
+				"css/header.css"
 			],
 			[
-				"mwyattcoreerror",
-				"vendor/mwyatt/core/src/Error.php"
-			],
-			[
-				"error",
-				"src/Error.php"
-			],
-			[
-				"inde",
-				"index.php"
-			],
-			[
-				"htac",
-				".htaccess"
-			],
-			[
-				"cnof",
-				"config-sample.php"
-			],
-			[
-				"homecs",
+				"homecss",
 				"css/home.css"
-			],
-			[
-				"fixturesinglejs",
-				"js/admin/fixture/single.bundle.js"
-			],
-			[
-				"htacc",
-				".htaccess"
-			],
-			[
-				"homec",
-				"css/home.css"
-			],
-			[
-				"gener",
-				"css/general.css"
-			],
-			[
-				"route",
-				"route.php"
-			],
-			[
-				"indexadmin",
-				"indexAdmin.php"
-			],
-			[
-				"session",
-				"src/Session.php"
-			],
-			[
-				"sessuser",
-				"src/Admin/Session/User.php"
-			],
-			[
-				"servuser",
-				"src/Admin/Service/User.php"
-			],
-			[
-				"admincontroller.php",
-				"src/Admin/Controller/Index.php"
 			],
 			[
 				"",
-				"indexAdmin.php"
+				"Find Results"
 			],
 			[
-				"routeadmin",
-				"routeAdmin.php"
-			],
-			[
-				"sql",
-				"sql/2.sql"
-			],
-			[
-				".sql",
-				"sql/table.sql"
-			],
-			[
-				"header",
-				"template/_header.php"
+				"settings",
+				"css/settings.css"
 			],
 			[
 				"packa",
-				"package.json"
-			],
-			[
-				"pack",
 				"package.json"
 			],
 			[
@@ -757,20 +564,20 @@
 				"gulpfile.js"
 			],
 			[
-				"sessform",
-				"src/Session/Form.php"
+				"commonbun",
+				"css/common.bundle.css"
 			],
 			[
-				"admincontrollerindex",
-				"src/Admin/Controller/Index.php"
+				"p",
+				"package.json"
 			],
 			[
-				"indexad",
-				"indexAdmin.php"
+				"common",
+				"css/common.css"
 			],
 			[
-				"confgi",
-				"vendor/mwyatt/core/config-sample.php"
+				"index",
+				"index.php"
 			],
 			[
 				"fixture.js",
@@ -787,6 +594,10 @@
 			[
 				"inex",
 				"index.php"
+			],
+			[
+				".sql",
+				"sql/table.sql"
 			],
 			[
 				"erro",
@@ -875,6 +686,10 @@
 			[
 				"media",
 				"trunk/app/classes/common/media.php"
+			],
+			[
+				"htacc",
+				"trunk/.htaccess"
 			],
 			[
 				"inve",
@@ -993,10 +808,6 @@
 				"trunk/asset/admin/common.js"
 			],
 			[
-				"common",
-				"trunk/asset/common.js"
-			],
-			[
 				"advancedse",
 				"trunk/app/classes/frontend/modules/advancedsearch.php"
 			],
@@ -1019,6 +830,10 @@
 			[
 				"prodsinnc",
 				"trunk/js/product/single/ncs.js"
+			],
+			[
+				"inde",
+				"trunk/node_modules/gulp-sass/node_modules/node-sass/node_modules/sass-graph/node_modules/lodash/_assignInDefaults.js"
 			],
 			[
 				"prodsinncs",
@@ -1045,6 +860,10 @@
 				"trunk/js/product.js"
 			],
 			[
+				"config",
+				"trunk/js/config.js"
+			],
+			[
 				"jsproduc",
 				"trunk/js/product.js"
 			],
@@ -1065,6 +884,10 @@
 				"trunk/sass/_reset.scss"
 			],
 			[
+				"htac",
+				"public_html/.htaccess"
+			],
+			[
 				"router",
 				"src/php/Router.php"
 			],
@@ -1078,32 +901,28 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "claire",
 		"selected_items":
 		[
-			[
-				"",
-				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
-			],
 			[
 				"claire",
 				"/var/www/html/setting/sublime-text-workspaces/claire.sublime-workspace"
 			],
 			[
-				"store",
-				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+				"",
+				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
 			],
 			[
-				"port",
-				"/var/www/html/setting/sublime-text-workspaces/portfolio.sublime-workspace"
+				"codex",
+				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
 			],
 			[
-				"sor",
-				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+				"dialo",
+				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
 			],
 			[
-				"core",
-				"/var/www/html/setting/sublime-text-workspaces/core.sublime-workspace"
+				"code",
+				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
 			],
 			[
 				"dia",
@@ -1114,16 +933,16 @@
 				"/var/www/html/sublime-workspace/dialogue.sublime-workspace"
 			],
 			[
-				"dialo",
-				"/var/www/html/sublime-project/dialogue.sublime-workspace"
+				"store",
+				"/var/www/html/sublime-project/store.sublime-project"
+			],
+			[
+				"core",
+				"/var/www/html/sublime-project/core.sublime-workspace"
 			],
 			[
 				"grid",
 				"/var/www/html/grid/grid.sublime-project"
-			],
-			[
-				"code",
-				"/var/www/html/codex/codex.sublime-project"
 			],
 			[
 				"sto",
@@ -1160,8 +979,8 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
-	"side_bar_width": 197.0,
+	"side_bar_visible": false,
+	"side_bar_width": 348.0,
 	"status_bar_visible": false,
 	"template_settings":
 	{
