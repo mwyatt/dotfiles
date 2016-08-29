@@ -508,7 +508,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -524,8 +524,8 @@
 						"selection":
 						[
 							[
-								1396,
-								1396
+								1420,
+								1439
 							]
 						],
 						"settings":
@@ -553,7 +553,7 @@
 						"translation.y": 2630.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -569,8 +569,8 @@
 						"selection":
 						[
 							[
-								0,
-								12
+								654,
+								667
 							]
 						],
 						"settings":
@@ -594,7 +594,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -652,6 +652,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"reusa",
+				"css/reusable.css"
+			],
 			[
 				"form",
 				"css/form.css"
@@ -771,10 +775,6 @@
 			[
 				"link",
 				"link.css"
-			],
-			[
-				"reusa",
-				"css/reusable.css"
 			],
 			[
 				"scrolltop",

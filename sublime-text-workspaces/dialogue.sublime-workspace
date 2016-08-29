@@ -312,7 +312,7 @@
 	],
 	"find":
 	{
-		"height": 48.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
@@ -343,6 +343,9 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"removeChild",
+			"Node",
+			"data",
 			"innerHtml",
 			"remove",
 			"isInside",
@@ -467,10 +470,7 @@
 			"closeInstance",
 			"setActionEvent",
 			"actionFunction",
-			"setActionEvent",
-			"actions",
-			"document",
-			"event"
+			"setActionEvent"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -535,8 +535,8 @@
 						"selection":
 						[
 							[
-								942,
-								945
+								1052,
+								1052
 							]
 						],
 						"settings":
@@ -577,7 +577,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 469.0,
+						"translation.y": 1012.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -638,6 +638,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"js/dialogue.js"
+			],
 			[
 				"dia",
 				"js/dialogue.js"
@@ -777,10 +781,6 @@
 			[
 				"contrib/",
 				"vendor/mwyatt/core/contrib/setup.sh"
-			],
-			[
-				"",
-				"template/home.php"
 			],
 			[
 				"defaul",
