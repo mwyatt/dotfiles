@@ -1,3 +1,4 @@
 [
-    { "keys": ["f2"], "command": "copy_path" }
+    { "keys": ["ctrl+alt+c"], "command": "copy_path" },
+    { "keys": ["ctrl+alt+i"], "command": "reindent" }
 ]
