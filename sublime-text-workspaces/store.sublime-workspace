@@ -520,68 +520,10 @@
 	"buffers":
 	[
 		{
-			"file": "/var/www/html/store/trunk/package.json",
+			"file": "/var/www/html/store/trunk/app/php/Iterator/ObjectIterator.php",
 			"settings":
 			{
-				"buffer_size": 1554,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/store/trunk/gulpfile.js",
-			"settings":
-			{
-				"buffer_size": 5686,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "Searching 1583 files for \"tinymce\" (case sensitive)\n\n/var/www/html/store/trunk/gulpfile.js:\n  198    gulp.src(settings.media + '' + pkg.theme + '/**').pipe(gulp.dest(settings.assetDest));\n  199    gulp.src(settings.js + 'vendor/modernizr.js').pipe(gulp.dest(settings.assetDest + 'vendor/'));\n  200:   gulp.src('node_modules/tinymce/**').pipe(gulp.dest('asset/tinymce'));\n  201  }\n  202  \n\n/var/www/html/store/trunk/package.json:\n    9      \"jquery\": \"global:$\",\n   10      \"mustache\": \"global:Mustache\",\n   11:     \"tinymce\": \"global:tinymce\",\n   12      \"underscore\": \"global:_\",\n   13      \"moment\": \"global:moment\",\n   ..\n   49      \"postcss-import\": \"7.1.3\",\n   50      \"run-sequence\": \"1.1.5\",\n   51:     \"tinymce\": \"4.3.8\",\n   52      \"underscore\": \"1.8.3\"\n   53    },\n\n/var/www/html/store/trunk/app/skin/custom/admin/common/footer.tpl:\n   21  \n   22  	<!-- cant be libbed because it needs to access relative paths -->\n   23:   	<script src=\"<?php echo $this->get_url_asset('tinymce/tinymce.min.js') ?>\" type=\"text/javascript\"></script>\n   24  \n   25      <script>var urlBase = '<?php echo $this->get_url_base() ?>';</script>\n\n/var/www/html/store/trunk/app/skin/custom/admin/modules/brands/_create-update.tpl:\n   41          <div class=\"clearfix\">\n   42  			<h2 class=\"h2 mb1\">Description</h2>\n   43: 			<textarea name=\"form_brand_description\" class=\"js-tinymce\"><?php echo $brand['description'] ?></textarea>\n   44  		</div>\n   45  		<div class=\"clearfix\"></div>\n\n/var/www/html/store/trunk/app/skin/custom/admin/modules/category/_create-update.tpl:\n   52          <div class=\"clearfix\">\n   53  			<h2 class=\"h2 mb1\">Description</h2>\n   54: 			<textarea name=\"form_category_description\" class=\"js-tinymce\"><?php echo $category['description'] ?></textarea>\n   55  		</div>\n   56  		<div class=\"clearfix\"></div>\n\n/var/www/html/store/trunk/app/skin/custom/admin/modules/content/_create-update.tpl:\n   44          	\n   45  			<h2 class=\"h2 mb1\">Content</h2>\n   46: 			<textarea name=\"form_content_content\" class=\"js-tinymce\" tabindex=\"11\"><?php echo $content['content'] ?></textarea>\n   47  		</div>\n   48  	</form>\n\n/var/www/html/store/trunk/app/skin/custom/admin/modules/exceptions/_email-preview-content.tpl:\n   11  	<label class=\"admin-label\">Subject</label>\n   12  	<input class=\"mb1 js-exception-email-subject w100\" name=\"mail_subject\" type=\"text\" value=\"<?php echo $subject ?>\">\n   13: 	<textarea name=\"preview_content\" class=\"js-tinymce\" tabindex=\"1\" placeholder=\"Your message...\">\n   14  \n   15  <?php echo $templateSelected->content ?>\n\n/var/www/html/store/trunk/app/skin/custom/admin/modules/exceptions/template/create-update.tpl:\n   30  \n   31  			<h2 class=\"h2 mb1\">Content</h2>\n   32: 			<textarea name=\"form_template_content\" class=\"js-tinymce\" tabindex=\"11\"><?php echo $template->content ?></textarea>\n   33  		</div>\n   34  	</form>\n\n/var/www/html/store/trunk/app/skin/custom/admin/modules/mailshot/edittemplate.tpl:\n   13    <tr>\n   14      <td>Content*:</td>\n   15: 	<td><textarea name=\"content\" class=\"js-tinymce\"><?=$tpl['content'];?></textarea></td>\n   16    </tr>\n   17  </table>\n\n/var/www/html/store/trunk/app/skin/custom/admin/modules/mailshot/newtemplate.tpl:\n   13    <tr>\n   14      <td>Content*:</td>\n   15: 	<td><textarea name=\"content\" class=\"js-tinymce\" /></textarea></td>\n   16    </tr>\n   17  </table>\n\n/var/www/html/store/trunk/app/skin/custom/admin/modules/news/create-update.tpl:\n   58  \n   59  			<h2 class=\"h2 mb1\">Content</h2>\n   60: 			<textarea name=\"form_news_content\" class=\"js-tinymce\" tabindex=\"11\"><?php echo $news->get_content() ?></textarea>\n   61  		</div>\n   62  \n\n/var/www/html/store/trunk/app/skin/custom/admin/modules/page/_create-update.tpl:\n   65          	\n   66  			<h2 class=\"h2 mb1\">Content</h2>\n   67: 			<textarea name=\"form_page_content\" class=\"js-tinymce\" tabindex=\"11\"><?php echo $page['content'] ?></textarea>\n   68  		</div>\n   69  	</form>\n\n/var/www/html/store/trunk/app/skin/custom/admin/modules/products/create-update.tpl:\n  161  	    	</div>\n  162  	    	<label for=\"form-medium-description\" class=\"form-label\">Medium Description</label>\n  163: 			<textarea name=\"med_desc\" class=\"js-tinymce-medium-description\" tabindex=\"11\"><?=$product['med_description'];?></textarea>\n  164  	    </div>\n  165  	    <div class=\"product-create-update-row row wysihtml5 clearfix\">\n  ...\n  173  	    	</div>\n  174  	    	<label for=\"form-long-description\" class=\"form-label\">Long Description</label>\n  175: 			<textarea name=\"long_desc\" class=\"js-tinymce-long-description\" tabindex=\"12\"><?=$product['long_description'];?></textarea>\n  176  	    </div>\n  177  		<div id=\"jump-layout\" class=\"product-create-update-row row clearfix\">\n\n/var/www/html/store/trunk/app/skin/custom/admin/modules/promotion/edit.tpl:\n   61  			</div>\n   62  			<div class=\"column-6\">\n   63: 				<textarea class=\"js-tinymce\" name=\"promotion[content]\" id=\"\" cols=\"30\" rows=\"10\"><?php echo $promotion->get_content() ?></textarea>\n   64  			</div>\n   65  		</div>\n\n/var/www/html/store/trunk/css/admin/order/single.css:\n  461  }\n  462  \n  463: .dialogue .mce-tinymce {\n  464      margin-bottom: 1em;\n  465  }\n\n/var/www/html/store/trunk/js/admin/common.bundle.js:\n   97  \n   98    // wysiwig\n   99:   tinymce.init(require('./tinymceConfig'));\n  100  \n  101    // media browser\n\n/var/www/html/store/trunk/js/admin/tinymceConfig.js:\n    2    plugins: 'image media code link template table paste autosave advlist',\n    3    browser_spellcheck: true,\n    4:   selector: '.js-tinymce',\n    5    height: 500,\n    6:   content_css: '../asset/admin/tinymce-content.bundle.css',\n    7    paste_word_valid_elements: 'b,strong,i,em,h1,h2',\n    8    autosave_interval: '5s',\n\n/var/www/html/store/trunk/js/admin/order/single/email.js:\n    1  var $ = require('jquery');\n    2: var tinymce = require('tinymce');\n    3  var mustache = require('mustache');\n    4  var moment = require('moment');\n    .\n   11  });\n   12  var $buttonSend;\n   13: var tinymceConfig = require('../../tinymceConfig');\n   14: tinymceConfig.setup = function(editor) {\n   15    editor.on('init', function() {\n   16      dialogue.applyCss({data: dialogue});\n   ..\n   45    '<label class=\"admin-label\">Subject</label>',\n   46    '<input class=\"mb1 js-exception-email-subject form-input w100\" name=\"mail_subject\" type=\"text\" value=\"{{subject}}\" required>',\n   47:   '<textarea name=\"emailHtml\" class=\"js-tinymce hidden\" tabindex=\"1\"></textarea>'\n   48  ].join('\\n');\n   49  var $document = $(document);\n   ..\n   78        $buttonSend = $('.js-dialogue-action[data-name=\"Send\"]');\n   79  \n   80:       // if (0 in tinymce.editors) {\n   81:       //   tinymce.editors[0].show();\n   82        // } else {\n   83:         tinymce.init(tinymceConfig);\n   84        // };\n   85        $('.js-email-template-select').trigger('change'); // for exception single\n   86      },\n   87      onClose: function() {\n   88:       // if (0 in tinymce.editors) {\n   89:         tinymce.editors[0].remove();\n   90        // };\n   91      },\n   ..\n  117        subject: $('.js-exception-email-subject').val(),\n  118        template: selectedTemplate ? selectedTemplate : [],\n  119:       content: 0 in tinymce.editors ? tinymce.editors[0].getContent() : '',\n  120        emailAddress: emailPanelConfig.emailAddress,\n  121        environment: emailPanelConfig.environment,\n  ...\n  215    $('.js-exception-email-subject').val(getTemplateSubject('subject' in template ? template.subject : ''));\n  216  \n  217:   if ('id' in template == false && 0 in tinymce.editors) {\n  218:     tinymce.editors[0].setContent('');\n  219:     tinymce.editors[0].show();\n  220    };\n  221  \n  222    if ('content' in template && template.content.length) {\n  223:     tinymce.editors[0].setContent(template.content);\n  224:     tinymce.editors[0].show();\n  225    } else if ('id' in template) {\n  226:     tinymce.editors[0].hide();\n  227    };\n  228  }\n\n/var/www/html/store/trunk/js/admin/product/single.js:\n  486  \n  487  // medium desc\n  488: tinymce.init({\n  489    plugins: 'image media code link template table paste autosave',\n  490:   selector: '.js-tinymce-medium-description',\n  491    browser_spellcheck: true,\n  492    height: 200,\n  493:   content_css: '../asset/admin/tinymce-content.bundle.css',\n  494    paste_word_valid_elements: \"b,strong,i,em,h1,h2\",\n  495    autosave_interval: \"5s\",\n  ...\n  610  \n  611  // long desc\n  612: tinymce.init({\n  613    plugins: 'image media code link template table paste autosave',\n  614:   selector: '.js-tinymce-long-description',\n  615    browser_spellcheck: true,\n  616    height: 600,\n  617:   content_css: '../asset/admin/tinymce-content.bundle.css',\n  618    paste_word_valid_elements: \"b,strong,i,em,h1,h2\",\n  619    autosave_interval: \"5s\",\n\n50 matches across 19 files\n",
-			"settings":
-			{
-				"buffer_size": 8764,
-				"line_ending": "Unix",
-				"name": "Find Results",
-				"scratch": true
-			}
-		},
-		{
-			"file": "/var/www/html/store/trunk/app/skin/custom/admin/common/footer.tpl",
-			"settings":
-			{
-				"buffer_size": 1307,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/store/trunk/app/classes/frontend/modules/media.php",
-			"settings":
-			{
-				"buffer_size": 2496,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/store/trunk/app/classes/common/media.php",
-			"settings":
-			{
-				"buffer_size": 6009,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/store/trunk/app/classes/inventory/file.php",
-			"settings":
-			{
-				"buffer_size": 2121,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/store/trunk/composer.json",
-			"settings":
-			{
-				"buffer_size": 1407,
+				"buffer_size": 422,
 				"line_ending": "Unix"
 			}
 		}
@@ -593,7 +535,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 354.0,
 		"last_filter": "close",
 		"selected_items":
 		[
@@ -782,7 +724,7 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 449.0
+		"width": 431.0
 	},
 	"console":
 	{
@@ -807,12 +749,18 @@
 	],
 	"file_history":
 	[
+		"/var/www/html/store/trunk/package.json",
+		"/var/www/html/store/trunk/gulpfile.js",
+		"/var/www/html/store/trunk/app/skin/custom/admin/common/footer.tpl",
+		"/var/www/html/store/trunk/app/classes/frontend/modules/media.php",
+		"/var/www/html/store/trunk/app/classes/common/media.php",
+		"/var/www/html/store/trunk/app/classes/inventory/file.php",
+		"/var/www/html/store/trunk/composer.json",
 		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/royalmail.php",
 		"/var/www/html/store/trunk/css/home.bundle.css",
 		"/var/www/html/store/trunk/css/common.bundle.css",
 		"/var/www/html/store/trunk/css/header-nav.css",
 		"/var/www/html/store/trunk/app/classes/inventory/product/review.php",
-		"/var/www/html/store/trunk/app/classes/frontend/modules/media.php",
 		"/var/www/html/store/trunk/css/product-single.bundle.css",
 		"/var/www/html/store/trunk/app/skin/custom/frontend/common/_product.tpl",
 		"/var/www/html/portfolio/sql-install.sh",
@@ -826,10 +774,7 @@
 		"/var/www/html/store/contrib/sql/v280/4.sql",
 		"/var/www/html/store/trunk/app/classes/common/config.php",
 		"/var/www/html/store/trunk/app/classes/admin/abstract/module.php",
-		"/var/www/html/store/trunk/composer.json",
-		"/var/www/html/store/trunk/package.json",
 		"/var/www/html/store/trunk/css/settings.css",
-		"/var/www/html/store/trunk/gulpfile.js",
 		"/var/www/html/store/trunk/index.php",
 		"/var/www/html/store/trunk/administration/index.php",
 		"/var/www/html/store/trunk/js/config.js",
@@ -865,7 +810,6 @@
 		"/var/www/html/store/trunk/css/owl-carousel.css",
 		"/var/www/html/store/trunk/css/product.css",
 		"/var/www/html/store/trunk/app/classes/common/mysql.php",
-		"/var/www/html/store/trunk/app/classes/common/media.php",
 		"/var/www/html/store/trunk/app/classes/storage/product/review.php",
 		"/var/www/html/store/trunk/app/classes/ajax/modules/compare.php",
 		"/var/www/html/store/trunk/asset/product-single.bundle.css",
@@ -932,9 +876,7 @@
 		"/var/www/html/store/trunk/app/skin/custom/frontend/common/_config-module.tpl",
 		"/var/www/html/store/trunk/app/classes/frontend/skin/loaders/cookiepolicy.php",
 		"/var/www/html/store/trunk/app/classes/ajax/modules/cookiemessage.php",
-		"/var/www/html/store/trunk/app/config/cron.php",
-		"/var/www/html/store/trunk/app/php/Cron/Task/Order/Review.php",
-		"/var/www/html/store/contrib/sql/v280/5.sql"
+		"/var/www/html/store/trunk/app/config/cron.php"
 	],
 	"find":
 	{
@@ -1350,447 +1292,29 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/var/www/html/store/trunk/package.json",
+					"file": "/var/www/html/store/trunk/app/php/Iterator/ObjectIterator.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1554,
+						"buffer_size": 422,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1360,
-								1360
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/var/www/html/store/trunk/gulpfile.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5686,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5637,
-								5637
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3356.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8764,
-						"regions":
-						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										324,
-										331
-									],
-									[
-										359,
-										366
-									],
-									[
-										516,
-										523
-									],
-									[
-										534,
-										541
-									],
-									[
-										711,
-										718
-									],
-									[
-										981,
-										988
-									],
-									[
-										989,
-										996
-									],
-									[
-										1360,
-										1367
-									],
-									[
-										1703,
-										1710
-									],
-									[
-										2018,
-										2025
-									],
-									[
-										2439,
-										2446
-									],
-									[
-										2753,
-										2760
-									],
-									[
-										3027,
-										3034
-									],
-									[
-										3279,
-										3286
-									],
-									[
-										3524,
-										3531
-									],
-									[
-										3813,
-										3820
-									],
-									[
-										4157,
-										4164
-									],
-									[
-										4503,
-										4510
-									],
-									[
-										4845,
-										4852
-									],
-									[
-										5084,
-										5091
-									],
-									[
-										5225,
-										5232
-									],
-									[
-										5249,
-										5256
-									],
-									[
-										5495,
-										5502
-									],
-									[
-										5565,
-										5572
-									],
-									[
-										5791,
-										5798
-									],
-									[
-										5810,
-										5817
-									],
-									[
-										5955,
-										5962
-									],
-									[
-										5986,
-										5993
-									],
-									[
-										6010,
-										6017
-									],
-									[
-										6383,
-										6390
-									],
-									[
-										6592,
-										6599
-									],
-									[
-										6629,
-										6636
-									],
-									[
-										6696,
-										6703
-									],
-									[
-										6709,
-										6716
-									],
-									[
-										6903,
-										6910
-									],
-									[
-										6937,
-										6944
-									],
-									[
-										7159,
-										7166
-									],
-									[
-										7177,
-										7184
-									],
-									[
-										7504,
-										7511
-									],
-									[
-										7534,
-										7541
-									],
-									[
-										7580,
-										7587
-									],
-									[
-										7703,
-										7710
-									],
-									[
-										7763,
-										7770
-									],
-									[
-										7841,
-										7848
-									],
-									[
-										7981,
-										7988
-									],
-									[
-										8093,
-										8100
-									],
-									[
-										8217,
-										8224
-									],
-									[
-										8380,
-										8387
-									],
-									[
-										8492,
-										8499
-									],
-									[
-										8614,
-										8621
-									]
-								],
-								"scope": ""
-							}
-						},
-						"selection":
-						[
-							[
-								985,
-								985
-							]
-						],
-						"settings":
-						{
-							"detect_indentation": false,
-							"line_numbers": false,
-							"output_tag": 1,
-							"result_base_dir": "",
-							"result_file_regex": "^([^ 	].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 57.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/var/www/html/store/trunk/app/skin/custom/admin/common/footer.tpl",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1307,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								588,
-								588
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/var/www/html/store/trunk/app/classes/frontend/modules/media.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2496,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								92,
+								421
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 456.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/var/www/html/store/trunk/app/classes/common/media.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6009,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								6009
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/var/www/html/store/trunk/app/classes/inventory/file.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2121,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								2121
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/var/www/html/store/trunk/composer.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1407,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								634,
-								634
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
@@ -1856,6 +1380,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"iterator",
+				"trunk/app/php/Iterator/ObjectIterator.php"
+			],
 			[
 				"composer",
 				"trunk/composer.json"
@@ -2363,10 +1891,6 @@
 			[
 				"admingrid",
 				"trunk/administration/grids.php"
-			],
-			[
-				"product",
-				"trunk/css/product.css"
 			]
 		],
 		"width": 0.0
@@ -2379,7 +1903,7 @@
 		[
 			[
 				"",
-				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
+				"/var/www/html/setting/sublime-text-workspaces/core.sublime-workspace"
 			],
 			[
 				"port",
