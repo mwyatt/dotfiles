@@ -20,26 +20,10 @@
 	"buffers":
 	[
 		{
-			"file": "/var/www/html/elttl/index.php",
+			"file": "/var/www/html/elttl/src/Entity/User.php",
 			"settings":
 			{
-				"buffer_size": 1515,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/elttl/src/Model.php",
-			"settings":
-			{
-				"buffer_size": 15124,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/elttl/pimple.php",
-			"settings":
-			{
-				"buffer_size": 2247,
+				"buffer_size": 3803,
 				"line_ending": "Unix"
 			}
 		}
@@ -106,14 +90,15 @@
 	],
 	"file_history":
 	[
+		"/var/www/html/elttl/pimple.php",
+		"/var/www/html/elttl/index.php",
+		"/var/www/html/elttl/src/Model.php",
 		"/var/www/html/elttl/config.php",
 		"/var/www/html/elttl/src/Controller/Ajax/User.php",
 		"/var/www/html/elttl/src/Controller/Admin.php",
 		"/var/www/html/elttl/.gitignore",
 		"/var/www/html/elttl/vendor/mwyatt/core/src/Error.php",
 		"/var/www/html/elttl/src/Database.php",
-		"/var/www/html/elttl/pimple.php",
-		"/var/www/html/elttl/index.php",
 		"/var/www/html/elttl/src/Error.php",
 		"/var/www/html/elttl/.htaccess",
 		"/var/www/html/elttl/css/home.css",
@@ -136,7 +121,6 @@
 		"/var/www/html/elttl/src/Session/Form.php",
 		"/var/www/html/elttl/vendor/mwyatt/core/config-sample.php",
 		"/var/www/html/elttl/js/admin/tennis/fixture/single.bundle.js",
-		"/var/www/html/elttl/src/Model.php",
 		"/var/www/html/elttl/src/Json.php",
 		"/var/www/html/store/trunk/js/buttonToTop.js",
 		"/var/www/html/store/trunk/js/admin/mediaBrowser/mustacheTemplates.js",
@@ -237,7 +221,7 @@
 	],
 	"find":
 	{
-		"height": 48.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
@@ -271,6 +255,12 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"md5",
+			"crypt(",
+			"pass",
+			"sha1",
+			"sha",
+			"md5",
 			"error",
 			"router",
 			"redirect",
@@ -392,13 +382,7 @@
 			"'js'",
 			"setSubmitButtons",
 			"js-submit",
-			"setRequiredFlags",
-			"form",
-			"console",
-			"getResponseJson",
-			"getRequestBody",
-			"STATUS_SUCCESS",
-			"url"
+			"setRequiredFlags"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -448,167 +432,36 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/var/www/html/elttl/index.php",
+					"file": "/var/www/html/elttl/src/Entity/User.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1515,
+						"buffer_size": 3803,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/var/www/html/elttl/src/Model.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 15124,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								13229,
-								13686
+								1287,
+								1287
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 12589.0,
+						"translation.y": 1733.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/var/www/html/elttl/pimple.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2247,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1912,
-								1912
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 960.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -666,6 +519,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"entuser",
+				"src/Entity/User.php"
+			],
 			[
 				"model",
 				"src/Model.php"

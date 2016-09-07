@@ -102,6 +102,14 @@
 				"buffer_size": 9925,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "/var/www/html/dialogue/gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 3847,
+				"line_ending": "Windows"
+			}
 		}
 	],
 	"build_system": "",
@@ -181,6 +189,7 @@
 	],
 	"file_history":
 	[
+		"/var/www/html/dialogue/package.json",
 		"/var/www/html/dialogue/js/container.mustache",
 		"/var/www/html/dialogue/js/dialogue.js",
 		"/var/www/html/dialogue/css/default.css",
@@ -189,7 +198,6 @@
 		"/var/www/html/dialogue/template/home.php",
 		"/var/www/html/dialogue/bin/deploy.sh",
 		"/var/www/html/dialogue/index.php",
-		"/var/www/html/dialogue/package.json",
 		"/var/www/html/dialogue/js/ready.js",
 		"/var/www/html/dialogue/gulpfile.js",
 		"/var/www/html/dialogue/js/common.bundle.js",
@@ -343,6 +351,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"jsSitemaps",
+			"getRandomString",
 			"removeChild",
 			"Node",
 			"data",
@@ -468,8 +478,6 @@
 			"window",
 			"applyCssPosition",
 			"closeInstance",
-			"setActionEvent",
-			"actionFunction",
 			"setActionEvent"
 		],
 		"highlight": true,
@@ -535,8 +543,8 @@
 						"selection":
 						[
 							[
-								1052,
-								1052
+								957,
+								957
 							]
 						],
 						"settings":
@@ -577,10 +585,40 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1012.0,
+						"translation.y": 480.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/var/www/html/dialogue/gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3847,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1888,
+								1888
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1250.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -639,6 +677,14 @@
 		"selected_items":
 		[
 			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
 				"",
 				"js/dialogue.js"
 			],
@@ -687,10 +733,6 @@
 				"js/dialogue.js"
 			],
 			[
-				"packa",
-				"package.json"
-			],
-			[
 				"homephp",
 				"template/home.php"
 			],
@@ -721,10 +763,6 @@
 			[
 				"ready",
 				"js/ready.js"
-			],
-			[
-				"gulp",
-				"gulpfile.js"
 			],
 			[
 				"home",
@@ -1156,6 +1194,10 @@
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
+				"dia",
+				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
+			],
+			[
 				"store",
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
 			],
@@ -1226,10 +1268,6 @@
 			[
 				"s",
 				"/var/www/html/sublime-workspace/store.sublime-workspace"
-			],
-			[
-				"dia",
-				"/var/www/html/sublime-project/dialogue.sublime-workspace"
 			],
 			[
 				"core",
