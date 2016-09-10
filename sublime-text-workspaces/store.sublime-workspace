@@ -4,6 +4,122 @@
 		"selected_items":
 		[
 			[
+				"excep",
+				"exception"
+			],
+			[
+				"exceps",
+				"exceptions"
+			],
+			[
+				"excem",
+				"exceptionContactEmail"
+			],
+			[
+				"exidi",
+				"exceptionId"
+			],
+			[
+				"inv",
+				"inventories"
+			],
+			[
+				"inner",
+				"innerHTML"
+			],
+			[
+				"eid",
+				"exceptionId"
+			],
+			[
+				"outpu",
+				"outputs"
+			],
+			[
+				"outptu",
+				"outputs"
+			],
+			[
+				"ecepi",
+				"exceptionId"
+			],
+			[
+				"getstatus",
+				"getStatusName"
+			],
+			[
+				"invex",
+				"Inventory_Exception"
+			],
+			[
+				"throw",
+				"throw	mw-php-throw"
+			],
+			[
+				"admin",
+				"administration"
+			],
+			[
+				"act",
+				"action"
+			],
+			[
+				"admina",
+				"Admin_Ajax_Modules_Exceptions"
+			],
+			[
+				"modu",
+				"Module"
+			],
+			[
+				"excets",
+				"exceptions"
+			],
+			[
+				"excepi",
+				"exceptionId"
+			],
+			[
+				"mom",
+				"moduleName"
+			],
+			[
+				"ba",
+				"backUrl"
+			],
+			[
+				"orsish",
+				"OrderSingleShipment"
+			],
+			[
+				"ordsish",
+				"OrderSingleShipment"
+			],
+			[
+				"pv",
+				"pv	mw-php-printPre"
+			],
+			[
+				"error",
+				"getOrderError"
+			],
+			[
+				"getor",
+				"getOrderIds"
+			],
+			[
+				"orderi",
+				"orderIds"
+			],
+			[
+				"thr",
+				"throw	mw-php-throw"
+			],
+			[
+				"ordi",
+				"orderId"
+			],
+			[
 				"tr",
 				"try	mw-php-try"
 			],
@@ -40,20 +156,8 @@
 				"pickingQueue"
 			],
 			[
-				"error",
-				"errors"
-			],
-			[
 				"select",
 				"selections"
-			],
-			[
-				"ordi",
-				"orderIds"
-			],
-			[
-				"orderi",
-				"orderIds"
 			],
 			[
 				"or",
@@ -120,10 +224,6 @@
 				"encodeURIComponent"
 			],
 			[
-				"pv",
-				"pv	mw-php-printPre"
-			],
-			[
 				"refre",
 				"refreshShipments"
 			],
@@ -181,10 +281,6 @@
 			],
 			[
 				"adminaja",
-				"Admin_Ajax_Modules_Note"
-			],
-			[
-				"admina",
 				"Admin_Ajax_Modules_Note"
 			],
 			[
@@ -418,203 +514,11 @@
 			[
 				"accid",
 				"accountId"
-			],
-			[
-				"pregma",
-				"preg_match"
-			],
-			[
-				"subs",
-				"postSubscribe"
-			],
-			[
-				"accou",
-				"account"
-			],
-			[
-				"orderProductO",
-				"orderProductOld"
-			],
-			[
-				"affro",
-				"affectedRows"
-			],
-			[
-				"unaa",
-				"unableMessage"
-			],
-			[
-				"stray",
-				"strayOrders"
-			],
-			[
-				"ori",
-				"orderId"
-			],
-			[
-				"storaacc",
-				"storageAccount"
-			],
-			[
-				"acc",
-				"account"
-			],
-			[
-				"feed",
-				"accountFeedback"
-			],
-			[
-				"accs",
-				"accounts"
-			],
-			[
-				"acci",
-				"accountId"
-			],
-			[
-				"logged",
-				"loggedIn"
-			],
-			[
-				"loggei",
-				"loggedIn"
-			],
-			[
-				"produc",
-				"products"
-			],
-			[
-				"disc",
-				"discounts"
-			],
-			[
-				"pro",
-				"promotion"
-			],
-			[
-				"bl",
-				"blocks"
-			],
-			[
-				"htmenti",
-				"htmlentities"
-			],
-			[
-				"conf",
-				"config"
-			],
-			[
-				"js-video",
-				"js-product-video-single"
-			],
-			[
-				"colse",
-				"--color-secondary-1-0"
-			],
-			[
-				"jspr",
-				"js-product-video-single-input-url"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "/var/www/html/store/trunk/js/admin/order/singlePersist.js",
-			"settings":
-			{
-				"buffer_size": 731,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/store/trunk/app/php/Service/Order.php",
-			"settings":
-			{
-				"buffer_size": 2111,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/store/trunk/js/admin/service/order.js",
-			"settings":
-			{
-				"buffer_size": 713,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/store/trunk/app/classes/admin/ajax/modules/order.php",
-			"settings":
-			{
-				"buffer_size": 41838,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/store/trunk/js/admin/order/single/shipment.js",
-			"settings":
-			{
-				"buffer_size": 23250,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/store/trunk/js/admin/order/statusUpdate.js",
-			"settings":
-			{
-				"buffer_size": 22403,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/store/trunk/js/admin/order/single/printOptions.mustache",
-			"settings":
-			{
-				"buffer_size": 920,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/store/trunk/css/admin/order/single.css",
-			"settings":
-			{
-				"buffer_size": 13497,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/store/trunk/app/php/Service/Shipment.php",
-			"settings":
-			{
-				"buffer_size": 8338,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/store/trunk/app/php/Api/Dpd.php",
-			"settings":
-			{
-				"buffer_size": 10299,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/store/trunk/app/php/Api/RoyalMail.php",
-			"settings":
-			{
-				"buffer_size": 11795,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/store/trunk/app/php/Access/Handler/Order.php",
-			"settings":
-			{
-				"buffer_size": 17950,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -632,12 +536,32 @@
 				"File: Close All"
 			],
 			[
-				"snippet",
-				"Snippet: CDATA"
+				"clsoe",
+				"File: Close All"
+			],
+			[
+				"me",
+				"View: Toggle Menu"
 			],
 			[
 				"menu",
 				"View: Toggle Menu"
+			],
+			[
+				"save",
+				"File: Save All"
+			],
+			[
+				"clos",
+				"File: Close All"
+			],
+			[
+				"closea",
+				"File: Close All"
+			],
+			[
+				"snippet",
+				"Snippet: CDATA"
 			],
 			[
 				"men",
@@ -649,10 +573,6 @@
 			],
 			[
 				"clo",
-				"File: Close All"
-			],
-			[
-				"clsoe",
 				"File: Close All"
 			],
 			[
@@ -694,10 +614,6 @@
 			[
 				"closeall",
 				"File: Close All"
-			],
-			[
-				"save",
-				"File: Save All"
 			],
 			[
 				"sa",
@@ -764,10 +680,6 @@
 				"File: Close All"
 			],
 			[
-				"clos",
-				"File: Close All"
-			],
-			[
 				"sta",
 				"View: Toggle Status Bar"
 			],
@@ -778,10 +690,6 @@
 			[
 				"color",
 				"Snippet: mw-css-color"
-			],
-			[
-				"closea",
-				"File: Close All"
 			],
 			[
 				"html",
@@ -947,139 +855,141 @@
 	[
 		"/var/www/html/store",
 		"/var/www/html/store/trunk",
-		"/var/www/html/store/trunk/app",
-		"/var/www/html/store/trunk/app/php"
+		"/var/www/html/store/trunk/js",
+		"/var/www/html/store/trunk/js/admin",
+		"/var/www/html/store/trunk/js/admin/exception",
+		"/var/www/html/store/trunk/js/admin/exception/single"
 	],
 	"file_history":
 	[
-		"/var/www/html/store/trunk/vendor/dts/ebay-sdk-php/src/DTS/eBaySDK/MerchantData/Enums/ShippingServiceType.php",
-		"/var/www/html/store/trunk/app/classes/inventory/order.php",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/order/single/_summary.tpl",
-		"/home/martin/.config/sublime-text-3/Packages/User/mw-php-try.sublime-snippet",
-		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/dpd.php",
-		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/shipment.php",
-		"/var/www/html/store/trunk/app/php/Service/Shipment.php",
-		"/var/www/html/store/trunk/app/php/Api/Dpd.php",
-		"/var/www/html/store/trunk/app/php/Api/RoyalMail.php",
+		"/var/www/html/store/trunk/js/admin/exception/single.js",
+		"/var/www/html/store/trunk/app/skin/custom/admin/common/_notes-panel.tpl",
+		"/var/www/html/store/trunk/js/admin/exception/single/editSummary.mustache",
+		"/var/www/html/store/trunk/app/classes/AbstractModule.php",
+		"/var/www/html/store/trunk/js/admin/exception/timeline.mustache",
+		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/exceptions.php",
+		"/var/www/html/store/trunk/app/classes/storage/exception.php",
+		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/order.php",
+		"/var/www/html/store/trunk/app/classes/admin/modules/exceptions.php",
+		"/var/www/html/store/trunk/js/admin/exception/single/summary.mustache",
+		"/var/www/html/store/trunk/js/admin/exception/log.mustache",
+		"/var/www/html/store/trunk/js/admin/exception/email.mustache",
+		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/exception/note.php",
+		"/var/www/html/store/trunk/js/admin/note.js",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/exceptions/single.tpl",
+		"/var/www/html/store/trunk/app/classes/inventory/exception/log.php",
+		"/var/www/html/store/trunk/app/classes/admin/modules/inbox.php",
+		"/var/www/html/store/trunk/app/classes/inventory/exception.php",
+		"/var/www/html/store/trunk/js/admin/note.mustache",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/exceptions/_email.tpl",
+		"/var/www/html/store/trunk/js/admin/service/exception.js",
+		"/var/www/html/store/trunk/js/admin/exception/email.js",
+		"/var/www/html/store/trunk/js/global.js",
+		"/var/www/html/store/trunk/js/admin/order/singleGroup.mustache",
+		"/var/www/html/store/trunk/app/skin/custom/admin/common/_menu.tpl",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/exceptions/_exception.tpl",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/exceptions/_exceptions.tpl",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/exceptions/_status.tpl",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/exceptions/_select-type.tpl",
+		"/var/www/html/store/trunk/app/classes/search/exception.php",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/order/single/_exception.tpl",
+		"/var/www/html/store/trunk/app/classes/admin/modules/dashboard.php",
+		"/var/www/html/store/trunk/app/php/Service/Exception.php",
+		"/home/martin/.config/sublime-text-3/Packages/User/mw-js-ajax.sublime-snippet",
+		"/var/www/html/store/trunk/js/admin/common.bundle.js",
+		"/var/www/html/store/trunk/css/admin/order/single.css",
+		"/var/www/html/store/trunk/css/admin/exception/single.css",
+		"/var/www/html/store/trunk/css/admin/common.bundle.css",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/exceptions/_exception-user.tpl",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/exceptions/single/_summary.tpl",
+		"/var/www/html/store/trunk/css/keyframe.css",
+		"/var/www/html/store/trunk/js/utility/url.js",
+		"/var/www/html/store/trunk/app/classes/inventory.php",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/exceptions/single/editSummary.mustache",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/exceptions/single/summary.mustache",
+		"/var/www/html/store/trunk/js/admin/exception.js",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/order/single/_h1.tpl",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/order/single.tpl",
+		"/var/www/html/store/trunk/js/admin/order/statusUpdate.js",
+		"/home/martin/.config/sublime-text-3/Packages/User/mw-js-require.sublime-snippet",
+		"/home/martin/.config/sublime-text-3/Packages/User/mw-js-consoleLog.sublime-snippet",
+		"/home/martin/.config/sublime-text-3/Packages/User/mw-js-require-jquery.sublime-snippet",
+		"/var/www/html/store/trunk/app/classes/storage/abstract.php",
+		"/var/www/html/store/trunk/app/classes/inventory/mail/template.php",
+		"/var/www/html/store/trunk/app/classes/storage/mail/template.php",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/exceptions/_follow.tpl",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/exceptions/_follow-bar.tpl",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/exceptions/_create.tpl",
+		"/var/www/html/store/trunk/app/skin/custom/admin/common/_follow-jumps.tpl",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/exceptions/search.tpl",
+		"/var/www/html/store/trunk/js/admin/exception/gridProduct.js",
+		"/var/www/html/store/trunk/js/admin/exception/create.js",
+		"/var/www/html/store/trunk/app/php/Iterator/ObjectIterator.php",
 		"/var/www/html/store/trunk/js/admin/order/all.js",
 		"/var/www/html/store/trunk/js/admin/service/order.js",
-		"/var/www/html/store/trunk/js/admin/order/single/shipment.js",
-		"/var/www/html/store/trunk/js/admin/order/single.js",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/order/single.tpl",
 		"/var/www/html/store/trunk/js/admin/order/singlePersist.js",
-		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/order.php",
-		"/var/www/html/store/trunk/js/admin/order/statusUpdate.js",
-		"/var/www/html/store/trunk/app/php/Access/Handler/Shipment.php",
-		"/var/www/html/store/trunk/app/classes/AbstractModule.php",
-		"/var/www/html/store/trunk/vendor/avdis/system/src/Database/Mysqli.php",
-		"/var/www/html/store/trunk/vendor/avdis/system/src/System.php",
-		"/var/www/html/store/trunk/app/php/Access/Type/Shipment.php",
-		"/var/www/html/store/trunk/app/php/Access/Handler/AbstractHandler.php",
-		"/var/www/html/store/trunk/app/classes/admin/order/label.php",
-		"/home/martin/.config/sublime-text-3/Packages/User/mw-php-controller-get-api.sublime-snippet",
-		"/var/www/html/store/trunk/app/php/Service/AbstractService.php",
-		"/var/www/html/store/trunk/app/php/AbstractApi.php",
-		"/var/www/html/store/trunk/app/classes/admin/ajax/abstract/module.php",
-		"/var/www/html/store/trunk/app/classes/AbstractAjaxModule.php",
-		"/var/www/html/store/trunk/app/classes/external/dpd.php",
-		"/var/www/html/store/trunk/app/php/Service/Dpd.php",
-		"/var/www/html/store/trunk/app/php/Service/RoyalMail.php",
-		"/var/www/html/store/trunk/js/admin/order/single.mustache",
-		"/var/www/html/store/trunk/app/skin/custom/admin/grids/promotion/all.tpl",
-		"/var/www/html/store/trunk/app/classes/admin/grids/modules/categoryproducts/load.php",
-		"/var/www/html/store/trunk/css/admin/order/all.css",
-		"/var/www/html/store/trunk/app/classes/external/printer.php",
-		"/var/www/html/store/trunk/app/php/Access/Type/Order/Note.php",
-		"/var/www/html/store/trunk/js/admin/order/statusUpdateError.mustache",
-		"/var/www/html/store/trunk/app/php/Access/Handler/Order.php",
-		"/var/www/html/store/trunk/css/common.bundle.css",
-		"/var/www/html/store/trunk/app/skin/custom/common/_terms.tpl",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/order/all.tpl",
-		"/var/www/html/store/trunk/.htaccess",
-		"/var/www/html/store/trunk/app/classes/frontend/modules/terms.php",
-		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/terms/terms.tpl",
-		"/var/www/html/store/trunk/app/php/Access/Type/Order/Log.php",
-		"/var/www/html/store/trunk/app/php/Access/Handler/Order/Log.php",
-		"/var/www/html/store/trunk/css/admin/dialogue.css",
-		"/var/www/html/store/trunk/app/classes/admin/modules/inbox.php",
-		"/var/www/html/store/trunk/app/php/Iterator/Order.php",
-		"/var/www/html/store/trunk/app/php/Access/Type/Order.php",
-		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/RoyalMail.php",
-		"/var/www/html/store/trunk/js/shipment.js",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/order/_follow.tpl",
-		"/var/www/html/store/trunk/js/admin/order/shipment.js",
-		"/var/www/html/store/trunk/js/utility/url.js",
-		"/var/www/html/store/trunk/css/admin/order/single.css",
-		"/var/www/html/store/trunk/js/admin/order/single/printOptions.mustache",
-		"/var/www/html/store/trunk/mustache/admin/order/single/status-log.mst",
-		"/var/www/html/store/trunk/js/admin/order/single/address.js",
-		"/var/www/html/store/trunk/js/admin/order/single/addressPanelUpdate.js",
-		"/var/www/html/store/trunk/js/admin/order/single/shipmentSingle.mustache",
-		"/var/www/html/store/trunk/js/admin/order/single/shipmentAll.mustache",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/order/single/_shipment.tpl",
-		"/var/www/html/store/trunk/js/utility/postcodeLookup.js",
-		"/var/www/html/store/trunk/js/account.js",
-		"/var/www/html/store/trunk/js/inputSelect.mustache",
-		"/var/www/html/store/trunk/app/classes/ajax/modules/getaddress.php",
-		"/var/www/html/store/trunk/app/classes/external/getaddress.php",
-		"/var/www/html/store/trunk/js/admin/order/single/shipmentCreate.mustache",
-		"/var/www/html/store/trunk/package.json",
-		"/var/www/html/store/trunk/gulpfile.js",
-		"/var/www/html/store/trunk/app/php/Access/Type/Order/Product.php",
-		"/var/www/html/store/trunk/app/classes/common/tools.php",
-		"/var/www/html/store/trunk/app/classes/view/common.php",
-		"/var/www/html/store/trunk/app/classes/frontend/modules/basket.php",
-		"/var/www/html/store/trunk/js/admin/loggedPoll.js",
-		"/var/www/html/store/trunk/app/skin/custom/admin/common/header.tpl",
-		"/var/www/html/store/trunk/app/classes/admin/app.php",
-		"/home/martin/.config/sublime-text-3/Packages/User/mw-php-controller-response-json.sublime-snippet",
-		"/var/www/html/store/trunk/vendor/dts/ebay-sdk-php/src/DTS/eBaySDK/MerchantData/Types/ExternalProductIDType.php",
-		"/var/www/html/store/trunk/app/classes/service.php",
-		"/var/www/html/store/trunk/app/classes/inventory/country.php",
-		"/home/martin/.config/sublime-text-3/Packages/User/mw-php-object-method.sublime-snippet",
-		"/var/www/html/store/trunk/app/classes/storage/country.php",
-		"/var/www/html/store/trunk/app/classes/frontend/abstract/module.php",
-		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/order/shipment.php",
-		"/home/martin/.config/sublime-text-3/Packages/User/mw-php-foreach.sublime-snippet",
-		"/var/www/html/store/trunk/app/classes/ajax/modules/braintree/transaction.php",
-		"/home/martin/.config/sublime-text-3/Packages/User/mw-php-model-get.sublime-snippet",
-		"/var/www/html/store/contrib/sql/v285/orderAccess6.sql",
-		"/var/www/html/store/trunk/css/ebay/screen.css",
-		"/home/martin/.config/sublime-text-3/Packages/CSSTidy/CSSTidy.sublime-settings",
-		"/home/martin/.config/sublime-text-3/Packages/User/CSSTidy.sublime-settings",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/order/single/_h1.tpl",
-		"/var/www/html/store/trunk/js/admin/exception.js",
-		"/var/www/html/store/trunk/js/admin/exception/create.js",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/exceptions/closed_list.tpl",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/exceptions/email-preview.tpl",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/order/single/_title-extra.tpl",
 		"/var/www/html/store/trunk/app/php/Service/Order.php",
-		"/var/www/html/store/trunk/app/skin/custom/feeds/googleshoppingv2.tpl",
-		"/var/www/html/store/trunk/app/skin/custom/frontend/common/_order-summary.tpl",
-		"/var/www/html/store/trunk/app/php/Access/Type/Order/Payment.php",
-		"/home/martin/.config/sublime-text-3/Packages/User/mw-php-controller-get-query.sublime-snippet",
-		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/product/review.php",
-		"/var/www/html/store/trunk/app/classes/admin/ajax/interfaces/module.php",
-		"/var/www/html/store/trunk/composer.json",
-		"/var/www/html/store/trunk/app/classes/ajax/abstract/module.php",
-		"/var/www/html/store/trunk/app/classes/admin/abstract/module.php",
-		"/var/www/html/store/trunk/app/classes/AbstractModuleAjax.php",
-		"/var/www/html/store/trunk/vendor/phpunit/phpunit/src/Util/Configuration.php",
-		"/home/martin/.config/sublime-text-3/Packages/User/mw-php-access-handler-create.sublime-snippet",
-		"/var/www/html/store/trunk/app/classes/admin/modules/mailshot.php",
-		"/var/www/html/store/trunk/app/classes/admin/modules/news.php",
-		"/var/www/html/store/trunk/app/classes/admin/modules/page.php",
-		"/var/www/html/store/trunk/app/classes/admin/modules/products.php",
-		"/var/www/html/store/trunk/app/classes/admin/modules/category.php",
-		"/var/www/html/store/trunk/app/classes/admin/modules/brands.php",
-		"/var/www/html/store/trunk/js/admin/note.js",
-		"/var/www/html/store/trunk/js/admin/order/single/paymentAll.mustache",
-		"/var/www/html/store/trunk/js/form.js",
-		"/var/www/html/store/trunk/app/skin/custom/admin/common/_notes-panel.tpl",
-		"/var/www/html/store/trunk/js/admin/order/single/payment.js",
-		"/var/www/html/store/trunk/app/classes/inventory/user.php",
-		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/order/note.php",
-		"/var/www/html/store/trunk/js/admin/note.mustache",
-		"/var/www/html/store/trunk/app/php/Access/Handler/Order/Note.php",
-		"/var/www/html/store/trunk/js/admin/exception/single.js",
-		"/var/www/html/store/trunk/mustache/admin/order/single/ajax.mst"
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/exceptions/_select-channel.tpl",
+		"/var/www/html/store/trunk/css/common.bundle.css",
+		"/var/www/html/store/trunk/app/classes/admin/app.php",
+		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/search.php",
+		"/var/www/html/store/trunk/js/admin/order/single/shipment.js",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/exceptions/create.tpl",
+		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/vat/_products.tpl",
+		"/var/www/html/store/trunk/app/skin/custom/emails/order/_invoice.tpl",
+		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/vat/body.tpl",
+		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/vat/_table.tpl",
+		"/var/www/html/store/trunk/app/php/Access/Handler/Order.php",
+		"/var/www/html/store/trunk/js/admin/order/single.mustache",
+		"/var/www/html/store/trunk/js/admin/order/preview.mustache",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/order/single/_address.tpl",
+		"/var/www/html/store/trunk/app/php/Access/Type/Shipment.php",
+		"/var/www/html/store/trunk/js/admin/service/shipment.js",
+		"/var/www/html/store/trunk/app/skin/custom/admin/ajax/modules/orderpreview/preview.tpl",
+		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/orderpreview.php",
+		"/var/www/html/store/trunk/js/shipment.js",
+		"/var/www/html/store/trunk/app/classes/common/media.php",
+		"/var/www/html/store/trunk/app/skin/custom/emails/order/review.tpl",
+		"/var/www/html/store/trunk/app/classes/service/product/review.php",
+		"/var/www/html/store/trunk/vendor/avdis/system/src/Database/Mysqli.php",
+		"/var/www/html/store/trunk/app/classes/inventory/log/mail.php",
+		"/var/www/html/store/trunk/vendor/avdis/system/src/Access/Type/AbstractType.php",
+		"/var/www/html/store/trunk/app/classes/storage/log/mail.php",
+		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/shipment.php",
+		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/dpd.php",
+		"/var/www/html/store/trunk/app/php/Access/Type/Order.php",
+		"/var/www/html/store/trunk/app/php/Access/Type/Order/MailSent.php",
+		"/var/www/html/store/trunk/app/php/Access/Handler/Order/MailSent.php",
+		"/var/www/html/store/trunk/app/php/Service/Mail.php",
+		"/var/www/html/store/trunk/app/php/Access/Type/Order/Product.php",
+		"/var/www/html/store/trunk/app/skin/custom/common/_terms.tpl",
+		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/checkout/single/_form.tpl",
+		"/var/www/html/store/trunk/app/php/Access/Type/Order/Discount.php",
+		"/var/www/html/store/trunk/app/php/Access/Type/Order/Note.php",
+		"/var/www/html/store/trunk/app/skin/custom/frontend/common/_contents-products.tpl",
+		"/var/www/html/store/trunk/app/classes/frontend/modules/checkout.php",
+		"/var/www/html/store/trunk/js/checkout.js",
+		"/var/www/html/store/trunk/app/php/Presentation/Order/Product.php",
+		"/var/www/html/store/trunk/js/checkout/payment.js",
+		"/var/www/html/store/trunk/vendor/avdis/system/src/Access/Type/TypeInterface.php",
+		"/var/www/html/store/trunk/js/utility/postcodeLookup.js",
+		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/bundle.php",
+		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/googlecategories.php",
+		"/var/www/html/store/trunk/app/classes/admin/grids/modules/categoryproducts/load.php",
+		"/var/www/html/store/trunk/app/classes/admin/grids/modules/discounts/load.php",
+		"/var/www/html/store/trunk/app/classes/admin/grids/modules/discounts/save.php",
+		"/var/www/html/store/trunk/app/classes/admin/grids/modules/feedexclusions/load.php",
+		"/var/www/html/store/trunk/app/classes/admin/grids/modules/feedexclusions/save.php",
+		"/var/www/html/store/trunk/app/classes/admin/grids/modules/groupdiscounts/load.php",
+		"/var/www/html/store/trunk/app/classes/admin/grids/modules/groupdiscounts/save.php",
+		"/var/www/html/store/trunk/app/classes/admin/grids/modules/mailinglist/load.php",
+		"/var/www/html/store/trunk/app/classes/admin/grids/modules/mailinglist/save.php",
+		"/var/www/html/store/trunk/app/classes/admin/grids/modules/newsproducts/load.php",
+		"/var/www/html/store/trunk/app/classes/admin/grids/modules/newsproducts/save.php",
+		"/var/www/html/store/trunk/app/classes/admin/grids/modules/pay4laterrates/adddel.php"
 	],
 	"find":
 	{
@@ -1090,6 +1000,8 @@
 		"height": 158.0,
 		"where_history":
 		[
+			"-node_modules/, -asset/, -cache/, -app/log, -vendor/",
+			"-node_modules/, -asset/, -cache/, -app/log, -vendor/, js/",
 			"-node_modules/, -asset/, -cache/, -app/log, -vendor/",
 			"-node_modules/, -asset/, -cache/, -app/log, -vendor/, modules/",
 			"-node_modules/, -asset/, -cache/, -app/log, -vendor/, module/",
@@ -1215,9 +1127,7 @@
 			"-node_modules/, -asset/, js/",
 			"-node_modules/, -asset/, ",
 			"-node_modules/, -asset/, js/",
-			"-node_modules/, -asset/",
-			"-node_modules/, -asset/, sass/",
-			"-node_modules/, -asset/,"
+			"-node_modules/, -asset/"
 		]
 	},
 	"find_state":
@@ -1225,134 +1135,134 @@
 		"case_sensitive": true,
 		"find_history":
 		[
-			"datePrinted =",
-			"(Printed",
-			"(Printed )",
-			"(Printed)",
-			";",
-			"printLabelSingle",
-			"printSingle",
-			"orderErrorTemplate",
-			"order.",
-			"singlePersist",
-			"renderDpdProducts",
-			"order-single-panel-action",
-			"pageData",
-			"BACKORDER_YES",
-			"backorder",
-			"createPost",
-			"createOrderDefaultRoyalMail",
-			"Order already has an open shipment.",
-			"init",
-			"orderSinglePersist",
-			"orderService",
-			"init",
-			"serviceOrder",
-			"getUnprintedShipmentIds",
-			"createPost'",
-			"createShipment",
-			"Shipment ID not set.",
-			"stdClass",
-			"stdCla",
-			"(",
-			",",
-			"deliveryCountryCode",
-			"collectionDate",
-			"$dpdApi = $this->getApi('Dpd');",
-			"getApi",
-			"$this->api",
-			"public $okMethods = [",
-			"royalMailService",
-			"voidShipment",
-			"royalMailService",
-			"getService('Royal",
-			"errors.push({orderId: orderId, message: error})",
-			"Api",
-			"dpdService",
-			"shipmentIds",
-			"ew",
-			"pages",
-			"errors",
-			"setLabelDataEncoded",
-			"royalMailService",
-			"getService('Royal",
-			"return ",
-			"return",
-			"throw",
-			"getUnprintedShipmentIds",
-			"apiUrlBase",
-			"createShipmentCurl",
-			"__construct",
-			"Service",
-			"\\Avdis\\Store\\Api",
-			"publicActions",
-			"possibleActions",
-			"property_exists",
-			"createOrderDefaultRoyalMail",
-			"debugger",
-			"okMethods",
-			"$action",
-			"$hm",
-			"'createShipment'",
-			"createDefaultRoyalMail",
-			"shipmentData",
-			"shipmentBlank",
-			"shipmentData",
-			"Admin_Ajax_Modules_Order",
-			"Admin_Ajax_Modules_Shipment",
-			"createShipmentDefaultRoyalMail",
-			"royalMailService",
-			"dpdService",
-			"companyDetails",
-			"externalDpd",
-			"External_Dpd",
-			"this->api",
-			"createShipmentCurl",
-			"false",
-			"companyDetails",
-			"$data['",
-			"deliveryCountryCode",
-			"$companyCountryCode",
-			"$data['",
-			"collectionDate",
-			"$response",
-			"errors",
-			"$shipment->get",
-			"$shipment->get('",
-			"$companyDetails",
-			"config",
-			"companyDetails",
-			"serviceDpd",
-			"storageCountry",
-			"externalDpd",
-			"External_Dpd",
-			"$this->",
-			"royalMailService",
-			"errors",
-			"Label",
-			"shipment",
-			"$shipment->get('shipmentId')",
-			"setRoyalMailLabelData",
-			"shipmentHandler",
-			"errors",
-			"Shipment(s)",
-			"<?php ",
-			"CDA",
-			"typeof ",
-			"typeof '",
-			"if (options.orders.length) {",
-			"notes",
-			"getNotes",
-			"getUnprintedShipmentIds",
-			"onStatusUpdateSuccess",
-			"were updated to",
-			"Shipment ID not set.",
-			"nextStep",
-			"nextStep()",
-			"\n  ",
-			"nextStep()",
-			"nextStep",
-			"nextStep = "
+			"order_or_exception_id",
+			"note_description",
+			"// moduleExceptionSingle.refreshTimeline(moduleExceptionSingle);",
+			"moduleExceptionSingle",
+			"Exception",
+			"_GET['",
+			"storage",
+			"inventory",
+			"note_description",
+			"user",
+			"$this->user",
+			"Admin_Ajax_Modules_Exception_Note",
+			"oid",
+			"class=\"",
+			"order",
+			"get",
+			"config.",
+			"config.content.data('id')",
+			"$_GET['user_id']",
+			"name",
+			"userName",
+			"$_GET['user_id']",
+			"user",
+			"inventory",
+			"inventories",
+			"inventory_log",
+			"Inventory_Exception_Log",
+			"storage",
+			"adminModuleException",
+			"get_statuses",
+			"<h2 class=\"mb1\">Media</h2>",
+			"inventory' => ",
+			"inventory",
+			"refreshTimeline",
+			"Note",
+			"Log",
+			"'inventory'",
+			"timelineTemplate",
+			"summaryTemplate",
+			"if (response.status == 'success') {",
+			"refreshMailQueue",
+			"note.init({",
+			"['type' =>",
+			"= $inventory",
+			"timeline",
+			"timelineContainer",
+			"getTime",
+			"getTimelineItemsKeyedByTime",
+			"email_template",
+			"new \\$",
+			"new \\\\",
+			"new ",
+			"loadSetAllUsersParser",
+			"media_upload",
+			"media_upload_clean_name",
+			"mediaUploadTidyFiles",
+			"media_upload_tidy_files",
+			"email_delete_id",
+			"email')",
+			"email_send",
+			"create_assignment",
+			"show_list",
+			"read_by_order_id",
+			"$this->output",
+			"$this->getTimelineItemsKeyedByTime",
+			"getTimelineItems",
+			"class_name",
+			"exception_id",
+			", ",
+			"getTimelineTemplate",
+			"read_timeline_template",
+			"getTimeline",
+			"read_timeline",
+			"read_email",
+			"read_emails",
+			"get_imap_body_search_value",
+			"js-smooth-scroll",
+			"$exceptionBlank",
+			"title",
+			"jumps",
+			"window.history.back",
+			"Ass",
+			"$type['slug']",
+			"$exception->",
+			"$status['name']",
+			"exception->",
+			"$status['slug']",
+			"status",
+			"time_last_updated",
+			"log",
+			"time_last_updated",
+			"Admin_Modules_Exceptions'",
+			"Exceptions",
+			"getStatusName",
+			"$exception->",
+			"getStatusName",
+			"$this->getTypes",
+			"getTypes",
+			"$this->getStatuses",
+			"getStatuses",
+			"appendFeedback",
+			"feedback",
+			"getUrl",
+			"get_products",
+			"get_time_last_updated",
+			"get('time_last_updated",
+			"get_time_last_updated",
+			"set_contact_name",
+			"get_contact_name",
+			"set_contact_email",
+			"$exception->get_",
+			"get_contact_email",
+			"set_time_created",
+			"get_time_created",
+			"$exception->get_",
+			"get_time_created",
+			"TYPE_OTHER",
+			"TYPE_TRADEIN",
+			"TYPE_ERROR",
+			"TYPE_DAMAGE",
+			"TYPE_SERVICE",
+			"TYPE_RETURN",
+			"Inventory_Exception::",
+			"STATUS_CLOSED",
+			"isClosed",
+			"STATUS_CLOSED",
+			"STATUS_THIRD_PARTY",
+			"STATUS_CUSTOMER"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1360,6 +1270,12 @@
 		"regex": false,
 		"replace_history":
 		[
+			"loadByOrderId",
+			"Admin_Modules_Exceptions&action=",
+			"isExceptionFormCreate",
+			"protected $publicActions",
+			"foreach (",
+			"if (",
 			"AbstractAjaxModule",
 			"",
 			"->loadOneToMany",
@@ -1481,13 +1397,7 @@
 			"return false; // should not run, return needed to be removed",
 			"require('./vendor/jqGrid');",
 			"require('./vendor/grid.locale-en');",
-			"'./user",
-			"'../feedbackStream",
-			"'./feedbackStream",
-			"'../feedbackStream",
-			"require('./utility/url')",
-			"require('./buttonToTop'",
-			"require('./smoothScroll')"
+			"'./user"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1504,366 +1414,8 @@
 	"groups":
 	[
 		{
-			"selected": 4,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/var/www/html/store/trunk/js/admin/order/singlePersist.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 731,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								489,
-								489
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/var/www/html/store/trunk/app/php/Service/Order.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2111,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/var/www/html/store/trunk/js/admin/service/order.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 713,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/var/www/html/store/trunk/app/classes/admin/ajax/modules/order.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 41838,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								29057,
-								29057
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 24263.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/var/www/html/store/trunk/js/admin/order/single/shipment.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 23250,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4080,
-								4080
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2321.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/var/www/html/store/trunk/js/admin/order/statusUpdate.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 22403,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								14403,
-								14403
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 11590.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/var/www/html/store/trunk/js/admin/order/single/printOptions.mustache",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 920,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								920,
-								920
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML Mustache/Syntaxes/HTMLMustache.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/var/www/html/store/trunk/css/admin/order/single.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 13497,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								8809,
-								8809
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 11843.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "/var/www/html/store/trunk/app/php/Service/Shipment.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8338,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7098,
-								7098
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3701.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "/var/www/html/store/trunk/app/php/Api/Dpd.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10299,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								10296,
-								10296
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 7611.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "/var/www/html/store/trunk/app/php/Api/RoyalMail.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 11795,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4020,
-								4020
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2068.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "/var/www/html/store/trunk/app/php/Access/Handler/Order.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 17950,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4442,
-								4442
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2482.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1921,515 +1473,515 @@
 		[
 			[
 				"",
-				"trunk/js/admin/order/single/shipment.js"
+				"trunk/app/classes/admin/ajax/modules/exception/note.php"
 			],
 			[
-				"servorderjs",
-				"trunk/js/admin/service/order.js"
+				"notejs",
+				"trunk/js/admin/note.js"
 			],
 			[
-				"servorder",
-				"trunk/app/php/Service/Order.php"
+				"summarmus",
+				"trunk/js/admin/exception/single/summary.mustache"
 			],
 			[
-				"orderpersi",
-				"trunk/js/admin/order/singlePersist.js"
-			],
-			[
-				"apidpd",
-				"trunk/app/php/Api/Dpd.php"
-			],
-			[
-				"servship",
-				"trunk/app/php/Service/Shipment.php"
-			],
-			[
-				"shipservice",
-				"trunk/vendor/dts/ebay-sdk-php/src/DTS/eBaySDK/MerchantData/Enums/ShippingServiceType.php"
-			],
-			[
-				"shipmentjs",
-				"trunk/js/admin/order/single/shipment.js"
-			],
-			[
-				"statupda",
-				"trunk/js/admin/order/statusUpdate.js"
-			],
-			[
-				"orderpers",
-				"trunk/js/admin/order/singlePersist.js"
-			],
-			[
-				"ordershipment",
-				"trunk/js/admin/order/single/shipment.js"
-			],
-			[
-				"apiroyal",
-				"trunk/app/php/Api/RoyalMail.php"
-			],
-			[
-				"servshipemt",
-				"trunk/app/php/Service/Shipment.php"
-			],
-			[
-				"orderpersis",
-				"trunk/js/admin/order/singlePersist.js"
-			],
-			[
-				"invorder",
-				"trunk/app/classes/inventory/order.php"
-			],
-			[
-				"ordersinglesummar",
-				"trunk/app/skin/custom/admin/modules/order/single/_summary.tpl"
-			],
-			[
-				"ordersingletpl",
-				"trunk/app/skin/custom/admin/modules/order/single.tpl"
-			],
-			[
-				"ordersinglepersi",
-				"trunk/js/admin/order/singlePersist.js"
-			],
-			[
-				"ordersinglejs",
-				"trunk/js/admin/order/single.js"
-			],
-			[
-				"apiroy",
-				"trunk/app/php/Api/RoyalMail.php"
-			],
-			[
-				"serviceship",
-				"trunk/app/php/Service/Shipment.php"
-			],
-			[
-				"ajaxmodship",
-				"trunk/app/classes/admin/ajax/modules/shipment.php"
-			],
-			[
-				"serviceshipme",
-				"trunk/app/php/Service/Shipment.php"
-			],
-			[
-				"absmodu",
-				"trunk/app/classes/AbstractModule.php"
-			],
-			[
-				"ajaxmoddpd",
-				"trunk/app/classes/admin/ajax/modules/dpd.php"
-			],
-			[
-				"handlership",
-				"trunk/app/php/Access/Handler/Shipment.php"
-			],
-			[
-				"handlershipe",
-				"trunk/app/php/Access/Handler/Shipment.php"
-			],
-			[
-				"abshandler",
-				"trunk/app/php/Access/Handler/AbstractHandler.php"
-			],
-			[
-				"handlershipem",
-				"trunk/app/php/Access/Handler/Shipment.php"
-			],
-			[
-				"apiroyalmai",
-				"trunk/app/php/Api/RoyalMail.php"
-			],
-			[
-				"typeshipment",
-				"trunk/app/php/Access/Type/Shipment.php"
-			],
-			[
-				"handlershipment",
-				"trunk/app/php/Access/Handler/Shipment.php"
-			],
-			[
-				"servshipment",
-				"trunk/app/php/Service/Shipment.php"
-			],
-			[
-				"serviceshipment",
-				"trunk/app/php/Service/Shipment.php"
-			],
-			[
-				"orderalljs",
-				"trunk/js/admin/order/all.js"
-			],
-			[
-				"adminorderlabel",
-				"trunk/app/classes/admin/order/label.php"
-			],
-			[
-				"mysq",
-				"trunk/vendor/avdis/system/src/Database/Mysqli.php"
-			],
-			[
-				"systm",
-				"trunk/vendor/avdis/system/src/System.php"
-			],
-			[
-				"ajaxorder",
-				"trunk/app/classes/admin/ajax/modules/order.php"
+				"adminmodexce",
+				"trunk/app/classes/admin/modules/exceptions.php"
 			],
 			[
 				"absmod",
 				"trunk/app/classes/AbstractModule.php"
 			],
 			[
-				"apiroylam",
-				"trunk/app/php/Api/RoyalMail.php"
+				"summ",
+				"trunk/js/admin/exception/single/editSummary.mustache"
 			],
 			[
-				"ajaxshipmetn",
-				"trunk/app/classes/admin/ajax/modules/shipment.php"
+				"notepa",
+				"trunk/app/skin/custom/admin/common/_notes-panel.tpl"
 			],
 			[
-				"absserive",
-				"trunk/app/php/Service/AbstractService.php"
+				"adminmodexcep",
+				"trunk/app/classes/admin/modules/exceptions.php"
 			],
 			[
-				"ajaxmodshipment",
-				"trunk/app/classes/admin/ajax/modules/shipment.php"
+				"notepanel",
+				"trunk/app/skin/custom/admin/common/_notes-panel.tpl"
 			],
 			[
-				"adminajaxmodshipment",
-				"trunk/app/classes/admin/ajax/modules/shipment.php"
+				"storageexcep",
+				"trunk/app/classes/storage/exception.php"
 			],
 			[
-				"adminajaxshipment",
-				"trunk/app/classes/admin/ajax/modules/shipment.php"
+				"excepsingle",
+				"trunk/js/admin/exception/single.js"
 			],
 			[
-				"apiroyalma",
-				"trunk/app/php/Api/RoyalMail.php"
-			],
-			[
-				"ajaxmodhipmen",
-				"trunk/app/classes/admin/ajax/modules/shipment.php"
-			],
-			[
-				"ajaxdpd",
-				"trunk/app/classes/admin/ajax/modules/dpd.php"
-			],
-			[
-				"external/dpd",
-				"trunk/app/classes/external/dpd.php"
-			],
-			[
-				"servicedpd",
-				"trunk/app/php/Service/Dpd.php"
-			],
-			[
-				"absseriv",
-				"trunk/app/php/Service/AbstractService.php"
-			],
-			[
-				"serviceroyal",
-				"trunk/app/php/Service/RoyalMail.php"
-			],
-			[
-				"serviceroyalmai",
-				"trunk/app/php/Service/RoyalMail.php"
-			],
-			[
-				"gridpromotion",
-				"trunk/app/skin/custom/admin/grids/promotion/all.tpl"
-			],
-			[
-				"orderermusta",
-				"trunk/js/admin/order/statusUpdateError.mustache"
-			],
-			[
-				"orderall",
-				"trunk/js/admin/order/all.js"
-			],
-			[
-				"orderrormust",
-				"trunk/js/admin/order/statusUpdateError.mustache"
-			],
-			[
-				"ajaxmodorder",
+				"adminajaxorder",
 				"trunk/app/classes/admin/ajax/modules/order.php"
-			],
-			[
-				"orderallcss",
-				"trunk/css/admin/order/all.css"
-			],
-			[
-				"commonbundle",
-				"trunk/css/common.bundle.css"
-			],
-			[
-				"commonterms",
-				"trunk/app/skin/custom/common/_terms.tpl"
-			],
-			[
-				"frontmodtermterm",
-				"trunk/app/skin/custom/frontend/modules/terms/terms.tpl"
-			],
-			[
-				"htacc",
-				"trunk/.htaccess"
-			],
-			[
-				"admindialoguec",
-				"trunk/css/admin/dialogue.css"
-			],
-			[
-				"handlerlog",
-				"trunk/app/php/Access/Handler/Order/Log.php"
-			],
-			[
-				"typeorderlog",
-				"trunk/app/php/Access/Type/Order/Log.php"
-			],
-			[
-				"handship",
-				"trunk/app/php/Access/Handler/Shipment.php"
-			],
-			[
-				"handleorder",
-				"trunk/app/php/Access/Handler/Order.php"
-			],
-			[
-				"statup",
-				"trunk/js/admin/order/statusUpdate.js"
-			],
-			[
-				"orderalltpl",
-				"trunk/app/skin/custom/admin/modules/order/all.tpl"
-			],
-			[
-				"orderaljs",
-				"trunk/js/admin/order/all.js"
-			],
-			[
-				"ordsinglejs",
-				"trunk/js/admin/order/single.js"
-			],
-			[
-				"adminmodinbx",
-				"trunk/app/classes/admin/modules/inbox.php"
-			],
-			[
-				"typeorder",
-				"trunk/app/php/Access/Type/Order.php"
-			],
-			[
-				"objitera",
-				"trunk/app/php/Iterator/ObjectIterator.php"
-			],
-			[
-				"ajaxmodorde",
-				"trunk/app/classes/admin/ajax/modules/order.php"
-			],
-			[
-				"statupdate",
-				"trunk/js/admin/order/statusUpdate.js"
-			],
-			[
-				"ordersinglemusta",
-				"trunk/js/admin/order/single.mustache"
-			],
-			[
-				"statupdateerr",
-				"trunk/js/admin/order/statusUpdateError.mustache"
-			],
-			[
-				"alljs",
-				"trunk/js/admin/order/all.js"
-			],
-			[
-				"ajaxshipment",
-				"trunk/app/classes/admin/ajax/modules/shipment.php"
-			],
-			[
-				"absservice",
-				"trunk/app/php/Service/AbstractService.php"
-			],
-			[
-				"adminajaxshipme",
-				"trunk/app/classes/admin/ajax/modules/shipment.php"
-			],
-			[
-				"adminajaxroyal",
-				"trunk/app/classes/admin/ajax/modules/RoyalMail.php"
-			],
-			[
-				"servroyalmai",
-				"trunk/app/php/Service/RoyalMail.php"
-			],
-			[
-				"abervice",
-				"trunk/app/php/Service/AbstractService.php"
-			],
-			[
-				"typeord",
-				"trunk/app/php/Access/Type/Order.php"
-			],
-			[
-				"adminajaxorde",
-				"trunk/app/classes/admin/ajax/modules/order.php"
-			],
-			[
-				"absse",
-				"trunk/app/php/Service/AbstractService.php"
-			],
-			[
-				"abshand",
-				"trunk/app/php/Access/Handler/AbstractHandler.php"
-			],
-			[
-				"handlerorder",
-				"trunk/app/php/Access/Handler/Order.php"
-			],
-			[
-				"handorder",
-				"trunk/app/php/Access/Handler/Order.php"
-			],
-			[
-				"statupder",
-				"trunk/js/admin/order/statusUpdateError.mustache"
-			],
-			[
-				"shipment",
-				"trunk/js/shipment.js"
-			],
-			[
-				"utilurl",
-				"trunk/js/utility/url.js"
 			],
 			[
 				"adminmodinbox",
 				"trunk/app/classes/admin/modules/inbox.php"
 			],
 			[
-				"ordsinglecs",
+				"invlog",
+				"trunk/app/classes/inventory/exception/log.php"
+			],
+			[
+				"invexcelog",
+				"trunk/app/classes/inventory/exception/log.php"
+			],
+			[
+				"invexce",
+				"trunk/app/classes/inventory/exception.php"
+			],
+			[
+				"invexceplog",
+				"trunk/app/classes/inventory/exception/log.php"
+			],
+			[
+				"notemusa",
+				"trunk/js/admin/note.mustache"
+			],
+			[
+				"adminmodexceptemailtpl",
+				"trunk/app/skin/custom/admin/modules/exceptions/_email.tpl"
+			],
+			[
+				"exceptionlogtpl",
+				"trunk/app/skin/custom/admin/modules/exceptions/_log.tpl"
+			],
+			[
+				"notemustach",
+				"trunk/js/admin/note.mustache"
+			],
+			[
+				"modulexceptionemailtpl",
+				"trunk/app/skin/custom/admin/modules/exceptions/_email.tpl"
+			],
+			[
+				"ajaxexcep",
+				"trunk/app/classes/admin/ajax/modules/exceptions.php"
+			],
+			[
+				"adminajaxmodexce",
+				"trunk/app/classes/admin/ajax/modules/exceptions.php"
+			],
+			[
+				"ordersinggroup",
+				"trunk/js/admin/order/singleGroup.mustache"
+			],
+			[
+				"invexceptio",
+				"trunk/app/classes/inventory/exception.php"
+			],
+			[
+				"commonbun",
+				"trunk/js/admin/common.bundle.js"
+			],
+			[
+				"exceptiontpl",
+				"trunk/app/skin/custom/admin/modules/exceptions/_exceptions.tpl"
+			],
+			[
+				"exceptionexceptiontpl",
+				"trunk/app/skin/custom/admin/modules/exceptions/_exception.tpl"
+			],
+			[
+				"exceptiontype",
+				"trunk/app/skin/custom/admin/modules/exceptions/_select-type.tpl"
+			],
+			[
+				"exceptionsstatus",
+				"trunk/app/skin/custom/admin/modules/exceptions/_status.tpl"
+			],
+			[
+				"adminmenutpl",
+				"trunk/app/skin/custom/admin/common/_menu.tpl"
+			],
+			[
+				"invexception",
+				"trunk/app/classes/inventory/exception.php"
+			],
+			[
+				"serviceorder",
+				"trunk/app/php/Service/Order.php"
+			],
+			[
+				"adminajaxexce",
+				"trunk/app/classes/admin/ajax/modules/exceptions.php"
+			],
+			[
+				"admincommonbun",
+				"trunk/js/admin/common.bundle.js"
+			],
+			[
+				"excepsingsum",
+				"trunk/app/skin/custom/admin/modules/exceptions/single/editSummary.mustache"
+			],
+			[
+				"exceptionsummary",
+				"trunk/app/skin/custom/admin/modules/exceptions/single/_summary.tpl"
+			],
+			[
+				"serviceexcep",
+				"trunk/js/admin/service/exception.js"
+			],
+			[
+				"editsummar",
+				"trunk/app/skin/custom/admin/modules/exceptions/single/editSummary.mustache"
+			],
+			[
+				"adminexcepsingle",
+				"trunk/js/admin/exception/single.js"
+			],
+			[
+				"exception",
+				"trunk/js/admin/exception.js"
+			],
+			[
+				"exceptionsinglesum",
+				"trunk/app/skin/custom/admin/modules/exceptions/single/_summary.tpl"
+			],
+			[
+				"ordersinglecss",
 				"trunk/css/admin/order/single.css"
 			],
 			[
-				"ordsingleshipment",
-				"trunk/app/skin/custom/admin/modules/order/single/_shipment.tpl"
+				"keyfra",
+				"trunk/css/keyframe.css"
 			],
 			[
-				"shipmenall",
-				"trunk/js/admin/order/single/shipmentAll.mustache"
+				"admincommoncs",
+				"trunk/css/admin/common.bundle.css"
 			],
 			[
-				"shipall",
-				"trunk/js/admin/order/single/shipmentAll.mustache"
+				"adminexceptionsinglecs",
+				"trunk/css/admin/exception/single.css"
 			],
 			[
-				"shipsingle",
-				"trunk/js/admin/order/single/shipmentSingle.mustache"
+				"adminmodexceptionsingletpl",
+				"trunk/app/skin/custom/admin/modules/exceptions/single.tpl"
 			],
 			[
-				"sinper",
-				"trunk/js/admin/order/singlePersist.js"
+				"utilur",
+				"trunk/js/utility/url.js"
 			],
 			[
-				"addpanelupda",
-				"trunk/js/admin/order/single/addressPanelUpdate.js"
+				"excep",
+				"trunk/js/admin/exception.js"
 			],
 			[
-				"orsingleaddre",
-				"trunk/js/admin/order/single/address.js"
-			],
-			[
-				"addpanelup",
-				"trunk/js/admin/order/single/addressPanelUpdate.js"
-			],
-			[
-				"ajaxmodgeta",
-				"trunk/app/classes/ajax/modules/getaddress.php"
-			],
-			[
-				"poslo",
-				"trunk/js/utility/postcodeLookup.js"
-			],
-			[
-				"shipcrea",
-				"trunk/js/admin/order/single/shipmentCreate.mustache"
-			],
-			[
-				"checkoutaddseel",
-				"trunk/mustache/checkout/address-select.mst"
-			],
-			[
-				"postlook",
-				"trunk/js/utility/postcodeLookup.js"
-			],
-			[
-				"temshipcreate",
-				"trunk/js/admin/order/single/shipmentCreate.mustache"
-			],
-			[
-				"shipmenjs",
-				"trunk/js/admin/order/single/shipment.js"
-			],
-			[
-				"ordersingle",
-				"trunk/css/admin/order/single.css"
-			],
-			[
-				"gulp",
-				"trunk/gulpfile.js"
-			],
-			[
-				"packa",
-				"trunk/package.json"
-			],
-			[
-				"shipcre",
-				"trunk/js/admin/order/single/shipmentCreate.mustache"
-			],
-			[
-				"shipallmust",
-				"trunk/js/admin/order/single/shipmentAll.mustache"
-			],
-			[
-				"serviceroyalma",
-				"trunk/app/php/Service/RoyalMail.php"
-			],
-			[
-				"statupdatejs",
+				"statupda",
 				"trunk/js/admin/order/statusUpdate.js"
 			],
 			[
-				"printopt",
-				"trunk/js/admin/order/single/printOptions.mustache"
+				"utilurl",
+				"trunk/js/utility/url.js"
 			],
 			[
-				"typeshi",
+				"exceptionsingletpl",
+				"trunk/app/skin/custom/admin/modules/exceptions/single.tpl"
+			],
+			[
+				"ordersingletpl",
+				"trunk/app/skin/custom/admin/modules/order/single.tpl"
+			],
+			[
+				"orderh1",
+				"trunk/app/skin/custom/admin/modules/order/single/_h1.tpl"
+			],
+			[
+				"exceptionsinglejs",
+				"trunk/js/admin/exception/single.js"
+			],
+			[
+				"storagemailtem",
+				"trunk/app/classes/storage/mail/template.php"
+			],
+			[
+				"invexcepi",
+				"trunk/app/classes/inventory/exception.php"
+			],
+			[
+				"absmodu",
+				"trunk/app/classes/AbstractModule.php"
+			],
+			[
+				"adminmdoexcept",
+				"trunk/app/classes/admin/modules/exceptions.php"
+			],
+			[
+				"excepgridpro",
+				"trunk/js/admin/exception/gridProduct.js"
+			],
+			[
+				"excepcreate.tpl",
+				"trunk/app/skin/custom/admin/modules/exceptions/_create.tpl"
+			],
+			[
+				"followjum",
+				"trunk/app/skin/custom/admin/common/_follow-jumps.tpl"
+			],
+			[
+				"excefollow",
+				"trunk/app/skin/custom/admin/modules/exceptions/_follow-bar.tpl"
+			],
+			[
+				"excepfollo",
+				"trunk/app/skin/custom/admin/modules/exceptions/_follow.tpl"
+			],
+			[
+				"exceptionfollow",
+				"trunk/app/skin/custom/admin/modules/exceptions/_follow.tpl"
+			],
+			[
+				"exceptionjs",
+				"trunk/js/admin/exception.js"
+			],
+			[
+				"admincommon",
+				"trunk/js/admin/common.bundle.js"
+			],
+			[
+				"eceptionsearchtpl",
+				"trunk/app/skin/custom/admin/modules/exceptions/search.tpl"
+			],
+			[
+				"exceptionexcep.tpl",
+				"trunk/app/skin/custom/admin/modules/exceptions/_exception.tpl"
+			],
+			[
+				"exceptionsingle",
+				"trunk/app/skin/custom/admin/modules/exceptions/single.tpl"
+			],
+			[
+				"objeit",
+				"trunk/app/php/Iterator/ObjectIterator.php"
+			],
+			[
+				"orderalljs",
+				"trunk/js/admin/order/all.js"
+			],
+			[
+				"singlepers",
+				"trunk/js/admin/order/singlePersist.js"
+			],
+			[
+				"persi",
+				"trunk/js/admin/order/singlePersist.js"
+			],
+			[
+				"servicorder",
+				"trunk/app/php/Service/Order.php"
+			],
+			[
+				"exceptioncreatetpl",
+				"trunk/app/skin/custom/admin/modules/exceptions/_create.tpl"
+			],
+			[
+				"exceptioncrejs",
+				"trunk/js/admin/exception/create.js"
+			],
+			[
+				"adminmodexception",
+				"trunk/app/classes/admin/modules/exceptions.php"
+			],
+			[
+				"admincommonjs",
+				"trunk/js/admin/common.bundle.js"
+			],
+			[
+				"combundlecss",
+				"trunk/css/admin/common.bundle.css"
+			],
+			[
+				"commonbundle",
+				"trunk/css/common.bundle.css"
+			],
+			[
+				"adminapp",
+				"trunk/app/classes/admin/app.php"
+			],
+			[
+				"commonbundlejs",
+				"trunk/js/admin/common.bundle.js"
+			],
+			[
+				"admincommoncss",
+				"trunk/css/admin/common.bundle.css"
+			],
+			[
+				"exceptioncreatejs",
+				"trunk/js/admin/exception/create.js"
+			],
+			[
+				"vatproducttpl",
+				"trunk/app/skin/custom/frontend/modules/vat/_products.tpl"
+			],
+			[
+				"emailinvoice",
+				"trunk/app/skin/custom/emails/order/_invoice.tpl"
+			],
+			[
+				"orderpreview",
+				"trunk/js/admin/order/preview.mustache"
+			],
+			[
+				"adminserviceshipment",
+				"trunk/js/admin/service/shipment.js"
+			],
+			[
+				"adminservicejs",
+				"trunk/js/admin/service/order.js"
+			],
+			[
+				"adminserviship",
+				"trunk/js/admin/service/shipment.js"
+			],
+			[
+				"shipment",
+				"trunk/js/shipment.js"
+			],
+			[
+				"servorder",
+				"trunk/js/admin/service/order.js"
+			],
+			[
+				"typeshipment",
 				"trunk/app/php/Access/Type/Shipment.php"
 			],
 			[
-				"typeornot",
+				"ordemusta",
+				"trunk/js/admin/order/singleGroup.mustache"
+			],
+			[
+				"ordersinglemusta",
+				"trunk/js/admin/order/single.mustache"
+			],
+			[
+				"objeiter",
+				"trunk/app/php/Iterator/ObjectIterator.php"
+			],
+			[
+				"objeciter",
+				"trunk/app/php/Iterator/ObjectIterator.php"
+			],
+			[
+				"ajaxorder",
+				"trunk/app/classes/admin/ajax/modules/order.php"
+			],
+			[
+				"vatproducts.tpl",
+				"trunk/app/skin/custom/frontend/modules/vat/_products.tpl"
+			],
+			[
+				"vattable.tpl",
+				"trunk/app/skin/custom/frontend/modules/vat/_table.tpl"
+			],
+			[
+				"vatbody",
+				"trunk/app/skin/custom/frontend/modules/vat/body.tpl"
+			],
+			[
+				"storagelogmai",
+				"trunk/app/classes/storage/log/mail.php"
+			],
+			[
+				"servmail",
+				"trunk/app/php/Service/Mail.php"
+			],
+			[
+				"emailorrev",
+				"trunk/app/skin/custom/emails/order/review.tpl"
+			],
+			[
+				"servmai",
+				"trunk/app/php/Service/Mail.php"
+			],
+			[
+				"mysq",
+				"trunk/vendor/avdis/system/src/Database/Mysqli.php"
+			],
+			[
+				"abtype",
+				"trunk/vendor/avdis/system/src/Access/Type/AbstractType.php"
+			],
+			[
+				"invlogmail",
+				"trunk/app/classes/inventory/log/mail.php"
+			],
+			[
+				"storagemail",
+				"trunk/app/classes/storage/log/mail.php"
+			],
+			[
+				"handlerordmailse",
+				"trunk/app/php/Access/Handler/Order/MailSent.php"
+			],
+			[
+				"handlermailsent",
+				"trunk/app/php/Access/Handler/Order/MailSent.php"
+			],
+			[
+				"ordermailsent",
+				"trunk/app/php/Access/Type/Order/MailSent.php"
+			],
+			[
+				"typeorder",
+				"trunk/app/php/Access/Type/Order.php"
+			],
+			[
+				"comterms",
+				"trunk/app/skin/custom/common/_terms.tpl"
+			],
+			[
+				"frontmodvatbod",
+				"trunk/app/skin/custom/frontend/modules/vat/body.tpl"
+			],
+			[
+				"typeordprod",
+				"trunk/app/php/Access/Type/Order/Product.php"
+			],
+			[
+				"emailinvoi",
+				"trunk/app/skin/custom/emails/order/_invoice.tpl"
+			],
+			[
+				"ajaxmodorder",
+				"trunk/app/classes/admin/ajax/modules/order.php"
+			],
+			[
+				"ordernote",
 				"trunk/app/php/Access/Type/Order/Note.php"
 			],
 			[
-				"typeordernote",
-				"trunk/app/php/Access/Type/Order/Note.php"
+				"typeorderdisc",
+				"trunk/app/php/Access/Type/Order/Discount.php"
 			],
 			[
 				"typeorderproduct",
 				"trunk/app/php/Access/Type/Order/Product.php"
 			],
 			[
-				"frontmodbasket",
-				"trunk/app/classes/frontend/modules/basket.php"
+				"orderproduct",
+				"trunk/app/php/Access/Type/Order/Product.php"
 			],
 			[
-				"viewcommon",
-				"trunk/app/classes/view/common.php"
+				"frontmodcheckout",
+				"trunk/app/classes/frontend/modules/checkout.php"
 			],
 			[
-				"commontool",
-				"trunk/app/classes/common/tools.php"
+				"contentproduc",
+				"trunk/app/skin/custom/frontend/common/_contents-products.tpl"
+			],
+			[
+				"utilposl",
+				"trunk/js/utility/postcodeLookup.js"
+			],
+			[
+				"checkoutjs",
+				"trunk/js/checkout.js"
 			]
 		],
 		"width": 0.0
@@ -2437,16 +1989,28 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "core",
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"/var/www/html/setting/sublime-text-workspaces/core.sublime-workspace"
+			],
 			[
 				"core",
 				"/var/www/html/setting/sublime-text-workspaces/core.sublime-workspace"
 			],
 			[
-				"",
-				"/var/www/html/setting/sublime-text-workspaces/core.sublime-workspace"
+				"por",
+				"/var/www/html/setting/sublime-text-workspaces/portfolio.sublime-workspace"
+			],
+			[
+				"pot",
+				"/var/www/html/setting/sublime-text-workspaces/portfolio.sublime-workspace"
+			],
+			[
+				"co",
+				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
 			],
 			[
 				"cod",
@@ -2613,20 +2177,12 @@
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
-				"pot",
-				"/var/www/html/setting/sublime-text-workspaces/portfolio.sublime-workspace"
-			],
-			[
 				"coe",
 				"/var/www/html/setting/sublime-text-workspaces/core.sublime-workspace"
 			],
 			[
 				"invento",
 				"/var/www/html/setting/sublime-text-workspaces/inventory.sublime-workspace"
-			],
-			[
-				"por",
-				"/var/www/html/setting/sublime-text-workspaces/portfolio.sublime-workspace"
 			],
 			[
 				"gameen",

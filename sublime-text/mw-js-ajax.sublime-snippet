@@ -2,12 +2,12 @@
 	<content><![CDATA[
 \$.ajax({
 	url: ${1},
-	type: '${2:get}',
-	dataType: '${3:json}',
-	data: ${4},
-	success: function(result) {${5}},
-	error: function(result) {${6}}
-});
+	type: '${5:get}',
+	dataType: '${6:json}',
+	data: ${2},
+	success: function(response) {${3}},
+	error: function(response) {${4}}
+})
 ${7}
 ]]></content>
 	<tabTrigger>ajax</tabTrigger>
