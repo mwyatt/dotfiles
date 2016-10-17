@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-\$${1} = \$this->get${2:Query}('${1}${3}');
+\$${1}Storage = \$this->getStorage('${1/(.*)/\u$1/}');
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>controller-get-query</tabTrigger>
+    <tabTrigger>controller-get-storage</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.php</scope>
 </snippet>

@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"canv",
+				"canvas"
+			],
+			[
+				"load",
+				"loadMenu"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"selec",
+				"selected"
+			],
+			[
+				"pos",
+				"spinPositive"
+			],
+			[
+				"live",
+				"lives"
+			],
+			[
+				"rnad",
+				"randOneToTen"
+			],
+			[
+				"sta",
+				"Stage"
+			],
+			[
 				"canvas",
 				"canvasElement"
 			],
@@ -71,30 +103,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/var/www/html/game-engine/js/class/stage.js",
-			"settings":
-			{
-				"buffer_size": 2387,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/game-engine/js/class/ball.js",
-			"settings":
-			{
-				"buffer_size": 1790,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/game-engine/js/class/block.js",
-			"settings":
-			{
-				"buffer_size": 168,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -103,10 +111,18 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 329.0,
-		"last_filter": "menu",
+		"height": 354.0,
+		"last_filter": "close",
 		"selected_items":
 		[
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"stat",
+				"View: Toggle Status Bar"
+			],
 			[
 				"menu",
 				"View: Toggle Menu"
@@ -145,22 +161,33 @@
 	},
 	"expanded_folders":
 	[
-		"/var/www/html/game-engine"
+		"/var/www/html/game-engine",
+		"/var/www/html/game-engine/js"
 	],
 	"file_history":
 	[
-		"/var/www/html/game-engine/js/class/paddle.js",
-		"/var/www/html/game-engine/.gitignore",
-		"/var/www/html/game-engine/index.html",
-		"/var/www/html/game-engine/js/class/entity.js",
+		"/var/www/html/game-engine/js/common.bundle.js",
 		"/var/www/html/game-engine/js/core.js",
+		"/var/www/html/game-engine/js/ball.js",
+		"/var/www/html/game-engine/js/paddle.js",
+		"/var/www/html/game-engine/js/stage.js",
+		"/var/www/html/game-engine/js/block.js",
+		"/var/www/html/game-engine/js/menuButton.js",
+		"/var/www/html/game-engine/js/blockManager.js",
+		"/var/www/html/game-engine/js/mouse.js",
+		"/var/www/html/game-engine/js/keyCodes.js",
+		"/var/www/html/game-engine/js/entity.js",
+		"/var/www/html/game-engine/js/corething.js",
+		"/var/www/html/game-engine/gulpfile.js",
+		"/var/www/html/game-engine/package.json",
+		"/var/www/html/game-engine/index.html",
 		"/var/www/html/game-engine/js/class/stage.js",
 		"/var/www/html/game-engine/js/class/ball.js",
-		"/var/www/html/game-engine/js/common.bundle.js",
 		"/var/www/html/game-engine/js/class/block.js",
-		"/var/www/html/game-engine/gulpfile.js",
+		"/var/www/html/game-engine/js/class/paddle.js",
+		"/var/www/html/game-engine/.gitignore",
+		"/var/www/html/game-engine/js/class/entity.js",
 		"/var/www/html/game-engine/js/class/mouse.js",
-		"/var/www/html/game-engine/package.json",
 		"/var/www/html/game-engine/js/class/entityMobile.js",
 		"/var/www/html/game-engine/js/ball-and-entity-as-classes.js",
 		"/var/www/html/inventory/src/php/Controller/Ajax/Scan.php",
@@ -266,21 +293,11 @@
 		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/product/_promotion.tpl",
 		"/var/www/html/store/trunk/gulpfile.js",
 		"/var/www/html/store/trunk/js/product/single.js",
-		"/var/www/html/store/trunk/js/home.js",
-		"/var/www/html/store/trunk/sass/product-single.scss",
-		"/var/www/html/store/trunk/asset/vendor/owl-carousel/owl.carousel.css",
-		"/var/www/html/store/trunk/node_modules/owl-carousel-2/assets/owl.theme.default.css",
-		"/var/www/html/store/trunk/sass/common.scss",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/account/offer/all.tpl",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/account/offer/single.tpl",
-		"/var/www/html/store/trunk/sass/checkout.scss",
-		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/account/create-update.tpl",
-		"/var/www/html/store/trunk/app/classes/frontend/modules/createaccount.php",
-		"/var/www/html/store/trunk/mustache/checkout/drop-address.mst"
+		"/var/www/html/store/trunk/js/home.js"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
@@ -322,6 +339,125 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"3",
+			"4",
+			"-",
+			"loadLevel",
+			"animationDestroy",
+			"canvasCtx",
+			"timeDelta",
+			"timeModified",
+			"timeDelta",
+			"block",
+			"canvasCtx",
+			"canvasContext",
+			"height",
+			"width",
+			"canvas",
+			"canvasContext",
+			"canvasElement",
+			"setCanvasElement",
+			"setCanvasAndCtx",
+			"setCanvasElement",
+			"canvasElement",
+			"canvasContext",
+			"bounce",
+			"newGame",
+			"showmenu",
+			"mouseVX",
+			"mouse",
+			"mouseX",
+			"X",
+			"mouse.vX",
+			"this.",
+			"mouse.x",
+			"mouse",
+			"18",
+			"mouse",
+			"parseInt",
+			"ctx",
+			"menuBu",
+			"paddle",
+			"mouse",
+			"timeDelta",
+			"Stage",
+			"stage.",
+			"update",
+			"Stage.loop",
+			"canvasContext",
+			"Element",
+			"canvasContext",
+			"canvasElement",
+			"Core",
+			"stage",
+			"var stage = require('./stage')",
+			"core",
+			"stage",
+			"Stage",
+			"\"",
+			"core",
+			"tap",
+			"module",
+			"Core",
+			"getTop",
+			"score",
+			"ctx",
+			"3",
+			"wiggle",
+			"vMaxNegative",
+			"ball",
+			"x",
+			"10",
+			"4",
+			"var spinPositive = ",
+			"spinDuration",
+			"var stage = require('./stage')",
+			"stage",
+			"22",
+			"-12",
+			"ball",
+			"takeDamage",
+			"blocks.",
+			"blockManager",
+			"getLevel1Blocks",
+			"blockHit",
+			"isDestroyed",
+			"level",
+			"timeDelta",
+			"2",
+			"X",
+			"timeThen",
+			"spinDuration",
+			"spinLife",
+			"mouse",
+			"this.",
+			"stage.getTimeDelta",
+			"stage",
+			"canvasContext",
+			"stage",
+			"this",
+			"getCanvasContext",
+			"stage.",
+			"stage",
+			"timeDelta",
+			"this.time",
+			" = 0",
+			" = ''",
+			":",
+			"this.canvasContext",
+			"canvasContext",
+			"this.canvasElement",
+			"canvasElement",
+			"block",
+			"canvasContext",
+			"timeDelta",
+			"tim",
+			"timeDelta",
+			"canvasContext",
+			"canvasElement",
+			"stage",
+			"var ",
+			"time",
 			"Stage",
 			".update",
 			" = function () {",
@@ -330,126 +466,7 @@
 			"ball",
 			"block",
 			"./class",
-			"./class/mouse",
-			"ball",
-			"paddle",
-			"mouse",
-			".canvas",
-			"module.exports",
-			"canvasElement",
-			"copy",
-			"ball",
-			"mouse",
-			"entity",
-			"nodeModules",
-			"util",
-			"jscs",
-			"buffer",
-			"ball",
-			"keysDown",
-			"EntityMobile",
-			" //",
-			"timeModified",
-			"update",
-			"timeModi",
-			"timeDelta",
-			"height",
-			"width",
-			"bounceWalls",
-			"canvas.",
-			"timeModified",
-			"ball.x = ",
-			"var ",
-			"timeModified",
-			"modifier",
-			".update",
-			"modifier",
-			"stage",
-			"mouseMove",
-			"canvas",
-			"moveVelocity",
-			"moveV",
-			"contactPaddle",
-			"modifiers",
-			"i",
-			"this.height",
-			"this.width",
-			"canvasElement",
-			"vXPrevious",
-			"prevVX",
-			"prevX",
-			"speedX",
-			"Hitbox.prototype",
-			"width",
-			"bounceWalls",
-			"bounceCanvas",
-			"moveV",
-			"entity.prototype",
-			"entity",
-			"EntityMoving",
-			"isHitTop",
-			"Hitbox",
-			"longPoll",
-			"authenticate",
-			"admin_user_id",
-			"$logger =",
-			"'count'",
-			"triggerIn",
-			"redirect",
-			"incomplete/",
-			"asort",
-			"->asort",
-			"Admin_Ajax_Modules_Order",
-			"deleteShipment",
-			"bundle-row js-bundle-row clearfix",
-			"print_r",
-			"getPoList",
-			"is-active",
-			"is-closed",
-			"js-group-by-select",
-			"group_by",
-			"loadByStatus",
-			"data",
-			"changeStatus",
-			"data",
-			"changeStatusMultiple",
-			"data",
-			"eventSet",
-			"purchase",
-			"purchaseOrders",
-			"purchaseorders",
-			"groupBy",
-			"expireTime",
-			"View Closed",
-			"Regular",
-			"Sans",
-			"Open Sans",
-			"expireTime",
-			"setPrinterName",
-			"token",
-			"'post', '",
-			"getRequestBody()",
-			"requestBody",
-			"getRequestBodyJson",
-			"$_",
-			"\\\\Avdis\\\\Inventory\\\\Controller\\\\Printer",
-			"any",
-			"$this->printerName",
-			"printerName",
-			"\\\\Print",
-			"Print",
-			"pathFile",
-			"zpl",
-			"$path",
-			"PRINT_PATH",
-			"printerName",
-			"getRequestBody",
-			"Api\\\\Ping",
-			"$key",
-			"shop_product",
-			"sqlSearches",
-			"key",
-			"address."
+			"./class/mouse"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -499,138 +516,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/var/www/html/game-engine/js/class/stage.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2387,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2387,
-								2387
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 901.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/var/www/html/game-engine/js/class/ball.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1790,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/var/www/html/game-engine/js/class/block.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 168,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								168,
-								168
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -687,32 +574,100 @@
 		"selected_items":
 		[
 			[
-				"block",
-				"js/class/block.js"
+				"sta",
+				"js/stage.js"
 			],
 			[
 				"ball",
-				"js/class/ball.js"
+				"js/ball.js"
+			],
+			[
+				"",
+				"js/paddle.js"
+			],
+			[
+				"padd",
+				"js/paddle.js"
+			],
+			[
+				"block",
+				"js/block.js"
+			],
+			[
+				"core",
+				"js/core.js"
+			],
+			[
+				"comm",
+				"js/common.bundle.js"
 			],
 			[
 				"pad",
-				"js/class/paddle.js"
+				"js/paddle.js"
+			],
+			[
+				"com",
+				"js/common.bundle.js"
 			],
 			[
 				"stage",
-				"js/class/stage.js"
+				"js/stage.js"
+			],
+			[
+				"stag",
+				"js/stage.js"
+			],
+			[
+				"mouse",
+				"js/mouse.js"
+			],
+			[
+				"comb",
+				"js/common.bundle.js"
+			],
+			[
+				"ba",
+				"js/ball.js"
+			],
+			[
+				"ent",
+				"js/entity.js"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"blockmana",
+				"js/blockManager.js"
+			],
+			[
+				"bal",
+				"js/ball.js"
+			],
+			[
+				"blockma",
+				"js/blockManager.js"
+			],
+			[
+				"mous",
+				"js/mouse.js"
+			],
+			[
+				"blockman",
+				"js/blockManager.js"
+			],
+			[
+				"common",
+				"js/common.bundle.js"
 			],
 			[
 				"giig",
 				".gitignore"
-			],
-			[
-				"padd",
-				"js/class/paddle.js"
-			],
-			[
-				"",
-				"js/class/stage.js"
 			],
 			[
 				"bll",
@@ -723,32 +678,12 @@
 				"js/class/entity.js"
 			],
 			[
-				"core",
-				"js/core.js"
-			],
-			[
 				"commonbun",
 				"js/common.bundle.js"
 			],
 			[
-				"stag",
-				"js/class/stage.js"
-			],
-			[
-				"index",
-				"index.html"
-			],
-			[
-				"gulp",
-				"gulpfile.js"
-			],
-			[
 				"packa",
 				"package.json"
-			],
-			[
-				"mouse",
-				"js/class/mouse.js"
 			],
 			[
 				"ascla",
@@ -1149,54 +1084,6 @@
 			[
 				"prodsingle",
 				"js/product/single.js"
-			],
-			[
-				"owlcathem",
-				"node_modules/owl-carousel-2/assets/owl.theme.default.css"
-			],
-			[
-				"owlcarou",
-				"asset/vendor/owl-carousel/owl.carousel.css"
-			],
-			[
-				"prodsinglesc",
-				"sass/product-single.scss"
-			],
-			[
-				"commonsc",
-				"sass/common.scss"
-			],
-			[
-				"accountoffer.tpl",
-				"app/skin/custom/admin/modules/account/offer/single.tpl"
-			],
-			[
-				"frontcommoncontentpro",
-				"app/skin/custom/frontend/common/_contents-products.tpl"
-			],
-			[
-				"frontmodcheckout",
-				"app/classes/frontend/modules/checkout.php"
-			],
-			[
-				"checkoutsingle",
-				"app/skin/custom/frontend/modules/checkout/single.tpl"
-			],
-			[
-				"checkoutphp",
-				"app/classes/frontend/modules/checkout.php"
-			],
-			[
-				"checkdropadd",
-				"mustache/checkout/drop-address.mst"
-			],
-			[
-				"frontmodcreacc",
-				"app/classes/frontend/modules/createaccount.php"
-			],
-			[
-				"htacc",
-				".htaccess"
 			]
 		],
 		"width": 0.0
@@ -1210,6 +1097,14 @@
 			[
 				"",
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"jo",
+				"/var/www/html/setting/sublime-text-workspaces/joshua-mccormack.sublime-project"
+			],
+			[
+				"code",
+				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
 			],
 			[
 				"store",
@@ -1264,10 +1159,6 @@
 				"/var/www/html/sublime-project/core.sublime-workspace"
 			],
 			[
-				"code",
-				"/var/www/html/codex/codex.sublime-project"
-			],
-			[
 				"inv",
 				"/var/www/html/sublime-project/inventory.sublime-project"
 			],
@@ -1294,9 +1185,9 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 236.0,
-	"status_bar_visible": false,
+	"status_bar_visible": true,
 	"template_settings":
 	{
 	}

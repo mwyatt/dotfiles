@@ -20,10 +20,10 @@
 	"buffers":
 	[
 		{
-			"file": "/var/www/html/elttl/src/Entity/User.php",
+			"file": "/var/www/html/elttl/index.php",
 			"settings":
 			{
-				"buffer_size": 3803,
+				"buffer_size": 1662,
 				"line_ending": "Unix"
 			}
 		}
@@ -35,17 +35,17 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "close",
+		"height": 354.0,
+		"last_filter": "stat",
 		"selected_items":
 		[
 			[
-				"close",
-				"File: Close All"
-			],
-			[
 				"stat",
 				"View: Toggle Status Bar"
+			],
+			[
+				"close",
+				"File: Close All"
 			],
 			[
 				"men",
@@ -64,7 +64,7 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 449.0
+		"width": 431.0
 	},
 	"console":
 	{
@@ -91,21 +91,27 @@
 	"file_history":
 	[
 		"/var/www/html/elttl/pimple.php",
+		"/var/www/html/elttl/indexAdmin.php",
+		"/var/www/html/elttl/vendor/mwyatt/core/src/Error.php",
+		"/var/www/html/elttl/src/Error.php",
+		"/var/www/html/elttl/gliffy/home-1.gliffy",
+		"/var/www/html/elttl/index.html",
+		"/var/www/html/elttl/composer.json",
+		"/var/www/html/elttl/src/Controller/Ajax/User.php",
+		"/var/www/html/elttl/src/Admin/Controller.php",
 		"/var/www/html/elttl/index.php",
+		"/var/www/html/elttl/json/menu-primary.json",
+		"/var/www/html/elttl/src/Entity/User.php",
 		"/var/www/html/elttl/src/Model.php",
 		"/var/www/html/elttl/config.php",
-		"/var/www/html/elttl/src/Controller/Ajax/User.php",
 		"/var/www/html/elttl/src/Controller/Admin.php",
 		"/var/www/html/elttl/.gitignore",
-		"/var/www/html/elttl/vendor/mwyatt/core/src/Error.php",
 		"/var/www/html/elttl/src/Database.php",
-		"/var/www/html/elttl/src/Error.php",
 		"/var/www/html/elttl/.htaccess",
 		"/var/www/html/elttl/css/home.css",
 		"/var/www/html/elttl/js/admin/fixture/single.bundle.js",
 		"/var/www/html/elttl/css/general.css",
 		"/var/www/html/elttl/route.php",
-		"/var/www/html/elttl/indexAdmin.php",
 		"/var/www/html/elttl/src/Admin/Controller/Index.php",
 		"/var/www/html/elttl/src/Admin/Service/User.php",
 		"/var/www/html/elttl/src/Admin/Session/User.php",
@@ -211,13 +217,7 @@
 		"/var/www/html/store/trunk/js/admin/order/dpd-create-shipment.bundle.js",
 		"/var/www/html/store/trunk/js/admin/order/pick-print.js",
 		"/var/www/html/store/trunk/js/admin/product/bundle.js",
-		"/var/www/html/store/trunk/js/admin/exception.js",
-		"/var/www/html/store/trunk/js/admin/feedbackStream.js",
-		"/var/www/html/store/trunk/js/admin/account/offer/single.bundle.js",
-		"/var/www/html/store/trunk/js/admin/product/stock-reminder.bundle.js",
-		"/var/www/html/store/trunk/js/checkout/payment.js",
-		"/var/www/html/store/trunk/js/product/single/wish.js",
-		"/var/www/html/store/trunk/js/utility/postcodeLookup.js"
+		"/var/www/html/store/trunk/js/admin/exception.js"
 	],
 	"find":
 	{
@@ -225,7 +225,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 158.0,
 		"where_history":
 		[
 			"-node_modules/, -asset/, -vendor/, ",
@@ -255,6 +255,15 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"$registry",
+			"pimple",
+			"PathBase",
+			"PATH_BASE",
+			"function () {",
+			"PATH_BASE",
+			"core",
+			"handbook",
+			"handbook-2016",
 			"md5",
 			"crypt(",
 			"pass",
@@ -373,16 +382,7 @@
 			"getResponseJson",
 			"Lowbo",
 			"Scala Low",
-			"mimeAcceptable",
-			"vendor/jquery.magnific",
-			"require('jquery')",
-			"datepicker",
-			"jquery-ui",
-			"$('#datepicker1').datepicker",
-			"'js'",
-			"setSubmitButtons",
-			"js-submit",
-			"setRequiredFlags"
+			"mimeAcceptable"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -437,28 +437,29 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/var/www/html/elttl/src/Entity/User.php",
+					"file": "/var/www/html/elttl/index.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3803,
+						"buffer_size": 1662,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1287,
-								1287
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1733.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -520,16 +521,48 @@
 		"selected_items":
 		[
 			[
+				"pimpl",
+				"pimple.php"
+			],
+			[
+				"indexadmin",
+				"indexAdmin.php"
+			],
+			[
+				"coreerror",
+				"vendor/mwyatt/core/src/Error.php"
+			],
+			[
+				"error",
+				"src/Error.php"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"compo",
+				"composer.json"
+			],
+			[
+				"ajaxuser",
+				"src/Controller/Ajax/User.php"
+			],
+			[
+				"admincontroller",
+				"src/Admin/Controller.php"
+			],
+			[
+				"pim",
+				"pimple.php"
+			],
+			[
 				"entuser",
 				"src/Entity/User.php"
 			],
 			[
 				"model",
 				"src/Model.php"
-			],
-			[
-				"index",
-				"index.php"
 			],
 			[
 				"pimple",
@@ -556,16 +589,8 @@
 				"src/Database.php"
 			],
 			[
-				"pim",
-				"pimple.php"
-			],
-			[
 				"mwyattcoreerror",
 				"vendor/mwyatt/core/src/Error.php"
-			],
-			[
-				"error",
-				"src/Error.php"
 			],
 			[
 				"inde",
@@ -602,10 +627,6 @@
 			[
 				"route",
 				"route.php"
-			],
-			[
-				"indexadmin",
-				"indexAdmin.php"
 			],
 			[
 				"session",
@@ -973,20 +994,24 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "core",
 		"selected_items":
 		[
 			[
-				"",
+				"core",
 				"/var/www/html/setting/sublime-text-workspaces/core.sublime-workspace"
-			],
-			[
-				"claire",
-				"/var/www/html/setting/sublime-text-workspaces/claire.sublime-workspace"
 			],
 			[
 				"store",
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"",
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"claire",
+				"/var/www/html/setting/sublime-text-workspaces/claire.sublime-workspace"
 			],
 			[
 				"port",
@@ -995,10 +1020,6 @@
 			[
 				"sor",
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
-			],
-			[
-				"core",
-				"/var/www/html/setting/sublime-text-workspaces/core.sublime-workspace"
 			],
 			[
 				"dia",
@@ -1057,7 +1078,7 @@
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 197.0,
-	"status_bar_visible": false,
+	"status_bar_visible": true,
 	"template_settings":
 	{
 	}

@@ -99,16 +99,8 @@
 			"file": "/var/www/html/dialogue/js/dialogue.js",
 			"settings":
 			{
-				"buffer_size": 9925,
+				"buffer_size": 10094,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/dialogue/gulpfile.js",
-			"settings":
-			{
-				"buffer_size": 3847,
-				"line_ending": "Windows"
 			}
 		}
 	],
@@ -119,10 +111,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 220.0,
-		"last_filter": "status",
+		"height": 354.0,
+		"last_filter": "stat",
 		"selected_items":
 		[
+			[
+				"stat",
+				"View: Toggle Status Bar"
+			],
 			[
 				"status",
 				"View: Toggle Status Bar"
@@ -164,7 +160,7 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 431.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -189,9 +185,11 @@
 	],
 	"file_history":
 	[
+		"/var/www/html/dialogue/js/common.bundle.js",
+		"/var/www/html/dialogue/js/dialogue.js",
+		"/var/www/html/dialogue/gulpfile.js",
 		"/var/www/html/dialogue/package.json",
 		"/var/www/html/dialogue/js/container.mustache",
-		"/var/www/html/dialogue/js/dialogue.js",
 		"/var/www/html/dialogue/css/default.css",
 		"/var/www/html/dialogue/css/common.bundle.css",
 		"/var/www/html/dialogue/index.js",
@@ -199,8 +197,6 @@
 		"/var/www/html/dialogue/bin/deploy.sh",
 		"/var/www/html/dialogue/index.php",
 		"/var/www/html/dialogue/js/ready.js",
-		"/var/www/html/dialogue/gulpfile.js",
-		"/var/www/html/dialogue/js/common.bundle.js",
 		"/var/www/html/dialogue/css/settings.css",
 		"/var/www/html/dialogue/dist/index.html",
 		"/var/www/html/dialogue/bin/browserify",
@@ -351,6 +347,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"closeInstance",
 			"jsSitemaps",
 			"getRandomString",
 			"removeChild",
@@ -477,8 +474,7 @@
 			"$window[0]",
 			"window",
 			"applyCssPosition",
-			"closeInstance",
-			"setActionEvent"
+			"closeInstance"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -536,89 +532,28 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9925,
+						"buffer_size": 10094,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								957,
-								957
+								9125,
+								9125
 							]
 						],
 						"settings":
 						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 480.0,
+						"translation.y": 7197.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/var/www/html/dialogue/gulpfile.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3847,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1888,
-								1888
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1250.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -677,6 +612,14 @@
 		"selected_items":
 		[
 			[
+				"dialo",
+				"js/dialogue.js"
+			],
+			[
+				"comm",
+				"js/common.bundle.js"
+			],
+			[
 				"gulp",
 				"gulpfile.js"
 			],
@@ -702,10 +645,6 @@
 			],
 			[
 				"dialog",
-				"js/dialogue.js"
-			],
-			[
-				"dialo",
 				"js/dialogue.js"
 			],
 			[
@@ -943,10 +882,6 @@
 			[
 				"reade",
 				"README.md"
-			],
-			[
-				"comm",
-				"common.js"
 			],
 			[
 				"dialogu",
@@ -1300,9 +1235,9 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 150.0,
-	"status_bar_visible": false,
+	"status_bar_visible": true,
 	"template_settings":
 	{
 	}
