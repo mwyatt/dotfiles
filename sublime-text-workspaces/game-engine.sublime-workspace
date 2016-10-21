@@ -4,12 +4,36 @@
 		"selected_items":
 		[
 			[
-				"ishit",
-				"isHitTop"
+				"canv",
+				"canvas"
 			],
 			[
-				"getT",
-				"getTop"
+				"load",
+				"loadMenu"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"selec",
+				"selected"
+			],
+			[
+				"pos",
+				"spinPositive"
+			],
+			[
+				"live",
+				"lives"
+			],
+			[
+				"rnad",
+				"randOneToTen"
+			],
+			[
+				"sta",
+				"Stage"
 			],
 			[
 				"canvas",
@@ -88,16 +112,16 @@
 	"command_palette":
 	{
 		"height": 354.0,
-		"last_filter": "stat",
+		"last_filter": "close",
 		"selected_items":
 		[
 			[
-				"stat",
-				"View: Toggle Status Bar"
+				"close",
+				"File: Close All"
 			],
 			[
-				"closa",
-				"File: Close All"
+				"stat",
+				"View: Toggle Status Bar"
 			],
 			[
 				"menu",
@@ -138,33 +162,34 @@
 	"expanded_folders":
 	[
 		"/var/www/html/game-engine",
-		"/var/www/html/game-engine/js",
-		"/var/www/html/game-engine/src"
+		"/var/www/html/game-engine/js"
 	],
 	"file_history":
 	[
-		"/var/www/html/game-engine/js/entity.js",
-		"/var/www/html/game-engine/js/ball.js",
-		"/var/www/html/game-engine/js/mouse.js",
-		"/var/www/html/game-engine/js/paddle.js",
-		"/var/www/html/game-engine/js/stage.js",
-		"/var/www/html/game-engine/js/blockManager.js",
-		"/var/www/html/game-engine/js/block.js",
 		"/var/www/html/game-engine/js/common.bundle.js",
 		"/var/www/html/game-engine/js/core.js",
-		"/var/www/html/game-engine/js/classes.js",
-		"/var/www/html/game-engine/js/class/stage.js",
-		"/var/www/html/game-engine/js/class/paddle.js",
-		"/var/www/html/game-engine/js/class/mouse.js",
-		"/var/www/html/game-engine/js/class/entityMobile.js",
-		"/var/www/html/game-engine/js/class/entity.js",
-		"/var/www/html/game-engine/js/class/block.js",
-		"/var/www/html/game-engine/js/class/ball.js",
-		"/var/www/html/game-engine/index.html",
-		"/var/www/html/game-engine/js/ball-and-entity-as-classes.js",
-		"/var/www/html/game-engine/.gitignore",
+		"/var/www/html/game-engine/js/ball.js",
+		"/var/www/html/game-engine/js/paddle.js",
+		"/var/www/html/game-engine/js/stage.js",
+		"/var/www/html/game-engine/js/block.js",
+		"/var/www/html/game-engine/js/menuButton.js",
+		"/var/www/html/game-engine/js/blockManager.js",
+		"/var/www/html/game-engine/js/mouse.js",
+		"/var/www/html/game-engine/js/keyCodes.js",
+		"/var/www/html/game-engine/js/entity.js",
+		"/var/www/html/game-engine/js/corething.js",
 		"/var/www/html/game-engine/gulpfile.js",
 		"/var/www/html/game-engine/package.json",
+		"/var/www/html/game-engine/index.html",
+		"/var/www/html/game-engine/js/class/stage.js",
+		"/var/www/html/game-engine/js/class/ball.js",
+		"/var/www/html/game-engine/js/class/block.js",
+		"/var/www/html/game-engine/js/class/paddle.js",
+		"/var/www/html/game-engine/.gitignore",
+		"/var/www/html/game-engine/js/class/entity.js",
+		"/var/www/html/game-engine/js/class/mouse.js",
+		"/var/www/html/game-engine/js/class/entityMobile.js",
+		"/var/www/html/game-engine/js/ball-and-entity-as-classes.js",
 		"/var/www/html/inventory/src/php/Controller/Ajax/Scan.php",
 		"/var/www/html/inventory/src/php/Utility/Logger.php",
 		"/var/www/html/inventory/src/php/Router.php",
@@ -268,9 +293,7 @@
 		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/product/_promotion.tpl",
 		"/var/www/html/store/trunk/gulpfile.js",
 		"/var/www/html/store/trunk/js/product/single.js",
-		"/var/www/html/store/trunk/js/home.js",
-		"/var/www/html/store/trunk/sass/product-single.scss",
-		"/var/www/html/store/trunk/asset/vendor/owl-carousel/owl.carousel.css"
+		"/var/www/html/store/trunk/js/home.js"
 	],
 	"find":
 	{
@@ -316,80 +339,125 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"3",
+			"4",
+			"-",
+			"loadLevel",
+			"animationDestroy",
+			"canvasCtx",
+			"timeDelta",
+			"timeModified",
+			"timeDelta",
+			"block",
+			"canvasCtx",
+			"canvasContext",
+			"height",
+			"width",
+			"canvas",
+			"canvasContext",
+			"canvasElement",
+			"setCanvasElement",
+			"setCanvasAndCtx",
+			"setCanvasElement",
+			"canvasElement",
+			"canvasContext",
+			"bounce",
+			"newGame",
+			"showmenu",
+			"mouseVX",
 			"mouse",
-			"stage",
-			"this",
-			"this.w",
+			"mouseX",
+			"X",
+			"mouse.vX",
+			"this.",
+			"mouse.x",
+			"mouse",
+			"18",
+			"mouse",
+			"parseInt",
+			"ctx",
+			"menuBu",
+			"paddle",
+			"mouse",
+			"timeDelta",
+			"Stage",
+			"stage.",
+			"update",
+			"Stage.loop",
+			"canvasContext",
+			"Element",
+			"canvasContext",
+			"canvasElement",
 			"Core",
 			"stage",
-			"stageWidth",
-			"block",
-			"var",
-			"Stage",
-			"ball",
-			"  ball.x = this.w / 2\n  ball.y = this.h / 2\n",
-			"isHitTop",
-			"blockSpacing",
-			"320",
-			"Y",
-			"return",
-			"{",
-			"isInside",
-			"Bottom",
-			"this.getLeft() <= entity.getRight() && this.getRight() >= entity.getLeft()",
-			"Right",
-			"this.getTop() <= entity.getBottom() && this.getBottom() >= entity.getTop()",
-			"Top",
-			"bounceVertical",
-			"isDestroyed",
-			"destroyed",
-			"')\n",
-			";",
-			"    this.w = 120\n    this.h = 30\n",
-			"stage",
-			".prototype",
-			"this.",
-			"mouse",
-			";",
-			"paddle",
-			"this.ctx",
-			"paddle",
-			"ball",
-			"Ball",
-			"var Ball = require('./ball')\nvar ball = new Ball()\n",
-			";",
-			"canvasElement",
-			";",
-			"radius",
-			"vMax",
-			"speed",
-			".5",
-			"var",
-			"Stage.canvas.height",
-			"Stage.canvas.width",
+			"var stage = require('./stage')",
+			"core",
 			"stage",
 			"Stage",
-			"Ball",
-			"ballFactory",
-			"stageFactory",
-			"timeDelta",
-			";",
-			"moveVelocity",
-			"stage",
-			"ball",
-			"bounceWalls",
-			";",
-			"timeThen",
-			"this.",
-			";",
-			"stage",
-			"this.canvasContext",
+			"\"",
+			"core",
+			"tap",
+			"module",
+			"Core",
+			"getTop",
+			"score",
 			"ctx",
+			"3",
+			"wiggle",
+			"vMaxNegative",
+			"ball",
+			"x",
+			"10",
+			"4",
+			"var spinPositive = ",
+			"spinDuration",
+			"var stage = require('./stage')",
+			"stage",
+			"22",
+			"-12",
+			"ball",
+			"takeDamage",
+			"blocks.",
+			"blockManager",
+			"getLevel1Blocks",
+			"blockHit",
+			"isDestroyed",
+			"level",
+			"timeDelta",
+			"2",
+			"X",
+			"timeThen",
+			"spinDuration",
+			"spinLife",
+			"mouse",
+			"this.",
+			"stage.getTimeDelta",
+			"stage",
+			"canvasContext",
+			"stage",
+			"this",
+			"getCanvasContext",
+			"stage.",
+			"stage",
+			"timeDelta",
+			"this.time",
+			" = 0",
+			" = ''",
+			":",
+			"this.canvasContext",
+			"canvasContext",
+			"this.canvasElement",
 			"canvasElement",
-			"this.canvas",
-			"canvas.",
-			"canvas",
+			"block",
+			"canvasContext",
+			"timeDelta",
+			"tim",
+			"timeDelta",
+			"canvasContext",
 			"canvasElement",
+			"stage",
+			"var ",
+			"time",
 			"Stage",
 			".update",
 			" = function () {",
@@ -398,52 +466,7 @@
 			"ball",
 			"block",
 			"./class",
-			"./class/mouse",
-			"ball",
-			"paddle",
-			"mouse",
-			".canvas",
-			"module.exports",
-			"canvasElement",
-			"copy",
-			"ball",
-			"mouse",
-			"entity",
-			"nodeModules",
-			"util",
-			"jscs",
-			"buffer",
-			"ball",
-			"keysDown",
-			"EntityMobile",
-			" //",
-			"timeModified",
-			"update",
-			"timeModi",
-			"timeDelta",
-			"height",
-			"width",
-			"bounceWalls",
-			"canvas.",
-			"timeModified",
-			"ball.x = ",
-			"var ",
-			"timeModified",
-			"modifier",
-			".update",
-			"modifier",
-			"stage",
-			"mouseMove",
-			"canvas",
-			"moveVelocity",
-			"moveV",
-			"contactPaddle",
-			"modifiers",
-			"i",
-			"this.height",
-			"this.width",
-			"canvasElement",
-			"vXPrevious"
+			"./class/mouse"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -551,120 +574,92 @@
 		"selected_items":
 		[
 			[
-				"core",
-				"js/core.js"
-			],
-			[
-				"ba",
-				"js/ball.js"
-			],
-			[
-				"",
-				"js/core.js"
-			],
-			[
-				"bloc",
-				"js/block.js"
-			],
-			[
-				"blockma",
-				"js/blockManager.js"
-			],
-			[
-				"comm",
-				"js/common.bundle.js"
-			],
-			[
-				"block",
-				"js/blockManager.js"
-			],
-			[
-				"ent",
-				"js/entity.js"
-			],
-			[
-				"stage",
-				"js/stage.js"
-			],
-			[
-				"bal",
-				"js/ball.js"
-			],
-			[
 				"sta",
 				"js/stage.js"
-			],
-			[
-				"classes",
-				"js/classes.js"
-			],
-			[
-				"classsta",
-				"js/class/stage.js"
-			],
-			[
-				"classpa",
-				"js/class/paddle.js"
-			],
-			[
-				"classmou",
-				"js/class/mouse.js"
-			],
-			[
-				"clasentmo",
-				"js/class/entityMobile.js"
-			],
-			[
-				"classent",
-				"js/class/entity.js"
-			],
-			[
-				"clasblock",
-				"js/class/block.js"
-			],
-			[
-				"clasbal",
-				"js/class/ball.js"
 			],
 			[
 				"ball",
 				"js/ball.js"
 			],
 			[
-				"paddl",
+				"",
 				"js/paddle.js"
 			],
 			[
-				"entit",
-				"js/entity.js"
+				"padd",
+				"js/paddle.js"
+			],
+			[
+				"block",
+				"js/block.js"
+			],
+			[
+				"core",
+				"js/core.js"
+			],
+			[
+				"comm",
+				"js/common.bundle.js"
 			],
 			[
 				"pad",
 				"js/paddle.js"
 			],
 			[
+				"com",
+				"js/common.bundle.js"
+			],
+			[
+				"stage",
+				"js/stage.js"
+			],
+			[
+				"stag",
+				"js/stage.js"
+			],
+			[
 				"mouse",
-				"js/class/mouse.js"
+				"js/mouse.js"
 			],
 			[
-				"padd",
-				"js/class/paddle.js"
+				"comb",
+				"js/common.bundle.js"
 			],
 			[
-				"enti",
+				"ba",
+				"js/ball.js"
+			],
+			[
+				"ent",
 				"js/entity.js"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
 			],
 			[
 				"index",
 				"index.html"
 			],
 			[
-				"stag",
-				"js/class/stage.js"
+				"blockmana",
+				"js/blockManager.js"
 			],
 			[
-				"stagejs",
-				"js/stage.js"
+				"bal",
+				"js/ball.js"
+			],
+			[
+				"blockma",
+				"js/blockManager.js"
+			],
+			[
+				"mous",
+				"js/mouse.js"
+			],
+			[
+				"blockman",
+				"js/blockManager.js"
 			],
 			[
 				"common",
@@ -679,12 +674,12 @@
 				"js/class/ball.js"
 			],
 			[
-				"commonbun",
-				"js/common.bundle.js"
+				"enti",
+				"js/class/entity.js"
 			],
 			[
-				"gulp",
-				"gulpfile.js"
+				"commonbun",
+				"js/common.bundle.js"
 			],
 			[
 				"packa",
@@ -1061,6 +1056,34 @@
 			[
 				"categorscs",
 				"sass/category.scss"
+			],
+			[
+				"frontpromotion",
+				"app/skin/custom/frontend/modules/product/_promotion.tpl"
+			],
+			[
+				"invpromot",
+				"app/classes/inventory/promotion.php"
+			],
+			[
+				"storagepromot",
+				"app/classes/storage/promotion.php"
+			],
+			[
+				"adminmodpromo",
+				"app/classes/admin/modules/promotion.php"
+			],
+			[
+				"adminmodpromotion",
+				"app/classes/admin/modules/promotion.php"
+			],
+			[
+				"homejs",
+				"js/home.js"
+			],
+			[
+				"prodsingle",
+				"js/product/single.js"
 			]
 		],
 		"width": 0.0
@@ -1068,16 +1091,20 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "core",
+		"last_filter": "",
 		"selected_items":
 		[
 			[
-				"core",
-				"/var/www/html/setting/sublime-text-workspaces/core.sublime-workspace"
-			],
-			[
 				"",
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"jo",
+				"/var/www/html/setting/sublime-text-workspaces/joshua-mccormack.sublime-project"
+			],
+			[
+				"code",
+				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
 			],
 			[
 				"store",
@@ -1128,8 +1155,8 @@
 				"/var/www/html/sublime-project/dialogue.sublime-workspace"
 			],
 			[
-				"code",
-				"/var/www/html/codex/codex.sublime-project"
+				"core",
+				"/var/www/html/sublime-project/core.sublime-workspace"
 			],
 			[
 				"inv",

@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-var \$ = require('jquery')
+\$${1}Storage = \$this->getStorage('${1/(.*)/\u$1/}');
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>require-jquery</tabTrigger>
+    <tabTrigger>controller-get-storage</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
-    <scope>source.js</scope>
+    <scope>source.php</scope>
 </snippet>

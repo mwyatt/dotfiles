@@ -84,6 +84,46 @@
 			}
 		},
 		{
+			"file": "/var/www/html/codex/css/button.css",
+			"settings":
+			{
+				"buffer_size": 1495,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/codex/js/keyCode.js",
+			"settings":
+			{
+				"buffer_size": 325,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/codex/gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 4155,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/var/www/html/codex/package.json",
+			"settings":
+			{
+				"buffer_size": 1315,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/codex/link.css",
+			"settings":
+			{
+				"buffer_size": 20,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "/var/www/html/codex/css/form.css",
 			"settings":
 			{
@@ -153,7 +193,8 @@
 	},
 	"expanded_folders":
 	[
-		"/var/www/html/codex"
+		"/var/www/html/codex",
+		"/var/www/html/codex/css"
 	],
 	"file_history":
 	[
@@ -508,7 +549,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -524,8 +565,8 @@
 						"selection":
 						[
 							[
-								1420,
-								1439
+								760,
+								772
 							]
 						],
 						"settings":
@@ -550,14 +591,162 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2630.0,
+						"translation.y": 928.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/var/www/html/codex/css/button.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1495,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								634,
+								634
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/var/www/html/codex/js/keyCode.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 325,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/var/www/html/codex/gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4155,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								4155
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/var/www/html/codex/package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1315,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/var/www/html/codex/link.css",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 20,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 6,
 					"file": "/var/www/html/codex/css/form.css",
 					"semi_transient": false,
 					"settings":
@@ -594,7 +783,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -653,6 +842,26 @@
 		"selected_items":
 		[
 			[
+				"pakca",
+				"package.json"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"",
+				"js/keyCode.js"
+			],
+			[
+				"keyc",
+				"js/keyCode.js"
+			],
+			[
+				"butt",
+				"css/button.css"
+			],
+			[
 				"reusa",
 				"css/reusable.css"
 			],
@@ -687,10 +896,6 @@
 			[
 				"typo",
 				"css/typography.css"
-			],
-			[
-				"butt",
-				"css/button.css"
 			],
 			[
 				"spinner",
@@ -753,10 +958,6 @@
 				"css/settings.css"
 			],
 			[
-				"gulp",
-				"gulpfile.js"
-			],
-			[
 				"genera",
 				"css/general.css"
 			],
@@ -807,10 +1008,6 @@
 			[
 				"gi",
 				"bin/git-gh-deploy"
-			],
-			[
-				"",
-				"css/typography.css"
 			],
 			[
 				"formcs",
@@ -883,10 +1080,6 @@
 			[
 				"gulpf",
 				"gulpfile.js"
-			],
-			[
-				"pakca",
-				"package.json"
 			],
 			[
 				"commonjs",
@@ -1159,10 +1352,6 @@
 			[
 				"uijqgrid",
 				"sass/admin/vendor/_ui.jqgrid.scss"
-			],
-			[
-				"venzebra",
-				"sass/admin/vendor/_zebra-datepicker.scss"
 			]
 		],
 		"width": 0.0
@@ -1170,12 +1359,20 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "jos",
 		"selected_items":
 		[
 			[
+				"jos",
+				"/var/www/html/setting/sublime-text-workspaces/joshua-mccormack.sublime-project"
+			],
+			[
 				"",
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"core",
+				"/var/www/html/setting/sublime-text-workspaces/core.sublime-workspace"
 			],
 			[
 				"stoe",
@@ -1224,10 +1421,6 @@
 			[
 				"sr",
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
-			],
-			[
-				"core",
-				"/var/www/html/setting/sublime-text-workspaces/core.sublime-workspace"
 			],
 			[
 				"sor",
@@ -1296,7 +1489,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 269.0,
 	"status_bar_visible": false,
 	"template_settings":

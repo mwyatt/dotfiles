@@ -13,7 +13,7 @@
 			],
 			[
 				"pv",
-				"pv	mw-php-printPre"
+				"pv\tmw-php-printPre"
 			],
 			[
 				"feeds",
@@ -425,7 +425,7 @@
 			"100",
 			"print-header",
 			"\"url\": \"/",
-			"	{\n		\"name\": \"Town Teams\",\n		\"url\": \"/page/town-teams/\"\n	}\n",
+			"\t{\n\t\t\"name\": \"Town Teams\",\n\t\t\"url\": \"/page/town-teams/\"\n\t}\n",
 			"\"url\": \"",
 			"menuTertiary",
 			"menu-tertiary",

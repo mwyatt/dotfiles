@@ -1,0 +1,2318 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"but",
+				"buttonEdit"
+			],
+			[
+				"produ",
+				"product"
+			],
+			[
+				"prods",
+				"products"
+			],
+			[
+				"exid",
+				"exceptionId"
+			],
+			[
+				"remob",
+				"removeButton"
+			],
+			[
+				"prod",
+				"product"
+			],
+			[
+				"remb",
+				"removeButton"
+			],
+			[
+				"refs",
+				"refreshStatusPanel"
+			],
+			[
+				"persis",
+				"orderSinglePersist"
+			],
+			[
+				"append",
+				"appender"
+			],
+			[
+				"ship",
+				"shipments"
+			],
+			[
+				"Pic",
+				"Picked"
+			],
+			[
+				"ac",
+				"actions"
+			],
+			[
+				"exstat",
+				"exceptionStatuses"
+			],
+			[
+				"uns",
+				"unset"
+			],
+			[
+				"exceps",
+				"exceptions"
+			],
+			[
+				"quersel",
+				"querySelectorAll"
+			],
+			[
+				"orno",
+				"orderNotes"
+			],
+			[
+				"cgs",
+				"controller-get-service	mw-php-controller-get-service"
+			],
+			[
+				"panemad",
+				"panelEmailAddress"
+			],
+			[
+				"tem",
+				"template"
+			],
+			[
+				"templa",
+				"templates"
+			],
+			[
+				"mas",
+				"panelMasterId"
+			],
+			[
+				"openempa",
+				"openEmailPanelSuccess"
+			],
+			[
+				"templt",
+				"templates"
+			],
+			[
+				"excepid",
+				"exceptionId"
+			],
+			[
+				"confi",
+				"emailPanelConfig"
+			],
+			[
+				"exce",
+				"exceptions"
+			],
+			[
+				"inv",
+				"inventory"
+			],
+			[
+				"in",
+				"inventory"
+			],
+			[
+				"us",
+				"user"
+			],
+			[
+				"userid",
+				"userIds"
+			],
+			[
+				"useri",
+				"userId"
+			],
+			[
+				"assigned",
+				"assignmentId"
+			],
+			[
+				"usid",
+				"userId"
+			],
+			[
+				"exas",
+				"exceptionAssignment"
+			],
+			[
+				"exass",
+				"exceptionAssignments"
+			],
+			[
+				"ex",
+				"exception"
+			],
+			[
+				"foreach",
+				"foreach	mw-php-foreach"
+			],
+			[
+				"assig",
+				"assignment"
+			],
+			[
+				"cgst",
+				"controller-get-storage	mw-php-controller-get-storage"
+			],
+			[
+				"excep",
+				"exception"
+			],
+			[
+				"exd",
+				"exceptionId"
+			],
+			[
+				"exc",
+				"exceptions"
+			],
+			[
+				"serve",
+				"exceptionService"
+			],
+			[
+				"asi",
+				"assignment"
+			],
+			[
+				"assign",
+				"assignment"
+			],
+			[
+				"assi",
+				"assignment"
+			],
+			[
+				"servi",
+				"exceptionService"
+			],
+			[
+				"fore",
+				"foreach	mw-php-foreach"
+			],
+			[
+				"even",
+				"addEventListener"
+			],
+			[
+				"udi",
+				"userId"
+			],
+			[
+				"exod",
+				"exceptionId"
+			],
+			[
+				"sel",
+				"selects"
+			],
+			[
+				"req",
+				"require	mw-js-require"
+			],
+			[
+				"infic",
+				"inputFileContainer"
+			],
+			[
+				"contian",
+				"inputFileContainer"
+			],
+			[
+				"df",
+				"d-if	display: inline-flex;"
+			],
+			[
+				"cg",
+				"controller-get	mw-php-controller-get-query"
+			],
+			[
+				"getM",
+				"getMedia"
+			],
+			[
+				"noteS",
+				"noteService"
+			],
+			[
+				"adminja",
+				"Admin_Ajax_Modules_Exceptions"
+			],
+			[
+				"refre",
+				"refreshTimeline"
+			],
+			[
+				"exprod",
+				"exceptionProducts"
+			],
+			[
+				"exemai",
+				"exception_contact_email"
+			],
+			[
+				"excei",
+				"exceptionId"
+			],
+			[
+				"expros",
+				"exceptionProducts"
+			],
+			[
+				"requ",
+				"request"
+			],
+			[
+				"exst",
+				"exceptionStorage"
+			],
+			[
+				"pv",
+				"pv	mw-php-printPre"
+			],
+			[
+				"usi",
+				"userId"
+			],
+			[
+				"exi",
+				"exceptionId"
+			],
+			[
+				"Exlog",
+				"Inventory_Exception_Log"
+			],
+			[
+				"updast",
+				"updateStatus"
+			],
+			[
+				"exlo",
+				"exceptionLogs"
+			],
+			[
+				"status",
+				"statusSelect"
+			],
+			[
+				"excepg",
+				"exceptionGroups"
+			],
+			[
+				"excp",
+				"exceptionGroups"
+			],
+			[
+				"excepb",
+				"exceptionsByStatus"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"exces",
+				"exceptions"
+			],
+			[
+				"getalst",
+				"getActiveList"
+			],
+			[
+				"excem",
+				"exceptionContactEmail"
+			],
+			[
+				"exidi",
+				"exceptionId"
+			],
+			[
+				"inner",
+				"innerHTML"
+			],
+			[
+				"eid",
+				"exceptionId"
+			],
+			[
+				"outpu",
+				"outputs"
+			],
+			[
+				"outptu",
+				"outputs"
+			],
+			[
+				"ecepi",
+				"exceptionId"
+			],
+			[
+				"getstatus",
+				"getStatusName"
+			],
+			[
+				"invex",
+				"Inventory_Exception"
+			],
+			[
+				"throw",
+				"throw	mw-php-throw"
+			],
+			[
+				"admin",
+				"administration"
+			],
+			[
+				"act",
+				"action"
+			],
+			[
+				"admina",
+				"Admin_Ajax_Modules_Exceptions"
+			],
+			[
+				"modu",
+				"Module"
+			],
+			[
+				"excets",
+				"exceptions"
+			],
+			[
+				"excepi",
+				"exceptionId"
+			],
+			[
+				"mom",
+				"moduleName"
+			],
+			[
+				"ba",
+				"backUrl"
+			],
+			[
+				"orsish",
+				"OrderSingleShipment"
+			],
+			[
+				"ordsish",
+				"OrderSingleShipment"
+			],
+			[
+				"error",
+				"getOrderError"
+			],
+			[
+				"getor",
+				"getOrderIds"
+			],
+			[
+				"orderi",
+				"orderIds"
+			],
+			[
+				"thr",
+				"throw	mw-php-throw"
+			],
+			[
+				"ordi",
+				"orderId"
+			],
+			[
+				"tr",
+				"try	mw-php-try"
+			],
+			[
+				"base6",
+				"base64_encode"
+			],
+			[
+				"shipmens",
+				"shipments"
+			],
+			[
+				"create",
+				"createOrderDefaultRoyalMail"
+			],
+			[
+				"shipmen",
+				"shipment"
+			],
+			[
+				"consign",
+				"consignmentNumber"
+			],
+			[
+				"page",
+				"pages"
+			],
+			[
+				"pickin",
+				"pickingQueue"
+			],
+			[
+				"select",
+				"selections"
+			],
+			[
+				"or",
+				"order"
+			],
+			[
+				"ordt",
+				"orderType"
+			],
+			[
+				"ord",
+				"orders"
+			],
+			[
+				"ships",
+				"shipments"
+			],
+			[
+				"ordri",
+				"orderId"
+			],
+			[
+				"opt",
+				"options"
+			],
+			[
+				"getrr",
+				"getOrderError"
+			],
+			[
+				"orders",
+				"orders"
+			],
+			[
+				"shipment-deliveryC",
+				"shipment-deliveryCountry"
+			],
+			[
+				"cont",
+				"container"
+			],
+			[
+				"defa",
+				"defaultShipmentTypeId"
+			],
+			[
+				"dialogueVo",
+				"dialogueVoid"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/var/www/html/possession/src/Controller.php",
+			"settings":
+			{
+				"buffer_size": 279,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "close",
+		"selected_items":
+		[
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"me",
+				"View: Toggle Menu"
+			],
+			[
+				"clsoe",
+				"File: Close All"
+			],
+			[
+				"save",
+				"File: Save All"
+			],
+			[
+				"clos",
+				"File: Close All"
+			],
+			[
+				"closea",
+				"File: Close All"
+			],
+			[
+				"snippet",
+				"Snippet: CDATA"
+			],
+			[
+				"men",
+				"View: Toggle Menu"
+			],
+			[
+				"closeal",
+				"File: Close All"
+			],
+			[
+				"clo",
+				"File: Close All"
+			],
+			[
+				"closwe",
+				"Convert Case: Lower Case"
+			],
+			[
+				"w3v",
+				"W3C Validators: Validate HTML5"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"tid",
+				"Tidy CSS"
+			],
+			[
+				"css",
+				"Tidy CSS (Highest Compression)"
+			],
+			[
+				"tidy",
+				"Tidy CSS"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"closeall",
+				"File: Close All"
+			],
+			[
+				"sa",
+				"File: Save All"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"status",
+				"View: Toggle Status Bar"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"rmeovepack",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"stat",
+				"View: Toggle Status Bar"
+			],
+			[
+				"isnta",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"packages",
+				"Package Control: List Packages"
+			],
+			[
+				"pref user",
+				"Preferences: Settings - User"
+			],
+			[
+				"pref",
+				"Preferences: Settings - Default"
+			],
+			[
+				"prefere",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"statu",
+				"View: Toggle Status Bar"
+			],
+			[
+				"cl",
+				"File: Close All"
+			],
+			[
+				"sta",
+				"View: Toggle Status Bar"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"color",
+				"Snippet: mw-css-color"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"htm",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"tab",
+				"View: Toggle Status Bar"
+			],
+			[
+				"settinguser",
+				"Preferences: Settings - User"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"musta",
+				"Set Syntax: HTML with mustaches"
+			],
+			[
+				"htmlo",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"close al",
+				"File: Close All"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"must",
+				"Set Syntax: HTML with mustaches"
+			],
+			[
+				"media",
+				"Snippet: Media query screen"
+			],
+			[
+				"im",
+				"Snippet: mw-css-import"
+			],
+			[
+				"impo",
+				"Snippet: mw-css-import"
+			],
+			[
+				"settings",
+				"Preferences: Settings - User"
+			],
+			[
+				"user",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"mw",
+				"Snippet: mw-js-ajax"
+			],
+			[
+				"mwa",
+				"Snippet: mw-js-ajax"
+			],
+			[
+				"close all",
+				"File: Close All"
+			],
+			[
+				"mwaja",
+				"Snippet: mw-js-ajax"
+			],
+			[
+				"musa",
+				"Set Syntax: HTML with mustaches"
+			],
+			[
+				"savea",
+				"File: Save All"
+			],
+			[
+				"scs",
+				"Set Syntax: SCSS"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"saveal",
+				"File: Save All"
+			],
+			[
+				"save al",
+				"File: Save All"
+			],
+			[
+				"sveal",
+				"Snippet: .prevAll()"
+			],
+			[
+				"clos a",
+				"File: Close All"
+			],
+			[
+				"save all",
+				"File: Save All"
+			],
+			[
+				"about",
+				"About"
+			],
+			[
+				"syntaxphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"syntphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"syntax mus",
+				"Set Syntax: HTML with mustaches"
+			],
+			[
+				"Snippet: ajax",
+				"Snippet: common ajax construct"
+			]
+		],
+		"width": 431.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": true,
+		"show_open_files": false,
+		"show_tabs": true,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/html/possession",
+		"/var/www/html/possession/src",
+		"/var/www/html/possession/src/Controller",
+		"/var/www/html/possession/src/Mapper",
+		"/var/www/html/possession/src/Model"
+	],
+	"file_history":
+	[
+		"/var/www/html/possession/.gitignore",
+		"/var/www/html/possession/composer.json",
+		"/var/www/html/possession/index.php",
+		"/var/www/html/possession/definition.sql",
+		"/var/www/html/possession/src/Model/Possession.php",
+		"/var/www/html/possession/src/Controller.php",
+		"/var/www/html/possession/src/Mapper/User.php",
+		"/var/www/html/possession/getImagesExample.php",
+		"/var/www/html/possession/package.json",
+		"/var/www/html/possession/composer.lock",
+		"/var/www/html/possession/vendor/mwyatt/core/src/AbstractModel.php",
+		"/var/www/html/possession/vendor/mwyatt/core/src/Model/User.php",
+		"/var/www/html/possession/vendor/mwyatt/core/sql/tableDefinition.sql",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/exceptions/single/_summary.tpl",
+		"/var/www/html/store/trunk/app/php/Service/AbstractService.php",
+		"/var/www/html/store/trunk/app/php/Access/Handler/AbstractHandler.php",
+		"/var/www/html/store/trunk/js/admin/exception/single/products.mustache",
+		"/var/www/html/store/trunk/js/admin/exception/single/editSummary.mustache",
+		"/var/www/html/store/trunk/app/php/Access/Type/Order.php",
+		"/var/www/html/store/contrib/sql/v285/orderAccess8.sql",
+		"/var/www/html/store/trunk/js/admin/order/statusUpdate.js",
+		"/var/www/html/store/trunk/js/admin/order/single/shipment.js",
+		"/var/www/html/store/trunk/css/button.css",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/order/single/_shipment.tpl",
+		"/var/www/html/store/trunk/css/admin/common.bundle.css",
+		"/var/www/html/store/trunk/js/admin/order/singlePersist.js",
+		"/var/www/html/store/trunk/js/admin/order/single.js",
+		"/var/www/html/store/trunk/js/admin/service/order.js",
+		"/var/www/html/store/trunk/app/skin/custom/frontend/common/_order-summary.tpl",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/order/single/_summary.tpl",
+		"/var/www/html/store/trunk/js/admin/service/shipment.js",
+		"/var/www/html/store/trunk/js/admin/order/all.js",
+		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/order.php",
+		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/shipment.php",
+		"/var/www/html/store/trunk/app/classes/inventory/account.php",
+		"/var/www/html/store/trunk/js/admin/exception/all.js",
+		"/var/www/html/store/trunk/js/admin/note.js",
+		"/var/www/html/store/trunk/js/checkout.js",
+		"/var/www/html/store/trunk/js/admin/order/statusUpdateError.mustache",
+		"/var/www/html/store/trunk/js/admin/order/printerChoose.js",
+		"/var/www/html/store/trunk/js/checkout/payment.js",
+		"/var/www/html/store/trunk/app/php/Access/Type/Shipment.php",
+		"/var/www/html/store/trunk/js/inputSelect.mustache",
+		"/var/www/html/store/trunk/app/php/Service/Order.php",
+		"/var/www/html/store/trunk/app/php/Access/Handler/Order/Note.php",
+		"/var/www/html/store/trunk/js/admin/order/single.mustache",
+		"/var/www/html/store/trunk/js/admin/order/preview.mustache",
+		"/var/www/html/store/trunk/js/admin/exception/preview.mustache",
+		"/var/www/html/store/trunk/js/admin/note.mustache",
+		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/exceptions.php",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/order/single/_h1.tpl",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/exceptions/all.tpl",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/exceptions/single.tpl",
+		"/var/www/html/store/trunk/app/classes/admin/modules/exceptions.php",
+		"/var/www/html/store/trunk/app/classes/inventory/exception.php",
+		"/var/www/html/store/trunk/app/php/Service/Exception.php",
+		"/var/www/html/store/trunk/app/classes/storage/exception/note.php",
+		"/var/www/html/store/trunk/js/admin/exception/single.js",
+		"/var/www/html/store/trunk/app/classes/inventory/exception/note.php",
+		"/var/www/html/store/trunk/js/admin/exception/single.mustache",
+		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/order/note.php",
+		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/exception/note.php",
+		"/var/www/html/store/trunk/app/php/Access/Handler/Order/AbstractOrderSubType.php",
+		"/var/www/html/store/trunk/app/php/Access/Type/Order/Note.php",
+		"/var/www/html/store/trunk/app/php/Iterator/AbstractIterator.php",
+		"/var/www/html/store/trunk/app/php/Iterator/ObjectIterator.php",
+		"/var/www/html/store/trunk/app/classes/inventory/exception/assignment.php",
+		"/var/www/html/store/trunk/app/php/Access/Handler/Order.php",
+		"/var/www/html/store/trunk/app/php/Abstractterator.php",
+		"/var/www/html/store/trunk/app/php/Service/Shipment.php",
+		"/var/www/html/store/trunk/app/classes/admin/modules/inbox.php",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/order/all.tpl",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/exceptions/search.tpl",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/exceptions/_create.tpl",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/exceptions/create.tpl",
+		"/var/www/html/store/trunk/css/admin/exception/all.css",
+		"/var/www/html/store/trunk/js/admin/exception/email.mustache",
+		"/var/www/html/store/trunk/app/skin/custom/admin/common/_menu.tpl",
+		"/var/www/html/store/trunk/app/classes/storage/exception/assignment.php",
+		"/var/www/html/store/trunk/css/admin/exception.css",
+		"/var/www/html/store/trunk/app/php/Service/Opening.php",
+		"/var/www/html/store/trunk/app/classes/storage/exception/log.php",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/help/topic/_exception-create.tpl",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/exceptions/_follow.tpl",
+		"/var/www/html/store/trunk/js/admin/emailSend.js",
+		"/var/www/html/store/trunk/css/admin/tinymce-content.bundle.css",
+		"/var/www/html/store/trunk/js/admin/tinymceConfig.js",
+		"/var/www/html/store/trunk/js/admin/product/single.js",
+		"/var/www/html/store/trunk/js/admin/product/stock-reminder.bundle.js",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/products/stock-reminder/all.tpl",
+		"/var/www/html/store/trunk/app/classes/common/queuedmail.php",
+		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/email.php",
+		"/var/www/html/store/trunk/app/classes/inventory/mail/template.php",
+		"/var/www/html/store/trunk/js/admin/mail/panel.mustache",
+		"/var/www/html/store/trunk/vendor/dts/ebay-sdk-php/src/DTS/eBaySDK/Trading/Types/GetSellingManagerEmailLogRequestType.php",
+		"/var/www/html/store/trunk/app/php/Service/Mail.php",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/order/single.tpl",
+		"/var/www/html/store/trunk/js/admin/order/single/email.js",
+		"/var/www/html/store/trunk/js/admin/exception/assignment.mustache",
+		"/var/www/html/store/trunk/js/admin/exception/single/summary.mustache",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/exceptions/_exception-user.tpl",
+		"/var/www/html/store/trunk/js/admin/exception/common.js",
+		"/var/www/html/store/trunk/js/admin/service/exception.js",
+		"/var/www/html/store/trunk/app/classes/inventory/user.php",
+		"/var/www/html/store/trunk/app/classes/inventory.php",
+		"/var/www/html/store/trunk/css/admin/exception/single.css",
+		"/var/www/html/store/trunk/css/admin/order/single.css",
+		"/var/www/html/store/trunk/app/classes/inventory/exception/log.php",
+		"/var/www/html/store/trunk/app/classes/inventory/exception/email.php",
+		"/var/www/html/store/trunk/js/admin/exception/timeline.mustache",
+		"/var/www/html/store/trunk/css/admin/note.css",
+		"/var/www/html/store/trunk/js/admin/exception/log.mustache",
+		"/var/www/html/store/trunk/js/admin/exception/groups.mustache",
+		"/var/www/html/store/trunk/vendor/avdis/system/src/Access/Type/AbstractType.php",
+		"/var/www/html/store/trunk/app/classes/storage/exception.php",
+		"/var/www/html/store/trunk/app/classes/storage/abstract.php",
+		"/var/www/html/store/trunk/app/classes/storage/user.php",
+		"/var/www/html/store/trunk/css/admin/exception/list.css",
+		"/var/www/html/store/trunk/app/classes/storage/ad.php",
+		"/var/www/html/store/trunk/js/admin/loggedPoll.js",
+		"/var/www/html/store/trunk/app/classes/frontend/session/data.php",
+		"/var/www/html/store/trunk/js/admin/common.bundle.js",
+		"/var/www/html/store/trunk/js/buttonToTop.js",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/exceptions/_status.tpl",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/order/_select-status.tpl",
+		"/var/www/html/store/trunk/app/classes/storage/exception/media.php",
+		"/var/www/html/store/trunk/app/classes/common/media.php",
+		"/var/www/html/store/trunk/js/admin/exception/medium.mustache"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			"-node_modules/, -asset/, -cache/, -app/log, -vendor/",
+			"-node_modules/, -asset/, -cache/, -app/log, -vendor/, js/",
+			"-node_modules/, -asset/, -cache/, -app/log, -vendor/",
+			"-node_modules/, -asset/, -cache/, -app/log, -vendor/, modules/",
+			"-node_modules/, -asset/, -cache/, -app/log, -vendor/, module/",
+			"-node_modules/, -asset/, -cache/, -app/log, -vendor/",
+			"-node_modules/, -asset/, -cache/, -app/log, -vendor/, *.sql",
+			"-node_modules/, -asset/, -cache/, -app/log, -vendor/, .sql",
+			"-node_modules/, -asset/, -cache/, -app/log, -vendor/",
+			"",
+			"-node_modules/, -asset/, -cache/, -app/log, -vendor/",
+			"-node_modules/, -asset/, -cache/, -app/log, -vendor/, account/",
+			"-node_modules/, -asset/, -cache/, -app/log, -vendor/",
+			"-node_modules/, -asset/, -cache/, -app/log, ",
+			"-node_modules/, -asset/, -vendor/, -cache/, -app/log, ",
+			"-node_modules/, -asset/, -vendor/, -cache/, -app/log, js/",
+			"-node_modules/, -asset/, -vendor/, -cache/, -app/log",
+			"-node_modules/, -asset/, -vendor/, -cache/, ",
+			"-node_modules/, -asset/, -vendor/, -cache/, js/",
+			"-node_modules/, -asset/, -vendor/, -cache/, ",
+			"-node_modules/, -asset/,  -cache/, ",
+			"-node_modules/, -asset/, -vendor/, -cache/, ",
+			"-node_modules/, -asset/, -vendor/, -cache/, js/",
+			"-node_modules/, -asset/, -vendor/, -cache/, ",
+			"-node_modules/, -asset/, -vendor/, -cache/, js/",
+			"-node_modules/, -asset/, -vendor/, -cache/",
+			"-node_modules/, -asset/, -vendor/, cache/",
+			"-node_modules/, -asset/, -vendor/,",
+			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, js/",
+			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, admin/",
+			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, products/_fixed-bar",
+			"-node_modules/, -asset/, -vendor/, products/create-update.tpl",
+			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, css/",
+			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, css/",
+			"-node_modules/, -asset/, -vendor/, skin/",
+			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, css/",
+			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, css/",
+			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, c",
+			"-node_modules/, -asset/, -vendor/, css/",
+			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, css/",
+			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, js/",
+			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, js/",
+			"-node_modules/, -asset/, -vendor/, css/",
+			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, css/",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, -vendor/, -css/",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, ",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, -vendor/, css/",
+			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, c",
+			"-node_modules/, -asset/, -vendor/, css/",
+			"-node_modules/, -asset/, -vendor/,",
+			"-node_modules/, -asset/, -vendor/, css/",
+			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, css/",
+			"-node_modules/, -asset/, -vendor/, -css/",
+			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, css/",
+			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, js/",
+			"-node_modules/, -asset/, -vendor/, -js/admin/",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, -vendor/ -js/admin/",
+			"-node_modules/, -asset/, -vendor/ -admin/",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, -vendor/, css/",
+			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, css/",
+			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, css/",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, -vendor/, *.tpl",
+			"-node_modules/, -asset/, -vendor/, .tpl",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, -vendor/, *.tpl",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, -vendor/, css/",
+			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, css/, ",
+			"-node_modules/, -asset/, -vendor/, css/, -palette.css",
+			"-node_modules/, -asset/, -vendor/, css/, !palette.css",
+			"-node_modules/, -asset/, -vendor/, css/",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, -vendor/, sass/",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, -vendor/, sass/",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, -vendor/, js/",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, vendor/",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, -vendor/, home.scss",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, -vendor/, sass/",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, -vendor/, sass/",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, -vendor/, js/",
+			"-node_modules/, -asset/, -vendor/, *.tpl",
+			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, *.tpl",
+			"-node_modules/, -asset/, -vendor/,",
+			"-node_modules/, -asset/, -vendor/, js/",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, -vendor/, *.tpl",
+			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, *.tpl",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, ",
+			"-node_modules/, -asset/, js/, -vendor/",
+			"-node_modules/, -asset/, js/",
+			"-node_modules/, -asset/, ",
+			"-node_modules/, -asset/, js/",
+			"-node_modules/, -asset/"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"password",
+			"Password",
+			"email",
+			"Email",
+			"timeRegistered",
+			"Registered",
+			"int(",
+			"DEFAULT",
+			"PRIMARY KEY",
+			"CHARSET",
+			"ENGINE",
+			"CREATE TABLE",
+			"int",
+			"DEFAULT NULL",
+			"this->ch",
+			"ch",
+			"curl",
+			"search",
+			"nextFil",
+			"search",
+			"searchImage",
+			"&",
+			"width: 450,",
+			"buttonEdit",
+			"getQuery",
+			"<option value=\"0\">Assign</option>",
+			"Assign User",
+			"exception-select {",
+			"deleteProduct",
+			"public function loadById",
+			"0;",
+			"document.querySelector",
+			"\n			",
+			"Inventory_Exception_Product",
+			"id",
+			"createProduct",
+			"deleteProduct",
+			"delete",
+			"createProductTemplate",
+			"{{",
+			"loadExceptionById",
+			"id=\"",
+			"''",
+			"feedbackQueue",
+			"options",
+			"delete",
+			"removed",
+			"oid",
+			"contact_phone",
+			"contact_email",
+			"contact_name",
+			"exception-edit",
+			"assignmentId",
+			"->createLog(",
+			"$userId =",
+			"->createLog(",
+			"assignment",
+			"assignmentId",
+			"exception",
+			".timeline-single-item .common-note",
+			"primary",
+			"follower",
+			"ordersSuccess:",
+			"ordersSuccess",
+			"hidden",
+			"row",
+			"voidButton",
+			"Show Voided",
+			"buttonShowVoid",
+			"js-show-voided",
+			"buttonShowVoid",
+			"Show Voided",
+			"js-show-voided",
+			"voidRows",
+			"Void':",
+			"Void",
+			"statusUpda",
+			";",
+			"require(",
+			"orderStatusRevert",
+			"orderStatusCurrentStore",
+			"orderStatusCurrent",
+			"orderSinglePersist",
+			"orderStatusCurrent",
+			"js-button-update-order-status",
+			"this.close",
+			"Status not changed",
+			"getPlu",
+			"'es'",
+			"getPlu",
+			"arrai",
+			"getPlu",
+			"getUnprintedShipmentIds",
+			"Ship",
+			"options",
+			"checkErrorOrders",
+			"actions",
+			"getOrderList",
+			"checkErrorOrders",
+			"dialogueQueue.create",
+			"onComplete",
+			"defaults",
+			"onStatusUpdateSuccess",
+			"updateStatuses",
+			"errors",
+			"updateStatuses",
+			"errors",
+			"onComplete",
+			"options.orderCurrent =",
+			"options.orderCurrent",
+			"dispatchQueueBegin",
+			"orderDispatchBegin",
+			"onComplete",
+			"onStatusUpdateSuccess",
+			"errors",
+			"onComplete",
+			"validateOrderPicking",
+			"onComplete",
+			"printSingle",
+			"onComplete",
+			"begin",
+			"Service.",
+			"includeShipments",
+			".begin(",
+			"pickingQueueBegin",
+			"newStatus",
+			"printerName",
+			"pickingQueueBegin"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": false,
+		"replace_history":
+		[
+			"statusUpdate.begin",
+			"getActiveList",
+			"getClosedList",
+			"loadByOrderId",
+			"Admin_Modules_Exceptions&action=",
+			"isExceptionFormCreate",
+			"protected $publicActions",
+			"foreach (",
+			"if (",
+			"AbstractAjaxModule",
+			"",
+			"->loadOneToMany",
+			"new \\Avdis\\Store\\Iterator\\ObjectIterator",
+			"new \\Avdis\\Store\\Iterator",
+			"SITE",
+			"\\Avdis\\Store\\Access\\Type\\Order",
+			"(\\Avdis\\System\\Access\\Type\\Order $",
+			"productsBySku",
+			"basketOrderProductsGroupsTotals",
+			"basketOrderProductsGroups",
+			"sendVerificationEmail",
+			"basketTidy",
+			"emailIdentifier",
+			"define('SITE', 'hifi');",
+			"define('SITE', 'avo');",
+			"define('SITE', 'hifi');",
+			"192.168.2.118",
+			"define('SITE', 'avo');",
+			"define('SITE', 'hifi');",
+			"p",
+			"if (",
+			"<?php",
+			"<a class=\"help-button\">",
+			"$product->get('$1')",
+			"<?php echo $1 ?>",
+			"<?php echo (.*?) ?>",
+			"define('SITE', 'hifi');",
+			"@charset 'utf-8';",
+			"@charset 'UTF-8';",
+			"define('SITE', 'avo');",
+			"form-newsletter-subscribe-label form-label block",
+			"define('SITE', 'hifi');",
+			"9: define('SITE', 'hifi');",
+			">View Range<",
+			"tinymce-content.bundle.css",
+			"/*SITE_NAME*/'avo'",
+			"form-checkout-input form-input",
+			"product-single-stock-prediction-update link secondary js-update-new-stock",
+			"@import '$1';",
+			"table",
+			"link secondary",
+			"link",
+			"form-input",
+			"button.primary",
+			"button",
+			"button secondary",
+			"button primary",
+			"var(--color-secondary-1-3)",
+			"var(--color-secondary-1-4)",
+			"color($1 tint($2));",
+			"color($1 shade($2));",
+			"color($1 tint($2));",
+			"/*SITE_NAME*/",
+			"/*SITENAME*/",
+			"",
+			"require('mwyatt-feedback-queue')",
+			"mwyatt-codex/js/",
+			"@import '../settings.css';",
+			"",
+			"var(--color-whathifi-primary)",
+			"var(--color-vip-primary-0)",
+			"var(--color-note)",
+			"var(--site-width)",
+			"var(--grid-gutter)",
+			"",
+			"@if '{{SITENAME}}' ==",
+			"@if {{SITENAME}} ==",
+			"class=\"product-single-heading-primary h2\"",
+			"\"table-basic\"",
+			"",
+			"form-label",
+			"",
+			"margin: 1em 0;",
+			"form-select",
+			"form-input",
+			"",
+			"form-select",
+			"form-input",
+			"class=\"account-input-text w100 input-text\"",
+			"} @else {",
+			"@if var(--site) ==",
+			"",
+			"<div class=\"case-dark clearfix\">",
+			"",
+			"@import 'settings.css';",
+			"var(--font-family)",
+			"var(--color-divider-light)",
+			"var(--body-color)",
+			"var(--color-pagination-background)",
+			"var(--color-nav-main-border)",
+			"var(--color-nav-main-background)",
+			"var(--color-background)",
+			"var(--color-quinary)",
+			"var(--color-quaternary)",
+			"var(--color-secondary-2-0)",
+			"var(--color-secondary-1-0)",
+			"var(--color-primary-0)",
+			"var(--color-primary-0);",
+			"border-radius: var(--border-radius);",
+			"$color-quinary",
+			"#ccc",
+			"#e5e5e5",
+			"#eee",
+			"#000",
+			"#fff",
+			"$color-secondary-1-4",
+			"$color-secondary-1-3",
+			"#ff7711",
+			"#06a2cb",
+			"@import $1.css';",
+			"@if $site == 'avo' {font-weight: 100;} else {font-weight: 400;}",
+			"require('mwyatt-grid')",
+			"templateSingle: require('feedbackQueueSingleMst')",
+			"templateContainer: require('feedbackQueueContainerMst')",
+			"orderId",
+			"require('mwyatt-codex/",
+			"require('mwyatt-dialogue'",
+			"return false; // should not run, return needed to be removed"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/var/www/html/possession/src/Controller.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 279,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								279,
+								279
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "possession.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ignore",
+				".gitignore"
+			],
+			[
+				"contr",
+				"src/Controller.php"
+			],
+			[
+				"controllertes",
+				"vendor/mwyatt/core/src/Controller/Test.php"
+			],
+			[
+				"ign",
+				".gitignore"
+			],
+			[
+				"comlo",
+				"composer.lock"
+			],
+			[
+				"",
+				"src/Model/Possession.php"
+			],
+			[
+				"mapperuser",
+				"vendor/mwyatt/core/src/Mapper/User.php"
+			],
+			[
+				"modeluser",
+				"vendor/mwyatt/core/src/Model/User.php"
+			],
+			[
+				"tabledefi",
+				"vendor/mwyatt/core/sql/tableDefinition.sql"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"compos",
+				"composer.json"
+			],
+			[
+				"apidpd",
+				"trunk/app/php/Api/Dpd.php"
+			],
+			[
+				"excepsingle",
+				"trunk/js/admin/exception/single.js"
+			],
+			[
+				"storageexcepprod",
+				"trunk/app/classes/storage/exception/product.php"
+			],
+			[
+				"excepcreatejs",
+				"trunk/js/admin/exception/create.js"
+			],
+			[
+				"ajaxmodexception",
+				"trunk/app/classes/admin/ajax/modules/exceptions.php"
+			],
+			[
+				"excepallcss",
+				"trunk/css/admin/exception/all.css"
+			],
+			[
+				"servexceptio",
+				"trunk/app/php/Service/Exception.php"
+			],
+			[
+				"ajaxexception",
+				"trunk/app/classes/admin/ajax/modules/exceptions.php"
+			],
+			[
+				"excepsinglec",
+				"trunk/css/admin/exception/single.css"
+			],
+			[
+				"storageexcepproduc",
+				"trunk/app/classes/storage/exception/product.php"
+			],
+			[
+				"invexcepproduc",
+				"trunk/app/classes/inventory/exception/product.php"
+			],
+			[
+				"adminexception",
+				"trunk/app/classes/admin/ajax/modules/exceptions.php"
+			],
+			[
+				"serviceexcep",
+				"trunk/js/admin/service/exception.js"
+			],
+			[
+				"excepsummary",
+				"trunk/js/admin/exception/single/editSummary.mustache"
+			],
+			[
+				"prodtab",
+				"trunk/js/admin/exception/single/productTable.mustache"
+			],
+			[
+				"exceptionsingletpl",
+				"trunk/app/skin/custom/admin/modules/exceptions/single.tpl"
+			],
+			[
+				"prodtable",
+				"trunk/js/admin/exception/single/productTable.mustache"
+			],
+			[
+				"invexcepprod",
+				"trunk/app/classes/inventory/exception/product.php"
+			],
+			[
+				"storageceptionassign",
+				"trunk/app/classes/storage/exception/assignment.php"
+			],
+			[
+				"ajaxmodexce",
+				"trunk/app/classes/admin/ajax/modules/exceptions.php"
+			],
+			[
+				"serviceexception",
+				"trunk/js/admin/service/exception.js"
+			],
+			[
+				"excepsingletpl",
+				"trunk/app/skin/custom/admin/modules/exceptions/single.tpl"
+			],
+			[
+				"excepsumar",
+				"trunk/js/admin/exception/single/summary.mustache"
+			],
+			[
+				"excesumarmus",
+				"trunk/js/admin/exception/single/editSummary.mustache"
+			],
+			[
+				"invenexceptionproduct",
+				"trunk/app/classes/inventory/exception/product.php"
+			],
+			[
+				"ordershipmenttpl",
+				"trunk/app/skin/custom/admin/modules/order/single/_shipment.tpl"
+			],
+			[
+				"admincommon",
+				"trunk/css/admin/common.bundle.css"
+			],
+			[
+				"orderall",
+				"trunk/js/admin/order/all.js"
+			],
+			[
+				"follow",
+				"trunk/js/admin/follow.js"
+			],
+			[
+				"excepall",
+				"trunk/js/admin/exception/all.js"
+			],
+			[
+				"invexcept.",
+				"trunk/app/classes/inventory/exception.php"
+			],
+			[
+				"ajaxexcp",
+				"trunk/app/classes/admin/ajax/modules/exceptions.php"
+			],
+			[
+				"typeorder",
+				"trunk/app/php/Access/Type/Order.php"
+			],
+			[
+				"orderacc.sq",
+				"contrib/sql/v285/orderAccess7.sql"
+			],
+			[
+				"statupda",
+				"trunk/js/admin/order/statusUpdate.js"
+			],
+			[
+				"button",
+				"trunk/css/button.css"
+			],
+			[
+				"admincommoncss",
+				"trunk/css/admin/common.bundle.css"
+			],
+			[
+				"ordersinship",
+				"trunk/js/admin/order/single/shipment.js"
+			],
+			[
+				"ordersinle",
+				"trunk/js/admin/order/single.js"
+			],
+			[
+				"serviceorder",
+				"trunk/js/admin/service/order.js"
+			],
+			[
+				"ordsinper",
+				"trunk/js/admin/order/singlePersist.js"
+			],
+			[
+				"ordershipment",
+				"trunk/js/admin/order/single/shipment.js"
+			],
+			[
+				"ordersummar",
+				"trunk/app/skin/custom/admin/modules/order/single/_summary.tpl"
+			],
+			[
+				"ordersummary",
+				"trunk/app/skin/custom/frontend/common/_order-summary.tpl"
+			],
+			[
+				"serviceshipment",
+				"trunk/js/admin/service/shipment.js"
+			],
+			[
+				"adminajaxmodorder",
+				"trunk/app/classes/admin/ajax/modules/order.php"
+			],
+			[
+				"checkoutpayment",
+				"trunk/js/checkout/payment.js"
+			],
+			[
+				"checkoutjs",
+				"trunk/js/checkout.js"
+			],
+			[
+				"statupdate",
+				"trunk/js/admin/order/statusUpdate.js"
+			],
+			[
+				"invaccount",
+				"trunk/app/classes/inventory/account.php"
+			],
+			[
+				"typeshipment",
+				"trunk/app/php/Access/Type/Shipment.php"
+			],
+			[
+				"ordersingle",
+				"trunk/js/admin/order/single.js"
+			],
+			[
+				"excepalljs",
+				"trunk/js/admin/exception/all.js"
+			],
+			[
+				"orderalljs",
+				"trunk/js/admin/order/all.js"
+			],
+			[
+				"notejs",
+				"trunk/js/admin/note.js"
+			],
+			[
+				"errormusta",
+				"trunk/js/admin/order/statusUpdateError.mustache"
+			],
+			[
+				"orderrmusta",
+				"trunk/js/admin/order/statusUpdateError.mustache"
+			],
+			[
+				"printchoose",
+				"trunk/js/admin/order/printerChoose.js"
+			],
+			[
+				"selectmus",
+				"trunk/js/inputSelect.mustache"
+			],
+			[
+				"shipmenjs",
+				"trunk/js/admin/order/single/shipment.js"
+			],
+			[
+				"ajaxmodship",
+				"trunk/app/classes/admin/ajax/modules/shipment.php"
+			],
+			[
+				"adminmodexcep",
+				"trunk/app/classes/admin/modules/exceptions.php"
+			],
+			[
+				"excepalltpl",
+				"trunk/app/skin/custom/admin/modules/exceptions/all.tpl"
+			],
+			[
+				"ordh1",
+				"trunk/app/skin/custom/admin/modules/order/single/_h1.tpl"
+			],
+			[
+				"invexcepnote",
+				"trunk/app/classes/inventory/exception/note.php"
+			],
+			[
+				"servexcept",
+				"trunk/app/php/Service/Exception.php"
+			],
+			[
+				"adminajaxexcep",
+				"trunk/app/classes/admin/ajax/modules/exceptions.php"
+			],
+			[
+				"exsingle",
+				"trunk/js/admin/exception/single.js"
+			],
+			[
+				"adminajaxexcepnote",
+				"trunk/app/classes/admin/ajax/modules/exception/note.php"
+			],
+			[
+				"admiajaxmodordernote",
+				"trunk/app/classes/admin/ajax/modules/order/note.php"
+			],
+			[
+				"notemus",
+				"trunk/js/admin/note.mustache"
+			],
+			[
+				"expall",
+				"trunk/js/admin/exception/all.js"
+			],
+			[
+				"storageexcepnote",
+				"trunk/app/classes/storage/exception/note.php"
+			],
+			[
+				"servexcep",
+				"trunk/app/php/Service/Exception.php"
+			],
+			[
+				"ajaxexcep",
+				"trunk/app/classes/admin/ajax/modules/exceptions.php"
+			],
+			[
+				"exceppreview",
+				"trunk/js/admin/exception/preview.mustache"
+			],
+			[
+				"ordpreview",
+				"trunk/js/admin/order/preview.mustache"
+			],
+			[
+				"ordsinglemust",
+				"trunk/js/admin/order/single.mustache"
+			],
+			[
+				"servorder",
+				"trunk/app/php/Service/Order.php"
+			],
+			[
+				"handlerorder",
+				"trunk/app/php/Access/Handler/Order/Note.php"
+			],
+			[
+				"handlerordernote",
+				"trunk/app/php/Access/Handler/Order/Note.php"
+			],
+			[
+				"typordernote",
+				"trunk/app/php/Access/Type/Order/Note.php"
+			],
+			[
+				"objitera",
+				"trunk/app/php/Iterator/ObjectIterator.php"
+			],
+			[
+				"absitera",
+				"trunk/app/php/Iterator/AbstractIterator.php"
+			],
+			[
+				"objeiter",
+				"trunk/app/php/Iterator/ObjectIterator.php"
+			],
+			[
+				"ajaxmodorder",
+				"trunk/app/classes/admin/ajax/modules/order.php"
+			],
+			[
+				"admicommenu",
+				"trunk/app/skin/custom/admin/common/_menu.tpl"
+			],
+			[
+				"excepemailmu",
+				"trunk/js/admin/exception/email.mustache"
+			],
+			[
+				"admincom",
+				"trunk/css/admin/common.bundle.css"
+			],
+			[
+				"storageexcepassign",
+				"trunk/app/classes/storage/exception/assignment.php"
+			],
+			[
+				"storageexceptionlog",
+				"trunk/app/classes/storage/exception/log.php"
+			],
+			[
+				"excepcss",
+				"trunk/css/admin/exception.css"
+			],
+			[
+				"exceptioncretpl",
+				"trunk/app/skin/custom/admin/modules/exceptions/create.tpl"
+			],
+			[
+				"excepcreate",
+				"trunk/app/skin/custom/admin/modules/exceptions/_create.tpl"
+			],
+			[
+				"excepcreatetpl",
+				"trunk/app/skin/custom/admin/modules/help/topic/_exception-create.tpl"
+			],
+			[
+				"excepsearch",
+				"trunk/app/skin/custom/admin/modules/exceptions/search.tpl"
+			],
+			[
+				"excepfollow",
+				"trunk/app/skin/custom/admin/modules/exceptions/_follow.tpl"
+			],
+			[
+				"adminmodexcepall",
+				"trunk/app/skin/custom/admin/modules/exceptions/all.tpl"
+			],
+			[
+				"exceptionalltpl",
+				"trunk/app/skin/custom/admin/modules/exceptions/all.tpl"
+			],
+			[
+				"orderalltpl",
+				"trunk/app/skin/custom/admin/modules/order/all.tpl"
+			],
+			[
+				"ajaxshipment",
+				"trunk/app/classes/admin/ajax/modules/shipment.php"
+			],
+			[
+				"serviceopening",
+				"trunk/app/php/Service/Opening.php"
+			],
+			[
+				"absservice",
+				"trunk/app/php/Service/AbstractService.php"
+			],
+			[
+				"mailpanel",
+				"trunk/js/admin/mail/panel.mustache"
+			],
+			[
+				"tinymcecon",
+				"trunk/js/admin/tinymceConfig.js"
+			],
+			[
+				"tinymcecontent",
+				"trunk/css/admin/tinymce-content.bundle.css"
+			],
+			[
+				"ajaxemail",
+				"trunk/app/classes/admin/ajax/modules/email.php"
+			],
+			[
+				"stockremindertpl",
+				"trunk/app/skin/custom/admin/modules/products/stock-reminder/all.tpl"
+			],
+			[
+				"invmailtem",
+				"trunk/app/classes/inventory/mail/template.php"
+			],
+			[
+				"invexce",
+				"trunk/app/classes/inventory/exception.php"
+			],
+			[
+				"emailsend",
+				"trunk/js/admin/emailSend.js"
+			],
+			[
+				"ordersingleemail",
+				"trunk/vendor/dts/ebay-sdk-php/src/DTS/eBaySDK/Trading/Types/GetSellingManagerEmailLogRequestType.php"
+			],
+			[
+				"admin/product.js",
+				"trunk/js/admin/product/single.js"
+			],
+			[
+				"servmail",
+				"trunk/app/php/Service/Mail.php"
+			],
+			[
+				"ajaxexcept",
+				"trunk/app/classes/admin/ajax/modules/exceptions.php"
+			],
+			[
+				"invmailtmpla",
+				"trunk/app/classes/inventory/mail/template.php"
+			],
+			[
+				"ajaxmodmail",
+				"trunk/app/classes/admin/ajax/modules/email.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"store",
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"core",
+				"/var/www/html/setting/sublime-text-workspaces/core.sublime-workspace"
+			],
+			[
+				"port",
+				"/var/www/html/setting/sublime-text-workspaces/portfolio.sublime-workspace"
+			],
+			[
+				"codex",
+				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
+				"sn",
+				"/var/www/html/setting/sublime-text-workspaces/sandbox.sublime-workspace"
+			],
+			[
+				"por",
+				"/var/www/html/setting/sublime-text-workspaces/portfolio.sublime-workspace"
+			],
+			[
+				"pot",
+				"/var/www/html/setting/sublime-text-workspaces/portfolio.sublime-workspace"
+			],
+			[
+				"co",
+				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
+				"cod",
+				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
+				"dia",
+				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
+			],
+			[
+				"code",
+				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
+				"claire",
+				"/var/www/html/setting/sublime-text-workspaces/claire.sublime-workspace"
+			],
+			[
+				"eltt",
+				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"clai",
+				"/var/www/html/setting/sublime-text-workspaces/claire.sublime-workspace"
+			],
+			[
+				"cliare",
+				"/var/www/html/setting/sublime-text-workspaces/claire.sublime-workspace"
+			],
+			[
+				"clarie",
+				"/var/www/html/setting/sublime-text-workspaces/claire.sublime-workspace"
+			],
+			[
+				"clair",
+				"/var/www/html/setting/sublime-text-workspaces/claire.sublime-workspace"
+			],
+			[
+				"elttl",
+				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"el",
+				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"elt",
+				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"avo",
+				"/var/www/html/setting/sublime-text-workspaces/avodrafts.sublime-workspace"
+			],
+			[
+				"news",
+				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"avdo",
+				"/var/www/html/setting/sublime-text-workspaces/avodrafts.sublime-workspace"
+			],
+			[
+				"gri",
+				"/var/www/html/setting/sublime-text-workspaces/grid.sublime-workspace"
+			],
+			[
+				"feed",
+				"/var/www/html/setting/sublime-text-workspaces/feedback-queue.sublime-workspace"
+			],
+			[
+				"grid",
+				"/var/www/html/setting/sublime-text-workspaces/grid.sublime-workspace"
+			],
+			[
+				"avodra",
+				"/var/www/html/setting/sublime-text-workspaces/avodrafts.sublime-workspace"
+			],
+			[
+				"dialogue",
+				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
+			],
+			[
+				"avdr",
+				"/var/www/html/setting/sublime-text-workspaces/avodrafts.sublime-workspace"
+			],
+			[
+				"da",
+				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
+			],
+			[
+				"inven",
+				"/var/www/html/setting/sublime-text-workspaces/inventory.sublime-workspace"
+			],
+			[
+				"dialo",
+				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
+			],
+			[
+				"sand",
+				"/var/www/html/setting/sublime-text-workspaces/sandbox.sublime-workspace"
+			],
+			[
+				"inv",
+				"/var/www/html/setting/sublime-text-workspaces/inventory.sublime-workspace"
+			],
+			[
+				"di",
+				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
+			],
+			[
+				"s",
+				"/var/www/html/setting/sublime-text-workspaces/sandbox.sublime-workspace"
+			],
+			[
+				"inve",
+				"/var/www/html/setting/sublime-text-workspaces/inventory.sublime-workspace"
+			],
+			[
+				"strore",
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"file",
+				"/var/www/html/setting/sublime-text-workspaces/file-browser.sublime-workspace"
+			],
+			[
+				"dial",
+				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
+			],
+			[
+				"coere",
+				"/var/www/html/setting/sublime-text-workspaces/core.sublime-workspace"
+			],
+			[
+				"sand	",
+				"/var/www/html/setting/sublime-text-workspaces/sandbox.sublime-workspace"
+			],
+			[
+				"snd",
+				"/var/www/html/setting/sublime-text-workspaces/sandbox.sublime-workspace"
+			],
+			[
+				"dai",
+				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
+			],
+			[
+				"dialog",
+				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
+			],
+			[
+				"stor",
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"coe",
+				"/var/www/html/setting/sublime-text-workspaces/core.sublime-workspace"
+			],
+			[
+				"invento",
+				"/var/www/html/setting/sublime-text-workspaces/inventory.sublime-workspace"
+			],
+			[
+				"gameen",
+				"/var/www/html/setting/sublime-text-workspaces/game-engine.sublime-workspace"
+			],
+			[
+				"game",
+				"/var/www/html/setting/sublime-text-workspaces/game-engine.sublime-workspace"
+			],
+			[
+				"game en",
+				"/var/www/html/setting/sublime-text-workspaces/game-engine.sublime-workspace"
+			],
+			[
+				"gameeng",
+				"/var/www/html/setting/sublime-text-workspaces/game-engine.sublime-workspace"
+			],
+			[
+				"diak",
+				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
+			],
+			[
+				"diaa",
+				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
+			],
+			[
+				"diap",
+				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
+			],
+			[
+				"c",
+				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
+				"gr",
+				"/var/www/html/setting/sublime-text-workspaces/grid.sublime-workspace"
+			],
+			[
+				"url",
+				"/var/www/html/setting/sublime-text-workspaces/url.sublime-workspace"
+			],
+			[
+				"stire",
+				"/var/www/html/sublime-workspace/store.sublime-workspace"
+			],
+			[
+				"gam",
+				"/var/www/html/sublime-workspace/game-engine.sublime-workspace"
+			],
+			[
+				"gmae",
+				"/var/www/html/sublime-workspace/game-engine.sublime-workspace"
+			],
+			[
+				"sto",
+				"/var/www/html/sublime-workspace/store.sublime-workspace"
+			],
+			[
+				"diao",
+				"/var/www/html/sublime-workspace/dialogue.sublime-workspace"
+			],
+			[
+				"st",
+				"/var/www/html/sublime-workspace/store.sublime-workspace"
+			],
+			[
+				"diua",
+				"/var/www/html/sublime-workspace/dialogue.sublime-workspace"
+			],
+			[
+				"g",
+				"/var/www/html/grid/grid.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 255.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
