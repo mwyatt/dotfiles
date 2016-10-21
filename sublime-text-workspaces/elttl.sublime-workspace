@@ -76,6 +76,10 @@
 				"File: Close All"
 			],
 			[
+				"stat",
+				"View: Toggle Status Bar"
+			],
+			[
 				"closeal",
 				"File: Close All"
 			],
@@ -86,10 +90,6 @@
 			[
 				"user",
 				"Preferences: Settings - User"
-			],
-			[
-				"stat",
-				"View: Toggle Status Bar"
 			],
 			[
 				"install",
@@ -144,7 +144,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 431.0
+		"width": 557.0
 	},
 	"console":
 	{
@@ -174,39 +174,54 @@
 	],
 	"file_history":
 	[
-		"/var/www/html/elttl/css/header.css",
-		"/var/www/html/elttl/indexCommon.php",
-		"/var/www/html/elttl/route.php",
+		"/var/www/html/elttl/src/Service/Bread.php",
+		"/var/www/html/elttl/src/Controller/Result.php",
 		"/var/www/html/elttl/src/Controller/Content.php",
-		"/var/www/html/elttl/src/Controller/Fixture.php",
-		"/var/www/html/elttl/src/Controller/Team.php",
-		"/var/www/html/elttl/src/Controller/Player.php",
+		"/var/www/html/elttl/template/bread.php",
+		"/var/www/html/elttl/template/content-single.php",
+		"/var/www/html/elttl/src/Entity/Content.php",
+		"/var/www/html/elttl/route.php",
 		"/var/www/html/elttl/pimple.php",
 		"/var/www/html/elttl/src/Entity.php",
+		"/var/www/html/elttl/src/Controller.php",
+		"/var/www/html/elttl/src/Admin/Controller/Fixture.php",
+		"/var/www/html/elttl/template/admin/tennis/fixture/single.php",
+		"/var/www/html/elttl/src/Admin/Service/Fixture/Fulfill.php",
+		"/var/www/html/elttl/src/Entity/Encounter.php",
+		"/var/www/html/elttl/src/Model/Encounter.php",
+		"/var/www/html/elttl/indexAdmin.php",
+		"/var/www/html/elttl/src/Controller/Admin.php",
+		"/var/www/html/elttl/index.php",
+		"/var/www/html/elttl/gulpfile.js",
+		"/var/www/html/elttl/src/Controller/Thumb.php",
+		"/var/www/html/elttl/vendor/mwyatt/core/src/Url.php",
+		"/var/www/html/elttl/.gitignore",
+		"/var/www/html/elttl/vendor/mwyatt/core/src/ServiceAbstract.php",
+		"/var/www/html/elttl/vendor/mwyatt/core/src/Controller.php",
 		"/var/www/html/elttl/vendor/mwyatt/core/src/AbstractModel.php",
-		"/var/www/html/elttl/src/Controller/Result.php",
+		"/var/www/html/elttl/src/Controller/Team.php",
+		"/var/www/html/elttl/src/Admin/Controller/Crud.php",
+		"/var/www/html/elttl/src/Controller/Fixture.php",
+		"/var/www/html/elttl/src/Controller/Player.php",
+		"/home/martin/Documents/digitalocean-sql-backup/elttl_1-07-09-2016.sql",
+		"/var/www/html/elttl/css/header.css",
+		"/var/www/html/elttl/indexCommon.php",
 		"/var/www/html/elttl/template/result/_year-all.php",
-		"/var/www/html/elttl/src/Entity/Content.php",
 		"/var/www/html/elttl/src/Controller/User.php",
 		"/var/www/html/elttl/src/Entity/Player.php",
 		"/var/www/html/elttl/vendor/mwyatt/core/src/Entity.php",
 		"/var/www/html/elttl/src/Admin/Controller/Player.php",
 		"/var/www/html/elttl/src/Controller/Error.php",
-		"/var/www/html/elttl/src/Controller.php",
-		"/var/www/html/elttl/index.php",
 		"/var/www/html/elttl/vendor/mwyatt/core/src/Response.php",
 		"/var/www/html/elttl/template/header/_meta.php",
 		"/var/www/html/elttl/src/Entity/Year.php",
-		"/var/www/html/elttl/vendor/mwyatt/core/src/Controller.php",
 		"/var/www/html/elttl/src/Service/Thumb.php",
 		"/var/www/html/elttl/template/_header.php",
-		"/var/www/html/elttl/indexAdmin.php",
 		"/var/www/html/elttl/config.php",
 		"/var/www/html/elttl/template/home.php",
 		"/var/www/html/elttl/css/home.css",
 		"/var/www/html/elttl/css/common.bundle.css",
 		"/var/www/html/elttl/css/general.css",
-		"/var/www/html/elttl/.gitignore",
 		"/var/www/html/elttl/error-sample.txt",
 		"/var/www/html/elttl/css/home/cover.css",
 		"/var/www/html/setting/pull.sh",
@@ -220,7 +235,6 @@
 		"/var/www/html/elttl/src/Admin/Service/System/Upgrade.php",
 		"/var/www/html/elttl/src/Entity/User.php",
 		"/var/www/html/elttl/src/Model/Option.php",
-		"/var/www/html/elttl/gulpfile.js",
 		"/var/www/html/elttl/js/admin/login.js",
 		"/var/www/html/elttl/package.json",
 		"/var/www/html/elttl/composer.json",
@@ -241,7 +255,6 @@
 		"/var/www/html/elttl/template/print/header.php",
 		"/var/www/html/elttl/template/_menu-secondary.php",
 		"/var/www/html/elttl/src/Admin/Controller/Content.php",
-		"/var/www/html/elttl/src/Admin/Controller/Crud.php",
 		"/var/www/html/elttl/src/Admin/Controller/Ad.php",
 		"/var/www/html/elttl/src/Service/Common.php",
 		"/var/www/html/elttl/json/menu-tertiary.json",
@@ -251,7 +264,6 @@
 		"/var/www/html/elttl/credentials-sample.php",
 		"/home/martin/Documents/elttl-backup/credentials.php",
 		"/home/martin/Documents/elttl-backup/config.php",
-		"/var/www/html/elttl/src/Controller/Thumb.php",
 		"/var/www/html/elttl/js/admin/common.bundle.js",
 		"/var/www/html/elttl/src/Entity/File.php",
 		"/home/martin/Downloads/phpinfo.php",
@@ -272,9 +284,6 @@
 		"/var/www/html/elttl/js/admin/content/single.bundle.js",
 		"/var/www/html/elttl/js/admin/utility/slug.js",
 		"/var/www/html/elttl/src/Admin/Controller/Ajax/Content.php",
-		"/var/www/html/elttl/src/Admin/Service/Fixture/Fulfill.php",
-		"/var/www/html/elttl/template/admin/tennis/fixture/single.php",
-		"/var/www/html/elttl/src/Admin/Controller/Fixture.php",
 		"/var/www/html/elttl/src/Service/Fixture.php",
 		"/var/www/html/elttl/src/Admin/Controller/System/Tennis.php",
 		"/var/www/html/elttl/template/admin/system/tennis/all.php",
@@ -292,16 +301,7 @@
 		"/var/www/html/elttl/template/admin/dashboard.php",
 		"/var/www/html/elttl/src/Admin/Controller.php",
 		"/var/www/html/elttl/src/Admin/Controller/Index.php",
-		"/var/www/html/elttl/src/Controller/Index.php",
-		"/var/www/html/elttl/template/admin/header/_menu.php",
-		"/var/www/html/elttl/src/Admin/Controller/User.php",
-		"/var/www/html/elttl/template/admin/user/single.php",
-		"/var/www/html/elttl/src/Admin/Service/User/Permission.php",
-		"/var/www/html/elttl/template/admin/user/all.php",
-		"/var/www/html/elttl/vendor/mwyatt/core/src/Request.php",
-		"/var/www/html/elttl/src/Admin/Controller/Team.php",
-		"/var/www/html/elttl/template/admin/tennis/division/all.php",
-		"/var/www/html/elttl/template/admin/tennis/division/single.php"
+		"/var/www/html/elttl/src/Controller/Index.php"
 	],
 	"find":
 	{
@@ -309,7 +309,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 158.0,
 		"where_history":
 		[
 			"-node_modules/, -asset/, -vendor/,",
@@ -364,6 +364,19 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"->offsetSet('bread'",
+			"pe': ",
+			"content",
+			"breadService",
+			"->append",
+			"yearId",
+			"$url",
+			"generate",
+			"gallery",
+			"media",
+			"return $this->response('', 404);",
+			"\n            ",
+			"return $this->response('', 404);",
 			"container-header-inner",
 			"player",
 			"getNameFull",
@@ -478,20 +491,7 @@
 			"/delete",
 			"OriginalAppName",
 			"Dashboard",
-			"<a href",
-			"admin/system",
-			"system/",
-			"content/all",
-			"];",
-			"$class",
-			"];",
-			"$class",
-			",\n    []",
-			"];",
-			"$class",
-			"Controller",
-			"Index",
-			"permission"
+			"<a href"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -499,6 +499,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"return $this->redirect('error.notFound');",
 			"button secondary",
 			"button",
 			"user.forgot-password.key",
@@ -633,12 +634,16 @@
 		"selected_items":
 		[
 			[
-				"indexcommon",
-				"indexCommon.php"
+				"",
+				"src/Service/Bread.php"
 			],
 			[
-				"headercss",
-				"css/header.css"
+				"contetnsingle",
+				"template/content-single.php"
+			],
+			[
+				"contentsingle",
+				"template/content-single.php"
 			],
 			[
 				"route",
@@ -649,16 +654,116 @@
 				"src/Entity/Content.php"
 			],
 			[
-				"controllerteam",
-				"src/Controller/Team.php"
+				"controllerresult",
+				"src/Controller/Result.php"
 			],
 			[
-				"",
-				"src/Controller/Player.php"
+				"pim",
+				"pimple.php"
+			],
+			[
+				"bread",
+				"src/Service/Bread.php"
+			],
+			[
+				"control",
+				"src/Controller.php"
+			],
+			[
+				"controllerfixture",
+				"src/Admin/Controller/Fixture.php"
+			],
+			[
+				"fixturesingle",
+				"template/admin/tennis/fixture/single.php"
+			],
+			[
+				"entencount",
+				"src/Entity/Encounter.php"
+			],
+			[
+				"moldencounter",
+				"src/Model/Encounter.php"
+			],
+			[
+				"templateadminfixture",
+				"template/admin/tennis/fixture/single.php"
+			],
+			[
+				"fixtureful",
+				"src/Admin/Service/Fixture/Fulfill.php"
+			],
+			[
+				"controllerami",
+				"src/Controller/Admin.php"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"coreurl",
+				"vendor/mwyatt/core/src/Url.php"
 			],
 			[
 				"pimple",
 				"pimple.php"
+			],
+			[
+				"coreservice",
+				"vendor/mwyatt/core/src/ServiceAbstract.php"
+			],
+			[
+				"corecontroller",
+				"vendor/mwyatt/core/src/Controller.php"
+			],
+			[
+				"url",
+				"vendor/mwyatt/core/src/Url.php"
+			],
+			[
+				"absmodl",
+				"vendor/mwyatt/core/src/AbstractModel.php"
+			],
+			[
+				"entit",
+				"src/Entity.php"
+			],
+			[
+				"controllercontent",
+				"src/Controller/Content.php"
+			],
+			[
+				"servthumb",
+				"src/Service/Thumb.php"
+			],
+			[
+				"gitig",
+				".gitignore"
+			],
+			[
+				"controllerthumb",
+				"src/Controller/Thumb.php"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"controllerconten",
+				"src/Controller/Content.php"
+			],
+			[
+				"controllerteam",
+				"src/Controller/Team.php"
+			],
+			[
+				"indexcommon",
+				"indexCommon.php"
+			],
+			[
+				"headercss",
+				"css/header.css"
 			],
 			[
 				"entplayer",
@@ -679,14 +784,6 @@
 			[
 				"response",
 				"vendor/mwyatt/core/src/Response.php"
-			],
-			[
-				"index",
-				"index.php"
-			],
-			[
-				"controllercontent",
-				"src/Controller/Content.php"
 			],
 			[
 				"controllererrro",
@@ -721,10 +818,6 @@
 				"css/common.bundle.css"
 			],
 			[
-				"gitig",
-				".gitignore"
-			],
-			[
 				"homecover",
 				"css/home/cover.css"
 			],
@@ -749,10 +842,6 @@
 				"template/header/_meta.php"
 			],
 			[
-				"pim",
-				"pimple.php"
-			],
-			[
 				"entuser",
 				"src/Entity/User.php"
 			],
@@ -767,10 +856,6 @@
 			[
 				"indexcom",
 				"indexCommon.php"
-			],
-			[
-				"gulp",
-				"gulpfile.js"
 			],
 			[
 				"composer",
@@ -941,20 +1026,12 @@
 				"vendor/mwyatt/core/src/View.php"
 			],
 			[
-				"corecontroller",
-				"vendor/mwyatt/core/src/Controller.php"
-			],
-			[
 				"data.php",
 				"src/Data.php"
 			],
 			[
 				"service.php",
 				"src/Service.php"
-			],
-			[
-				"control",
-				"src/Controller.php"
 			],
 			[
 				"thumb",
@@ -979,10 +1056,6 @@
 			[
 				"encounters",
 				"template/_encounters.php"
-			],
-			[
-				"fixturesingle",
-				"template/fixture-single.php"
 			],
 			[
 				"_fixture",
@@ -1029,10 +1102,6 @@
 				"css/common.bundle.css"
 			],
 			[
-				"controllerresult",
-				"src/Controller/Result.php"
-			],
-			[
 				"templatedivisionsingle",
 				"template/result/_division-single.php"
 			],
@@ -1073,76 +1142,8 @@
 				"src/Admin/Controller/Fixture.php"
 			],
 			[
-				"templateadminfixture",
-				"template/admin/tennis/fixture/single.php"
-			],
-			[
 				"serviceful",
 				"src/Admin/Service/Fixture/Fulfill.php"
-			],
-			[
-				"routeadmin",
-				"routeAdmin.php"
-			],
-			[
-				"controllerajax",
-				"src/Admin/Controller/Ajax/Content.php"
-			],
-			[
-				"slug",
-				"js/admin/utility/slug.js"
-			],
-			[
-				"tnymce",
-				"js/admin/tinymceConfig.js"
-			],
-			[
-				"admicommon",
-				"css/admin/common.bundle.css"
-			],
-			[
-				"tinymcecon",
-				"css/admin/tinymce-content.bundle.css"
-			],
-			[
-				"adminfot",
-				"template/admin/_footer.php"
-			],
-			[
-				"admincss",
-				"css/admin/header.css"
-			],
-			[
-				"footerjs",
-				"template/footer/_js.php"
-			],
-			[
-				"admincontentsingle",
-				"js/admin/content/single.bundle.js"
-			],
-			[
-				"admincontrollercontent",
-				"src/Admin/Controller/Content.php"
-			],
-			[
-				"footer",
-				"template/admin/_footer.php"
-			],
-			[
-				"adminutilslug",
-				"js/admin/utility/slug.js"
-			],
-			[
-				"jscontentsingle",
-				"js/admin/content/single.bundle.js"
-			],
-			[
-				"table",
-				"sql/table.sql"
-			],
-			[
-				"modeldatav",
-				"src/Model/Database/Version.php"
 			]
 		],
 		"width": 0.0
@@ -1158,16 +1159,16 @@
 				"/var/www/html/setting/sublime-text-workspaces/core.sublime-workspace"
 			],
 			[
+				"",
+				"/var/www/html/setting/sublime-text-workspaces/core.sublime-workspace"
+			],
+			[
 				"claire",
 				"/var/www/html/setting/sublime-text-workspaces/claire.sublime-workspace"
 			],
 			[
 				"port",
 				"/var/www/html/setting/sublime-text-workspaces/portfolio.sublime-workspace"
-			],
-			[
-				"",
-				"/var/www/html/setting/sublime-text-workspaces/claire.sublime-workspace"
 			],
 			[
 				"eltt",
@@ -1274,7 +1275,7 @@
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 348.0,
-	"status_bar_visible": false,
+	"status_bar_visible": true,
 	"template_settings":
 	{
 	}
