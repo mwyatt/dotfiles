@@ -71,51 +71,6 @@
 	},
 	"buffers":
 	[
-		{
-			"contents": "<?php\n\nnamespace Mwyatt\\Elttl\\Controller;\n\nclass Result extends \\Mwyatt\\Core\\AbstractController\n{\n\n\n    /**\n     * every year past and present for the league\n     * @return object\n     */\n    public function yearAll()\n    {\n        $this->view->offsetSet('metaDescription', \"Here are all the seasons past and present.\");\n        $this->view->offsetSet('metaTitle', 'All seasons past and present');\n        return $this->response($this->view->getTemplate('result/_year-all'));\n    }\n\n\n    /**\n     * list of all divisions for current year\n     * @return null\n     */\n    public function yearSingle($request)\n    {\n        $yearName = $request->getUrlVar('yearName');\n        $yearMapper = $this->getMapper('Year');\n        $year = $yearMapper->findByName($yearName);\n        $divisionRepository = $this->getRepository('Division');\n\n        if (!$year) {\n            return $this->redirect('error.notFound');\n        }\n        $divisions = $divisionRepository->findByYearId($year->get('id'));\n\n        $this->view->offsetSet('metaDescription', \"A list of all the divisions in season {$year->getNameFull()}.\");\n        $this->view->offsetSet('metaTitle', 'Divisions in season ' . $year->getNameFull());\n        $this->view->offsetSet('divisions', $divisions);\n        $this->view->offsetSet('yearSingle', $year);\n        return $this->response($this->view->getTemplate('result/_year-single'));\n    }\n\n\n    /**\n     * options for merit, league etc\n     * @return object\n     */\n    public function yearDivisionSingle($request)\n    {\n        $yearName = $request->getUrlVar('yearName');\n        $divisionName = $request->getUrlVar('divisionName');\n        $yearMapper = $this->getMapper('Year');\n        $year = $yearMapper->findByName($yearName);\n        $divisionRepository = $this->getRepository('Division');\n\n        if (!$year) {\n            return $this->redirect('error.notFound');\n        }\n        $divisions = $divisionRepository->findByYearId($year->get('id'));\n        if (!$divisions->count()) {\n            return $this->redirect('error.notFound');\n        }\n        $division = $divisions->current();\n\n        // division\n        $modelDivision = new \\Mwyatt\\Elttl\\Model\\Division;\n        $modelDivision->readYearColumn($entityYear->id, 'name', $divisionName);\n        if (!$entityDivision = $modelDivision->getDataFirst()) {\n            \n        }\n\n        // fixture summary table\n        $serviceResult = new \\Mwyatt\\Elttl\\Service\\Result;\n        $summaryTableParts = $serviceResult->getSummaryTable($entityYear, $entityDivision);\n\n        // single division view\n        $this->view->offsetSet('metaDescription', \"Full overview of the $entityDivision->name division.\");\n        $this->view\n            ->offsetAppend('css', 'division-single')\n            ->offsetSet('metaTitle', $entityDivision->name . ' division overview')\n            ->offsetSet('fixtureResults', $summaryTableParts['fixtureResults'])\n            ->offsetSet('teams', $summaryTableParts['entTeams'])\n            ->offsetSet('fixtures', $summaryTableParts['entFixtures'])\n            ->offsetSet('fixtures', $summaryTableParts['entFixtures'])\n            ->offsetSet('yearSingle', $entityYear)\n            ->offsetSet('pageTitle', $entityDivision->name . ' division')\n            ->offsetSet('pageDescription', \"This is an overview for the {$entityDivision->name} division.\")\n            ->offsetSet('division', $entityDivision);\n        return $this->response($this->view->getTemplate('result/_division-single'));\n    }\n\n\n    public function yearDivisionLeague($request)\n    {\n        $yearName = $request->getUrlVar('yearName');\n        $divisionName = $request->getUrlVar('divisionName');\n\n        $serviceResult = new \\Mwyatt\\Elttl\\Service\\Result;\n        $dataContainer = new \\Mwyatt\\Elttl\\Data;\n        $serviceYear = new \\Mwyatt\\Elttl\\Service\\Year;\n        if (!$entityYear = $serviceYear->readName($yearName)) {\n            return $this->redirect('error.notFound');\n        }\n\n        // am i in an archive?\n        $registry = \\Mwyatt\\Elttl\\Registry::getInstance();\n        ;\n        $this->view->offsetSet('isArchive', $registry->get('database/options/yearId') != $entityYear->id);\n\n        // division\n        $modelDivision = new \\Mwyatt\\Elttl\\Model\\Division;\n        $modelDivision->readYearColumn($entityYear->id, 'name', $divisionName);\n        if (!$division = $modelDivision->getDataFirst()) {\n            return $this->redirect('error.notFound');\n        }\n\n        // team\n        $modelTeam = new \\Mwyatt\\Elttl\\Model\\Team;\n        $modelTeam->readYearColumn($entityYear->id, 'divisionId', $division->id);\n        $modelTeam->keyDataByProperty('id');\n\n        // fixture\n        $modelTennisFixture = new \\Mwyatt\\Elttl\\Model\\Fixture;\n        $modelTennisFixture->readYearId($entityYear->id, $modelTeam->getDataProperty('id'), 'teamIdLeft');\n\n        // encounter\n        $modelTennisEncounter = new \\Mwyatt\\Elttl\\Model\\Encounter;\n        $modelTennisEncounter->readYearId($entityYear->id, $modelTennisFixture->getDataProperty('id'), 'fixtureId');\n                \n        // league table\n        $fixtureResults = $serviceResult->getFixture($modelTennisFixture->getData(), $modelTennisEncounter->getData());\n        $leagueStats = $serviceResult->getLeague($fixtureResults);\n        $dataContainer\n            ->setData($leagueStats)\n            ->orderByProperty('points', 'desc');\n\n        // template\n        $this->view->offsetSet('metaDescription', \"This is the league table for the $division->name division.\");\n        $this->view\n            ->offsetSet('pageTitle', $division->name . ' Division League Table')\n            ->offsetSet('pageDescription', \"This is the league table for the {$division->name} division.\")\n            ->offsetSet('metaTitle', $division->name . ' League')\n            ->offsetSet('yearSingle', $entityYear)\n            ->offsetSet('division', $division)\n            ->offsetSet('teams', $modelTeam->getData())\n            ->offsetSet('tableName', 'league')\n            ->offsetSet('leagueStats', $dataContainer->getData());\n        return $this->response($this->view->getTemplate('division/league'));\n    }\n\n\n    public function yearDivisionMerit($request)\n    {\n        $yearName = $request->getUrlVar('yearName');\n        $divisionName = $request->getUrlVar('divisionName');\n\n        $serviceResult = new \\Mwyatt\\Elttl\\Service\\Result;\n        $dataContainer = new \\Mwyatt\\Elttl\\Data;\n        $serviceYear = new \\Mwyatt\\Elttl\\Service\\Year;\n        if (!$entityYear = $serviceYear->readName($yearName)) {\n            return $this->redirect('error.notFound');\n        }\n\n        // am i in an archive?\n        $registry = \\Mwyatt\\Elttl\\Registry::getInstance();\n        ;\n        $this->view->offsetSet('isArchive', $registry->get('database/options/yearId') != $entityYear->id);\n\n        // division\n        $modelDivision = new \\Mwyatt\\Elttl\\Model\\Division;\n        $modelDivision->readYearColumn($entityYear->id, 'name', $divisionName);\n        if (!$division = $modelDivision->getDataFirst()) {\n            return $this->redirect('error.notFound');\n        }\n\n        // team\n        $modelTeam = new \\Mwyatt\\Elttl\\Model\\Team;\n        $modelTeam->readYearColumn($entityYear->id, 'divisionId', $division->id);\n        $modelTeam->keyDataByProperty('id');\n\n        // players\n        $modelPlayer = new \\Mwyatt\\Elttl\\Model\\Player;\n        $modelPlayer->readYearId($entityYear->id, $modelTeam->getDataProperty('id'), 'teamId');\n        $modelPlayer->keyDataByProperty('id');\n\n        // fixture\n        $modelTennisFixture = new \\Mwyatt\\Elttl\\Model\\Fixture;\n        $modelTennisFixture->readYearId($entityYear->id, $modelTeam->getDataProperty('id'), 'teamIdLeft');\n\n        // encounter\n        $modelTennisEncounter = new \\Mwyatt\\Elttl\\Model\\Encounter;\n        $modelTennisEncounter->readYearId($entityYear->id, $modelTennisFixture->getDataProperty('id'), 'fixtureId');\n        $modelTennisEncounter->filterStatus(['doubles', 'exclude']);\n        $encounters = $modelTennisEncounter->getData();\n\n        // league table\n        $fixtureResults = $serviceResult->getFixture($modelTennisFixture->getData(), $modelTennisEncounter->getData());\n        $meritStats = $serviceResult->getMerit($encounters);\n\n        // order averages properly\n        $averages = [];\n        foreach ($meritStats as $key => $meritStat) {\n            $averages[$key] = $meritStat->average;\n        }\n        asort($averages);\n        $meritStatsSorted = [];\n        foreach ($averages as $key => $value) {\n            $meritStatsSorted[] = $meritStats[$key];\n        }\n        $meritStats = array_reverse($meritStatsSorted);\n        \n        // sort($meritStats)\n        $dataContainer\n            ->setData($meritStats)\n            ->getDataProperty('average');\n        $meritStats = $dataContainer->getData();\n\n        $this->view->offsetSet('metaDescription', \"This is the merit table for the $division->name division.\");\n        $this->view\n            ->offsetSet('pageTitle', $division->name . ' Division Merit Table')\n            ->offsetSet('pageDescription', \"This is the merit table for the {$division->name} division.\")\n            ->offsetSet('metaTitle', $division->name . ' Merit')\n            ->offsetSet('yearSingle', $entityYear)\n            ->offsetSet('division', $division)\n            ->offsetSet('teams', $modelTeam->getData())\n            ->offsetSet('players', $modelPlayer->getData())\n            ->offsetSet('meritStats', $meritStats);\n        return $this->response($this->view->getTemplate('division/merit'));\n    }\n\n\n    public function yearDivisionMeritDoubles($request)\n    {\n        $yearName = $request->getUrlVar('yearName');\n        $divisionName = $request->getUrlVar('divisionName');\n\n        $serviceResult = new \\Mwyatt\\Elttl\\Service\\Result;\n        $dataContainer = new \\Mwyatt\\Elttl\\Data;\n        $serviceYear = new \\Mwyatt\\Elttl\\Service\\Year;\n\n        if (!$entityYear = $serviceYear->readName($yearName)) {\n            return $this->redirect('error.notFound');\n        }\n\n        // am i in an archive?\n        $registry = \\Mwyatt\\Elttl\\Registry::getInstance();\n        ;\n        $this->view->offsetSet('isArchive', $registry->get('database/options/yearId') != $entityYear->id);\n\n        // division\n        $modelDivision = new \\Mwyatt\\Elttl\\Model\\Division;\n        $modelDivision->readYearColumn($entityYear->id, 'name', $divisionName);\n        if (!$division = $modelDivision->getDataFirst()) {\n            return $this->redirect('error.notFound');\n        }\n\n        // team\n        $modelTeam = new \\Mwyatt\\Elttl\\Model\\Team;\n        $modelTeam->readYearColumn($entityYear->id, 'divisionId', $division->id);\n        $modelTeam->keyDataByProperty('id');\n\n        // fixture\n        $modelTennisFixture = new \\Mwyatt\\Elttl\\Model\\Fixture;\n        $modelTennisFixture->readYearId($entityYear->id, $modelTeam->getDataProperty('id'), 'teamIdLeft');\n\n        // encounter\n        $modelTennisEncounter = new \\Mwyatt\\Elttl\\Model\\Encounter;\n        $modelTennisEncounter->readYearId($entityYear->id, $modelTennisFixture->getDataProperty('id'), 'fixtureId');\n        $modelTennisEncounter->filterStatus(['', 'exclude']);\n        $encounters = $modelTennisEncounter->getData();\n\n        // league table\n        $fixtureResults = $serviceResult->getFixture($modelTennisFixture->getData(), $modelTennisEncounter->getData());\n        $leagueStats = $serviceResult->getLeague($fixtureResults);\n        $dataContainer\n            ->setData($leagueStats)\n            ->orderByProperty('points', 'desc');\n        $leagueStats = $dataContainer->getData();\n\n        $this->view->offsetSet('metaDescription', \"This is the doubles merit table for the $division->name division.\");\n        $this->view\n            ->offsetSet('pageTitle', $division->name . ' Division Merit Doubles Table')\n            ->offsetSet('pageDescription', \"This is the doubles merit table for the {$division->name} division.\")\n            ->offsetSet('metaTitle', $division->name . ' doubles merit')\n            ->offsetSet('yearSingle', $entityYear)\n            ->offsetSet('division', $division)\n            ->offsetSet('tableName', 'doubles merit')\n            ->offsetSet('teams', $modelTeam->getData())\n            ->offsetSet('leagueStats', $leagueStats);\n        return $this->response($this->view->getTemplate('division/league'));\n    }\n}\n",
-			"file": "/var/www/html/elttl/src/Controller/Result.php",
-			"file_size": 12347,
-			"file_write_time": 131230075459345859,
-			"settings":
-			{
-				"buffer_size": 12360,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/elttl/vendor/mwyatt/core/src/Iterator/Model.php",
-			"settings":
-			{
-				"buffer_size": 2228,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/elttl/src/Model/Tennis.php",
-			"settings":
-			{
-				"buffer_size": 5388,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/elttl/src/Mapper/Division.php",
-			"settings":
-			{
-				"buffer_size": 295,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/elttl/src/Mapper/YearTrait.php",
-			"settings":
-			{
-				"buffer_size": 483,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -125,9 +80,13 @@
 	"command_palette":
 	{
 		"height": 354.0,
-		"last_filter": "close",
+		"last_filter": "clos",
 		"selected_items":
 		[
+			[
+				"clos",
+				"File: Close All"
+			],
 			[
 				"close",
 				"File: Close All"
@@ -142,10 +101,6 @@
 			],
 			[
 				"clo",
-				"File: Close All"
-			],
-			[
-				"clos",
 				"File: Close All"
 			],
 			[
@@ -211,6 +166,11 @@
 	],
 	"file_history":
 	[
+		"/var/www/html/elttl/src/Controller/Result.php",
+		"/var/www/html/elttl/vendor/mwyatt/core/src/Iterator/Model.php",
+		"/var/www/html/elttl/src/Model/Tennis.php",
+		"/var/www/html/elttl/src/Mapper/Division.php",
+		"/var/www/html/elttl/src/Mapper/YearTrait.php",
 		"/var/www/html/elttl/src/Service/Year.php",
 		"/var/www/html/elttl/composer.json",
 		"/var/www/html/elttl/src/Model/Year.php",
@@ -222,7 +182,6 @@
 		"/var/www/html/elttl/src/Model/User.php",
 		"/var/www/html/elttl/src/AbstractModelId.php",
 		"/var/www/html/elttl/package.json",
-		"/var/www/html/elttl/src/Controller/Result.php",
 		"/var/www/html/elttl/template/header.php",
 		"/var/www/html/elttl/src/Controller/Team.php",
 		"/var/www/html/elttl/src/Controller/User.php",
@@ -247,8 +206,6 @@
 		"/var/www/html/elttl/src/Controller/Fixture.php",
 		"/var/www/html/elttl/src/Controller/Front.php",
 		"/var/www/html/elttl/src/Controller/Player.php",
-		"/var/www/html/elttl/src/Mapper/Division.php",
-		"/var/www/html/elttl/src/Mapper/YearTrait.php",
 		"/var/www/html/elttl/src/Trait/Mapper/Year.php",
 		"/var/www/html/elttl/template/result/_year-single.php",
 		"/var/www/html/elttl/template/_divisions.php",
@@ -336,9 +293,7 @@
 		"/var/www/html/elttl/template/admin/_header.mustache",
 		"/var/www/html/elttl/template/admin/_medias.php",
 		"/var/www/html/elttl/template/admin/_tags.php",
-		"/var/www/html/elttl/vendor/mwyatt/core/src/Template.php",
-		"/var/www/html/elttl/vendor/mwyatt/core/src/Url.php",
-		"/var/www/html/elttl/template/admin/content.php"
+		"/var/www/html/elttl/vendor/mwyatt/core/src/Template.php"
 	],
 	"find":
 	{
@@ -574,157 +529,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/var/www/html/elttl/src/Controller/Result.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 12360,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2348,
-								2348
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1035.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/var/www/html/elttl/vendor/mwyatt/core/src/Iterator/Model.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2228,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1083,
-								1083
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 734.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/var/www/html/elttl/src/Model/Tennis.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5388,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2460,
-								2460
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1976.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/var/www/html/elttl/src/Mapper/Division.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 295,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								137,
-								137
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/var/www/html/elttl/src/Mapper/YearTrait.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 483,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								45,
-								45
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				}
 			]
 		}
 	],

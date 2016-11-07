@@ -29,7 +29,7 @@
 			],
 			[
 				"jqaj",
-				"jquery-ajax	common ajax construct"
+				"jquery-ajax\tcommon ajax construct"
 			],
 			[
 				"define",
@@ -73,15 +73,15 @@
 			],
 			[
 				"jqajax",
-				"jquery-ajax	common ajax construct"
+				"jquery-ajax\tcommon ajax construct"
 			],
 			[
 				"jqa",
-				"jquery-ajax	common ajax construct"
+				"jquery-ajax\tcommon ajax construct"
 			],
 			[
 				"jqaja",
-				"jQuery.ajax	jQuery.ajax"
+				"jQuery.ajax\tjQuery.ajax"
 			],
 			[
 				"cretran",
@@ -265,7 +265,7 @@
 			],
 			[
 				"jquerajax",
-				"jquery-ajax	common ajax construct"
+				"jquery-ajax\tcommon ajax construct"
 			],
 			[
 				"tem",
@@ -349,11 +349,11 @@
 			],
 			[
 				"media",
-				"media-screen	Media query screen"
+				"media-screen\tMedia query screen"
 			],
 			[
 				"medi",
-				"media-screen	Media query screen"
+				"media-screen\tMedia query screen"
 			],
 			[
 				"unse",
@@ -371,14 +371,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/var/www/html/url/index.js",
-			"settings":
-			{
-				"buffer_size": 2135,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -387,10 +379,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "men",
+		"height": 354.0,
+		"last_filter": "stat",
 		"selected_items":
 		[
+			[
+				"stat",
+				"View: Toggle Status Bar"
+			],
 			[
 				"men",
 				"View: Toggle Menu"
@@ -410,10 +406,6 @@
 			[
 				"syntphp",
 				"Set Syntax: PHP"
-			],
-			[
-				"stat",
-				"View: Toggle Status Bar"
 			],
 			[
 				"syntax mus",
@@ -465,11 +457,11 @@
 	],
 	"file_history":
 	[
+		"/var/www/html/url/index.js",
 		"/var/www/html/url/defaults.js",
 		"/var/www/html/url/package.json",
 		"/var/www/html/url/.gitignore",
 		"/var/www/html/url/index.html",
-		"/var/www/html/url/index.js",
 		"/var/www/html/url/gulpfile.js",
 		"/var/www/html/url/js/test/general.bundle.js",
 		"/var/www/html/url/test/general.js",
@@ -685,8 +677,8 @@
 			"$campaign->get",
 			"$campaign->",
 			"View_Google_Analytics_Campaign",
-			"			[\n				'name' => 'Acoustic Transparency',\n				'description' => ''\n			]\n",
-			"			[\n				'name' => 'Smart Dock Technology',\n				'description' => ''\n			],\n",
+			"\t\t\t[\n\t\t\t\t'name' => 'Acoustic Transparency',\n\t\t\t\t'description' => ''\n\t\t\t]\n",
+			"\t\t\t[\n\t\t\t\t'name' => 'Smart Dock Technology',\n\t\t\t\t'description' => ''\n\t\t\t],\n",
 			"']",
 			"'],",
 			"['name'",
@@ -852,39 +844,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/var/www/html/url/index.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2135,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1459,7 +1420,7 @@
 		[
 			[
 				"",
-				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
+				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
 				"store",
@@ -1584,9 +1545,9 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 253.0,
-	"status_bar_visible": false,
+	"status_bar_visible": true,
 	"template_settings":
 	{
 	}

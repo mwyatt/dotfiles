@@ -363,34 +363,6 @@
 	},
 	"buffers":
 	[
-		{
-			"contents": "<?php\n\nnamespace Mwyatt\\Core\\Model;\n\nclass User extends \\Mwyatt\\Core\\AbstractModel implements \\Mwyatt\\Core\\ModelInterface\n{\n\n    protected $email;\n    protected $nameFirst;\n    protected $nameLast;\n    protected $password;\n    protected $timeCreated;\n    public $logs = [];\n\n\n    public function __construct()\n    {\n        $this->timeCreated = time();\n    }\n\n\n    public function setEmail($value)\n    {\n        $value = trim($value);\n        $this->email = $value;\n    }\n\n\n    public function setNameFirst($value)\n    {\n        $value = trim($value);\n        $this->nameFirst = $value;\n    }\n\n\n    public function setNameLast($value)\n    {\n        $value = trim($value);\n        $this->nameLast = $value;\n    }\n\n\n    public function setPassword($value)\n    {\n        $this->password = $value;\n    }\n\n\n    public function createPassword($value)\n    {\n        if (strlen($value) < 6) {\n            $this->errors[] = \"Password is too short.\";\n        } elseif (strlen($value) > 20) {\n            $this->errors[] = \"Password is too long.\";\n        }\n        $this->password = md5($value);\n    }\n\n\n    public function checkPassword($value)\n    {\n        return $this->password === crypt($value);\n    }\n\n\n    private function validateEmail()\n    {\n        if (!filter_var($this->email, FILTER_VALIDATE_EMAIL)) {\n            $this->errors[] = \"Email '{$this->email}' is invalid.\";\n        }\n        if (strlen($this->email) > 50) {\n            $this->errors[] = \"Email is longer than 50 characters.\";\n        }\n        if (strlen($this->email) < 1) {\n            $this->errors[] = \"Email is required.\";\n        }\n    }\n\n\n    public function validateNameFirst()\n    {\n        if (!strlen($this->nameFirst)) {\n            return;\n        }\n        if (strlen($this->nameFirst) < 3) {\n            $this->errors[] = \"First name '$this->nameFirst' is too short.\";\n        } elseif (strlen($this->nameFirst) > 75) {\n            $this->errors[] = \"First name '$this->nameFirst' is too long.\";\n        }\n    }\n\n\n    public function validateNameLast()\n    {\n        if (!strlen($this->nameLast)) {\n            return;\n        }\n        if (strlen($this->nameLast) < 3) {\n            $this->errors[] = \"Last name '$this->nameLast' is too short.\";\n        } elseif (strlen($this->nameLast) > 75) {\n            $this->errors[] = \"Last name '$this->nameLast' is too long.\";\n        }\n    }\n\n\n    private function validatePassword()\n    {\n        if (strlen($this->password) > 255) {\n            $this->errors[] = \"Password is too long.\";\n        }\n        if (strlen($this->password) < 1) {\n            $this->errors[] = \"Password is too short.\";\n        }\n    }\n\n\n    private function validateTimeCreated()\n    {\n        if ($this->timeCreated < 1) {\n            $this->errors[] = \"Time created is invalid.\";\n        }\n    }\n\n\n    public function getNameFull()\n    {\n        return $this->get('nameFirst') . ' ' . $this->get('nameLast');\n    }\n\n\n    protected function validateRules()\n    {\n        $this->validateId();\n        $this->validatePassword();\n        $this->validateEmail();\n        $this->validateNameFirst();\n        $this->validateNameLast();\n        $this->validateTimeCreated();\n    }\n\n\n    public function jsonSerialize()\n    {\n        $this->password = null;\n        return $this;\n    }\n}\n",
-			"file": "/var/www/html/core/src/Model/User.php",
-			"file_size": 3326,
-			"file_write_time": 131229847283545748,
-			"settings":
-			{
-				"buffer_size": 3290,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/core/src/AbstractMapper.php",
-			"settings":
-			{
-				"buffer_size": 5641,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/core/src/Model/IdTrait.php",
-			"settings":
-			{
-				"buffer_size": 328,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -482,6 +454,10 @@
 	],
 	"file_history":
 	[
+		"/var/www/html/core/src/Model/User.php",
+		"/var/www/html/core/src/Model/User/Log.php",
+		"/var/www/html/core/src/Model/Log.php",
+		"/var/www/html/core/src/Model/IdTrait.php",
 		"/var/www/html/core/src/AbstractMapper.php",
 		"/var/www/html/core/src/Mapper/User.php",
 		"/var/www/html/core/test/MapperTest.php",
@@ -491,7 +467,6 @@
 		"/var/www/html/core/test/IteratorModelTest.php",
 		"/var/www/html/core/src/Repository/User.php",
 		"/var/www/html/core/src/Iterator/Model.php",
-		"/var/www/html/core/src/Model/User.php",
 		"/var/www/html/core/index.php",
 		"/var/www/html/core/src/AbstractModel.php",
 		"/var/www/html/core/src/AbstractIterator.php",
@@ -513,7 +488,6 @@
 		"/var/www/html/core/test/FactoryTest.php",
 		"/var/www/html/core/src/Factory/View.php",
 		"/var/www/html/core/src/AbstractFactory.php",
-		"/var/www/html/core/src/Model/User/Log.php",
 		"/var/www/html/core/src/Iterator/Model/User.php",
 		"/var/www/html/core/src/Mapper/User/Log.php",
 		"/var/www/html/core/src/Controller/Test.php",
@@ -543,7 +517,6 @@
 		"/var/www/html/core/src/ResponseInterface.php",
 		"/var/www/html/core/src/Kernel.php",
 		"/var/www/html/core/src/Config.php",
-		"/var/www/html/core/src/Model/Log.php",
 		"/var/www/html/core/src/Factory/Iterator.php",
 		"/var/www/html/core/definition.sql",
 		"/var/www/html/core/src/Mapper/Log.php",
@@ -608,8 +581,7 @@
 		"/var/www/html/core/src/MapperFactory.php",
 		"/var/www/html/core/src/ServiceInterface.php",
 		"/var/www/html/core/src/AbstractService.php",
-		"/var/www/html/core/src/Factory.php",
-		"/var/www/html/core/src/ServiceFactory.php"
+		"/var/www/html/core/src/Factory.php"
 	],
 	"find":
 	{
@@ -876,99 +848,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/var/www/html/core/src/Model/User.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3290,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								124,
-								124
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/var/www/html/core/src/AbstractMapper.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5641,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/var/www/html/core/src/Model/IdTrait.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 328,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								328,
-								328
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1024,6 +905,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"modellog",
+				"src/Model/Log.php"
+			],
+			[
+				"modeluserlog",
+				"src/Model/User/Log.php"
+			],
 			[
 				"",
 				"src/AbstractMapper.php"
@@ -1147,10 +1036,6 @@
 			[
 				"iterator/model/",
 				"src/Iterator/Model/User.php"
-			],
-			[
-				"modeluserlog",
-				"src/Model/User/Log.php"
 			],
 			[
 				"itermodeltes",
@@ -1439,10 +1324,6 @@
 			[
 				"absconroller",
 				"src/AbstractController.php"
-			],
-			[
-				"modellog",
-				"src/Model/Log.php"
 			],
 			[
 				"absmap",

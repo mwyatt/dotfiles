@@ -520,124 +520,11 @@
 	"buffers":
 	[
 		{
-			"file": "/var/www/html/store/trunk/index.php",
+			"file": "/var/www/html/store/trunk/app/classes/frontend/modules/checkout.php",
 			"settings":
 			{
-				"buffer_size": 1472,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/store/trunk/js/admin/service/order.js",
-			"settings":
-			{
-				"buffer_size": 2875,
+				"buffer_size": 10890,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/store/trunk/js/admin/order/single/payment.mustache",
-			"settings":
-			{
-				"buffer_size": 1334,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/store/trunk/js/admin/order/single.js",
-			"settings":
-			{
-				"buffer_size": 6036,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/store/trunk/js/admin/order/single/fraudMessage.mustache",
-			"settings":
-			{
-				"buffer_size": 1261,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/store/trunk/js/admin/order/single/paymentAll.mustache",
-			"settings":
-			{
-				"buffer_size": 2373,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "Searching 1617 files for \"Dashboard\" (case sensitive)\n\n/var/www/html/store/trunk/app/classes/admin/app.php:\n   53:         $moduleDash = new Admin_Modules_Dashboard($configuration, $database, $parser, $input_data, $this->system);\n\n/var/www/html/store/trunk/app/classes/admin/modules/dashboard.php:\n   10: class Admin_Modules_Dashboard extends Admin_Abstract_Module implements Admin_Interfaces_Module {\n\n/var/www/html/store/trunk/app/skin/custom/admin/common/_menu.tpl:\n    5: \t\t'module_title' => 'Admin_Modules_Dashboard',\n    6: \t\t'title' => 'Dashboard',\n\n/var/www/html/store/trunk/app/skin/custom/admin/modules/dashboard/dashboard.tpl:\n    2: \t<h1 class=\"page-primary-title\">Dashboard</h1>\n\n5 matches across 4 files\n",
-			"settings":
-			{
-				"buffer_size": 718,
-				"line_ending": "Unix",
-				"name": "Find Results",
-				"scratch": true
-			}
-		},
-		{
-			"file": "/var/www/html/store/trunk/app/skin/custom/admin/common/_menu.tpl",
-			"settings":
-			{
-				"buffer_size": 6941,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/store/trunk/app/skin/custom/admin/modules/advanced-search/all.tpl",
-			"settings":
-			{
-				"buffer_size": 266,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/store/trunk/app/classes/admin/modules/dashboard.php",
-			"settings":
-			{
-				"buffer_size": 6766,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/store/trunk/js/admin/misc.js",
-			"settings":
-			{
-				"buffer_size": 660,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/store/trunk/app/skin/custom/admin/common/_header-bar.tpl",
-			"settings":
-			{
-				"buffer_size": 1654,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/store/trunk/app/classes/admin/ajax/modules/order.php",
-			"settings":
-			{
-				"buffer_size": 42992,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/store/trunk/app/php/Service/Order.php",
-			"settings":
-			{
-				"buffer_size": 12105,
 				"line_ending": "Unix"
 			}
 		}
@@ -650,24 +537,24 @@
 	"command_palette":
 	{
 		"height": 354.0,
-		"last_filter": "close",
+		"last_filter": "clos",
 		"selected_items":
 		[
-			[
-				"close",
-				"File: Close All"
-			],
 			[
 				"clos",
 				"File: Close All"
 			],
 			[
-				"htm",
-				"Set Syntax: HTML"
-			],
-			[
 				"menu",
 				"View: Toggle Menu"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
 			],
 			[
 				"save",
@@ -994,7 +881,7 @@
 				"Snippet: common ajax construct"
 			]
 		],
-		"width": 467.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -1025,20 +912,33 @@
 	],
 	"file_history":
 	[
+		"/var/www/html/store/trunk/index.php",
+		"/var/www/html/store/trunk/js/admin/service/order.js",
+		"/var/www/html/store/trunk/js/admin/order/single/payment.mustache",
+		"/var/www/html/store/trunk/js/admin/order/single.js",
+		"/var/www/html/store/trunk/js/admin/order/single/fraudMessage.mustache",
+		"/var/www/html/store/trunk/js/admin/order/single/paymentAll.mustache",
+		"/var/www/html/store/trunk/css/pagination.css",
+		"/var/www/html/store/trunk/app/skin/custom/frontend/common/_contents-products.tpl",
+		"/var/www/html/store/trunk/css/common.bundle.css",
+		"/var/www/html/store/trunk/css/contents-product.css",
+		"/var/www/html/store/trunk/css/basket.bundle.css",
+		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/checkout/single/_form.tpl",
+		"/var/www/html/store/trunk/app/skin/custom/admin/common/_menu.tpl",
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/advanced-search/all.tpl",
+		"/var/www/html/store/trunk/app/classes/admin/modules/dashboard.php",
+		"/var/www/html/store/trunk/js/admin/misc.js",
+		"/var/www/html/store/trunk/app/skin/custom/admin/common/_header-bar.tpl",
+		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/order.php",
+		"/var/www/html/store/trunk/app/php/Service/Order.php",
+		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/checkout/single.tpl",
 		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/advancedsearch/advancedsearch.tpl",
 		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/search.php",
 		"/var/www/html/store/trunk/js/admin/headerSearch.mustache",
 		"/var/www/html/store/trunk/js/admin/order/single/payment.js",
 		"/var/www/html/store/trunk/js/checkout/payment.js",
 		"/var/www/html/store/trunk/app/php/Access/Type/Order.php",
-		"/var/www/html/store/trunk/js/admin/service/order.js",
-		"/var/www/html/store/trunk/js/admin/order/single/payment.mustache",
-		"/var/www/html/store/trunk/js/admin/order/single/paymentAll.mustache",
 		"/var/www/html/store/trunk/app/php/Access/Type/Order/Payment.php",
-		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/order.php",
-		"/var/www/html/store/trunk/app/php/Service/Order.php",
-		"/var/www/html/store/trunk/js/admin/order/single.js",
-		"/var/www/html/store/trunk/js/admin/order/single/fraudMessage.mustache",
 		"/var/www/html/store/trunk/app/php/Access/Result.php",
 		"/var/www/html/store/trunk/js/admin/order/singlePersist.js",
 		"/var/www/html/store/trunk/js/admin/order/statusUpdate.js",
@@ -1064,7 +964,6 @@
 		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/account/head.tpl",
 		"/var/www/html/store/trunk/.htaccess",
 		"/var/www/html/store/trunk/app/classes/storage/account.php",
-		"/var/www/html/store/trunk/index.php",
 		"/var/www/html/store/trunk/app/skin/custom/admin/modules/order/single/_summary.tpl",
 		"/var/www/html/store/trunk/app/skin/custom/admin/modules/order/all.tpl",
 		"/var/www/html/store/trunk/js/admin/order/all.js",
@@ -1104,10 +1003,8 @@
 		"/var/www/html/store/trunk/app/classes/admin/modules/exception/closed.php",
 		"/var/www/html/store/trunk/app/skin/custom/admin/modules/exceptions/closedAll.tpl",
 		"/var/www/html/store/trunk/js/admin/exception/allClosed.js",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/advanced-search/all.tpl",
 		"/var/www/html/store/trunk/js/admin/advanced-search/all.bundle.js",
 		"/var/www/html/store/trunk/app/classes/admin/grids/modules/order/product.php",
-		"/var/www/html/store/trunk/css/common.bundle.css",
 		"/var/www/html/store/trunk/app/classes/admin/grids/abstract/module.php",
 		"/var/www/html/store/trunk/app/classes/AbstractModule.php",
 		"/var/www/html/store/trunk/package.json",
@@ -1142,17 +1039,7 @@
 		"/var/www/html/store/trunk/app/classes/admin/order/label.php",
 		"/var/www/html/store/trunk/app/php/Access/Type/Shipment.php",
 		"/var/www/html/store/trunk/app/skin/custom/emails/order/_invoice.tpl",
-		"/var/www/html/store/trunk/css/email.bundle.css",
-		"/var/www/html/store/trunk/app/skin/custom/emails/order/dispatch.tpl",
-		"/var/www/html/store/trunk/app/skin/custom/emails/order/cancel.tpl",
-		"/var/www/html/store/trunk/app/skin/custom/emails/order/authorised.tpl",
-		"/var/www/html/store/trunk/app/skin/custom/emails/order/auth-dispatch-words.tpl",
-		"/var/www/html/store/trunk/app/classes/frontend/modules/pay4latercallback.php",
-		"/var/www/html/store/trunk/app/classes/admin/modules/vat.php",
-		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/vatreceipt/vatreceipt.tpl",
-		"/var/www/html/store/trunk/app/classes/view/common.php",
-		"/var/www/html/store/trunk/js/admin/order/single/address.js",
-		"/var/www/html/store/trunk/app/classes/storage/country.php"
+		"/var/www/html/store/trunk/css/email.bundle.css"
 	],
 	"find":
 	{
@@ -1298,6 +1185,10 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"contents-product-thumb",
+			"mobile-hide-cell",
+			"contents-pro",
+			".pagination-reduced-select",
 			"'children'",
 			"Dashboard",
 			"searchContainer",
@@ -1421,11 +1312,7 @@
 			"finish",
 			"limitStart",
 			"refunded",
-			"rejected",
-			"StatusDispatched",
-			"timeLimit",
-			"getOrderGridRead",
-			"gridAddress"
+			"rejected"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1577,465 +1464,36 @@
 	"groups":
 	[
 		{
-			"selected": 8,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/var/www/html/store/trunk/index.php",
+					"file": "/var/www/html/store/trunk/app/classes/frontend/modules/checkout.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1472,
+						"buffer_size": 10890,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1115,
-								1115
+								4078,
+								4078
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 296.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/var/www/html/store/trunk/js/admin/service/order.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2875,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2174,
-								2174
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 733.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/var/www/html/store/trunk/js/admin/order/single/payment.mustache",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1334,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/HTML Mustache/Syntaxes/HTMLMustache.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/var/www/html/store/trunk/js/admin/order/single.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6036,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								865,
-								865
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/var/www/html/store/trunk/js/admin/order/single/fraudMessage.mustache",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1261,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1227,
-								1227
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/HTML Mustache/Syntaxes/HTMLMustache.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 276.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/var/www/html/store/trunk/js/admin/order/single/paymentAll.mustache",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2373,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2239,
-								2239
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/HTML Mustache/Syntaxes/HTMLMustache.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1390.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 718,
-						"regions":
-						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										155,
-										164
-									],
-									[
-										325,
-										334
-									],
-									[
-										511,
-										520
-									],
-									[
-										544,
-										553
-									],
-									[
-										677,
-										686
-									]
-								],
-								"scope": ""
-							}
-						},
-						"selection":
-						[
-							[
-								549,
-								549
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"detect_indentation": false,
-							"line_numbers": false,
-							"output_tag": 1,
-							"result_base_dir": "",
-							"result_file_regex": "^([^ \t].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/var/www/html/store/trunk/app/skin/custom/admin/common/_menu.tpl",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6941,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6368,
-								6368
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 6484.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "/var/www/html/store/trunk/app/skin/custom/admin/modules/advanced-search/all.tpl",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 266,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								31,
-								31
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1999.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "/var/www/html/store/trunk/app/classes/admin/modules/dashboard.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6766,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								364,
-								364
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "/var/www/html/store/trunk/js/admin/misc.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 660,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								243,
-								243
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "/var/www/html/store/trunk/app/skin/custom/admin/common/_header-bar.tpl",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1654,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								856,
-								856
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "/var/www/html/store/trunk/app/classes/admin/ajax/modules/order.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 42992,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5267,
-								5267
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 3930.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "/var/www/html/store/trunk/app/php/Service/Order.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 12105,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								11309,
-								11309
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 7335.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
 					"type": "text"
 				}
 			]
@@ -2094,6 +1552,38 @@
 		"selected_items":
 		[
 			[
+				"frontmodcheck",
+				"trunk/app/classes/frontend/modules/checkout.php"
+			],
+			[
+				"",
+				"trunk/css/pagination.css"
+			],
+			[
+				"contentproducc",
+				"trunk/css/contents-product.css"
+			],
+			[
+				"basketcss",
+				"trunk/css/basket.bundle.css"
+			],
+			[
+				"commonbun",
+				"trunk/css/common.bundle.css"
+			],
+			[
+				"checkoutform",
+				"trunk/app/skin/custom/frontend/modules/checkout/single/_form.tpl"
+			],
+			[
+				"contentsproduc",
+				"trunk/app/skin/custom/frontend/common/_contents-products.tpl"
+			],
+			[
+				"checkouttpl",
+				"trunk/app/skin/custom/frontend/modules/checkout/single.tpl"
+			],
+			[
 				"advancesearchtpl",
 				"trunk/app/skin/custom/admin/modules/advanced-search/all.tpl"
 			],
@@ -2107,10 +1597,6 @@
 			],
 			[
 				"commenu",
-				"trunk/app/skin/custom/admin/common/_menu.tpl"
-			],
-			[
-				"",
 				"trunk/app/skin/custom/admin/common/_menu.tpl"
 			],
 			[
@@ -2576,34 +2062,6 @@
 			[
 				"typeorderprod",
 				"trunk/app/php/Access/Type/Order/Product.php"
-			],
-			[
-				"adminmodorder",
-				"trunk/app/classes/admin/modules/order.php"
-			],
-			[
-				"tyorderprod",
-				"trunk/app/php/Access/Type/Order/Product.php"
-			],
-			[
-				"orderdiscount",
-				"trunk/app/php/Access/Type/Order/Discount.php"
-			],
-			[
-				"vatproduc",
-				"trunk/app/skin/custom/frontend/modules/vat/_products.tpl"
-			],
-			[
-				"vattable.tpl",
-				"trunk/app/skin/custom/frontend/modules/vat/_table.tpl"
-			],
-			[
-				"emailorderaam",
-				"trunk/app/skin/custom/emails/order/amazon/authorised.tpl"
-			],
-			[
-				"ajaxmodemail",
-				"trunk/app/classes/admin/ajax/modules/email.php"
 			]
 		],
 		"width": 0.0
@@ -2611,19 +2069,23 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "el",
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"store",
+				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
+			],
 			[
 				"el",
 				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
 			],
 			[
 				"core",
-				"/var/www/html/setting/sublime-text-workspaces/core.sublime-workspace"
-			],
-			[
-				"",
 				"/var/www/html/setting/sublime-text-workspaces/core.sublime-workspace"
 			],
 			[
@@ -2649,10 +2111,6 @@
 			[
 				"elt",
 				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
-			],
-			[
-				"store",
-				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
 				"elk",
