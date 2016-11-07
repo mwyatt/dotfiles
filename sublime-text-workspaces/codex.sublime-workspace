@@ -53,11 +53,11 @@
 			],
 			[
 				"media",
-				"media-screen	Media query screen"
+				"media-screen\tMedia query screen"
 			],
 			[
 				"medi",
-				"media-screen	Media query screen"
+				"media-screen\tMedia query screen"
 			],
 			[
 				"unse",
@@ -121,6 +121,15 @@
 			{
 				"buffer_size": 20,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": ":root {\n  --width: 25%;\n  --margin: 20px;\n}\n@media (max-width: 400px) {\n  :root {\n    --width: 50%;\n    --margin: 10px;\n  }\n}\nbody {\n  display: flex;\n  flex-wrap: wrap;\n}\ndiv {\n  flex: 1;\n  height: 220px;\n  flex-basis: calc(var(--width) - (var(--margin) * 3));\n  background: #ccc;\n  margin: var(--margin);\n}\n\nif you have a width and margin global this can be modified by the media query\n\nstrip away anything not needed, codex should be clean and light",
+			"settings":
+			{
+				"buffer_size": 451,
+				"line_ending": "Unix",
+				"name": ":root {"
 			}
 		},
 		{
@@ -198,6 +207,7 @@
 	],
 	"file_history":
 	[
+		"/var/www/html/codex/index.css",
 		"/var/www/html/codex/css/typography.css",
 		"/var/www/html/codex/css/keyframe.css",
 		"/var/www/html/codex/keyframe.css",
@@ -213,7 +223,6 @@
 		"/var/www/html/codex/css/form.css",
 		"/var/www/html/codex/css/settings.css",
 		"/var/www/html/codex/README.md",
-		"/var/www/html/codex/index.css",
 		"/var/www/html/codex/settings.css",
 		"/var/www/html/codex/gulpfile.js",
 		"/var/www/html/codex/css/common.bundle.css",
@@ -329,7 +338,7 @@
 	],
 	"find":
 	{
-		"height": 48.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
@@ -372,6 +381,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"form-select",
+			"grid-pagination-select",
 			"fadeIn",
 			"dist",
 			"body-inner-container",
@@ -478,7 +489,7 @@
 			"product-tag-new",
 			"get_name",
 			"// reset checkbox to off",
-			"				id,\n				name,\n				content,\n				image,\n				time_start,\n				time_end,\n				hidden_field,\n				status\n",
+			"\t\t\t\tid,\n\t\t\t\tname,\n\t\t\t\tcontent,\n\t\t\t\timage,\n\t\t\t\ttime_start,\n\t\t\t\ttime_end,\n\t\t\t\thidden_field,\n\t\t\t\tstatus\n",
 			"$entity->imageOnly ? 1 : 0",
 			"input-checkbox",
 			"image",
@@ -497,9 +508,7 @@
 			"push_saved_data",
 			"set('offline_order'",
 			"offline_order",
-			"'offline_order'",
-			"offline",
-			"->fetch"
+			"'offline_order'"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -549,7 +558,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 7,
 			"sheets":
 			[
 				{
@@ -586,6 +595,7 @@
 									"selector": "text.html"
 								}
 							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
 							"syntax": "Packages/CSS/CSS.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -594,7 +604,7 @@
 						"translation.y": 928.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -616,6 +626,7 @@
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
 							"syntax": "Packages/CSS/CSS.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -624,7 +635,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -646,6 +657,7 @@
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -654,7 +666,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -676,6 +688,7 @@
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -684,7 +697,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -706,6 +719,7 @@
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
 							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -714,7 +728,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -736,17 +750,48 @@
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
 							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 6,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 451,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								451,
+								451
+							]
+						],
+						"settings":
+						{
+							"auto_name": ":root {",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
 					"file": "/var/www/html/codex/css/form.css",
 					"semi_transient": false,
 					"settings":
@@ -758,8 +803,8 @@
 						"selection":
 						[
 							[
-								654,
-								667
+								655,
+								666
 							]
 						],
 						"settings":
@@ -775,15 +820,16 @@
 									"selector": "text.html"
 								}
 							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
 							"syntax": "Packages/CSS/CSS.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 276.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -842,6 +888,14 @@
 		"selected_items":
 		[
 			[
+				"index",
+				"index.css"
+			],
+			[
+				"form",
+				"css/form.css"
+			],
+			[
 				"pakca",
 				"package.json"
 			],
@@ -866,10 +920,6 @@
 				"css/reusable.css"
 			],
 			[
-				"form",
-				"css/form.css"
-			],
-			[
 				"ty",
 				"css/typography.css"
 			],
@@ -884,10 +934,6 @@
 			[
 				"keyfra",
 				"keyframe.css"
-			],
-			[
-				"index",
-				"index.php"
 			],
 			[
 				"rese",
@@ -1359,20 +1405,24 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "jos",
+		"last_filter": "",
 		"selected_items":
 		[
-			[
-				"jos",
-				"/var/www/html/setting/sublime-text-workspaces/joshua-mccormack.sublime-project"
-			],
 			[
 				"",
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
+				"stor",
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
 				"core",
 				"/var/www/html/setting/sublime-text-workspaces/core.sublime-workspace"
+			],
+			[
+				"jos",
+				"/var/www/html/setting/sublime-text-workspaces/joshua-mccormack.sublime-project"
 			],
 			[
 				"stoe",
@@ -1381,10 +1431,6 @@
 			[
 				"dia",
 				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
-			],
-			[
-				"stor",
-				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
 				"store",

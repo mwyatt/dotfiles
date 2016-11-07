@@ -45,11 +45,11 @@
 			],
 			[
 				"media",
-				"media-screen	Media query screen"
+				"media-screen\tMedia query screen"
 			],
 			[
 				"medi",
-				"media-screen	Media query screen"
+				"media-screen\tMedia query screen"
 			],
 			[
 				"unse",
@@ -261,7 +261,7 @@
 	],
 	"find":
 	{
-		"height": 48.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
@@ -305,6 +305,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"printerNames",
 			"LocalStorage",
 			"localStorage",
 			"lp -d $printerName ",
@@ -400,8 +401,8 @@
 			"main-menu-level1",
 			"View Closed",
 			"View Closed Exceptions",
-			"	",
-			"				",
+			"\t",
+			"\t\t\t\t",
 			"\n",
 			"db->query",
 			"exception",
@@ -428,11 +429,10 @@
 			"product-tag-new",
 			"get_name",
 			"// reset checkbox to off",
-			"				id,\n				name,\n				content,\n				image,\n				time_start,\n				time_end,\n				hidden_field,\n				status\n",
+			"\t\t\t\tid,\n\t\t\t\tname,\n\t\t\t\tcontent,\n\t\t\t\timage,\n\t\t\t\ttime_start,\n\t\t\t\ttime_end,\n\t\t\t\thidden_field,\n\t\t\t\tstatus\n",
 			"$entity->imageOnly ? 1 : 0",
 			"input-checkbox",
-			"image",
-			"Please create the promotion first to then assign products."
+			"image"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -498,8 +498,8 @@
 						"selection":
 						[
 							[
-								4073,
-								4073
+								6448,
+								6448
 							]
 						],
 						"settings":
@@ -616,7 +616,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2860.0,
+						"translation.y": 3789.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1195,16 +1195,16 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "dia",
+		"last_filter": "",
 		"selected_items":
 		[
 			[
-				"dia",
-				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
-			],
-			[
 				"",
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"dia",
+				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
 			],
 			[
 				"dialog",
@@ -1297,7 +1297,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 236.0,
 	"status_bar_visible": false,
 	"template_settings":

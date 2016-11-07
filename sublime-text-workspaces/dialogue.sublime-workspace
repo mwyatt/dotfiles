@@ -9,7 +9,7 @@
 			],
 			[
 				"color",
-				"color	mw-css-color"
+				"color\tmw-css-color"
 			],
 			[
 				"colse",
@@ -41,7 +41,7 @@
 			],
 			[
 				"con",
-				"contains	.contains()"
+				"contains\t.contains()"
 			],
 			[
 				"borwi",
@@ -95,6 +95,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/var/www/html/dialogue/package.json",
+			"settings":
+			{
+				"buffer_size": 1614,
+				"line_ending": "Unix"
+			}
+		},
 		{
 			"file": "/var/www/html/dialogue/js/dialogue.js",
 			"settings":
@@ -185,10 +193,10 @@
 	],
 	"file_history":
 	[
-		"/var/www/html/dialogue/js/common.bundle.js",
 		"/var/www/html/dialogue/js/dialogue.js",
-		"/var/www/html/dialogue/gulpfile.js",
 		"/var/www/html/dialogue/package.json",
+		"/var/www/html/dialogue/js/common.bundle.js",
+		"/var/www/html/dialogue/gulpfile.js",
 		"/var/www/html/dialogue/js/container.mustache",
 		"/var/www/html/dialogue/css/default.css",
 		"/var/www/html/dialogue/css/common.bundle.css",
@@ -347,6 +355,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"event",
+			"applyCssPosition",
 			"closeInstance",
 			"jsSitemaps",
 			"getRandomString",
@@ -472,9 +482,7 @@
 			"$positionalElement",
 			"event.data",
 			"$window[0]",
-			"window",
-			"applyCssPosition",
-			"closeInstance"
+			"window"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -523,11 +531,41 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "/var/www/html/dialogue/package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1614,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
 					"file": "/var/www/html/dialogue/js/dialogue.js",
 					"semi_transient": false,
 					"settings":
@@ -539,18 +577,19 @@
 						"selection":
 						[
 							[
-								9125,
-								9125
+								2885,
+								2900
 							]
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 7197.0,
+						"translation.y": 1953.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -612,6 +651,14 @@
 		"selected_items":
 		[
 			[
+				"dia",
+				"js/dialogue.js"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
 				"dialo",
 				"js/dialogue.js"
 			],
@@ -624,15 +671,7 @@
 				"gulpfile.js"
 			],
 			[
-				"packa",
-				"package.json"
-			],
-			[
 				"",
-				"js/dialogue.js"
-			],
-			[
-				"dia",
 				"js/dialogue.js"
 			],
 			[
@@ -1126,15 +1165,19 @@
 		[
 			[
 				"",
+				"/var/www/html/setting/sublime-text-workspaces/grid.sublime-workspace"
+			],
+			[
+				"core",
+				"/var/www/html/setting/sublime-text-workspaces/core.sublime-workspace"
+			],
+			[
+				"store",
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
 				"dia",
 				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
-			],
-			[
-				"store",
-				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
 				"code",
@@ -1203,10 +1246,6 @@
 			[
 				"s",
 				"/var/www/html/sublime-workspace/store.sublime-workspace"
-			],
-			[
-				"core",
-				"/var/www/html/sublime-project/core.sublime-workspace"
 			],
 			[
 				"inv",

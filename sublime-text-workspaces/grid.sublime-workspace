@@ -4,8 +4,56 @@
 		"selected_items":
 		[
 			[
+				"getream",
+				"getReadModelDataDefaults"
+			],
+			[
+				"formcrece",
+				"formCreateCell"
+			],
+			[
+				"cusc",
+				"customCol"
+			],
+			[
+				"dialo",
+				"dialogue"
+			],
+			[
+				"desc",
+				"description"
+			],
+			[
+				"dia",
+				"dialogueCreate"
+			],
+			[
+				"visi",
+				"visibility"
+			],
+			[
+				"colo",
+				"color"
+			],
+			[
+				"tinymc",
+				"tinymceConfig"
+			],
+			[
+				"stor",
+				"storeReadModel"
+			],
+			[
+				"render",
+				"setupRenderAreaAndRead"
+			],
+			[
+				"celob",
+				"cellObject"
+			],
+			[
 				"pv",
-				"pv	mw-php-printPre"
+				"pv\tmw-php-printPre"
 			],
 			[
 				"class",
@@ -13,15 +61,15 @@
 			],
 			[
 				"ajx",
-				"ajax	mw-js-ajax"
+				"ajax\tmw-js-ajax"
 			],
 			[
 				"cl",
-				"cl	mw-js-consoleLog"
+				"cl\tmw-js-consoleLog"
 			],
 			[
 				"ajax",
-				"ajax	mw-js-ajax"
+				"ajax\tmw-js-ajax"
 			],
 			[
 				"read",
@@ -37,11 +85,11 @@
 			],
 			[
 				"close",
-				"closest	.closest()"
+				"closest\t.closest()"
 			],
 			[
 				"jqaja",
-				"jquery-ajax	common ajax construct"
+				"jquery-ajax\tcommon ajax construct"
 			],
 			[
 				"selcel",
@@ -61,7 +109,7 @@
 			],
 			[
 				"ext",
-				"extend	$.extend()"
+				"extend\t$.extend()"
 			],
 			[
 				"headingclas",
@@ -95,102 +143,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/var/www/html/grid/js/common.bundle.js",
-			"settings":
-			{
-				"buffer_size": 3091,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/var/www/html/grid/js/grid.js",
-			"settings":
-			{
-				"buffer_size": 26715,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/var/www/html/grid/js/templates.js",
-			"settings":
-			{
-				"buffer_size": 277,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/var/www/html/grid/js/pagination.mustache",
-			"settings":
-			{
-				"buffer_size": 362,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/grid/js/grid.mustache",
-			"settings":
-			{
-				"buffer_size": 1519,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/grid/js/formCreate.mustache",
-			"settings":
-			{
-				"buffer_size": 682,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/grid/js/rows.mustache",
-			"settings":
-			{
-				"buffer_size": 160,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/grid/js/spinner.mustache",
-			"settings":
-			{
-				"buffer_size": 88,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/grid/js/select.mustache",
-			"settings":
-			{
-				"buffer_size": 182,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/grid/js/input.mustache",
-			"settings":
-			{
-				"buffer_size": 85,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/grid/js/deleteButton.mustache",
-			"settings":
-			{
-				"buffer_size": 97,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/grid/js/noRowsPane.mustache",
-			"settings":
-			{
-				"buffer_size": 147,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -200,9 +152,25 @@
 	"command_palette":
 	{
 		"height": 354.0,
-		"last_filter": "stat",
+		"last_filter": "CLO",
 		"selected_items":
 		[
+			[
+				"CLO",
+				"File: Close All"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"clos",
+				"File: Close All"
+			],
+			[
+				"men",
+				"View: Toggle Menu"
+			],
 			[
 				"stat",
 				"View: Toggle Status Bar"
@@ -232,20 +200,12 @@
 				"Package Control: Remove Package"
 			],
 			[
-				"men",
-				"View: Toggle Menu"
-			],
-			[
 				"enable",
 				"Package Control: Enable Package"
 			],
 			[
 				"packa",
 				"Package Control: Disable Package"
-			],
-			[
-				"close",
-				"File: Close All"
 			],
 			[
 				"closeall",
@@ -296,7 +256,7 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 431.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -317,30 +277,44 @@
 	},
 	"expanded_folders":
 	[
-		"/var/www/html/grid"
+		"/var/www/html/grid",
+		"/var/www/html/grid/js"
 	],
 	"file_history":
 	[
-		"/var/www/html/grid/js/templates.js",
-		"/home/martin/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
-		"/var/www/html/grid/js/grid.js",
-		"/var/www/html/grid/gulpfile.js",
-		"/var/www/html/grid/js/common.bundle.js",
-		"/var/www/html/grid/index.css",
-		"/var/www/html/grid/package.json",
-		"/var/www/html/grid/index.js",
 		"/var/www/html/grid/css/grid.css",
-		"/var/www/html/grid/js/tinymceConfig.js",
-		"/var/www/html/grid/js/classes.js",
-		"/var/www/html/grid/css/settings.css",
-		"/var/www/html/grid/request/grid-primary/read.php",
-		"/var/www/html/grid/css/common.bundle.css",
-		"/var/www/html/grid/request/grid-secondary/read.php",
-		"/var/www/html/grid/request/connection.php",
-		"/var/www/html/grid/js/utilities.js",
+		"/var/www/html/grid/js/grid.js",
+		"/var/www/html/grid/js/common.bundle.js",
+		"/var/www/html/grid/package.json",
+		"/var/www/html/grid/js/pagination.mustache",
 		"/var/www/html/grid/index.html",
-		"/var/www/html/grid/package.json.save",
+		"/var/www/html/grid/request/grid-primary/read.php",
+		"/var/www/html/grid/js/classes.js",
+		"/var/www/html/grid/js/grid.mustache",
+		"/var/www/html/grid/request/grid-secondary/read.php",
+		"/var/www/html/grid/js/rows.mustache",
+		"/var/www/html/grid/request/connection.php",
+		"/var/www/html/grid/request/grid-secondary/create.php",
+		"/var/www/html/grid/request/grid-secondary/update.php",
+		"/var/www/html/grid/js/formCreate.mustache",
+		"/var/www/html/grid/js/tinymceConfig.js",
+		"/var/www/html/grid/js/createDefaults.js",
+		"/var/www/html/grid/css/common.bundle.css",
+		"/var/www/html/grid/js/select.mustache",
+		"/var/www/html/grid/css/settings.css",
+		"/var/www/html/grid/gulpfile.js",
+		"/var/www/html/grid/js/utilities.js",
+		"/var/www/html/grid/index.css",
 		"/var/www/html/grid/.gitignore",
+		"/var/www/html/grid/index.js",
+		"/dev/random",
+		"/var/www/html/grid/js/templates.js",
+		"/var/www/html/grid/js/spinner.mustache",
+		"/var/www/html/grid/js/input.mustache",
+		"/var/www/html/grid/js/deleteButton.mustache",
+		"/var/www/html/grid/js/noRowsPane.mustache",
+		"/home/martin/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/var/www/html/grid/package.json.save",
 		"/var/www/html/grid/composer.json",
 		"/var/www/html/grid/grid.css",
 		"/var/www/html/grid/css/dialogue.css",
@@ -360,8 +334,6 @@
 		"/home/martin/.config/sublime-text-3/Packages/User/Emmet.sublime-settings",
 		"/var/www/html/grid/index.php",
 		"/var/www/html/grid/common.css",
-		"/var/www/html/grid/request/grid-secondary/create.php",
-		"/var/www/html/grid/request/grid-secondary/update.php",
 		"/var/www/html/grid/settings.css",
 		"/var/www/html/grid/request/grid-primary/update.php",
 		"/var/www/html/grid/request/read.php",
@@ -437,26 +409,15 @@
 		"/var/www/html/store/trunk/js/admin/account/offer/single.bundle.js",
 		"/var/www/html/store/trunk/js/admin/order/all.js",
 		"/var/www/html/store/trunk/js/admin/order/single.js",
-		"/var/www/html/store/trunk/js/admin/order/single/summary.js",
-		"/var/www/html/store/trunk/js/admin/product/stock-reminder.bundle.js",
-		"/var/www/html/store/trunk/js/checkout/payment.js",
-		"/var/www/html/store/trunk/js/product/single/wish.js",
-		"/var/www/html/store/trunk/js/utility/postcodeLookup.js",
-		"/var/www/html/store/trunk/js/checkout/delivery-address-toggle.js",
-		"/var/www/html/store/trunk/js/admin/exception/create.js",
-		"/var/www/html/store/trunk/js/filter.js",
-		"/var/www/html/store/trunk/js/account.js",
-		"/var/www/html/store/trunk/js/category.js",
-		"/var/www/html/store/trunk/js/header.js",
-		"/var/www/html/store/trunk/js/finance.js"
+		"/var/www/html/store/trunk/js/admin/order/single/summary.js"
 	],
 	"find":
 	{
-		"height": 48.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 158.0,
 		"where_history":
 		[
 			"",
@@ -484,134 +445,134 @@
 		"case_sensitive": true,
 		"find_history":
 		[
-			"mustacheTemplates",
-			"mustacheTemplates.",
-			"mustacheTemplates",
-			"),",
-			"$",
-			"/template",
-			"',",
-			"{{",
-			"',",
-			",\n",
-			"sourcemaps",
-			"buffer",
-			"source",
-			"browserify",
-			"tab",
-			"bold_folder_labels",
-			"always_show_minimap_viewport",
-			"\"line_padding_top\": 3,",
-			"\"overlay_scroll_bars\": \"enabled\",",
-			"gutil",
-			"browserify",
-			"gulp",
-			"$",
-			"jquery-equalheights",
-			"localStorage",
-			"cellDeselect",
-			"'Save':",
-			".grid-button-remove-filters {",
-			"&times",
-			"remove-filters",
-			"1px solid #cccccc",
-			"border: 1px",
-			"opacity: ",
-			"RemoveFilters",
-			"classes.buttonRemoveFilters",
-			".grid-spinner {",
-			"mouseup",
-			"js-grid-no-rows",
-			"selected",
-			"classes.spinner",
-			"getFirstReadModel",
-			"markContainerFiltering",
-			"this.",
-			"mouseHeadingCell",
-			"is-order",
-			".grid-cell-heading-name:before",
-			"/",
-			":before",
-			"Remove Filters",
-			"Remove Fil",
-			"overflow",
-			"primaryKeyValue",
-			"this",
-			"this, model, type",
-			"persistedValue",
-			"onSelectCell",
-			"onSelectRow",
-			"classes.searchField",
-			".grid-cell-heading-name {",
-			"5px",
-			"event.data",
-			"js-grid-button-create",
-			"event.data",
-			".grid-search-input {",
-			"grid-pagination-select",
-			"event.data.",
+			"edit:",
+			"edit: false,",
+			"edit",
+			"\">",
+			"possiblePages",
+			"pageCurrent",
+			"data",
+			"getAjaxReadData",
+			"possiblePages",
+			"showPageControls",
+			"\"grid-pagecontrol",
+			"<h2>",
+			"h2",
 			"rowsPerPage",
-			"event.data",
-			"perPageSelect",
-			"'grid-pagination-select'",
-			": {",
-			"grid-pagination-select",
-			"keyCode.esc",
-			"event.data.cell)",
-			"event.data.cell",
-			"mouseDocument",
-			".grid-' + event.data.options.id",
-			"link-primary",
-			"limit",
-			"gEvtNs",
-			"getContainerSelector",
-			"utilities",
-			"event",
-			"gS(",
-			" gS(",
-			", gS(",
-			"gS(",
-			"(gS(",
-			"gS(",
-			"classes.",
-			"buttonDeleteClass",
-			"spinnerClass",
-			"buttonRemoveFiltersClass",
-			"pageContainerClass",
-			"buttonRemoveFiltersClass",
-			"pageContainerClass",
-			"perPageSelectClass",
-			"pageSelectClass",
-			"searchSelectClass",
-			"searchInputClass",
-			"searchFieldClass",
-			"cellClass",
-			"inputClass",
-			"cellClass",
-			"rowHeadingClass",
-			"rowClass",
-			"tableClass",
-			"cellHeadingClass",
-			"selectedClass",
-			"formCreateCellClass",
-			"gridCellHeadingOrderableClass",
-			"gS\\(event.data.(.*?)\\)",
-			"gS(",
-			"gS(event.data.pageSelectClass)",
-			"gS\\(event.data.(.*?)\\)",
-			"gS(event.data.cellClass)",
-			"gS\\(event.data.(.*?)\\)",
-			"rowHeadingClass",
-			"event.data.rowClass",
-			"rowClass",
-			"event.data.tableClass",
-			"tableClass",
-			"event.data.cellHeadingClass",
-			"cellHeadingClass",
-			"event.data.selectedClass",
-			"selectedClass",
-			"formCreateCellClass",
-			"classes"
+			"objectProp",
+			"rowsPerPage",
+			"obj",
+			"thing",
+			"getReadModelDataDefaults",
+			"storeReadModel",
+			"model",
+			"delete ",
+			"\n  ",
+			"searchInputCommitChange",
+			"searchInputCommit",
+			"searchInputKeyupEnter",
+			"if ($value) {",
+			"searchSelectChange",
+			"order",
+			"heading",
+			"searchInputKeyup",
+			"searchInputKeyupEnter",
+			"searchInputKeyup",
+			"html",
+			"columns",
+			"id",
+			"button",
+			"tePagina",
+			"Create",
+			"dataKey",
+			"There",
+			"storeReadModel",
+			"dataKey",
+			"model",
+			"Visible",
+			".grid-cell {",
+			"border-radius: 3px;",
+			"us: 3px",
+			"visibleCols",
+			"grid-button ",
+			"grid-button-remove-filters",
+			"visibleCols",
+			"isVisible",
+			"customColsCol",
+			"js-grid-customcols-col",
+			"isEmptyObject",
+			"length",
+			"markContainerFiltering",
+			"isFilterActive",
+			"rowsObject",
+			"grid-cell-heading",
+			"setupRenderAreaAndRead",
+			"modifyOptionsBeforeRender",
+			"getReadModelDataDefaults",
+			"getStoredReadModel",
+			"renderGridAndRead",
+			"setupRenderAreaAndRead",
+			"col.isVisible",
+			"visible",
+			"setupRenderAreaAndRead",
+			"customColClick",
+			"getModelByKey",
+			"model",
+			"getModelByIndex",
+			"selected",
+			"templatePagination",
+			"readModel",
+			"isFilterActive",
+			"grid-heading-is-order-",
+			" in ",
+			"tinymceConfig",
+			"dialogueCellWysi",
+			"modifyOptionsBeforeRender",
+			"selectOptionsKey",
+			"');",
+			"rowPos",
+			"getRowCellValue",
+			"selectedCell",
+			"options",
+			"orderDefaultValue",
+			"search",
+			"data-",
+			"mouseHeadingCell",
+			"order",
+			".order",
+			"readRender",
+			".grid-button-remove-filters",
+			"grid-pagination-container",
+			"optionsPristine",
+			"grid-cell-heading",
+			"possiblePages",
+			"getPageCurrent",
+			"rowsTotal",
+			"getPageCurrent",
+			"renderPagination",
+			"templatePagination",
+			"data",
+			"buildReadModel",
+			"storedModel",
+			"isFilterActive",
+			"storedModel",
+			"markContainerFiltering",
+			"storedModel",
+			"read(",
+			"getAjaxReadData",
+			"data",
+			"read(",
+			"getAjaxReadData",
+			"buildThenGetReadModel",
+			"buildReadModel",
+			"getReadModel(",
+			"getReadModel",
+			"buildReadModel",
+			"modifyOptionsBeforeRender",
+			"storedModelValue",
+			"readModel",
+			"addSelectOptionsKeyValueToCols",
+			"buildReadModel"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -680,511 +641,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/var/www/html/grid/js/common.bundle.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3091,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/var/www/html/grid/js/grid.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 26715,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1046,
-								1046
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/var/www/html/grid/js/templates.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 277,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								248,
-								248
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/var/www/html/grid/js/pagination.mustache",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 362,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								362,
-								362
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
-							"syntax": "Packages/HTML Mustache/Syntaxes/HTMLMustache.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/var/www/html/grid/js/grid.mustache",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1519,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
-							"syntax": "Packages/HTML Mustache/Syntaxes/HTMLMustache.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/var/www/html/grid/js/formCreate.mustache",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 682,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								682,
-								682
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
-							"syntax": "Packages/HTML Mustache/Syntaxes/HTMLMustache.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/var/www/html/grid/js/rows.mustache",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 160,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								160,
-								160
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
-							"syntax": "Packages/HTML Mustache/Syntaxes/HTMLMustache.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/var/www/html/grid/js/spinner.mustache",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 88,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								88,
-								88
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
-							"syntax": "Packages/HTML Mustache/Syntaxes/HTMLMustache.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "/var/www/html/grid/js/select.mustache",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 182,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								182,
-								182
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
-							"syntax": "Packages/HTML Mustache/Syntaxes/HTMLMustache.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "/var/www/html/grid/js/input.mustache",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 85,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								85,
-								85
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
-							"syntax": "Packages/HTML Mustache/Syntaxes/HTMLMustache.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "/var/www/html/grid/js/deleteButton.mustache",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 97,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								97,
-								97
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
-							"syntax": "Packages/HTML Mustache/Syntaxes/HTMLMustache.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "/var/www/html/grid/js/noRowsPane.mustache",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 147,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								147,
-								147
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
-							"syntax": "Packages/HTML Mustache/Syntaxes/HTMLMustache.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1241,43 +699,167 @@
 		"selected_items":
 		[
 			[
-				"tempalte",
-				"js/templates.js"
+				"gridcs",
+				"css/grid.css"
 			],
 			[
-				"grid",
-				"js/grid.js"
-			],
-			[
-				"bundlejs",
+				"com",
 				"js/common.bundle.js"
 			],
 			[
-				"gridjs",
+				"gri",
 				"js/grid.js"
-			],
-			[
-				"gulp",
-				"gulpfile.js"
-			],
-			[
-				"",
-				"index.css"
-			],
-			[
-				"common",
-				"js/common.bundle.js"
 			],
 			[
 				"packa",
 				"package.json"
 			],
 			[
+				"",
+				"js/pagination.mustache"
+			],
+			[
+				"paginat",
+				"js/pagination.mustache"
+			],
+			[
 				"index",
-				"index.js"
+				"index.html"
 			],
 			[
 				"combun",
+				"js/common.bundle.js"
+			],
+			[
+				"comm",
+				"js/common.bundle.js"
+			],
+			[
+				"read",
+				"request/grid-primary/read.php"
+			],
+			[
+				"gridcss",
+				"css/grid.css"
+			],
+			[
+				"class",
+				"js/classes.js"
+			],
+			[
+				"gridmus",
+				"js/grid.mustache"
+			],
+			[
+				"grid",
+				"js/grid.js"
+			],
+			[
+				"redaphp",
+				"request/grid-secondary/read.php"
+			],
+			[
+				"conne",
+				"request/connection.php"
+			],
+			[
+				"secondarycrea",
+				"request/grid-secondary/create.php"
+			],
+			[
+				"create",
+				"js/formCreate.mustache"
+			],
+			[
+				"pagina",
+				"js/pagination.mustache"
+			],
+			[
+				"gridsecupda",
+				"request/grid-secondary/update.php"
+			],
+			[
+				"rows",
+				"js/rows.mustache"
+			],
+			[
+				"tinymceconf",
+				"js/tinymceConfig.js"
+			],
+			[
+				"defau",
+				"js/createDefaults.js"
+			],
+			[
+				"commbun",
+				"js/common.bundle.js"
+			],
+			[
+				"creadef",
+				"js/createDefaults.js"
+			],
+			[
+				"creade",
+				"js/createDefaults.js"
+			],
+			[
+				"common",
+				"js/common.bundle.js"
+			],
+			[
+				"select",
+				"js/select.mustache"
+			],
+			[
+				"gridjs",
+				"js/grid.js"
+			],
+			[
+				"setting",
+				"css/settings.css"
+			],
+			[
+				"gridc",
+				"css/grid.css"
+			],
+			[
+				"comb",
+				"css/common.bundle.css"
+			],
+			[
+				"sett",
+				"css/settings.css"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"defa",
+				"js/createDefaults.js"
+			],
+			[
+				"utilit",
+				"js/utilities.js"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"igno",
+				".gitignore"
+			],
+			[
+				"update",
+				"request/grid-secondary/update.php"
+			],
+			[
+				"tempalte",
+				"js/templates.js"
+			],
+			[
+				"bundlejs",
 				"js/common.bundle.js"
 			],
 			[
@@ -1285,16 +867,8 @@
 				"js/tinymceConfig.js"
 			],
 			[
-				"class",
-				"js/classes.js"
-			],
-			[
 				"commonbun",
 				"js/common.bundle.js"
-			],
-			[
-				"gridc",
-				"css/grid.css"
 			],
 			[
 				"tem",
@@ -1305,16 +879,8 @@
 				"js/classes.js"
 			],
 			[
-				"setting",
-				"css/settings.css"
-			],
-			[
 				"indecs",
 				"index.css"
-			],
-			[
-				"gridcs",
-				"css/grid.css"
 			],
 			[
 				"util",
@@ -1335,10 +901,6 @@
 			[
 				"gridprimar",
 				"request/grid-primary/read.php"
-			],
-			[
-				"com",
-				"js/common.bundle.js"
 			],
 			[
 				"template",
@@ -1369,16 +931,8 @@
 				"composer.json"
 			],
 			[
-				"inde",
-				"index.css"
-			],
-			[
 				"indexcss",
 				"index.css"
-			],
-			[
-				"gridcss",
-				"grid.css"
 			],
 			[
 				"dialogu",
@@ -1393,20 +947,12 @@
 				"request/grid-secondary/delete.php"
 			],
 			[
-				"read",
-				"request/grid-secondary/read.php"
-			],
-			[
 				"primaryre",
 				"request/grid-primary/read.php"
 			],
 			[
 				"primary",
 				"request/grid-primary/read.php"
-			],
-			[
-				"conne",
-				"request/connection.php"
 			],
 			[
 				"gridsecondaread",
@@ -1425,16 +971,8 @@
 				"request/grid-secondary/delete.php"
 			],
 			[
-				"update",
-				"request/grid-secondary/update.php"
-			],
-			[
 				"upda",
 				"request/grid-secondary/update.php"
-			],
-			[
-				"comm",
-				"common.js"
 			],
 			[
 				"crea",
@@ -1447,10 +985,6 @@
 			[
 				"commonc",
 				"common.css"
-			],
-			[
-				"sett",
-				"settings.css"
 			],
 			[
 				"connect",
@@ -1675,54 +1209,6 @@
 			[
 				"prodsinncs",
 				"trunk/js/product/single/ncs.js"
-			],
-			[
-				"singlencs",
-				"trunk/js/product/single/ncs.js"
-			],
-			[
-				"adminmediab",
-				"trunk/js/admin/mediaBrowser.js"
-			],
-			[
-				"utilurl",
-				"trunk/js/utility/url.js"
-			],
-			[
-				"prodsinglejs",
-				"trunk/js/product/single.js"
-			],
-			[
-				"product",
-				"trunk/js/product.js"
-			],
-			[
-				"jsproduc",
-				"trunk/js/product.js"
-			],
-			[
-				"equl",
-				"trunk/js/equalHeight.js"
-			],
-			[
-				"localeen",
-				"trunk/js/admin/vendor/grid.locale-en.js"
-			],
-			[
-				"jquerui/jqu",
-				"trunk/node_modules/jquery-ui/jquery-ui.js"
-			],
-			[
-				"sassrese",
-				"trunk/sass/_reset.scss"
-			],
-			[
-				"htac",
-				"public_html/.htaccess"
-			],
-			[
-				"router",
-				"src/php/Router.php"
 			]
 		],
 		"width": 0.0
@@ -1730,24 +1216,52 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "store",
+		"last_filter": "core",
 		"selected_items":
 		[
 			[
-				"store",
-				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+				"core",
+				"/var/www/html/setting/sublime-text-workspaces/core.sublime-workspace"
 			],
 			[
 				"",
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
-				"grid",
-				"/var/www/html/setting/sublime-text-workspaces/grid.sublime-workspace"
+				"el",
+				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"store",
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
 				"dia",
 				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
+			],
+			[
+				"stor",
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"code",
+				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
+				"sto",
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"st",
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"s",
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"grid",
+				"/var/www/html/setting/sublime-text-workspaces/grid.sublime-workspace"
 			],
 			[
 				"dai",
@@ -1762,20 +1276,12 @@
 				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
 			],
 			[
-				"code",
-				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
-			],
-			[
 				"dialo",
 				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
 			],
 			[
 				"feed",
 				"/var/www/html/setting/sublime-text-workspaces/feedback-queue.sublime-workspace"
-			],
-			[
-				"sto",
-				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
 				"co",
@@ -1798,16 +1304,8 @@
 				"/var/www/html/sublime-workspace/elttl.sublime-workspace"
 			],
 			[
-				"core",
-				"/var/www/html/sublime-workspace/codex.sublime-workspace"
-			],
-			[
 				"eltt",
 				"/var/www/html/sublime-workspace/elttl.sublime-workspace"
-			],
-			[
-				"s",
-				"/var/www/html/sublime-workspace/store.sublime-workspace"
 			],
 			[
 				"g",
@@ -1832,8 +1330,8 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
-	"side_bar_width": 150.0,
+	"side_bar_visible": true,
+	"side_bar_width": 234.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
