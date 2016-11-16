@@ -520,11 +520,12 @@
 	"buffers":
 	[
 		{
-			"file": "/var/www/html/portfolio/index.php",
+			"file": "/var/www/html/portfolio/json/cv/claire-cv.json",
 			"settings":
 			{
-				"buffer_size": 594,
-				"line_ending": "Windows"
+				"buffer_size": 3530,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -749,14 +750,25 @@
 	},
 	"expanded_folders":
 	[
-		"/var/www/html/portfolio"
+		"/var/www/html/portfolio",
+		"/var/www/html/portfolio/template",
+		"/var/www/html/portfolio/template/cv"
 	],
 	"file_history":
 	[
-		"/var/www/html/portfolio/config.php",
-		"/var/www/html/portfolio/index.php",
-		"/var/www/html/portfolio/vendor/mwyatt/core/src/Http/Kernel.php",
+		"/var/www/html/portfolio/json/skills.json",
+		"/var/www/html/portfolio/css/cv-screen.css",
+		"/var/www/html/portfolio/template/cv/single.bundle.php",
+		"/var/www/html/portfolio/json/cv/martin-cv.reject",
+		"/var/www/html/portfolio/json/cv/martin-config.json",
+		"/var/www/html/portfolio/json/cv/martin-cv.json",
 		"/var/www/html/portfolio/composer.json",
+		"/var/www/html/portfolio/src/Controller/Cv.php",
+		"/var/www/html/portfolio/index.php",
+		"/var/www/html/portfolio/src/Controller.php",
+		"/var/www/html/portfolio/template/cv/panels.php",
+		"/var/www/html/portfolio/config.php",
+		"/var/www/html/portfolio/vendor/mwyatt/core/src/Http/Kernel.php",
 		"/var/www/html/portfolio/src/Admin/Controller/Post.php",
 		"/var/www/html/portfolio/src/Mapper/Post.php",
 		"/var/www/html/portfolio/vendor/mwyatt/core/src/AbstractMapper.php",
@@ -783,7 +795,6 @@
 		"/var/www/html/portfolio/template/header/_css.php",
 		"/var/www/html/portfolio/vendor/mwyatt/core/src/AbstractIterator.php",
 		"/var/www/html/portfolio/vendor/mwyatt/core/src/MiddlewareInterface.php",
-		"/var/www/html/portfolio/src/Controller.php",
 		"/var/www/html/portfolio/src/Middleware/Common.php",
 		"/var/www/html/portfolio/vendor/mwyatt/core/template/header.php",
 		"/var/www/html/portfolio/vendor/mwyatt/core/src/AbstractView.php",
@@ -797,8 +808,6 @@
 		"/var/www/html/portfolio/template/index.php",
 		"/var/www/html/portfolio/template/admin/post/single.bundle.php",
 		"/var/www/html/portfolio/template/cv/panel-children.php",
-		"/var/www/html/portfolio/template/cv/panels.php",
-		"/var/www/html/portfolio/template/cv/single.bundle.php",
 		"/var/www/html/portfolio/template/post/single.bundle.php",
 		"/var/www/html/portfolio/vendor/monolog/monolog/src/Monolog/ErrorHandler.php",
 		"/var/www/html/portfolio/config-sample.php",
@@ -809,13 +818,11 @@
 		"/var/www/html/portfolio/vendor/mwyatt/core/src/Factory/Model.php",
 		"/var/www/html/portfolio/vendor/mwyatt/core/src/Database/Pdo.php",
 		"/var/www/html/portfolio/pimple.php",
-		"/var/www/html/portfolio/src/Controller/Cv.php",
 		"/var/www/html/portfolio/vendor/mwyatt/core/src/AbstractModel.php",
 		"/var/www/html/portfolio/src/Service/Post.php",
 		"/var/www/html/portfolio/sql/post.sql",
 		"/var/www/html/portfolio/css/common.bundle.css",
 		"/var/www/html/portfolio/css/settings.css",
-		"/var/www/html/portfolio/json/skills.json",
 		"/var/www/html/portfolio/vendor/mwyatt/core/src/Error.php",
 		"/var/www/html/portfolio/vendor/mwyatt/core/src/ModelAbstract.php",
 		"/var/www/html/portfolio/.gitignore",
@@ -876,11 +883,7 @@
 		"/var/www/html/store/trunk/app/classes/common/mysql.php",
 		"/var/www/html/store/trunk/app/classes/storage/exception/log.php",
 		"/var/www/html/store/trunk/vendor/guzzle/guzzle/src/Guzzle/Plugin/Cache/CacheStorageInterface.php",
-		"/var/www/html/store/trunk/app/classes/ajax/modules/product.php",
-		"/var/www/html/store/trunk/js/admin/exception/create.js",
-		"/var/www/html/store/trunk/administration/grids.php",
-		"/var/www/html/store/trunk/css/product.css",
-		"/var/www/html/store/trunk/css/common.bundle.css"
+		"/var/www/html/store/trunk/app/classes/ajax/modules/product.php"
 	],
 	"find":
 	{
@@ -1026,6 +1029,10 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"bil",
+			"bilingual",
+			"span",
+			"'variable'",
 			"STR",
 			"/post/create",
 			"admin.post",
@@ -1149,11 +1156,7 @@
 			"render",
 			"dialogue",
 			"offsetSet",
-			"$asset['css']",
-			"common",
-			".css",
-			"session_start()",
-			"session_start();"
+			"$asset['css']"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1303,27 +1306,28 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/var/www/html/portfolio/index.php",
+					"file": "/var/www/html/portfolio/json/cv/claire-cv.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 594,
+						"buffer_size": 3530,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								594
+								3530,
+								3530
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2228.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1385,28 +1389,44 @@
 		"selected_items":
 		[
 			[
-				"inde",
-				"index.php"
+				"claire",
+				"json/cv/claire-cv.json"
+			],
+			[
+				"",
+				"json/cv/martin-cv.json"
+			],
+			[
+				"cvcss",
+				"css/cv-screen.css"
+			],
+			[
+				"skills",
+				"json/skills.json"
+			],
+			[
+				"martin",
+				"json/cv/martin-cv.json"
 			],
 			[
 				"compos",
 				"composer.json"
 			],
 			[
-				"kern",
-				"vendor/mwyatt/core/src/Http/Kernel.php"
-			],
-			[
 				"index",
 				"index.php"
 			],
 			[
-				"conf",
-				"config.php"
+				"inde",
+				"index.php"
 			],
 			[
-				"",
-				"src/Admin/Controller/Post.php"
+				"kern",
+				"vendor/mwyatt/core/src/Http/Kernel.php"
+			],
+			[
+				"conf",
+				"config.php"
 			],
 			[
 				"modelpost",
@@ -1733,10 +1753,6 @@
 				"config.php"
 			],
 			[
-				"skills",
-				"json/skills.json"
-			],
-			[
 				"coreerror",
 				"vendor/mwyatt/core/src/Error.php"
 			],
@@ -1883,18 +1899,6 @@
 			[
 				"coreurl",
 				"vendor/mwyatt/core/src/Url.php"
-			],
-			[
-				"errorbun",
-				"template/error.bundle.php"
-			],
-			[
-				"indx",
-				"index.php"
-			],
-			[
-				"css/",
-				"css/common.bundle.css"
 			]
 		],
 		"width": 0.0
@@ -1907,7 +1911,7 @@
 		[
 			[
 				"",
-				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
+				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
 			],
 			[
 				"grid",

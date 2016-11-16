@@ -67,14 +67,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/var/www/html/inventory/src/php/Controller/Api/Printer.php",
-			"settings":
-			{
-				"buffer_size": 6734,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -126,10 +118,16 @@
 	"expanded_folders":
 	[
 		"/var/www/html/inventory",
-		"/var/www/html/inventory/font"
+		"/var/www/html/inventory/config",
+		"/var/www/html/inventory/config/route"
 	],
 	"file_history":
 	[
+		"/var/www/html/inventory/src/php/Utility/Search.php",
+		"/var/www/html/inventory/src/php/Controller/Ajax/PurchaseOrder.php",
+		"/var/www/html/inventory/config/route/admin.php",
+		"/var/www/html/inventory/vendor/mwyatt/core/routes.php",
+		"/var/www/html/inventory/src/php/Controller/Api/Printer.php",
 		"/var/www/html/inventory/config/route/api.php",
 		"/var/www/html/inventory/src/php/Router.php",
 		"/var/www/html/inventory/src/php/Access/Handler/User.php",
@@ -144,14 +142,12 @@
 		"/var/www/html/inventory/src/js/stockTake.js",
 		"/var/www/html/inventory/src/php/Controller/Ajax/StockTake.php",
 		"/var/www/html/inventory/src/sass/_message.scss",
-		"/var/www/html/inventory/config/route/admin.php",
 		"/var/www/html/inventory/src/php/Controller/Ajax/AjaxAbstract.php",
 		"/var/www/html/inventory/src/php/Controller/Admin/Index.php",
 		"/var/www/html/inventory/composer.json",
 		"/var/www/html/inventory/package.json",
 		"/var/www/html/inventory/src/php/Controller/Admin/Item.php",
 		"/var/www/html/inventory/src/php/Controller/Admin/Log.php",
-		"/var/www/html/inventory/src/php/Controller/Api/Printer.php",
 		"/var/www/html/inventory/public_html/.htaccess",
 		"/var/www/html/inventory/docs/php/API.md",
 		"/var/www/html/inventory/src/php/Controller/Api/Label.php",
@@ -170,7 +166,6 @@
 		"/var/www/html/inventory/src/sass/_feedback-queue.scss",
 		"/var/www/html/inventory/src/php/Controller/Api/Ping.php",
 		"/home/martin/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
-		"/var/www/html/inventory/src/php/Controller/Ajax/PurchaseOrder.php",
 		"/var/www/html/inventory/src/sass/_admin-module-purchaseorder.scss",
 		"/var/www/html/inventory/src/js/purchaseOrder/all.js",
 		"/var/www/html/inventory/src/templates/admin/module/purchaseorder/list.tpl",
@@ -255,9 +250,7 @@
 		"/var/www/html/store/trunk/sass/common.scss",
 		"/var/www/html/store/trunk/app/skin/custom/admin/modules/account/offer/all.tpl",
 		"/var/www/html/store/trunk/app/skin/custom/admin/modules/account/offer/single.tpl",
-		"/var/www/html/store/trunk/sass/checkout.scss",
-		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/account/create-update.tpl",
-		"/var/www/html/store/trunk/app/classes/frontend/modules/createaccount.php"
+		"/var/www/html/store/trunk/sass/checkout.scss"
 	],
 	"find":
 	{
@@ -305,6 +298,13 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"FIS",
+			"[",
+			"getDataLimit",
+			"dataLimit",
+			"setDataLimit",
+			"search-ite",
+			"purch",
 			"printerNames",
 			"LocalStorage",
 			"localStorage",
@@ -425,14 +425,7 @@
 			"firstImage",
 			"getMediaImagesSorted",
 			"firstImage",
-			".home .product-tag-new,",
-			"product-tag-new",
-			"get_name",
-			"// reset checkbox to off",
-			"\t\t\t\tid,\n\t\t\t\tname,\n\t\t\t\tcontent,\n\t\t\t\timage,\n\t\t\t\ttime_start,\n\t\t\t\ttime_end,\n\t\t\t\thidden_field,\n\t\t\t\tstatus\n",
-			"$entity->imageOnly ? 1 : 0",
-			"input-checkbox",
-			"image"
+			".home .product-tag-new,"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -482,146 +475,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/var/www/html/inventory/src/php/Controller/Api/Printer.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6734,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6448,
-								6448
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3789.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -678,6 +533,18 @@
 		"selected_items":
 		[
 			[
+				"search",
+				"src/php/Utility/Search.php"
+			],
+			[
+				"route",
+				"config/route/admin.php"
+			],
+			[
+				"routes",
+				"vendor/mwyatt/core/routes.php"
+			],
+			[
 				"routeapi",
 				"config/route/api.php"
 			],
@@ -716,10 +583,6 @@
 			[
 				"aja",
 				"src/php/Controller/Ajax/AjaxAbstract.php"
-			],
-			[
-				"route",
-				"config/route/admin.php"
 			],
 			[
 				"stocktak",
@@ -1180,14 +1043,6 @@
 			[
 				"checkoutsingle",
 				"app/skin/custom/frontend/modules/checkout/single.tpl"
-			],
-			[
-				"checkoutphp",
-				"app/classes/frontend/modules/checkout.php"
-			],
-			[
-				"checkdropadd",
-				"mustache/checkout/drop-address.mst"
 			]
 		],
 		"width": 0.0
@@ -1195,9 +1050,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "store",
 		"selected_items":
 		[
+			[
+				"store",
+				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
+			],
 			[
 				"",
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
@@ -1209,10 +1068,6 @@
 			[
 				"dialog",
 				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
-			],
-			[
-				"store",
-				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
 				"grid",

@@ -450,10 +450,21 @@
 	"expanded_folders":
 	[
 		"/var/www/html/core",
+		"/var/www/html/core/src",
 		"/var/www/html/core/test"
 	],
 	"file_history":
 	[
+		"/var/www/html/core/src/Http/Kernel.php",
+		"/var/www/html/core/composer.json",
+		"/var/www/html/core/src/Iterator/ModelInterface.php",
+		"/var/www/html/core/test/IteratorModelTest.php",
+		"/var/www/html/core/test/IteratorTest.php",
+		"/var/www/html/core/src/Iterator/Model.php",
+		"/var/www/html/core/src/ModelInterface.php",
+		"/var/www/html/core/test/ModelTest.php",
+		"/var/www/html/core/index.php",
+		"/var/www/html/core/services.php",
 		"/var/www/html/core/src/Model/User.php",
 		"/var/www/html/core/src/Model/User/Log.php",
 		"/var/www/html/core/src/Model/Log.php",
@@ -462,15 +473,10 @@
 		"/var/www/html/core/src/Mapper/User.php",
 		"/var/www/html/core/test/MapperTest.php",
 		"/var/www/html/core/phpunit.xml",
-		"/var/www/html/core/test/ModelTest.php",
 		"/var/www/html/core/test/RepositoryTest.php",
-		"/var/www/html/core/test/IteratorModelTest.php",
 		"/var/www/html/core/src/Repository/User.php",
-		"/var/www/html/core/src/Iterator/Model.php",
-		"/var/www/html/core/index.php",
 		"/var/www/html/core/src/AbstractModel.php",
 		"/var/www/html/core/src/AbstractIterator.php",
-		"/var/www/html/core/src/Http/Kernel.php",
 		"/var/www/html/core/src/Http/Config.php",
 		"/var/www/html/core/config.php",
 		"/var/www/html/core/src/AbstractController.php",
@@ -491,7 +497,6 @@
 		"/var/www/html/core/src/Iterator/Model/User.php",
 		"/var/www/html/core/src/Mapper/User/Log.php",
 		"/var/www/html/core/src/Controller/Test.php",
-		"/var/www/html/core/services.php",
 		"/var/www/html/core/src/Controller/Error.php",
 		"/var/www/html/core/template/message.php",
 		"/var/www/html/core/src/Template.php",
@@ -502,7 +507,6 @@
 		"/var/www/html/core/routes.php",
 		"/var/www/html/core/test/ControllerTest.php",
 		"/var/www/html/core/vendor/twig/twig/lib/Twig/Extension/Core.php",
-		"/var/www/html/core/composer.json",
 		"/var/www/html/core/indexExample.php",
 		"/var/www/html/core/template/test.php",
 		"/var/www/html/core/src/View.php",
@@ -523,7 +527,6 @@
 		"/var/www/html/core/test/DatabaseTest.php",
 		"/var/www/html/core/src/Database/Mock.php",
 		"/var/www/html/core/src/Factory/Mapper.php",
-		"/var/www/html/core/src/ModelInterface.php",
 		"/var/www/html/core/src/Factory/Repository.php",
 		"/var/www/html/core/error.txt",
 		"/var/www/html/core/test/MonologTest.php",
@@ -579,9 +582,7 @@
 		"/var/www/html/core/src/ModelFactory.php",
 		"/var/www/html/core/src/RepositoryFactory.php",
 		"/var/www/html/core/src/MapperFactory.php",
-		"/var/www/html/core/src/ServiceInterface.php",
-		"/var/www/html/core/src/AbstractService.php",
-		"/var/www/html/core/src/Factory.php"
+		"/var/www/html/core/src/ServiceInterface.php"
 	],
 	"find":
 	{
@@ -654,6 +655,11 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"->current",
+			"$this->rewind();",
+			"collection",
+			"'Config'",
+			"getByProperty",
 			"exit($e->getMessage());",
 			"catch",
 			"userModelData",
@@ -776,12 +782,7 @@
 			"url",
 			"appendTemplateDirectory",
 			"$this->pimple",
-			"Error",
-			"$pimple",
-			"PATH_BASE",
-			"pimple",
-			"config",
-			"."
+			"Error"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -906,16 +907,52 @@
 		"selected_items":
 		[
 			[
+				"kerne",
+				"src/Http/Kernel.php"
+			],
+			[
+				"modinter",
+				"src/ModelInterface.php"
+			],
+			[
+				"",
+				"test/IteratorModelTest.php"
+			],
+			[
+				"modeltes",
+				"test/ModelTest.php"
+			],
+			[
+				"iteratortes",
+				"test/IteratorTest.php"
+			],
+			[
+				"compo",
+				"composer.json"
+			],
+			[
+				"iteratormodel",
+				"src/Iterator/Model.php"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"kern",
+				"src/Http/Kernel.php"
+			],
+			[
+				"service",
+				"services.php"
+			],
+			[
 				"modellog",
 				"src/Model/Log.php"
 			],
 			[
 				"modeluserlog",
 				"src/Model/User/Log.php"
-			],
-			[
-				"",
-				"src/AbstractMapper.php"
 			],
 			[
 				"absmappe",
@@ -966,20 +1003,12 @@
 				"src/Http/Kernel.php"
 			],
 			[
-				"inde",
-				"index.php"
-			],
-			[
 				"index",
 				"index.php"
 			],
 			[
 				"config",
 				"config.php"
-			],
-			[
-				"kerne",
-				"src/Http/Kernel.php"
 			],
 			[
 				"pdo",
@@ -1016,10 +1045,6 @@
 			[
 				"absview",
 				"src/AbstractView.php"
-			],
-			[
-				"kern",
-				"src/Http/Kernel.php"
 			],
 			[
 				"conif",
@@ -1192,10 +1217,6 @@
 			[
 				"repouser",
 				"src/Repository/User.php"
-			],
-			[
-				"iteratormodel",
-				"src/Iterator/Model.php"
 			],
 			[
 				"reque",
@@ -1396,26 +1417,6 @@
 			[
 				"facrepo",
 				"src/Factory/Repository.php"
-			],
-			[
-				"factorymod",
-				"src/Factory/Model.php"
-			],
-			[
-				"defi",
-				"definition.sql"
-			],
-			[
-				"maperuser",
-				"src/Mapper/User.php"
-			],
-			[
-				"modelinter",
-				"src/ModelInterface.php"
-			],
-			[
-				"testrepos",
-				"test/RepositoryTest.php"
 			]
 		],
 		"width": 0.0
@@ -1423,20 +1424,24 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "el",
+		"last_filter": "",
 		"selected_items":
 		[
 			[
-				"el",
-				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
+				"",
+				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
 			],
 			[
-				"",
-				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
+				"el",
+				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
 			],
 			[
 				"store",
-				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"sto",
+				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
 				"port",
@@ -1460,10 +1465,6 @@
 			],
 			[
 				"sote",
-				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
-			],
-			[
-				"sto",
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[

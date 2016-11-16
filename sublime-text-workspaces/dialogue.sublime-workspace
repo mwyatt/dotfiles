@@ -95,22 +95,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/var/www/html/dialogue/package.json",
-			"settings":
-			{
-				"buffer_size": 1614,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/dialogue/js/dialogue.js",
-			"settings":
-			{
-				"buffer_size": 10094,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -193,21 +177,25 @@
 	],
 	"file_history":
 	[
-		"/var/www/html/dialogue/js/dialogue.js",
-		"/var/www/html/dialogue/package.json",
-		"/var/www/html/dialogue/js/common.bundle.js",
+		"/var/www/html/dialogue/index.php",
+		"/var/www/html/dialogue/js/test.js",
+		"/var/www/html/dialogue/.travis.yml",
+		"/var/www/html/dialogue/bin/browserify",
 		"/var/www/html/dialogue/gulpfile.js",
+		"/var/www/html/dialogue/npm-shrinkwrap.json",
+		"/var/www/html/dialogue/package.json",
+		"/var/www/html/dialogue/npm-debug.log",
+		"/var/www/html/dialogue/js/dialogue.js",
+		"/var/www/html/dialogue/js/common.bundle.js",
 		"/var/www/html/dialogue/js/container.mustache",
 		"/var/www/html/dialogue/css/default.css",
 		"/var/www/html/dialogue/css/common.bundle.css",
 		"/var/www/html/dialogue/index.js",
 		"/var/www/html/dialogue/template/home.php",
 		"/var/www/html/dialogue/bin/deploy.sh",
-		"/var/www/html/dialogue/index.php",
 		"/var/www/html/dialogue/js/ready.js",
 		"/var/www/html/dialogue/css/settings.css",
 		"/var/www/html/dialogue/dist/index.html",
-		"/var/www/html/dialogue/bin/browserify",
 		"/var/www/html/dialogue/vendor/mwyatt/core/contrib/setup.sh",
 		"/var/www/html/dialogue/README.md",
 		"/var/www/html/dialogue/asset/common.bundle.js",
@@ -316,11 +304,7 @@
 		"/var/www/html/store/trunk/js/contact.js",
 		"/var/www/html/store/trunk/node_modules/gulp-sass/node_modules/node-sass/node_modules/sass-graph/node_modules/lodash/_assignInDefaults.js",
 		"/var/www/html/store/trunk/js/checkout.js",
-		"/var/www/html/store/trunk/js/admin/ebay.js",
-		"/var/www/html/store/trunk/js/admin/promotion.js",
-		"/var/www/html/store/trunk/js/admin/ad/all.js",
-		"/var/www/html/store/trunk/js/admin/order/create.js",
-		"/var/www/html/store/trunk/js/admin/product/associated.js"
+		"/var/www/html/store/trunk/js/admin/ebay.js"
 	],
 	"find":
 	{
@@ -355,6 +339,34 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"{ORG-or-USERNAME}",
+			"domready",
+			"buffer",
+			"stringify",
+			"browserify",
+			"postcssCustomProperties",
+			"postcssConditionals",
+			"postcssHexrgba",
+			"postcssColorFunction",
+			"postcssCombOptions",
+			"postcssColorFunction",
+			"postcssCombOptions",
+			"postcssCsscomb",
+			"postcssImport",
+			"autoprefixer",
+			"pngquant",
+			"imagemin",
+			"cssmin",
+			"uglify",
+			"jscs",
+			"runSequence",
+			"tap",
+			"runSequence",
+			"tap",
+			"gulpConcat",
+			"gutil",
+			"buffer",
+			"media",
 			"event",
 			"applyCssPosition",
 			"closeInstance",
@@ -454,35 +466,7 @@
 			"actions",
 			"dialogueHtml",
 			"isInside",
-			"offset()",
-			"dialogueOpenCount",
-			"docBody",
-			"documentBody",
-			"dialogue.container.remove",
-			"getRandomString",
-			"keyup",
-			"removeEvent",
-			"defaultOptions",
-			".removeEvent",
-			"positionTo",
-			"dialoguesOpen",
-			"applyCssPosition",
-			"marginLeft",
-			"'auto'",
-			"parsePx",
-			"cssSettings.",
-			"cssSettings",
-			"parsePx",
-			"intToPx",
-			"paddingWidth",
-			"borderWidth",
-			"0",
-			"offset()",
-			"positionalEl",
-			"$positionalElement",
-			"event.data",
-			"$window[0]",
-			"window"
+			"offset()"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -531,70 +515,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/var/www/html/dialogue/package.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1614,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/var/www/html/dialogue/js/dialogue.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10094,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2885,
-								2900
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1953.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -651,12 +573,32 @@
 		"selected_items":
 		[
 			[
-				"dia",
-				"js/dialogue.js"
+				"inde",
+				"index.php"
+			],
+			[
+				"npmshi",
+				"npm-shrinkwrap.json"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
 			],
 			[
 				"packa",
 				"package.json"
+			],
+			[
+				"travis",
+				".travis.yml"
+			],
+			[
+				"npmde",
+				"npm-debug.log"
+			],
+			[
+				"dia",
+				"js/dialogue.js"
 			],
 			[
 				"dialo",
@@ -665,10 +607,6 @@
 			[
 				"comm",
 				"js/common.bundle.js"
-			],
-			[
-				"gulp",
-				"gulpfile.js"
 			],
 			[
 				"",
@@ -701,10 +639,6 @@
 			[
 				"dialoguejs",
 				"js/dialogue.js"
-			],
-			[
-				"inde",
-				"index.js"
 			],
 			[
 				"dialogue",
@@ -1149,10 +1083,6 @@
 			[
 				"htac",
 				"public_html/.htaccess"
-			],
-			[
-				"router",
-				"src/php/Router.php"
 			]
 		],
 		"width": 0.0
@@ -1165,7 +1095,11 @@
 		[
 			[
 				"",
-				"/var/www/html/setting/sublime-text-workspaces/grid.sublime-workspace"
+				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"st",
+				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
 				"core",
@@ -1182,10 +1116,6 @@
 			[
 				"code",
 				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
-			],
-			[
-				"st",
-				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
 				"feed",

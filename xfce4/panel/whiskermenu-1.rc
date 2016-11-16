@@ -1,5 +1,5 @@
 favorites=abiword.desktop,exo-file-manager.desktop,gmusicbrowser.desktop,gnumeric.desktop,xfhelp4.desktop,exo-mail-reader.desktop,pidgin.desktop,exo-terminal-emulator.desktop,ubuntu-software-center.desktop,exo-web-browser.desktop
-recent=sublime-text.desktop,gcalctool.desktop,filezilla.desktop,google-chrome.desktop,thunderbird.desktop,xfce-wm-settings.desktop,xfce4-settings-editor.desktop,xfce-keyboard-settings.desktop,thunar-settings.desktop,users.desktop
+recent=google-chrome.desktop,unetbootin.desktop,exo-file-manager.desktop,filezilla.desktop,sublime-text.desktop,slack.desktop,xfce-backdrop-settings.desktop,gparted.desktop,thunar-settings.desktop,xfhelp4.desktop
 button-title=Super
 button-icon=xubuntu-logo-menu
 show-button-title=true
