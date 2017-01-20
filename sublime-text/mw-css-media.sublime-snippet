@@ -5,9 +5,7 @@
 }${3}
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>media-screen</tabTrigger>
+    <tabTrigger>1</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.css</scope>
-    <!-- Optional: Description to show in the menu -->
-    <description>Media query screen</description>
 </snippet>

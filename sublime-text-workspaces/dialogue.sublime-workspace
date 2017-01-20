@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"animnda",
+				"animation-duration"
+			],
+			[
 				"dialoge",
 				"dialogueHeight"
 			],
@@ -104,9 +108,13 @@
 	"command_palette":
 	{
 		"height": 354.0,
-		"last_filter": "stat",
+		"last_filter": "open",
 		"selected_items":
 		[
+			[
+				"open",
+				"View: Toggle Open Files in Side Bar"
+			],
 			[
 				"stat",
 				"View: Toggle Status Bar"
@@ -152,7 +160,7 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 449.0
+		"width": 467.0
 	},
 	"console":
 	{
@@ -177,22 +185,22 @@
 	],
 	"file_history":
 	[
-		"/var/www/html/dialogue/index.php",
-		"/var/www/html/dialogue/js/test.js",
+		"/var/www/html/dialogue/js/dialogue.js",
+		"/var/www/html/dialogue/bin/deploy.sh",
 		"/var/www/html/dialogue/.travis.yml",
-		"/var/www/html/dialogue/bin/browserify",
+		"/var/www/html/dialogue/template/home.php",
+		"/var/www/html/dialogue/index.php",
+		"/var/www/html/dialogue/css/default.css",
 		"/var/www/html/dialogue/gulpfile.js",
+		"/var/www/html/dialogue/css/common.bundle.css",
+		"/var/www/html/dialogue/js/test.js",
+		"/var/www/html/dialogue/bin/browserify",
 		"/var/www/html/dialogue/npm-shrinkwrap.json",
 		"/var/www/html/dialogue/package.json",
 		"/var/www/html/dialogue/npm-debug.log",
-		"/var/www/html/dialogue/js/dialogue.js",
 		"/var/www/html/dialogue/js/common.bundle.js",
 		"/var/www/html/dialogue/js/container.mustache",
-		"/var/www/html/dialogue/css/default.css",
-		"/var/www/html/dialogue/css/common.bundle.css",
 		"/var/www/html/dialogue/index.js",
-		"/var/www/html/dialogue/template/home.php",
-		"/var/www/html/dialogue/bin/deploy.sh",
 		"/var/www/html/dialogue/js/ready.js",
 		"/var/www/html/dialogue/css/settings.css",
 		"/var/www/html/dialogue/dist/index.html",
@@ -339,6 +347,12 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"clientFrame",
+			"cssSettings",
+			"frame",
+			"copy",
+			"bringIn",
+			"width",
 			"{ORG-or-USERNAME}",
 			"domready",
 			"buffer",
@@ -460,13 +474,7 @@
 			"dialogue.actions",
 			"setActionEvent",
 			"actions",
-			"actionNames",
-			"actions",
-			"actionNames",
-			"actions",
-			"dialogueHtml",
-			"isInside",
-			"offset()"
+			"actionNames"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -573,6 +581,42 @@
 		"selected_items":
 		[
 			[
+				"dialog",
+				"js/dialogue.js"
+			],
+			[
+				"travis",
+				".travis.yml"
+			],
+			[
+				"bin/",
+				"bin/deploy.sh"
+			],
+			[
+				"temhome",
+				"template/home.php"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"defau",
+				"css/default.css"
+			],
+			[
+				"common",
+				"css/common.bundle.css"
+			],
+			[
+				"dialoge",
+				"js/dialogue.js"
+			],
+			[
 				"inde",
 				"index.php"
 			],
@@ -581,16 +625,8 @@
 				"npm-shrinkwrap.json"
 			],
 			[
-				"gulp",
-				"gulpfile.js"
-			],
-			[
 				"packa",
 				"package.json"
-			],
-			[
-				"travis",
-				".travis.yml"
 			],
 			[
 				"npmde",
@@ -621,10 +657,6 @@
 				"css/default.css"
 			],
 			[
-				"dialog",
-				"js/dialogue.js"
-			],
-			[
 				"commonbunl",
 				"css/common.bundle.css"
 			],
@@ -647,10 +679,6 @@
 			[
 				"homephp",
 				"template/home.php"
-			],
-			[
-				"index",
-				"index.php"
 			],
 			[
 				"deplo",
@@ -679,10 +707,6 @@
 			[
 				"home",
 				"template/home.php"
-			],
-			[
-				"common",
-				"css/common.bundle.css"
 			],
 			[
 				"setting",
@@ -725,10 +749,6 @@
 				"bin/deploy.sh"
 			],
 			[
-				"bin/",
-				"bin/browserify"
-			],
-			[
 				"contrib/",
 				"vendor/mwyatt/core/contrib/setup.sh"
 			],
@@ -759,10 +779,6 @@
 			[
 				"bundlecss",
 				"css/common.bundle.css"
-			],
-			[
-				"temhome",
-				"template/home.php"
 			],
 			[
 				"binbrows",
@@ -807,10 +823,6 @@
 			[
 				"js",
 				"index.js"
-			],
-			[
-				"defau",
-				"css/default.css"
 			],
 			[
 				"indexcss",
@@ -1079,10 +1091,6 @@
 			[
 				"sassrese",
 				"trunk/sass/_reset.scss"
-			],
-			[
-				"htac",
-				"public_html/.htaccess"
 			]
 		],
 		"width": 0.0
@@ -1098,24 +1106,40 @@
 				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
-				"st",
+				"sto",
 				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
 				"core",
-				"/var/www/html/setting/sublime-text-workspaces/core.sublime-workspace"
+				"/var/www/html/dotfiles/sublime-text-workspaces/core.sublime-workspace"
+			],
+			[
+				"cod",
+				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
+				"codex",
+				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"
 			],
 			[
 				"store",
-				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"code",
+				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
+				"co",
+				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
+				"st",
+				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
 				"dia",
 				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
-			],
-			[
-				"code",
-				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
 			],
 			[
 				"feed",
@@ -1124,10 +1148,6 @@
 			[
 				"dai",
 				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
-			],
-			[
-				"sto",
-				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
 				"sand",
@@ -1160,10 +1180,6 @@
 			[
 				"port",
 				"/var/www/html/setting/sublime-text-workspaces/portfolio.sublime-workspace"
-			],
-			[
-				"codex",
-				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
 			],
 			[
 				"dialo",
@@ -1202,7 +1218,7 @@
 	{
 	},
 	"show_minimap": true,
-	"show_open_files": true,
+	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 150.0,

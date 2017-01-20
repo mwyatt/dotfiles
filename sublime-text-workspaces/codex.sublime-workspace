@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"col",
+				"color"
+			],
+			[
+				"colo",
+				"color\tmw-css-color"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"backgra",
+				"background-image"
+			],
+			[
+				"transi",
+				"transition-timing-function"
+			],
+			[
+				"transai",
+				"transition-duration"
+			],
+			[
+				"trnsa",
+				"transition-duration"
+			],
+			[
 				"color",
 				"color-secondary-1-0"
 			],
@@ -75,71 +103,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/var/www/html/codex/css/reusable.css",
-			"settings":
-			{
-				"buffer_size": 1465,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/codex/css/button.css",
-			"settings":
-			{
-				"buffer_size": 1495,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/codex/js/keyCode.js",
-			"settings":
-			{
-				"buffer_size": 325,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/codex/gulpfile.js",
-			"settings":
-			{
-				"buffer_size": 4155,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/var/www/html/codex/package.json",
-			"settings":
-			{
-				"buffer_size": 1315,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/codex/link.css",
-			"settings":
-			{
-				"buffer_size": 20,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": ":root {\n  --width: 25%;\n  --margin: 20px;\n}\n@media (max-width: 400px) {\n  :root {\n    --width: 50%;\n    --margin: 10px;\n  }\n}\nbody {\n  display: flex;\n  flex-wrap: wrap;\n}\ndiv {\n  flex: 1;\n  height: 220px;\n  flex-basis: calc(var(--width) - (var(--margin) * 3));\n  background: #ccc;\n  margin: var(--margin);\n}\n\nif you have a width and margin global this can be modified by the media query\n\nstrip away anything not needed, codex should be clean and light",
-			"settings":
-			{
-				"buffer_size": 451,
-				"line_ending": "Unix",
-				"name": ":root {"
-			}
-		},
-		{
-			"file": "/var/www/html/codex/css/form.css",
-			"settings":
-			{
-				"buffer_size": 1036,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -148,10 +111,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "close",
+		"height": 220.0,
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
 			[
 				"close",
 				"File: Close All"
@@ -163,10 +130,6 @@
 			[
 				"clos a",
 				"File: Close All"
-			],
-			[
-				"menu",
-				"View: Toggle Menu"
 			],
 			[
 				"install",
@@ -181,7 +144,7 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 449.0
+		"width": 467.0
 	},
 	"console":
 	{
@@ -202,47 +165,54 @@
 	},
 	"expanded_folders":
 	[
-		"/var/www/html/codex",
-		"/var/www/html/codex/css"
+		"/var/www/html/codex"
 	],
 	"file_history":
 	[
-		"/var/www/html/codex/index.css",
-		"/var/www/html/codex/css/typography.css",
-		"/var/www/html/codex/css/keyframe.css",
-		"/var/www/html/codex/keyframe.css",
-		"/var/www/html/codex/index.php",
-		"/var/www/html/codex/css/button.css",
-		"/var/www/html/codex/css/reset.css",
-		"/var/www/html/codex/css/spinner.css",
-		"/var/www/html/codex/package.json",
-		"/var/www/html/codex/bin/deploy.sh",
-		"/var/www/html/codex/.gitignore",
-		"/var/www/html/codex/bin/deploy",
-		"/var/www/html/codex/css/general.css",
-		"/var/www/html/codex/css/form.css",
-		"/var/www/html/codex/css/settings.css",
-		"/var/www/html/codex/README.md",
-		"/var/www/html/codex/settings.css",
-		"/var/www/html/codex/gulpfile.js",
+		"/var/www/html/codex/css/settings/ease.css",
 		"/var/www/html/codex/css/common.bundle.css",
-		"/var/www/html/codex/js/common.bundle.js",
-		"/var/www/html/codex/css/reusable.css",
+		"/var/www/html/codex/deployment.ini",
+		"/var/www/html/codex/index.php",
+		"/var/www/html/codex/gulpfile.js",
+		"/var/www/html/codex/.gitignore",
+		"/var/www/html/codex/dist/common.bundle.js",
+		"/var/www/html/codex/composer.json",
+		"/var/www/html/codex/deployment.log",
+		"/var/www/html/codex/css/spinner.css",
+		"/var/www/html/codex/css/link.css",
+		"/var/www/html/codex/css/typography.css",
+		"/var/www/html/codex/template/home.php",
 		"/var/www/html/codex/link.css",
+		"/var/www/html/codex/css/reset.css",
+		"/var/www/html/codex/index.css",
+		"/var/www/html/codex/css/table.css",
+		"/var/www/html/codex/css/general.css",
+		"/var/www/html/codex/css/easing.css",
+		"/var/www/html/codex/css/settings.css",
+		"/var/www/html/codex/index.html",
+		"/var/www/html/codex/bin/deploy.sh",
+		"/var/www/html/codex/css/form.css",
+		"/var/www/html/codex/css/button.css",
+		"/var/www/html/codex/css/reusable.css",
+		"/var/www/html/codex/template/index.php",
+		"/var/www/html/codex/settings.css",
+		"/var/www/html/codex/css/keyframe.css",
+		"/var/www/html/codex/package.json",
+		"/var/www/html/codex/keyframe.css",
+		"/var/www/html/codex/js/keyCode.js",
+		"/var/www/html/codex/bin/deploy",
+		"/var/www/html/codex/README.md",
+		"/var/www/html/codex/js/common.bundle.js",
 		"/var/www/html/codex/js/scrollTop.js",
 		"/var/www/html/codex/reusable.css",
 		"/var/www/html/codex/dist/index.html",
 		"/var/www/html/codex/bin/git-gh-deploy",
-		"/var/www/html/codex/index.html",
 		"/var/www/html/codex/asset/common.bundle.css",
 		"/var/www/html/codex/gulp/.csscomb.json",
 		"/var/www/html/codex/.htaccess",
 		"/var/www/html/codex/css/alert.css",
 		"/var/www/html/codex/template/_installation.php",
-		"/var/www/html/codex/css/link.css",
-		"/var/www/html/codex/css/table.css",
 		"/var/www/html/codex/js/spinner.js",
-		"/var/www/html/codex/template/index.php",
 		"/var/www/html/codex/template/_reusable.php",
 		"/var/www/html/codex/node_modules/ease-component/index.js",
 		"/var/www/html/codex/structure.php",
@@ -257,7 +227,6 @@
 		"/var/www/html/codex/js/utility/url/defaults.js",
 		"/var/www/html/codex/template/_feedbackQueue.php",
 		"/var/www/html/codex/template/_scrollTop.php",
-		"/var/www/html/codex/composer.json",
 		"/var/www/html/codex/common.css",
 		"/var/www/html/codex/mixin.css",
 		"/var/www/html/codex/utility/url.js",
@@ -327,14 +296,7 @@
 		"/var/www/html/store/trunk/app/classes/frontend/modules/media.php",
 		"/var/www/html/store/trunk/index.php",
 		"/var/www/html/store/trunk/sass/_form.scss",
-		"/var/www/html/store/trunk/sass/admin/order/_email-authorised.scss",
-		"/var/www/html/store/trunk/sass/admin/tinymceContent.scss",
-		"/var/www/html/store/trunk/app/config/config.php",
-		"/var/www/html/store/trunk/js/buttonToTop.js",
-		"/var/www/html/store/trunk/mustache/admin/media/browser/tree.mst",
-		"/var/www/html/store/trunk/mustache/admin/media/browser/layout-control.mst",
-		"/var/www/html/store/trunk/app/classes/admin/modules/features.php",
-		"/var/www/html/store/trunk/app/classes/admin/modules/inbox.php"
+		"/var/www/html/store/trunk/sass/admin/order/_email-authorised.scss"
 	],
 	"find":
 	{
@@ -342,7 +304,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 158.0,
 		"where_history":
 		[
 			"-node_modules/, -asset/, css/",
@@ -381,6 +343,38 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"/.deployment",
+			"deployment",
+			"default",
+			"draftavd",
+			"list-style-position",
+			"package",
+			"placehold",
+			"<li>",
+			"expo",
+			"est",
+			"button",
+			"255",
+			"0",
+			".site-heading-menu {",
+			"\n.",
+			".site-heading-menu ",
+			"\"topic-container\"",
+			"topic-container",
+			"ffffff",
+			"ff5722",
+			"topic-easing",
+			"animation-timing-function:",
+			"html",
+			"foreach",
+			"100",
+			"animation",
+			"include",
+			"cubic-bezier",
+			"ease",
+			": cubic-bezier(",
+			"/gulp/",
+			"csscomb",
 			"form-select",
 			"grid-pagination-select",
 			"fadeIn",
@@ -476,39 +470,7 @@
 			"transactionId",
 			"local_cert",
 			"https://api.royalmail.com/shipping/onboarding",
-			"location",
-			"onboarding",
-			"soapaction",
-			"wss",
-			"$firstImage->url",
-			"$firstImage",
-			"firstImage",
-			"getMediaImagesSorted",
-			"firstImage",
-			".home .product-tag-new,",
-			"product-tag-new",
-			"get_name",
-			"// reset checkbox to off",
-			"\t\t\t\tid,\n\t\t\t\tname,\n\t\t\t\tcontent,\n\t\t\t\timage,\n\t\t\t\ttime_start,\n\t\t\t\ttime_end,\n\t\t\t\thidden_field,\n\t\t\t\tstatus\n",
-			"$entity->imageOnly ? 1 : 0",
-			"input-checkbox",
-			"image",
-			"Please create the promotion first to then assign products.",
-			"filesAttached",
-			"// forget about ie8 now?",
-			"owlCarousel",
-			"owl",
-			"'time ",
-			"Time Start",
-			"Time",
-			"Time Start",
-			"push_saved_data",
-			"'contents'",
-			"Confirm your order",
-			"push_saved_data",
-			"set('offline_order'",
-			"offline_order",
-			"'offline_order'"
+			"location"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -558,280 +520,8 @@
 	"groups":
 	[
 		{
-			"selected": 7,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/var/www/html/codex/css/reusable.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1465,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								760,
-								772
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 928.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/var/www/html/codex/css/button.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1495,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								634,
-								634
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/var/www/html/codex/js/keyCode.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 325,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/var/www/html/codex/gulpfile.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4155,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								4155
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/var/www/html/codex/package.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1315,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/var/www/html/codex/link.css",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 20,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 451,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								451,
-								451
-							]
-						],
-						"settings":
-						{
-							"auto_name": ":root {",
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/var/www/html/codex/css/form.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1036,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								655,
-								666
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 276.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -841,7 +531,7 @@
 	},
 	"input":
 	{
-		"height": 33.0
+		"height": 68.0
 	},
 	"layout":
 	{
@@ -888,32 +578,152 @@
 		"selected_items":
 		[
 			[
+				"ease",
+				"css/settings/ease.css"
+			],
+			[
+				"combun",
+				"css/common.bundle.css"
+			],
+			[
 				"index",
-				"index.css"
-			],
-			[
-				"form",
-				"css/form.css"
-			],
-			[
-				"pakca",
-				"package.json"
+				"index.php"
 			],
 			[
 				"gulp",
 				"gulpfile.js"
 			],
 			[
-				"",
-				"js/keyCode.js"
+				"composer",
+				"composer.json"
 			],
 			[
-				"keyc",
-				"js/keyCode.js"
+				"giti",
+				".gitignore"
+			],
+			[
+				"deplolog",
+				"deployment.log"
+			],
+			[
+				"gitig",
+				".gitignore"
+			],
+			[
+				"spinner",
+				"css/spinner.css"
+			],
+			[
+				"common",
+				"css/common.bundle.css"
+			],
+			[
+				"link",
+				"css/link.css"
+			],
+			[
+				"typog",
+				"css/typography.css"
+			],
+			[
+				"templa",
+				"template/home.php"
+			],
+			[
+				"rese",
+				"css/reset.css"
+			],
+			[
+				"home",
+				"template/home.php"
+			],
+			[
+				"eas",
+				"css/settings/ease.css"
+			],
+			[
+				"dep",
+				"bin/deploy.sh"
+			],
+			[
+				"form",
+				"css/form.css"
+			],
+			[
+				"reus",
+				"css/reusable.css"
 			],
 			[
 				"butt",
 				"css/button.css"
+			],
+			[
+				"",
+				"template/home.php"
+			],
+			[
+				"sett",
+				"css/settings.css"
+			],
+			[
+				"setting",
+				"css/settings.css"
+			],
+			[
+				"gene",
+				"css/general.css"
+			],
+			[
+				"commbund",
+				"css/common.bundle.css"
+			],
+			[
+				"key",
+				"css/keyframe.css"
+			],
+			[
+				"general",
+				"css/general.css"
+			],
+			[
+				"ea",
+				"css/easing.css"
+			],
+			[
+				"settings",
+				"css/settings.css"
+			],
+			[
+				"keyfr",
+				"css/keyframe.css"
+			],
+			[
+				"keyf",
+				"keyframe.css"
+			],
+			[
+				"formc",
+				"css/form.css"
+			],
+			[
+				"resec",
+				"css/reset.css"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"reu",
+				"css/reusable.css"
+			],
+			[
+				"pakca",
+				"package.json"
+			],
+			[
+				"keyc",
+				"js/keyCode.js"
 			],
 			[
 				"reusa",
@@ -924,56 +734,24 @@
 				"css/typography.css"
 			],
 			[
-				"reus",
-				"css/reusable.css"
-			],
-			[
-				"keyf",
-				"css/keyframe.css"
-			],
-			[
 				"keyfra",
 				"keyframe.css"
-			],
-			[
-				"rese",
-				"css/reset.css"
 			],
 			[
 				"typo",
 				"css/typography.css"
 			],
 			[
-				"spinner",
-				"css/spinner.css"
-			],
-			[
-				"packa",
-				"package.json"
-			],
-			[
 				"de",
 				"bin/deploy.sh"
-			],
-			[
-				"gitig",
-				".gitignore"
 			],
 			[
 				"depl",
 				"bin/deploy"
 			],
 			[
-				"dep",
-				"bin/deploy"
-			],
-			[
 				"deplo",
 				"bin/deploy"
-			],
-			[
-				"key",
-				"css/keyframe.css"
 			],
 			[
 				"keyfa",
@@ -996,32 +774,8 @@
 				"index.php"
 			],
 			[
-				"typog",
-				"css/typography.css"
-			],
-			[
-				"sett",
-				"css/settings.css"
-			],
-			[
 				"genera",
 				"css/general.css"
-			],
-			[
-				"combun",
-				"css/common.bundle.css"
-			],
-			[
-				"common",
-				"js/common.bundle.js"
-			],
-			[
-				"setting",
-				"css/settings.css"
-			],
-			[
-				"link",
-				"link.css"
 			],
 			[
 				"scrolltop",
@@ -1074,10 +828,6 @@
 			[
 				"bin/",
 				"bin/git-gh-deploy"
-			],
-			[
-				"giti",
-				".gitignore"
 			],
 			[
 				"ign",
@@ -1182,10 +932,6 @@
 			[
 				"url.js",
 				"js/utility/url.js"
-			],
-			[
-				"composer",
-				"composer.json"
 			],
 			[
 				"mixin",
@@ -1342,62 +1088,6 @@
 			[
 				"frontmodacc",
 				"app/classes/frontend/modules/account.php"
-			],
-			[
-				"frontmdoacc",
-				"app/classes/frontend/modules/account.php"
-			],
-			[
-				"frontmodaccou",
-				"app/classes/frontend/modules/account.php"
-			],
-			[
-				"resetscss",
-				"sass/_reset.scss"
-			],
-			[
-				"warrantytpl",
-				"app/skin/custom/frontend/modules/page/warranty.tpl"
-			],
-			[
-				"pagewarrant",
-				"app/skin/custom/frontend/modules/page/warranty.tpl"
-			],
-			[
-				"frontmodwarr",
-				"app/classes/frontend/modules/page/warranty.php"
-			],
-			[
-				"mediabrow",
-				"js/admin/mediaBrowser.js"
-			],
-			[
-				"ajaxmediabro",
-				"app/classes/admin/ajax/modules/mediabrowser.php"
-			],
-			[
-				"logosvg",
-				"image/avo/logo.svg"
-			],
-			[
-				"asslogo",
-				"asset/logo.svg"
-			],
-			[
-				"invproduc",
-				"app/classes/inventory/product.php"
-			],
-			[
-				"mediabrowtem",
-				"js/admin/mediaBrowser/mustacheTemplates.js"
-			],
-			[
-				"commonmedia",
-				"app/classes/common/media.php"
-			],
-			[
-				"uijqgrid",
-				"sass/admin/vendor/_ui.jqgrid.scss"
 			]
 		],
 		"width": 0.0
@@ -1405,20 +1095,56 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "core",
 		"selected_items":
 		[
 			[
+				"core",
+				"/var/www/html/dotfiles/sublime-text-workspaces/core.sublime-workspace"
+			],
+			[
 				"",
-				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"store",
+				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"sto",
+				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"av",
+				"/var/www/html/dotfiles/sublime-text-workspaces/avodrafts.sublime-workspace"
+			],
+			[
+				"cor",
+				"/var/www/html/dotfiles/sublime-text-workspaces/core.sublime-workspace"
+			],
+			[
+				"dialo",
+				"/var/www/html/dotfiles/sublime-text-workspaces/dialogue.sublime-workspace"
+			],
+			[
+				"dia",
+				"/var/www/html/dotfiles/sublime-text-workspaces/dialogue.sublime-workspace"
+			],
+			[
+				"dialoge",
+				"/var/www/html/dotfiles/sublime-text-workspaces/dialogue.sublime-workspace"
+			],
+			[
+				"el",
+				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"so",
+				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
 				"stor",
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
-			],
-			[
-				"core",
-				"/var/www/html/setting/sublime-text-workspaces/core.sublime-workspace"
 			],
 			[
 				"jos",
@@ -1426,14 +1152,6 @@
 			],
 			[
 				"stoe",
-				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
-			],
-			[
-				"dia",
-				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
-			],
-			[
-				"store",
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
@@ -1447,10 +1165,6 @@
 			[
 				"stroe",
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
-			],
-			[
-				"dialo",
-				"/var/www/html/setting/sublime-text-workspaces/dialogue.sublime-workspace"
 			],
 			[
 				"code",
@@ -1477,10 +1191,6 @@
 				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
 			],
 			[
-				"sto",
-				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
-			],
-			[
 				"urk",
 				"/var/www/html/setting/sublime-text-workspaces/url.sublime-workspace"
 			],
@@ -1495,10 +1205,6 @@
 			[
 				"grid",
 				"/var/www/html/sublime-workspace/grid.sublime-workspace"
-			],
-			[
-				"el",
-				"/var/www/html/sublime-workspace/elttl.sublime-workspace"
 			],
 			[
 				"diua",

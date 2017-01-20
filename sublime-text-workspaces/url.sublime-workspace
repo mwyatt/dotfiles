@@ -453,7 +453,9 @@
 	},
 	"expanded_folders":
 	[
-		"/var/www/html/url"
+		"/var/www/html/url",
+		"/var/www/html/url/js",
+		"/var/www/html/url/js/test"
 	],
 	"file_history":
 	[
@@ -1420,7 +1422,7 @@
 		[
 			[
 				"",
-				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
+				"/var/www/html/dotfiles/sublime-text-workspaces/inventory.sublime-workspace"
 			],
 			[
 				"store",

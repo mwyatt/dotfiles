@@ -4,6 +4,286 @@
 		"selected_items":
 		[
 			[
+				"fix",
+				"fixture"
+			],
+			[
+				"remove",
+				"removeKeys"
+			],
+			[
+				"for",
+				"for\tfor …"
+			],
+			[
+				"arrke",
+				"array_keys"
+			],
+			[
+				"pla",
+				"player"
+			],
+			[
+				"enc",
+				"encounter"
+			],
+			[
+				"encou",
+				"encounters"
+			],
+			[
+				"sec",
+				"secretary"
+			],
+			[
+				"secre",
+				"secretaries"
+			],
+			[
+				"colse",
+				"color-secondary-1-5"
+			],
+			[
+				"bakcocl",
+				"background-color"
+			],
+			[
+				"transi",
+				"transition-timing-function"
+			],
+			[
+				"yearcur",
+				"yearCurrentService"
+			],
+			[
+				"yearser",
+				"yearCurrentService"
+			],
+			[
+				"yearcu",
+				"yearCurrentService"
+			],
+			[
+				"divi",
+				"divisions"
+			],
+			[
+				"yearc",
+				"yearCurrentService"
+			],
+			[
+				"divisio",
+				"divisions"
+			],
+			[
+				"teamle",
+				"teamsLeft"
+			],
+			[
+				"expec",
+				"expectedPersistCount"
+			],
+			[
+				"req",
+				"require-jquery\tmw-js-require-jquery"
+			],
+			[
+				"expe",
+				"expectedPersistCount"
+			],
+			[
+				"diiv",
+				"divisions"
+			],
+			[
+				"div",
+				"divisions"
+			],
+			[
+				"thwo",
+				"throw\tmw-php-throw"
+			],
+			[
+				"pv",
+				"pv\tmw-php-printPre"
+			],
+			[
+				"conten",
+				"content"
+			],
+			[
+				"cont",
+				"content"
+			],
+			[
+				"strle",
+				"strlen"
+			],
+			[
+				"dialo",
+				"dialogue"
+			],
+			[
+				"colorpr",
+				"color-primary-0"
+			],
+			[
+				"con",
+				"content"
+			],
+			[
+				"color",
+				"color"
+			],
+			[
+				"borcol",
+				"border-color"
+			],
+			[
+				"bordcl",
+				"border-color"
+			],
+			[
+				"E",
+				"Encounter"
+			],
+			[
+				"findBy",
+				"findByYearIdIds"
+			],
+			[
+				"armer",
+				"array_merge"
+			],
+			[
+				"scorecars",
+				"scorecardStructureRow"
+			],
+			[
+				"struc",
+				"encounterStructure"
+			],
+			[
+				"iterfa",
+				"iteratorFactory"
+			],
+			[
+				"tealeft",
+				"teamLeft"
+			],
+			[
+				"ec",
+				"encounters"
+			],
+			[
+				"playerIdR",
+				"playerIdRight"
+			],
+			[
+				"thrw",
+				"throw\tmw-php-throw"
+			],
+			[
+				"enclef",
+				"encounterLeftRightScores"
+			],
+			[
+				"enclefri",
+				"encounterLeftRightScoreInput"
+			],
+			[
+				"doubl",
+				"doubles"
+			],
+			[
+				"dou",
+				"ncurses_delay_output"
+			],
+			[
+				"extrac",
+				"extractPlayerLeftRightIds"
+			],
+			[
+				"super",
+				"superUserEmail"
+			],
+			[
+				"encrep",
+				"encounterRepository"
+			],
+			[
+				"genera",
+				"generate-fixtures"
+			],
+			[
+				"stoe",
+				"storeEncounters"
+			],
+			[
+				"tr",
+				"try\tmw-php-try"
+			],
+			[
+				"pesis",
+				"persist"
+			],
+			[
+				"playerR",
+				"playerRight"
+			],
+			[
+				"palyer",
+				"playerRepository"
+			],
+			[
+				"isa",
+				"is_array"
+			],
+			[
+				"conts",
+				"contents"
+			],
+			[
+				"exe",
+				"execute"
+			],
+			[
+				"route",
+				"routes"
+			],
+			[
+				"throw",
+				"throw\tmw-php-throw"
+			],
+			[
+				"contain",
+				"containers"
+			],
+			[
+				"user",
+				"users"
+			],
+			[
+				"timepu",
+				"timePublished"
+			],
+			[
+				"sta",
+				"statuses"
+			],
+			[
+				"cone",
+				"contents"
+			],
+			[
+				"conrepo",
+				"contentRepository"
+			],
+			[
+				"transitio",
+				"transition-duration"
+			],
+			[
 				"p",
 				"pv\tmw-php-varDump"
 			],
@@ -22,10 +302,6 @@
 			[
 				"userid",
 				"userIds"
-			],
-			[
-				"user",
-				"userId"
 			],
 			[
 				"useri",
@@ -48,24 +324,12 @@
 				"children"
 			],
 			[
-				"req",
-				"request"
-			],
-			[
 				"divis",
 				"divisions"
 			],
 			[
-				"fix",
-				"fixtures"
-			],
-			[
 				"mode",
 				"models"
-			],
-			[
-				"enc",
-				"encounters"
 			],
 			[
 				"plai",
@@ -74,10 +338,6 @@
 			[
 				"play",
 				"playerId"
-			],
-			[
-				"pla",
-				"player"
 			],
 			[
 				"meris",
@@ -108,24 +368,12 @@
 				"controller-get-repository\tmw-php-controller-get-repository"
 			],
 			[
-				"divi",
-				"division"
-			],
-			[
-				"sta",
-				"stats"
-			],
-			[
 				"s",
 				"side"
 			],
 			[
 				"encoun",
 				"encounters"
-			],
-			[
-				"encou",
-				"encounter"
 			],
 			[
 				"loca",
@@ -150,10 +398,6 @@
 			[
 				"C",
 				"Content"
-			],
-			[
-				"findBy",
-				"findByYearId"
 			],
 			[
 				"relpa",
@@ -211,6 +455,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/var/www/html/elttl/index.php",
+			"settings":
+			{
+				"buffer_size": 1086,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -228,31 +480,31 @@
 				"File: Close All"
 			],
 			[
+				"clo",
+				"File: Close All"
+			],
+			[
 				"sa",
 				"File: Save All"
 			],
 			[
-				"save",
-				"File: Save All"
-			],
-			[
-				"clos",
-				"File: Close All"
-			],
-			[
-				"clo",
-				"File: Close All"
+				"menu",
+				"View: Toggle Menu"
 			],
 			[
 				"men",
 				"View: Toggle Menu"
 			],
 			[
-				"me",
-				"View: Toggle Menu"
+				"clos",
+				"File: Close All"
 			],
 			[
-				"menu",
+				"save",
+				"File: Save All"
+			],
+			[
+				"me",
 				"View: Toggle Menu"
 			],
 			[
@@ -276,7 +528,7 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 557.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -297,138 +549,142 @@
 	},
 	"expanded_folders":
 	[
-		"/var/www/html/elttl"
+		"/var/www/html/elttl",
+		"/var/www/html/elttl/test",
+		"/var/www/html/elttl/test/Model",
+		"/var/www/html/elttl/test/Service",
+		"/var/www/html/elttl/test/Service/Admin"
 	],
 	"file_history":
 	[
-		"/var/www/html/elttl/src/Middleware/Admin/Auth.php",
-		"/var/www/html/elttl/vendor/mwyatt/core/src/Router.php",
-		"/var/www/html/elttl/src/Service/User/Permission.php",
-		"/var/www/html/elttl/src/Controller/Admin.php",
-		"/var/www/html/elttl/src/Service/Admin/User.php",
-		"/var/www/html/elttl/src/Service/Admin/Session/Feedback.php",
-		"/var/www/html/elttl/template/admin/login.php",
-		"/var/www/html/elttl/template/admin/dashboard.php",
-		"/var/www/html/elttl/template/admin/header/user.php",
-		"/var/www/html/elttl/routes.php",
-		"/var/www/html/elttl/js/admin/login.bundle.js",
-		"/var/www/html/elttl/js/utility/url.js",
-		"/var/www/html/elttl/js/admin/tennis/common.bundle.js",
-		"/var/www/html/elttl/js/admin/utility/slug.js",
-		"/var/www/html/elttl/src/Entity/User.php",
-		"/var/www/html/elttl/js/admin/common.bundle.js",
-		"/var/www/html/elttl/gulpfile.js",
-		"/var/www/html/elttl/template/admin/footer.php",
-		"/var/www/html/elttl/package.json",
-		"/var/www/html/elttl/routeAdmin.php",
-		"/var/www/html/elttl/src/Controller/Admin/Ajax/User.php",
-		"/var/www/html/elttl/src/AbstractAjaxController.php",
-		"/var/www/html/elttl/src/Repository/User.php",
-		"/var/www/html/elttl/src/Model/User.php",
 		"/var/www/html/elttl/sql/definition.sql",
-		"/var/www/html/elttl/src/Mapper/User.php",
+		"/var/www/html/elttl/test/Service/Admin/FixtureFulfillTest.php",
+		"/var/www/html/elttl/composer.json",
+		"/var/www/html/elttl/src/Controller/Admin/Fixture.php",
+		"/var/www/html/elttl/.travis.yml",
+		"/var/www/html/elttl/test/Service/FixtureTest.php",
+		"/var/www/html/elttl/phpunit.xml",
 		"/var/www/html/elttl/services.php",
-		"/var/www/html/elttl/js/admin/loginForgotPassword.mustache",
-		"/var/www/html/elttl/src/Service/User.php",
-		"/var/www/html/elttl/vendor/mwyatt/core/src/Session.php",
-		"/var/www/html/elttl/src/Mapper/Fixture.php",
-		"/var/www/html/elttl/template/footer/js.php",
-		"/var/www/html/elttl/js/admin/login.js",
-		"/var/www/html/elttl/src/Controller/Error.php",
-		"/var/www/html/elttl/template/error.php",
-		"/var/www/html/elttl/template/admin/header.php",
+		"/var/www/html/elttl/vendor/mwyatt/core/src/AbstractMapper.php",
+		"/var/www/html/elttl/src/Controller/Result.php",
+		"/var/www/html/elttl/vendor/mwyatt/core/src/AbstractRepository.php",
+		"/var/www/html/elttl/vendor/mwyatt/core/src/Iterator/Model.php",
+		"/var/www/html/elttl/vendor/mwyatt/core/test/IteratorModelTest.php",
+		"/var/www/html/elttl/src/Model/Encounter.php",
+		"/var/www/html/elttl/vendor/mwyatt/core/src/AbstractIterator.php",
+		"/var/www/html/elttl/vendor/mwyatt/core/src/Iterator.php",
+		"/var/www/html/elttl/src/Model/Fixture.php",
+		"/var/www/html/elttl/js/admin/user/passwordReset.js",
+		"/var/www/html/elttl/js/admin/user/single.bundle.js",
+		"/var/www/html/elttl/routes.php",
+		"/var/www/html/elttl/src/Controller/Ajax/User.php",
+		"/var/www/html/elttl/vendor/mwyatt/core/src/Mail.php",
+		"/var/www/html/elttl/css/general.css",
+		"/var/www/html/elttl/css/header/menu-primary.css",
+		"/var/www/html/elttl/gulpfile.js",
+		"/var/www/html/elttl/template/team-single.php",
+		"/var/www/html/elttl/src/Service/Fixture.php",
+		"/var/www/html/elttl/src/Model/Team.php",
+		"/var/www/html/elttl/src/Repository/Team.php",
+		"/var/www/html/elttl/css/elttl-table.css",
+		"/var/www/html/elttl/template/home.php",
+		"/var/www/html/elttl/css/common.bundle.css",
+		"/var/www/html/elttl/css/home.css",
+		"/var/www/html/elttl/template/player-single.php",
+		"/var/www/html/elttl/config.php",
+		"/var/www/html/elttl/template/fixture-single.php",
+		"/home/martin/Downloads/elttl_1.sql",
+		"/var/www/html/elttl/config-sample.php",
+		"/var/www/html/elttl/src/Controller/Admin.php",
+		"/var/www/html/elttl/routeAdmin.php",
+		"/var/www/html/elttl/src/Middleware/Admin/Auth.php",
+		"/var/www/html/elttl/css/settings.css",
+		"/var/www/html/elttl/error.txt",
+		"/var/www/html/elttl/.gitignore",
+		"/var/www/html/elttl/js/common.bundle.js",
+		"/var/www/html/elttl/js/menuPrimary.js",
+		"/var/www/html/elttl/media/cross.svg",
+		"/var/www/html/elttl/template/header.php",
 		"/var/www/html/elttl/src/Middleware/Front.php",
+		"/var/www/html/elttl/package.json",
+		"/var/www/html/elttl/node_modules/jquery-hoverintent/jquery.hoverIntent.js",
+		"/var/www/html/elttl/css/header/menu-primary-secondary.css",
+		"/var/www/html/elttl/index.php",
+		"/var/www/html/elttl/src/Model/Content.php",
+		"/var/www/html/elttl/src/Controller/Content.php",
+		"/var/www/html/elttl/js/buttonToTop.js",
+		"/var/www/html/elttl/vendor/mwyatt/core/src/Http/Kernel.php",
+		"/var/www/html/elttl/src/Service/Admin/Fixture/Fulfill.php",
+		"/var/www/html/elttl/src/Repository/Fixture.php",
+		"/var/www/html/elttl/src/Mapper/Fixture.php",
+		"/var/www/html/elttl/css/fixture-card.bundle.css",
+		"/var/www/html/elttl/src/Controller.php",
 		"/var/www/html/elttl/vendor/mwyatt/core/src/Template.php",
-		"/var/www/html/elttl/template/admin/_feedback-stream-boot.php",
-		"/var/www/html/elttl/template/header/meta.php",
-		"/var/www/html/elttl/template/admin/header/_menu.php",
-		"/var/www/html/elttl/template/admin/header/notify.php",
-		"/var/www/html/elttl/template/admin/header/_notify.php",
-		"/var/www/html/elttl/template/admin/header/_user.php",
-		"/var/www/html/elttl/template/admin/_feedback-stream.php",
-		"/var/www/html/elttl/template/footer.php",
-		"/var/www/html/elttl/src/Middleware/Common.php",
-		"/var/www/html/elttl/template/footer/_js.php",
-		"/var/www/html/elttl/template/admin/_footer.php",
-		"/var/www/html/elttl/src/Middleware/Admin/Common.php",
-		"/var/www/html/elttl/template/admin/system.bundle.php",
-		"/var/www/html/elttl/template/admin/ad/all.php",
-		"/var/www/html/elttl/template/admin/ad/single.php",
-		"/var/www/html/elttl/template/admin/ajax/media/read.php",
+		"/var/www/html/elttl/template/fixtures.php",
+		"/var/www/html/elttl/src/Service/GoogleAnalyticsCampaign.php",
+		"/var/www/html/elttl/src/GoogleAnalyticsCampaign.php",
+		"/var/www/html/elttl/src/Controller/Admin/SystemTennis.php",
+		"/var/www/html/elttl/src/Model/Division.php",
+		"/var/www/html/elttl/template/admin/system/tennis/all.php",
+		"/var/www/html/elttl/vendor/mwyatt/core/src/ModelInterface.php",
+		"/var/www/html/elttl/test/Service/Admin/SeasonTest.php",
+		"/var/www/html/elttl/src/Repository/Year.php",
+		"/var/www/html/elttl/src/Mapper/Year.php",
+		"/var/www/html/elttl/src/Mapper/Encounter.php",
+		"/var/www/html/elttl/src/Repository/Encounter.php",
+		"/var/www/html/elttl/src/Mapper/YearPersistTrait.php",
+		"/var/www/html/elttl/src/Mapper/Player.php",
+		"/var/www/html/elttl/src/Mapper/Team.php",
+		"/var/www/html/elttl/src/Mapper/Venue.php",
+		"/var/www/html/elttl/src/Mapper/Division.php",
+		"/var/www/html/elttl/vendor/mwyatt/core/src/Factory/Iterator.php",
+		"/var/www/html/elttl/vendor/mwyatt/core/src/Factory/Model.php",
+		"/var/www/html/elttl/src/Repository/YearTrait.php",
+		"/var/www/html/elttl/src/Mapper/YearTrait.php",
+		"/var/www/html/elttl/vendor/mwyatt/core/src/Factory/Mapper.php",
+		"/var/www/html/elttl/test/Model/PlayerTest.php",
+		"/var/www/html/elttl/test/Repository/FixtureTest.php",
+		"/var/www/html/elttl/vendor/mwyatt/core/src/AbstractFactory.php",
+		"/var/www/html/elttl/src/Service/Admin/Season.php",
+		"/var/www/html/elttl/src/Repository/Division.php",
+		"/var/www/html/elttl/vendor/mwyatt/core/src/Iterator/ModelInterface.php",
+		"/var/www/html/elttl/js/admin/areYouSureDialogue.js",
+		"/var/www/html/elttl/css/admin/common.bundle.css",
+		"/var/www/html/elttl/js/admin/common.bundle.js",
+		"/var/www/html/elttl/src/Model/YearIdTrait.php",
+		"/var/www/html/elttl/template/admin/tennis/player/all.php",
+		"/var/www/html/elttl/src/Controller/Admin/Player.php",
+		"/var/www/html/elttl/src/Repository/Player.php",
+		"/var/www/html/elttl/js/areYouSureDialogue.js",
+		"/var/www/html/elttl/src/Model/ValidateTrait.php",
+		"/var/www/html/elttl/src/Model/Venue.php",
+		"/var/www/html/elttl/vendor/mwyatt/core/src/Model/IdTrait.php",
+		"/var/www/html/elttl/src/Repository/Venue.php",
+		"/var/www/html/elttl/src/Iterator/Model/Options.php",
+		"/var/www/html/elttl/template/admin/tennis/player/single.php",
+		"/var/www/html/elttl/src/Controller/Admin/Content.php",
+		"/var/www/html/elttl/template/admin/user/single.php",
 		"/var/www/html/elttl/template/admin/content/all.php",
 		"/var/www/html/elttl/template/admin/content/single.php",
-		"/var/www/html/elttl/template/admin/media/lightbox.php",
-		"/var/www/html/elttl/template/admin/media/list.php",
-		"/var/www/html/elttl/template/admin/media/update.php",
-		"/var/www/html/elttl/template/admin/option/all.php",
-		"/var/www/html/elttl/template/admin/system/tennis/all.php",
-		"/var/www/html/elttl/template/admin/system/upgrade/all.php",
-		"/var/www/html/elttl/template/admin/tag/list.php",
-		"/var/www/html/elttl/template/admin/tag/update.php",
-		"/var/www/html/elttl/template/admin/tennis/division/all.php",
-		"/var/www/html/elttl/template/admin/tennis/division/single.php",
-		"/var/www/html/elttl/template/admin/tennis/fixture/all.php",
-		"/var/www/html/elttl/template/admin/tennis/fixture/list.php",
-		"/var/www/html/elttl/template/admin/tennis/fixture/single.php",
-		"/var/www/html/elttl/template/admin/tennis/player/all.php",
-		"/var/www/html/elttl/template/admin/tennis/player/list.php",
-		"/var/www/html/elttl/template/admin/tennis/player/single.php",
-		"/var/www/html/elttl/template/admin/tennis/team/all.php",
-		"/var/www/html/elttl/template/admin/tennis/team/list.php",
-		"/var/www/html/elttl/template/admin/tennis/team/single.php",
-		"/var/www/html/elttl/template/admin/tennis/venue/all.php",
-		"/var/www/html/elttl/template/admin/tennis/venue/single.php",
-		"/var/www/html/elttl/template/admin/tennis/year/all.php",
 		"/var/www/html/elttl/template/admin/tennis/year/single.php",
-		"/var/www/html/elttl/template/admin/user/all.php",
-		"/var/www/html/elttl/template/admin/user/single.php",
-		"/var/www/html/elttl/template/admin/_header.mustache",
-		"/var/www/html/elttl/template/admin/_medias.php",
-		"/var/www/html/elttl/template/admin/_tags.php",
-		"/var/www/html/elttl/src/Mapper/User/Permission.php",
-		"/var/www/html/elttl/src/Controller/Content.php",
-		"/var/www/html/elttl/template/admin/_header.php",
-		"/var/www/html/elttl/vendor/mwyatt/core/src/Response.php",
-		"/var/www/html/elttl/index.php",
-		"/var/www/html/elttl/src/Session/Form.php",
-		"/var/www/html/elttl/vendor/mwyatt/core/src/Model/User.php",
-		"/var/www/html/elttl/src/Admin/Controller.php",
-		"/var/www/html/elttl/src/Admin/Session/User.php",
-		"/var/www/html/elttl/vendor/mwyatt/core/src/Iterator/Model.php",
-		"/var/www/html/elttl/src/Repository/Fixture.php",
-		"/var/www/html/elttl/vendor/mwyatt/core/src/AbstractRepository.php",
-		"/var/www/html/elttl/vendor/mwyatt/core/src/Http/Kernel.php",
-		"/var/www/html/elttl/src/Mapper/Encounter.php",
-		"/var/www/html/elttl/vendor/mwyatt/core/src/AbstractController.php",
-		"/var/www/html/elttl/src/Admin/Service/User.php",
-		"/var/www/html/elttl/css/admin/login.bundle.css",
-		"/var/www/html/elttl/vendor/mwyatt/core/src/ModelInterface.php",
-		"/var/www/html/elttl/src/Middleware/AdminAuth.php",
-		"/var/www/html/elttl/vendor/mwyatt/core/src/Factory/Repository.php",
-		"/var/www/html/elttl/src/Admin/Service/User/Permission.php",
-		"/var/www/html/elttl/src/Model/User/Permission.php",
-		"/var/www/html/elttl/test/OptionsServiceTest.php",
-		"/var/www/html/elttl/src/Controller/User.php",
-		"/var/www/html/elttl/json/menu-primary.json",
-		"/var/www/html/elttl/template/header.php",
-		"/var/www/html/elttl/template/_menu-secondary.php",
-		"/var/www/html/elttl/src/Service/Menu.php",
-		"/var/www/html/elttl/template/_menu-primary.php",
-		"/var/www/html/elttl/json/menu-tertiary.json",
-		"/var/www/html/elttl/json/menu-secondary.json",
-		"/var/www/html/elttl/src/Model/Menu.php",
-		"/var/www/html/elttl/template/menu-division.php",
-		"/var/www/html/elttl/vendor/mwyatt/core/src/AbstractView.php",
-		"/var/www/html/elttl/vendor/mwyatt/core/src/View.php",
-		"/var/www/html/elttl/vendor/mwyatt/core/src/Factory/Mapper.php",
-		"/var/www/html/elttl/vendor/mwyatt/core/src/FactoryInterface.php",
-		"/var/www/html/elttl/vendor/mwyatt/core/src/AbstractMapper.php",
-		"/var/www/html/elttl/vendor/mwyatt/core/services.php",
-		"/var/www/html/elttl/src/View.php",
-		"/var/www/html/elttl/src/Model/Menu/Item.php",
+		"/var/www/html/elttl/template/admin/ad/single.php",
+		"/var/www/html/elttl/src/Model/Year.php",
+		"/var/www/html/elttl/src/Model/Player.php",
+		"/var/www/html/elttl/template/admin/header.php",
+		"/var/www/html/elttl/css/footer.css",
+		"/var/www/html/elttl/template/admin/footer.php",
+		"/var/www/html/elttl/css/admin/header.css",
+		"/var/www/html/elttl/css/content-single.css",
 		"/var/www/html/elttl/vendor/mwyatt/core/src/AbstractModel.php",
-		"/var/www/html/elttl/src/Admin/Controller/Ad.php",
-		"/var/www/html/elttl/src/Admin/Controller/Content.php"
+		"/var/www/html/elttl/src/Middleware/Admin/Common.php",
+		"/var/www/html/elttl/js/admin/fixture/single.bundle.js",
+		"/var/www/html/elttl/js/admin/content/single.bundle.js",
+		"/var/www/html/elttl/template/footer/js.php",
+		"/var/www/html/elttl/template/admin/dashboard.php",
+		"/var/www/html/elttl/css/to-top.css",
+		"/var/www/html/elttl/src/Controller/User.php",
+		"/var/www/html/elttl/src/Repository/User.php",
+		"/var/www/html/elttl/css/forgot-password.bundle.css"
 	],
 	"find":
 	{
@@ -470,134 +726,134 @@
 		"case_sensitive": true,
 		"find_history":
 		[
-			"'User",
-			"Gravatar",
-			"gravatar",
-			"Grava",
-			"adminUser->",
-			"adminUser",
-			"createMessage(",
-			"repositoryUser",
-			"userRepository",
-			"userRepos",
-			"loggedUser",
-			"repositoryFactory",
-			"feedbackStream",
-			"feedbackStreamFactory",
-			"feed",
-			"feedbackStream",
-			"userId",
-			"$this->session->set('adminFeedback', ",
-			"user",
-			"session->set(",
-			"session->set('",
-			"adminSessionFeedbackService",
-			"session",
-			"AdminSessionFeedback",
-			"userId",
-			"ids",
-			"Ids",
-			"session",
-			"loggedUser",
-			"\n        ",
-			"templateForgot",
-			"~",
-			";",
-			"email",
-			"emailLatestForgot",
-			",",
-			"'",
-			"$asset['js']",
-			"$document",
-			"'menuService'",
-			"$url->generate",
-			"$adminUser",
-			"getTemplate('footer/_js')",
-			"'middleware' => ['",
-			"common",
-			"getTemplate('admin/header/_",
-			"getTemplate('admin/header/",
-			"getTemplate('admin/_",
-			"getTemplate('admin/_header')",
-			"],",
-			"[\n     ",
-			"team",
-			"player",
-			"public function findBy",
-			"in(",
-			"uers",
-			"Core",
-			"modelIterator",
-			"$status",
-			"getStatusCoe",
-			"dataJson",
-			"Fail",
-			"protected",
-			"Success",
-			"request->",
-			"this->session->",
-			"->session->",
-			"request",
-			"request->",
-			"request",
-			"adminDashboard",
-			"adminLoginForm",
-			"loggedId",
-			"adminAuth",
-			"Auth",
-			"['id' =>",
-			"['id' => 'admin']",
-			"Admin\\\\Controller",
-			"repoFactory",
-			"repositoryFactory",
-			"'Route'",
-			"RepositoryFactory",
-			", 'routeOpts",
-			"Registry",
+			"getService('MapperFactory')",
+			"'MapperFactory'",
+			"===",
+			"!==",
+			"removeKeys",
+			"===",
+			"fixtures",
+			"==",
+			"division",
+			"findFulfilledByYearIdTeamIds",
+			"ajaxUserForgotPasswordSendMail",
+			"js-reset-password",
+			"menu-primary-cross",
+			"landline",
+			"jsTidyGoog",
+			"jsTidyGood",
+			"$team->secretary",
+			"->secretary",
+			"secretary",
+			"secretaries",
+			"encounter-rank-change",
+			"=>",
+			"getPermission",
+			"defaultGlobalAdmin",
+			"readMenu",
+			"admin/menu",
+			"urlBase",
+			"basename",
+			"_1",
+			"Registered players",
+			"galler",
+			".menu-primary-level-1-link",
+			"499",
+			"arrow-up",
+			"js-arrow-up",
+			".parent()",
+			"lib",
+			"cssMin",
+			"contents",
+			"bread",
+			"isTouchDevice",
+			"scroll",
+			"AUTO_INCREMENT",
+			"longtext",
+			"text",
+			"resultYearSingle",
+			"/result/:yearName/",
+			"contentAll",
+			"galleryFiles",
+			"findLatestByYearIdLimited",
+			"findLatestByYearId",
+			"findLatestByYearIdLimited",
+			"$campaign->",
+			"$campaign",
+			"googleAnalyticsCampaignService",
 			"GoogleAnalyticsCampaign",
-			"Cron",
-			"Json",
-			"\\Json",
-			"consumeArray",
-			"The League",
-			"url",
-			"'name': ",
-			"'url' => 'page",
-			": ",
-			"\"",
-			"{",
-			"'url':",
-			"\"",
-			"{",
-			"$url",
-			"url",
-			"'url' => '",
-			"';",
-			"hasChild",
-			"$config['level']",
-			"output",
-			"config",
-			"getClassPartLabel",
-			"categories",
-			"idParent",
-			"getClassPartLabel",
-			"classPartLabel",
-			"hasChildren",
-			"$category-",
-			"idParent",
-			"'id'",
-			"{",
-			": ",
-			"\"",
-			"{",
-			"/result/",
-			": ",
-			"idParent",
-			"categoryId",
-			"categories",
-			"level",
-			"config['",
-			"! "
+			"teamIdLeft",
+			"yearId",
+			"division",
+			"generateAllFromTeams",
+			"venue",
+			"fixture",
+			"venue",
+			"adminSystemTennisNewSeason",
+			"adminSystemTennisDeleteSeason",
+			"expectedPersistCount",
+			"optionsRepository",
+			"findByName",
+			"options",
+			"optionsService",
+			"division",
+			"divisions",
+			"yearNew",
+			"yearCurrentService",
+			"newSeason",
+			"$iteratorFactory",
+			"$iteratorFactor",
+			"$modelFactory",
+			"fixtureService",
+			"Model",
+			"model",
+			"$iteratorFactory = ",
+			"$modelFactory = ",
+			"Factory",
+			"teams",
+			"awayTeam",
+			"homeTeam",
+			"Mwyatt\\Core\\Iterator\\ModelInteface",
+			"    use \\Mwyatt\\Elttl\\Mapper\\YearTrait;\n",
+			"use \\Mwyatt\\Elttl\\Mapper\\YearTrait;",
+			"YearTrait",
+			"modelFactoryService",
+			"adminSeasonService",
+			"generateAllFromTeams",
+			"homeTeam",
+			" $modelFactoryService",
+			"modelFactoryService",
+			"teams",
+			"entities",
+			"team",
+			"fixturesGenerate",
+			"encounter",
+			"encounters",
+			"adminSeasonService",
+			"fixtureRepository",
+			"modelFixture",
+			"$yearCurrentService->id",
+			"deleteByYearId",
+			" + ",
+			".dialogue",
+			"'yearId' => \\PDO::PARAM_INT,",
+			"persistCount",
+			"$cols",
+			"cols",
+			"$this->validateId();",
+			"ucfirst",
+			"get_class($this) . ': ' ",
+			"$this->errors[]",
+			"`tennisTeam",
+			"stripIdAddNewYear",
+			"$optionsService->",
+			"}",
+			"team",
+			"division",
+			"modelsGrouped",
+			"getDuplicateModels",
+			"stripIdAddNewYear",
+			"yearCurrentId"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -605,6 +861,14 @@
 		"regex": false,
 		"replace_history":
 		[
+			"    use \\Mwyatt\\Elttl\\Mapper\\YearTrait;\n    use \\Mwyatt\\Elttl\\Mapper\\YearPersistTrait;\n",
+			"divisions",
+			"encounterService->getScorecardStructure()",
+			"link",
+			"$breadService->offsetAppend(",
+			"namespace Mwyatt\\Elttl\\Controller\\Admin",
+			"1200px",
+			"var(--grid-gutter)",
 			"feedbackQueue",
 			"getTemplate('footer/js')",
 			"getTemplate('admin/header/",
@@ -678,14 +942,43 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/var/www/html/elttl/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1086,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15,
+								107
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 70.0
+		"height": 30.0
 	},
 	"input":
 	{
@@ -726,7 +1019,7 @@
 	"project": "",
 	"replace":
 	{
-		"height": 114.0
+		"height": 56.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -736,75 +1029,111 @@
 		"selected_items":
 		[
 			[
-				"router",
-				"vendor/mwyatt/core/src/Router.php"
+				"inde",
+				"index.php"
 			],
 			[
-				"servicepermiss",
-				"src/Service/User/Permission.php"
+				"defi",
+				"sql/definition.sql"
 			],
 			[
-				"adminauth",
-				"src/Middleware/Admin/Auth.php"
+				"composer",
+				"composer.json"
 			],
 			[
-				"controlleradmin",
-				"src/Controller/Admin.php"
+				"controllerfixture",
+				"src/Controller/Admin/Fixture.php"
 			],
 			[
-				"serviceadminsuer",
-				"src/Service/Admin/User.php"
+				"phpu",
+				"phpunit.xml"
 			],
 			[
-				"adminsessfeed",
-				"src/Service/Admin/Session/Feedback.php"
+				"yml",
+				".travis.yml"
 			],
 			[
-				"dashbo",
-				"template/admin/dashboard.php"
+				"fixtes",
+				"test/Service/FixtureTest.php"
 			],
 			[
 				"",
-				"template/admin/header/user.php"
+				"src/Controller/Result.php"
 			],
 			[
-				"routeadmin",
-				"routeAdmin.php"
+				"absmapper",
+				"vendor/mwyatt/core/src/AbstractMapper.php"
 			],
 			[
-				"adminuser",
-				"src/Service/Admin/User.php"
+				"absrepos",
+				"vendor/mwyatt/core/src/AbstractRepository.php"
 			],
 			[
-				"service",
-				"services.php"
+				"itmodel",
+				"vendor/mwyatt/core/src/Iterator/Model.php"
 			],
 			[
-				"repouser",
-				"src/Repository/User.php"
+				"iteramodel",
+				"vendor/mwyatt/core/test/IteratorModelTest.php"
 			],
 			[
-				"modeluser",
-				"src/Model/User.php"
+				"iteratormodel",
+				"vendor/mwyatt/core/src/Iterator/Model.php"
 			],
 			[
-				"adminheaderuser",
-				"template/admin/header/user.php"
+				"iterator",
+				"vendor/mwyatt/core/src/Iterator.php"
 			],
 			[
-				"admindash",
-				"template/admin/dashboard.php"
+				"modelencou",
+				"src/Model/Encounter.php"
 			],
 			[
-				"login",
-				"js/admin/login.bundle.js"
+				"modelfixture",
+				"src/Model/Fixture.php"
 			],
 			[
-				"abscontrol",
-				"src/AbstractAjaxController.php"
+				"controlresul",
+				"src/Controller/Result.php"
 			],
 			[
-				"controladmin",
+				"controlresult",
+				"src/Controller/Result.php"
+			],
+			[
+				"coremail",
+				"vendor/mwyatt/core/src/Mail.php"
+			],
+			[
+				"servicefixture",
+				"src/Service/Fixture.php"
+			],
+			[
+				"templateteamsingle",
+				"template/team-single.php"
+			],
+			[
+				"modelteam",
+				"src/Model/Team.php"
+			],
+			[
+				"route",
+				"routes.php"
+			],
+			[
+				"controllerresu",
+				"src/Controller/Result.php"
+			],
+			[
+				"fixturesingle",
+				"template/fixture-single.php"
+			],
+			[
+				"confsam",
+				"config-sample.php"
+			],
+			[
+				"controlleradmin.php",
 				"src/Controller/Admin.php"
 			],
 			[
@@ -812,440 +1141,404 @@
 				"src/Middleware/Admin/Auth.php"
 			],
 			[
-				"serviceadminuser",
-				"src/Service/Admin/User.php"
-			],
-			[
-				"userpermi",
-				"src/Service/User/Permission.php"
-			],
-			[
-				"middleadminau",
-				"src/Middleware/Admin/Auth.php"
-			],
-			[
-				"route",
-				"routes.php"
-			],
-			[
-				"definis",
-				"sql/definition.sql"
-			],
-			[
-				"url",
-				"js/utility/url.js"
-			],
-			[
-				"packa",
-				"package.json"
-			],
-			[
-				"loginbund",
-				"js/admin/login.bundle.js"
-			],
-			[
-				"controlajaxuser",
-				"src/Controller/Admin/Ajax/User.php"
-			],
-			[
-				"mapperuser",
-				"src/Mapper/User.php"
-			],
-			[
-				"servi",
-				"services.php"
-			],
-			[
-				"sess",
-				"vendor/mwyatt/core/src/Session.php"
-			],
-			[
-				"serviceaminuser",
-				"src/Service/Admin/User.php"
-			],
-			[
-				"mapperfix",
-				"src/Mapper/Fixture.php"
-			],
-			[
-				"adminajaxuser",
-				"src/Controller/Admin/Ajax/User.php"
-			],
-			[
-				"userpermiss",
-				"src/Service/User/Permission.php"
-			],
-			[
 				"routead",
 				"routeAdmin.php"
 			],
 			[
-				"adminfooter",
-				"template/admin/footer.php"
+				"config",
+				"config.php"
+			],
+			[
+				"templteplayersing",
+				"template/player-single.php"
+			],
+			[
+				"sett",
+				"css/settings.css"
+			],
+			[
+				"homecss",
+				"css/home.css"
+			],
+			[
+				"general",
+				"css/general.css"
+			],
+			[
+				"combuncs",
+				"css/common.bundle.css"
+			],
+			[
+				"er",
+				"error.txt"
+			],
+			[
+				"gitig",
+				".gitignore"
+			],
+			[
+				"home",
+				"template/home.php"
+			],
+			[
+				"combundl",
+				"js/common.bundle.js"
+			],
+			[
+				"cross",
+				"media/cross.svg"
+			],
+			[
+				"middlefront",
+				"src/Middleware/Front.php"
 			],
 			[
 				"gulp",
 				"gulpfile.js"
 			],
 			[
-				"footerjs",
-				"template/footer/js.php"
+				"packa",
+				"package.json"
 			],
 			[
-				"admincommbun",
-				"js/admin/common.bundle.js"
+				"combunjs",
+				"js/common.bundle.js"
 			],
 			[
-				"adminloginjs",
-				"js/admin/login.js"
+				"menprimar",
+				"js/menuPrimary.js"
 			],
 			[
-				"adminlogin",
-				"template/admin/login.php"
+				"setting",
+				"css/settings.css"
 			],
 			[
-				"error",
-				"template/error.php"
+				"menuprimarsc",
+				"css/header/menu-primary-secondary.css"
 			],
 			[
-				"controllerror",
-				"src/Controller/Error.php"
+				"combuncss",
+				"css/common.bundle.css"
 			],
 			[
-				"middlefron",
-				"src/Middleware/Front.php"
+				"modelcontent",
+				"src/Model/Content.php"
 			],
 			[
-				"template",
-				"vendor/mwyatt/core/src/Template.php"
-			],
-			[
-				"feedstreamb",
-				"template/admin/_feedback-stream-boot.php"
-			],
-			[
-				"headermeta",
-				"template/header/meta.php"
-			],
-			[
-				"adminheadmenu",
-				"template/admin/header/_menu.php"
-			],
-			[
-				"adminheadnoif",
-				"template/admin/header/notify.php"
-			],
-			[
-				"adminheaduser",
-				"template/admin/header/_user.php"
-			],
-			[
-				"adminfeedsre",
-				"template/admin/_feedback-stream.php"
-			],
-			[
-				"adminheader",
-				"template/admin/header.php"
-			],
-			[
-				"templaadminlog",
-				"template/admin/login.php"
-			],
-			[
-				"middlefon",
-				"src/Middleware/Front.php"
-			],
-			[
-				"middlecomm",
-				"src/Middleware/Common.php"
-			],
-			[
-				"footer",
-				"template/footer.php"
-			],
-			[
-				"adminfoote",
-				"template/admin/footer.php"
-			],
-			[
-				"middlecommon",
-				"src/Middleware/Common.php"
-			],
-			[
-				"admincommo",
-				"src/Middleware/Admin/Common.php"
-			],
-			[
-				"middleadmincom",
-				"src/Middleware/Admin/Common.php"
-			],
-			[
-				"serviceuserper",
-				"src/Service/User/Permission.php"
-			],
-			[
-				"mapperpermis",
-				"src/Mapper/User/Permission.php"
-			],
-			[
-				"controlcontent",
+				"controllercontent",
 				"src/Controller/Content.php"
 			],
 			[
-				"serv",
+				"service",
 				"services.php"
-			],
-			[
-				"itermodel",
-				"vendor/mwyatt/core/src/Iterator/Model.php"
-			],
-			[
-				"mpperuserper",
-				"src/Mapper/User/Permission.php"
-			],
-			[
-				"repofix",
-				"src/Repository/Fixture.php"
-			],
-			[
-				"serviceadminus",
-				"src/Service/Admin/User.php"
-			],
-			[
-				"middlewareadmicom",
-				"src/Middleware/Admin/Common.php"
-			],
-			[
-				"respons",
-				"vendor/mwyatt/core/src/Response.php"
-			],
-			[
-				"adminajax",
-				"src/Controller/Admin/Ajax/User.php"
-			],
-			[
-				"admincommon",
-				"src/Middleware/Admin/Common.php"
-			],
-			[
-				"sessionform",
-				"src/Session/Form.php"
-			],
-			[
-				"adminloginbund",
-				"css/admin/login.bundle.css"
-			],
-			[
-				"session",
-				"vendor/mwyatt/core/src/Session.php"
-			],
-			[
-				"service/",
-				"src/Service/Bread.php"
-			],
-			[
-				"ajaxuser",
-				"src/Controller/Ajax/User.php"
-			],
-			[
-				"admincontrol",
-				"src/Admin/Controller.php"
 			],
 			[
 				"index",
 				"index.php"
 			],
 			[
-				"admincontroller",
-				"src/Admin/Controller.php"
+				"combun",
+				"js/common.bundle.js"
 			],
 			[
-				"kern",
-				"vendor/mwyatt/core/src/Http/Kernel.php"
+				"js/",
+				"js/buttonToTop.js"
 			],
 			[
-				"middleadmincomm",
-				"src/Middleware/Admin/Common.php"
+				"compos",
+				"composer.json"
 			],
 			[
-				"adminconr",
-				"src/Admin/Controller.php"
+				"fulfi",
+				"src/Service/Admin/Fixture/Fulfill.php"
 			],
 			[
-				"routea",
+				"php",
+				"phpunit.xml"
+			],
+			[
+				"controlerfixture",
+				"src/Controller/Admin/Fixture.php"
+			],
+			[
+				"repofix",
+				"src/Repository/Fixture.php"
+			],
+			[
+				"template",
+				"vendor/mwyatt/core/src/Template.php"
+			],
+			[
+				"middlfront",
+				"src/Middleware/Front.php"
+			],
+			[
+				"fixturebun",
+				"css/fixture-card.bundle.css"
+			],
+			[
+				"commbuncss",
+				"css/common.bundle.css"
+			],
+			[
+				"templatefixtures",
+				"template/fixtures.php"
+			],
+			[
+				"mapperfixture",
+				"src/Mapper/Fixture.php"
+			],
+			[
+				"controller.php",
+				"src/Controller.php"
+			],
+			[
+				"sysall",
+				"template/admin/system/tennis/all.php"
+			],
+			[
+				"modfix",
+				"src/Model/Fixture.php"
+			],
+			[
+				"modefi",
+				"vendor/mwyatt/core/src/ModelInterface.php"
+			],
+			[
+				"adminseasonte",
+				"test/Service/Admin/SeasonTest.php"
+			],
+			[
+				"modeldiv",
+				"src/Model/Division.php"
+			],
+			[
+				"systenall",
+				"template/admin/system/tennis/all.php"
+			],
+			[
+				"routeadmin",
 				"routeAdmin.php"
+			],
+			[
+				"mapperyear",
+				"src/Mapper/Year.php"
+			],
+			[
+				"repoyear",
+				"src/Repository/Year.php"
+			],
+			[
+				"systen",
+				"src/Controller/Admin/SystemTennis.php"
+			],
+			[
+				"servfix",
+				"src/Service/Fixture.php"
+			],
+			[
+				"factoryiterator",
+				"vendor/mwyatt/core/src/Factory/Iterator.php"
+			],
+			[
+				"servicefix",
+				"src/Service/Admin/Fixture/Fulfill.php"
+			],
+			[
+				"facmodel",
+				"vendor/mwyatt/core/src/Factory/Model.php"
 			],
 			[
 				"kerne",
 				"vendor/mwyatt/core/src/Http/Kernel.php"
 			],
 			[
-				"facrepo",
-				"vendor/mwyatt/core/src/Factory/Repository.php"
-			],
-			[
-				"serviceuserpermi",
-				"src/Admin/Service/User/Permission.php"
-			],
-			[
-				"modelpermi",
-				"src/Model/User/Permission.php"
-			],
-			[
-				"json/",
-				"json/menu-primary.json"
-			],
-			[
-				"menusecon",
-				"template/_menu-secondary.php"
-			],
-			[
-				"servicemen",
-				"src/Service/Menu.php"
-			],
-			[
-				"menuter",
-				"json/menu-tertiary.json"
-			],
-			[
-				"menusec",
-				"json/menu-secondary.json"
-			],
-			[
-				"routes",
-				"routes.php"
-			],
-			[
-				"middlewarefron",
-				"src/Middleware/Front.php"
-			],
-			[
-				"absview",
-				"vendor/mwyatt/core/src/AbstractView.php"
-			],
-			[
-				"view",
-				"vendor/mwyatt/core/src/View.php"
-			],
-			[
-				"absconro",
-				"vendor/mwyatt/core/src/AbstractController.php"
-			],
-			[
 				"facmapper",
 				"vendor/mwyatt/core/src/Factory/Mapper.php"
 			],
 			[
-				"facinter",
-				"vendor/mwyatt/core/src/FactoryInterface.php"
-			],
-			[
-				"absrepo",
+				"absrepor",
 				"vendor/mwyatt/core/src/AbstractRepository.php"
 			],
 			[
-				"absmapper",
-				"vendor/mwyatt/core/src/AbstractMapper.php"
+				"syste",
+				"src/Controller/Admin/SystemTennis.php"
 			],
 			[
-				"ser",
-				"services.php"
+				"repofxi",
+				"src/Repository/Fixture.php"
 			],
 			[
-				"menuprimar",
-				"template/_menu-primary.php"
+				"mapperyeart",
+				"src/Mapper/YearTrait.php"
 			],
 			[
-				"modelmeu",
-				"src/Model/Menu.php"
+				"repoenc",
+				"src/Repository/Encounter.php"
 			],
 			[
-				"menudivi",
-				"template/menu-division.php"
+				"yeartrait",
+				"src/Mapper/YearTrait.php"
 			],
 			[
-				"header",
-				"template/header.php"
+				"repoencou",
+				"src/Repository/Encounter.php"
 			],
 			[
-				"controlad",
-				"src/Admin/Controller/Ad.php"
+				"mapperencou",
+				"src/Mapper/Encounter.php"
 			],
 			[
-				"controlfix",
-				"src/Controller/Fixture.php"
+				"mapperdivi",
+				"src/Mapper/Division.php"
 			],
 			[
-				"encounters",
-				"template/encounters.php"
+				"persistrai",
+				"src/Mapper/YearPersistTrait.php"
 			],
 			[
-				"repoteam",
-				"src/Repository/Team.php"
-			],
-			[
-				"repodiv",
-				"src/Repository/Division.php"
-			],
-			[
-				"modelfix",
+				"moelfix",
 				"src/Model/Fixture.php"
 			],
 			[
-				"fixsingle",
-				"template/fixture-single.php"
+				"factormod",
+				"vendor/mwyatt/core/src/Factory/Model.php"
 			],
 			[
-				"reporesu",
-				"src/Repository/Result.php"
+				"modeldivi",
+				"src/Model/Division.php"
 			],
 			[
-				"modelencou",
-				"src/Model/Encounter.php"
+				"repodivi",
+				"src/Repository/Division.php"
 			],
 			[
-				"controlresu",
-				"src/Controller/Result.php"
+				"systenni",
+				"src/Controller/Admin/SystemTennis.php"
 			],
 			[
-				"corerequesinter",
-				"vendor/mwyatt/core/src/RequestInterface.php"
+				"admincom",
+				"css/admin/common.bundle.css"
 			],
 			[
-				"controlres",
-				"src/Controller/Result.php"
+				"are",
+				"js/admin/areYouSureDialogue.js"
 			],
 			[
-				"repopla",
-				"src/Repository/Player.php"
+				"admincommonb",
+				"js/admin/common.bundle.js"
 			],
 			[
-				"modelteam",
-				"src/Model/Team.php"
+				"areyou",
+				"js/admin/areYouSureDialogue.js"
 			],
 			[
-				"fixsumta",
-				"template/division/fixture-summary-table.php"
+				"mapperplayer",
+				"src/Mapper/Player.php"
 			],
 			[
-				"divsingle",
-				"template/result/division-single.php"
+				"mappervenu",
+				"src/Mapper/Venue.php"
 			],
 			[
-				"controlresult",
-				"src/Controller/Result.php"
+				"mapperplay",
+				"src/Mapper/Player.php"
 			],
 			[
-				"controllerteam",
-				"src/Controller/Team.php"
+				"mapperteam",
+				"src/Mapper/Team.php"
 			],
 			[
-				"controllerplay",
-				"src/Controller/Player.php"
+				"mapperdivis",
+				"src/Mapper/Division.php"
 			],
 			[
-				"modelenc",
-				"src/Model/Encounter.php"
+				"modelyeartrai",
+				"src/Model/YearIdTrait.php"
+			],
+			[
+				"controlleradminplayer",
+				"src/Controller/Admin/Player.php"
+			],
+			[
+				"playerall",
+				"template/admin/tennis/player/all.php"
+			],
+			[
+				"modelvenu",
+				"src/Model/Venue.php"
+			],
+			[
+				"modeltrait",
+				"vendor/mwyatt/core/src/Model/IdTrait.php"
+			],
+			[
+				"idtrait",
+				"vendor/mwyatt/core/src/Model/IdTrait.php"
+			],
+			[
+				"modelconen",
+				"src/Model/Content.php"
+			],
+			[
+				"defini",
+				"sql/definition.sql"
+			],
+			[
+				"modelvenue",
+				"src/Model/Venue.php"
+			],
+			[
+				"mapperven",
+				"src/Mapper/Venue.php"
+			],
+			[
+				"iteratoroptio",
+				"src/Iterator/Model/Options.php"
+			],
+			[
+				"repteam",
+				"src/Repository/Team.php"
+			],
+			[
+				"servicefixful",
+				"src/Service/Admin/Fixture/Fulfill.php"
+			],
+			[
+				"serviceseason",
+				"src/Service/Admin/Season.php"
+			],
+			[
+				"systemtennis",
+				"template/admin/system/tennis/all.php"
+			],
+			[
+				"playersingle",
+				"template/admin/tennis/player/single.php"
+			],
+			[
+				"adminusersingle",
+				"template/admin/user/single.php"
+			],
+			[
+				"modelcont",
+				"src/Model/Content.php"
+			],
+			[
+				"controllercon",
+				"src/Controller/Admin/Content.php"
+			],
+			[
+				"contentall",
+				"template/admin/content/all.php"
+			],
+			[
+				"controlcontetn",
+				"src/Controller/Admin/Content.php"
+			],
+			[
+				"controllcontent",
+				"src/Controller/Content.php"
 			]
 		],
 		"width": 0.0
@@ -1261,11 +1554,47 @@
 				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
+				"s",
+				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
 				"store",
 				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
 				"core",
+				"/var/www/html/dotfiles/sublime-text-workspaces/core.sublime-workspace"
+			],
+			[
+				"asto",
+				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"sor",
+				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"sand",
+				"/var/www/html/dotfiles/sublime-text-workspaces/sandbox.sublime-workspace"
+			],
+			[
+				"codex",
+				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
+				"el",
+				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"st",
+				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"inv",
+				"/var/www/html/dotfiles/sublime-text-workspaces/inventory.sublime-workspace"
+			],
+			[
+				"coe",
 				"/var/www/html/dotfiles/sublime-text-workspaces/core.sublime-workspace"
 			],
 			[
@@ -1281,20 +1610,12 @@
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
-				"sand",
-				"/var/www/html/setting/sublime-text-workspaces/sandbox.sublime-workspace"
-			],
-			[
 				"port",
 				"/var/www/html/setting/sublime-text-workspaces/portfolio.sublime-workspace"
 			],
 			[
 				"claire",
 				"/var/www/html/setting/sublime-text-workspaces/claire.sublime-workspace"
-			],
-			[
-				"sor",
-				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
 				"diua",
@@ -1315,10 +1636,6 @@
 			[
 				"sto",
 				"/var/www/html/sublime-project/store.sublime-project"
-			],
-			[
-				"inv",
-				"/var/www/html/sublime-project/inventory.sublime-project"
 			],
 			[
 				"gri",

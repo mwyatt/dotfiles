@@ -8,6 +8,18 @@
 				"pv\tmw-php-printPre"
 			],
 			[
+				"htmldec",
+				"html_entity_decode"
+			],
+			[
+				"htmlspe",
+				"htmlspecialchars_decode"
+			],
+			[
+				"htmdec",
+				"html_entity_decode"
+			],
+			[
 				"review",
 				"reviews"
 			],
@@ -80,20 +92,9 @@
 	"buffers":
 	[
 		{
-			"file": "/var/www/html/sandbox/staticclasses/Helper.php",
 			"settings":
 			{
-				"buffer_size": 221,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/sandbox/staticclasses/index.php",
-			"settings":
-			{
-				"buffer_size": 228,
-				"encoding": "UTF-8",
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		}
@@ -138,7 +139,7 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 431.0
+		"width": 467.0
 	},
 	"console":
 	{
@@ -160,11 +161,15 @@
 	"expanded_folders":
 	[
 		"/var/www/html/sandbox",
-		"/var/www/html/sandbox/monolog"
+		"/var/www/html/sandbox/ftp-sync"
 	],
 	"file_history":
 	[
+		"/var/www/html/sandbox/.gitignore",
+		"/var/www/html/sandbox/shorthandoneside.php",
+		"/var/www/html/sandbox/unserialise.php",
 		"/var/www/html/sandbox/staticclasses/index.php",
+		"/var/www/html/sandbox/staticclasses/Helper.php",
 		"/var/www/html/sandbox/db-unique/data.php",
 		"/var/www/html/sandbox/db-unique/index.php",
 		"/var/www/html/sandbox/monolog/your.log",
@@ -192,7 +197,6 @@
 		"/var/www/html/sandbox/explode.php",
 		"/var/www/html/sandbox/composer-symfony/.htaccess",
 		"/var/www/html/sandbox/page/package.json",
-		"/var/www/html/sandbox/.gitignore",
 		"/var/www/html/sandbox/Magnific-Popup-master/package.json",
 		"/var/www/html/sandbox/barcode/index.php",
 		"/var/www/html/sandbox/barcode/barcode.php",
@@ -288,14 +292,11 @@
 		"/var/www/html/store/trunk/sass/admin/order/_list.scss",
 		"/var/www/html/store/trunk/app/skin/custom/frontend/common/footer.tpl",
 		"/var/www/html/store/trunk/js/product/single/basket-added.js",
-		"/var/www/html/store/trunk/js/product.js",
-		"/var/www/html/store/trunk/app/classes/ajax/modules/product.php",
-		"/var/www/html/store/trunk/app/skin/custom/frontend/common/_product.tpl",
-		"/var/www/html/store/trunk/js/admin/order/label.js"
+		"/var/www/html/store/trunk/js/product.js"
 	],
 	"find":
 	{
-		"height": 48.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
@@ -335,6 +336,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"html_entity_decode",
 			"$this",
 			"->",
 			"var $ = ",
@@ -461,8 +463,7 @@
 			"->fetch",
 			"parser",
 			"$s",
-			"$s ",
-			"$s["
+			"$s "
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -517,60 +518,29 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/var/www/html/sandbox/staticclasses/Helper.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 221,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								221,
-								221
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/var/www/html/sandbox/staticclasses/index.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 228,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								129,
-								129
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -582,7 +552,7 @@
 	},
 	"input":
 	{
-		"height": 33.0
+		"height": 68.0
 	},
 	"layout":
 	{
@@ -628,6 +598,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"gitig",
+				".gitignore"
+			],
 			[
 				"helper",
 				"staticclasses/Helper.php"
@@ -707,10 +681,6 @@
 			[
 				"packa",
 				"Magnific-Popup-master/package.json"
-			],
-			[
-				"gitig",
-				".gitignore"
 			],
 			[
 				"barcocompos",
@@ -1146,16 +1116,24 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "store",
 		"selected_items":
 		[
 			[
-				"",
-				"/var/www/html/setting/sublime-text-workspaces/core.sublime-workspace"
+				"store",
+				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
-				"store",
-				"/var/www/html/setting/sublime-text-workspaces/core.sublime-workspace"
+				"elt",
+				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"",
+				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
+				"code",
+				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"
 			],
 			[
 				"poss",
@@ -1194,16 +1172,8 @@
 				"/var/www/html/sublime-workspace/store.sublime-workspace"
 			],
 			[
-				"elt",
-				"/var/www/html/sublime-workspace/elttl.sublime-workspace"
-			],
-			[
 				"diua",
 				"/var/www/html/sublime-workspace/dialogue.sublime-workspace"
-			],
-			[
-				"code",
-				"/var/www/html/codex/codex.sublime-project"
 			],
 			[
 				"inv",

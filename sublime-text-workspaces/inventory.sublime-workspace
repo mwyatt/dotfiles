@@ -67,6 +67,25 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/var/www/html/inventory/src/js/stockTake.js",
+			"settings":
+			{
+				"buffer_size": 6558,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 319 files for \"pending-items\" (case sensitive)\n\n/var/www/html/inventory/config/route/ajax.php:\n   28      ],\n   29      [\n   30:         'get', 'ajax/stock-take/pending-items/',\n   31          '\\\\Avdis\\\\Inventory\\\\Controller\\\\Ajax\\\\StockTake', 'getPendingItems',\n   32          ['id' => 'ajax.stockTake.pendingItems']\n   33      ],\n   34      [\n   35:         'get', 'ajax/stock-take/pending-items-search/',\n   36          '\\\\Avdis\\\\Inventory\\\\Controller\\\\Ajax\\\\StockTake', 'pendingItemsSearch',\n   37          ['id' => 'ajax.stockTake.pendingItemsSearch']\n\n2 matches in 1 file\n\n\nSearching 319 files for \"ajax.stockTake.pendingItems\" (case sensitive)\n\n/var/www/html/inventory/config/route/ajax.php:\n   30          'get', 'ajax/stock-take/pending-items/',\n   31          '\\\\Avdis\\\\Inventory\\\\Controller\\\\Ajax\\\\StockTake', 'getPendingItems',\n   32:         ['id' => 'ajax.stockTake.pendingItems']\n   33      ],\n   34      [\n   35          'get', 'ajax/stock-take/pending-items-search/',\n   36          '\\\\Avdis\\\\Inventory\\\\Controller\\\\Ajax\\\\StockTake', 'pendingItemsSearch',\n   37:         ['id' => 'ajax.stockTake.pendingItemsSearch']\n   38      ],\n   39      [\n\n/var/www/html/inventory/src/js/stockTake.js:\n   51  \t});\n   52  \tdata.lastRequest = {\n   53: \t\turl: url.generate('ajax.stockTake.pendingItems'),\n   54  \t\ttype: 'get',\n   55  \t\tdataType: 'json',\n   ..\n   83  \t});\n   84  \t$.ajax({\n   85: \t\turl: url.generate('ajax.stockTake.pendingItemsSearch'),\n   86  \t\ttype: 'get',\n   87  \t\tdataType: 'json',\n\n4 matches across 2 files\n",
+			"settings":
+			{
+				"buffer_size": 1541,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -118,12 +137,22 @@
 	"expanded_folders":
 	[
 		"/var/www/html/inventory",
-		"/var/www/html/inventory/config",
-		"/var/www/html/inventory/config/route"
+		"/var/www/html/inventory/contrib",
+		"/var/www/html/inventory/contrib/sql",
+		"/var/www/html/inventory/contrib/sql/update 1",
+		"/var/www/html/inventory/contrib/sql/update 2",
+		"/var/www/html/inventory/src"
 	],
 	"file_history":
 	[
+		"/var/www/html/inventory/composer.json",
 		"/var/www/html/inventory/src/php/Utility/Search.php",
+		"/var/www/html/inventory/src/php/Controller/Ajax/StockTake.php",
+		"/var/www/html/inventory/gulpfile.js",
+		"/var/www/html/inventory/config/route/ajax.php",
+		"/var/www/html/inventory/config/config.php",
+		"/var/www/html/inventory/src/templates/admin/module/supplier/single.tpl",
+		"/var/www/html/inventory/src/templates/admin/module/location/single.tpl",
 		"/var/www/html/inventory/src/php/Controller/Ajax/PurchaseOrder.php",
 		"/var/www/html/inventory/config/route/admin.php",
 		"/var/www/html/inventory/vendor/mwyatt/core/routes.php",
@@ -135,16 +164,13 @@
 		"/var/www/html/inventory/src/php/Access/Handler/Log/Scan.php",
 		"/var/www/html/inventory/src/php/ObjectIterator.php",
 		"/var/www/html/inventory/src/php/Controller/Ajax/Log/Scan.php",
-		"/var/www/html/inventory/config/route/ajax.php",
 		"/var/www/html/inventory/src/php/Access/Handler/Item.php",
 		"/var/www/html/inventory/src/php/Access/HandlerAbstract.php",
 		"/var/www/html/inventory/src/sass/screen.scss",
 		"/var/www/html/inventory/src/js/stockTake.js",
-		"/var/www/html/inventory/src/php/Controller/Ajax/StockTake.php",
 		"/var/www/html/inventory/src/sass/_message.scss",
 		"/var/www/html/inventory/src/php/Controller/Ajax/AjaxAbstract.php",
 		"/var/www/html/inventory/src/php/Controller/Admin/Index.php",
-		"/var/www/html/inventory/composer.json",
 		"/var/www/html/inventory/package.json",
 		"/var/www/html/inventory/src/php/Controller/Admin/Item.php",
 		"/var/www/html/inventory/src/php/Controller/Admin/Log.php",
@@ -246,11 +272,7 @@
 		"/var/www/html/store/trunk/js/home.js",
 		"/var/www/html/store/trunk/sass/product-single.scss",
 		"/var/www/html/store/trunk/asset/vendor/owl-carousel/owl.carousel.css",
-		"/var/www/html/store/trunk/node_modules/owl-carousel-2/assets/owl.theme.default.css",
-		"/var/www/html/store/trunk/sass/common.scss",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/account/offer/all.tpl",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/account/offer/single.tpl",
-		"/var/www/html/store/trunk/sass/checkout.scss"
+		"/var/www/html/store/trunk/node_modules/owl-carousel-2/assets/owl.theme.default.css"
 	],
 	"find":
 	{
@@ -298,6 +320,27 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"core",
+			"getItemPending",
+			"renderItems",
+			"getItemPending",
+			"ajax.stockTake.pendingItems",
+			"pending-items",
+			"pendingItemsSearch",
+			"searchItem",
+			"getItemPending",
+			"keyup",
+			"searchInput",
+			"relevance",
+			"setWheres",
+			"appendHavings",
+			"havings",
+			"wheres",
+			"appendWheres",
+			"wheres",
+			"requiresCount",
+			"->get('search')",
+			"pending-items-search",
 			"FIS",
 			"[",
 			"getDataLimit",
@@ -404,28 +447,7 @@
 			"\t",
 			"\t\t\t\t",
 			"\n",
-			"db->query",
-			"exception",
-			"grid",
-			"gridAddress",
-			"db",
-			", ",
-			"currentAddressCache",
-			"Ajax_Modules_GetAddress",
-			"['message",
-			"braintree_result",
-			"transaction->status",
-			"->status",
-			"braintree_result",
-			"transaction_options",
-			"payment_braintree",
-			"braintree_result",
-			"$firstImage->url",
-			"$firstImage",
-			"firstImage",
-			"getMediaImagesSorted",
-			"firstImage",
-			".home .product-tag-new,"
+			"db->query"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -475,8 +497,106 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/var/www/html/inventory/src/js/stockTake.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6558,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1919,
+								1919
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1549.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1541,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										171,
+										184
+									],
+									[
+										394,
+										407
+									],
+									[
+										875,
+										902
+									],
+									[
+										1108,
+										1135
+									],
+									[
+										1286,
+										1313
+									],
+									[
+										1429,
+										1456
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								1298,
+								1298
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 2,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 414.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -533,8 +653,36 @@
 		"selected_items":
 		[
 			[
+				"compos",
+				"composer.json"
+			],
+			[
+				"stocktake",
+				"src/js/stockTake.js"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
 				"search",
 				"src/php/Utility/Search.php"
+			],
+			[
+				"config",
+				"config/config.php"
+			],
+			[
+				"controllerstock",
+				"src/php/Controller/Ajax/StockTake.php"
+			],
+			[
+				"suppliersingle",
+				"src/templates/admin/module/supplier/single.tpl"
+			],
+			[
+				"templatelocation",
+				"src/templates/admin/module/location/single.tpl"
 			],
 			[
 				"route",
@@ -877,10 +1025,6 @@
 				"app/classes/admin/grids/modules/exception.php"
 			],
 			[
-				"config",
-				"js/config.js"
-			],
-			[
 				"admincommon",
 				"js/admin/common.bundle.js"
 			],
@@ -1001,10 +1145,6 @@
 				"app/classes/admin/modules/promotion.php"
 			],
 			[
-				"gulp",
-				"gulpfile.js"
-			],
-			[
 				"homejs",
 				"js/home.js"
 			],
@@ -1023,26 +1163,6 @@
 			[
 				"prodsinglesc",
 				"sass/product-single.scss"
-			],
-			[
-				"commonsc",
-				"sass/common.scss"
-			],
-			[
-				"accountoffer.tpl",
-				"app/skin/custom/admin/modules/account/offer/single.tpl"
-			],
-			[
-				"frontcommoncontentpro",
-				"app/skin/custom/frontend/common/_contents-products.tpl"
-			],
-			[
-				"frontmodcheckout",
-				"app/classes/frontend/modules/checkout.php"
-			],
-			[
-				"checkoutsingle",
-				"app/skin/custom/frontend/modules/checkout/single.tpl"
 			]
 		],
 		"width": 0.0
@@ -1050,16 +1170,32 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "store",
+		"last_filter": "sore",
 		"selected_items":
 		[
 			[
-				"store",
+				"sore",
 				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
+				"inven",
+				"/var/www/html/dotfiles/sublime-text-workspaces/inventory.sublime-workspace"
+			],
+			[
 				"",
-				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+				"/var/www/html/dotfiles/sublime-text-workspaces/inventory.sublime-workspace"
+			],
+			[
+				"sand",
+				"/var/www/html/dotfiles/sublime-text-workspaces/sandbox.sublime-workspace"
+			],
+			[
+				"core",
+				"/var/www/html/dotfiles/sublime-text-workspaces/core.sublime-workspace"
+			],
+			[
+				"store",
+				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
 				"dia",
@@ -1084,10 +1220,6 @@
 			[
 				"sto",
 				"/var/www/html/sublime-workspace/store.sublime-workspace"
-			],
-			[
-				"sand",
-				"/var/www/html/sublime-workspace/sandbox.sublime-workspace"
 			],
 			[
 				"s",
@@ -1116,10 +1248,6 @@
 			[
 				"dialo",
 				"/var/www/html/sublime-project/dialogue.sublime-workspace"
-			],
-			[
-				"core",
-				"/var/www/html/sublime-project/core.sublime-workspace"
 			],
 			[
 				"code",
