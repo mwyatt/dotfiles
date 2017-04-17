@@ -59,6 +59,7 @@
         <value type="string" value="task manager"/>
         <value type="string" value="gigolo"/>
         <value type="string" value="blueman-applet"/>
+        <value type="string" value="xfce4-power-manager"/>
         <value type="string" value="slack"/>
         <value type="string" value="notes"/>
       </property>
