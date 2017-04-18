@@ -5,8 +5,10 @@ filetype plugin indent on
 set t_Co=256
 set background=light
 
+set relativenumber 
+set number 
 " set statusline=%F%m%r%h%w\ FORMAT=%{&ff}\ TYPE=%Y\ ASCII=\%03.3b\ HEX=\%02.2B\ POS=%04l,%04v%p%%\ LEN=%L 
-" set laststatus=2
+set laststatus=2
 
 noremap <Up> <NOP>
 noremap <Down> <NOP>
@@ -19,8 +21,8 @@ set wildignore+=*/node_modules/*
 set wildignore+=*/asset/*
 
 " display whitespace
-:highlight ExtraWhitespace ctermbg=red guibg=red
-:match ExtraWhitespace /\s\+$/
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
 
 " allow f4 to copy file path (relative?)
 noremap <silent> <F4> :let @+ = expand("%")<CR>
@@ -33,15 +35,24 @@ set autoindent
 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-Plugin 'NLKNguyen/papercolor-theme'
-Plugin 'kien/ctrlp.vim'
-Plugin 'MarcWeber/vim-addon-mw-utils'
-Plugin 'tomtom/tlib_vim'
-Plugin 'garbas/vim-snipmate'
-Plugin 'honza/vim-snippets'
-"Plugin 'vim-airline/vim-airline'
-"Plugin 'nightsense/seabird'
-"Plugin 'vim-airline/vim-airline-themes'
+  Plugin 'NLKNguyen/papercolor-theme'
+  Plugin 'kien/ctrlp.vim'
+
+  "snipmate
+  Plugin 'MarcWeber/vim-addon-mw-utils'
+  Plugin 'tomtom/tlib_vim'
+  Plugin 'garbas/vim-snipmate'
+  Plugin 'honza/vim-snippets'
+
+  "Plugin 'vim-airline/vim-airline'
+  "Plugin 'vim-airline/vim-airline-themes'
 call vundle#end()
 
 colorscheme PaperColor
+
+let g:snipMate = get(g:, 'snipMate', {}) " Allow for vimrc re-sourcing
+let g:snipMate.scope_aliases = {}
+let g:snipMate.scope_aliases['html'] = 'php'
+let g:snipMate.scope_aliases['php'] = 'html'
+let g:snipMate.scope_aliases['mst'] = 'html'
+let g:snipMate.scope_aliases['mustache'] = 'html'
