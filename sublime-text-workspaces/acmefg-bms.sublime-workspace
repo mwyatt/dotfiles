@@ -519,58 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/var/www/html/bms/src/Controller/Aeroreport.php",
-			"settings":
-			{
-				"buffer_size": 17382,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/bms/src/Mapper/Aeroreport/Request.php",
-			"settings":
-			{
-				"buffer_size": 989,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/bms/src/Service/MenuBuilder.php",
-			"settings":
-			{
-				"buffer_size": 17313,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/bms/src/Service/UserPermission.php",
-			"settings":
-			{
-				"buffer_size": 1836,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/bms/src/Mapper/Aeroreport/Customer.php",
-			"settings":
-			{
-				"buffer_size": 3523,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/bms/routes/aeroreport.php",
-			"settings":
-			{
-				"buffer_size": 1253,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -579,13 +527,33 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 354.0,
-		"last_filter": "close",
+		"height": 123.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
 				"close",
 				"File: Close All"
+			],
+			[
+				"sett",
+				"Preferences: Settings"
+			],
+			[
+				"materialac",
+				"Material Theme: Activate theme"
+			],
+			[
+				"statu",
+				"View: Toggle Status Bar"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"removepa",
+				"Package Control: Remove Package"
 			],
 			[
 				"clsoe",
@@ -602,10 +570,6 @@
 			[
 				"men",
 				"View: Toggle Menu"
-			],
-			[
-				"sett",
-				"Preferences: Settings"
 			],
 			[
 				"setting",
@@ -650,10 +614,6 @@
 			[
 				"me",
 				"View: Toggle Menu"
-			],
-			[
-				"statu",
-				"View: Toggle Status Bar"
 			],
 			[
 				"tabs",
@@ -716,7 +676,7 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 431.0
+		"width": 485.0
 	},
 	"console":
 	{
@@ -741,9 +701,14 @@
 	],
 	"file_history":
 	[
+		"/var/www/html/bms/src/Controller/Aeroreport.php",
+		"/var/www/html/bms/src/Mapper/Aeroreport/Request.php",
+		"/var/www/html/bms/src/Service/MenuBuilder.php",
+		"/var/www/html/bms/src/Service/UserPermission.php",
+		"/var/www/html/bms/src/Mapper/Aeroreport/Customer.php",
+		"/var/www/html/bms/routes/aeroreport.php",
 		"/var/www/html/bms/src/Mapper/Aeroreport/Cutomer.php",
 		"/var/www/html/bms/src/Controller/Navreport.php",
-		"/var/www/html/bms/src/Service/MenuBuilder.php",
 		"/var/www/html/bms/routes/navreport.php",
 		"/var/www/html/bms/template/head/content.php",
 		"/var/www/html/bms/routes.php",
@@ -755,7 +720,6 @@
 		"/var/www/html/bms/routes/crm/contact.php",
 		"/var/www/html/bms/src/Controller/Crm/Contact.php",
 		"/var/www/html/bms/src/Controller/Crm/Company.php",
-		"/var/www/html/bms/src/Controller/Aeroreport.php",
 		"/var/www/html/bms/src/Controller/Crm.php",
 		"/var/www/html/bms/src/Controller/Crm/Task/Ajax.php",
 		"/var/www/html/bms/routes/crm/lead.php",
@@ -772,7 +736,6 @@
 		"/var/www/html/bms/src/Controller/Appraisal.php",
 		"/var/www/html/bms/src/Middleware/UserPermission.php",
 		"/var/www/html/bms/src/Repository/UserMeta.php",
-		"/var/www/html/bms/src/Service/UserPermission.php",
 		"/var/www/html/bms/src/Middleware/Auth.php",
 		"/var/www/html/bms/src/Middleware/AuthTesting.php",
 		"/var/www/html/bms/index.php",
@@ -781,7 +744,6 @@
 		"/var/www/html/bms/src/Middleware/Common.php",
 		"/var/www/html/bms/src/Controller/Error.php",
 		"/var/www/html/bms/config-remote.php",
-		"/var/www/html/bms/src/Mapper/Aeroreport/Request.php",
 		"/var/www/html/bms/src/Controller/Servicecalls.php",
 		"/var/www/html/bms/sql/appraisal/definition.sql",
 		"/var/www/html/bms/sql/servicecall/definition.sql",
@@ -866,9 +828,7 @@
 		"/var/www/html/bms/template/crm/lead.php",
 		"/var/www/html/bms/src/Controller/Crm/Task.php",
 		"/var/www/html/bms/src/Repository/Crm/Note.php",
-		"/var/www/html/bms/src/Mapper/Crm/AbstractAssocNote.php",
-		"/var/www/html/bms/src/AbstractMapperCrm.php",
-		"/var/www/html/bms/src/Service/Crm/Timeline.php"
+		"/var/www/html/bms/src/Mapper/Crm/AbstractAssocNote.php"
 	],
 	"find":
 	{
@@ -1170,190 +1130,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/var/www/html/bms/src/Controller/Aeroreport.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 17382,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								426,
-								426
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/var/www/html/bms/src/Mapper/Aeroreport/Request.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 989,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								611,
-								611
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/var/www/html/bms/src/Service/MenuBuilder.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 17313,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								10960,
-								10960
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 5195.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/var/www/html/bms/src/Service/UserPermission.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1836,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								819,
-								819
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 353.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/var/www/html/bms/src/Mapper/Aeroreport/Customer.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3523,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3090,
-								3090
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1903.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/var/www/html/bms/routes/aeroreport.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1253,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1090,
-								1090
-							]
-						],
-						"settings":
-						{
-							"spell_check": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -2247,7 +2025,7 @@
 	"show_tabs": true,
 	"side_bar_visible": false,
 	"side_bar_width": 253.0,
-	"status_bar_visible": false,
+	"status_bar_visible": true,
 	"template_settings":
 	{
 	}
