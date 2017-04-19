@@ -4,6 +4,94 @@
 		"selected_items":
 		[
 			[
+				"calllo",
+				"calllogId"
+			],
+			[
+				"access",
+				"AccessTime"
+			],
+			[
+				"noAero",
+				"NoAeromark"
+			],
+			[
+				"noa",
+				"noAeromarks"
+			],
+			[
+				"acctime",
+				"accessTime"
+			],
+			[
+				"els",
+				"elseif"
+			],
+			[
+				"accti",
+				"accessTime"
+			],
+			[
+				"accest",
+				"accessTime"
+			],
+			[
+				"accesti",
+				"AccessTime"
+			],
+			[
+				"p",
+				"p\tTag"
+			],
+			[
+				"rq",
+				"request"
+			],
+			[
+				"cont",
+				"container"
+			],
+			[
+				"confi",
+				"newRowConfig"
+			],
+			[
+				"appe",
+				"appendTo\t.appendTo()"
+			],
+			[
+				"calli",
+				"calllogId"
+			],
+			[
+				"atc",
+				"accessTimeContainer"
+			],
+			[
+				"redire",
+				"redirect"
+			],
+			[
+				"calloi",
+				"calllogId"
+			],
+			[
+				"on",
+				"one\t.one()"
+			],
+			[
+				"Parami",
+				"PARAM_INT"
+			],
+			[
+				"Param",
+				"PARAM_STR"
+			],
+			[
+				"pro",
+				"Profile"
+			],
+			[
 				"color",
 				"color-rendering"
 			],
@@ -64,20 +152,12 @@
 				"crmContact"
 			],
 			[
-				"pro",
-				"prop"
-			],
-			[
 				"ex",
 				"extend\t$.extend()"
 			],
 			[
 				"Conta",
 				"Contacts"
-			],
-			[
-				"cont",
-				"contact"
 			],
 			[
 				"con",
@@ -434,124 +514,63 @@
 			[
 				"deptr",
 				"departmentTree"
-			],
-			[
-				"val",
-				"value"
-			],
-			[
-				"dat",
-				"dataType"
-			],
-			[
-				"chid",
-				"childModels"
-			],
-			[
-				"tho",
-				"throw\tmw-php-throw"
-			],
-			[
-				"publi",
-				"publicCols"
-			],
-			[
-				"useras",
-				"userAssignedIdStored"
-			],
-			[
-				"crmlead",
-				"crmLeadRepository"
-			],
-			[
-				"userAssign",
-				"userAssignedId"
-			],
-			[
-				"jstt",
-				"js-tt-user-id"
-			],
-			[
-				"of",
-				"offsetSet"
-			],
-			[
-				"u",
-				"user"
-			],
-			[
-				"fnidb",
-				"findByIds"
-			],
-			[
-				"compnaem",
-				"companyName"
-			],
-			[
-				"compny",
-				"company"
-			],
-			[
-				"de",
-				"department"
-			],
-			[
-				"dpar",
-				"departmentIds"
-			],
-			[
-				"comna",
-				"companys"
-			],
-			[
-				"fi",
-				"filter"
-			],
-			[
-				"fils",
-				"filters"
-			],
-			[
-				"st",
-				"statuses"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"contents": "<?php\n\nnamespace Acmefg\\Bms\\Controller;\n\nclass Servicecalls extends \\Mwyatt\\Core\\AbstractController\n{\n    private $acceptedDepartmentNames = [\n        'Catering Sales',\n    ];\n\n\n    public function install(\\Mwyatt\\Core\\RequestInterface $request)\n    {\n        $basePath = $this->getService('ProjectPath');\n        $installSql = file_get_contents($basePath . 'sql/servicecalls/definition.sql');\n        $basePathDocs = \"$basePath/temp/\";\n        $databaseService = $this->getService('DatabaseServicecalls');\n        $databaseService->query($installSql);\n        $request->setSession('feedback', \"Wiped base tables then created them.\");\n        $this->redirect('dashboard');\n    }\n\n\n    public function dashboard(\\Mwyatt\\Core\\RequestInterface $request)\n    {\n        $userRepository = $this->getRepository('User');\n        $departmentRepository = $this->getRepository('Company\\Department');\n        $calllogRepository = $this->getRepository('Servicecalls\\Calllog');\n        $dateTime = new \\DateTime;\n        $timeNow = time();\n        $dateTime->setTime(0, 0);\n        $timeOneDay = 60 * 60 * 24;\n        $timeTodayStart = $dateTime->getTimestamp();\n        $dateTime->setTime(24, 0);\n        $timeTodayEnd = $dateTime->getTimestamp();\n        $dateTime->setDate($dateTime->format('Y'), $dateTime->format('m'), 1);\n        $dateTime->setTime(0, 0);\n        $timeMonthStart = $dateTime->getTimestamp();\n        $dateTime->setTimestamp($timeNow - ($timeOneDay * 7));\n        $time7DaysAgoStart = $dateTime->getTimestamp();\n        $calllog = $calllogRepository->getModel();\n        $reportService = $this->getService('Report');\n\n        $reportService->setFilters([\n            [\n                'colName' => 'companyId',\n                'inputName' => 'companyId',\n                'matchType' => 'exact',\n            ],\n            [\n                'colName' => 'contactName',\n                'inputName' => 'contactName',\n                'matchType' => 'exact',\n            ],\n            [\n                'colName' => 'typeofcall',\n                'inputName' => 'typeofcall',\n                'matchType' => 'exact',\n            ],\n            [\n                'colName' => 'timeCreated',\n                'inputName' => 'timeCreated',\n                'matchType' => 'date',\n            ],\n        ]);\n        $reportService->setFilterMapper('Servicecalls\\Calllog');\n\n        $dashboardItems = [\n            [\n                'title' => 'Today',\n                'icon' => 'call-in',\n                'bgColor' => 'blue',\n                'stat' => $reportService->setFiltersSetAndGetResultCount(['timeCreated' => [$timeTodayStart, $timeTodayEnd]]),\n            ],\n            [\n                'title' => 'All Time',\n                'icon' => 'call-in',\n                'bgColor' => 'red',\n                'stat' => $reportService->setFiltersSetAndGetResultCount(),\n            ],\n            [\n                'title' => 'Over 7 Days',\n                'icon' => 'call-in',\n                'bgColor' => 'red',\n                'stat' => $reportService->setFiltersSetAndGetResultCount(['timeCreated' => [$time7DaysAgoStart, $timeTodayEnd]]),\n            ],\n            [\n                'title' => 'This Month',\n                'icon' => 'call-in',\n                'bgColor' => 'red',\n                'stat' => $reportService->setFiltersSetAndGetResultCount(['timeCreated' => [$timeMonthStart, $timeTodayEnd]]),\n            ],\n        ];\n        foreach ($calllog->getCompanys() as $companyId => $name) {\n            $dashboardItems[] = [\n                'title' => 'Today ' . $name,\n                'icon' => 'call-in',\n                'bgColor' => 'blue',\n                'stat' => $reportService->setFiltersSetAndGetResultCount([\n                    'companyId' => $companyId,\n                    'timeCreated' => [$timeTodayStart, $timeTodayEnd],\n                ]),\n            ];\n            $dashboardItems[] = [\n                'title' => 'Today ' . $name,\n                'subtitle' => 'Cancel',\n                'icon' => 'call-in',\n                'bgColor' => 'blue',\n                'stat' => $reportService->setFiltersSetAndGetResultCount([\n                    'typeofcall' => $calllog->getTypeCancelLive(),\n                    'companyId' => $companyId,\n                    'timeCreated' => [$timeTodayStart, $timeTodayEnd],\n                ]),\n            ];\n            $dashboardItems[] = [\n                'title' => 'Today ' . $name,\n                'subtitle' => 'Chase',\n                'icon' => 'call-in',\n                'bgColor' => 'blue',\n                'stat' => $reportService->setFiltersSetAndGetResultCount([\n                    'typeofcall' => $calllog->getTypeChaseLive(),\n                    'companyId' => $companyId,\n                    'timeCreated' => [$timeTodayStart, $timeTodayEnd],\n                ]),\n            ];\n            $dashboardItems[] = [\n                'title' => 'All Time ' . $name,\n                'icon' => 'call-in',\n                'bgColor' => 'red',\n                'stat' => $reportService->setFiltersSetAndGetResultCount([\n                    'companyId' => $companyId,\n                ]),\n            ];\n        }\n        foreach ($userRepository->findManagersByDepartmentIds($departmentRepository->findByNames($this->acceptedDepartmentNames)->getIds()) as $user) {\n            $dashboardItems[] = [\n                'title' => 'Today Manager ' . $user->nameFirst,\n                'icon' => 'call-in',\n                'bgColor' => 'blue',\n                'stat' => $reportService->setFiltersSetAndGetResultCount([\n                    'typeofcall' => $calllog->getTypeManager(),\n                    'contactName' => $user->getNameFull(),\n                    'timeCreated' => [$timeTodayStart, $timeTodayEnd],\n                ]),\n            ];\n        }\n        $dashboardItems[] = [\n            'title' => 'Today Other',\n            'icon' => 'call-in',\n            'bgColor' => 'blue',\n            'stat' => $reportService->setFiltersSetAndGetResultCount([\n                'typeofcall' => $calllog->getTypeOther(),\n                'timeCreated' => [$timeTodayStart, $timeTodayEnd],\n            ]),\n        ];\n        $dashboardItems[] = [\n            'title' => 'Today Sales',\n            'icon' => 'call-in',\n            'bgColor' => 'blue',\n            'stat' => $reportService->setFiltersSetAndGetResultCount([\n                'typeofcall' => $calllog->getTypeSales(),\n                'timeCreated' => [$timeTodayStart, $timeTodayEnd],\n            ]),\n        ];\n\n        $this->view->offsetSet('pageHeadingAutoPos', true);\n        $this->view->offsetSet('pageHeading', 'Service Calls Dashboard');\n        $this->view->offsetSet('dashboardItems', $dashboardItems);\n        return $this->response($this->view->getTemplate('dashboard-shared'));\n    }\n\n\n    public function logCall(\\Mwyatt\\Core\\RequestInterface $request)\n    {\n        $companyId = $request->getQuery('company_id');\n        $hour = date('H');\n        $isAfternoon = $hour >= 12;\n        $calllogRepository = $this->getRepository('Servicecalls\\Calllog');\n        $calllog = $calllogRepository->getModel();\n        $calllog->companyId = $companyId;\n\n        if ($companyId) {\n            $template = 'servicecalls/logcall/options';\n            $request->setSession('servicecallsCurrentCompanyId', $companyId);\n        } else {\n            $template = 'servicecalls/logcall';\n            $request->pullSession('servicecallsCurrentCompanyId');\n        }\n     \n        $urlService = $this->getService('Url');\n        $breadService = $this->getService('Bread');\n        if ($companyId) {\n            $breadService->offsetAppend('Log Call', $urlService->generate('servicecallsLogCall'));\n            $breadService->offsetAppend($calllog->getCompanyText(), '#');\n        }\n        $this->view->offsetSet('breadService', $breadService);\n\n        $this->view->offsetAppend('css', 'servicecalls/common.bundle');\n        $this->view->offsetSet('isAfternoon', $isAfternoon);\n        $this->view->offsetSet('pageHeadingAutoPos', true);\n        $this->view->offsetSet('pageHeading', 'Log' . ($companyId ? ' ' . $calllog->getCompanyText() : '') . ' Call');\n        return $this->response($this->view->getTemplate($template));\n    }\n\n\n    public function logCallNormal(\\Mwyatt\\Core\\RequestInterface $request)\n    {\n        $companyId = $request->getSession('servicecallsCurrentCompanyId');\n        $calllogService = $this->getService('ServicecallsCalllog');\n        $calllogRepository = $this->getRepository('Servicecalls\\Calllog');\n        $calllog = $calllogRepository->getModel();\n\n        if (!$companyId) {\n            $request->setSession('feedback', 'Call session expired. Please start again.');\n            $this->redirect('servicecallsLogCall');\n        }\n        try {\n            $calllog = $calllogService->create($calllog->getTypeNew());\n        } catch (\\Exception $e) {\n            $request->setSession('feedback', 'Unable to log call at this time.');\n            $this->redirect('servicecallsLogCall');\n        }\n        $this->view->offsetSet('calllog', $calllog);\n        $this->view->offsetSet('companyId', $companyId);\n        $this->view->offsetAppend('css', 'servicecalls/common.bundle');\n        $this->view->offsetSet('pageHeadingAutoPos', true);\n        $this->view->offsetSet('pageHeading', 'Logged Normal Call');\n        return $this->response($this->view->getTemplate('servicecalls/logcall/normalcall'));\n    }\n\n\n    public function logCallGenericForm(\\Mwyatt\\Core\\RequestInterface $request)\n    {\n        $userRepository = $this->getRepository('User');\n        $userMetaRepository = $this->getRepository('UserMeta');\n        $companyId = $request->getSession('servicecallsCurrentCompanyId');\n        $type = $request->getUrlVar('type');\n        $calllogService = $this->getService('ServicecallsCalllog');\n        $calllogRepository = $this->getRepository('Servicecalls\\Calllog');\n        $calllog = $calllogRepository->getModel();\n        $calllog->typeofcall = $type;\n        $calllog->companyId = $companyId;\n        $typeManager = 4;\n        $typeSales = 5;\n        $usersCorrect = [];\n        $departmentRepository = $this->getRepository('Company\\Department');\n        $acceptedDepartments = $departmentRepository->findByNames($this->acceptedDepartmentNames);\n        $acceptedDepartmentIds = $acceptedDepartments->getIds();\n        $urlHistoryService = $this->getService('UrlHistory');\n\n        if (!$companyId) {\n            $request->setSession('feedback', 'Call session expired. Please start again.');\n            $this->redirect('servicecallsLogCall');\n        }\n        if ($type == $typeManager) {\n            $usersCorrect = $userRepository->findManagersByDepartmentIds($acceptedDepartmentIds);\n            if (!$usersCorrect->count()) {\n                $request->setSession('feedback', 'No managers found.');\n                $this->redirectAbs($urlHistoryService->getPrevious());\n            }\n        } elseif ($type == $typeSales) {\n            $usersCorrect = $userRepository->findEmployeesByDepartmentIds($acceptedDepartmentIds);\n            if (!$usersCorrect->count()) {\n                $request->setSession('feedback', 'No employees found.');\n                $this->redirectAbs($urlHistoryService->getPrevious());\n            }\n        }\n\n        $urlService = $this->getService('Url');\n        $breadService = $this->getService('Bread');\n        $breadService->offsetAppend('Log Call', $urlService->generate('servicecallsLogCall'));\n        $breadService->offsetAppend($calllog->getCompanyText(), $urlService->generate('servicecallsLogCall', [], ['company_id' => $calllog->companyId]));\n        $breadService->offsetAppend($calllog->getTypeText(), '#');\n        $this->view->offsetSet('breadService', $breadService);\n\n        $this->view->offsetSet('users', $usersCorrect);\n        $this->view->offsetAppend('css', 'servicecalls/common.bundle');\n        $this->view->offsetSet('calllog', $calllog);\n        $this->view->offsetSet('pageHeadingAutoPos', true);\n        $this->view->offsetSet('pageHeading', \"Log {$calllog->getTypeText()} Call\");\n        return $this->response($this->view->getTemplate('servicecalls/logcall/generic-form'));\n    }\n\n\n    public function enquiryAssets(\\Mwyatt\\Core\\RequestInterface $request)\n    {\n        $this->view->offsetSet('pageHeadingAutoPos', true);\n        $this->view->offsetSet('pageHeading', 'Find Equipment By Serial');\n        $this->view->offsetAppend('js', 'servicecalls/siclops/enquiry-assets.bundle');\n        $this->view->offsetAppend('css', 'servicecalls/common.bundle');\n        return $this->response($this->view->getTemplate('servicecalls/enquiry-assets'));\n    }\n\n\n    public function enquiryClientEquipment(\\Mwyatt\\Core\\RequestInterface $request)\n    {\n        $this->view->offsetSet('pageHeadingAutoPos', true);\n        $this->view->offsetSet('pageHeading', 'Find Client By Postcode');\n        $this->view->offsetAppend('js', 'servicecalls/siclops/enquiry-client-equipment.bundle');\n        $this->view->offsetAppend('css', 'servicecalls/common.bundle');\n        return $this->response($this->view->getTemplate('servicecalls/enquiry-client-equipment'));\n    }\n\n\n    public function managerNoaeromarkAll(\\Mwyatt\\Core\\RequestInterface $request)\n    {\n        $noAeromarkRepository = $this->getRepository('Servicecalls\\NoAeromark');\n        $isClosed = $request->getQuery('closed');\n        $urlService = $this->getService('Url');\n        $urlPath = $urlService->getPath();\n        $userService = $this->getService('User');\n        $loggedUser = $userService->getLoggedUser();\n        $noAeromark = $noAeromarkRepository->getModel();\n\n        foreach ($noAeromark->getReasons() as $id => $name) {\n            if (stripos($urlPath, $name)) {\n                $noAeromark->reason = $id;\n            }\n        }\n        if (!$noAeromark->reason) {\n            $request->setSession('feedback', 'Invalid route.');\n            $this->redirect('servicecallsDashboard');\n        }\n        $status = $isClosed ? $noAeromark->getStatusClosed() : $noAeromark->getStatusNormal();\n        $noAeromarks = $noAeromarkRepository->findByReasonStatus($noAeromark->reason, $status);\n        $noAeromarks->uasort(function ($a, $b) {\n            return $a->timeCreated < $b->timeCreated;\n        });\n        $statusText = $isClosed ? 'Closed' : 'Open';\n\n        $this->view->offsetSet('isClosed', $isClosed);\n        $this->view->offsetSet('pageHeadingAutoPos', true);\n        $this->view->offsetSet('pageHeading', \"All $statusText {$noAeromark->getReasonText()} Jobs\");\n        $this->view->offsetSet('noAeromarkFirst', $noAeromark);\n        $this->view->offsetSet('noAeromarks', $noAeromarks);\n        return $this->response($this->view->getTemplate('servicecalls/manager-no-aeromark-all'));\n    }\n\n\n    public function managerNoaeromarkSingle(\\Mwyatt\\Core\\RequestInterface $request)\n    {\n        $userService = $this->getService('User');\n        $loggedUser = $userService->getLoggedUser();\n        $close = $request->getQuery('close');\n        $id = $request->getUrlVar('id');\n        $noAeromarkRepository = $this->getRepository('Servicecalls\\NoAeromark');\n        $noAeromark = $noAeromarkRepository->findById($id);\n        $urlHistoryService = $this->getService('UrlHistory');\n        $userPermissionService = $this->getService('UserPermission');\n        $breadService = $this->getService('Bread');\n        $urlService = $this->getService('Url');\n\n        if (!$noAeromark || !$userPermissionService->hasPermission($loggedUser, 'servicecallsManagerNoaeromarkAll.' . strtolower($noAeromark->getReasonText()))) {\n            $request->setSession('feedback', \"You do not have permission to access this aeromark job.\");\n            $this->redirectAbs($urlHistoryService->getPrevious());\n        }\n        if ($close) {\n            $noAeromark->status = $noAeromark->getStatusClosed();\n            try {\n                $success = $noAeromarkRepository->persist($noAeromark);\n                $request->setSession('feedback', \"Successfully closed job {$noAeromark->id}.\");\n            } catch (\\Exception $e) {\n                $request->setSession('feedback', \"Problem closing job {$noAeromark->id}.\");\n            }\n            $this->redirectAbs($urlHistoryService->getPrevious());\n        }\n\n        $breadService->offsetAppend(\"{$noAeromark->getReasonText()} Jobs\", $urlService->generate('servicecallsManagerNoaeromarkAll.' . strtolower($noAeromark->getReasonText())));\n        $breadService->offsetAppend(\"Job {$noAeromark->id}\", '#');\n\n        $this->view->offsetSet('breadService', $breadService);\n        $this->view->offsetSet('isManagerView', 1);\n        $this->view->offsetSet('pageHeadingAutoPos', true);\n        $this->view->offsetSet('pageHeading', \"Job {$noAeromark->id}\");\n        $this->view->offsetSet('noAeromark', $noAeromark);\n        return $this->response($this->view->getTemplate('servicecalls/form-no-aeromark'));\n    }\n\n\n    public function noAeromark(\\Mwyatt\\Core\\RequestInterface $request)\n    {\n    $noAeromarkRepository = $this->getRepository('Servicecalls\\NoAeromark');\n        $noAeromark = $noAeromarkRepository->getModel();\n\t$calllogId = $request->getQuery('calllog_id');\n\n        $this->view->offsetSet('pageHeadingAutoPos', true);\n        $this->view->offsetSet('calllog_id', $calllogId);\n        $this->view->offsetSet('pageHeading', 'Log Call No Aeromark');\n        $this->view->offsetSet('noAeromark', $noAeromark);\n        $this->view->offsetSet('isManagerView', 0);\n        $this->view->offsetAppend('js', 'servicecalls/log-call/no-aeromark.bundle'); \n        return $this->response($this->view->getTemplate('servicecalls/form-no-aeromark'));\n    }\n\n\n    public function noAeromarkSubmit(\\Mwyatt\\Core\\RequestInterface $request)\n    {\n        $userService = $this->getService('User');\n        $loggedUser = $userService->getLoggedUser();\n        $noAeromarkRepository = $this->getRepository('Servicecalls\\NoAeromark');\n        $noAeromark = $noAeromarkRepository->getModel();\n        $databaseService = $this->getService('DatabaseServicecalls');\n        $noAeromarkRepository = $this->getRepository('Servicecalls\\NoAeromark');\n        $mailService = $this->getService('Mail');\n        $userRepository = $this->getRepository('User');\n        $userMetaRepository = $this->getRepository('UserMeta');\n\n        foreach ($noAeromarkRepository->getPublicColNames() as $col) {\n            $noAeromark->$col = $request->getPost($col);\n        }\n        $noAeromark->userId = $loggedUser->id;\n        $noAeromark->status = $noAeromark->getStatusNormal();\n        $this->view->offsetSet('noAeromark', $noAeromark);\n\n        $databaseService->beginTransaction();\n        try {\n            $noAeromarkRepository->persist($noAeromark);\n            $jobPersisted = $noAeromark->id;\n            if (!$jobPersisted) {\n                throw new \\Exception('');\n            }\n            $request->setSession('feedback', 'Successfully logged report.');\n            $databaseService->commit();\n            $redirection = 'servicecallsLogCall';\n        } catch (\\Exception $e) {\n            $databaseService->rollback();\n            $request->setSession('feedback', 'Error while saving report.');\n            $redirection = 'servicecallsLogCallNoAeromark';\n        }\n        if (!empty($jobPersisted)) {\n            try {\n                $userPermissions = $userMetaRepository->findByKeyValues('permission', ['servicecallsManagerNoaeromarkAll.' . strtolower($noAeromark->getReasonText())]);\n                $userIds = $userPermissions->extractPropertyUnique('userId');\n                $usersInterested = $userRepository->findByIds($userIds);\n                foreach ($usersInterested as $user) {\n                    $message = $mailService->getNewMessage();\n                    $message->setTo($user->email);\n                    $message->setFrom('servicecalls@acmefg.com');\n                    $message->setSubject(\"{$noAeromark->getReasonText()} Job not logged to Aeromark\");\n                    $this->view->offsetSet('user', $user);\n                    $message->addPart($this->view->getTemplate('servicecalls/mail/no-aeromark'), 'text/html');\n                    $mailService->send($message);\n                }\n            } catch (\\Exception $e) {\n            }\n        }\n        $this->redirect($redirection);\n    }\n\n\n    public function logCallGenericFormSubmit(\\Mwyatt\\Core\\RequestInterface $request)\n    {\n        $calllogService = $this->getService('ServicecallsCalllog');\n        $jobName = $request->getPost('jobName', $request->getQuery('jobName'));\n        $calllogType = $request->getPost('calllogType', $request->getQuery('calllogType'));\n        $jobDescription = $request->getPost('jobDescription', $request->getQuery('jobDescription'));\n        $contactName = $request->getPost('contactName', $request->getQuery('contactName'));\n        $contactEmail = $request->getPost('contactEmail', $request->getQuery('contactEmail'));\n        $contactPhone = $request->getPost('contactPhone', $request->getQuery('contactPhone'));\n        $userService = $this->getService('User');\n        $loggedUser = $userService->getLoggedUser();\n        $databaseService = $this->getService('DatabaseServicecalls');\n        $mailService = $this->getService('Mail');\n        $urlHistoryService = $this->getService('UrlHistory');\n\n        $databaseService->beginTransaction();\n        try {\n            $calllog = $calllogService->create(\n                $calllogType,\n                $jobName,\n                $jobDescription,\n                $contactName,\n                $contactEmail,\n                $contactPhone\n            );\n            $request->setSession('feedback', 'Call logged successfully.');\n            $databaseService->commit();\n        } catch (\\Exception $e) {\n            $databaseService->rollback();\n            $request->setSession('feedback', 'Unable to log call.');\n            $this->redirectAbs($urlHistoryService->getPrevious());\n        }\n\n        // chase means email someone\n        if ($calllog->typeofcall == $calllog->getTypeChaseLive()) {\n            try {\n                $message = $mailService->getNewMessage();\n                $message->setTo('controllers@acmefg.com');\n                $message->setFrom('servicecalls@acmefg.com');\n                $message->setSubject(\"Live Call Being Chased\");\n                $this->view->offsetSet('loggedInUserObj', $loggedUser);\n                $this->view->offsetSet('calllog', $calllog);\n                $message->addPart($this->view->getTemplate('mail/call-chase-controllers'), 'text/html');\n                $mailService->send($message);\n            } catch (\\Exception $e) {\n            }\n        }\n        $this->redirect('servicecallsLogCall');\n    }\n\n\n    public function callLogReport(\\Mwyatt\\Core\\RequestInterface $request)\n    {\n        $calllogRepository = $this->getRepository('Servicecalls\\Calllog');\n        $calllogSingle = $calllogRepository->getModel();\n        $userRepository = $this->getRepository('User');\n        $reportService = $this->getService('Report');\n        $usersModel = $userRepository->findAll();\n        $companys = $calllogSingle->getCompanys();\n        $types = $calllogSingle->getTypes();\n        $users = [];\n\n        foreach ($usersModel as $user) {\n            $users[$user->id] = $user->getNameFull();\n        }\n        $reportService->enableExportOptions();\n        $reportService->setFilters([\n            [\n                'title' => 'Company',\n                'colName' => 'companyId',\n                'inputName' => 'company',\n                'inputType' => 'select',\n                'matchType' => 'exact',\n                'inputSelectOpts' => $companys,\n            ],\n            [\n                'title' => 'Type',\n                'colName' => 'typeofcall',\n                'inputName' => 'type',\n                'inputType' => 'select',\n                'matchType' => 'exact',\n                'inputSelectOpts' => $types,\n            ],\n            [\n                'title' => 'User',\n                'colName' => 'userId',\n                'inputName' => 'user',\n                'inputType' => 'select',\n                'matchType' => 'exact',\n                'inputSelectOpts' => $users,\n            ],\n            [\n                'title' => 'Contact Name',\n                'colName' => 'contactName',\n                'inputName' => 'contactName',\n                'inputType' => 'text',\n                'matchType' => 'like',\n            ],\n            [\n                'title' => 'Contact Email',\n                'colName' => 'contactEmail',\n                'inputName' => 'contactEmail',\n                'inputType' => 'text',\n                'matchType' => 'like',\n            ],\n            [\n                'title' => 'Contact Phone',\n                'colName' => 'contactPhone',\n                'inputName' => 'contactPhone',\n                'inputType' => 'text',\n                'matchType' => 'like',\n            ],\n            [\n                'title' => 'Description',\n                'colName' => 'description',\n                'inputName' => 'description',\n                'inputType' => 'text',\n                'matchType' => 'like',\n            ],\n            [\n                'title' => 'Date From To',\n                'colName' => 'timeCreated',\n                'inputName' => 'timeCreated',\n                'inputType' => 'date',\n                'inputDateStyle' => 'between',\n                'matchType' => 'date',\n            ],\n        ]);\n        $reportService->setResultCols([\n            [\n                'title' => 'Company',\n                'colName' => 'companyId',\n                'template' => 'filter/result/cell/servicecalls/company-text',\n            ],\n            [\n                'title' => 'Type',\n                'colName' => 'typeofcall',\n                'template' => 'filter/result/cell/servicecalls/type-text',\n            ],\n            [\n                'title' => 'User',\n                'colName' => 'userId',\n                'template' => 'filter/result/cell/user',\n            ],\n            [\n                'title' => 'Contact Name',\n                'colName' => 'contactName',\n            ],\n            [\n                'title' => 'Contact Email',\n                'colName' => 'contactEmail',\n            ],\n            [\n                'title' => 'Contact Phone',\n                'colName' => 'contactPhone',\n            ],\n            [\n                'title' => 'Description',\n                'colName' => 'description',\n            ],\n            [\n                'title' => 'Date Created',\n                'colName' => 'timeCreated',\n                'template' => 'filter/result/cell/date',\n            ],\n        ]);\n        $reportService->setFilterMapper('Servicecalls\\Calllog');\n        $results = $reportService->getResults();\n        $calllogRepository->bindUser($results);\n        $response = $this->response();\n\n        if ($reportService->isExporting()) {\n            $response = $reportService->convertResultsToExportResponse(\n                $results,\n                $response\n            );\n        } else {\n            $this->view->offsetAppend('css', 'servicecalls/common.bundle');\n            $this->view->offsetSet('pageHeadingAutoPos', true);\n            $this->view->offsetSet('pageHeading', 'Call Log Report');\n            $this->view->offsetSet('urlRouteIdBase', 'servicecallsCallLogReport');\n            $response->setContent($this->view->getTemplate('servicecalls/report-single'));\n        }\n        return $response;\n    }\n}\n",
-			"file": "/var/www/html/bms/src/Controller/Servicecalls.php",
-			"file_size": 27570,
-			"file_write_time": 131369936596990612,
+			"file": "/var/www/html/bms/src/Controller/Aeroreport.php",
 			"settings":
 			{
-				"buffer_size": 27566,
+				"buffer_size": 17382,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "<?php include($template->getTemplate('head')) ?>\n<?php if (!$loggedUser->nameFirst || !$loggedUser->nameLast) : ?>\n    \n<div class=\"alert alert-info\">\n    <h4 class=\"alert-heading\">Your Name</h4>\n    <p>Currently you are appearing as '<?php echo $loggedUser->getNameFull() ?>'. Why not add your full name to your profile?</p>\n    <div class=\"margin-top-10\">\n        <a href=\"<?php echo $url->generate('userProfile') ?>\" class=\"btn btn-default\">My Profile</a>\n    </div>\n</div>\n<p>Curre\n<?php endif ?>\n<?php $colLimit = 4 ?>\n<?php include($template->getTemplate('dashboard/items')) ?>\n<?php include($template->getTemplate('foot')) ?>\n",
-			"file": "/var/www/html/bms/template/dashboard.php",
-			"file_size": 625,
-			"file_write_time": 131370027503947634,
+			"file": "/var/www/html/bms/src/Mapper/Aeroreport/Request.php",
 			"settings":
 			{
-				"buffer_size": 633,
+				"buffer_size": 989,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<?php\n\nnamespace Acmefg\\Bms\\Controller;\n\nclass Navreport extends \\Mwyatt\\Core\\AbstractController\n{\n\n\n    public function dashboard(\\Mwyatt\\Core\\RequestInterface $request)\n    {\n        $this->view->offsetSet('pageHeadingAutoPos', true);\n        $this->view->offsetSet('pageHeading', 'NAV Report Dashboard');\n        $this->view->offsetSet('dashboardItems', []);\n        return $this->response($this->view->getTemplate('dashboard-shared'));\n    }\n\n\n    public function report(\\Mwyatt\\Core\\RequestInterface $request)\n    {\n        c\n    }\n}\n",
+			"file": "/var/www/html/bms/src/Controller/Navreport.php",
+			"file_size": 448,
+			"file_write_time": 131365517548615358,
+			"settings":
+			{
+				"buffer_size": 539,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/bms/routes/navreport.php",
+			"settings":
+			{
+				"buffer_size": 436,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "@import 'settings';\n@import 'settingsEase';\n@import 'mwyatt-codex';\n@import 'mwyatt-codex/link';\n@import 'form';\n@import 'alert';\n@import 'button';\n@import 'flexboxgrid';\n\n.mr05 {\n  margin-right: .5em;\n}\n\n.floating-centered {\n    margin: 0 auto;\n    max-width: 350px;\n    margin-top: 100px;\n    padding: 30px;\n    border: 1px solid #ccc;\n    border-radius: 2px;\n    background-color: #fff;\n    box-shadow: 0 0 10px rgba(0, 0, 0, .1);\n}\n\n.login-body {\n    background-color: #f1f1f1;\n}\n\n.login-title {\n    font-size: 24px;\n    margin-bottom: 1em;\n}\n\n.acme-logo {\n    width: 130px;\n    height: 59px;\n}\n\n.login-logo {\n    margin-bottom: 25px;\n    border-bottom: 1px dashed #ccc;\n    padding-bottom: 30px;\n}\n\n.login-logo-text {\n    font-weight: 100;\n    font-size: 26px;\n    float: right;\n    margin-top: 31px;\n    color: #a9a9a9;\n}\n\n.link.grayed {\n    color: #a9a9a9;\n    border-color: #a9a9a9;\n}\n",
-			"file": "/var/www/html/bms/ui/login.bundle.css",
-			"file_size": 893,
-			"file_write_time": 131370027655587629,
+			"file": "/var/www/html/bms/config.php",
 			"settings":
 			{
-				"buffer_size": 893,
+				"buffer_size": 1647,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "sales and service combined invoice headers + lines this month\nsales and service credit notes + total - from the total\npage will show turnover for each month of this year with a grand total at the bottom\n",
+			"settings":
+			{
+				"buffer_size": 203,
+				"line_ending": "Unix",
+				"name": "sales and service combined invoice headers + lines"
 			}
 		}
 	],
@@ -562,33 +581,93 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "stat",
+		"height": 79.0,
+		"last_filter": "resource",
 		"selected_items":
 		[
 			[
-				"stat",
+				"resource",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"keyb",
+				"Preferences: Key Bindings"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"status",
 				"View: Toggle Status Bar"
 			],
 			[
-				"menu",
-				"View: Toggle Menu"
+				"removepac",
+				"Package Control: Remove Package"
 			],
 			[
-				"ena",
-				"Package Control: Enable Package"
+				"remoepacka",
+				"Package Control: Remove Package"
 			],
 			[
-				"dis",
-				"Package Control: Disable Package"
+				"listpck",
+				"Package Control: List Packages"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"setting",
+				"Preferences: Settings"
 			],
 			[
 				"disa",
 				"Package Control: Disable Package"
 			],
 			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"tabs",
+				"View: Toggle Tabs"
+			],
+			[
 				"sett",
 				"Preferences: Settings"
+			],
+			[
+				"rmeovepa",
+				"Package Control: Remove Package"
+			],
+			[
+				"men",
+				"View: Toggle Menu"
+			],
+			[
+				"keybind",
+				"Preferences: Key Bindings"
+			],
+			[
+				"listpa",
+				"Package Control: List Packages"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"stat",
+				"View: Toggle Status Bar"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
 			],
 			[
 				"lsitpa",
@@ -597,10 +676,6 @@
 			[
 				"resoure",
 				"PackageResourceViewer: Open Resource"
-			],
-			[
-				"listpa",
-				"Package Control: List Packages"
 			],
 			[
 				"satusb",
@@ -659,14 +734,6 @@
 				"View: Toggle Tabs"
 			],
 			[
-				"setting",
-				"Preferences: Settings"
-			],
-			[
-				"close",
-				"File: Close All"
-			],
-			[
 				"materialac",
 				"Material Theme: Activate theme"
 			],
@@ -685,10 +752,6 @@
 			[
 				"clos",
 				"File: Close All"
-			],
-			[
-				"men",
-				"View: Toggle Menu"
 			],
 			[
 				"key",
@@ -723,20 +786,12 @@
 				"View: Toggle Menu"
 			],
 			[
-				"tabs",
-				"View: Toggle Tabs"
-			],
-			[
 				"user",
 				"Preferences: Package Control Settings – User"
 			],
 			[
 				"settings",
 				"Preferences: Settings"
-			],
-			[
-				"keyb",
-				"Preferences: Key Bindings"
 			],
 			[
 				"cloe",
@@ -761,10 +816,6 @@
 			[
 				"closeal",
 				"File: Close All"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			],
 			[
 				"closeall",
@@ -808,11 +859,52 @@
 	],
 	"file_history":
 	[
+		"/home/martin/.config/sublime-text-3/Packages/PHP/Snippets/Constructor.sublime-snippet",
+		"/home/martin/.config/sublime-text-3/Packages/LaTeX/Snippets/Table.sublime-snippet",
+		"/home/martin/Downloads/navrepor_nav.sql",
+		"/var/www/html/bms/src/Factory/Mapper.php",
+		"/var/www/html/bms/config.php",
+		"/var/www/html/bms/config-remote.php",
+		"/var/www/html/bms/src/AbstractMapper.php",
+		"/var/www/html/bms/services.php",
+		"/var/www/html/bms/src/AbstractRepository.php",
+		"/var/www/html/bms/index.php",
+		"/var/www/html/bms/routes/install.php",
+		"/var/www/html/bms/sql/servicecalls/definition.sql",
+		"/var/www/html/bms/ui/servicecalls/common.bundle.css",
+		"/var/www/html/bms/src/Controller/Servicecalls.php",
+		"/var/www/html/bms/src/Model/Servicecalls/AccessTime.php",
+		"/var/www/html/bms/template/servicecalls/form-no-aeromark.php",
+		"/var/www/html/bms/template/admin/user.php",
+		"/var/www/html/bms/src/Model/Servicecalls/NoAeromark.php",
+		"/var/www/html/bms/src/Repository/Servicecalls/NoAeromark.php",
+		"/var/www/html/bms/src/Repository/BindUserTrait.php",
+		"/var/www/html/bms/src/Mapper/Servicecalls/AccessTime.php",
+		"/home/martin/.config/sublime-text-3/Packages/User/snippet/php/controller-request-get.sublime-snippet",
+		"/var/www/html/bms/src/Repository/Servicecalls/AccessTime.php",
+		"/home/martin/.config/sublime-text-3/Packages/User/mw-php-controller-get-query.sublime-snippet",
+		"/var/www/html/bms/template/crm/contact/edit.php",
+		"/var/www/html/bms/ui/servicecalls/log-call/no-aeromark.bundle.js",
+		"/var/www/html/bms/src/Controller/Crm/Contact.php",
+		"/var/www/html/bms/ui/servicecalls/log-call/access-time-row.mst",
+		"/var/www/html/bms/ui/common.bundle.js",
+		"/var/www/html/bms/template/crm/notes-panel.php",
+		"/var/www/html/bms/template/crm/task/create.php",
+		"/var/www/html/bms/src/Controller/Crm.php",
+		"/home/martin/.config/sublime-text-3/Packages/User/js-jquery-selector.sublime-snippet",
+		"/home/martin/.config/sublime-text-3/Packages/User/snippet/js/mustache-render.sublime-snippet",
+		"/var/www/html/bms/routes/servicecalls.php",
+		"/home/martin/.config/sublime-text-3/Packages/User/JavaScript.sublime-settings",
+		"/home/martin/.config/sublime-text-3/Packages/User/CSS.sublime-settings",
+		"/home/martin/.config/sublime-text-3/Packages/User/HTML.sublime-settings",
+		"/home/martin/.config/sublime-text-3/Packages/User/php-request-setsession.sublime-snippet",
+		"/home/martin/.config/sublime-text-3/Packages/User/php-controller-redirect.sublime-snippet",
 		"/var/www/html/bms/ui/login.bundle.css",
+		"/var/www/html/dotfiles/pull.sh",
+		"/var/www/html/bms/template/dashboard.php",
 		"/home/martin/.config/sublime-text-3/Packages/User/css-..sublime-snippet",
 		"/home/martin/.config/sublime-text-3/Packages/Emmet/Default (Linux).sublime-keymap",
 		"/home/martin/.config/sublime-text-3/Packages/Color Scheme - Default/Solarized (Light).tmTheme",
-		"/var/www/html/bms/index.php",
 		"/var/www/html/bms/src/Controller/Aeroreport.php",
 		"/var/www/html/bms/src/Mapper/Aeroreport/Request.php",
 		"/var/www/html/bms/src/Service/MenuBuilder.php",
@@ -826,18 +918,14 @@
 		"/var/www/html/bms/routes.php",
 		"/var/www/html/bms/src/Mapper/Aeroreport/Stock.php",
 		"/var/www/html/bms/src/Service/Report.php",
-		"/var/www/html/bms/config.php",
 		"/var/www/html/bms/src/Controller/Admin/User.php",
 		"/var/www/html/bms/routes/crm.php",
 		"/var/www/html/bms/routes/crm/contact.php",
-		"/var/www/html/bms/src/Controller/Crm/Contact.php",
 		"/var/www/html/bms/src/Controller/Crm/Company.php",
-		"/var/www/html/bms/src/Controller/Crm.php",
 		"/var/www/html/bms/src/Controller/Crm/Task/Ajax.php",
 		"/var/www/html/bms/routes/crm/lead.php",
 		"/var/www/html/bms/src/Service/UserAction.php",
 		"/var/www/html/bms/src/Mapper/Crm/Company.php",
-		"/var/www/html/bms/routes/install.php",
 		"/var/www/html/bms/routes/admin.php",
 		"/var/www/html/bms/src/Repository/UserAction.php",
 		"/var/www/html/bms/src/Controller/User.php",
@@ -854,11 +942,8 @@
 		"/var/www/html/bms/src/Controller/Admin.php",
 		"/var/www/html/bms/src/Middleware/Common.php",
 		"/var/www/html/bms/src/Controller/Error.php",
-		"/var/www/html/bms/config-remote.php",
-		"/var/www/html/bms/src/Controller/Servicecalls.php",
 		"/var/www/html/bms/sql/appraisal/definition.sql",
 		"/var/www/html/bms/sql/servicecall/definition.sql",
-		"/var/www/html/bms/sql/servicecalls/definition.sql",
 		"/var/www/html/bms/src/Mapper/Appraisal/AppStatus.php",
 		"/var/www/html/bms/src/AbstractMapperAppraisal.php",
 		"/var/www/html/bms/src/Model/User.php",
@@ -867,8 +952,6 @@
 		"/var/www/html/bms/package.json",
 		"/var/www/html/bms/gulpfile.js",
 		"/var/www/html/bms/template/dashboard-shared.php",
-		"/var/www/html/bms/template/dashboard.php",
-		"/var/www/html/bms/services.php",
 		"/var/www/html/bms/routes/appraisal.php",
 		"/var/www/html/bms/src/Repository/Crm/Contact.php",
 		"/var/www/html/bms/src/Repository/Crm/Enquiry.php",
@@ -880,14 +963,12 @@
 		"/var/www/html/bms/template/crm/company.php",
 		"/var/www/html/bms/ui/crm/enquiry/create.bundle.js",
 		"/var/www/html/bms/src/Model/Crm/Enquiry.php",
-		"/var/www/html/bms/template/crm/contact/edit.php",
 		"/var/www/html/bms/template/crm/company/edit.php",
 		"/var/www/html/bms/template/crm/enquiry/create.php",
 		"/var/www/html/bms/template/crm/contact/create-enquiry.php",
 		"/var/www/html/bms/template/crm/contact.php",
 		"/var/www/html/bms/ui/crm/common.bundle.js",
 		"/var/www/html/bms/ui/crm/typeahead-input.js",
-		"/var/www/html/bms/template/crm/notes-panel.php",
 		"/var/www/html/bms/src/Repository/Crm/Company.php",
 		"/var/www/html/bms/src/Mapper/Crm/Contact.php",
 		"/var/www/html/bms/sql/crm/definition.sql",
@@ -895,7 +976,6 @@
 		"/var/www/html/bms/src/Model/Crm/ArchivedTrait.php",
 		"/var/www/html/bms/src/Model/Crm/Company.php",
 		"/var/www/html/bms/src/Model/Crm/Contact.php",
-		"/var/www/html/bms/src/AbstractMapper.php",
 		"/var/www/html/bms/src/Controller/Crm/Lead.php",
 		"/var/www/html/bms/src/Repository/Company.php",
 		"/var/www/html/bms/src/Model/Crm/StatusTrait.php",
@@ -906,40 +986,11 @@
 		"/var/www/html/bms/ui/crm/typeahead-company.js",
 		"/var/www/html/bms/ui/fix-bootstrap.bundle.css",
 		"/var/www/html/bms/template/crm/lead/create.php",
-		"/var/www/html/bms/template/crm/edit.php",
-		"/var/www/html/bms/template/crm/edit/phone.php",
-		"/var/www/html/bms/template/admin/user.php",
-		"/var/www/html/bms/template/crm/edit/address.php",
-		"/var/www/html/bms/vendor/mwyatt/core/src/AbstractRepository.php",
-		"/var/www/html/bms/template/crm/import-contact-company-csv.php",
-		"/var/www/html/bms/src/Model/Crm/AddressTrait.php",
-		"/var/www/html/bms/metronic/assets/global/plugins/typeahead/typeahead.bundle.min.js",
-		"/var/www/html/bms/ui/common.bundle.js",
-		"/var/www/html/bms/template/crm/timeline-panel.php",
-		"/var/www/html/bms/src/Service/Crm.php",
-		"/var/www/html/bms/template/crm/task.php",
-		"/var/www/html/bms/template/crm/task/create.php",
-		"/var/www/html/bms/src/Service/User.php",
-		"/var/www/html/bms/template/user.php",
-		"/var/www/html/bms/ui/admin/user/single.bundle.js",
-		"/var/www/html/bms/ui/crm/lead/convert/typeahead.js",
-		"/var/www/html/bms/template/crm/lead/convert.php",
-		"/home/martin/Downloads/170410 CRM Data Example v001.csv",
-		"/var/www/html/bms/src/Repository/Crm/Task.php",
-		"/var/www/html/bms/src/Controller/Crm/Contact/Ajax.php",
-		"/var/www/html/bms/src/Repository/BindTaskTrait.php",
-		"/var/www/html/bms/vendor/mwyatt/core/src/Iterator/Model.php",
-		"/var/www/html/bms/src/Mapper/Crm/LeadTask.php",
-		"/var/www/html/bms/src/Mapper/Crm/AbstractAssocTask.php",
-		"/var/www/html/bms/src/Repository/BindNoteTrait.php",
-		"/var/www/html/bms/src/Model/Crm/Task.php",
-		"/var/www/html/bms/src/Iterator/Model/Crm/Task.php",
-		"/var/www/html/bms/src/Repository/Crm/Lead.php",
-		"/var/www/html/bms/src/Model/Crm/Lead.php"
+		"/var/www/html/bms/template/crm/edit.php"
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 37.0
 	},
 	"find_in_files":
 	{
@@ -1014,6 +1065,61 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"maintCallsOutstanding",
+			"navreportReport",
+			"report",
+			"adapterAeroreport",
+			"adapterNavreport",
+			"adapterAeroreport",
+			"aeroreport",
+			"DatabaseAeroreport",
+			"aeroreport",
+			"status",
+			"parentBindProp",
+			"childMapper",
+			"noAeromark",
+			"Joined",
+			"Time",
+			"PRIMARY",
+			"servicecalls_noAeromark_accessTime",
+			"Session has expired, please try ",
+			"calllogId",
+			"From",
+			"rowKey",
+			"INT",
+			"minute",
+			"From",
+			"NoAeromark",
+			"accessDay",
+			"dow_text",
+			"dow_numeric",
+			"Name",
+			"from",
+			"0",
+			"addAccessRow",
+			"options",
+			"button",
+			"copyAccessRow",
+			"removeAccessRow",
+			"remove",
+			"remo",
+			"btn-sm",
+			"access",
+			"00",
+			"placeholder=\"time\"",
+			"calllogId",
+			"time",
+			"text",
+			"python",
+			"access",
+			"servicecallsLogCall",
+			"id",
+			"Time",
+			"tiny",
+			"servicecalls_noAeromark_accessTime",
+			"vimrc",
+			"vimr",
+			"access",
 			"gra",
 			"maintCallsOutstanding",
 			"aeroreportMaintCallsOutstanding",
@@ -1086,62 +1192,7 @@
 			"userId",
 			"adminUserEdit",
 			"userActionService",
-			"UserAction",
-			"crmLeadCreate",
-			"adminUserEdit",
-			"crmLeadCreate",
-			"\n        ",
-			"adminUserSubmit",
-			"password",
-			"forgotPasswordRequest",
-			"passwordChange",
-			"user",
-			"userActionService",
-			"user",
-			"userActionService",
-			"user",
-			"forgotPasswordRequest",
-			"passwordChange",
-			"loggedOut",
-			"forgotPasswordRequest",
-			"loggedUser",
-			"userService",
-			"loggedUser",
-			"$userActionService->create",
-			"profileEdit",
-			"Your ",
-			"getAppraisalMonth",
-			"isTimeForAppraisal",
-			"userId",
-			"permissionRouteGroups",
-			"userMeta",
-			"123qweasdzxc",
-			"bmsacmefg",
-			"acme_admin",
-			"bmsacmefg",
-			"bmsacmef_aeroreport",
-			"css_acme",
-			"servicecalls_calllog",
-			"servicecalls_noAeromark",
-			"`;\n",
-			"CREATE TABLE IF NOT EXISTS",
-			"CREATE TABLE IF NOT EXISTS ",
-			"DatabaseAppraisal",
-			"crm",
-			"getPrimaryStructure",
-			"menuPrimar",
-			"menuBui",
-			"$this->redirect();",
-			"AuthTesting",
-			"$this->redirect()",
-			"databaseService",
-			"drop table",
-			"if exists ",
-			"if exists",
-			"database",
-			"minify",
-			".css",
-			"autoprefixer"
+			"UserAction"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1228,7 +1279,7 @@
 			"braintree-web",
 			"require('jquery-ui')"
 		],
-		"reverse": true,
+		"reverse": false,
 		"show_context": false,
 		"use_buffer2": true,
 		"whole_word": false,
@@ -1237,57 +1288,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/var/www/html/bms/src/Controller/Servicecalls.php",
+					"file": "/var/www/html/bms/src/Controller/Aeroreport.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 27566,
+						"buffer_size": 17382,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1677,
-								1677
-							]
-						],
-						"settings":
-						{
-							"rulers":
-							[
-								80
-							],
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4
-						},
-						"translation.x": 0.0,
-						"translation.y": 575.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/var/www/html/bms/template/dashboard.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 633,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								485,
-								485
+								370,
+								370
 							]
 						],
 						"settings":
@@ -1298,35 +1316,147 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "/var/www/html/bms/ui/login.bundle.css",
+					"buffer": 1,
+					"file": "/var/www/html/bms/src/Mapper/Aeroreport/Request.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 893,
+						"buffer_size": 989,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								893,
-								893
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 488.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/var/www/html/bms/src/Controller/Navreport.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 539,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								530,
+								530
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/var/www/html/bms/routes/navreport.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 436,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								293,
+								293
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/var/www/html/bms/config.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1647,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1398,
+								1398
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 179.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 203,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								203,
+								203
+							]
+						],
+						"settings":
+						{
+							"auto_name": "sales and service combined invoice headers + lines",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1334,7 +1464,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 39.0
+		"height": 29.0
 	},
 	"input":
 	{
@@ -1362,7 +1492,7 @@
 			1.0
 		]
 	},
-	"menu_visible": true,
+	"menu_visible": false,
 	"output.CSS Extended Completions":
 	{
 		"height": 0.0
@@ -1379,7 +1509,7 @@
 	"project": "acmefg-bms.sublime-project",
 	"replace":
 	{
-		"height": 154.0
+		"height": 54.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1389,8 +1519,216 @@
 		"selected_items":
 		[
 			[
+				"confi",
+				"config.php"
+			],
+			[
+				"mapperaerorre",
+				"src/Mapper/Aeroreport/Request.php"
+			],
+			[
+				"controlleraerorepor",
+				"src/Controller/Aeroreport.php"
+			],
+			[
+				"routenavrepo",
+				"routes/navreport.php"
+			],
+			[
+				"navrepor",
+				"src/Controller/Navreport.php"
+			],
+			[
+				"factormapepr",
+				"src/Factory/Mapper.php"
+			],
+			[
+				"absmapper",
+				"src/AbstractMapper.php"
+			],
+			[
 				"",
-				"ui/login.bundle.css"
+				"config.php"
+			],
+			[
+				"confremo",
+				"config-remote.php"
+			],
+			[
+				"absrepor",
+				"src/AbstractRepository.php"
+			],
+			[
+				"servic",
+				"services.php"
+			],
+			[
+				"config",
+				"config.php"
+			],
+			[
+				"controlleraerrepo",
+				"src/Controller/Aeroreport.php"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"defini",
+				"sql/servicecalls/definition.sql"
+			],
+			[
+				"servcombun",
+				"ui/servicecalls/common.bundle.css"
+			],
+			[
+				"routeins",
+				"routes/install.php"
+			],
+			[
+				"modelacctime",
+				"src/Model/Servicecalls/AccessTime.php"
+			],
+			[
+				"controlservice",
+				"src/Controller/Servicecalls.php"
+			],
+			[
+				"modelacctim",
+				"src/Model/Servicecalls/AccessTime.php"
+			],
+			[
+				"bindtrai",
+				"src/Repository/BindUserTrait.php"
+			],
+			[
+				"reponoa",
+				"src/Repository/Servicecalls/NoAeromark.php"
+			],
+			[
+				"absrepos",
+				"src/AbstractRepository.php"
+			],
+			[
+				"routeinsta",
+				"routes/install.php"
+			],
+			[
+				"templaadminuser",
+				"template/admin/user.php"
+			],
+			[
+				"modelnoaer",
+				"src/Model/Servicecalls/NoAeromark.php"
+			],
+			[
+				"controlserv",
+				"src/Controller/Servicecalls.php"
+			],
+			[
+				"serdefini",
+				"sql/servicecalls/definition.sql"
+			],
+			[
+				"mapperactime",
+				"src/Mapper/Servicecalls/AccessTime.php"
+			],
+			[
+				"serdefi",
+				"sql/servicecalls/definition.sql"
+			],
+			[
+				"mapperacctime",
+				"src/Mapper/Servicecalls/AccessTime.php"
+			],
+			[
+				"reponoae",
+				"src/Repository/Servicecalls/NoAeromark.php"
+			],
+			[
+				"mapperaccestime",
+				"src/Mapper/Servicecalls/AccessTime.php"
+			],
+			[
+				"modelaccess",
+				"src/Model/Servicecalls/AccessTime.php"
+			],
+			[
+				"controlservi",
+				"src/Controller/Servicecalls.php"
+			],
+			[
+				"formnoea",
+				"template/servicecalls/form-no-aeromark.php"
+			],
+			[
+				"contacedit",
+				"template/crm/contact/edit.php"
+			],
+			[
+				"actimeow",
+				"ui/servicecalls/log-call/access-time-row.mst"
+			],
+			[
+				"commonbundles",
+				"ui/common.bundle.js"
+			],
+			[
+				"controlcrm/contac",
+				"src/Controller/Crm/Contact.php"
+			],
+			[
+				"controllercrm",
+				"src/Controller/Crm.php"
+			],
+			[
+				"formnoaero",
+				"template/servicecalls/form-no-aeromark.php"
+			],
+			[
+				"crmtaskcrea",
+				"template/crm/task/create.php"
+			],
+			[
+				"notepane",
+				"template/crm/notes-panel.php"
+			],
+			[
+				"noaebund",
+				"ui/servicecalls/log-call/no-aeromark.bundle.js"
+			],
+			[
+				"routeservice",
+				"routes/servicecalls.php"
+			],
+			[
+				"accrow",
+				"ui/servicecalls/log-call/access-time-row.mst"
+			],
+			[
+				"noaerobund",
+				"ui/servicecalls/log-call/no-aeromark.bundle.js"
+			],
+			[
+				"mapperacct",
+				"src/Mapper/Servicecalls/AccessTime.php"
+			],
+			[
+				"servidefi",
+				"sql/servicecalls/definition.sql"
+			],
+			[
+				"access",
+				"src/Model/Servicecalls/AccessTime.php"
+			],
+			[
+				"formnoa",
+				"template/servicecalls/form-no-aeromark.php"
 			],
 			[
 				"logincs",
@@ -1411,10 +1749,6 @@
 			[
 				"bundlecss",
 				"ui/login.bundle.css"
-			],
-			[
-				"inde",
-				"index.php"
 			],
 			[
 				"mapperreque",
@@ -1465,10 +1799,6 @@
 				"src/Controller/Aeroreport.php"
 			],
 			[
-				"config",
-				"config.php"
-			],
-			[
 				"controlleraerore",
 				"src/Controller/Aeroreport.php"
 			],
@@ -1495,10 +1825,6 @@
 			[
 				"routecrm",
 				"routes/crm.php"
-			],
-			[
-				"routeinsta",
-				"routes/install.php"
 			],
 			[
 				"routes",
@@ -1577,18 +1903,6 @@
 				"config-remote.php"
 			],
 			[
-				"servidefi",
-				"sql/servicecalls/definition.sql"
-			],
-			[
-				"controlservi",
-				"src/Controller/Servicecalls.php"
-			],
-			[
-				"routeins",
-				"routes/install.php"
-			],
-			[
 				"mapperappsat",
 				"src/Mapper/Appraisal/AppStatus.php"
 			],
@@ -1627,10 +1941,6 @@
 			[
 				"menubui",
 				"src/Service/MenuBuilder.php"
-			],
-			[
-				"confi",
-				"config.php"
 			],
 			[
 				"configremo",
@@ -1685,10 +1995,6 @@
 				"src/Middleware/AuthTesting.php"
 			],
 			[
-				"confremo",
-				"config-remote.php"
-			],
-			[
 				"gitig",
 				".gitignore"
 			],
@@ -1723,182 +2029,6 @@
 			[
 				"shared",
 				"template/dashboard-shared.php"
-			],
-			[
-				"contro",
-				"src/Controller.php"
-			],
-			[
-				"servi",
-				"services.php"
-			],
-			[
-				"serviappst",
-				"src/Service/Appraisal/AppStatus.php"
-			],
-			[
-				"routeapri",
-				"routes/appraisal.php"
-			],
-			[
-				"mapperenqui",
-				"src/Mapper/Crm/Enquiry.php"
-			],
-			[
-				"mapperlead",
-				"src/Mapper/Crm/Lead.php"
-			],
-			[
-				"repoenq",
-				"src/Repository/Crm/Enquiry.php"
-			],
-			[
-				"crmenquir",
-				"routes/crm/enquiry.php"
-			],
-			[
-				"servirepor",
-				"src/Service/Report.php"
-			],
-			[
-				"controlenqui",
-				"src/Controller/Crm/Enquiry.php"
-			],
-			[
-				"company",
-				"template/crm/company.php"
-			],
-			[
-				"enquir",
-				"template/crm/enquiry.php"
-			],
-			[
-				"creabundl",
-				"ui/crm/enquiry/create.bundle.js"
-			],
-			[
-				"modelenqui",
-				"src/Model/Crm/Enquiry.php"
-			],
-			[
-				"servrepor",
-				"src/Service/Report.php"
-			],
-			[
-				"controlenquir",
-				"src/Controller/Crm/Enquiry.php"
-			],
-			[
-				"cotnacedit",
-				"template/crm/contact/edit.php"
-			],
-			[
-				"companedit",
-				"template/crm/company/edit.php"
-			],
-			[
-				"controlenq",
-				"src/Controller/Crm/Enquiry.php"
-			],
-			[
-				"typeahein",
-				"ui/crm/typeahead-input.js"
-			],
-			[
-				"routecontac",
-				"routes/crm/contact.php"
-			],
-			[
-				"crmcombund",
-				"ui/crm/common.bundle.js"
-			],
-			[
-				"typeinpu",
-				"ui/crm/typeahead-input.js"
-			],
-			[
-				"enqcreate",
-				"template/crm/enquiry/create.php"
-			],
-			[
-				"notepa",
-				"template/crm/notes-panel.php"
-			],
-			[
-				"contac",
-				"template/crm/contact.php"
-			],
-			[
-				"controllerconta",
-				"src/Controller/Crm/Contact.php"
-			],
-			[
-				"controlcompan",
-				"src/Controller/Crm/Company.php"
-			],
-			[
-				"conta",
-				"template/crm/contact.php"
-			],
-			[
-				"controllerenq",
-				"src/Controller/Crm/Enquiry.php"
-			],
-			[
-				"creaenq",
-				"template/crm/contact/create-enquiry.php"
-			],
-			[
-				"controllercontact",
-				"src/Controller/Crm/Contact.php"
-			],
-			[
-				"enqcrea",
-				"template/crm/enquiry/create.php"
-			],
-			[
-				"controlconta",
-				"src/Controller/Crm/Contact.php"
-			],
-			[
-				"absmapper",
-				"src/AbstractMapper.php"
-			],
-			[
-				"servicerepor",
-				"src/Service/Report.php"
-			],
-			[
-				"compan",
-				"template/crm/company.php"
-			],
-			[
-				"mapperconta",
-				"src/Mapper/Crm/Contact.php"
-			],
-			[
-				"routecompan",
-				"routes/crm/company.php"
-			],
-			[
-				"routecompa",
-				"routes/crm/company.php"
-			],
-			[
-				"routeconta",
-				"routes/crm/contact.php"
-			],
-			[
-				"crmdefi",
-				"sql/crm/definition.sql"
-			],
-			[
-				"modelconta",
-				"src/Model/Crm/Contact.php"
-			],
-			[
-				"modelcom",
-				"src/Model/Crm/Company.php"
 			]
 		],
 		"width": 0.0
@@ -1906,16 +2036,20 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "nav",
 		"selected_items":
 		[
 			[
-				"core",
-				"/var/www/html/dotfiles/sublime-text-workspaces/core.sublime-workspace"
+				"nav",
+				"/var/www/html/dotfiles/sublime-text-workspaces/pentland-navreports.sublime-project"
 			],
 			[
 				"",
 				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-aeromarkreports.sublime-project"
+			],
+			[
+				"core",
+				"/var/www/html/dotfiles/sublime-text-workspaces/core.sublime-workspace"
 			],
 			[
 				"aero",
@@ -2040,10 +2174,6 @@
 			[
 				"corre",
 				"/var/www/html/dotfiles/sublime-text-workspaces/core.sublime-workspace"
-			],
-			[
-				"nav",
-				"/var/www/html/dotfiles/sublime-text-workspaces/pentland-navreports.sublime-project"
 			],
 			[
 				"aeror",
@@ -2219,7 +2349,7 @@
 	},
 	"show_minimap": false,
 	"show_open_files": false,
-	"show_tabs": false,
+	"show_tabs": true,
 	"side_bar_visible": false,
 	"side_bar_width": 253.0,
 	"status_bar_visible": false,

@@ -1,4 +1,6 @@
 {
+    "scroll_speed": 10.0,
+    "show_tab_close_buttons": false,
 	"always_show_minimap_viewport": true,
 	"auto_complete": true,
 	"auto_complete_with_fields": true,

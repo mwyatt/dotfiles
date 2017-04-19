@@ -1,5 +1,7 @@
 [
     { "keys": ["ctrl+alt+c"], "command": "copy_path" },
     { "keys": ["ctrl+alt+i"], "command": "reindent" },
-    { "keys": ["ctrl+."], "command": "new_snippet" }
+    { "keys": ["ctrl+alt+."], "command": "new_snippet" },
+    { "keys": ["ctrl+alt+w"], "command": "close_others" },
+    { "keys": ["ctrl+alt+shift+w"], "command": "close_to_right" }
 ]

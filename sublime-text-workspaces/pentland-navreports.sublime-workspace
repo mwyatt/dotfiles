@@ -527,6 +527,22 @@
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "/var/www/html/navreports/config-remote.php",
+			"settings":
+			{
+				"buffer_size": 404,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/navreports/config.php",
+			"settings":
+			{
+				"buffer_size": 399,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "",
@@ -536,10 +552,18 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 354.0,
-		"last_filter": "close",
+		"height": 121.0,
+		"last_filter": "mini",
 		"selected_items":
 		[
+			[
+				"mini",
+				"View: Toggle Minimap"
+			],
+			[
+				"stat",
+				"View: Toggle Status Bar"
+			],
 			[
 				"close",
 				"File: Close All"
@@ -609,7 +633,7 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 431.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -1026,7 +1050,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -1052,11 +1076,67 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
+						"translation.x": 632.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/var/www/html/navreports/config-remote.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 404,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								269,
+								401
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/var/www/html/navreports/config.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 399,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								280,
+								396
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1115,6 +1195,18 @@
 		"selected_items":
 		[
 			[
+				"confremo",
+				"config-remote.php"
+			],
+			[
+				"conf",
+				"config.php"
+			],
+			[
+				"config",
+				"config-remote.php"
+			],
+			[
 				"conreport",
 				"src/Controller/Report.php"
 			],
@@ -1125,14 +1217,6 @@
 			[
 				"dbsett",
 				"models/db2-settings.php"
-			],
-			[
-				"confremo",
-				"config-remote.php"
-			],
-			[
-				"config",
-				"models/config.php"
 			],
 			[
 				"index",
@@ -1621,10 +1705,6 @@
 			[
 				"middlecom",
 				"src/Middleware/Common.php"
-			],
-			[
-				"profile",
-				"template/user/profile.php"
 			]
 		],
 		"width": 0.0
@@ -1637,6 +1717,10 @@
 		[
 			[
 				"bms",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
+			],
+			[
+				"bm",
 				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
 			],
 			[
@@ -1871,12 +1955,12 @@
 	"settings":
 	{
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 253.0,
-	"status_bar_visible": true,
+	"status_bar_visible": false,
 	"template_settings":
 	{
 	}
