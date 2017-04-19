@@ -91,13 +91,6 @@
 	},
 	"buffers":
 	[
-		{
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -106,10 +99,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 354.0,
-		"last_filter": "menu",
+		"height": 79.0,
+		"last_filter": "mini",
 		"selected_items":
 		[
+			[
+				"mini",
+				"View: Toggle Minimap"
+			],
 			[
 				"menu",
 				"View: Toggle Menu"
@@ -139,7 +136,7 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 467.0
+		"width": 485.0
 	},
 	"console":
 	{
@@ -160,8 +157,7 @@
 	},
 	"expanded_folders":
 	[
-		"/var/www/html/sandbox",
-		"/var/www/html/sandbox/ftp-sync"
+		"/var/www/html/sandbox"
 	],
 	"file_history":
 	[
@@ -513,36 +509,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1116,9 +1084,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "store",
+		"last_filter": "core",
 		"selected_items":
 		[
+			[
+				"core",
+				"/var/www/html/dotfiles/sublime-text-workspaces/core.sublime-workspace"
+			],
 			[
 				"store",
 				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
@@ -1154,10 +1126,6 @@
 			[
 				"el",
 				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
-			],
-			[
-				"core",
-				"/var/www/html/setting/sublime-text-workspaces/core.sublime-workspace"
 			],
 			[
 				"port",
@@ -1203,10 +1171,10 @@
 	"settings":
 	{
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 269.0,
 	"status_bar_visible": false,
 	"template_settings":

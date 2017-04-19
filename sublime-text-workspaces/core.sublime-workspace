@@ -403,10 +403,22 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 354.0,
-		"last_filter": "close",
+		"height": 79.0,
+		"last_filter": "mini",
 		"selected_items":
 		[
+			[
+				"mini",
+				"View: Toggle Minimap"
+			],
+			[
+				"statusb",
+				"View: Toggle Status Bar"
+			],
+			[
+				"status",
+				"Indexing Status"
+			],
 			[
 				"close",
 				"File: Close All"
@@ -460,7 +472,7 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 449.0
+		"width": 485.0
 	},
 	"console":
 	{
@@ -1456,9 +1468,25 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "dia",
+		"last_filter": "elt",
 		"selected_items":
 		[
+			[
+				"elt",
+				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"",
+				"/var/www/html/dotfiles/sublime-text-workspaces/sandbox.sublime-workspace"
+			],
+			[
+				"codex",
+				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
+				"core",
+				"/var/www/html/dotfiles/sublime-text-workspaces/core.sublime-workspace"
+			],
 			[
 				"dia",
 				"/var/www/html/dotfiles/sublime-text-workspaces/dialogue.sublime-workspace"
@@ -1474,10 +1502,6 @@
 			[
 				"s",
 				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
-			],
-			[
-				"elt",
-				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
 			],
 			[
 				"e",
@@ -1496,20 +1520,12 @@
 				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
-				"",
-				"/var/www/html/dotfiles/sublime-text-workspaces/dialogue.sublime-workspace"
-			],
-			[
 				"sand",
 				"/var/www/html/dotfiles/sublime-text-workspaces/sandbox.sublime-workspace"
 			],
 			[
 				"stot",
 				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
-			],
-			[
-				"core",
-				"/var/www/html/dotfiles/sublime-text-workspaces/core.sublime-workspace"
 			],
 			[
 				"code",
@@ -1556,10 +1572,6 @@
 				"/var/www/html/setting/sublime-text-workspaces/url.sublime-workspace"
 			],
 			[
-				"codex",
-				"/var/www/html/sublime-workspace/codex.sublime-workspace"
-			],
-			[
 				"grid",
 				"/var/www/html/sublime-workspace/grid.sublime-workspace"
 			],
@@ -1603,12 +1615,12 @@
 	"settings":
 	{
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 253.0,
-	"status_bar_visible": true,
+	"status_bar_visible": false,
 	"template_settings":
 	{
 	}

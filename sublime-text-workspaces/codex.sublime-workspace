@@ -111,10 +111,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 220.0,
-		"last_filter": "",
+		"height": 79.0,
+		"last_filter": "mini",
 		"selected_items":
 		[
+			[
+				"mini",
+				"View: Toggle Minimap"
+			],
 			[
 				"menu",
 				"View: Toggle Menu"
@@ -144,7 +148,7 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 467.0
+		"width": 485.0
 	},
 	"console":
 	{
@@ -1095,9 +1099,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "core",
+		"last_filter": "apprai",
 		"selected_items":
 		[
+			[
+				"apprai",
+				"/var/www/html/dotfiles/sublime-text-workspaces/appraisal.sublime-project"
+			],
 			[
 				"core",
 				"/var/www/html/dotfiles/sublime-text-workspaces/core.sublime-workspace"
@@ -1238,10 +1246,10 @@
 	"settings":
 	{
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 269.0,
 	"status_bar_visible": false,
 	"template_settings":
