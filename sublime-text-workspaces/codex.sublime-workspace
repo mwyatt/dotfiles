@@ -185,22 +185,27 @@
 	],
 	"file_history":
 	[
-		"/var/www/html/codex/general.css",
-		"/var/www/html/codex/template/topic/easing.php",
+		"/var/www/html/codex/settings.css",
+		"/var/www/html/codex/table.css",
+		"/var/www/html/codex/typography.css",
+		"/var/www/html/codex/spinner.css",
+		"/var/www/html/codex/reusable.css",
+		"/var/www/html/codex/reset.css",
+		"/var/www/html/codex/portlet.css",
+		"/var/www/html/codex/link.css",
 		"/var/www/html/codex/keyframe.css",
 		"/var/www/html/codex/common.bundle.css",
+		"/var/www/html/codex/general.css",
+		"/var/www/html/codex/template/topic/easing.php",
 		"/var/www/html/codex/form.css",
 		"/var/www/html/codex/index.css",
 		"/var/www/html/codex/ease.css",
 		"/var/www/html/codex/button.css",
 		"/var/www/html/codex/template/home.php",
 		"/var/www/html/codex/template/topic/alert.php",
-		"/var/www/html/codex/settings.css",
 		"/var/www/html/codex/alert.css",
 		"/var/www/html/codex/bms-nav.css",
-		"/var/www/html/codex/reusable.css",
 		"/home/martin/.config/sublime-text-3/Packages/User/snippet/php/mw-php-varDump.sublime-snippet",
-		"/var/www/html/codex/typography.css",
 		"/var/www/html/codex/dist/index.html",
 		"/var/www/html/codex/template/topic/bms-menu.php",
 		"/var/www/html/codex/template/topic/button.php",
@@ -223,7 +228,6 @@
 		"/var/www/html/codex/css/spinner.css",
 		"/var/www/html/codex/css/link.css",
 		"/var/www/html/codex/css/typography.css",
-		"/var/www/html/codex/link.css",
 		"/var/www/html/codex/css/reset.css",
 		"/var/www/html/codex/css/table.css",
 		"/var/www/html/codex/css/general.css",
@@ -265,7 +269,6 @@
 		"/var/www/html/codex/common.css",
 		"/var/www/html/codex/mixin.css",
 		"/var/www/html/codex/utility/url.js",
-		"/var/www/html/codex/spinner.css",
 		"/var/www/html/codex/feedbackQueue.js",
 		"/var/www/html/codex/feedback-queue.css",
 		"/var/www/html/codex/template/mst/feedback/single.mst",
@@ -309,10 +312,7 @@
 		"/var/www/html/store/trunk/app/classes/frontend/modules/account.php",
 		"/var/www/html/store/trunk/app/classes/frontend/modules/product.php",
 		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/product/single.tpl",
-		"/var/www/html/store/trunk/sass/_reset.scss",
-		"/var/www/html/store/trunk/sass/page/warranty.scss",
-		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/page/warranty.tpl",
-		"/var/www/html/store/trunk/app/classes/frontend/modules/page/warranty.php"
+		"/var/www/html/store/trunk/sass/_reset.scss"
 	],
 	"find":
 	{
@@ -360,6 +360,16 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"rrem",
+			"em",
+			"px",
+			"26px",
+			"px",
+			"400px",
+			"px",
+			"5px",
+			"20px",
+			"10px",
 			"px",
 			"11px",
 			"6px",
@@ -477,17 +487,7 @@
 			"productIdSkus",
 			"idSkus",
 			"Occ",
-			"Occurence",
-			"Format",
-			"requestCreateShipment",
-			"Format",
-			"(),\n",
-			"orderId",
-			"things",
-			"$this->ch",
-			"UsernameToken",
-			"UsernameToken-",
-			"requestD1Ranges"
+			"Occurence"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -598,16 +598,52 @@
 		"selected_items":
 		[
 			[
+				"setting",
+				"settings.css"
+			],
+			[
+				"tabl",
+				"table.css"
+			],
+			[
+				"typo",
+				"typography.css"
+			],
+			[
+				"spinner",
+				"spinner.css"
+			],
+			[
+				"reus",
+				"reusable.css"
+			],
+			[
+				"rese",
+				"reset.css"
+			],
+			[
+				"por",
+				"portlet.css"
+			],
+			[
+				"ink",
+				"link.css"
+			],
+			[
+				"keyf",
+				"keyframe.css"
+			],
+			[
+				"combun",
+				"common.bundle.css"
+			],
+			[
 				"easing",
 				"template/topic/easing.php"
 			],
 			[
 				"gener",
 				"general.css"
-			],
-			[
-				"keyf",
-				"keyframe.css"
 			],
 			[
 				"comb",
@@ -666,14 +702,6 @@
 				"template/home.php"
 			],
 			[
-				"typo",
-				"typography.css"
-			],
-			[
-				"setting",
-				"settings.css"
-			],
-			[
 				"genera",
 				"general.css"
 			],
@@ -692,10 +720,6 @@
 			[
 				"ease",
 				"css/settings/ease.css"
-			],
-			[
-				"combun",
-				"css/common.bundle.css"
 			],
 			[
 				"index",
@@ -718,10 +742,6 @@
 				".gitignore"
 			],
 			[
-				"spinner",
-				"css/spinner.css"
-			],
-			[
 				"common",
 				"css/common.bundle.css"
 			],
@@ -738,20 +758,12 @@
 				"template/home.php"
 			],
 			[
-				"rese",
-				"css/reset.css"
-			],
-			[
 				"dep",
 				"bin/deploy.sh"
 			],
 			[
 				"form",
 				"css/form.css"
-			],
-			[
-				"reus",
-				"css/reusable.css"
 			],
 			[
 				"butt",
@@ -1096,18 +1108,6 @@
 			[
 				"owlcathem",
 				"node_modules/owl-carousel-2/assets/owl.theme.default.css"
-			],
-			[
-				"owlcarou",
-				"asset/vendor/owl-carousel/owl.carousel.css"
-			],
-			[
-				"prodsinglesc",
-				"sass/product-single.scss"
-			],
-			[
-				"commonsc",
-				"sass/common.scss"
 			]
 		],
 		"width": 0.0
@@ -1115,9 +1115,17 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "bms",
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
+			],
+			[
+				"code",
+				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"
+			],
 			[
 				"bms",
 				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
@@ -1125,10 +1133,6 @@
 			[
 				"core",
 				"/var/www/html/dotfiles/sublime-text-workspaces/core.sublime-workspace"
-			],
-			[
-				"",
-				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
 			],
 			[
 				"bm",
@@ -1193,10 +1197,6 @@
 			[
 				"stroe",
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
-			],
-			[
-				"code",
-				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
 			],
 			[
 				"codex",

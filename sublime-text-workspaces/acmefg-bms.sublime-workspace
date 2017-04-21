@@ -520,10 +520,26 @@
 	"buffers":
 	[
 		{
-			"file": "/var/www/html/bms/index.php",
+			"file": "/var/www/html/bms/routes/navreport.php",
 			"settings":
 			{
-				"buffer_size": 896,
+				"buffer_size": 436,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/bms/src/Controller/Navreport.php",
+			"settings":
+			{
+				"buffer_size": 1004,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/bms/src/Mapper/Navreport/Sales.php",
+			"settings":
+			{
+				"buffer_size": 1921,
 				"line_ending": "Unix"
 			}
 		}
@@ -829,6 +845,7 @@
 	],
 	"file_history":
 	[
+		"/var/www/html/bms/index.php",
 		"/home/martin/Downloads/public.txt",
 		"/var/www/html/bms/src/Controller/Aeroreport/Stock.php",
 		"/var/www/html/bms/src/Service/Report.php",
@@ -895,7 +912,6 @@
 		"/home/martin/.config/sublime-text-3/Packages/LaTeX/Snippets/Table.sublime-snippet",
 		"/home/martin/Downloads/navrepor_nav.sql",
 		"/var/www/html/bms/config-remote.php",
-		"/var/www/html/bms/index.php",
 		"/var/www/html/bms/sql/servicecalls/definition.sql",
 		"/var/www/html/bms/ui/servicecalls/common.bundle.css",
 		"/var/www/html/bms/src/Controller/Servicecalls.php",
@@ -1035,6 +1051,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"serviceInv",
 			"select class",
 			"col-md-6",
 			"form-group",
@@ -1161,8 +1178,7 @@
 			"adapterAeroreport",
 			"aeroreport",
 			"DatabaseAeroreport",
-			"aeroreport",
-			"status"
+			"aeroreport"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1258,24 +1274,80 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/var/www/html/bms/index.php",
+					"file": "/var/www/html/bms/routes/navreport.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 896,
+						"buffer_size": 436,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								436,
+								436
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 632.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/var/www/html/bms/src/Controller/Navreport.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1004,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								730,
+								730
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 632.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/var/www/html/bms/src/Mapper/Navreport/Sales.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1921,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								752,
+								762
 							]
 						],
 						"settings":
@@ -1283,7 +1355,7 @@
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 63.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1348,6 +1420,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"controlnavrepo",
+				"src/Controller/Navreport.php"
+			],
+			[
+				"routenavre",
+				"routes/navreport.php"
+			],
 			[
 				"in",
 				"index.php"
@@ -1851,14 +1931,6 @@
 			[
 				"controlaerore",
 				"src/Controller/Aeroreport.php"
-			],
-			[
-				"route",
-				"routes.php"
-			],
-			[
-				"routerepor",
-				"routes/aeroreport.php"
 			]
 		],
 		"width": 0.0
@@ -1866,15 +1938,15 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "cod",
+		"last_filter": "code",
 		"selected_items":
 		[
 			[
-				"cod",
+				"code",
 				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"
 			],
 			[
-				"code",
+				"cod",
 				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"
 			],
 			[
