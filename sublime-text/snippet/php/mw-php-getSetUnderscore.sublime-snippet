@@ -1,0 +1,25 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * @return ${3:[type]} ${4:[description]}
+ */
+public function get_${1/(.*)/$1/:[ Prop name ]}() {
+    return \$this->${1:[ Prop name ]};
+}
+
+
+/**
+ * @param ${3/(.*)/$1/:[type]} \$${1:[ Prop name ]} ${4/(.*)/$1/:[description]}
+ */
+public function set_${1/(.*)/$1/:[ Prop name ]}(\$${1/(.*)/$1/:[ Prop name ]}) {
+    \$this->${1:[Prop name ]} = \$${1/(.*)/$1/:[ Prop name ]};
+    return \$this;
+}
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>php-getset-underscore</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.php</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Create getter and setter methods</description>
+</snippet>

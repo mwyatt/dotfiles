@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+.${1:selector} \{
+    ${2:content}
+\}
+]]></content>
+    <tabTrigger>.</tabTrigger>
+    <scope>source.css</scope>
+</snippet>

@@ -299,6 +299,30 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/var/www/html/elttl/src/Mapper/Options.php",
+			"settings":
+			{
+				"buffer_size": 630,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/elttl/sql/definition.sql",
+			"settings":
+			{
+				"buffer_size": 12543,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/elttl/services.php",
+			"settings":
+			{
+				"buffer_size": 2831,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -538,7 +562,7 @@
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 37.0
 	},
 	"find_in_files":
 	{
@@ -576,6 +600,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"ALTER",
+			"options",
 			"\\",
 			"name",
 			"deleteByYearIdIds",
@@ -701,9 +727,7 @@
 			"uasort",
 			"fixtures",
 			"findByYearIdTeamIdLeftOrTeamIdRight",
-			"findFulfilledByYearIdTeamIdLeftOrTeamIdRight",
-			"findByYearIdTeamIdLeftOrTeamIdRight",
-			")\n"
+			"findFulfilledByYearIdTeamIdLeftOrTeamIdRight"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -815,8 +839,93 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/var/www/html/elttl/src/Mapper/Options.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 630,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								630,
+								630
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 632.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/var/www/html/elttl/sql/definition.sql",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12543,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5864,
+								5864
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SQL/SQL.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3058.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/var/www/html/elttl/services.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2831,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								815,
+								1018
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 63.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -872,6 +981,18 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"servi",
+				"services.php"
+			],
+			[
+				"defi",
+				"sql/definition.sql"
+			],
+			[
+				"mapperopt",
+				"src/Mapper/Options.php"
+			],
 			[
 				"controlteam",
 				"src/Controller/Admin/Team.php"
@@ -955,10 +1076,6 @@
 			[
 				"controladminplay",
 				"src/Controller/Admin/Player.php"
-			],
-			[
-				"servi",
-				"services.php"
 			],
 			[
 				"controlresult",
@@ -1375,14 +1492,6 @@
 			[
 				"repofixur",
 				"src/Repository/Fixture.php"
-			],
-			[
-				"slug",
-				"js/admin/utility/slug.js"
-			],
-			[
-				"repocontent",
-				"src/Repository/Content.php"
 			]
 		],
 		"width": 0.0
@@ -1390,9 +1499,21 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "el",
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
+			],
+			[
+				"app",
+				"/var/www/html/dotfiles/sublime-text-workspaces/appraisal.sublime-project"
+			],
+			[
+				"bm",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
+			],
 			[
 				"el",
 				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
@@ -1402,20 +1523,12 @@
 				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"
 			],
 			[
-				"",
-				"/var/www/html/dotfiles/sublime-text-workspaces/core.sublime-workspace"
-			],
-			[
 				"core",
 				"/var/www/html/dotfiles/sublime-text-workspaces/core.sublime-workspace"
 			],
 			[
 				"brand",
 				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-brand-guidelines.sublime-project"
-			],
-			[
-				"app",
-				"/var/www/html/dotfiles/sublime-text-workspaces/appraisal.sublime-project"
 			],
 			[
 				"store",

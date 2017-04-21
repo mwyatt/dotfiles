@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+\$this->redirect(${1:routeId}${2:, ${3:[key => value]}});${4}
+]]></content>
+    <tabTrigger>controller-redirect</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

@@ -5,7 +5,7 @@
 		[
 			[
 				"col",
-				"color"
+				"col-sm-6"
 			],
 			[
 				"colo",
@@ -111,10 +111,26 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 220.0,
-		"last_filter": "",
+		"height": 226.0,
+		"last_filter": "save",
 		"selected_items":
 		[
+			[
+				"save",
+				"File: Save All"
+			],
+			[
+				"sa",
+				"File: Save All"
+			],
+			[
+				"savea",
+				"File: Save All"
+			],
+			[
+				"min",
+				"View: Toggle Minimap"
+			],
 			[
 				"menu",
 				"View: Toggle Menu"
@@ -144,7 +160,7 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 467.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -169,11 +185,37 @@
 	],
 	"file_history":
 	[
+		"/var/www/html/codex/general.css",
+		"/var/www/html/codex/template/topic/easing.php",
+		"/var/www/html/codex/keyframe.css",
+		"/var/www/html/codex/common.bundle.css",
+		"/var/www/html/codex/form.css",
+		"/var/www/html/codex/index.css",
+		"/var/www/html/codex/ease.css",
+		"/var/www/html/codex/button.css",
+		"/var/www/html/codex/template/home.php",
+		"/var/www/html/codex/template/topic/alert.php",
+		"/var/www/html/codex/settings.css",
+		"/var/www/html/codex/alert.css",
+		"/var/www/html/codex/bms-nav.css",
+		"/var/www/html/codex/reusable.css",
+		"/home/martin/.config/sublime-text-3/Packages/User/snippet/php/mw-php-varDump.sublime-snippet",
+		"/var/www/html/codex/typography.css",
+		"/var/www/html/codex/dist/index.html",
+		"/var/www/html/codex/template/topic/bms-menu.php",
+		"/var/www/html/codex/template/topic/button.php",
+		"/var/www/html/codex/template/topic/form.php",
+		"/var/www/html/codex/template/topic/grid.php",
+		"/var/www/html/codex/template/topic/portlet.php",
+		"/var/www/html/codex/template/topic/reset.php",
+		"/var/www/html/codex/template/topic/typography.php",
+		"/var/www/html/codex/gulpfile.js",
+		"/var/www/html/codex/template/bms-menu.php",
+		"/var/www/html/codex/index.php",
+		"/var/www/html/codex/package.json",
 		"/var/www/html/codex/css/settings/ease.css",
 		"/var/www/html/codex/css/common.bundle.css",
 		"/var/www/html/codex/deployment.ini",
-		"/var/www/html/codex/index.php",
-		"/var/www/html/codex/gulpfile.js",
 		"/var/www/html/codex/.gitignore",
 		"/var/www/html/codex/dist/common.bundle.js",
 		"/var/www/html/codex/composer.json",
@@ -181,10 +223,8 @@
 		"/var/www/html/codex/css/spinner.css",
 		"/var/www/html/codex/css/link.css",
 		"/var/www/html/codex/css/typography.css",
-		"/var/www/html/codex/template/home.php",
 		"/var/www/html/codex/link.css",
 		"/var/www/html/codex/css/reset.css",
-		"/var/www/html/codex/index.css",
 		"/var/www/html/codex/css/table.css",
 		"/var/www/html/codex/css/general.css",
 		"/var/www/html/codex/css/easing.css",
@@ -195,17 +235,12 @@
 		"/var/www/html/codex/css/button.css",
 		"/var/www/html/codex/css/reusable.css",
 		"/var/www/html/codex/template/index.php",
-		"/var/www/html/codex/settings.css",
 		"/var/www/html/codex/css/keyframe.css",
-		"/var/www/html/codex/package.json",
-		"/var/www/html/codex/keyframe.css",
 		"/var/www/html/codex/js/keyCode.js",
 		"/var/www/html/codex/bin/deploy",
 		"/var/www/html/codex/README.md",
 		"/var/www/html/codex/js/common.bundle.js",
 		"/var/www/html/codex/js/scrollTop.js",
-		"/var/www/html/codex/reusable.css",
-		"/var/www/html/codex/dist/index.html",
 		"/var/www/html/codex/bin/git-gh-deploy",
 		"/var/www/html/codex/asset/common.bundle.css",
 		"/var/www/html/codex/gulp/.csscomb.json",
@@ -277,36 +312,18 @@
 		"/var/www/html/store/trunk/sass/_reset.scss",
 		"/var/www/html/store/trunk/sass/page/warranty.scss",
 		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/page/warranty.tpl",
-		"/var/www/html/store/trunk/app/classes/frontend/modules/page/warranty.php",
-		"/var/www/html/store/trunk/js/admin/product/single.js",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/products/create-update.tpl",
-		"/var/www/html/store/trunk/sass/admin/_media-browser.scss",
-		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/mediabrowser.php",
-		"/var/www/html/store/trunk/package.json",
-		"/var/www/html/store/trunk/image/avo/logo.svg",
-		"/var/www/html/store/trunk/asset/logo.svg",
-		"/var/www/html/store/trunk/js/admin/mediaBrowser/mustacheTemplates.js",
-		"/var/www/html/store/trunk/app/classes/common/media.php",
-		"/var/www/html/store/trunk/sass/admin/common.scss",
-		"/var/www/html/store/trunk/sass/admin/vendor/_zebra-datepicker.scss",
-		"/var/www/html/store/trunk/sass/admin/vendor/_ui.jqgrid.scss",
-		"/var/www/html/store/trunk/sass/admin/vendor/mwyatt/grid.scss",
-		"/var/www/html/store/trunk/sass/_grid.scss",
-		"/var/www/html/store/trunk/js/admin/misc.js",
-		"/var/www/html/store/trunk/app/classes/frontend/modules/media.php",
-		"/var/www/html/store/trunk/index.php",
-		"/var/www/html/store/trunk/sass/_form.scss",
-		"/var/www/html/store/trunk/sass/admin/order/_email-authorised.scss"
+		"/var/www/html/store/trunk/app/classes/frontend/modules/page/warranty.php"
 	],
 	"find":
 	{
-		"height": 70.0
+		"height": 37.0
 	},
 	"find_in_files":
 	{
 		"height": 158.0,
 		"where_history":
 		[
+			"-node_modules/, -asset/, ",
 			"-node_modules/, -asset/, css/",
 			"-node_modules/, -asset/, ",
 			"-node_modules/, -asset/, css/",
@@ -343,6 +360,27 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"px",
+			"11px",
+			"6px",
+			"px",
+			"50px",
+			"px",
+			"site-heading-menu-link",
+			"px",
+			"10px",
+			"px",
+			"em",
+			"px",
+			"em",
+			"heading-color",
+			"\"topic-heading h3\"",
+			"\"topic-heading h2\"",
+			"\"topic-heading\"",
+			"sm",
+			"col-sm-3",
+			"col-sm-6",
+			"topic-heading",
 			"/.deployment",
 			"deployment",
 			"default",
@@ -449,28 +487,7 @@
 			"$this->ch",
 			"UsernameToken",
 			"UsernameToken-",
-			"requestD1Ranges",
-			"Offering",
-			"creationDate",
-			"data",
-			"data\n",
-			"orderTrackingWeight",
-			"response",
-			"shippingCompany",
-			"<wsse:UsernameToken wsu:Id=\"UsernameToken-0000\">",
-			"xmlns:wsse=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd",
-			"transactionId",
-			"applicationId",
-			"creationDate",
-			"orderTrackingWeight",
-			"orderTrackingBoxes",
-			"requestD1Ranges",
-			"requestD1Ranges\n",
-			"orderTrackingBoxes",
-			"transactionId",
-			"local_cert",
-			"https://api.royalmail.com/shipping/onboarding",
-			"location"
+			"requestD1Ranges"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -478,6 +495,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"\"topic-heading h2\"",
+			"\"topic-heading h3\"",
+			"\"topic-heading h2\"",
 			"require('mwyatt-codex/",
 			"require('mwyatt-dialogue'",
 			"return false; // should not run, return needed to be removed",
@@ -578,6 +598,98 @@
 		"selected_items":
 		[
 			[
+				"easing",
+				"template/topic/easing.php"
+			],
+			[
+				"gener",
+				"general.css"
+			],
+			[
+				"keyf",
+				"keyframe.css"
+			],
+			[
+				"comb",
+				"common.bundle.css"
+			],
+			[
+				"inde",
+				"index.css"
+			],
+			[
+				"gne",
+				"general.css"
+			],
+			[
+				"formcs",
+				"form.css"
+			],
+			[
+				"eas",
+				"ease.css"
+			],
+			[
+				"combunc",
+				"common.bundle.css"
+			],
+			[
+				"but",
+				"button.css"
+			],
+			[
+				"",
+				"alert.css"
+			],
+			[
+				"bmna",
+				"bms-nav.css"
+			],
+			[
+				"alercs",
+				"alert.css"
+			],
+			[
+				"reusa",
+				"reusable.css"
+			],
+			[
+				"sett",
+				"settings.css"
+			],
+			[
+				"aler",
+				"template/topic/alert.php"
+			],
+			[
+				"home",
+				"template/home.php"
+			],
+			[
+				"typo",
+				"typography.css"
+			],
+			[
+				"setting",
+				"settings.css"
+			],
+			[
+				"genera",
+				"general.css"
+			],
+			[
+				"combuncs",
+				"common.bundle.css"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
 				"ease",
 				"css/settings/ease.css"
 			],
@@ -588,10 +700,6 @@
 			[
 				"index",
 				"index.php"
-			],
-			[
-				"gulp",
-				"gulpfile.js"
 			],
 			[
 				"composer",
@@ -634,14 +742,6 @@
 				"css/reset.css"
 			],
 			[
-				"home",
-				"template/home.php"
-			],
-			[
-				"eas",
-				"css/settings/ease.css"
-			],
-			[
 				"dep",
 				"bin/deploy.sh"
 			],
@@ -656,18 +756,6 @@
 			[
 				"butt",
 				"css/button.css"
-			],
-			[
-				"",
-				"template/home.php"
-			],
-			[
-				"sett",
-				"css/settings.css"
-			],
-			[
-				"setting",
-				"css/settings.css"
 			],
 			[
 				"gene",
@@ -698,10 +786,6 @@
 				"css/keyframe.css"
 			],
 			[
-				"keyf",
-				"keyframe.css"
-			],
-			[
 				"formc",
 				"css/form.css"
 			],
@@ -726,20 +810,12 @@
 				"js/keyCode.js"
 			],
 			[
-				"reusa",
-				"css/reusable.css"
-			],
-			[
 				"ty",
 				"css/typography.css"
 			],
 			[
 				"keyfra",
 				"keyframe.css"
-			],
-			[
-				"typo",
-				"css/typography.css"
 			],
 			[
 				"de",
@@ -758,24 +834,12 @@
 				"css/keyframe.css"
 			],
 			[
-				"pack",
-				"package.json"
-			],
-			[
-				"gener",
-				"css/general.css"
-			],
-			[
 				"readme",
 				"README.md"
 			],
 			[
 				"indx",
 				"index.php"
-			],
-			[
-				"genera",
-				"css/general.css"
 			],
 			[
 				"scrolltop",
@@ -808,14 +872,6 @@
 			[
 				"gi",
 				"bin/git-gh-deploy"
-			],
-			[
-				"formcs",
-				"css/form.css"
-			],
-			[
-				"inde",
-				"index.css"
 			],
 			[
 				"reset",
@@ -1052,42 +1108,6 @@
 			[
 				"commonsc",
 				"sass/common.scss"
-			],
-			[
-				"accountoffer.tpl",
-				"app/skin/custom/admin/modules/account/offer/single.tpl"
-			],
-			[
-				"frontcommoncontentpro",
-				"app/skin/custom/frontend/common/_contents-products.tpl"
-			],
-			[
-				"frontmodcheckout",
-				"app/classes/frontend/modules/checkout.php"
-			],
-			[
-				"checkoutsingle",
-				"app/skin/custom/frontend/modules/checkout/single.tpl"
-			],
-			[
-				"checkoutphp",
-				"app/classes/frontend/modules/checkout.php"
-			],
-			[
-				"frontmodcheck",
-				"app/classes/frontend/modules/checkout.php"
-			],
-			[
-				"checkdropadd",
-				"mustache/checkout/drop-address.mst"
-			],
-			[
-				"frontmodcreacc",
-				"app/classes/frontend/modules/createaccount.php"
-			],
-			[
-				"frontmodacc",
-				"app/classes/frontend/modules/account.php"
 			]
 		],
 		"width": 0.0
@@ -1095,16 +1115,24 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "core",
+		"last_filter": "bms",
 		"selected_items":
 		[
+			[
+				"bms",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
+			],
 			[
 				"core",
 				"/var/www/html/dotfiles/sublime-text-workspaces/core.sublime-workspace"
 			],
 			[
 				"",
-				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
+			],
+			[
+				"bm",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
 			],
 			[
 				"store",
@@ -1238,10 +1266,10 @@
 	"settings":
 	{
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 269.0,
 	"status_bar_visible": false,
 	"template_settings":

@@ -4,8 +4,16 @@
 		"selected_items":
 		[
 			[
+				"ass",
+				"assertTrue"
+			],
+			[
+				"user",
+				"users"
+			],
+			[
 				"pv",
-				"pv\tmw-php-varDump"
+				"pv\tmw-php-printPre"
 			],
 			[
 				"cont",
@@ -403,10 +411,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 354.0,
-		"last_filter": "close",
+		"height": 121.0,
+		"last_filter": "mini",
 		"selected_items":
 		[
+			[
+				"mini",
+				"View: Toggle Minimap"
+			],
 			[
 				"close",
 				"File: Close All"
@@ -460,7 +472,7 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 449.0
+		"width": 485.0
 	},
 	"console":
 	{
@@ -486,6 +498,10 @@
 	],
 	"file_history":
 	[
+		"/var/www/html/core/src/AbstractMapper.php",
+		"/var/www/html/core/src/AbstractRepository.php",
+		"/var/www/html/core/test/MapperTest.php",
+		"/home/martin/.config/sublime-text-3/Packages/User/snippet/php/mw-php-printPre.sublime-snippet",
 		"/var/www/html/core/test/RepositoryTest.php",
 		"/var/www/html/core/src/Database/Pdo.php",
 		"/var/www/html/core/src/Url.php",
@@ -495,7 +511,6 @@
 		"/var/www/html/core/.travis.yml",
 		"/var/www/html/core/logo.svgz",
 		"/var/www/html/core/phpunit.xml",
-		"/var/www/html/core/src/AbstractMapper.php",
 		"/var/www/html/core/src/Http/Kernel.php",
 		"/var/www/html/core/test/KernelTest.php",
 		"/var/www/html/core/test/CacheTest.php",
@@ -506,7 +521,6 @@
 		"/var/www/html/core/test-data.sql",
 		"/var/www/html/core/.gitignore",
 		"/var/www/html/core/src/Cache.php",
-		"/var/www/html/core/test/MapperTest.php",
 		"/var/www/html/core/config-sample.php",
 		"/var/www/html/core/src/Iterator/Model.php",
 		"/var/www/html/core/definition.sql",
@@ -551,7 +565,6 @@
 		"/var/www/html/core/src/Mapper/User.php",
 		"/var/www/html/core/src/Repository/User.php",
 		"/var/www/html/core/src/AbstractIterator.php",
-		"/var/www/html/core/src/AbstractRepository.php",
 		"/var/www/html/core/src/Http/KernelInterface.php",
 		"/var/www/html/core/src/Middleware/Common.php",
 		"/var/www/html/core/src/Middleware/Admin.php",
@@ -612,12 +625,11 @@
 		"/var/www/html/core/src/HelperInterface.php",
 		"/var/www/html/core/src/Database.php",
 		"/var/www/html/core/src/DataInterface.php",
-		"/var/www/html/core/src/Model/Pagination.php",
-		"/var/www/html/core/src/Model/LogInterface.php"
+		"/var/www/html/core/src/Model/Pagination.php"
 	],
 	"find":
 	{
-		"height": 70.0
+		"height": 37.0
 	},
 	"find_in_files":
 	{
@@ -687,6 +699,11 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"$this->getTableNameLazy()",
+			"'Billy'",
+			"models",
+			"$adapter",
+			"adapter",
 			"Database",
 			"Config",
 			"config",
@@ -809,12 +826,7 @@
 			"->getIterator",
 			"testDelete",
 			"public function set",
-			"Not/There",
-			"template",
-			"$this->getService('",
-			"getService",
-			"$this->view",
-			"$this"
+			"Not/There"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -939,6 +951,22 @@
 		"selected_items":
 		[
 			[
+				"absmapper",
+				"src/AbstractMapper.php"
+			],
+			[
+				"",
+				"src/AbstractRepository.php"
+			],
+			[
+				"absrepos",
+				"src/AbstractRepository.php"
+			],
+			[
+				"mappertes",
+				"test/MapperTest.php"
+			],
+			[
 				"testrepos",
 				"test/RepositoryTest.php"
 			],
@@ -961,10 +989,6 @@
 			[
 				"yml",
 				".travis.yml"
-			],
-			[
-				"absmapper",
-				"src/AbstractMapper.php"
 			],
 			[
 				"kernel",
@@ -1009,10 +1033,6 @@
 			[
 				"cache",
 				"src/Cache.php"
-			],
-			[
-				"",
-				"test/RepositoryTest.php"
 			],
 			[
 				"itermodel",
@@ -1221,10 +1241,6 @@
 			[
 				"mapperuser",
 				"src/Mapper/User.php"
-			],
-			[
-				"mappertes",
-				"test/MapperTest.php"
 			],
 			[
 				"modelte",
@@ -1445,10 +1461,6 @@
 			[
 				"ercss",
 				"/var/www/html/core/asset/error.css"
-			],
-			[
-				"viewinter",
-				"src/ViewInterface.php"
 			]
 		],
 		"width": 0.0
@@ -1456,9 +1468,21 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "dia",
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
+				"bms",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
+			],
+			[
+				"bm",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
+			],
 			[
 				"dia",
 				"/var/www/html/dotfiles/sublime-text-workspaces/dialogue.sublime-workspace"
@@ -1494,10 +1518,6 @@
 			[
 				"stoe",
 				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
-			],
-			[
-				"",
-				"/var/www/html/dotfiles/sublime-text-workspaces/dialogue.sublime-workspace"
 			],
 			[
 				"sand",
@@ -1603,10 +1623,10 @@
 	"settings":
 	{
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 253.0,
 	"status_bar_visible": true,
 	"template_settings":

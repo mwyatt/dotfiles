@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+@media only screen and (${1:[min, max-width]}) {
+    ${2}
+}${3}
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>media-screen</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.css</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Media query screen</description>
+</snippet>
