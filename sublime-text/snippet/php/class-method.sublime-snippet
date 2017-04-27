@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:${2:public} }function ${3:name}(${4})
+{
+    ${5}
+}
+${6}
+]]></content>
+    <tabTrigger>class-method</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

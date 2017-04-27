@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 echo '<pre>';
-echo print_r(${1:variable});
+print_r(${1:variable});
 echo '</pre>';
 ${2:exit;}
 ${3}

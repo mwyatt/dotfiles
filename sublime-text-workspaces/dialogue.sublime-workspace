@@ -99,6 +99,38 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/var/www/html/dialogue/gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 3378,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/var/www/html/dialogue/index.css",
+			"settings":
+			{
+				"buffer_size": 27,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/dialogue/css/default.css",
+			"settings":
+			{
+				"buffer_size": 3083,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/dialogue/package.json",
+			"settings":
+			{
+				"buffer_size": 1378,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -107,10 +139,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 354.0,
-		"last_filter": "open",
+		"height": 121.0,
+		"last_filter": "mini",
 		"selected_items":
 		[
+			[
+				"mini",
+				"View: Toggle Minimap"
+			],
 			[
 				"open",
 				"View: Toggle Open Files in Side Bar"
@@ -160,7 +196,7 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 467.0
+		"width": 485.0
 	},
 	"console":
 	{
@@ -185,6 +221,7 @@
 	],
 	"file_history":
 	[
+		"/var/www/html/dialogue/css/common.bundle.css",
 		"/var/www/html/dialogue/js/dialogue.js",
 		"/var/www/html/dialogue/bin/deploy.sh",
 		"/var/www/html/dialogue/.travis.yml",
@@ -192,7 +229,6 @@
 		"/var/www/html/dialogue/index.php",
 		"/var/www/html/dialogue/css/default.css",
 		"/var/www/html/dialogue/gulpfile.js",
-		"/var/www/html/dialogue/css/common.bundle.css",
 		"/var/www/html/dialogue/js/test.js",
 		"/var/www/html/dialogue/bin/browserify",
 		"/var/www/html/dialogue/npm-shrinkwrap.json",
@@ -316,7 +352,7 @@
 	],
 	"find":
 	{
-		"height": 70.0
+		"height": 37.0
 	},
 	"find_in_files":
 	{
@@ -523,8 +559,121 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/var/www/html/dialogue/gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3378,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1940,
+								1940
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1087.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/var/www/html/dialogue/index.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 27,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 216.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/var/www/html/dialogue/css/default.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3083,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3083,
+								3083
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2363.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/var/www/html/dialogue/package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1378,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 520.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -581,6 +730,22 @@
 		"selected_items":
 		[
 			[
+				".css",
+				"css/common.bundle.css"
+			],
+			[
+				"defau",
+				"css/default.css"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"gul",
+				"gulpfile.js"
+			],
+			[
 				"dialog",
 				"js/dialogue.js"
 			],
@@ -605,10 +770,6 @@
 				"gulpfile.js"
 			],
 			[
-				"defau",
-				"css/default.css"
-			],
-			[
 				"common",
 				"css/common.bundle.css"
 			],
@@ -623,10 +784,6 @@
 			[
 				"npmshi",
 				"npm-shrinkwrap.json"
-			],
-			[
-				"packa",
-				"package.json"
 			],
 			[
 				"npmde",
@@ -795,10 +952,6 @@
 			[
 				"pack",
 				"package.json"
-			],
-			[
-				".css",
-				"css/default.css"
 			],
 			[
 				"indejs",
@@ -1087,10 +1240,6 @@
 			[
 				"jquerui/jqu",
 				"trunk/node_modules/jquery-ui/jquery-ui.js"
-			],
-			[
-				"sassrese",
-				"trunk/sass/_reset.scss"
 			]
 		],
 		"width": 0.0
@@ -1098,12 +1247,16 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "code",
 		"selected_items":
 		[
 			[
+				"code",
+				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
 				"",
-				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
+				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"
 			],
 			[
 				"sto",
@@ -1124,10 +1277,6 @@
 			[
 				"store",
 				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
-			],
-			[
-				"code",
-				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"
 			],
 			[
 				"co",
@@ -1217,10 +1366,10 @@
 	"settings":
 	{
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 150.0,
 	"status_bar_visible": true,
 	"template_settings":

@@ -1468,9 +1468,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "code",
 		"selected_items":
 		[
+			[
+				"code",
+				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"
+			],
 			[
 				"",
 				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"
@@ -1530,10 +1534,6 @@
 			[
 				"core",
 				"/var/www/html/dotfiles/sublime-text-workspaces/core.sublime-workspace"
-			],
-			[
-				"code",
-				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"
 			],
 			[
 				"port",

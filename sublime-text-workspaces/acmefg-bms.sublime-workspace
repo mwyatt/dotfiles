@@ -4,16 +4,156 @@
 		"selected_items":
 		[
 			[
+				"op",
+				"opacity"
+			],
+			[
+				"animation",
+				"animation-fill-mode"
+			],
+			[
+				"animation-",
+				"animation-play-state"
+			],
+			[
+				"anima",
+				"animation-direction"
+			],
+			[
+				"blood",
+				"Bloodhound"
+			],
+			[
+				"req",
+				"require\tmw-js-require"
+			],
+			[
+				"portle",
+				"portlet-body-padded"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"color",
+				"color-primary-0"
+			],
+			[
+				"menupri",
+				"menu-primary-level3"
+			],
+			[
+				"menu-primar",
+				"menu-primary-level1"
+			],
+			[
+				"cxd",
+				"cx-drop-menu-item"
+			],
+			[
+				"led",
+				"ledgers"
+			],
+			[
+				"cx",
+				"cx-drop-menu-item"
+			],
+			[
+				"yea",
+				"year"
+			],
+			[
+				"resu",
+				"result"
+			],
+			[
+				"itemno",
+				"itemNos"
+			],
+			[
+				"for",
+				"for\tfor"
+			],
+			[
+				"ca",
+				"category"
+			],
+			[
+				"joi",
+				"JOIN"
+			],
+			[
+				"warede",
+				"warehouseDescription"
+			],
+			[
+				"fe",
+				"fetch"
+			],
+			[
+				"ro",
+				"rows"
+			],
+			[
+				"waredes",
+				"warehouseDescription"
+			],
+			[
+				"cac",
+				"categoryCode"
+			],
+			[
+				"close",
+				"closest\t.closest()"
+			],
+			[
+				"thr",
+				"throw\tmw-php-throw"
+			],
+			[
+				"cate",
+				"category"
+			],
+			[
+				"year",
+				"years"
+			],
+			[
+				"catego",
+				"categoriesKeyValue"
+			],
+			[
+				"categ",
+				"category"
+			],
+			[
+				"res",
+				"results"
+			],
+			[
+				"loca",
+				"locations"
+			],
+			[
+				"da",
+				"dates"
+			],
+			[
+				"dat",
+				"dates"
+			],
+			[
+				"dea",
+				"department"
+			],
+			[
 				"catco",
 				"categoryCode"
 			],
 			[
 				"opt",
 				"option\tTag"
-			],
-			[
-				"waredes",
-				"warehouseDescriptions"
 			],
 			[
 				"codes",
@@ -42,10 +182,6 @@
 			[
 				"sa",
 				"s-alter-modify\tsql-alter-modify"
-			],
-			[
-				"res",
-				"results"
 			],
 			[
 				"rsu",
@@ -192,10 +328,6 @@
 				"Profile"
 			],
 			[
-				"color",
-				"color-rendering"
-			],
-			[
 				"cuname",
 				"customer_Name"
 			],
@@ -258,10 +390,6 @@
 			[
 				"con",
 				"contact"
-			],
-			[
-				"portle",
-				"portlet-body"
 			],
 			[
 				"li",
@@ -372,10 +500,6 @@
 				"selected"
 			],
 			[
-				"req",
-				"request"
-			],
-			[
 				"sendc",
 				"send_confirmation"
 			],
@@ -390,156 +514,44 @@
 			[
 				"itera",
 				"IteratorFactory"
-			],
-			[
-				"mar",
-				"margin"
-			],
-			[
-				"user",
-				"userAction"
-			],
-			[
-				"usera",
-				"userActions"
-			],
-			[
-				"strip",
-				"stripos"
-			],
-			[
-				"contrposi",
-				"contactRepository"
-			],
-			[
-				"model",
-				"modelClassName"
-			],
-			[
-				"mode",
-				"models"
-			],
-			[
-				"cona",
-				"contacts"
-			],
-			[
-				"modid",
-				"modelId"
-			],
-			[
-				"statu",
-				"statuss"
-			],
-			[
-				"getstatus",
-				"getStatusLead"
-			],
-			[
-				"comp",
-				"companyPhone"
-			],
-			[
-				"usas",
-				"userAssigned"
-			],
-			[
-				"userAssig",
-				"userAssigned"
-			],
-			[
-				"depart",
-				"department"
-			],
-			[
-				"depat",
-				"departmentId"
-			],
-			[
-				"depa",
-				"departments"
-			],
-			[
-				"department",
-				"department"
-			],
-			[
-				"usermet",
-				"userMeta"
-			],
-			[
-				"cgr",
-				"controller-get-repository\tmw-php-controller-get-repository"
-			],
-			[
-				"usna",
-				"userNames"
-			],
-			[
-				"displa",
-				"display_name"
-			],
-			[
-				"enquiei",
-				"enquiries"
-			],
-			[
-				"findbid",
-				"findByIds"
-			],
-			[
-				"armer",
-				"array_merge"
-			],
-			[
-				"userme",
-				"UserMeta"
-			],
-			[
-				"viewSer",
-				"viewService"
-			],
-			[
-				"repos",
-				"reportService"
-			],
-			[
-				"deparid",
-				"departmentIds"
-			],
-			[
-				"deps",
-				"departments"
-			],
-			[
-				"depam",
-				"departments"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "/var/www/html/bms/routes/navreport.php",
+			"file": "/var/www/html/bms/ui/label.css",
 			"settings":
 			{
-				"buffer_size": 436,
+				"buffer_size": 297,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/var/www/html/bms/src/Controller/Navreport.php",
+			"file": "/var/www/html/bms/ui/head/menu-primary.css",
 			"settings":
 			{
-				"buffer_size": 1004,
+				"buffer_size": 3601,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/var/www/html/bms/src/Mapper/Navreport/Sales.php",
+			"contents": "Searching 342 files for \"flipInX\" (case sensitive)\n\n/var/www/html/bms/ui/head.css:\n   29:     animation-name: flipInX;\n\n/var/www/html/bms/ui/head/menu-primary.css:\n    2:     animation-name: flipInX;\n  139:         animation-name: flipInX;\n\n3 matches across 2 files\n",
 			"settings":
 			{
-				"buffer_size": 1921,
+				"buffer_size": 266,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "/var/www/html/bms/ui/head.css",
+			"settings":
+			{
+				"buffer_size": 1467,
 				"line_ending": "Unix"
 			}
 		}
@@ -557,6 +569,22 @@
 		[
 			[
 				"close",
+				"File: Close All"
+			],
+			[
+				"sa",
+				"File: Save All"
+			],
+			[
+				"save",
+				"File: Save All"
+			],
+			[
+				"cloe",
+				"File: Close All"
+			],
+			[
+				"clo",
 				"File: Close All"
 			],
 			[
@@ -756,20 +784,12 @@
 				"Snippet: Create getter and setter methods"
 			],
 			[
-				"save",
-				"File: Save All"
-			],
-			[
 				"keybin",
 				"Preferences: Key Bindings"
 			],
 			[
 				"",
 				"About"
-			],
-			[
-				"clo",
-				"File: Close All"
 			],
 			[
 				"closs",
@@ -786,14 +806,6 @@
 			[
 				"settings",
 				"Preferences: Settings"
-			],
-			[
-				"cloe",
-				"File: Close All"
-			],
-			[
-				"sa",
-				"File: Save All"
 			],
 			[
 				"php",
@@ -845,134 +857,134 @@
 	],
 	"file_history":
 	[
-		"/var/www/html/bms/index.php",
-		"/home/martin/Downloads/public.txt",
-		"/var/www/html/bms/src/Controller/Aeroreport/Stock.php",
-		"/var/www/html/bms/src/Service/Report.php",
-		"/var/www/html/bms/routes/install.php",
-		"/home/martin/.config/sublime-text-3/Packages/User/snippet/php/controller-view-offsetSet.sublime-snippet",
-		"/var/www/html/bms/template/aeroreport/stock/warehouse.php",
-		"/var/www/html/bms/src/Mapper/Siclops/WarehouseStock.php",
-		"/var/www/html/dotfiles/pull.sh",
-		"/home/martin/.config/sublime-text-3/Packages/User/snippet/php/mw-php-controller-get-service.sublime-snippet",
+		"/var/www/html/bms/ui/common.bundle.css",
+		"/var/www/html/bms/ui/head.css",
 		"/var/www/html/bms/src/Service/MenuBuilder.php",
-		"/var/www/html/bms/src/AbstractMapper.php",
-		"/var/www/html/bms/src/Controller/Aeroreport.php",
-		"/var/www/html/bms/src/Controller/Crm/Company.php",
-		"/var/www/html/bms/src/AbstractMapperSiclops.php",
-		"/var/www/html/bms/src/Mapper/Aeroreport/Request.php",
-		"/var/www/html/bms/config.php",
-		"/var/www/html/bms/services.php",
-		"/var/www/html/bms/routes/aeroreport.php",
-		"/var/www/html/bms/src/Iterator.php",
-		"/var/www/html/bms/src/Mapper/Aeroreport/Stock/Warehouse.php",
-		"/home/martin/.config/sublime-text-3/Packages/User/snippet/php/mw-php-printPre.sublime-snippet",
-		"/var/www/html/bms/src/Factory/Mapper.php",
-		"/var/www/html/bms/src/AbstractMapperAeroreport.php",
-		"/var/www/html/bms/src/Controller/Admin.php",
-		"/var/www/html/bms/sql/update/1.sql",
-		"/var/www/html/bms/vendor/mwyatt/core/src/AbstractMapper.php",
-		"/var/www/html/bms/template/admin/database-update.php",
+		"/var/www/html/bms/routes/siclops.php",
+		"/var/www/html/bms/src/Controller/Siclops.php",
 		"/var/www/html/bms/src/Controller/Admin/User.php",
-		"/var/www/html/bms/src/Mapper/Aeroreport/Stock.php",
-		"/var/www/html/bms/src/Mapper/User.php",
-		"/var/www/html/bms/src/Model/User.php",
-		"/var/www/html/bms/src/Controller/Navreport.php",
-		"/var/www/html/bms/src/Mapper/Navreport/Sales.php",
-		"/var/www/html/bms/routes/crm.php",
-		"/var/www/html/bms/vendor/mwyatt/core/src/Database/Pdo.php",
-		"/var/www/html/bms/src/AbstractMapperNavreport.php",
-		"/var/www/html/bms/routes/navreport.php",
-		"/var/www/html/bms/src/Repository/Option.php",
-		"/var/www/html/bms/sql/definition.sql",
-		"/var/www/html/bms/src/Mapper/Option.php",
-		"/var/www/html/bms/src/Model/Option.php",
-		"/var/www/html/bms/template/admin/user.php",
-		"/home/martin/.config/sublime-text-3/Packages/User/snippet/php/php-request-setsession.sublime-snippet",
-		"/var/www/html/bms/routes/admin.php",
-		"/home/martin/.config/sublime-text-3/Packages/User/snippet/php/php-controller-redirect.sublime-snippet",
-		"/home/martin/.config/sublime-text-3/Packages/User/snippet/php/controller-request-get.sublime-snippet",
-		"/home/martin/.config/sublime-text-3/Packages/User/snippet/php/mw-php-controller-var.sublime-snippet",
-		"/home/martin/.config/sublime-text-3/Packages/User/snippet/php/mw-php-controller-get-response.sublime-snippet",
-		"/var/www/html/bms/sql/updates/1.sql",
-		"/home/martin/.config/sublime-text-3/Packages/User/php-request-setsession.sublime-snippet",
-		"/var/www/html/bms/vendor/mwyatt/core/src/AbstractModel.php",
-		"/home/martin/.config/sublime-text-3/Packages/MySQL Snippets/alter/sql-alter-add-after.sublime-snippet",
-		"/home/martin/.config/sublime-text-3/Packages/MySQL Snippets/alter/.directory",
-		"/var/www/html/bms/src/Repository/User.php",
-		"/var/www/html/bms/vendor/mwyatt/core/src/AbstractRepository.php",
-		"/home/martin/.config/sublime-text-3/Packages/User/php-controller-redirect.sublime-snippet",
-		"/var/www/html/bms/src/Middleware/AuthTesting.php",
-		"/var/www/html/bms/sql/crm/definition.sql",
-		"/var/www/html/bms/src/Mapper/Crm/Company.php",
-		"/var/www/html/bms/src/Model/Crm/Company.php",
-		"/var/www/html/bms/src/Model/Crm/ArchivedTrait.php",
-		"/var/www/html/bms/src/AbstractRepository.php",
-		"/home/martin/.config/sublime-text-3/Packages/PHP/Snippets/Constructor.sublime-snippet",
-		"/home/martin/.config/sublime-text-3/Packages/LaTeX/Snippets/Table.sublime-snippet",
-		"/home/martin/Downloads/navrepor_nav.sql",
-		"/var/www/html/bms/config-remote.php",
-		"/var/www/html/bms/sql/servicecalls/definition.sql",
-		"/var/www/html/bms/ui/servicecalls/common.bundle.css",
-		"/var/www/html/bms/src/Controller/Servicecalls.php",
-		"/var/www/html/bms/src/Model/Servicecalls/AccessTime.php",
-		"/var/www/html/bms/template/servicecalls/form-no-aeromark.php",
-		"/var/www/html/bms/src/Model/Servicecalls/NoAeromark.php",
-		"/var/www/html/bms/src/Repository/Servicecalls/NoAeromark.php",
-		"/var/www/html/bms/src/Repository/BindUserTrait.php",
-		"/var/www/html/bms/src/Mapper/Servicecalls/AccessTime.php",
-		"/var/www/html/bms/src/Repository/Servicecalls/AccessTime.php",
-		"/home/martin/.config/sublime-text-3/Packages/User/mw-php-controller-get-query.sublime-snippet",
-		"/var/www/html/bms/template/crm/contact/edit.php",
-		"/var/www/html/bms/ui/servicecalls/log-call/no-aeromark.bundle.js",
-		"/var/www/html/bms/src/Controller/Crm/Contact.php",
-		"/var/www/html/bms/ui/servicecalls/log-call/access-time-row.mst",
-		"/var/www/html/bms/ui/common.bundle.js",
-		"/var/www/html/bms/template/crm/notes-panel.php",
-		"/var/www/html/bms/template/crm/task/create.php",
-		"/var/www/html/bms/src/Controller/Crm.php",
-		"/home/martin/.config/sublime-text-3/Packages/User/js-jquery-selector.sublime-snippet",
-		"/home/martin/.config/sublime-text-3/Packages/User/snippet/js/mustache-render.sublime-snippet",
-		"/var/www/html/bms/routes/servicecalls.php",
-		"/home/martin/.config/sublime-text-3/Packages/User/JavaScript.sublime-settings",
-		"/home/martin/.config/sublime-text-3/Packages/User/CSS.sublime-settings",
-		"/home/martin/.config/sublime-text-3/Packages/User/HTML.sublime-settings",
-		"/var/www/html/bms/ui/login.bundle.css",
-		"/var/www/html/bms/template/dashboard.php",
-		"/home/martin/.config/sublime-text-3/Packages/User/css-..sublime-snippet",
-		"/home/martin/.config/sublime-text-3/Packages/Emmet/Default (Linux).sublime-keymap",
-		"/home/martin/.config/sublime-text-3/Packages/Color Scheme - Default/Solarized (Light).tmTheme",
-		"/var/www/html/bms/src/Service/UserPermission.php",
-		"/var/www/html/bms/src/Mapper/Aeroreport/Customer.php",
-		"/var/www/html/bms/src/Mapper/Aeroreport/Cutomer.php",
-		"/var/www/html/bms/template/head/content.php",
 		"/var/www/html/bms/routes.php",
-		"/var/www/html/bms/routes/crm/contact.php",
-		"/var/www/html/bms/src/Controller/Crm/Task/Ajax.php",
-		"/var/www/html/bms/routes/crm/lead.php",
-		"/var/www/html/bms/src/Service/UserAction.php",
-		"/var/www/html/bms/src/Repository/UserAction.php",
-		"/var/www/html/bms/src/Controller/User.php",
-		"/var/www/html/bms/src/Mapper/UserAction.php",
-		"/var/www/html/bms/src/Service/Appraisal/AppStatus.php",
-		"/var/www/html/bms/src/Controller.php",
-		"/var/www/html/bms/template/appraisal/dashboard.php",
-		"/var/www/html/bms/src/Controller/Appraisal.php",
-		"/var/www/html/bms/src/Middleware/UserPermission.php",
-		"/var/www/html/bms/src/Repository/UserMeta.php",
-		"/var/www/html/bms/src/Middleware/Auth.php",
-		"/var/www/html/bms/vendor/mwyatt/core/src/Http/Kernel.php",
+		"/var/www/html/bms/routes/aeroreport.php",
+		"/var/www/html/bms/src/Controller/Siclops/Stock.php",
+		"/var/www/html/bms/src/Controller/Aeroreport.php",
+		"/var/www/html/bms/src/Service/UserPermission.php",
+		"/var/www/html/bms/src/Controller/Aeroreport/Stock.php",
+		"/var/www/html/bms/template/aeroreport/stock/warehouse.php",
+		"/var/www/html/bms/routes/navreport.php",
+		"/var/www/html/bms/src/Controller/Navreport/Stats.php",
+		"/var/www/html/bms/src/Controller/Navreport.php",
 		"/var/www/html/bms/src/Middleware/Common.php",
-		"/var/www/html/bms/src/Controller/Error.php",
-		"/var/www/html/bms/sql/appraisal/definition.sql",
-		"/var/www/html/bms/sql/servicecall/definition.sql",
-		"/var/www/html/bms/src/Mapper/Appraisal/AppStatus.php",
-		"/var/www/html/bms/src/AbstractMapperAppraisal.php",
-		"/var/www/html/bms/.gitignore",
-		"/var/www/html/bms/json/countries.json",
 		"/var/www/html/bms/package.json",
 		"/var/www/html/bms/gulpfile.js",
-		"/var/www/html/bms/template/dashboard-shared.php"
+		"/var/www/html/bms/template/crm/contact.php",
+		"/var/www/html/bms/template/crm/notes-panel.php",
+		"/var/www/html/bms/template/crm/enquiry/create.php",
+		"/var/www/html/bms/ui/admin/user/company-department-checkboxes.mst",
+		"/var/www/html/bms/ui/crm/enquiry/create.bundle.js",
+		"/var/www/html/bms/ui/crm/enquiry/create/form-group-select.mst",
+		"/var/www/html/bms/template/crm/company.php",
+		"/var/www/html/bms/ui/typeahead.css",
+		"/var/www/html/bms/ui/crm/common.bundle.js",
+		"/var/www/html/bms/ui/crm/typeahead-input.js",
+		"/var/www/html/bms/ui/fix-bootstrap.bundle.css",
+		"/var/www/html/bms/ui/crm/lead/convert/typeahead.js",
+		"/var/www/html/bms/ui/sub-menu-toggle-open.js",
+		"/var/www/html/bms/ui/admin/user/single.bundle.js",
+		"/var/www/html/bms/ui/common.bundle.js",
+		"/var/www/html/bms/ui/crm/spin.js",
+		"/var/www/html/bms/ui/servicecalls/log-call/no-aeromark.bundle.js",
+		"/var/www/html/bms/ui/servicecalls/siclops/enquiry-assets.bundle.js",
+		"/var/www/html/bms/ui/servicecalls/siclops/enquiry-client-equipment.bundle.js",
+		"/var/www/html/bms/ui/crm/lead.bundle.js",
+		"/var/www/html/bms/ui/crm/ladda.js",
+		"/var/www/html/bms/ui/general.css",
+		"/var/www/html/bms/template/login.php",
+		"/var/www/html/bms/ui/login.bundle.css",
+		"/var/www/html/bms/metronic/assets/global/scripts/app.js",
+		"/var/www/html/bms/template/forgot-password.php",
+		"/var/www/html/bms/template/forgot-password-change.php",
+		"/var/www/html/bms/metronic/assets/global/plugins/moment.min.js",
+		"/var/www/html/bms/template/admin/user.php",
+		"/var/www/html/bms/ui/pagination.css",
+		"/var/www/html/bms/ui/table.css",
+		"/var/www/html/bms/ui/form.css",
+		"/var/www/html/bms/template/crm/task.php",
+		"/var/www/html/bms/src/Service/UserAction.php",
+		"/var/www/html/bms/ui/btn.css",
+		"/var/www/html/bms/ui/portlet.css",
+		"/var/www/html/bms/template/crm/dashboard.php",
+		"/var/www/html/bms/template/head.php",
+		"/var/www/html/bms/metronic/assets/global/css/components-md.css",
+		"/var/www/html/bms/asset/lib.js",
+		"/var/www/html/bms/metronic/assets/global/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css",
+		"/var/www/html/bms/template/filter/result/cell/crm-link-company.php",
+		"/var/www/html/bms/template/filter/result/cell/crm-link-contact.php",
+		"/var/www/html/bms/template/filter/result/cell/crm-link-enquiry.php",
+		"/var/www/html/bms/template/filter/result/cell/crm-link-lead.php",
+		"/var/www/html/bms/template/filter/result/cell/email-mailto.php",
+		"/var/www/html/bms/template/filter/result/cell/user-assigned.php",
+		"/var/www/html/bms/template/filter/result/cell/user.php",
+		"/var/www/html/bms/ui/label.css",
+		"/var/www/html/bms/ui/alert.css",
+		"/var/www/html/bms/src/Controller/Appraisal.php",
+		"/var/www/html/bms/template/appraisal/appraisal-single.php",
+		"/var/www/html/bms/ui/settings.css",
+		"/var/www/html/bms/template/appraisal/subap.php",
+		"/var/www/html/bms/template/appraisal/submanap.php",
+		"/var/www/html/bms/metronic/assets/global/plugins/bootstrap/css/bootstrap.css",
+		"/var/www/html/bms/template/filter/result/cell/admin-link-user.php",
+		"/var/www/html/bms/template/filter/result/cell/crm/company.php",
+		"/var/www/html/bms/template/filter/result/cell/servicecalls/company-text.php",
+		"/var/www/html/bms/template/filter/result/cell/date.php",
+		"/var/www/html/bms/ui/head/menu-primary.css",
+		"/var/www/html/bms/metronic/assets/global/css/components.css",
+		"/var/www/html/bms/ui/reusable-bad.css",
+		"/var/www/html/bms/ui/widget.css",
+		"/var/www/html/bms/ui/metronic/layout.css",
+		"/var/www/html/bms/ui/breadcrumbs.css",
+		"/var/www/html/bms/template/head/content.php",
+		"/var/www/html/bms/ui/list-group.css",
+		"/var/www/html/bms/ui/head/logo.css",
+		"/var/www/html/bms/template/head/user-profile.php",
+		"/var/www/html/bms/template/appraisal/agreed-objectives.php",
+		"/var/www/html/bms/template/crm/edit.php",
+		"/var/www/html/bms/template/crm/lead.php",
+		"/var/www/html/bms/template/crm/company/edit.php",
+		"/var/www/html/bms/template/crm/contact/create-enquiry.php",
+		"/var/www/html/bms/template/crm/contact/edit.php",
+		"/var/www/html/bms/template/crm/contact/enquiry/create.php",
+		"/var/www/html/bms/template/crm/edit/address.php",
+		"/var/www/html/bms/template/crm/edit/phone.php",
+		"/var/www/html/bms/template/crm/edit/status.php",
+		"/var/www/html/bms/template/crm/enquiry/edit.php",
+		"/var/www/html/bms/template/crm/lead/convert.php",
+		"/var/www/html/bms/template/crm/lead/create.php",
+		"/var/www/html/bms/template/crm/task/create.php",
+		"/var/www/html/bms/template/enquiry/single.php",
+		"/var/www/html/bms/template/servicecalls/form-no-aeromark.php",
+		"/var/www/html/bms/template/servicecalls/logcall/generic-form.php",
+		"/var/www/html/bms/template/user/profile.php",
+		"/var/www/html/bms/template/user.php",
+		"/var/www/html/bms/template/admin/database-update.php",
+		"/home/martin/.config/sublime-text-3/Packages/User/snippet/css/mw-css-media.sublime-snippet",
+		"/var/www/html/bms/template/foot/content.php",
+		"/var/www/html/bms/vendor/mwyatt/core/template/footer.php",
+		"/var/www/html/bms/template/head/menu-primary.php",
+		"/var/www/html/bms/asset/common.bundle.js",
+		"/var/www/html/bms/asset/common.bundle.css",
+		"/var/www/html/bms/src/Mapper/Navreport/Item/Ledger.php",
+		"/var/www/html/bms/src/Controller/Navreport/Item.php",
+		"/var/www/html/bms/routes/admin.php",
+		"/var/www/html/bms/sql/update/1.sql",
+		"/var/www/html/bms/sql/definition.sql",
+		"/var/www/html/bms/src/Controller/Admin.php",
+		"/var/www/html/bms/src/Model/User.php",
+		"/var/www/html/bms/src/Mapper/Navreport/Item.php",
+		"/var/www/html/bms/src/Mapper/Navreport/Sales.php",
+		"/home/martin/.config/sublime-text-3/Packages/User/snippet/php/for.sublime-snippet",
+		"/home/martin/.config/sublime-text-3/Packages/User/snippet/php/mw-php-foreach.sublime-snippet",
+		"/var/www/html/bms/src/Mapper/Siclops/WarehouseStock.php",
+		"/var/www/html/bms/template/foot.php"
 	],
 	"find":
 	{
@@ -983,6 +995,11 @@
 		"height": 158.0,
 		"where_history":
 		[
+			"-node_modules/, -asset/, -vendor/,  -cache/, -metronic/, ",
+			"-node_modules/, -asset/, -vendor/,  -cache/, -metronic/, <open files>",
+			"-node_modules/, -asset/, -vendor/,  -cache/, -metronic/, ",
+			"-node_modules/, -asset/, -vendor/,  -cache/, -metronic/, template/",
+			"-node_modules/, -asset/, -vendor/,  -cache/, -metronic/",
 			"-node_modules/, -asset/, -vendor/,  -cache/",
 			"-node_modules/, -asset/, -vendor/, -metronic/, -cache/",
 			"-node_modules/, -asset/, -vendor/, -metronic/",
@@ -1051,134 +1068,134 @@
 		"case_sensitive": true,
 		"find_history":
 		[
-			"serviceInv",
-			"select class",
-			"col-md-6",
-			"form-group",
-			"<option>",
-			"categoryCode",
-			"category_code",
-			"echo",
-			"categoryCodes",
-			"enableExportOptions",
-			"databaseAeroreportService",
-			"SW_Description",
-			"matchType",
-			"inputType",
-			"inputName",
-			"SC_Code",
-			"setFilterMapper",
-			"enableExportOptions",
-			"wareouseDescription",
-			"rows",
-			"row['",
-			"FROM",
-			"codes",
-			"findUniqueDescriptions",
-			"rows",
-			"SC_Code",
-			"aeroreportStock",
-			"aeroreportStockWarehouse",
-			"aeroreportStock",
-			"SC_Code",
-			"SLW_Warehouse_Code",
-			"SLW_Stock_Reference",
-			"filtersExact",
-			"matchType",
-			"setFiltersFixed",
-			"SW_Warehouse_Code",
-			"SLW_Quantity_In_Stock",
-			"SLW_Warehouse_Code",
-			"SLW_Stock_Reference",
-			"orderBy",
-			"aeroreportLiveCalls",
-			"aeroreportStockWarehouse",
-			"'orderBy'",
-			"orderBy",
-			"sqlExact",
-			"setFiltersFixed",
-			"SW_Warehouse_Code",
-			"SLW_Quantity_In_Stock",
-			"SLW_Warehouse_Code",
-			"SLW_Stock_Reference",
-			"request_ID",
-			"SC_Code",
-			"status",
-			"status_ID",
-			"Aeroreport",
-			"adapter",
-			"SLW_Stock_Reference",
-			"SH_Reference",
-			"SLW",
-			"SLW_Warehouse_Code",
-			"adapterSiclops",
-			"adapterAeroreport",
-			"DatabaseSiclops",
-			"siclops",
-			"siclop",
-			"]",
-			" AND",
-			"[",
-			"[Siclops_ACME_Live].[dbo].",
-			"Stock",
-			"getUpdateGenericSql",
-			"function get",
-			"$this->getTableNameLazy()",
-			"aerorepo",
-			"Stock",
-			"ACM01",
-			"Customer No_",
-			"salesInv",
-			"siline",
-			"quantity",
-			"siline",
-			"nv.",
-			"Order Date",
-			"Header",
-			"sinv",
-			"findSalesTotalByInvoiceIds",
-			"results",
-			"getSalesTotalByInvoiceIds",
-			"this->adapter",
-			"findInvoiceIdsByMonthYear",
-			"as",
-			"sil",
-			"salesInvoice",
-			"salesInvoiceLine",
-			"from",
-			"bind",
-			"findAllLines",
-			"results",
-			"defaultAdapter",
-			"$this->{$this->defaultAdapter}",
-			"Aeroreport",
-			"request",
-			"Users",
-			"adminUsers",
-			"panel",
-			"key",
-			"Admin\\\\User",
-			"databaseUpdate",
-			"MyISAM",
-			"authTesting",
-			"databaseUpdate",
-			"sqlUpdate",
-			"()",
-			"create",
-			"userActionService",
-			"create",
-			"Impersonate",
-			"impersonate",
-			"c",
-			"maintCallsOutstanding",
-			"navreportReport",
-			"report",
-			"adapterAeroreport",
-			"adapterNavreport",
-			"adapterAeroreport",
+			"flipInX",
+			"rotateClockwise",
+			"animation-name: ",
 			"aeroreport",
-			"DatabaseAeroreport",
-			"aeroreport"
+			"['siclopsStock']['children']",
+			"siclops",
+			"Siclops",
+			"siclops",
+			"Aeroreport",
+			"aeroreport",
+			"siclop",
+			"permissionRouteGroups",
+			"permissionRoutes",
+			"Aeroreport",
+			"aeroreport",
+			"Aeroreport",
+			"aeroreport",
+			"stock/",
+			"Siclops",
+			"aeroreport",
+			"siclops",
+			"tasks",
+			"<a href",
+			"formGroupSelectMst",
+			"departmentContainer",
+			"js-department-container",
+			"Department<",
+			"\"form-group",
+			"row form",
+			".tt-",
+			"bean",
+			"require('bean",
+			"bloodhound",
+			"Bloodhound",
+			"new Blood",
+			"mustache",
+			"Blood",
+			"$",
+			"stringify",
+			".min",
+			"');",
+			"metronic/",
+			"tooltip",
+			"form-input",
+			"input",
+			"butt",
+			"grayed",
+			"form-input",
+			"button",
+			"create",
+			"Create",
+			"row form-group",
+			"<a ",
+			"Employees",
+			"panel",
+			"Manager",
+			"a href",
+			"input.form-control",
+			"gulpConcat",
+			"concat",
+			"components",
+			"My Tasks",
+			"#337ab7",
+			"line-height",
+			"This form is de",
+			"';\n",
+			"\n@",
+			"<a href",
+			"\n@",
+			".",
+			",",
+			".typography",
+			"    .menu-primary-level2-item {\n        float: left;\n    }\n\n",
+			"border-ra",
+			"container-fluid-disabled",
+			".page-content",
+			"alert",
+			"hover",
+			".user-profile {",
+			"body {",
+			"<div>",
+			"user-profile-drop",
+			" block link",
+			"{",
+			".",
+			"widget-",
+			"';\n",
+			"\n@",
+			"widget-thumb",
+			"form-group",
+			"3px",
+			"<div class=\"col-md-6\">",
+			"col-md-6",
+			".form-control",
+			".form-select",
+			"form-input",
+			"form-textarea",
+			"form-label",
+			"color:",
+			"outline",
+			".secondary",
+			".primary",
+			"button",
+			".5rem",
+			"acme-logo-lighter",
+			"1rem",
+			"container-fluid",
+			"dropdown",
+			"empty",
+			"ul",
+			"li",
+			"selected",
+			"open",
+			"active",
+			"cx-drop-menu-item",
+			";",
+			"Log",
+			"timepicker",
+			"$ = ",
+			";",
+			"Remaining Quantity",
+			"remaining",
+			"Date",
+			"invoiceLines",
+			"toggler",
+			"li ",
+			"<li>",
+			"logo"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1186,6 +1203,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			"<a class=\"link\" href",
+			"row form-group",
+			"<div class=\"col-xs-12 col-md-6\">",
+			"container-fluid-disabled",
 			"$this->redirect('dashboard');",
 			"$this->view->getTemplate('dashboard-shared')",
 			"crmContactArchive",
@@ -1274,31 +1295,114 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/var/www/html/bms/routes/navreport.php",
+					"file": "/var/www/html/bms/ui/label.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 436,
+						"buffer_size": 297,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								436,
-								436
+								297,
+								297
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
-						"translation.x": 632.0,
+						"translation.x": 328.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/var/www/html/bms/ui/head/menu-primary.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3601,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								253,
+								253
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 266,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										110,
+										117
+									],
+									[
+										191,
+										198
+									],
+									[
+										231,
+										238
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								113,
+								113
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 408.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -1306,59 +1410,31 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "/var/www/html/bms/src/Controller/Navreport.php",
+					"buffer": 3,
+					"file": "/var/www/html/bms/ui/head.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1004,
+						"buffer_size": 1467,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								730,
-								730
+								491,
+								638
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
-						"translation.x": 632.0,
-						"translation.y": 0.0,
+						"translation.x": 0.0,
+						"translation.y": 100.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/var/www/html/bms/src/Mapper/Navreport/Sales.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1921,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								752,
-								762
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 63.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1421,516 +1497,516 @@
 		"selected_items":
 		[
 			[
-				"controlnavrepo",
-				"src/Controller/Navreport.php"
+				"combuncs",
+				"ui/common.bundle.css"
 			],
 			[
-				"routenavre",
-				"routes/navreport.php"
+				"menupri",
+				"ui/head/menu-primary.css"
 			],
 			[
-				"in",
-				"index.php"
-			],
-			[
-				"servrepor",
-				"src/Service/Report.php"
-			],
-			[
-				"controlleraerore",
-				"src/Controller/Aeroreport/Stock.php"
-			],
-			[
-				"routeins",
-				"routes/install.php"
-			],
-			[
-				"",
-				"template/aeroreport/stock/warehouse.php"
-			],
-			[
-				"crmleads",
-				"template/crm/leads.php"
-			],
-			[
-				"mapperware",
-				"src/Mapper/Siclops/WarehouseStock.php"
+				"lablcs",
+				"ui/label.css"
 			],
 			[
 				"controlleraero",
-				"src/Controller/Aeroreport/Stock.php"
+				"src/Controller/Aeroreport.php"
+			],
+			[
+				"controllersiclop",
+				"src/Controller/Siclops/Stock.php"
+			],
+			[
+				"route",
+				"routes.php"
+			],
+			[
+				"permiss",
+				"src/Service/UserPermission.php"
+			],
+			[
+				"controlleradminuser",
+				"src/Controller/Admin/User.php"
+			],
+			[
+				"siclopstock",
+				"src/Controller/Siclops/Stock.php"
+			],
+			[
+				"aerorepotware",
+				"template/aeroreport/stock/warehouse.php"
+			],
+			[
+				"routaro",
+				"routes/aeroreport.php"
+			],
+			[
+				"aerorepor",
+				"routes/aeroreport.php"
 			],
 			[
 				"menubui",
 				"src/Service/MenuBuilder.php"
 			],
 			[
-				"absmap",
-				"src/AbstractMapper.php"
+				"controlnavrepoite",
+				"src/Controller/Navreport/Item.php"
 			],
 			[
-				"iterato",
-				"src/Iterator.php"
+				"controlnavrepo",
+				"src/Controller/Navreport.php"
 			],
 			[
-				"repo",
-				"src/Service/Report.php"
-			],
-			[
-				"mapperwarehous",
-				"src/Mapper/Siclops/WarehouseStock.php"
-			],
-			[
-				"routeaero",
-				"routes/aeroreport.php"
-			],
-			[
-				"controleraero",
-				"src/Controller/Aeroreport.php"
-			],
-			[
-				"siclopware",
-				"src/Mapper/Siclops/WarehouseStock.php"
-			],
-			[
-				"absmapae",
-				"src/AbstractMapperAeroreport.php"
-			],
-			[
-				"mapperaerorepo",
-				"src/Mapper/Aeroreport/Request.php"
-			],
-			[
-				"absmapp",
-				"src/AbstractMapper.php"
-			],
-			[
-				"facmapper",
-				"src/Factory/Mapper.php"
-			],
-			[
-				"absmapper",
-				"src/AbstractMapper.php"
-			],
-			[
-				"servi",
-				"services.php"
-			],
-			[
-				"config",
-				"config.php"
-			],
-			[
-				"mapperaerostock",
-				"src/Mapper/Aeroreport/Stock.php"
-			],
-			[
-				"controlaerorepo",
-				"src/Controller/Aeroreport/Stock.php"
-			],
-			[
-				"1.",
-				"sql/update/1.sql"
-			],
-			[
-				"admindaup",
-				"template/admin/database-update.php"
-			],
-			[
-				"controlleradmin",
-				"src/Controller/Admin.php"
-			],
-			[
-				"controleradmin",
-				"src/Controller/Admin/User.php"
-			],
-			[
-				"controladmin",
-				"src/Controller/Admin/User.php"
-			],
-			[
-				"confi",
-				"config.php"
-			],
-			[
-				"mapperaerorepo/",
-				"src/Mapper/Aeroreport/Stock.php"
-			],
-			[
-				"controlaerorepor",
-				"src/Controller/Aeroreport.php"
-			],
-			[
-				"menubuild",
-				"src/Service/MenuBuilder.php"
-			],
-			[
-				"report",
-				"src/Service/Report.php"
-			],
-			[
-				"mapperuser",
-				"src/Mapper/User.php"
-			],
-			[
-				"modeluser",
-				"src/Model/User.php"
-			],
-			[
-				"mapepruser",
-				"src/Mapper/User.php"
-			],
-			[
-				"routecrm",
-				"routes/crm.php"
-			],
-			[
-				"mappernavrepo",
-				"src/Mapper/Navreport/Sales.php"
-			],
-			[
-				"mappeaeror",
-				"src/AbstractMapperAeroreport.php"
-			],
-			[
-				"controlleraerorepo",
-				"src/Controller/Aeroreport.php"
-			],
-			[
-				"navreport",
+				"nav",
 				"routes/navreport.php"
 			],
 			[
-				"controllnavrepo",
-				"src/Controller/Navreport.php"
-			],
-			[
-				"1.sq",
-				"sql/update/1.sql"
-			],
-			[
-				"defi",
-				"sql/definition.sql"
-			],
-			[
-				"routeadmin",
-				"routes/admin.php"
-			],
-			[
-				"menubuilder",
-				"src/Service/MenuBuilder.php"
-			],
-			[
-				"templaadminuser",
-				"template/admin/user.php"
-			],
-			[
-				"templauser",
-				"template/admin/user.php"
-			],
-			[
-				"templateadminus",
-				"template/admin/user.php"
-			],
-			[
-				"update1",
-				"sql/update/1.sql"
-			],
-			[
-				"1.s",
-				"sql/updates/1.sql"
-			],
-			[
-				"mapperopt",
-				"src/Mapper/Option.php"
-			],
-			[
-				"serv",
-				"services.php"
-			],
-			[
-				"repooptio",
-				"src/Repository/Option.php"
-			],
-			[
-				"modelopt",
-				"src/Model/Option.php"
-			],
-			[
-				"def",
-				"sql/definition.sql"
-			],
-			[
-				"defini",
-				"sql/definition.sql"
-			],
-			[
-				"authtes",
-				"src/Middleware/AuthTesting.php"
-			],
-			[
-				"install",
-				"routes/install.php"
-			],
-			[
-				"routeadmn",
-				"routes/admin.php"
-			],
-			[
-				"crmdefi",
-				"sql/crm/definition.sql"
-			],
-			[
-				"mappercom",
-				"src/Mapper/Crm/Company.php"
-			],
-			[
-				"modelcompa",
-				"src/Model/Crm/Company.php"
-			],
-			[
-				"absrepos",
-				"vendor/mwyatt/core/src/AbstractRepository.php"
-			],
-			[
-				"repouser",
-				"src/Repository/User.php"
-			],
-			[
-				"absrepor",
-				"src/AbstractRepository.php"
-			],
-			[
-				"controladmiu",
-				"src/Controller/Admin/User.php"
-			],
-			[
-				"temadminuser",
-				"template/admin/user.php"
-			],
-			[
-				"controlnavre",
-				"src/Controller/Navreport.php"
-			],
-			[
-				"mapperaerorre",
-				"src/Mapper/Aeroreport/Request.php"
-			],
-			[
-				"controlleraerorepor",
-				"src/Controller/Aeroreport.php"
-			],
-			[
-				"routenavrepo",
+				"navrepo",
 				"routes/navreport.php"
 			],
 			[
-				"navrepor",
-				"src/Controller/Navreport.php"
-			],
-			[
-				"factormapepr",
-				"src/Factory/Mapper.php"
-			],
-			[
-				"confremo",
-				"config-remote.php"
-			],
-			[
-				"servic",
-				"services.php"
-			],
-			[
-				"controlleraerrepo",
-				"src/Controller/Aeroreport.php"
-			],
-			[
-				"inde",
-				"index.php"
-			],
-			[
-				"index",
-				"index.php"
-			],
-			[
-				"servcombun",
-				"ui/servicecalls/common.bundle.css"
-			],
-			[
-				"modelacctime",
-				"src/Model/Servicecalls/AccessTime.php"
-			],
-			[
-				"controlservice",
-				"src/Controller/Servicecalls.php"
-			],
-			[
-				"modelacctim",
-				"src/Model/Servicecalls/AccessTime.php"
-			],
-			[
-				"bindtrai",
-				"src/Repository/BindUserTrait.php"
-			],
-			[
-				"reponoa",
-				"src/Repository/Servicecalls/NoAeromark.php"
-			],
-			[
-				"routeinsta",
-				"routes/install.php"
-			],
-			[
-				"modelnoaer",
-				"src/Model/Servicecalls/NoAeromark.php"
-			],
-			[
-				"controlserv",
-				"src/Controller/Servicecalls.php"
-			],
-			[
-				"serdefini",
-				"sql/servicecalls/definition.sql"
-			],
-			[
-				"mapperactime",
-				"src/Mapper/Servicecalls/AccessTime.php"
-			],
-			[
-				"serdefi",
-				"sql/servicecalls/definition.sql"
-			],
-			[
-				"mapperacctime",
-				"src/Mapper/Servicecalls/AccessTime.php"
-			],
-			[
-				"reponoae",
-				"src/Repository/Servicecalls/NoAeromark.php"
-			],
-			[
-				"mapperaccestime",
-				"src/Mapper/Servicecalls/AccessTime.php"
-			],
-			[
-				"modelaccess",
-				"src/Model/Servicecalls/AccessTime.php"
-			],
-			[
-				"controlservi",
-				"src/Controller/Servicecalls.php"
-			],
-			[
-				"formnoea",
-				"template/servicecalls/form-no-aeromark.php"
-			],
-			[
-				"contacedit",
-				"template/crm/contact/edit.php"
-			],
-			[
-				"actimeow",
-				"ui/servicecalls/log-call/access-time-row.mst"
-			],
-			[
-				"commonbundles",
-				"ui/common.bundle.js"
-			],
-			[
-				"controlcrm/contac",
-				"src/Controller/Crm/Contact.php"
-			],
-			[
-				"controllercrm",
-				"src/Controller/Crm.php"
-			],
-			[
-				"formnoaero",
-				"template/servicecalls/form-no-aeromark.php"
-			],
-			[
-				"crmtaskcrea",
-				"template/crm/task/create.php"
+				"routes",
+				"routes.php"
 			],
 			[
 				"notepane",
 				"template/crm/notes-panel.php"
 			],
 			[
-				"noaebund",
-				"ui/servicecalls/log-call/no-aeromark.bundle.js"
+				"templatecont",
+				"template/crm/contact.php"
 			],
 			[
-				"routeservice",
-				"routes/servicecalls.php"
+				"templatecompany",
+				"template/crm/company.php"
 			],
 			[
-				"accrow",
-				"ui/servicecalls/log-call/access-time-row.mst"
+				"formgroupsel",
+				"ui/crm/enquiry/create/form-group-select.mst"
+			],
+			[
+				"departmentmst",
+				"ui/admin/user/company-department-checkboxes.mst"
+			],
+			[
+				"enquirycrea",
+				"template/crm/enquiry/create.php"
+			],
+			[
+				"combuncss",
+				"ui/common.bundle.css"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"middlecomm",
+				"src/Middleware/Common.php"
+			],
+			[
+				"submentog",
+				"ui/sub-menu-toggle-open.js"
+			],
+			[
+				"enqclienteq",
+				"ui/servicecalls/siclops/enquiry-client-equipment.bundle.js"
+			],
+			[
+				"enqassebun",
+				"ui/servicecalls/siclops/enquiry-assets.bundle.js"
 			],
 			[
 				"noaerobund",
 				"ui/servicecalls/log-call/no-aeromark.bundle.js"
 			],
 			[
-				"mapperacct",
-				"src/Mapper/Servicecalls/AccessTime.php"
+				"typeain",
+				"ui/crm/typeahead-input.js"
 			],
 			[
-				"servidefi",
-				"sql/servicecalls/definition.sql"
+				"spin",
+				"ui/crm/spin.js"
 			],
 			[
-				"access",
-				"src/Model/Servicecalls/AccessTime.php"
+				"leadconvty",
+				"ui/crm/lead/convert/typeahead.js"
 			],
 			[
-				"formnoa",
-				"template/servicecalls/form-no-aeromark.php"
+				"leadbund",
+				"ui/crm/lead.bundle.js"
+			],
+			[
+				"leadtypa",
+				"ui/crm/lead/convert/typeahead.js"
+			],
+			[
+				"crmladda",
+				"ui/crm/ladda.js"
+			],
+			[
+				"enqcrebun",
+				"ui/crm/enquiry/create.bundle.js"
+			],
+			[
+				"crmcombun",
+				"ui/crm/common.bundle.js"
+			],
+			[
+				"combunjs",
+				"ui/common.bundle.js"
+			],
+			[
+				"adminusersing",
+				"ui/admin/user/single.bundle.js"
+			],
+			[
+				"submenuto",
+				"ui/sub-menu-toggle-open.js"
+			],
+			[
+				"",
+				"gulpfile.js"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"moment.js",
+				"metronic/assets/global/plugins/moment.min.js"
+			],
+			[
+				"gul",
+				"gulpfile.js"
+			],
+			[
+				"app.js",
+				"metronic/assets/global/scripts/app.js"
+			],
+			[
+				"combun",
+				"ui/common.bundle.css"
 			],
 			[
 				"logincs",
 				"ui/login.bundle.css"
 			],
 			[
-				"templtedash",
-				"template/dashboard.php"
+				"login",
+				"template/login.php"
 			],
 			[
-				"loginbun",
-				"ui/login.bundle.css"
+				"forgopacha",
+				"template/forgot-password-change.php"
 			],
 			[
-				"controllerservi",
-				"src/Controller/Servicecalls.php"
+				"gener",
+				"ui/general.css"
 			],
 			[
-				"bundlecss",
-				"ui/login.bundle.css"
+				"forgotpa",
+				"template/forgot-password.php"
 			],
 			[
-				"mapperreque",
-				"src/Mapper/Aeroreport/Request.php"
+				"loginphp",
+				"template/login.php"
 			],
 			[
-				"mappercustomer",
-				"src/Mapper/Aeroreport/Customer.php"
+				"notepan",
+				"template/crm/notes-panel.php"
 			],
 			[
-				"aeroreporstock",
-				"src/Mapper/Aeroreport/Stock.php"
+				"templateconta",
+				"template/crm/contact.php"
 			],
 			[
-				"controlaerrepo",
-				"src/Controller/Aeroreport.php"
+				"genercs",
+				"ui/general.css"
 			],
 			[
-				"headcont",
+				"fixbo",
+				"ui/fix-bootstrap.bundle.css"
+			],
+			[
+				"serviceuserac",
+				"src/Service/UserAction.php"
+			],
+			[
+				"templaadminuser",
+				"template/admin/user.php"
+			],
+			[
+				"task",
+				"template/crm/task.php"
+			],
+			[
+				"templatcontact",
+				"template/crm/contact.php"
+			],
+			[
+				"formcss",
+				"ui/form.css"
+			],
+			[
+				"port",
+				"ui/portlet.css"
+			],
+			[
+				"btn",
+				"ui/btn.css"
+			],
+			[
+				"formcs",
+				"ui/form.css"
+			],
+			[
+				"componenmd.css",
+				"metronic/assets/global/css/components-md.css"
+			],
+			[
+				"boottimepickercss",
+				"metronic/assets/global/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css"
+			],
+			[
+				"head",
+				"template/head.php"
+			],
+			[
+				"table",
+				"ui/table.css"
+			],
+			[
+				"bootstracss",
+				"metronic/assets/global/plugins/bootstrap/css/bootstrap.css"
+			],
+			[
+				"componencss",
+				"metronic/assets/global/css/components-md.css"
+			],
+			[
+				"submana",
+				"template/appraisal/submanap.php"
+			],
+			[
+				"setting",
+				"ui/settings.css"
+			],
+			[
+				"appsingle",
+				"template/appraisal/appraisal-single.php"
+			],
+			[
+				"controllerapprai",
+				"src/Controller/Appraisal.php"
+			],
+			[
+				"aler",
+				"ui/alert.css"
+			],
+			[
+				"resulceluser",
+				"template/filter/result/cell/user.php"
+			],
+			[
+				"resulceluerad",
+				"template/filter/result/cell/user-assigned.php"
+			],
+			[
+				"servcallcomtex",
+				"template/filter/result/cell/servicecalls/company-text.php"
+			],
+			[
+				"emilmilto",
+				"template/filter/result/cell/email-mailto.php"
+			],
+			[
+				"date",
+				"template/filter/result/cell/date.php"
+			],
+			[
+				"linklead",
+				"template/filter/result/cell/crm-link-lead.php"
+			],
+			[
+				"linkenqui",
+				"template/filter/result/cell/crm-link-enquiry.php"
+			],
+			[
+				"linkconta",
+				"template/filter/result/cell/crm-link-contact.php"
+			],
+			[
+				"resulcelcrmcom",
+				"template/filter/result/cell/crm/company.php"
+			],
+			[
+				"crmcompan",
+				"template/crm/company.php"
+			],
+			[
+				"adminlinus",
+				"template/filter/result/cell/admin-link-user.php"
+			],
+			[
+				"crmlincom",
+				"template/filter/result/cell/crm-link-company.php"
+			],
+			[
+				"gene",
+				"ui/general.css"
+			],
+			[
+				"widge",
+				"ui/widget.css"
+			],
+			[
+				"reusab",
+				"ui/reusable-bad.css"
+			],
+			[
+				"compone",
+				"metronic/assets/global/css/components.css"
+			],
+			[
+				"layout",
+				"ui/metronic/layout.css"
+			],
+			[
+				"bootstrapcss",
+				"metronic/assets/global/plugins/bootstrap/css/bootstrap.css"
+			],
+			[
+				"menuprimar",
+				"ui/head/menu-primary.css"
+			],
+			[
+				"protlet",
+				"ui/portlet.css"
+			],
+			[
+				"commbun",
+				"ui/common.bundle.css"
+			],
+			[
+				"headc",
+				"ui/head.css"
+			],
+			[
+				"widg",
+				"ui/widget.css"
+			],
+			[
+				"gen",
+				"ui/general.css"
+			],
+			[
+				"components.css",
+				"metronic/assets/global/css/components.css"
+			],
+			[
+				"headlog",
+				"ui/head/logo.css"
+			],
+			[
+				"headmenuri",
+				"ui/head/menu-primary.css"
+			],
+			[
+				"headprofi",
+				"template/head/user-profile.php"
+			],
+			[
+				"sett",
+				"ui/settings.css"
+			],
+			[
+				"set",
+				"ui/settings.css"
+			],
+			[
+				"headcs",
+				"ui/head.css"
+			],
+			[
+				"routeaero",
+				"routes/aeroreport.php"
+			],
+			[
+				"controlleraeror",
+				"src/Controller/Aeroreport/Stock.php"
+			],
+			[
+				"headmenu",
+				"ui/head/menu-primary.css"
+			],
+			[
+				"temadminuser",
+				"template/admin/user.php"
+			],
+			[
+				"templateadminuser",
+				"template/filter/result/cell/admin-link-user.php"
+			],
+			[
+				"footcont",
+				"template/foot/content.php"
+			],
+			[
+				"footer",
+				"vendor/mwyatt/core/template/footer.php"
+			],
+			[
+				"combunc",
+				"ui/common.bundle.css"
+			],
+			[
+				"fix",
+				"ui/fix-bootstrap.bundle.css"
+			],
+			[
+				"headconten",
 				"template/head/content.php"
 			],
 			[
-				"controlaerore",
-				"src/Controller/Aeroreport.php"
+				"headconte",
+				"template/head/content.php"
+			],
+			[
+				"headpofi",
+				"template/head/user-profile.php"
+			],
+			[
+				"headcon",
+				"template/head/content.php"
+			],
+			[
+				"combund",
+				"ui/common.bundle.js"
+			],
+			[
+				"mapperasas",
+				"src/Mapper/Navreport/Sales.php"
+			],
+			[
+				"controllernavrepo",
+				"src/Controller/Navreport/Item.php"
+			],
+			[
+				"comcss",
+				"ui/common.bundle.css"
+			],
+			[
+				"1.s",
+				"sql/update/1.sql"
+			],
+			[
+				"routeadm",
+				"routes/admin.php"
 			]
 		],
 		"width": 0.0
@@ -1938,16 +2014,40 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "code",
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"
+			],
 			[
 				"code",
 				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"
 			],
 			[
+				"dia",
+				"/var/www/html/dotfiles/sublime-text-workspaces/dialogue.sublime-workspace"
+			],
+			[
+				"pent",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-pentlandwholesale.sublime-project"
+			],
+			[
+				"elt",
+				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"bm",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
+			],
+			[
 				"cod",
 				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
+				"el",
+				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
 			],
 			[
 				"codex",
@@ -1960,14 +2060,6 @@
 			[
 				"aero",
 				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-aeromarkreports.sublime-project"
-			],
-			[
-				"",
-				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
-			],
-			[
-				"el",
-				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
 			],
 			[
 				"nav",
@@ -1994,20 +2086,12 @@
 				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-pentlandwholesale.sublime-project"
 			],
 			[
-				"pent",
-				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-pentlandwholesale.sublime-project"
-			],
-			[
 				"pentl",
 				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-pentlandwholesale.sublime-project"
 			],
 			[
 				"cor",
 				"/var/www/html/dotfiles/sublime-text-workspaces/core.sublime-workspace"
-			],
-			[
-				"bm",
-				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
 			],
 			[
 				"acmbm",
@@ -2024,10 +2108,6 @@
 			[
 				"close",
 				"/var/www/html/dotfiles/sublime-text-workspaces/core.sublime-workspace"
-			],
-			[
-				"elt",
-				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
 			],
 			[
 				"serv",
@@ -2132,10 +2212,6 @@
 			[
 				"acmebra",
 				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-brand-guidelines.sublime-project"
-			],
-			[
-				"dia",
-				"/var/www/html/dotfiles/sublime-text-workspaces/dialogue.sublime-workspace"
 			],
 			[
 				"store",

@@ -4,8 +4,88 @@
 		"selected_items":
 		[
 			[
+				"openca",
+				"openClass"
+			],
+			[
+				"anima",
+				"animation-timing-function"
+			],
+			[
+				"animation",
+				"animation-iteration-count"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"close",
+				"closeAllExcept"
+			],
+			[
+				"parens",
+				"parentCloseStopClass"
+			],
+			[
+				"open",
+				"openToggles"
+			],
+			[
 				"col",
-				"col-sm-6"
+				"color"
+			],
+			[
+				"transi",
+				"transition-property"
+			],
+			[
+				"opento",
+				"openToggles"
+			],
+			[
+				"op",
+				"options"
+			],
+			[
+				"toggcla",
+				"togglerClass"
+			],
+			[
+				"opn",
+				"openToggles"
+			],
+			[
+				"optsi",
+				"options"
+			],
+			[
+				"cont",
+				"container"
+			],
+			[
+				"togcla",
+				"togglerClass"
+			],
+			[
+				"com",
+				"common"
+			],
+			[
+				"src",
+				"source\tTag"
+			],
+			[
+				"var",
+				"var-jquery-selector\tmw-js-document"
+			],
+			[
+				"3d",
+				"rotate3d()"
+			],
+			[
+				"trans",
+				"transition-duration"
 			],
 			[
 				"colo",
@@ -18,10 +98,6 @@
 			[
 				"backgra",
 				"background-image"
-			],
-			[
-				"transi",
-				"transition-timing-function"
 			],
 			[
 				"transai",
@@ -103,6 +179,123 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/var/www/html/codex/toggleContainerClass.js",
+			"settings":
+			{
+				"buffer_size": 2928,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/codex/general.css",
+			"settings":
+			{
+				"buffer_size": 3251,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/codex/keyframe.css",
+			"settings":
+			{
+				"buffer_size": 5565,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/codex/link.css",
+			"settings":
+			{
+				"buffer_size": 931,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/codex/button.css",
+			"settings":
+			{
+				"buffer_size": 1663,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/codex/scrollThreshold.js",
+			"settings":
+			{
+				"buffer_size": 941,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/codex/common.bundle.js",
+			"settings":
+			{
+				"buffer_size": 846,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/codex/template/home.php",
+			"settings":
+			{
+				"buffer_size": 1936,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/var/www/html/codex/package.json",
+			"settings":
+			{
+				"buffer_size": 1470,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/codex/common.bundle.css",
+			"settings":
+			{
+				"buffer_size": 410,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/codex/to-top.css",
+			"settings":
+			{
+				"buffer_size": 357,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/codex/drop-menu.css",
+			"settings":
+			{
+				"buffer_size": 355,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/codex/gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 1670,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/var/www/html/codex/index.php",
+			"settings":
+			{
+				"buffer_size": 823,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -111,10 +304,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 226.0,
-		"last_filter": "save",
+		"height": 392.0,
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"close",
+				"File: Close All"
+			],
 			[
 				"save",
 				"File: Save All"
@@ -134,10 +331,6 @@
 			[
 				"menu",
 				"View: Toggle Menu"
-			],
-			[
-				"close",
-				"File: Close All"
 			],
 			[
 				"htm",
@@ -160,7 +353,7 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 449.0
+		"width": 485.0
 	},
 	"console":
 	{
@@ -185,23 +378,39 @@
 	],
 	"file_history":
 	[
+		"/var/www/html/codex/keyframe.css",
+		"/var/www/html/codex/drop-menu.css",
+		"/var/www/html/codex/common.bundle.css",
+		"/var/www/html/codex/general.css",
+		"/var/www/html/codex/toggleContainerClass.js",
+		"/var/www/html/codex/settings/ease.css",
+		"/var/www/html/codex/common.bundle.js",
+		"/var/www/html/codex/package.json",
+		"/var/www/html/codex/keyCode.js",
+		"/var/www/html/codex/template/topic/dialogue.php",
+		"/var/www/html/codex/gulpfile.js",
+		"/var/www/html/codex/scrollThreshold.js",
+		"/var/www/html/codex/template/home.php",
+		"/var/www/html/codex/index.php",
+		"/var/www/html/codex/template/topic/toggler.php",
+		"/var/www/html/codex/to-top.css",
 		"/var/www/html/codex/settings.css",
+		"/var/www/html/codex/reusable.css",
+		"/var/www/html/codex/scroll-threshold.js",
+		"/var/www/html/codex/toggle-container-class.js",
+		"/var/www/html/codex/key-codes.js",
+		"/var/www/html/codex/dist/common.bundle.js",
+		"/var/www/html/codex/portlet.css",
+		"/var/www/html/codex/ease.css",
 		"/var/www/html/codex/table.css",
 		"/var/www/html/codex/typography.css",
 		"/var/www/html/codex/spinner.css",
-		"/var/www/html/codex/reusable.css",
 		"/var/www/html/codex/reset.css",
-		"/var/www/html/codex/portlet.css",
 		"/var/www/html/codex/link.css",
-		"/var/www/html/codex/keyframe.css",
-		"/var/www/html/codex/common.bundle.css",
-		"/var/www/html/codex/general.css",
 		"/var/www/html/codex/template/topic/easing.php",
 		"/var/www/html/codex/form.css",
 		"/var/www/html/codex/index.css",
-		"/var/www/html/codex/ease.css",
 		"/var/www/html/codex/button.css",
-		"/var/www/html/codex/template/home.php",
 		"/var/www/html/codex/template/topic/alert.php",
 		"/var/www/html/codex/alert.css",
 		"/var/www/html/codex/bms-nav.css",
@@ -214,15 +423,11 @@
 		"/var/www/html/codex/template/topic/portlet.php",
 		"/var/www/html/codex/template/topic/reset.php",
 		"/var/www/html/codex/template/topic/typography.php",
-		"/var/www/html/codex/gulpfile.js",
 		"/var/www/html/codex/template/bms-menu.php",
-		"/var/www/html/codex/index.php",
-		"/var/www/html/codex/package.json",
 		"/var/www/html/codex/css/settings/ease.css",
 		"/var/www/html/codex/css/common.bundle.css",
 		"/var/www/html/codex/deployment.ini",
 		"/var/www/html/codex/.gitignore",
-		"/var/www/html/codex/dist/common.bundle.js",
 		"/var/www/html/codex/composer.json",
 		"/var/www/html/codex/deployment.log",
 		"/var/www/html/codex/css/spinner.css",
@@ -300,19 +505,7 @@
 		"/var/www/html/store/trunk/node_modules/owl-carousel-2/assets/owl.theme.default.css",
 		"/var/www/html/store/trunk/sass/common.scss",
 		"/var/www/html/store/trunk/app/skin/custom/admin/modules/account/offer/all.tpl",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/account/offer/single.tpl",
-		"/var/www/html/store/trunk/sass/checkout.scss",
-		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/account/create-update.tpl",
-		"/var/www/html/store/trunk/app/classes/frontend/modules/createaccount.php",
-		"/var/www/html/store/trunk/mustache/checkout/drop-address.mst",
-		"/var/www/html/store/trunk/app/classes/frontend/modules/checkout.php",
-		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/checkout/single.tpl",
-		"/var/www/html/store/trunk/app/skin/custom/frontend/common/_contents-products.tpl",
-		"/var/www/html/store/trunk/.htaccess",
-		"/var/www/html/store/trunk/app/classes/frontend/modules/account.php",
-		"/var/www/html/store/trunk/app/classes/frontend/modules/product.php",
-		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/product/single.tpl",
-		"/var/www/html/store/trunk/sass/_reset.scss"
+		"/var/www/html/store/trunk/app/skin/custom/admin/modules/account/offer/single.tpl"
 	],
 	"find":
 	{
@@ -360,6 +553,100 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"flipInX",
+			"In",
+			"@keyframes ",
+			"flipInX",
+			"devDependencies",
+			"stringify",
+			"csscomb",
+			"mustache",
+			"conso",
+			"keycod",
+			"togglerClass",
+			"togglerClasses",
+			"togglerClass",
+			"containerClass",
+			"togglerClass",
+			"animation-timing-function: ease;",
+			"--ease",
+			"ease",
+			"flipInX",
+			"bounce",
+			"keyCo",
+			"string",
+			"dialogueFactory",
+			"title",
+			"toggle",
+			"needle",
+			"closeAllExcept",
+			"arrayHas",
+			"position-relative",
+			"arrayHasValue",
+			"parentCloseStop",
+			"parentCloseStopClass",
+			"togglerClass",
+			"parentCloseStopClass",
+			"closeAllExcept[()]",
+			"closeAllExcept(",
+			"closeAllExcept",
+			"togglerClasses",
+			"closeAllExcept",
+			"dontClose",
+			"parentCloseStopClass",
+			"isDescendant",
+			"extend",
+			"globalEventsSet",
+			"span",
+			"70px",
+			"44px",
+			"transition-timing-function: ",
+			"closeAllExcept",
+			"openToggle",
+			"togglesKeep",
+			"openToggles",
+			"eventSetGlobal",
+			"setGlobalEvents",
+			"setGlobalEvent",
+			"button",
+			"removeClass",
+			"addClass",
+			"scrolledPastClass",
+			"classLabel",
+			"documentPosition",
+			"scrollBarPosition",
+			"delay",
+			"buttonClass",
+			"threshold",
+			"timer",
+			"data.",
+			"button",
+			";",
+			"this",
+			"timer",
+			"ScrollTop",
+			"1",
+			"drop-",
+			"drop-menu",
+			"<a href",
+			"openClass",
+			"openClassNoDot",
+			"containerClass",
+			"$",
+			"bean",
+			"document",
+			"toggleClass",
+			"togglerClass",
+			"toggleClass",
+			"toggler",
+			"toggleClass",
+			"openClass",
+			"html",
+			"toggleClass",
+			"Toggler",
+			"10deg",
+			"em",
+			"site-heading-menu-link",
 			"rrem",
 			"em",
 			"px",
@@ -393,101 +680,7 @@
 			"topic-heading",
 			"/.deployment",
 			"deployment",
-			"default",
-			"draftavd",
-			"list-style-position",
-			"package",
-			"placehold",
-			"<li>",
-			"expo",
-			"est",
-			"button",
-			"255",
-			"0",
-			".site-heading-menu {",
-			"\n.",
-			".site-heading-menu ",
-			"\"topic-container\"",
-			"topic-container",
-			"ffffff",
-			"ff5722",
-			"topic-easing",
-			"animation-timing-function:",
-			"html",
-			"foreach",
-			"100",
-			"animation",
-			"include",
-			"cubic-bezier",
-			"ease",
-			": cubic-bezier(",
-			"/gulp/",
-			"csscomb",
-			"form-select",
-			"grid-pagination-select",
-			"fadeIn",
-			"dist",
-			"body-inner-container",
-			"@keyframes ",
-			"<?",
-			"2",
-			"1",
-			".npm-version {",
-			"border-radius: 5px;",
-			"5px",
-			"radius",
-			"example-radio",
-			"<input id=\"example-radio\" name=\"example\" type=\"radio\">",
-			"\">Example Label</label>",
-			"dist",
-			"blockquote",
-			"margin",
-			"box-shadow",
-			" label > input",
-			"tint(10%)",
-			".site-heading-menu-link:hover {\n    transform: translateY(2px);\n    box-shadow: 0 1px 0 color(var(--background-color) shade(20%));\n}\n\n",
-			"site-heading-menu-link",
-			"-secondary",
-			"highlight",
-			".js",
-			"comb",
-			".nav-main-eisa-wording-container",
-			":",
-			"postcssProcesses",
-			"buffer",
-			": ",
-			"\"",
-			"Scripts can be",
-			"@if",
-			"box-sizing: content-box;",
-			"line-height",
-			"postcssCustomProperties",
-			"postcssImport",
-			"postcssCustomProperties",
-			"postcssHexrgba",
-			"postcssConditionals",
-			"postcssConditional",
-			"postcssConditionals",
-			"condition",
-			"js-smooth-scroll",
-			"Fac",
-			"postcss",
-			"view",
-			":",
-			"options",
-			"link-primary",
-			"focus",
-			":focus",
-			"eee",
-			"$color-gray-20",
-			"Id",
-			"data",
-			"customerLocation",
-			"rows",
-			"productIdSkus",
-			"idSkus",
-			"Occ",
-			"Occurence"
+			"default"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -540,8 +733,401 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/var/www/html/codex/toggleContainerClass.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2928,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								941,
+								941
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 608.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/var/www/html/codex/general.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3251,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1041,
+								1072
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 635.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/var/www/html/codex/keyframe.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5565,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4624,
+								4631
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 6156.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/var/www/html/codex/link.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 931,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								614
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 552.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/var/www/html/codex/button.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1663,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1663
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 528.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/var/www/html/codex/scrollThreshold.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 941,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 568.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/var/www/html/codex/common.bundle.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 846,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								54,
+								54
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 616.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/var/www/html/codex/template/home.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1936,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								505,
+								550
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 179.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/var/www/html/codex/package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1470,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								542,
+								542
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 242.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/var/www/html/codex/common.bundle.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 410,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								265,
+								265
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 216.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/var/www/html/codex/to-top.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 357,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								357,
+								357
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 432.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/var/www/html/codex/drop-menu.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 355,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 352.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/var/www/html/codex/gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1670,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1096,
+								1096
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 179.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/var/www/html/codex/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 823,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								645,
+								645
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 384.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -598,6 +1184,170 @@
 		"selected_items":
 		[
 			[
+				"key",
+				"keyframe.css"
+			],
+			[
+				"gener",
+				"general.css"
+			],
+			[
+				"combun",
+				"common.bundle.css"
+			],
+			[
+				"link",
+				"link.css"
+			],
+			[
+				"totop",
+				"to-top.css"
+			],
+			[
+				"combuncs",
+				"common.bundle.css"
+			],
+			[
+				"home",
+				"template/home.php"
+			],
+			[
+				"combunjs",
+				"common.bundle.js"
+			],
+			[
+				".js",
+				"scrollThreshold.js"
+			],
+			[
+				"butt",
+				"button.css"
+			],
+			[
+				"genr",
+				"general.css"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"",
+				"drop-menu.css"
+			],
+			[
+				"menu",
+				"drop-menu.css"
+			],
+			[
+				"combunc",
+				"common.bundle.css"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"commbund",
+				"common.bundle.js"
+			],
+			[
+				"eas",
+				"settings/ease.css"
+			],
+			[
+				"comb",
+				"common.bundle.css"
+			],
+			[
+				"comcs",
+				"common.bundle.css"
+			],
+			[
+				"togcon",
+				"toggleContainerClass.js"
+			],
+			[
+				"drop",
+				"drop-menu.css"
+			],
+			[
+				"keyf",
+				"keyframe.css"
+			],
+			[
+				"combundjs",
+				"common.bundle.js"
+			],
+			[
+				"keyc",
+				"keyCode.js"
+			],
+			[
+				"gul",
+				"gulpfile.js"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"topic",
+				"template/topic/toggler.php"
+			],
+			[
+				"keyco",
+				"keyCode.js"
+			],
+			[
+				"topic/",
+				"template/topic/toggler.php"
+			],
+			[
+				"scrolth",
+				"scroll-threshold.js"
+			],
+			[
+				"set",
+				"settings.css"
+			],
+			[
+				"gene",
+				"general.css"
+			],
+			[
+				"thre",
+				"scroll-threshold.js"
+			],
+			[
+				"dr",
+				"drop-menu.css"
+			],
+			[
+				"reusa",
+				"reusable.css"
+			],
+			[
+				"rese",
+				"template/topic/reset.php"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"esa",
+				"ease.css"
+			],
+			[
+				"port",
+				"portlet.css"
+			],
+			[
 				"setting",
 				"settings.css"
 			],
@@ -618,10 +1368,6 @@
 				"reusable.css"
 			],
 			[
-				"rese",
-				"reset.css"
-			],
-			[
 				"por",
 				"portlet.css"
 			],
@@ -630,28 +1376,8 @@
 				"link.css"
 			],
 			[
-				"keyf",
-				"keyframe.css"
-			],
-			[
-				"combun",
-				"common.bundle.css"
-			],
-			[
 				"easing",
 				"template/topic/easing.php"
-			],
-			[
-				"gener",
-				"general.css"
-			],
-			[
-				"comb",
-				"common.bundle.css"
-			],
-			[
-				"inde",
-				"index.css"
 			],
 			[
 				"gne",
@@ -662,20 +1388,8 @@
 				"form.css"
 			],
 			[
-				"eas",
-				"ease.css"
-			],
-			[
-				"combunc",
-				"common.bundle.css"
-			],
-			[
 				"but",
 				"button.css"
-			],
-			[
-				"",
-				"alert.css"
 			],
 			[
 				"bmna",
@@ -686,10 +1400,6 @@
 				"alert.css"
 			],
 			[
-				"reusa",
-				"reusable.css"
-			],
-			[
 				"sett",
 				"settings.css"
 			],
@@ -698,32 +1408,12 @@
 				"template/topic/alert.php"
 			],
 			[
-				"home",
-				"template/home.php"
-			],
-			[
 				"genera",
 				"general.css"
 			],
 			[
-				"combuncs",
-				"common.bundle.css"
-			],
-			[
-				"gulp",
-				"gulpfile.js"
-			],
-			[
-				"pack",
-				"package.json"
-			],
-			[
 				"ease",
 				"css/settings/ease.css"
-			],
-			[
-				"index",
-				"index.php"
 			],
 			[
 				"composer",
@@ -746,10 +1436,6 @@
 				"css/common.bundle.css"
 			],
 			[
-				"link",
-				"css/link.css"
-			],
-			[
 				"typog",
 				"css/typography.css"
 			],
@@ -764,22 +1450,6 @@
 			[
 				"form",
 				"css/form.css"
-			],
-			[
-				"butt",
-				"css/button.css"
-			],
-			[
-				"gene",
-				"css/general.css"
-			],
-			[
-				"commbund",
-				"css/common.bundle.css"
-			],
-			[
-				"key",
-				"css/keyframe.css"
 			],
 			[
 				"general",
@@ -806,20 +1476,12 @@
 				"css/reset.css"
 			],
 			[
-				"packa",
-				"package.json"
-			],
-			[
 				"reu",
 				"css/reusable.css"
 			],
 			[
 				"pakca",
 				"package.json"
-			],
-			[
-				"keyc",
-				"js/keyCode.js"
 			],
 			[
 				"ty",
@@ -1010,10 +1672,6 @@
 				"feedback-queue.css"
 			],
 			[
-				".js",
-				"utility/url.js"
-			],
-			[
 				"feedsingle",
 				"template/mst/feedback/single.mst"
 			],
@@ -1036,78 +1694,6 @@
 			[
 				"soapcurr",
 				"royal-mail-shipping-api/dan/soap-current-attempt-request.xml"
-			],
-			[
-				"initspa",
-				"royal-mail-shipping-api/init-soap.php"
-			],
-			[
-				"royalindex",
-				"royal-mail-shipping-api/index.php"
-			],
-			[
-				"initsoa",
-				"royal-mail-shipping-api/init-soap.php"
-			],
-			[
-				"comtem",
-				"app/classes/common/template.php"
-			],
-			[
-				"invpro",
-				"app/classes/inventory/product.php"
-			],
-			[
-				"invprod",
-				"app/classes/inventory/product.php"
-			],
-			[
-				"adminmodprodbunpro",
-				"app/skin/custom/admin/modules/products/bundle/_product.tpl"
-			],
-			[
-				"adminajaxmodbundle",
-				"app/classes/admin/ajax/modules/bundle.php"
-			],
-			[
-				"adminmodprod",
-				"app/classes/admin/modules/products.php"
-			],
-			[
-				"categorscs",
-				"sass/category.scss"
-			],
-			[
-				"frontpromotion",
-				"app/skin/custom/frontend/modules/product/_promotion.tpl"
-			],
-			[
-				"invpromot",
-				"app/classes/inventory/promotion.php"
-			],
-			[
-				"storagepromot",
-				"app/classes/storage/promotion.php"
-			],
-			[
-				"adminmodpromo",
-				"app/classes/admin/modules/promotion.php"
-			],
-			[
-				"adminmodpromotion",
-				"app/classes/admin/modules/promotion.php"
-			],
-			[
-				"homejs",
-				"js/home.js"
-			],
-			[
-				"prodsingle",
-				"js/product/single.js"
-			],
-			[
-				"owlcathem",
-				"node_modules/owl-carousel-2/assets/owl.theme.default.css"
 			]
 		],
 		"width": 0.0
@@ -1123,20 +1709,28 @@
 				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
 			],
 			[
-				"code",
-				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"
-			],
-			[
 				"bms",
 				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
 			],
 			[
-				"core",
-				"/var/www/html/dotfiles/sublime-text-workspaces/core.sublime-workspace"
+				"dia",
+				"/var/www/html/dotfiles/sublime-text-workspaces/dialogue.sublime-workspace"
 			],
 			[
 				"bm",
 				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
+			],
+			[
+				"elt",
+				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"code",
+				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
+				"core",
+				"/var/www/html/dotfiles/sublime-text-workspaces/core.sublime-workspace"
 			],
 			[
 				"store",
@@ -1156,10 +1750,6 @@
 			],
 			[
 				"dialo",
-				"/var/www/html/dotfiles/sublime-text-workspaces/dialogue.sublime-workspace"
-			],
-			[
-				"dia",
 				"/var/www/html/dotfiles/sublime-text-workspaces/dialogue.sublime-workspace"
 			],
 			[
@@ -1213,10 +1803,6 @@
 			[
 				"sor",
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
-			],
-			[
-				"elt",
-				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
 			],
 			[
 				"urk",

@@ -300,26 +300,27 @@
 	"buffers":
 	[
 		{
-			"file": "/var/www/html/elttl/src/Mapper/Options.php",
+			"file": "/var/www/html/elttl/config.php",
 			"settings":
 			{
-				"buffer_size": 630,
+				"buffer_size": 441,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/var/www/html/elttl/sql/definition.sql",
+			"file": "/var/www/html/elttl/package.json",
 			"settings":
 			{
-				"buffer_size": 12543,
+				"buffer_size": 1284,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/var/www/html/elttl/services.php",
+			"file": "/var/www/html/elttl/gulpfile.js",
 			"settings":
 			{
-				"buffer_size": 2831,
+				"buffer_size": 4801,
 				"line_ending": "Unix"
 			}
 		}
@@ -431,6 +432,9 @@
 	],
 	"file_history":
 	[
+		"/var/www/html/elttl/src/Mapper/Options.php",
+		"/var/www/html/elttl/sql/definition.sql",
+		"/var/www/html/elttl/services.php",
 		"/home/martin/Documents/backup/sql/elttl_2-remote-12-04-2017.sql",
 		"/var/www/html/elttl/src/Controller/Admin/Team.php",
 		"/var/www/html/elttl/routeAdmin.php",
@@ -446,7 +450,6 @@
 		"/var/www/html/elttl/src/Middleware/Admin/Auth.php",
 		"/var/www/html/elttl/template/admin/tennis/player/all.php",
 		"/var/www/html/elttl/src/Controller/Admin/Player.php",
-		"/var/www/html/elttl/services.php",
 		"/var/www/html/elttl/src/Repository/Team.php",
 		"/var/www/html/elttl/src/Repository/Encounter.php",
 		"/var/www/html/elttl/config.php",
@@ -556,9 +559,7 @@
 		"/var/www/html/elttl/src/Admin/Controller/Ad.php",
 		"/var/www/html/elttl/src/Controller/Ajax/User.php",
 		"/var/www/html/elttl/src/Controller/User.php",
-		"/var/www/html/elttl/vendor/mwyatt/core/src/AbstractController.php",
-		"/var/www/html/elttl/js/admin/login.bundle.js",
-		"/var/www/html/elttl/js/admin/user/single.bundle.js"
+		"/var/www/html/elttl/vendor/mwyatt/core/src/AbstractController.php"
 	],
 	"find":
 	{
@@ -600,6 +601,10 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"concat",
+			"jsLibs",
+			"mustache",
+			"root",
 			"ALTER",
 			"options",
 			"\\",
@@ -723,11 +728,7 @@
 			"fixtures",
 			"findByYearIdTeamId",
 			"uasort",
-			"sort",
-			"uasort",
-			"fixtures",
-			"findByYearIdTeamIdLeftOrTeamIdRight",
-			"findFulfilledByYearIdTeamIdLeftOrTeamIdRight"
+			"sort"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -839,31 +840,31 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/var/www/html/elttl/src/Mapper/Options.php",
+					"file": "/var/www/html/elttl/config.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 630,
+						"buffer_size": 441,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								630,
-								630
+								244,
+								244
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
-						"translation.x": 632.0,
+						"translation.x": 328.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -872,58 +873,58 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/var/www/html/elttl/sql/definition.sql",
+					"file": "/var/www/html/elttl/package.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12543,
+						"buffer_size": 1284,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5864,
-								5864
+								579,
+								607
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SQL/SQL.sublime-syntax"
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 3058.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "/var/www/html/elttl/services.php",
+					"file": "/var/www/html/elttl/gulpfile.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2831,
+						"buffer_size": 4801,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								815,
-								1018
+								91,
+								91
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
-						"translation.x": 0.0,
-						"translation.y": 63.0,
+						"translation.x": 608.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -981,6 +982,18 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"config",
+				"config-sample.php"
+			],
 			[
 				"servi",
 				"services.php"
@@ -1044,10 +1057,6 @@
 			[
 				"maperfix",
 				"src/Mapper/Fixture.php"
-			],
-			[
-				"config",
-				"config.php"
 			],
 			[
 				"modelteam",
@@ -1180,14 +1189,6 @@
 			[
 				"gitign",
 				".gitignore"
-			],
-			[
-				"packa",
-				"package.json"
-			],
-			[
-				"gulp",
-				"gulpfile.js"
 			],
 			[
 				"generalc",
