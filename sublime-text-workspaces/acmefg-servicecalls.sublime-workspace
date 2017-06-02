@@ -524,6 +524,14 @@
 			}
 		},
 		{
+			"file": "/var/www/html/servicecalls/.htaccess",
+			"settings":
+			{
+				"buffer_size": 133,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "/var/www/html/servicecalls/service-mail.php",
 			"settings":
 			{
@@ -976,7 +984,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -1002,11 +1010,11 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
+						"translation.x": 640.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
@@ -1032,11 +1040,11 @@
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
+						"translation.x": 632.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -1066,7 +1074,7 @@
 						"translation.y": 69.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -1090,11 +1098,11 @@
 						{
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
-						"translation.x": 0.0,
+						"translation.x": 632.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -1120,11 +1128,11 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
+						"translation.x": 392.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -1154,11 +1162,39 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 6,
+					"file": "/var/www/html/servicecalls/.htaccess",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 133,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								133
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
 					"file": "/var/www/html/servicecalls/service-mail.php",
 					"semi_transient": false,
 					"settings":
@@ -1180,15 +1216,15 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
+						"translation.x": 592.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"file": "/var/www/html/servicecalls/ui/enquiry-client-equipment.bundle.js",
 					"semi_transient": false,
 					"settings":
@@ -1210,11 +1246,11 @@
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
+						"translation.x": 632.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 7,
 					"type": "text"
 				}
 			]
@@ -1268,6 +1304,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"htacc",
+				".htaccess"
+			],
 			[
 				"con",
 				"config-remote.php"
@@ -1411,10 +1451,6 @@
 			[
 				"1.s",
 				"sql/1.sql"
-			],
-			[
-				"htacc",
-				".htaccess"
 			],
 			[
 				"foo",
@@ -1791,7 +1827,7 @@
 		[
 			[
 				"",
-				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
+				"/var/www/html/dotfiles/sublime-text-workspaces/appraisal.sublime-project"
 			],
 			[
 				"mb",

@@ -14,4 +14,5 @@
   <property name="last-details-view-column-widths" type="string" value="50,270,50,50,502,50,50,70,130"/>
   <property name="last-sort-column" type="string" value="THUNAR_COLUMN_DATE_MODIFIED"/>
   <property name="last-sort-order" type="string" value="GTK_SORT_DESCENDING"/>
+  <property name="last-show-hidden" type="bool" value="true"/>
 </channel>
