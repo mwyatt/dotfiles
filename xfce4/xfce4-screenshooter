@@ -3,6 +3,6 @@ region=1
 action=3
 show_mouse=0
 screenshot_dir=file:/home/martin/Pictures
-app=ristretto
+app=/usr/bin/display.im6
 last_user=
 

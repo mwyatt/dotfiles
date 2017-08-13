@@ -223,59 +223,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/var/www/html/pentlandwholesale/search-orders.php",
-			"settings":
-			{
-				"buffer_size": 8399,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "Searching 565 files for \"The information transmitted\" (case sensitive)\n\n0 matches\n\nSearching 565 files for \"New Web Order\" (case sensitive)\n\n/var/www/html/pentlandwholesale/checkout.php:\n   87  \t\t\t\t$to = \"sales@pentlandwholesale.co.uk, stephen.solademi@acmefg.com\"; // this is your Email address\n   88  \t\t\t\t$from = $loggedInUser->email; // this is the sender's Email address\n   89: \t\t\t\t$subject = \"New Web Order - WEB\" . $order_number;\n   90  \t\t\t\t$subject2 = \"Web Order Number - WEB\" . $order_number;\n   91  \t\t\t\t$message = $user_name . \" with sales code \" . $customer_code . \" has placed a new web order. Enter the order number without the WEB in http://www.pentlandwholesale.co.uk/search-orders.php to see the full order.\" . \"\\n\\n\" ;\n\n1 match in 1 file\n\n\nSearching 565 files for \"Search_Order\" (case sensitive)\n\n/var/www/html/pentlandwholesale/QUERIES.txt:\n   55  \n   56  \n   57: CREATE VIEW Search_Order AS SELECT `cartitem`.`Web Stock Reference`,`cartitem`.`quantity`,`cartitem`.`your_price`, `order`.`id`, `order`.`completed`  FROM `order`, `completed_cart`, `cartitem` WHERE `order`.`cart_id` = `completed_cart`.`cart_id` AND `completed_cart`.`cart_id` = `cartitem`.`cart_id` AND `order`.`cart_id` = `cartitem`.`cart_id` GROUP BY  `cartitem`.`Web Stock Reference`\n   58  \n   59: SELECT * FROM `Search_Order` WHERE `id` = '$order_number\n   60  \n   61  SELECT `order`.`id`, `order`.`created`, `order`.`delivery_address`, `cartitem`.`Web Stock Reference`, `cartitem`.`quantity`, `cartitem`.`your_price` FROM `order`, `completed_cart`, `cartitem` WHERE `order`.`cart_id` = `completed_cart`.`cart_id` AND `completed_cart`.`cart_id` = `cartitem`.`cart_id` AND `order`.`cart_id` = `cartitem`.`cart_id` AND `completed_cart`.`email` = 'stephen.solademi@acmefg.com'\n\n/var/www/html/pentlandwholesale/completed-orders.php:\n   53  $order_number = mysql_escape_string($_POST['number']);\n   54  \n   55: $query = \"SELECT * FROM `Search_Order` WHERE `id` = '$order_number' AND `completed` = 'yes'\";\n   56  $result = mysql_query($query);\n   57  \n\n/var/www/html/pentlandwholesale/previous-orders.php:\n   64  \t$time = date(\"d-m-Y\", strtotime($created));\n   65  \t\n   66: $query = \"SELECT * FROM `Search_Order` WHERE `id` = '$order_number'\";\n   67  $result = mysql_query($query);\n   68  ?>\n\n/var/www/html/pentlandwholesale/queries.txt:\n   45  \n   46  \n   47: CREATE VIEW Search_Order AS SELECT `cartitem`.`Web Stock Reference`,`cartitem`.`quantity`,`cartitem`.`your_price`, `order`.`id`  FROM `order`, `completed_cart`, `cartitem` WHERE `order`.`cart_id` = `completed_cart`.`cart_id` AND `completed_cart`.`cart_id` = `cartitem`.`cart_id` AND `order`.`cart_id` = `cartitem`.`cart_id` GROUP BY  `cartitem`.`Web Stock Reference`\n   48  \n   49: SELECT * FROM `Search_Order` WHERE `id` = '$order_number\n   50  \n   51  SELECT `order`.`id`, `order`.`created`, `order`.`delivery_address`, `cartitem`.`Web Stock Reference`, `cartitem`.`quantity`, `cartitem`.`your_price` FROM `order`, `completed_cart`, `cartitem` WHERE `order`.`cart_id` = `completed_cart`.`cart_id` AND `completed_cart`.`cart_id` = `cartitem`.`cart_id` AND `order`.`cart_id` = `cartitem`.`cart_id` AND `completed_cart`.`email` = 'stephen.solademi@acmefg.com'\n\n/var/www/html/pentlandwholesale/search-orders.php:\n   53  $order_number = mysql_escape_string($_POST['number']);\n   54  \n   55: $query = \"SELECT * FROM `Search_Order` WHERE `id` = '$order_number' AND `completed` = 'no'\";\n   56  $result = mysql_query($query);\n   57  \n\n7 matches across 5 files\n",
-			"settings":
-			{
-				"buffer_size": 3495,
-				"line_ending": "Unix",
-				"name": "Find Results",
-				"scratch": true
-			}
-		},
-		{
-			"file": "/var/www/html/pentlandwholesale/queries.txt",
-			"settings":
-			{
-				"buffer_size": 2494,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/pentlandwholesale/checkout.php",
-			"settings":
-			{
-				"buffer_size": 6502,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/pentlandwholesale/cart.php",
-			"settings":
-			{
-				"buffer_size": 10652,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/pentlandwholesale/dbsettings.php",
-			"settings":
-			{
-				"buffer_size": 142,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -284,10 +231,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 354.0,
-		"last_filter": "",
+		"height": 121.0,
+		"last_filter": "mini",
 		"selected_items":
 		[
+			[
+				"mini",
+				"View: Toggle Minimap"
+			],
 			[
 				"close",
 				"File: Close All"
@@ -373,7 +324,7 @@
 				"Set Syntax: PHP"
 			]
 		],
-		"width": 557.0
+		"width": 575.0
 	},
 	"console":
 	{
@@ -398,28 +349,43 @@
 	],
 	"file_history":
 	[
-		"/var/www/html/pentlandwholesale/login.php",
+		"/var/www/html/pentlandwholesale/js/jquery.slicknav.js",
+		"/var/www/html/pentlandwholesale/header.php",
+		"/var/www/html/pentlandwholesale/models/db-settings-remote.php",
+		"/var/www/html/pentlandwholesale/models/db-settings.php",
 		"/var/www/html/pentlandwholesale/dbsettings.php",
 		"/var/www/html/pentlandwholesale/product.php",
+		"/var/www/html/pentlandwholesale/cart.php",
+		"/var/www/html/pentlandwholesale/.htaccess",
+		"/var/www/html/pentlandwholesale/search/settings/database.php",
+		"/var/www/html/pentlandwholesale/models/config.php",
+		"/var/www/html/pentlandwholesale/.gitignore",
+		"/var/www/html/pentlandwholesale/index.php",
+		"/var/www/html/pentlandwholesale/search/settings/database-remote.php",
+		"/var/www/html/pentlandwholesale/.htaccess-remote",
+		"/home/martin/Downloads/pentland_website (2).sql",
+		"/var/www/html/pentlandwholesale/meet-our-team.php",
+		"/var/www/html/pentlandwholesale/search-orders.php",
+		"/var/www/html/pentlandwholesale/queries.txt",
+		"/var/www/html/pentlandwholesale/checkout.php",
+		"/home/martin/Downloads/pentland_website (1).sql",
+		"/var/www/html/pentlandwholesale/search/sql/tables.sql",
+		"/var/www/html/pentlandwholesale/login.php",
 		"/var/www/html/pentlandwholesale/QUERIES.txt",
 		"/var/www/html/pentlandwholesale/delivery.php",
 		"/var/www/html/pentlandwholesale/videos.php",
-		"/var/www/html/pentlandwholesale/header.php",
 		"/var/www/html/pentlandwholesale/footer.php",
 		"/var/www/html/pentlandwholesale/literature-download.php",
 		"/home/martin/.vimrc",
 		"/var/www/html/pentlandwholesale/sales-code.php",
 		"/var/www/html/pentlandwholesale/account.php",
 		"/var/www/html/pentlandwholesale/funcs.php",
-		"/var/www/html/pentlandwholesale/meet-our-team.php",
 		"/var/www/html/pentlandwholesale/files/specifications/specification.php",
 		"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-brand-guidelines.sublime-workspace",
 		"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-brand-guidelines.sublime-project",
 		"/var/www/html/pentlandwholesale/files/specifications/fpdf.php",
 		"/var/www/html/pentlandwholesale/files/specifications/fpdf.css",
-		"/var/www/html/pentlandwholesale/index.php",
 		"/home/martin/Downloads/pentland_website.sql",
-		"/var/www/html/pentlandwholesale/.gitignore",
 		"/var/www/html/pentlandwholesale/snow/.gitignore",
 		"/var/www/html/pentlandwholesale/dbsettings-sample.php",
 		"/var/www/html/pentlandwholesale/style.css",
@@ -510,22 +476,7 @@
 		"/var/www/html/appraisal/resend-activation.php",
 		"/var/www/html/appraisal/assets/chart-master/site/index.html",
 		"/var/www/html/appraisal/assets/ckeditor/samples/inlineall.html",
-		"/var/www/html/appraisal/assets/ckeditor/samples/inlinebycode.html",
-		"/var/www/html/appraisal/assets/ckeditor/samples/uilanguages.html",
-		"/var/www/html/appraisal/assets/ckeditor/samples/plugins/htmlwriter/outputforflash.html",
-		"/var/www/html/appraisal/assets/ckeditor/samples/plugins/dialog/dialog.html",
-		"/var/www/html/appraisal/assets/jquery-file-upload/index.html",
-		"/var/www/html/appraisal/assets/jquery-knob/index.html",
-		"/var/www/html/appraisal/src/Controller/Error.php",
-		"/var/www/html/appraisal/src/Repository/User.php",
-		"/var/www/html/appraisal/submanap.php",
-		"/var/www/html/appraisal/cache/log/error-2017-01-30.log",
-		"/var/www/html/appraisal/vendor/mwyatt/core/src/Database/Pdo.php",
-		"/home/martin/.config/sublime-text-3/Packages/User/mw-php-controller-get-query.sublime-snippet",
-		"/var/www/html/appraisal/vendor/mwyatt/core/src/AbstractIterator.php",
-		"/var/www/html/appraisal/vendor/mwyatt/core/src/Request.php",
-		"/var/www/html/appraisal/src/Model/Question.php",
-		"/var/www/html/appraisal/vendor/mwyatt/core/src/RequestInterface.php"
+		"/var/www/html/appraisal/assets/ckeditor/samples/inlinebycode.html"
 	],
 	"find":
 	{
@@ -547,6 +498,67 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"main",
+			"============================================",
+			" href=\"/",
+			"stylesheet",
+			"/css/",
+			"href=\"/",
+			"link",
+			"<",
+			"responsive.css",
+			"123qweasdzxc",
+			"pentland_stephen",
+			"localhost",
+			"_POST",
+			" />",
+			"POST",
+			"cart",
+			"your_price",
+			"Your Price",
+			"`Location Code` =",
+			"inventoryqueryresult",
+			"row",
+			"tinventory",
+			"Location",
+			"Pentland LIVE$",
+			"`Inventory`",
+			"tinventory",
+			"Stock",
+			"<?php",
+			"Pentland_Website_Information",
+			"FROM",
+			"Pentland_Website_Information",
+			"result2",
+			"FROM",
+			"your_price",
+			"from",
+			"Special_Price",
+			"your_price",
+			"FROM",
+			"Paul R",
+			"Sharon",
+			"Nathan",
+			"Dean.",
+			"Dean Sim",
+			"Anne",
+			"2016",
+			"2016 Eq",
+			"LIVE$Item Ledger Entry",
+			"VIEW",
+			"AS",
+			"Inventory",
+			"Whse",
+			"Warehouse",
+			"`Remaining Quantity`",
+			"Inventory",
+			"tinventory",
+			"treserve",
+			"$t = ",
+			"answer",
+			"tinventory",
+			"Inventory",
+			"FROM",
 			"Search_Order",
 			"INSERT INTO",
 			"New Web Order",
@@ -613,68 +625,7 @@
 			"alter column",
 			"usersReminderNeeded",
 			"$usersReminderNeeded[]",
-			"yearSent",
-			"'reminder@appraisal.acmefg.com'",
-			"mail(",
-			"captcha",
-			"forgotPassword",
-			"remember-me",
-			"newTemplateMsg",
-			"building email tem",
-			"forgotPassword",
-			"adminUsers",
-			"loginLogs",
-			"managerList",
-			"manager",
-			"id",
-			"header",
-			"mysql_escape_string",
-			"managerList",
-			"managerSingleSubmit",
-			"managerEditSubmit",
-			"managerList",
-			"adminPage",
-			"ages",
-			"admin_page?",
-			"ermission",
-			"s'",
-			"a href",
-			"href",
-			"adminUser",
-			"adminPermissions",
-			"adminUser",
-			"<form",
-			"admin_user",
-			"adminUsers",
-			"adminConfiguration",
-			"employeeForm",
-			"$time",
-			"monthCurrent",
-			"appmonth",
-			"mailSentAlready",
-			"employeeForm",
-			"employeeForms",
-			"alreadyFilled",
-			"employeeForm",
-			"alreadyFilled",
-			"employeeForm",
-			"uasort",
-			"hash_pw",
-			"$lang = ",
-			"GLOBAL",
-			"        ",
-			"\n        ",
-			"str",
-			"lang(",
-			"No language key",
-			"hash_pw",
-			"userSettings",
-			"'profile'",
-			"('",
-			"profile",
-			"generate('profile",
-			"userSettings",
-			"employeeFormSubmit"
+			"yearSent"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -701,224 +652,8 @@
 	"groups":
 	[
 		{
-			"selected": 4,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/var/www/html/pentlandwholesale/search-orders.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8399,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1779,
-								1779
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 987.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3495,
-						"regions":
-						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										398,
-										411
-									],
-									[
-										893,
-										905
-									],
-									[
-										1299,
-										1311
-									],
-									[
-										1918,
-										1930
-									],
-									[
-										2180,
-										2192
-									],
-									[
-										2354,
-										2366
-									],
-									[
-										2739,
-										2751
-									],
-									[
-										3355,
-										3367
-									]
-								],
-								"scope": ""
-							}
-						},
-						"selection":
-						[
-							[
-								2361,
-								2361
-							]
-						],
-						"settings":
-						{
-							"detect_indentation": false,
-							"line_numbers": false,
-							"output_tag": 3,
-							"result_base_dir": "",
-							"result_file_regex": "^([^ \t].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 735.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/var/www/html/pentlandwholesale/queries.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2494,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2494,
-								2494
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 730.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/var/www/html/pentlandwholesale/checkout.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6502,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5191,
-								5191
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 2258.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/var/www/html/pentlandwholesale/cart.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10652,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5302,
-								5302
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 3948.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/var/www/html/pentlandwholesale/dbsettings.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 142,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 288.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -971,20 +706,92 @@
 		"selected_items":
 		[
 			[
-				"loginphp",
-				"login.php"
+				"slicknav",
+				"js/jquery.slicknav.js"
+			],
+			[
+				"db-setting",
+				"models/db-settings.php"
+			],
+			[
+				"dbsetting",
+				"dbsettings.php"
+			],
+			[
+				"remote",
+				"models/db-settings-remote.php"
+			],
+			[
+				"head",
+				"header.php"
+			],
+			[
+				"db-sett",
+				"models/db-settings.php"
+			],
+			[
+				"modelconfig",
+				"models/config.php"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"dbs",
+				"dbsettings.php"
+			],
+			[
+				"dbsett",
+				"dbsettings.php"
+			],
+			[
+				"ignore",
+				".gitignore"
+			],
+			[
+				"datab",
+				"search/settings/database.php"
+			],
+			[
+				"htacc",
+				".htaccess"
+			],
+			[
+				"hea",
+				"header.php"
 			],
 			[
 				"cart",
 				"cart.php"
 			],
 			[
-				"chek",
-				"checkout.php"
+				"produc",
+				"product.php"
 			],
 			[
-				"dbs",
-				"dbsettings.php"
+				"produ",
+				"product.php"
+			],
+			[
+				"meet",
+				"meet-our-team.php"
+			],
+			[
+				"",
+				"product.php"
+			],
+			[
+				"sql",
+				"search/sql/tables.sql"
+			],
+			[
+				"loginphp",
+				"login.php"
+			],
+			[
+				"chek",
+				"checkout.php"
 			],
 			[
 				"dbse",
@@ -1003,10 +810,6 @@
 				"product.php"
 			],
 			[
-				"produc",
-				"product.php"
-			],
-			[
 				"deliv",
 				"delivery.php"
 			],
@@ -1019,10 +822,6 @@
 				"footer.php"
 			],
 			[
-				"head",
-				"header.php"
-			],
-			[
 				"literat",
 				"literature-download.php"
 			],
@@ -1033,10 +832,6 @@
 			[
 				"litera",
 				"literature-download.php"
-			],
-			[
-				"meet",
-				"meet-our-team.php"
 			],
 			[
 				"specif",
@@ -1053,10 +848,6 @@
 			[
 				"fpd",
 				"files/specifications/fpdf.css"
-			],
-			[
-				"index",
-				"index.php"
 			],
 			[
 				"video",
@@ -1087,10 +878,6 @@
 				".htaccess"
 			],
 			[
-				"htacc",
-				".htaccess"
-			],
-			[
 				"templateload",
 				"wordpress/wp-includes/template-loader.php"
 			],
@@ -1101,10 +888,6 @@
 			[
 				"wpbloghea",
 				"wordpress/wp-blog-header.php"
-			],
-			[
-				"",
-				"src/Controller.php"
 			],
 			[
 				"route",
@@ -1335,10 +1118,6 @@
 				"models/funcs.php"
 			],
 			[
-				"dbsett",
-				"models/db-settings.php"
-			],
-			[
 				"config",
 				"models/config.php"
 			],
@@ -1437,50 +1216,6 @@
 			[
 				"templteques",
 				"template/questions.php"
-			],
-			[
-				"contro",
-				"src/Controller.php"
-			],
-			[
-				"templateques",
-				"template/questions.php"
-			],
-			[
-				"manapdue",
-				"template/mail/manager-appraisal-due.php"
-			],
-			[
-				"submanap",
-				"template/submanap.php"
-			],
-			[
-				"modeluser",
-				"src/Model/User.php"
-			],
-			[
-				"appstatus",
-				"src/Model/AppStatus.php"
-			],
-			[
-				"modelapps",
-				"src/Model/AppStatus.php"
-			],
-			[
-				"repoque",
-				"src/Repository/Questions.php"
-			],
-			[
-				"mapperques",
-				"src/Mapper/Questions.php"
-			],
-			[
-				"mpperques",
-				"src/Mapper/Question.php"
-			],
-			[
-				"repoqus",
-				"src/Repository/Question.php"
 			]
 		],
 		"width": 0.0
@@ -1494,6 +1229,30 @@
 			[
 				"",
 				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
+			],
+			[
+				"acmefg",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-acmefg.sublime-project"
+			],
+			[
+				"bms",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
+			],
+			[
+				"apprai",
+				"/var/www/html/dotfiles/sublime-text-workspaces/appraisal.sublime-project"
+			],
+			[
+				"gameen",
+				"/var/www/html/dotfiles/sublime-text-workspaces/game-engine.sublime-workspace"
+			],
+			[
+				"bm",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
+			],
+			[
+				"game",
+				"/var/www/html/dotfiles/sublime-text-workspaces/game-engine.sublime-workspace"
 			],
 			[
 				"acmeacme",
@@ -1559,7 +1318,7 @@
 	"settings":
 	{
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": false,

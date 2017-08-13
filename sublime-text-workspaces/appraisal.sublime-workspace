@@ -846,7 +846,7 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -1021,11 +1021,11 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 520.0,
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -1204,7 +1204,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -1220,19 +1220,19 @@
 						"selection":
 						[
 							[
-								0,
-								1355
+								1194,
+								1194
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/SQL/SQL.sublime-syntax"
 						},
-						"translation.x": 0.0,
+						"translation.x": 584.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -1323,6 +1323,10 @@
 			[
 				"htacc",
 				".htaccess-remote"
+			],
+			[
+				".sql",
+				"sql/1.sql"
 			],
 			[
 				"configremo",
@@ -1827,10 +1831,6 @@
 			[
 				"mailrgis",
 				"template/mail/registration.php"
-			],
-			[
-				"regist",
-				"template/register.php"
 			]
 		],
 		"width": 0.0
@@ -1838,9 +1838,17 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "pent",
 		"selected_items":
 		[
+			[
+				"pent",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-pentlandwholesale.sublime-project"
+			],
+			[
+				"service",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-servicecalls.sublime-project"
+			],
 			[
 				"",
 				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
@@ -1906,10 +1914,6 @@
 				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
 			],
 			[
-				"service",
-				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-servicecalls.sublime-project"
-			],
-			[
 				"repor",
 				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-aeromarkreports.sublime-project"
 			],
@@ -1940,10 +1944,6 @@
 			[
 				"code",
 				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"
-			],
-			[
-				"pent",
-				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-pentlandwholesale.sublime-project"
 			],
 			[
 				"acmef",

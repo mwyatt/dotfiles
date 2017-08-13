@@ -10,6 +10,7 @@
 	"color_scheme": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
 	"detect_indentation": true,
 	"dictionary": "Packages/Language - English/en_GB.dic",
+    "ignored_words": ["php"],
 	"draw_centered": true,
 	"folder_exclude_patterns":
 	[

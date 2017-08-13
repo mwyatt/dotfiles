@@ -519,6 +519,15 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/var/www/html/crm/submit-enquiry.php",
+			"settings":
+			{
+				"buffer_size": 4112,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -527,10 +536,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 354.0,
-		"last_filter": "close",
+		"height": 392.0,
+		"last_filter": "min",
 		"selected_items":
 		[
+			[
+				"min",
+				"View: Toggle Minimap"
+			],
 			[
 				"close",
 				"File: Close All"
@@ -596,7 +609,7 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 431.0
+		"width": 485.0
 	},
 	"console":
 	{
@@ -617,13 +630,11 @@
 	},
 	"expanded_folders":
 	[
-		"/var/www/html/crm",
-		"/var/www/html/crm/sql",
-		"/var/www/html/crm/src",
-		"/var/www/html/crm/ui"
+		"/var/www/html/crm"
 	],
 	"file_history":
 	[
+		"/var/www/html/crm/.gitignore",
 		"/var/www/html/crm/index.php",
 		"/var/www/html/crm/composer.json",
 		"/var/www/html/crm/config.php",
@@ -695,7 +706,6 @@
 		"/var/www/html/crm/template/customer/single.php",
 		"/var/www/html/crm/src/Model/Enquiry.php",
 		"/var/www/html/crm/template/customer/all.php",
-		"/var/www/html/crm/.gitignore",
 		"/var/www/html/crm/template/enquiry/singleConvert.php",
 		"/var/www/html/crm/template/enquiries.php",
 		"/var/www/html/crm/ui/form.css",
@@ -755,7 +765,7 @@
 	],
 	"find":
 	{
-		"height": 70.0
+		"height": 37.0
 	},
 	"find_in_files":
 	{
@@ -825,6 +835,9 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"_POST['name",
+			"header",
+			"mysql_escape_string",
 			"tt-",
 			"ontact",
 			"contact",
@@ -949,10 +962,7 @@
 			"singleConvert",
 			"singleConvertSubmit",
 			"STR",
-			";\n",
-			"\n    ",
-			";\n",
-			"\n    "
+			";\n"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1016,8 +1026,37 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/var/www/html/crm/submit-enquiry.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4112,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								70,
+								81
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1073,6 +1112,18 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"submit",
+				"submit-enquiry.php"
+			],
+			[
+				"submienq",
+				"submit-enquiry.php"
+			],
+			[
+				"ignore",
+				".gitignore"
+			],
 			[
 				"",
 				"src/Controller.php"
@@ -1506,10 +1557,6 @@
 				"src/Service/User.php"
 			],
 			[
-				"ignore",
-				".gitignore"
-			],
-			[
 				"mappercus",
 				"src/Mapper/Customer.php"
 			],
@@ -1576,14 +1623,6 @@
 			[
 				"enqingle",
 				"template/enquiry/single.php"
-			],
-			[
-				"controllerenqui",
-				"src/Controller/Enquiry.php"
-			],
-			[
-				"setting",
-				"ui/settings.css"
 			]
 		],
 		"width": 0.0
@@ -1596,11 +1635,19 @@
 		[
 			[
 				"",
-				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-acmefg.sublime-project"
+			],
+			[
+				"crm",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-crm.sublime-project"
 			],
 			[
 				"bms",
 				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
+			],
+			[
+				"acmeacme",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-acmefg.sublime-project"
 			],
 			[
 				"apprai",
@@ -1609,10 +1656,6 @@
 			[
 				"navre",
 				"/var/www/html/dotfiles/sublime-text-workspaces/pentland-navreports.sublime-project"
-			],
-			[
-				"crm",
-				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-crm.sublime-project"
 			],
 			[
 				"core",
@@ -1814,10 +1857,10 @@
 	"settings":
 	{
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 253.0,
 	"status_bar_visible": true,
 	"template_settings":
