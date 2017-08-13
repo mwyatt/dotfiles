@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin"
+			],
+			[
+				"colo",
+				"color"
+			],
+			[
+				"media",
+				"media-screen\tMedia query screen"
+			],
+			[
 				"arrmer",
 				"array_merge"
 			],
@@ -299,31 +311,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/var/www/html/elttl/config.php",
-			"settings":
-			{
-				"buffer_size": 441,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/elttl/package.json",
-			"settings":
-			{
-				"buffer_size": 1284,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/elttl/gulpfile.js",
-			"settings":
-			{
-				"buffer_size": 4801,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -333,9 +320,37 @@
 	"command_palette":
 	{
 		"height": 392.0,
-		"last_filter": "sett",
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"cl",
+				"File: Close All"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"sta",
+				"View: Toggle Status Bar"
+			],
+			[
+				"stat",
+				"View: Toggle Status Bar"
+			],
+			[
+				"mini",
+				"View: Toggle Minimap"
+			],
+			[
+				"removepa",
+				"Package Control: Remove Package"
+			],
 			[
 				"sett",
 				"Preferences: Settings"
@@ -351,10 +366,6 @@
 			[
 				"packena",
 				"Package Control: Enable Package"
-			],
-			[
-				"close",
-				"File: Close All"
 			],
 			[
 				"menu",
@@ -393,10 +404,6 @@
 				"File: Close All"
 			],
 			[
-				"stat",
-				"View: Toggle Status Bar"
-			],
-			[
 				"instal",
 				"Package Control: Install Package"
 			],
@@ -405,7 +412,7 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 485.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -432,9 +439,32 @@
 	],
 	"file_history":
 	[
-		"/var/www/html/elttl/src/Mapper/Options.php",
-		"/var/www/html/elttl/sql/definition.sql",
-		"/var/www/html/elttl/services.php",
+		"/home/martin/Downloads/elttl_2-remote-13-08-2017.sql",
+		"/var/www/html/elttl/.gitignore",
+		"/var/www/html/elttl/css/home.css",
+		"/var/www/html/elttl/js/common.bundle.js",
+		"/var/www/html/elttl/js/menuPrimary.js",
+		"/var/www/html/elttl/css/settings.css",
+		"/var/www/html/elttl/template/header.php",
+		"/var/www/html/elttl/css/header/menu-primary.css",
+		"/var/www/html/elttl/css/general.css",
+		"/var/www/html/elttl/template/pagination.php",
+		"/var/www/html/elttl/template/home.php",
+		"/var/www/html/elttl/css/header.css",
+		"/var/www/html/elttl/package.json",
+		"/var/www/html/elttl/css/common.bundle.css",
+		"/var/www/html/elttl/gulpfile.js",
+		"/var/www/html/elttl/css/gallery.css",
+		"/var/www/html/elttl/css/fixture/card.css",
+		"/var/www/html/elttl/css/button.css",
+		"/var/www/html/elttl/css/portlet.css",
+		"/var/www/html/elttl/css/admin/common.bundle.css",
+		"/var/www/html/elttl/css/admin/login.bundle.css",
+		"/var/www/html/elttl/css/admin/fixture/single.bundle.css",
+		"/var/www/html/elttl/css/admin/tinymce-content.bundle.css",
+		"/var/www/html/elttl/src/Middleware/Front.php",
+		"/var/www/html/elttl/css/to-top.css",
+		"/var/www/html/dotfiles/push.sh",
 		"/home/martin/Documents/backup/sql/elttl_2-remote-12-04-2017.sql",
 		"/var/www/html/elttl/src/Controller/Admin/Team.php",
 		"/var/www/html/elttl/routeAdmin.php",
@@ -450,6 +480,7 @@
 		"/var/www/html/elttl/src/Middleware/Admin/Auth.php",
 		"/var/www/html/elttl/template/admin/tennis/player/all.php",
 		"/var/www/html/elttl/src/Controller/Admin/Player.php",
+		"/var/www/html/elttl/services.php",
 		"/var/www/html/elttl/src/Repository/Team.php",
 		"/var/www/html/elttl/src/Repository/Encounter.php",
 		"/var/www/html/elttl/config.php",
@@ -470,13 +501,7 @@
 		"/var/www/html/elttl/composer.json",
 		"/var/www/html/elttl/src/Middleware/Admin/Permission.php",
 		"/var/www/html/elttl/template/admin/permission.php",
-		"/var/www/html/elttl/.gitignore",
 		"/var/www/html/elttl/template/gallery/all.php",
-		"/var/www/html/elttl/css/general.css",
-		"/var/www/html/elttl/gulpfile.js",
-		"/var/www/html/elttl/package.json",
-		"/var/www/html/elttl/css/common.bundle.css",
-		"/var/www/html/elttl/template/home.php",
 		"/var/www/html/elttl/src/Controller.php",
 		"/var/www/html/elttl/src/Service/Gallery.php",
 		"/var/www/html/elttl/src/Service/Thumb.php",
@@ -506,13 +531,8 @@
 		"/var/www/html/elttl/src/Model/Content.php",
 		"/var/www/html/elttl/config-sample.php",
 		"/home/martin/Downloads/elttl_1.sql",
-		"/var/www/html/elttl/css/header.css",
 		"/var/www/html/elttl/js/admin/tennis/common.bundle.js",
-		"/var/www/html/elttl/js/common.bundle.js",
-		"/var/www/html/elttl/js/menuPrimary.js",
 		"/var/www/html/elttl/css/header/menu-primary-secondary.css",
-		"/var/www/html/elttl/src/Middleware/Front.php",
-		"/var/www/html/elttl/template/header.php",
 		"/var/www/html/elttl/template/team-single.php",
 		"/var/www/html/elttl/src/Repository/Result.php",
 		"/var/www/html/elttl/src/HelperTennis.php",
@@ -546,20 +566,7 @@
 		"/var/www/html/elttl/template/division/fixture-summary-table.php",
 		"/var/www/html/elttl/template/encounters.php",
 		"/var/www/html/elttl/template/content.php",
-		"/var/www/html/elttl/template/admin/content.php",
-		"/var/www/html/elttl/template/_division.php",
-		"/var/www/html/elttl/template/menu-division.php",
-		"/var/www/html/elttl/template/result/year-all.php",
-		"/var/www/html/elttl/js/utility/url.js",
-		"/var/www/html/elttl/src/Controller/Admin/Ajax/Content.php",
-		"/var/www/html/elttl/src/Admin/Controller/Ajax/Content.php",
-		"/var/www/html/elttl/src/Model/Ad.php",
-		"/var/www/html/elttl/src/Repository/Ad.php",
-		"/var/www/html/elttl/src/Mapper/Ad.php",
-		"/var/www/html/elttl/src/Admin/Controller/Ad.php",
-		"/var/www/html/elttl/src/Controller/Ajax/User.php",
-		"/var/www/html/elttl/src/Controller/User.php",
-		"/var/www/html/elttl/vendor/mwyatt/core/src/AbstractController.php"
+		"/var/www/html/elttl/template/admin/content.php"
 	],
 	"find":
 	{
@@ -601,12 +608,36 @@
 		"case_sensitive": true,
 		"find_history":
 		[
-			"concat",
-			"jsLibs",
-			"mustache",
-			"root",
-			"ALTER",
-			"options",
+			".content-date",
+			"cover",
+			"button",
+			"0",
+			".menu-primary-level-1-container {",
+			"{\n",
+			".menu-primary-level-1-container {",
+			"only screen and (max-width: 899px)",
+			"js-cross",
+			".menu-primary-level-0",
+			".menu-primary-container {",
+			"5rem",
+			"-",
+			"float",
+			"block-margins",
+			"px",
+			"banner-primary",
+			"em",
+			"col-md-6",
+			"css/",
+			"banner-primary-container",
+			"banner-and-press",
+			"home-press",
+			"menuPrimary",
+			"'menuPrimary",
+			"menuPrimary",
+			"to-top",
+			"js-header-button-mobile-search",
+			"js-magnific-gallery",
+			";",
 			"\\",
 			"name",
 			"deleteByYearIdIds",
@@ -704,31 +735,7 @@
 			"reset",
 			"getTemplate('content-single')",
 			"contents",
-			"id",
-			"timePublished",
-			"timeFulfilled",
-			"isLocal",
-			">>>",
-			"watch",
-			"default",
-			";",
-			"hover",
-			"er {",
-			"{",
-			"hover",
-			"  background-color: var(--color-secondary-1-5);\n",
-			"hover",
-			"min-width: 600",
-			"padding-top: 22px;",
-			"133px",
-			"findFulfilledByYearIdTeamIdLeftOrTeamIdRight",
-			"yearSingle",
-			"players",
-			"player",
-			"fixtures",
-			"findByYearIdTeamId",
-			"uasort",
-			"sort"
+			"id"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -840,93 +847,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/var/www/html/elttl/config.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 441,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								244,
-								244
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 328.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/var/www/html/elttl/package.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1284,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								579,
-								607
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/var/www/html/elttl/gulpfile.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4801,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								91,
-								91
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 608.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -983,28 +905,148 @@
 		"selected_items":
 		[
 			[
+				"ignore",
+				".gitignore"
+			],
+			[
+				"",
+				"css/home.css"
+			],
+			[
+				"gener",
+				"css/general.css"
+			],
+			[
+				"homec",
+				"css/home.css"
+			],
+			[
+				"home",
+				"template/home.php"
+			],
+			[
+				"homephp",
+				"template/home.php"
+			],
+			[
+				"pagina",
+				"template/pagination.php"
+			],
+			[
+				"sett",
+				"css/settings.css"
+			],
+			[
+				"combunjs",
+				"js/common.bundle.js"
+			],
+			[
+				"headcs",
+				"css/header.css"
+			],
+			[
+				"menupri",
+				"css/header/menu-primary.css"
+			],
+			[
+				"headphp",
+				"template/header.php"
+			],
+			[
 				"packa",
 				"package.json"
 			],
 			[
-				"gulp",
+				"menuprimar",
+				"js/menuPrimary.js"
+			],
+			[
+				"pakca",
+				"package.json"
+			],
+			[
+				"carcss",
+				"css/fixture/card.css"
+			],
+			[
+				"galelr",
+				"css/gallery.css"
+			],
+			[
+				"homecs",
+				"css/home.css"
+			],
+			[
+				"generc",
+				"css/general.css"
+			],
+			[
+				"gul",
 				"gulpfile.js"
 			],
 			[
-				"config",
-				"config-sample.php"
+				"combunc",
+				"css/common.bundle.css"
 			],
 			[
-				"servi",
-				"services.php"
+				"commu",
+				"css/common.bundle.css"
 			],
 			[
-				"defi",
-				"sql/definition.sql"
+				"genera",
+				"css/general.css"
 			],
 			[
-				"mapperopt",
-				"src/Mapper/Options.php"
+				"combun",
+				"css/common.bundle.css"
+			],
+			[
+				"setting",
+				"css/settings.css"
+			],
+			[
+				"general",
+				"css/general.css"
+			],
+			[
+				"port",
+				"css/portlet.css"
+			],
+			[
+				"combundc",
+				"css/common.bundle.css"
+			],
+			[
+				"tinymceconn",
+				"css/admin/tinymce-content.bundle.css"
+			],
+			[
+				"bundlecss",
+				"css/admin/fixture/single.bundle.css"
+			],
+			[
+				"bundlcss",
+				"css/admin/common.bundle.css"
+			],
+			[
+				"combund",
+				"css/common.bundle.css"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"header",
+				"template/header.php"
+			],
+			[
+				"combuncs",
+				"css/common.bundle.css"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
 			],
 			[
 				"controlteam",
@@ -1021,10 +1063,6 @@
 			[
 				"inde",
 				"index.php"
-			],
-			[
-				"",
-				"src/Mapper/Fixture.php"
 			],
 			[
 				"mapperfix",
@@ -1059,6 +1097,10 @@
 				"src/Mapper/Fixture.php"
 			],
 			[
+				"config",
+				"config.php"
+			],
+			[
 				"modelteam",
 				"src/Model/Team.php"
 			],
@@ -1085,6 +1127,10 @@
 			[
 				"controladminplay",
 				"src/Controller/Admin/Player.php"
+			],
+			[
+				"servi",
+				"services.php"
 			],
 			[
 				"controlresult",
@@ -1195,16 +1241,8 @@
 				"css/general.css"
 			],
 			[
-				"combund",
-				"css/common.bundle.css"
-			],
-			[
 				"tegallery",
 				"template/gallery/all.php"
-			],
-			[
-				"home",
-				"template/home.php"
 			],
 			[
 				"servthum",
@@ -1377,122 +1415,6 @@
 			[
 				"modelconten",
 				"src/Model/Content.php"
-			],
-			[
-				"controllerconten",
-				"src/Controller/Content.php"
-			],
-			[
-				"controllerresul",
-				"src/Controller/Result.php"
-			],
-			[
-				"configsam",
-				"config-sample.php"
-			],
-			[
-				"headcs",
-				"css/header.css"
-			],
-			[
-				"cssheadercs",
-				"css/header.css"
-			],
-			[
-				"tenniscommon",
-				"js/admin/tennis/common.bundle.js"
-			],
-			[
-				"gul",
-				"gulpfile.js"
-			],
-			[
-				"middlefon",
-				"src/Middleware/Front.php"
-			],
-			[
-				"header",
-				"template/header.php"
-			],
-			[
-				"menuprimar",
-				"js/menuPrimary.js"
-			],
-			[
-				"combun",
-				"js/common.bundle.js"
-			],
-			[
-				"middleyear",
-				"src/Middleware/FrontYear.php"
-			],
-			[
-				"teamsingle",
-				"template/team-single.php"
-			],
-			[
-				"modelfix",
-				"src/Model/Fixture.php"
-			],
-			[
-				"contollresult",
-				"src/Controller/Result.php"
-			],
-			[
-				"1s",
-				"sql/1.sql"
-			],
-			[
-				"htacces",
-				".htaccess"
-			],
-			[
-				"middlefo",
-				"src/Middleware/Front.php"
-			],
-			[
-				"servicemenu",
-				"src/Service/Menu.php"
-			],
-			[
-				"head",
-				"template/header.php"
-			],
-			[
-				"headmenpri",
-				"css/header/menu-primary-secondary.css"
-			],
-			[
-				"headcss",
-				"css/header.css"
-			],
-			[
-				"controlresul",
-				"src/Controller/Result.php"
-			],
-			[
-				"gu",
-				"gulpfile.js"
-			],
-			[
-				"front",
-				"src/Middleware/Front.php"
-			],
-			[
-				"erro",
-				"error.txt"
-			],
-			[
-				"serviceadminseason",
-				"src/Service/Admin/Season.php"
-			],
-			[
-				"controlleadmincontent",
-				"src/Controller/Admin/Content.php"
-			],
-			[
-				"repofixur",
-				"src/Repository/Fixture.php"
 			]
 		],
 		"width": 0.0
@@ -1505,39 +1427,47 @@
 		[
 			[
 				"",
-				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
-			],
-			[
-				"app",
-				"/var/www/html/dotfiles/sublime-text-workspaces/appraisal.sublime-project"
-			],
-			[
-				"bm",
-				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
-			],
-			[
-				"el",
-				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
+				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"
 			],
 			[
 				"code",
 				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"
 			],
 			[
+				"coe",
+				"/var/www/html/dotfiles/sublime-text-workspaces/core.sublime-workspace"
+			],
+			[
+				"dia",
+				"/var/www/html/dotfiles/sublime-text-workspaces/dialogue.sublime-workspace"
+			],
+			[
+				"cod",
+				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
+				"elt",
+				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
 				"core",
 				"/var/www/html/dotfiles/sublime-text-workspaces/core.sublime-workspace"
+			],
+			[
+				"el",
+				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
 			],
 			[
 				"brand",
 				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-brand-guidelines.sublime-project"
 			],
 			[
-				"store",
-				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
+				"app",
+				"/var/www/html/dotfiles/sublime-text-workspaces/appraisal.sublime-project"
 			],
 			[
-				"dia",
-				"/var/www/html/dotfiles/sublime-text-workspaces/dialogue.sublime-workspace"
+				"store",
+				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
 			],
 			[
 				"coree",
@@ -1607,7 +1537,7 @@
 	"settings":
 	{
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": false,

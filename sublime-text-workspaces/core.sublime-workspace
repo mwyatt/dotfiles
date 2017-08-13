@@ -1468,9 +1468,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "code",
+		"last_filter": "game",
 		"selected_items":
 		[
+			[
+				"game",
+				"/var/www/html/dotfiles/sublime-text-workspaces/game-engine.sublime-workspace"
+			],
 			[
 				"code",
 				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"

@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"styl",
+				"actionStyleNew"
+			],
+			[
+				"dialo",
+				"dialogue"
+			],
+			[
 				"animnda",
 				"animation-duration"
 			],
@@ -99,38 +107,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/var/www/html/dialogue/gulpfile.js",
-			"settings":
-			{
-				"buffer_size": 3378,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/var/www/html/dialogue/index.css",
-			"settings":
-			{
-				"buffer_size": 27,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/dialogue/css/default.css",
-			"settings":
-			{
-				"buffer_size": 3083,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/dialogue/package.json",
-			"settings":
-			{
-				"buffer_size": 1378,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -140,7 +116,7 @@
 	"command_palette":
 	{
 		"height": 121.0,
-		"last_filter": "mini",
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -196,7 +172,7 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 485.0
+		"width": 467.0
 	},
 	"console":
 	{
@@ -221,21 +197,23 @@
 	],
 	"file_history":
 	[
-		"/var/www/html/dialogue/css/common.bundle.css",
+		"/var/www/html/dialogue/index.php",
 		"/var/www/html/dialogue/js/dialogue.js",
+		"/var/www/html/dialogue/gulpfile.js",
+		"/var/www/html/dialogue/js/helper.js",
+		"/var/www/html/dialogue/js/container.mustache",
+		"/var/www/html/dialogue/js/common.bundle.js",
+		"/var/www/html/dialogue/css/common.bundle.css",
+		"/var/www/html/dialogue/css/default.css",
+		"/var/www/html/dialogue/template/home.php",
+		"/var/www/html/dialogue/package.json",
+		"/var/www/html/dialogue/index.css",
 		"/var/www/html/dialogue/bin/deploy.sh",
 		"/var/www/html/dialogue/.travis.yml",
-		"/var/www/html/dialogue/template/home.php",
-		"/var/www/html/dialogue/index.php",
-		"/var/www/html/dialogue/css/default.css",
-		"/var/www/html/dialogue/gulpfile.js",
 		"/var/www/html/dialogue/js/test.js",
 		"/var/www/html/dialogue/bin/browserify",
 		"/var/www/html/dialogue/npm-shrinkwrap.json",
-		"/var/www/html/dialogue/package.json",
 		"/var/www/html/dialogue/npm-debug.log",
-		"/var/www/html/dialogue/js/common.bundle.js",
-		"/var/www/html/dialogue/js/container.mustache",
 		"/var/www/html/dialogue/index.js",
 		"/var/www/html/dialogue/js/ready.js",
 		"/var/www/html/dialogue/css/settings.css",
@@ -248,7 +226,6 @@
 		"/var/www/html/dialogue/vendor/symfony/css-selector/Parser/Tokenizer/TokenizerEscaping.php",
 		"/var/www/html/dialogue/index.html",
 		"/var/www/html/dialogue/.gitignore",
-		"/var/www/html/dialogue/index.css",
 		"/var/www/html/dialogue/template/index.php",
 		"/var/www/html/dialogue/vendor/mwyatt/core/index.php",
 		"/etc/apache2/mods-enabled/dir.conf",
@@ -347,8 +324,7 @@
 		"/var/www/html/store/trunk/js/finance.js",
 		"/var/www/html/store/trunk/js/contact.js",
 		"/var/www/html/store/trunk/node_modules/gulp-sass/node_modules/node-sass/node_modules/sass-graph/node_modules/lodash/_assignInDefaults.js",
-		"/var/www/html/store/trunk/js/checkout.js",
-		"/var/www/html/store/trunk/js/admin/ebay.js"
+		"/var/www/html/store/trunk/js/checkout.js"
 	],
 	"find":
 	{
@@ -359,6 +335,7 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"-node_modules/, -asset/, -dist/",
 			"-node_modules/, -asset/, ",
 			"-node_modules/, -asset/, js/",
 			"-node_modules/, -asset/, ",
@@ -383,6 +360,31 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"setActionEvent",
+			"dialogue",
+			"lastButton",
+			"options.actions",
+			".dialogue-action",
+			"actionNames",
+			"actionStyleNew",
+			"actionNa",
+			"actions",
+			"actionNames",
+			"-8",
+			";",
+			"actions",
+			";",
+			"default",
+			"buildProduction",
+			";",
+			"actions",
+			"domready",
+			"actions",
+			"class_",
+			"isInside",
+			";",
+			"isInside",
+			"getRandomString",
 			"clientFrame",
 			"cssSettings",
 			"frame",
@@ -485,32 +487,7 @@
 			"$",
 			"dist",
 			".site-heading-menu-link",
-			"perspective",
-			"spacing",
-			"button demo",
-			"button ",
-			".npm-version {",
-			"transition",
-			".site-heading-menu-link",
-			"50px",
-			"flex-basis",
-			"button",
-			"menu-",
-			"keyup",
-			"dialogueDeep",
-			"$",
-			"max-width",
-			"positionalEl",
-			"button",
-			"setActionEvent",
-			"closeInstance",
-			"buttonOk",
-			"$",
-			"options",
-			"dialogue.actions",
-			"setActionEvent",
-			"actions",
-			"actionNames"
+			"perspective"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -559,121 +536,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/var/www/html/dialogue/gulpfile.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3378,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1940,
-								1940
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1087.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/var/www/html/dialogue/index.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 27,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
-						},
-						"translation.x": 216.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/var/www/html/dialogue/css/default.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3083,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3083,
-								3083
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 2363.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/var/www/html/dialogue/package.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1378,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
-						},
-						"translation.x": 520.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -730,6 +594,50 @@
 		"selected_items":
 		[
 			[
+				"inde",
+				"index.php"
+			],
+			[
+				"dialo",
+				"js/dialogue.js"
+			],
+			[
+				"combuncs",
+				"css/common.bundle.css"
+			],
+			[
+				"",
+				"template/home.php"
+			],
+			[
+				"home",
+				"template/home.php"
+			],
+			[
+				"helper",
+				"js/helper.js"
+			],
+			[
+				"combunjs",
+				"js/common.bundle.js"
+			],
+			[
+				"dialogu",
+				"js/dialogue.js"
+			],
+			[
+				"gul",
+				"gulpfile.js"
+			],
+			[
+				"combun",
+				"js/common.bundle.js"
+			],
+			[
+				".js",
+				"js/dialogue.js"
+			],
+			[
 				".css",
 				"css/common.bundle.css"
 			],
@@ -740,10 +648,6 @@
 			[
 				"packa",
 				"package.json"
-			],
-			[
-				"gul",
-				"gulpfile.js"
 			],
 			[
 				"dialog",
@@ -778,10 +682,6 @@
 				"js/dialogue.js"
 			],
 			[
-				"inde",
-				"index.php"
-			],
-			[
 				"npmshi",
 				"npm-shrinkwrap.json"
 			],
@@ -794,16 +694,8 @@
 				"js/dialogue.js"
 			],
 			[
-				"dialo",
-				"js/dialogue.js"
-			],
-			[
 				"comm",
 				"js/common.bundle.js"
-			],
-			[
-				"",
-				"js/dialogue.js"
 			],
 			[
 				"contmus",
@@ -860,10 +752,6 @@
 			[
 				"ready",
 				"js/ready.js"
-			],
-			[
-				"home",
-				"template/home.php"
 			],
 			[
 				"setting",
@@ -990,14 +878,6 @@
 				"css/common.bundle.css"
 			],
 			[
-				"combunjs",
-				"js/common.bundle.js"
-			],
-			[
-				"combun",
-				"css/common.bundle.css"
-			],
-			[
 				"template/",
 				"template/index.php"
 			],
@@ -1020,10 +900,6 @@
 			[
 				"reade",
 				"README.md"
-			],
-			[
-				"dialogu",
-				"dialogue.css"
 			],
 			[
 				"mustach",
@@ -1096,10 +972,6 @@
 			[
 				"ajax.php",
 				"trunk/administration/ajax.php"
-			],
-			[
-				"helper",
-				"trunk/js/helper.js"
 			],
 			[
 				"formjs",
@@ -1232,14 +1104,6 @@
 			[
 				"equl",
 				"trunk/js/equalHeight.js"
-			],
-			[
-				"localeen",
-				"trunk/js/admin/vendor/grid.locale-en.js"
-			],
-			[
-				"jquerui/jqu",
-				"trunk/node_modules/jquery-ui/jquery-ui.js"
 			]
 		],
 		"width": 0.0
@@ -1247,9 +1111,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "code",
+		"last_filter": "el",
 		"selected_items":
 		[
+			[
+				"el",
+				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
+			],
 			[
 				"code",
 				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"

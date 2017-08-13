@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"endconn",
+				"endConditionMet"
+			],
+			[
+				"z",
+				"hitZones"
+			],
+			[
+				"keyo",
+				"keyCodes"
+			],
+			[
 				"canv",
 				"canvas"
 			],
@@ -81,11 +93,11 @@
 			],
 			[
 				"media",
-				"media-screen	Media query screen"
+				"media-screen\tMedia query screen"
 			],
 			[
 				"medi",
-				"media-screen	Media query screen"
+				"media-screen\tMedia query screen"
 			],
 			[
 				"unse",
@@ -103,6 +115,24 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/var/www/html/game-engine/ui/common.bundle.js",
+			"settings":
+			{
+				"buffer_size": 797,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/game-engine/ui/scenery.js",
+			"settings":
+			{
+				"buffer_size": 8342,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -111,10 +141,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 354.0,
-		"last_filter": "close",
+		"height": 121.0,
+		"last_filter": "mini",
 		"selected_items":
 		[
+			[
+				"mini",
+				"View: Toggle Minimap"
+			],
 			[
 				"close",
 				"File: Close All"
@@ -140,7 +174,7 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 449.0
+		"width": 485.0
 	},
 	"console":
 	{
@@ -161,22 +195,31 @@
 	},
 	"expanded_folders":
 	[
-		"/var/www/html/game-engine",
-		"/var/www/html/game-engine/js"
+		"/var/www/html/game-engine"
 	],
 	"file_history":
 	[
-		"/var/www/html/game-engine/js/common.bundle.js",
-		"/var/www/html/game-engine/js/core.js",
-		"/var/www/html/game-engine/js/ball.js",
-		"/var/www/html/game-engine/js/paddle.js",
+		"/var/www/html/game-engine/ui/block.js",
+		"/var/www/html/game-engine/ui/scenery.js",
+		"/var/www/html/game-engine/ui/ball.js",
+		"/var/www/html/game-engine/ui/common.js",
+		"/var/www/html/game-engine/ui/buttonGroup.js",
+		"/var/www/html/game-engine/ui/paddle.js",
 		"/var/www/html/game-engine/js/stage.js",
-		"/var/www/html/game-engine/js/block.js",
-		"/var/www/html/game-engine/js/menuButton.js",
-		"/var/www/html/game-engine/js/blockManager.js",
+		"/var/www/html/game-engine/js/snippet.js",
+		"/var/www/html/game-engine/js/paddle.js",
 		"/var/www/html/game-engine/js/mouse.js",
+		"/var/www/html/game-engine/js/menuButton.js",
 		"/var/www/html/game-engine/js/keyCodes.js",
 		"/var/www/html/game-engine/js/entity.js",
+		"/var/www/html/game-engine/js/core.js",
+		"/var/www/html/game-engine/js/common.bundle.js",
+		"/var/www/html/game-engine/js/blockManager.js",
+		"/var/www/html/game-engine/js/block.js",
+		"/var/www/html/game-engine/js/ball.js",
+		"/var/www/html/game-engine/ui/hittest.js",
+		"/var/www/html/game-engine/ui/mouse.js",
+		"/var/www/html/game-engine/index.php",
 		"/var/www/html/game-engine/js/corething.js",
 		"/var/www/html/game-engine/gulpfile.js",
 		"/var/www/html/game-engine/package.json",
@@ -283,21 +326,11 @@
 		"/var/www/html/store/trunk/app/classes/inventory/product.php",
 		"/var/www/html/store/trunk/sass/category.scss",
 		"/var/www/html/store/trunk/app/classes/admin/modules/products.php",
-		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/bundle.php",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/products/bundle/_product.tpl",
-		"/var/www/html/store/trunk/app/classes/common/template.php",
-		"/var/www/html/store/trunk/app/classes/inventory/promotion.php",
-		"/var/www/html/store/trunk/app/classes/admin/modules/promotion.php",
-		"/var/www/html/store/trunk/app/classes/storage/promotion.php",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/promotion/edit.tpl",
-		"/var/www/html/store/trunk/app/skin/custom/frontend/modules/product/_promotion.tpl",
-		"/var/www/html/store/trunk/gulpfile.js",
-		"/var/www/html/store/trunk/js/product/single.js",
-		"/var/www/html/store/trunk/js/home.js"
+		"/var/www/html/store/trunk/app/classes/admin/ajax/modules/bundle.php"
 	],
 	"find":
 	{
-		"height": 70.0
+		"height": 37.0
 	},
 	"find_in_files":
 	{
@@ -339,6 +372,46 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"animationIntro",
+			"duration",
+			"requestFrame",
+			"endConditionMet",
+			"blocks",
+			"fps =",
+			"fps",
+			"clearScenery",
+			"hitZones",
+			"zone",
+			"setupSceneLevel",
+			"setupSceneMenu",
+			"endCondition",
+			"40",
+			".isHit(",
+			".isHit",
+			"stage.paddle",
+			"ball",
+			"stage.paddle",
+			"stage.balls",
+			"if",
+			"14",
+			"20",
+			"Bottom",
+			"Right",
+			"ball",
+			"score",
+			"fillText",
+			"text",
+			"ball",
+			"mouseV",
+			"mouseVX",
+			"mouseVXHistory",
+			"ball",
+			"this.vMaxNegative",
+			"ballFactory",
+			"stageWidth",
+			"timeDelta",
+			"hittest",
+			"common",
 			"3",
 			"4",
 			"-",
@@ -426,47 +499,7 @@
 			"timeDelta",
 			"2",
 			"X",
-			"timeThen",
-			"spinDuration",
-			"spinLife",
-			"mouse",
-			"this.",
-			"stage.getTimeDelta",
-			"stage",
-			"canvasContext",
-			"stage",
-			"this",
-			"getCanvasContext",
-			"stage.",
-			"stage",
-			"timeDelta",
-			"this.time",
-			" = 0",
-			" = ''",
-			":",
-			"this.canvasContext",
-			"canvasContext",
-			"this.canvasElement",
-			"canvasElement",
-			"block",
-			"canvasContext",
-			"timeDelta",
-			"tim",
-			"timeDelta",
-			"canvasContext",
-			"canvasElement",
-			"stage",
-			"var ",
-			"time",
-			"Stage",
-			".update",
-			" = function () {",
-			".canvas",
-			"Event",
-			"ball",
-			"block",
-			"./class",
-			"./class/mouse"
+			"timeThen"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -516,8 +549,65 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/var/www/html/game-engine/ui/common.bundle.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 797,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								189,
+								189
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 432.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/var/www/html/game-engine/ui/scenery.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8342,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2538,
+								2538
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1213.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -574,52 +664,120 @@
 		"selected_items":
 		[
 			[
-				"sta",
-				"js/stage.js"
-			],
-			[
-				"ball",
-				"js/ball.js"
-			],
-			[
-				"",
-				"js/paddle.js"
-			],
-			[
-				"padd",
-				"js/paddle.js"
+				"scene",
+				"ui/scenery.js"
 			],
 			[
 				"block",
-				"js/block.js"
-			],
-			[
-				"core",
-				"js/core.js"
-			],
-			[
-				"comm",
-				"js/common.bundle.js"
-			],
-			[
-				"pad",
-				"js/paddle.js"
+				"ui/block.js"
 			],
 			[
 				"com",
-				"js/common.bundle.js"
+				"ui/common.bundle.js"
+			],
+			[
+				"comm",
+				"ui/common.js"
+			],
+			[
+				"ball",
+				"ui/ball.js"
 			],
 			[
 				"stage",
 				"js/stage.js"
 			],
 			[
-				"stag",
-				"js/stage.js"
+				"snippe",
+				"js/snippet.js"
+			],
+			[
+				"paddle",
+				"js/paddle.js"
 			],
 			[
 				"mouse",
 				"js/mouse.js"
+			],
+			[
+				"menubu",
+				"js/menuButton.js"
+			],
+			[
+				"butgrou",
+				"ui/buttonGroup.js"
+			],
+			[
+				"kecode",
+				"js/keyCodes.js"
+			],
+			[
+				"entit",
+				"js/entity.js"
+			],
+			[
+				"cores",
+				"js/core.js"
+			],
+			[
+				"combundl",
+				"js/common.bundle.js"
+			],
+			[
+				"blockmana",
+				"js/blockManager.js"
+			],
+			[
+				"jsblock",
+				"js/block.js"
+			],
+			[
+				"js/bal",
+				"js/ball.js"
+			],
+			[
+				"hitets",
+				"ui/hittest.js"
+			],
+			[
+				"hittes",
+				"ui/hittest.js"
+			],
+			[
+				"",
+				"ui/ball.js"
+			],
+			[
+				"padd",
+				"ui/paddle.js"
+			],
+			[
+				"hittest",
+				"ui/hittest.js"
+			],
+			[
+				"mous",
+				"ui/mouse.js"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"sta",
+				"js/stage.js"
+			],
+			[
+				"core",
+				"js/core.js"
+			],
+			[
+				"pad",
+				"js/paddle.js"
+			],
+			[
+				"stag",
+				"js/stage.js"
 			],
 			[
 				"comb",
@@ -642,20 +800,12 @@
 				"index.html"
 			],
 			[
-				"blockmana",
-				"js/blockManager.js"
-			],
-			[
 				"bal",
 				"js/ball.js"
 			],
 			[
 				"blockma",
 				"js/blockManager.js"
-			],
-			[
-				"mous",
-				"js/mouse.js"
 			],
 			[
 				"blockman",
@@ -1024,66 +1174,6 @@
 			[
 				"ajaxmodbrain",
 				"app/classes/ajax/modules/braintree/transaction.php"
-			],
-			[
-				"adminmodbrain",
-				"app/classes/admin/ajax/modules/braintree.php"
-			],
-			[
-				"comtem",
-				"app/classes/common/template.php"
-			],
-			[
-				"invpro",
-				"app/classes/inventory/product.php"
-			],
-			[
-				"invprod",
-				"app/classes/inventory/product.php"
-			],
-			[
-				"adminmodprodbunpro",
-				"app/skin/custom/admin/modules/products/bundle/_product.tpl"
-			],
-			[
-				"adminajaxmodbundle",
-				"app/classes/admin/ajax/modules/bundle.php"
-			],
-			[
-				"adminmodprod",
-				"app/classes/admin/modules/products.php"
-			],
-			[
-				"categorscs",
-				"sass/category.scss"
-			],
-			[
-				"frontpromotion",
-				"app/skin/custom/frontend/modules/product/_promotion.tpl"
-			],
-			[
-				"invpromot",
-				"app/classes/inventory/promotion.php"
-			],
-			[
-				"storagepromot",
-				"app/classes/storage/promotion.php"
-			],
-			[
-				"adminmodpromo",
-				"app/classes/admin/modules/promotion.php"
-			],
-			[
-				"adminmodpromotion",
-				"app/classes/admin/modules/promotion.php"
-			],
-			[
-				"homejs",
-				"js/home.js"
-			],
-			[
-				"prodsingle",
-				"js/product/single.js"
 			]
 		],
 		"width": 0.0
@@ -1091,9 +1181,17 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "el",
 		"selected_items":
 		[
+			[
+				"el",
+				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"code",
+				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"
+			],
 			[
 				"",
 				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
@@ -1101,10 +1199,6 @@
 			[
 				"jo",
 				"/var/www/html/setting/sublime-text-workspaces/joshua-mccormack.sublime-project"
-			],
-			[
-				"code",
-				"/var/www/html/setting/sublime-text-workspaces/codex.sublime-workspace"
 			],
 			[
 				"store",
@@ -1182,10 +1276,10 @@
 	"settings":
 	{
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 236.0,
 	"status_bar_visible": true,
 	"template_settings":
