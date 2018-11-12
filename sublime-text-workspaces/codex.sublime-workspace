@@ -638,7 +638,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 32.0
 	},
 	"input":
 	{
@@ -683,7 +683,7 @@
 	"project": "",
 	"replace":
 	{
-		"height": 46.0
+		"height": 60.0
 	},
 	"save_all_on_build": true,
 	"select_file":
