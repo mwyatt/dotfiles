@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"val",
+				"value\tAttr"
+			],
+			[
+				"strpos",
+				"strpos\t(fpdf.php)"
+			],
+			[
+				"desc",
+				"description"
+			],
+			[
+				"custom",
+				"customer_code"
+			],
+			[
+				"yourpri",
+				"your_price"
+			],
+			[
+				"youpr",
+				"your_price"
+			],
+			[
 				"que",
 				"queuedUrl"
 			],
@@ -223,6 +247,15 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/var/www/html/pentlandwholesale/index.php",
+			"settings":
+			{
+				"buffer_size": 17999,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -231,10 +264,22 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 121.0,
-		"last_filter": "mini",
+		"height": 354.0,
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
 			[
 				"mini",
 				"View: Toggle Minimap"
@@ -312,10 +357,6 @@
 				"Package Control: Install Package"
 			],
 			[
-				"html",
-				"HTML: Encode Special Characters"
-			],
-			[
 				"isntal",
 				"Package Control: Install Package"
 			],
@@ -324,7 +365,7 @@
 				"Set Syntax: PHP"
 			]
 		],
-		"width": 575.0
+		"width": 557.0
 	},
 	"console":
 	{
@@ -349,43 +390,62 @@
 	],
 	"file_history":
 	[
-		"/var/www/html/pentlandwholesale/js/jquery.slicknav.js",
+		"/var/www/html/pentlandwholesale/index.php",
+		"/var/www/html/pentlandwholesale/upload-documents.php",
+		"/var/www/html/pentlandwholesale/product.php",
+		"/var/www/html/pentlandwholesale/blizzard.php",
+		"/var/www/html/pentlandwholesale/dbsettings.php",
+		"/home/martin/Downloads/pentland_website (2).sql",
+		"/var/www/html/pentlandwholesale/footer.php",
+		"/var/www/html/pentlandwholesale/sales-code.php",
+		"/var/www/html/pentlandwholesale/literature-download.php",
+		"/var/www/html/pentlandwholesale/.htaccess",
+		"/var/www/html/pentlandwholesale/models/config.php",
 		"/var/www/html/pentlandwholesale/header.php",
+		"/var/www/html/pentlandwholesale/privacy.php",
+		"/var/www/html/pentlandwholesale/files/specifications/specification.php",
+		"/var/www/html/pentlandwholesale/files/specifications/fpdf.php",
+		"/var/www/html/pentlandwholesale-2/models/db-settings.php",
+		"/var/www/html/pentlandwholesale/search/search.php",
+		"/var/www/html/pentlandwholesale/search/include/searchfuncs.php",
+		"/var/www/html/pentlandwholesale/search/templates/standard/search_results.html",
+		"/home/martin/Downloads/pentland_website.sql",
+		"/var/www/html/pentlandwholesale/sql/table-definitions.sql",
+		"/var/www/html/pentlandwholesale/home.php",
+		"/var/www/html/pentlandwholesale/brands.php",
+		"/var/www/html/pentlandwholesale/maxine-attempt-solve.sql",
+		"/home/martin/Downloads/itemledger.sql",
+		"/home/martin/Downloads/idea.sql",
+		"/var/www/html/pentlandwholesale/QUERIES.txt",
+		"/var/www/html/pentlandwholesale/meet-our-team.php",
+		"/var/www/html/pentlandwholesale/cart.php",
+		"/var/www/html/pentlandwholesale/checkout.php",
+		"/var/www/html/pentlandwholesale/media-centre.php",
+		"/var/www/html/pentlandwholesale/whirlpool.php",
+		"/var/www/html/pentlandwholesale/edit-news.php",
+		"/var/www/html/pentlandwholesale/add-news.php",
+		"/tmp/fz3temp-1/dbsettings.php",
+		"/var/www/html/pentlandwholesale/news.php",
+		"/var/www/html/pentlandwholesale/js/jquery.slicknav.js",
 		"/var/www/html/pentlandwholesale/models/db-settings-remote.php",
 		"/var/www/html/pentlandwholesale/models/db-settings.php",
-		"/var/www/html/pentlandwholesale/dbsettings.php",
-		"/var/www/html/pentlandwholesale/product.php",
-		"/var/www/html/pentlandwholesale/cart.php",
-		"/var/www/html/pentlandwholesale/.htaccess",
 		"/var/www/html/pentlandwholesale/search/settings/database.php",
-		"/var/www/html/pentlandwholesale/models/config.php",
 		"/var/www/html/pentlandwholesale/.gitignore",
-		"/var/www/html/pentlandwholesale/index.php",
 		"/var/www/html/pentlandwholesale/search/settings/database-remote.php",
 		"/var/www/html/pentlandwholesale/.htaccess-remote",
-		"/home/martin/Downloads/pentland_website (2).sql",
-		"/var/www/html/pentlandwholesale/meet-our-team.php",
 		"/var/www/html/pentlandwholesale/search-orders.php",
 		"/var/www/html/pentlandwholesale/queries.txt",
-		"/var/www/html/pentlandwholesale/checkout.php",
 		"/home/martin/Downloads/pentland_website (1).sql",
 		"/var/www/html/pentlandwholesale/search/sql/tables.sql",
 		"/var/www/html/pentlandwholesale/login.php",
-		"/var/www/html/pentlandwholesale/QUERIES.txt",
 		"/var/www/html/pentlandwholesale/delivery.php",
 		"/var/www/html/pentlandwholesale/videos.php",
-		"/var/www/html/pentlandwholesale/footer.php",
-		"/var/www/html/pentlandwholesale/literature-download.php",
 		"/home/martin/.vimrc",
-		"/var/www/html/pentlandwholesale/sales-code.php",
 		"/var/www/html/pentlandwholesale/account.php",
 		"/var/www/html/pentlandwholesale/funcs.php",
-		"/var/www/html/pentlandwholesale/files/specifications/specification.php",
 		"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-brand-guidelines.sublime-workspace",
 		"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-brand-guidelines.sublime-project",
-		"/var/www/html/pentlandwholesale/files/specifications/fpdf.php",
 		"/var/www/html/pentlandwholesale/files/specifications/fpdf.css",
-		"/home/martin/Downloads/pentland_website.sql",
 		"/var/www/html/pentlandwholesale/snow/.gitignore",
 		"/var/www/html/pentlandwholesale/dbsettings-sample.php",
 		"/var/www/html/pentlandwholesale/style.css",
@@ -457,30 +517,11 @@
 		"/var/www/html/appraisal/vendor/mwyatt/core/src/AbstractController.php",
 		"/var/www/html/appraisal/src/Mapper/AgreedObjective.php",
 		"/var/www/html/appraisal/src/Repository/Questions.php",
-		"/var/www/html/appraisal/src/Repository/AgreedObjective.php",
-		"/var/www/html/appraisal/vendor/mwyatt/core/src/AbstractRepository.php",
-		"/var/www/html/appraisal/src/Mapper/AppStatus.php",
-		"/var/www/html/appraisal/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Mime/SimpleHeaderSetTest.php",
-		"/var/www/html/appraisal/user_settings.php",
-		"/var/www/html/appraisal/template/submanap.php",
-		"/var/www/html/appraisal/src/Mapper/Question.php",
-		"/var/www/html/appraisal/src/Repository/Question.php",
-		"/var/www/html/appraisal/template/mail/manager-appraisal-due.php",
-		"/var/www/html/appraisal/vendor/mwyatt/core/src/AbstractMapper.php",
-		"/var/www/html/appraisal/template/mail/employee-appraisal-due.php",
-		"/var/www/html/appraisal/vendor/mwyatt/core/src/Http/Kernel.php",
-		"/var/www/html/appraisal/403.php",
-		"/var/www/html/appraisal/404.php",
-		"/var/www/html/appraisal/500.php",
-		"/var/www/html/appraisal/activate-account.php",
-		"/var/www/html/appraisal/resend-activation.php",
-		"/var/www/html/appraisal/assets/chart-master/site/index.html",
-		"/var/www/html/appraisal/assets/ckeditor/samples/inlineall.html",
-		"/var/www/html/appraisal/assets/ckeditor/samples/inlinebycode.html"
+		"/var/www/html/appraisal/src/Repository/AgreedObjective.php"
 	],
 	"find":
 	{
-		"height": 37.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
@@ -498,134 +539,134 @@
 		"case_sensitive": true,
 		"find_history":
 		[
-			"main",
-			"============================================",
-			" href=\"/",
-			"stylesheet",
-			"/css/",
-			"href=\"/",
-			"link",
-			"<",
-			"responsive.css",
-			"123qweasdzxc",
-			"pentland_stephen",
-			"localhost",
+			"-2",
+			"Blizzard",
 			"_POST",
-			" />",
-			"POST",
-			"cart",
-			"your_price",
-			"Your Price",
-			"`Location Code` =",
-			"inventoryqueryresult",
-			"row",
-			"tinventory",
-			"Location",
-			"Pentland LIVE$",
+			"[Pentland LIVE$Item Web & Addl_ Information[",
+			"Pentland LIVE$Item Ledger Entry[",
+			"`",
+			"`Web_Stock_Reference`",
+			"Web_Stock_Refer",
 			"`Inventory`",
+			"Inventor",
 			"tinventory",
-			"Stock",
-			"<?php",
-			"Pentland_Website_Information",
-			"FROM",
-			"Pentland_Website_Information",
-			"result2",
-			"FROM",
-			"your_price",
-			"from",
-			"Special_Price",
-			"your_price",
-			"FROM",
-			"Paul R",
-			"Sharon",
-			"Nathan",
-			"Dean.",
-			"Dean Sim",
-			"Anne",
-			"2016",
-			"2016 Eq",
-			"LIVE$Item Ledger Entry",
-			"VIEW",
-			"AS",
-			"Inventory",
-			"Whse",
-			"Warehouse",
-			"`Remaining Quantity`",
-			"Inventory",
-			"tinventory",
-			"treserve",
-			"$t = ",
 			"answer",
 			"tinventory",
-			"Inventory",
-			"FROM",
-			"Search_Order",
-			"INSERT INTO",
-			"New Web Order",
-			"The information transmitted",
-			";",
-			"_POST",
-			"Special_Price",
-			"your_price",
+			"SELECT",
+			"2018-equipment-catalogue",
+			"title",
+			"2018-equipment-catalogue",
+			"18",
+			"2019",
+			"2018",
+			"img",
+			"http://www.pentlandwholesale.co.uk/bottle-coolers",
+			"BAR",
+			"BAR10SS",
+			"10",
+			"10s",
+			"bar-bottle-coolers-low-height.jpg",
+			"Bar bottle coolers low height",
+			"p",
+			"tester",
+			"Priva",
+			"Delivery",
+			"domain_id",
+			"search_results",
+			"qry_results",
+			"fulltxt",
+			"pentland_website",
+			"specification_free_text4",
 			"tinventory",
-			"twitter",
-			".pdf",
-			"Customer Code",
-			"300",
-			"300x300",
-			"marketing",
-			"Marketing",
-			"h3><br>",
-			"250",
-			"-3",
-			"270",
-			"280",
-			"-4",
-			"$temp",
-			"temp",
-			"TEMP RANGE",
-			"img/slider/slider2/blizzard-premium-refigeration.jpg",
-			"img/slider/slider2/blizzard-premium-refrigeration.jpg",
-			"Pentland-website-slideshow_new-catalogue.jpg",
-			"<h2>Graded Stock</h2>",
-			"sitemap",
-			"proposedDate",
-			"appraisalTime",
-			"loggedInUser",
-			"queuedUrl",
-			"sessionService",
-			"'common'",
-			"logged",
-			"loggedInUser",
-			"\n            ",
-			"loggedInUser",
-			"login",
-			"questionDescriptions",
-			"</label>",
-			"</b></br>",
-			"<b>",
-			"<label style='text-align:left' class=\"control-label ",
-			"<label style='text-align:left' class=\"control-label col-lg-4\" ",
-			"<label style='text-align:left' class=\"control-label col-lg-4\" for=\"mobile\">",
-			"name=\"ques",
-			"getQuestion",
-			"'profile'",
-			"Full Name",
-			"mail($",
-			"mail(",
-			"control.php",
-			"control",
-			"My Profile",
-			"isTimeForAppraisal",
-			"employeeForms",
-			"alreadyFilled",
-			"appStatus",
-			"loggedInUser",
-			"Submit Manager",
-			"alter column",
-			"usersReminderNeeded",
-			"$usersReminderNeeded[]",
-			"yearSent"
+			"t",
+			"tinventory",
+			"and",
+			"tinventory",
+			"$invento",
+			"-- ",
+			"]",
+			"[",
+			"Prod_ Order Line No_",
+			"`",
+			"`,",
+			"` AS `",
+			"`.`",
+			"Service Order No_",
+			"Prod_ Order Comp_ Line No_",
+			"Prod_",
+			"Unit ",
+			"Prod_ Order No_",
+			"Prod_",
+			"Shipment Method Code",
+			",",
+			"Inventor",
+			"In Stock",
+			"tinventory",
+			"inventoryquery",
+			"tinventory =",
+			"tinventory",
+			"tinventory =",
+			"tinventory",
+			"answer =",
+			"answer",
+			"In Stock",
+			"Barss",
+			"logo",
+			"header",
+			"require",
+			"include",
+			"image1",
+			"ORDER",
+			"ItemLedgerEntry",
+			"Quantity",
+			"`Reserve`",
+			"<script",
+			"debuginfo",
+			"c",
+			"`Inventory`",
+			"Inventory",
+			"Web_Stock_Reference",
+			"`Web_Stock_Ref",
+			",",
+			"`Inventory",
+			"Inventory",
+			"tinventory",
+			"$t =",
+			"$t",
+			"`",
+			"and",
+			",",
+			"`",
+			"`,`",
+			"`",
+			"` ",
+			" `",
+			"`",
+			"`.`",
+			"`",
+			"VIEW",
+			"Reserve",
+			"Stock",
+			"`",
+			"`, `",
+			"`",
+			"`)",
+			"`",
+			"`.`",
+			"Stock",
+			"stock",
+			"EQUIPMENT",
+			"Equipment",
+			"Accounts",
+			"Thre",
+			"Suwen",
+			"Special_Price",
+			"unitpriceinspecialprice",
+			"your_price",
+			"debuginfo",
+			"var",
+			"echo",
+			"customer_code"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -652,14 +693,46 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/var/www/html/pentlandwholesale/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17999,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 30.0
+		"height": 32.0
 	},
 	"input":
 	{
@@ -692,11 +765,15 @@
 	{
 		"height": 0.0
 	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
 	"pinned_build_system": "",
 	"project": "acmefg-pentlandwholesale.sublime-project",
 	"replace":
 	{
-		"height": 56.0
+		"height": 60.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -706,6 +783,186 @@
 		"selected_items":
 		[
 			[
+				"index",
+				"index.php"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"blizzar",
+				"blizzard.php"
+			],
+			[
+				"produc",
+				"product.php"
+			],
+			[
+				"dbsetting",
+				"dbsettings.php"
+			],
+			[
+				"upload",
+				"upload-documents.php"
+			],
+			[
+				"",
+				"untitled"
+			],
+			[
+				"produ",
+				"product.php"
+			],
+			[
+				"footer",
+				"footer.php"
+			],
+			[
+				"salescod",
+				"sales-code.php"
+			],
+			[
+				"litdown",
+				"literature-download.php"
+			],
+			[
+				"htacc",
+				".htaccess"
+			],
+			[
+				"literature",
+				"literature-download.php"
+			],
+			[
+				"dbsett",
+				"dbsettings.php"
+			],
+			[
+				"config",
+				"models/config.php"
+			],
+			[
+				"priv",
+				"privacy.php"
+			],
+			[
+				"modelconfig",
+				"models/config.php"
+			],
+			[
+				"header",
+				"header.php"
+			],
+			[
+				"deliv",
+				"delivery.php"
+			],
+			[
+				"searchresult",
+				"search/templates/standard/search_results.html"
+			],
+			[
+				"search",
+				"search/search.php"
+			],
+			[
+				"fpdf",
+				"files/specifications/fpdf.php"
+			],
+			[
+				"specifica",
+				"files/specifications/specification.php"
+			],
+			[
+				"table",
+				"sql/table-definitions.sql"
+			],
+			[
+				"home",
+				"home.php"
+			],
+			[
+				"blizza",
+				"blizzard.php"
+			],
+			[
+				"head",
+				"header.php"
+			],
+			[
+				"brand",
+				"brands.php"
+			],
+			[
+				"quer",
+				"QUERIES.txt"
+			],
+			[
+				"meetou",
+				"meet-our-team.php"
+			],
+			[
+				"meet",
+				"meet-our-team.php"
+			],
+			[
+				"cart",
+				"cart.php"
+			],
+			[
+				"check",
+				"checkout.php"
+			],
+			[
+				"mediacen",
+				"media-centre.php"
+			],
+			[
+				"literadow",
+				"literature-download.php"
+			],
+			[
+				"whirl",
+				"whirlpool.php"
+			],
+			[
+				"brnad",
+				"brands.php"
+			],
+			[
+				"litera",
+				"literature-download.php"
+			],
+			[
+				"addnews",
+				"add-news.php"
+			],
+			[
+				"dbse",
+				"dbsettings.php"
+			],
+			[
+				"editnews",
+				"edit-news.php"
+			],
+			[
+				"news",
+				"news.php"
+			],
+			[
+				"meeto",
+				"meet-our-team.php"
+			],
+			[
+				"checkout",
+				"checkout.php"
+			],
+			[
+				"prodphp",
+				"product.php"
+			],
+			[
 				"slicknav",
 				"js/jquery.slicknav.js"
 			],
@@ -714,35 +971,15 @@
 				"models/db-settings.php"
 			],
 			[
-				"dbsetting",
-				"dbsettings.php"
-			],
-			[
 				"remote",
 				"models/db-settings-remote.php"
-			],
-			[
-				"head",
-				"header.php"
 			],
 			[
 				"db-sett",
 				"models/db-settings.php"
 			],
 			[
-				"modelconfig",
-				"models/config.php"
-			],
-			[
-				"index",
-				"index.php"
-			],
-			[
 				"dbs",
-				"dbsettings.php"
-			],
-			[
-				"dbsett",
 				"dbsettings.php"
 			],
 			[
@@ -754,32 +991,8 @@
 				"search/settings/database.php"
 			],
 			[
-				"htacc",
-				".htaccess"
-			],
-			[
 				"hea",
 				"header.php"
-			],
-			[
-				"cart",
-				"cart.php"
-			],
-			[
-				"produc",
-				"product.php"
-			],
-			[
-				"produ",
-				"product.php"
-			],
-			[
-				"meet",
-				"meet-our-team.php"
-			],
-			[
-				"",
-				"product.php"
 			],
 			[
 				"sql",
@@ -794,10 +1007,6 @@
 				"checkout.php"
 			],
 			[
-				"dbse",
-				"dbsettings.php"
-			],
-			[
 				"sear",
 				"search-orders.php"
 			],
@@ -810,16 +1019,8 @@
 				"product.php"
 			],
 			[
-				"deliv",
-				"delivery.php"
-			],
-			[
 				"vido",
 				"videos.php"
-			],
-			[
-				"footer",
-				"footer.php"
 			],
 			[
 				"literat",
@@ -830,20 +1031,12 @@
 				"account.php"
 			],
 			[
-				"litera",
-				"literature-download.php"
-			],
-			[
 				"specif",
 				"files/specifications/specification.php"
 			],
 			[
 				"speci",
 				"files/specifications/specification.php"
-			],
-			[
-				"fpdf",
-				"files/specifications/fpdf.php"
 			],
 			[
 				"fpd",
@@ -916,10 +1109,6 @@
 			[
 				"middlec",
 				"src/Middleware/Common.php"
-			],
-			[
-				"inde",
-				"index.php"
 			],
 			[
 				"middlecomm",
@@ -1104,118 +1293,6 @@
 			[
 				"templateindex",
 				"template/index.php"
-			],
-			[
-				"controler",
-				"src/Controller.php"
-			],
-			[
-				"func",
-				"models/funcs.php"
-			],
-			[
-				"funcs",
-				"models/funcs.php"
-			],
-			[
-				"config",
-				"models/config.php"
-			],
-			[
-				"moeluser",
-				"src/Model/User.php"
-			],
-			[
-				"usersettings",
-				"template/user_settings.php"
-			],
-			[
-				"usersett",
-				"vendor/swiftmailer/swiftmailer/tests/unit/Swift/Mime/SimpleHeaderSetTest.php"
-			],
-			[
-				"userse",
-				"user_settings.php"
-			],
-			[
-				"account.php",
-				"template/account.php"
-			],
-			[
-				"usersetting",
-				"user_settings.php"
-			],
-			[
-				"agred",
-				"src/Model/AgreedObjective.php"
-			],
-			[
-				"questio",
-				"src/Model/Questions.php"
-			],
-			[
-				"appsingle",
-				"template/appraisal-single.php"
-			],
-			[
-				"repoappsta",
-				"src/Repository/AppStatus.php"
-			],
-			[
-				"modelagreed",
-				"src/Model/AgreedObjective.php"
-			],
-			[
-				"appsat",
-				"src/Model/AppStatus.php"
-			],
-			[
-				"template/",
-				"template/agreed-objectives.php"
-			],
-			[
-				"repoappsat",
-				"src/Repository/AppStatus.php"
-			],
-			[
-				"apsat",
-				"src/Model/AppStatus.php"
-			],
-			[
-				"modelappsa",
-				"src/Model/AppStatus.php"
-			],
-			[
-				"mapperapps",
-				"src/Mapper/AppStatus.php"
-			],
-			[
-				"repous",
-				"src/Repository/User.php"
-			],
-			[
-				"mapperagr",
-				"src/Mapper/AgreedObjective.php"
-			],
-			[
-				"mapperque",
-				"src/Mapper/Questions.php"
-			],
-			[
-				"bootstthem",
-				"css/bootstrap-theme.css"
-			],
-			[
-				"manapp",
-				"template/submanap.php"
-			],
-			[
-				"tempques",
-				"template/questions.php"
-			],
-			[
-				"templteques",
-				"template/questions.php"
 			]
 		],
 		"width": 0.0
@@ -1231,12 +1308,52 @@
 				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
 			],
 			[
-				"acmefg",
-				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-acmefg.sublime-project"
+				"bm",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
 			],
 			[
 				"bms",
 				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
+			],
+			[
+				"blog",
+				"/var/www/html/dotfiles/sublime-text-workspaces/blog.sublime-workspace"
+			],
+			[
+				"blo",
+				"/var/www/html/dotfiles/sublime-text-workspaces/blog.sublime-workspace"
+			],
+			[
+				"port",
+				"/var/www/html/dotfiles/sublime-text-workspaces/portfolio.sublime-workspace"
+			],
+			[
+				"el",
+				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"acmefacme",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-acmefg.sublime-project"
+			],
+			[
+				"core",
+				"/var/www/html/dotfiles/sublime-text-workspaces/core.sublime-workspace"
+			],
+			[
+				"itdb",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-itdb.sublime-project"
+			],
+			[
+				"pentlandwhoe",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-pentlandwholesale.sublime-project"
+			],
+			[
+				"sand",
+				"/var/www/html/dotfiles/sublime-text-workspaces/sandbox.sublime-workspace"
+			],
+			[
+				"acmefg",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-acmefg.sublime-project"
 			],
 			[
 				"apprai",
@@ -1245,10 +1362,6 @@
 			[
 				"gameen",
 				"/var/www/html/dotfiles/sublime-text-workspaces/game-engine.sublime-workspace"
-			],
-			[
-				"bm",
-				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
 			],
 			[
 				"game",
@@ -1291,14 +1404,6 @@
 				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
 			],
 			[
-				"el",
-				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
-			],
-			[
-				"core",
-				"/var/www/html/dotfiles/sublime-text-workspaces/core.sublime-workspace"
-			],
-			[
 				"croe",
 				"/var/www/html/dotfiles/sublime-text-workspaces/core.sublime-workspace"
 			]
@@ -1321,7 +1426,7 @@
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 336.0,
 	"status_bar_visible": true,
 	"template_settings":

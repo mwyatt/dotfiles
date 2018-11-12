@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"thow",
+				"throw\tthrow"
+			],
+			[
+				"for",
+				"for\tfor"
+			],
+			[
+				"vl",
+				"value"
+			],
+			[
 				"thwo",
 				"throw\tmw-php-throw"
 			],
@@ -411,14 +423,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/var/www/html/core/src/FileSystem.php",
-			"settings":
-			{
-				"buffer_size": 3153,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -428,7 +432,7 @@
 	"command_palette":
 	{
 		"height": 392.0,
-		"last_filter": "close",
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -509,35 +513,59 @@
 	},
 	"expanded_folders":
 	[
-		"/var/www/html/core",
-		"/var/www/html/core/test"
+		"/var/www/html/core"
 	],
 	"file_history":
 	[
-		"/var/www/html/core/definition.sql",
+		"/var/www/html/core/src/Iterator/Collection.php",
+		"/var/www/html/core/src/Http/Config.php",
+		"/var/www/html/core/src/Iterator/Model/Route.php",
+		"/var/www/html/core/src/Router.php",
+		"/var/www/html/core/src/Http/Kernel.php",
+		"/var/www/html/core/index.php",
+		"/var/www/html/core/src/Route.php",
+		"/var/www/html/core/src/Iterator/Model.php",
+		"/var/www/html/core/src/AbstractIterator.php",
 		"/var/www/html/core/src/AbstractMapper.php",
+		"/var/www/html/core/src/MapperInterface.php",
+		"/var/www/html/core/src/Iterator/ModelInterface.php",
+		"/var/www/html/core/src/ModelInterface.php",
+		"/var/www/html/core/src/AbstractController.php",
+		"/var/www/html/core/src/AbstractView.php",
+		"/var/www/html/core/test/ControllerTest.php",
+		"/var/www/html/core/src/View.php",
+		"/var/www/html/core/src/Response.php",
+		"/var/www/html/core/src/Factory/Model.php",
+		"/var/www/html/core/src/AbstractFactory.php",
+		"/var/www/html/core/src/Database/Pdo.php",
+		"/var/www/html/core/src/AbstractRepository.php",
+		"/var/www/html/core/test/IteratorCollectionTest.php",
+		"/var/www/html/core/test/KernelTest.php",
+		"/var/www/html/core/phpunit.xml",
+		"/var/www/html/core/services.php",
+		"/var/www/html/core/composer.json",
+		"/var/www/html/core/definition.sql",
+		"/var/www/html/core/test/RepositoryTest.php",
+		"/var/www/html/core/test-data.sql",
+		"/var/www/html/core/src/AbstractModel.php",
+		"/var/www/html/core/test/IteratorModelTest.php",
+		"/var/www/html/core/src/Factory/Iterator.php",
+		"/var/www/html/core/src/Repository/User.php",
 		"/var/www/html/core/src/Factory/Mapper.php",
+		"/var/www/html/core/test/IteratorTest.php",
+		"/var/www/html/core/src/Iterator.php",
+		"/var/www/html/core/src/Model/User.php",
+		"/var/www/html/core/src/IteratorInterface.php",
+		"/var/www/html/core/src/FileSystem.php",
 		"/var/www/html/core/test/FactoryMapperTest.php",
 		"/var/www/html/core/src/Mapper/User.php",
 		"/var/www/html/core/test/MapperTest.php",
 		"/var/www/html/core/test/ViewTest.php",
-		"/var/www/html/core/src/Http/Kernel.php",
-		"/var/www/html/core/test/ControllerTest.php",
-		"/var/www/html/core/test/RepositoryTest.php",
-		"/var/www/html/core/src/Database/Pdo.php",
-		"/var/www/html/core/test-data.sql",
 		"/var/www/html/core/test/FactoryTest.php",
 		"/var/www/html/sandbox/websockets/index.html",
 		"/var/www/html/sandbox/websockets/index.js",
 		"/var/www/html/sandbox/websockets/package.json",
-		"/var/www/html/core/src/AbstractController.php",
-		"/var/www/html/core/services.php",
 		"/var/www/html/core/test/DatabaseTest.php",
-		"/var/www/html/core/test/KernelTest.php",
-		"/var/www/html/core/phpunit.xml",
-		"/var/www/html/core/composer.json",
-		"/var/www/html/core/src/Http/Config.php",
-		"/var/www/html/core/src/AbstractRepository.php",
 		"/home/martin/.config/sublime-text-3/Packages/User/snippet/php/mw-php-printPre.sublime-snippet",
 		"/var/www/html/core/src/Url.php",
 		"/var/www/html/core/vendor/corneltek/codegen/src/CodeGen/Constant.php",
@@ -551,11 +579,9 @@
 		"/var/www/html/core/.gitignore",
 		"/var/www/html/core/src/Cache.php",
 		"/var/www/html/core/config-sample.php",
-		"/var/www/html/core/src/Iterator/Model.php",
 		"/var/www/html/core/test/HelperTest.php",
 		"/var/www/html/core/cache/log/.gitignore",
 		"/var/www/html/core/test/MonologTest.php",
-		"/var/www/html/core/src/FileSystem.php",
 		"/var/www/html/core/log/error-2017-01-06.log",
 		"/var/www/html/core/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php",
 		"/etc/lightdm/lightdm.conf.d/10-xubuntu.conf",
@@ -564,33 +590,20 @@
 		"/var/www/html/core/src/Controller/Test.php",
 		"/var/www/html/core/src/Model/File.php",
 		"/var/www/html/core/test/FileSystemTest.php",
-		"/var/www/html/core/src/Iterator.php",
 		"/var/www/html/core/src/Model/IdTrait.php",
 		"/var/www/html/core/src/Request.php",
 		"/var/www/html/core/src/Mail.php",
-		"/var/www/html/core/src/Model/User.php",
 		"/var/www/html/core/test/CookieTest.php",
 		"/var/www/html/core/vendor/corneltek/pux/test/travis-setup.sh",
-		"/var/www/html/core/index.php",
-		"/var/www/html/core/src/AbstractModel.php",
-		"/var/www/html/core/src/Factory/Iterator.php",
-		"/var/www/html/core/test/IteratorTest.php",
 		"/var/www/html/core/test/FactoryIteratorTest.php",
-		"/var/www/html/core/src/AbstractFactory.php",
 		"/var/www/html/core/src/Pagination.php",
 		"/var/www/html/core/test/PaginationTest.php",
-		"/var/www/html/core/src/Iterator/ModelInterface.php",
-		"/var/www/html/core/test/IteratorModelTest.php",
-		"/var/www/html/core/src/ModelInterface.php",
 		"/var/www/html/core/test/ModelTest.php",
 		"/var/www/html/core/src/Model/User/Log.php",
 		"/var/www/html/core/src/Model/Log.php",
-		"/var/www/html/core/src/Repository/User.php",
-		"/var/www/html/core/src/AbstractIterator.php",
 		"/var/www/html/core/src/Http/KernelInterface.php",
 		"/var/www/html/core/src/Middleware/Common.php",
 		"/var/www/html/core/src/Middleware/Admin.php",
-		"/var/www/html/core/src/AbstractView.php",
 		"/var/www/html/core/asset/error.css",
 		"/var/www/html/core/template/header.php",
 		"/var/www/html/core/src/Factory/View.php",
@@ -605,14 +618,10 @@
 		"/var/www/html/core/vendor/twig/twig/lib/Twig/Extension/Core.php",
 		"/var/www/html/core/indexExample.php",
 		"/var/www/html/core/template/test.php",
-		"/var/www/html/core/src/View.php",
-		"/var/www/html/core/src/Router.php",
 		"/var/www/html/core/test/RouterTest.php",
 		"/var/www/html/core/src/ViewInterface.php",
-		"/var/www/html/core/src/Factory/Model.php",
 		"/var/www/html/core/src/Session.php",
 		"/var/www/html/core/src/AbstractMiddleware.php",
-		"/var/www/html/core/src/Response.php",
 		"/var/www/html/core/src/ResponseInterface.php",
 		"/var/www/html/core/src/Kernel.php",
 		"/var/www/html/core/src/Config.php",
@@ -635,17 +644,11 @@
 		"/var/www/html/core/src/DatabaseInterface.php",
 		"/var/www/html/core/src/Helper.php",
 		"/var/www/html/core/src/MailInterface.php",
-		"/var/www/html/core/src/MapperInterface.php",
-		"/var/www/html/core/src/PaginationInterface.php",
-		"/var/www/html/core/src/RepositoryInterface.php",
-		"/var/www/html/core/src/RequestInterface.php",
-		"/var/www/html/core/src/UrlInterface.php",
-		"/var/www/html/core/src/RegistryInterface.php",
-		"/var/www/html/core/test/RegistryTest.php"
+		"/var/www/html/core/src/PaginationInterface.php"
 	],
 	"find":
 	{
-		"height": 58.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
@@ -715,6 +718,80 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"renderIt",
+			"log",
+			"getByOptionKeyValue",
+			"runMiddlewarePost",
+			"route",
+			"getOption",
+			"middlewarePost",
+			"array",
+			"values",
+			"total",
+			"assert",
+			"pimpleContainer",
+			"ArrayAccess",
+			"requestedClassPath",
+			"static",
+			"user_meta",
+			"getKeyedByPropertyMulti",
+			"items",
+			"->filter",
+			"$this->users->filter",
+			"filter",
+			"support",
+			"nameFirst",
+			"email",
+			"AbstractIterator",
+			"offsetAppend",
+			"offsetSet",
+			"offsetGet",
+			"\\Mwyatt\\Core\\Iterator\\Model",
+			"filter",
+			"result",
+			"resetKeys",
+			"results",
+			"resetKeys",
+			"pluck",
+			"results",
+			"values",
+			"value",
+			"extractProperty",
+			"data",
+			"datas",
+			"users",
+			"collectionArr",
+			"collection",
+			"extractProperty",
+			"property",
+			"collection",
+			";\n",
+			"private",
+			"rewind",
+			"get('",
+			"Arr",
+			"offsetAppend",
+			"proxies",
+			"datas",
+			"keys",
+			"keyedByNameLast",
+			"->get",
+			"iterator",
+			"$this->itemIterator",
+			"model",
+			"datas",
+			"modelIterator",
+			"$this->items",
+			"items",
+			"model",
+			"keyed",
+			"getKeyedByProperty",
+			"model",
+			"collection",
+			"model",
+			"callable",
+			"->get(",
+			"->get",
 			"return new \\Mwyatt\\Core\\Factory\\Mapper(\n                $container['Database'],",
 			"MapperFac",
 			"services",
@@ -768,81 +845,7 @@
 			"this->",
 			"ConfigLocal",
 			"(string) (__DIR__ . '/../')",
-			"ProjectPath",
-			"martin.w",
-			"123123123",
-			"David",
-			"Blogs",
-			"martin.wyatt@gmail.com",
-			"arrayKeyExists",
-			"key unsigned",
-			"key unsigned int(10)",
-			"primary key (`id`)",
-			"auto_increment",
-			"/*not null*/",
-			"prepare",
-			"$database",
-			"database",
-			"query",
-			"config",
-			"dataSourceName",
-			" = null",
-			"create table ",
-			"drop table if exists `userLog`;\ncreate table ",
-			"`id` auto_increment unsigned ",
-			"errorInfo",
-			"auto_increment",
-			" engine",
-			"auto_increment",
-			"PRIMARY KEY ",
-			"CHARSET",
-			"DEFAULT",
-			"DEFAULT NULL",
-			"NOT NULL",
-			"CHARSET",
-			"ENGINE",
-			"AUTO_INCREMENT",
-			"CREATE TABLE ",
-			"unsigned",
-			"exec",
-			"$this->",
-			"PHPUnit_Extensions_Database_TestCase",
-			"PHPUnit_Framework_TestCase",
-			"pimple",
-			"createDefaultDBConnection",
-			"statement",
-			"files",
-			"$basePath",
-			"lineFormatter",
-			"basePath",
-			"RotatingFileHandler",
-			"Version",
-			"deprecated",
-			"redirectRefresh",
-			"key",
-			"requiredKeys",
-			"expecte",
-			"Expecte",
-			"1",
-			"weh1231hui.jpg",
-			"example.jpg",
-			"tidyFilesGlobal",
-			", ",
-			" ||",
-			"val",
-			"$i",
-			"new",
-			"files",
-			"$array",
-			"mediaUploadTidyFiles",
-			"$fileSystem",
-			"timeModified",
-			"getDirectory",
-			"ConfigLocal",
-			"Database",
-			"ConfigLocal",
-			"validateRules",
-			"namespaceFallback"
+			"ProjectPath"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -909,43 +912,14 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/var/www/html/core/src/FileSystem.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3153,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								3153
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 32.0
 	},
 	"input":
 	{
@@ -982,6 +956,10 @@
 	{
 		"height": 0.0
 	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
 	"pinned_build_system": "",
 	"project": "",
 	"replace":
@@ -996,6 +974,238 @@
 		"selected_items":
 		[
 			[
+				"kerne",
+				"src/Http/Kernel.php"
+			],
+			[
+				"iteramodelroute",
+				"src/Iterator/Model/Route.php"
+			],
+			[
+				"router",
+				"src/Router.php"
+			],
+			[
+				"collec",
+				"src/Iterator/Collection.php"
+			],
+			[
+				"config",
+				"src/Http/Config.php"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"route",
+				"src/Route.php"
+			],
+			[
+				"modelroute",
+				"src/Iterator/Model/Route.php"
+			],
+			[
+				"mapperinter",
+				"src/MapperInterface.php"
+			],
+			[
+				"absmapp",
+				"src/AbstractMapper.php"
+			],
+			[
+				"absmapper",
+				"src/AbstractMapper.php"
+			],
+			[
+				"iteramodel",
+				"src/Iterator/Model.php"
+			],
+			[
+				"iteratormodel",
+				"src/Iterator/Model.php"
+			],
+			[
+				"modelinterf",
+				"src/Iterator/ModelInterface.php"
+			],
+			[
+				"modelinter",
+				"src/ModelInterface.php"
+			],
+			[
+				"abscontro",
+				"src/AbstractController.php"
+			],
+			[
+				"view",
+				"src/View.php"
+			],
+			[
+				"absview",
+				"src/AbstractView.php"
+			],
+			[
+				"respons",
+				"src/Response.php"
+			],
+			[
+				"abscontrol",
+				"src/AbstractController.php"
+			],
+			[
+				"absfac",
+				"src/AbstractFactory.php"
+			],
+			[
+				"factorymodel",
+				"src/Factory/Model.php"
+			],
+			[
+				"dabapdo",
+				"src/Database/Pdo.php"
+			],
+			[
+				"contro",
+				"test/ControllerTest.php"
+			],
+			[
+				"absrepos",
+				"src/AbstractRepository.php"
+			],
+			[
+				"colle",
+				"src/Iterator/Collection.php"
+			],
+			[
+				"colelctest",
+				"test/IteratorCollectionTest.php"
+			],
+			[
+				"absiter",
+				"src/AbstractIterator.php"
+			],
+			[
+				"itermodel",
+				"src/Iterator/Model.php"
+			],
+			[
+				"phpu",
+				"phpunit.xml"
+			],
+			[
+				"kerneltes",
+				"test/KernelTest.php"
+			],
+			[
+				"service",
+				"services.php"
+			],
+			[
+				"kernel",
+				"src/Http/Kernel.php"
+			],
+			[
+				"compsoer",
+				"composer.json"
+			],
+			[
+				"compsor",
+				"composer.json"
+			],
+			[
+				"test/repos",
+				"test/RepositoryTest.php"
+			],
+			[
+				"tesda",
+				"test-data.sql"
+			],
+			[
+				"sql",
+				"definition.sql"
+			],
+			[
+				"defini",
+				"definition.sql"
+			],
+			[
+				"absmodel",
+				"src/AbstractModel.php"
+			],
+			[
+				"",
+				"src/Factory/Iterator.php"
+			],
+			[
+				"facitera",
+				"src/Factory/Iterator.php"
+			],
+			[
+				"itmodte",
+				"test/IteratorModelTest.php"
+			],
+			[
+				"repouser",
+				"src/Repository/User.php"
+			],
+			[
+				"absmpper",
+				"src/AbstractMapper.php"
+			],
+			[
+				"factoryitera",
+				"src/Factory/Iterator.php"
+			],
+			[
+				"factormapper",
+				"src/Factory/Mapper.php"
+			],
+			[
+				"absitera",
+				"src/AbstractIterator.php"
+			],
+			[
+				"iteracoltes",
+				"test/IteratorCollectionTest.php"
+			],
+			[
+				"modeluser",
+				"src/Model/User.php"
+			],
+			[
+				"iterator",
+				"src/Iterator.php"
+			],
+			[
+				"iteramodl",
+				"src/Iterator/Model.php"
+			],
+			[
+				"itermodele",
+				"test/IteratorModelTest.php"
+			],
+			[
+				"absiera",
+				"src/AbstractIterator.php"
+			],
+			[
+				"testiteramodele",
+				"test/IteratorModelTest.php"
+			],
+			[
+				"test/itera",
+				"test/IteratorTest.php"
+			],
+			[
+				"itera",
+				"src/Iterator.php"
+			],
+			[
+				"compos",
+				"composer.json"
+			],
+			[
 				"files",
 				"src/FileSystem.php"
 			],
@@ -1004,16 +1214,8 @@
 				"definition.sql"
 			],
 			[
-				"absmpper",
-				"src/AbstractMapper.php"
-			],
-			[
 				"mappertes",
 				"test/MapperTest.php"
-			],
-			[
-				"",
-				"Find Results"
 			],
 			[
 				"repotes",
@@ -1022,10 +1224,6 @@
 			[
 				"controltest",
 				"test/ControllerTest.php"
-			],
-			[
-				"kerne",
-				"src/Http/Kernel.php"
 			],
 			[
 				"viewtes",
@@ -1048,10 +1246,6 @@
 				"src/Mapper/User.php"
 			],
 			[
-				"tesda",
-				"test-data.sql"
-			],
-			[
 				"mapperuser",
 				"src/Mapper/User.php"
 			],
@@ -1062,10 +1256,6 @@
 			[
 				"facmapper",
 				"src/Factory/Mapper.php"
-			],
-			[
-				"absmapper",
-				"src/AbstractMapper.php"
 			],
 			[
 				"faciterates",
@@ -1080,18 +1270,6 @@
 				"src/AbstractController.php"
 			],
 			[
-				"service",
-				"services.php"
-			],
-			[
-				"factormapper",
-				"src/Factory/Mapper.php"
-			],
-			[
-				"defini",
-				"definition.sql"
-			],
-			[
 				"tesdat",
 				"test-data.sql"
 			],
@@ -1104,24 +1282,8 @@
 				"composer.json"
 			],
 			[
-				"config",
-				"src/Http/Config.php"
-			],
-			[
-				"phpu",
-				"phpunit.xml"
-			],
-			[
 				"testkerne",
 				"test/KernelTest.php"
-			],
-			[
-				"compos",
-				"composer.json"
-			],
-			[
-				"absrepos",
-				"src/AbstractRepository.php"
 			],
 			[
 				"testrepos",
@@ -1142,14 +1304,6 @@
 			[
 				"yml",
 				".travis.yml"
-			],
-			[
-				"kernel",
-				"src/Http/Kernel.php"
-			],
-			[
-				"kerneltes",
-				"test/KernelTest.php"
 			],
 			[
 				"kernelte",
@@ -1182,10 +1336,6 @@
 			[
 				"cache",
 				"src/Cache.php"
-			],
-			[
-				"itermodel",
-				"src/Iterator/Model.php"
 			],
 			[
 				"definit",
@@ -1252,10 +1402,6 @@
 				"src/Model/File.php"
 			],
 			[
-				"iterator",
-				"src/Iterator.php"
-			],
-			[
 				"idtrait",
 				"src/Model/IdTrait.php"
 			],
@@ -1272,10 +1418,6 @@
 				"composer.json"
 			],
 			[
-				"modeluser",
-				"src/Model/User.php"
-			],
-			[
 				"php",
 				"phpunit.xml"
 			],
@@ -1284,20 +1426,12 @@
 				"vendor/corneltek/pux/test/travis-setup.sh"
 			],
 			[
-				"absmodel",
-				"src/AbstractModel.php"
-			],
-			[
 				"kern",
 				"src/Http/Kernel.php"
 			],
 			[
 				"index",
 				"index.php"
-			],
-			[
-				"facitera",
-				"src/Factory/Iterator.php"
 			],
 			[
 				"factest",
@@ -1332,14 +1466,6 @@
 				"test/IteratorTest.php"
 			],
 			[
-				"iteratormodel",
-				"src/Iterator/Model.php"
-			],
-			[
-				"inde",
-				"index.php"
-			],
-			[
 				"modellog",
 				"src/Model/Log.php"
 			],
@@ -1358,154 +1484,6 @@
 			[
 				"modelte",
 				"test/ModelTest.php"
-			],
-			[
-				"modetest",
-				"test/IteratorModelTest.php"
-			],
-			[
-				"absitera",
-				"src/AbstractIterator.php"
-			],
-			[
-				"ker",
-				"src/Http/Kernel.php"
-			],
-			[
-				"absrepo",
-				"src/AbstractRepository.php"
-			],
-			[
-				"absconrol",
-				"src/AbstractController.php"
-			],
-			[
-				"absiter",
-				"src/AbstractIterator.php"
-			],
-			[
-				"middleware",
-				"src/Middleware/Common.php"
-			],
-			[
-				"middle",
-				"src/Middleware/Admin.php"
-			],
-			[
-				"header",
-				"template/header.php"
-			],
-			[
-				"absview",
-				"src/AbstractView.php"
-			],
-			[
-				"conif",
-				"config-sample.php"
-			],
-			[
-				"conf",
-				"config.php"
-			],
-			[
-				"mapperuserlog",
-				"src/Mapper/User/Log.php"
-			],
-			[
-				"iterator/model/",
-				"src/Iterator/Model/User.php"
-			],
-			[
-				"itermodeltes",
-				"test/IteratorModelTest.php"
-			],
-			[
-				"facview",
-				"src/Factory/View.php"
-			],
-			[
-				"kerntes",
-				"test/KernelTest.php"
-			],
-			[
-				"middlewarecommon",
-				"src/Middleware/Common.php"
-			],
-			[
-				"error",
-				"src/Controller/Error.php"
-			],
-			[
-				"middlewarecomm",
-				"src/Middleware/Common.php"
-			],
-			[
-				"controlerro",
-				"src/Controller/Error.php"
-			],
-			[
-				"footer",
-				"template/footer.php"
-			],
-			[
-				"message",
-				"template/message.php"
-			],
-			[
-				"view",
-				"src/AbstractView.php"
-			],
-			[
-				"heade",
-				"template/header.php"
-			],
-			[
-				"templa",
-				"src/Template.php"
-			],
-			[
-				"messa",
-				"template/message.php"
-			],
-			[
-				"controler",
-				"src/Controller/Error.php"
-			],
-			[
-				"middlecom",
-				"src/Middleware/Common.php"
-			],
-			[
-				"absvi",
-				"src/AbstractView.php"
-			],
-			[
-				"control",
-				"src/Controller/Test.php"
-			],
-			[
-				"ind",
-				"index.php"
-			],
-			[
-				"route",
-				"routes.php"
-			],
-			[
-				"middlewa",
-				"src/Middleware/Admin.php"
-			],
-			[
-				"middlead",
-				"src/Middleware/Admin.php"
-			],
-			[
-				"controlerror",
-				"src/Controller/Error.php"
-			],
-			[
-				"indx",
-				"index.php"
 			]
 		],
 		"width": 0.0
@@ -1521,36 +1499,60 @@
 				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
 			],
 			[
-				"elt",
-				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
-			],
-			[
-				"store",
-				"/var/www/html/dotfiles/sublime-text-workspaces/core.sublime-workspace"
-			],
-			[
-				"bms",
-				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
+				"code",
+				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"
 			],
 			[
 				"core",
 				"/var/www/html/dotfiles/sublime-text-workspaces/core.sublime-workspace"
 			],
 			[
-				"code",
-				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"
+				"mbs",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
+			],
+			[
+				"bms",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
+			],
+			[
+				"el",
+				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"elt",
+				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"pentland",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-pentlandwholesale.sublime-project"
+			],
+			[
+				"port",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-portal.sublime-project"
+			],
+			[
+				"pent",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-pentlandwholesale.sublime-project"
+			],
+			[
+				"acmefacme",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-acmefg.sublime-project"
+			],
+			[
+				"portal",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-portal.sublime-project"
 			],
 			[
 				"bm",
 				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
 			],
 			[
-				"dia",
-				"/var/www/html/dotfiles/sublime-text-workspaces/dialogue.sublime-workspace"
+				"store",
+				"/var/www/html/dotfiles/sublime-text-workspaces/core.sublime-workspace"
 			],
 			[
-				"el",
-				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
+				"dia",
+				"/var/www/html/dotfiles/sublime-text-workspaces/dialogue.sublime-workspace"
 			],
 			[
 				"s",
@@ -1579,10 +1581,6 @@
 			[
 				"stot",
 				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
-			],
-			[
-				"port",
-				"/var/www/html/setting/sublime-text-workspaces/portfolio.sublime-workspace"
 			],
 			[
 				"sote",
@@ -1671,7 +1669,7 @@
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 253.0,
 	"status_bar_visible": true,
 	"template_settings":

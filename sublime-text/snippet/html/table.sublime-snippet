@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<table width="100%" cellspacing="0" cellpadding="0">${1}</table>${2}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>table</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.html</scope> -->
+</snippet>

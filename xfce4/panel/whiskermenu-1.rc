@@ -1,5 +1,5 @@
 favorites=abiword.desktop,exo-file-manager.desktop,gmusicbrowser.desktop,gnumeric.desktop,xfhelp4.desktop,exo-mail-reader.desktop,pidgin.desktop,exo-terminal-emulator.desktop,ubuntu-software-center.desktop,exo-web-browser.desktop
-recent=thunderbird.desktop,filezilla.desktop,google-chrome.desktop,gcalctool.desktop,sublime-text.desktop,gimp.desktop,xfce-keyboard-settings.desktop,light-locker-settings.desktop,gnumeric.desktop,xfce-mouse-settings.desktop
+recent=filezilla.desktop,google-chrome.desktop,wine-notepad.desktop,virtualbox.desktop,ubuntu-software-center.desktop,software-properties-gtk.desktop,gimp.desktop,gcalctool.desktop,xfce-wmtweaks-settings.desktop,thunderbird.desktop
 button-title=Super
 button-icon=xubuntu-logo-menu
 show-button-title=true
@@ -14,8 +14,8 @@ favorites-in-recent=true
 display-recent-default=false
 position-search-alternate=true
 position-commands-alternate=false
-menu-width=338
-menu-height=454
+menu-width=383
+menu-height=448
 command-settings=xfce4-settings-manager
 show-command-settings=true
 command-lockscreen=xflock4

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+uasort(function(\$a, \$b) {
+    ${1:return ${2:strcasecmp}(\$a->${3}, \$b->${3});}
+});
+]]></content>
+    <tabTrigger>uasort</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

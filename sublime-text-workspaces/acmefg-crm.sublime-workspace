@@ -519,15 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/var/www/html/crm/submit-enquiry.php",
-			"settings":
-			{
-				"buffer_size": 4112,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -634,6 +625,15 @@
 	],
 	"file_history":
 	[
+		"/var/www/html/crm/view-interactions.php",
+		"/var/www/html/crm/enquiries.php",
+		"/var/www/html/crm/enquiry-operations.php",
+		"/var/www/html/crm/models/db-settings.php",
+		"/var/www/html/crm/models/config.php",
+		"/home/martin/Downloads/crmacmef_website.sql",
+		"/var/www/html/crm/dashboard/dbsettings.php",
+		"/var/www/html/crm/submit-enquiry.php",
+		"/var/www/html/crm/admin_configuration.php",
 		"/var/www/html/crm/.gitignore",
 		"/var/www/html/crm/index.php",
 		"/var/www/html/crm/composer.json",
@@ -752,20 +752,11 @@
 		"/var/www/html/core/test/UrlTest.php",
 		"/var/www/html/core/src/Http/Kernel.php",
 		"/var/www/html/core/src/Router.php",
-		"/var/www/html/core/src/Url.php",
-		"/var/www/html/core/test/RouterTest.php",
-		"/var/www/html/core/src/RouterInterface.php",
-		"/var/www/html/core/src/Request.php",
-		"/var/www/html/core/src/ControllerInterface.php",
-		"/var/www/html/core/src/Mapper/User/Log.php",
-		"/var/www/html/core/src/Pagination.php",
-		"/var/www/html/core/src/AbstractController.php",
-		"/var/www/html/core/test/ControllerTest.php",
-		"/var/www/html/core/test/DatabaseTest.php"
+		"/var/www/html/core/src/Url.php"
 	],
 	"find":
 	{
-		"height": 37.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
@@ -835,6 +826,10 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"Oh s",
+			"Oh snap!",
+			"status",
+			"Status",
 			"_POST['name",
 			"header",
 			"mysql_escape_string",
@@ -958,11 +953,7 @@
 			"();\n",
 			"ustomer",
 			"    $",
-			"Customer",
-			"singleConvert",
-			"singleConvertSubmit",
-			"STR",
-			";\n"
+			"Customer"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1026,37 +1017,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/var/www/html/crm/submit-enquiry.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4112,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								70,
-								81
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1099,6 +1061,10 @@
 	{
 		"height": 0.0
 	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
 	"pinned_build_system": "",
 	"project": "acmefg-crm.sublime-project",
 	"replace":
@@ -1112,6 +1078,30 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"dbsett",
+				"models/db-settings.php"
+			],
+			[
+				"config",
+				"models/config.php"
+			],
+			[
+				"enqoper",
+				"enquiry-operations.php"
+			],
+			[
+				"enquir",
+				"enquiries.php"
+			],
+			[
+				"modelconfig",
+				"models/config.php"
+			],
+			[
+				"confi",
+				"admin_configuration.php"
+			],
 			[
 				"submit",
 				"submit-enquiry.php"
@@ -1143,10 +1133,6 @@
 			[
 				"mapperenq",
 				"src/Mapper/Enquiry.php"
-			],
-			[
-				"config",
-				"config.php"
 			],
 			[
 				"htacc",
@@ -1577,10 +1563,6 @@
 				"src/Model/Enquiry.php"
 			],
 			[
-				"enquir",
-				"src/Model/Enquiry.php"
-			],
-			[
 				"repocus",
 				"src/Repository/Customer.php"
 			],
@@ -1607,22 +1589,6 @@
 			[
 				"enquirie",
 				"template/enquiries.php"
-			],
-			[
-				"model",
-				"src/Model/Enquiry.php"
-			],
-			[
-				"singconv",
-				"template/enquiry/singleConvert.php"
-			],
-			[
-				"enquiryfo",
-				"template/enquiry-form.php"
-			],
-			[
-				"enqingle",
-				"template/enquiry/single.php"
 			]
 		],
 		"width": 0.0
@@ -1630,9 +1596,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "bms",
 		"selected_items":
 		[
+			[
+				"bms",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
+			],
 			[
 				"",
 				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-acmefg.sublime-project"
@@ -1640,10 +1610,6 @@
 			[
 				"crm",
 				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-crm.sublime-project"
-			],
-			[
-				"bms",
-				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
 			],
 			[
 				"acmeacme",

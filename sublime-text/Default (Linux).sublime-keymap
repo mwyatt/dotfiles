@@ -3,5 +3,7 @@
     { "keys": ["ctrl+alt+i"], "command": "reindent" },
     { "keys": ["ctrl+alt+."], "command": "new_snippet" },
     { "keys": ["ctrl+alt+w"], "command": "close_others" },
-    { "keys": ["ctrl+alt+shift+w"], "command": "close_to_right" }
+    { "keys": ["ctrl+alt+shift+w"], "command": "close_to_right" },
+    { "keys": ["ctrl+alt+f"], "command": "afn_show_filenames",
+       "context": [{ "key": "afn_use_keybinding", "operator": "equal", "operand": true }]}
 ]

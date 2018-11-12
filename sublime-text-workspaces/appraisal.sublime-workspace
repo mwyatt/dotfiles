@@ -388,16 +388,6 @@
 			}
 		},
 		{
-			"contents": "Searching 2847 files for \"ALTER\" (case sensitive)\n\n/var/www/html/appraisal/sql/1.sql:\n    9  alter table mailLog add userId int(11) not null after id;\n   10  alter table empques add timeCreated int(10) not null;\n   11: ALTER TABLE company ENGINE = InnoDB;\n   12: ALTER TABLE login_logs ENGINE = InnoDB;\n   13: ALTER TABLE sign ENGINE = InnoDB;\n   14  alter table appstatus add timeCreated int(10) not null;\n   15  alter table empques drop timestamp;\n\n/var/www/html/appraisal/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/MimeEntity.php:\n   23  \n   24      /** An entity which nests with the same precedence as a mime part */\n   25:     const LEVEL_ALTERNATIVE = 4096;\n   26  \n   27      /** An entity which nests with the same precedence as embedded content */\n   ..\n   32       *\n   33       * The lower the value, the more outermost the entity will be nested.\n   34:      * @see LEVEL_TOP, LEVEL_MIXED, LEVEL_RELATED, LEVEL_ALTERNATIVE\n   35       *\n   36       * @return int\n\n/var/www/html/appraisal/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/MimePart.php:\n   26  \n   27      /** The nesting level of this MimePart */\n   28:     private $_nestingLevel = self::LEVEL_ALTERNATIVE;\n   29  \n   30      /**\n   ..\n  152       * Get the nesting level of this entity.\n  153       *\n  154:      * @see LEVEL_TOP, LEVEL_ALTERNATIVE, LEVEL_MIXED, LEVEL_RELATED\n  155       *\n  156       * @return int\n\n/var/www/html/appraisal/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleMimeEntity.php:\n   34      private $_compositeRanges = array(\n   35          'multipart/mixed' => array(self::LEVEL_TOP, self::LEVEL_MIXED),\n   36:         'multipart/alternative' => array(self::LEVEL_MIXED, self::LEVEL_ALTERNATIVE),\n   37:         'multipart/related' => array(self::LEVEL_ALTERNATIVE, self::LEVEL_RELATED),\n   38      );\n   39  \n   ..\n   42  \n   43      /** The nesting level of this entity */\n   44:     private $_nestingLevel = self::LEVEL_ALTERNATIVE;\n   45  \n   46      /** A KeyCache instance used during encoding and streaming */\n   ..\n  102  \n  103          $this->_compoundLevelFilters = array(\n  104:             (self::LEVEL_ALTERNATIVE + self::LEVEL_RELATED) => array(\n  105:                 self::LEVEL_ALTERNATIVE => array(\n  106:                     'text/plain' => self::LEVEL_ALTERNATIVE,\n  107                      'text/html' => self::LEVEL_RELATED,\n  108                      ),\n  ...\n  138       * Get the nesting level of this entity.\n  139       *\n  140:      * @see LEVEL_TOP, LEVEL_MIXED, LEVEL_RELATED, LEVEL_ALTERNATIVE\n  141       *\n  142       * @return int\n  ...\n  791          foreach ($this->_immediateChildren as $child) {\n  792              // NOTE: This include alternative parts moved into a related part\n  793:             if ($child->getNestingLevel() == self::LEVEL_ALTERNATIVE) {\n  794                  $shouldSort = true;\n  795                  break;\n\n/var/www/html/appraisal/vendor/swiftmailer/swiftmailer/notes/rfc/rfc0822.txt:\n  311       their presence will facilitate discerning the use of rule names.\n  312  \n  313:      2.2.  RULE1 / RULE2:  ALTERNATIVES\n  314  \n  315            Elements separated by slash (\"/\") are alternatives.   There-\n  316       fore \"foo / bar\" will accept foo or bar.\n  317  \n  318:      2.3.  (RULE1 RULE2):  LOCAL ALTERNATIVES\n  319  \n  320            Elements enclosed in parentheses are  treated  as  a  single\n\n/var/www/html/appraisal/vendor/swiftmailer/swiftmailer/notes/rfc/rfc1521.txt:\n 1972     given the choice.\n 1973  \n 1974:    NOTE ON THE SEMANTICS OF CONTENT-ID IN MULTIPART/ALTERNATIVE: Each\n 1975     part of a multipart/alternative entity represents the same data, but\n 1976     the mappings between the two are not necessarily without information\n\n/var/www/html/appraisal/vendor/swiftmailer/swiftmailer/notes/rfc/rfc2046.txt:\n 1422     given the choice.\n 1423  \n 1424:    THE SEMANTICS OF CONTENT-ID IN MULTIPART/ALTERNATIVE:  Each part of a\n 1425     \"multipart/alternative\" entity represents the same data, but the\n 1426     mappings between the two are not necessarily without information\n\n/var/www/html/appraisal/vendor/swiftmailer/swiftmailer/notes/rfc/rfc2234.txt:\n   39     3. OPERATORS .....................................................  5\n   40     3.1 CONCATENATION    RULE1     RULE2 .............................  5\n   41:    3.2 ALTERNATIVES RULE1 / RULE2 ...................................  6\n   42:    3.3 INCREMENTAL ALTERNATIVES   RULE1 =/ RULE2 ....................  6\n   43:    3.4 VALUE RANGE ALTERNATIVES   %C##-## ...........................  7\n   44     3.5 SEQUENCE GROUP (RULE1 RULE2) .................................  7\n   45     3.6 VARIABLE REPETITION *RULE ....................................  8\n\n/var/www/html/appraisal/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Mime/AbstractMimeEntityTest.php:\n  436      public function testChildrenOfLevelAlternativeAndLessCauseMultipartAlternative()\n  437      {\n  438:         for ($level = Swift_Mime_MimeEntity::LEVEL_ALTERNATIVE;\n  439              $level > Swift_Mime_MimeEntity::LEVEL_MIXED; $level /= 2) {\n  440              $child = $this->_createChild($level);\n  ...\n  459      {\n  460          for ($level = Swift_Mime_MimeEntity::LEVEL_RELATED;\n  461:             $level > Swift_Mime_MimeEntity::LEVEL_ALTERNATIVE; $level /= 2) {\n  462              $child = $this->_createChild($level);\n  463              $cType = $this->_createHeader(\n  ...\n  482          $combinations  = array(\n  483              array('levels' => array(Swift_Mime_MimeEntity::LEVEL_MIXED,\n  484:                 Swift_Mime_MimeEntity::LEVEL_ALTERNATIVE,\n  485                  Swift_Mime_MimeEntity::LEVEL_RELATED,\n  486                  ),\n  ...\n  493                  ),\n  494              array('levels' => array(Swift_Mime_MimeEntity::LEVEL_MIXED,\n  495:                 Swift_Mime_MimeEntity::LEVEL_ALTERNATIVE,\n  496                  ),\n  497                  'type' => 'multipart/mixed',\n  498                  ),\n  499:             array('levels' => array(Swift_Mime_MimeEntity::LEVEL_ALTERNATIVE,\n  500                  Swift_Mime_MimeEntity::LEVEL_RELATED,\n  501                  ),\n  ...\n  538          $headers = $this->_createHeaderSet(array(), false);\n  539  \n  540:         $child1 = new MimeEntityFixture(Swift_Mime_MimeEntity::LEVEL_ALTERNATIVE,\n  541              \"Content-Type: text/plain\\r\\n\".\n  542              \"\\r\\n\".\n  ...\n  544              );\n  545  \n  546:         $child2 = new MimeEntityFixture(Swift_Mime_MimeEntity::LEVEL_ALTERNATIVE,\n  547              \"Content-Type: text/html\\r\\n\".\n  548              \"\\r\\n\".\n  ...\n  581          $newHeaders = $this->_createHeaderSet(array(), false);\n  582  \n  583:         $part = $this->_createChild(Swift_Mime_MimeEntity::LEVEL_ALTERNATIVE,\n  584              \"Content-Type: text/plain\\r\\n\".\n  585              \"\\r\\n\".\n  ...\n  703      public function testOrderingTextBeforeHtml()\n  704      {\n  705:         $htmlChild = new MimeEntityFixture(Swift_Mime_MimeEntity::LEVEL_ALTERNATIVE,\n  706              \"Content-Type: text/html\\r\\n\".\n  707              \"\\r\\n\".\n  ...\n  709              'text/html'\n  710              );\n  711:         $textChild = new MimeEntityFixture(Swift_Mime_MimeEntity::LEVEL_ALTERNATIVE,\n  712              \"Content-Type: text/plain\\r\\n\".\n  713              \"\\r\\n\".\n  ...\n  744      {\n  745          $cType = $this->_createHeader('Content-Type', 'text/plain', array(), false);\n  746:         $child = $this->_createChild(Swift_Mime_MimeEntity::LEVEL_ALTERNATIVE);\n  747  \n  748          $cType->shouldReceive('setFieldBodyModel')\n\n/var/www/html/appraisal/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Mime/MimePartTest.php:\n    9              );\n   10          $this->assertEquals(\n   11:             Swift_Mime_MimeEntity::LEVEL_ALTERNATIVE, $part->getNestingLevel()\n   12              );\n   13      }\n\n34 matches across 10 files\n",
-			"settings":
-			{
-				"buffer_size": 7899,
-				"line_ending": "Unix",
-				"name": "Find Results",
-				"scratch": true
-			}
-		},
-		{
 			"file": "/var/www/html/appraisal/sql/1.sql",
 			"settings":
 			{
@@ -686,6 +676,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"$result",
 			"ALTER",
 			"getMonthAs",
 			"fetchDueAppraisals",
@@ -812,8 +803,7 @@
 			"captcha.jpg",
 			"captcha.png",
 			"image",
-			"enc",
-			"employeeForm"
+			"enc"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -876,7 +866,7 @@
 						"translation.y": 826.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -906,7 +896,7 @@
 						"translation.y": 276.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -935,7 +925,7 @@
 						"translation.y": 18996.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -965,7 +955,7 @@
 						"translation.y": 1883.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -995,7 +985,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -1030,185 +1020,6 @@
 				},
 				{
 					"buffer": 6,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7899,
-						"regions":
-						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										219,
-										224
-									],
-									[
-										263,
-										268
-									],
-									[
-										310,
-										315
-									],
-									[
-										656,
-										661
-									],
-									[
-										934,
-										939
-									],
-									[
-										1188,
-										1193
-									],
-									[
-										1332,
-										1337
-									],
-									[
-										1717,
-										1722
-									],
-									[
-										1787,
-										1792
-									],
-									[
-										1957,
-										1962
-									],
-									[
-										2150,
-										2155
-									],
-									[
-										2230,
-										2235
-									],
-									[
-										2307,
-										2312
-									],
-									[
-										2549,
-										2554
-									],
-									[
-										2819,
-										2824
-									],
-									[
-										3105,
-										3110
-									],
-									[
-										3305,
-										3310
-									],
-									[
-										3578,
-										3583
-									],
-									[
-										3920,
-										3925
-									],
-									[
-										4352,
-										4357
-									],
-									[
-										4444,
-										4449
-									],
-									[
-										4524,
-										4529
-									],
-									[
-										5007,
-										5012
-									],
-									[
-										5299,
-										5304
-									],
-									[
-										5610,
-										5615
-									],
-									[
-										5873,
-										5878
-									],
-									[
-										6062,
-										6067
-									],
-									[
-										6319,
-										6324
-									],
-									[
-										6522,
-										6527
-									],
-									[
-										6768,
-										6773
-									],
-									[
-										7013,
-										7018
-									],
-									[
-										7241,
-										7246
-									],
-									[
-										7516,
-										7521
-									],
-									[
-										7798,
-										7803
-									]
-								],
-								"scope": ""
-							}
-						},
-						"selection":
-						[
-							[
-								222,
-								222
-							]
-						],
-						"settings":
-						{
-							"detect_indentation": false,
-							"line_numbers": false,
-							"output_tag": 1,
-							"result_base_dir": "",
-							"result_file_regex": "^([^ \t].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 640.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
 					"file": "/var/www/html/appraisal/sql/1.sql",
 					"semi_transient": false,
 					"settings":
@@ -1220,15 +1031,15 @@
 						"selection":
 						[
 							[
-								1194,
-								1194
+								427,
+								427
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/SQL/SQL.sublime-syntax"
 						},
-						"translation.x": 584.0,
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -1236,7 +1047,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 7,
 					"file": "/var/www/html/appraisal/services.php",
 					"semi_transient": false,
 					"settings":
@@ -1266,7 +1077,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -1320,6 +1131,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"sql",
+				"sql/1.sql"
+			],
 			[
 				"htacc",
 				".htaccess-remote"
@@ -1827,10 +1642,6 @@
 			[
 				"regjon",
 				"template/mail/registration-jon.php"
-			],
-			[
-				"mailrgis",
-				"template/mail/registration.php"
 			]
 		],
 		"width": 0.0
@@ -1838,9 +1649,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "pent",
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-itdashboard.sublime-workspace"
+			],
 			[
 				"pent",
 				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-pentlandwholesale.sublime-project"
@@ -1848,10 +1663,6 @@
 			[
 				"service",
 				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-servicecalls.sublime-project"
-			],
-			[
-				"",
-				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
 			],
 			[
 				"elt",

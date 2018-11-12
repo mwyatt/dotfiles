@@ -1,0 +1,2508 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"aco",
+				"activeOnly"
+			],
+			[
+				"clie",
+				"clients"
+			],
+			[
+				"cus",
+				"customers"
+			],
+			[
+				"cl",
+				"client"
+			],
+			[
+				"rede",
+				"request_Description"
+			],
+			[
+				"reque",
+				"request"
+			],
+			[
+				"cli",
+				"clients"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"reqdescri",
+				"request_Description"
+			],
+			[
+				"thir",
+				"totalJobsCreatedThisYear"
+			],
+			[
+				"for",
+				"for\tfor"
+			],
+			[
+				"repos",
+				"requestRepository"
+			],
+			[
+				"fore",
+				"foreach\tforeach …"
+			],
+			[
+				"reqs",
+				"requests"
+			],
+			[
+				"messco",
+				"messageContent"
+			],
+			[
+				"mescon",
+				"messageContent"
+			],
+			[
+				"messa",
+				"message"
+			],
+			[
+				"throw",
+				"throw\tthrow"
+			],
+			[
+				"mes",
+				"message"
+			],
+			[
+				"messaco",
+				"messageContent"
+			],
+			[
+				"me",
+				"meta"
+			],
+			[
+				"tr",
+				"try\ttry"
+			],
+			[
+				"totjobs",
+				"totalJobsCreatedThisYear"
+			],
+			[
+				"requs",
+				"request"
+			],
+			[
+				"requt",
+				"requests"
+			],
+			[
+				"Req",
+				"Request"
+			],
+			[
+				"reqstmap",
+				"requestStatusMapper"
+			],
+			[
+				"requestat",
+				"requestStatuses"
+			],
+			[
+				"dash",
+				"dash-client-customer"
+			],
+			[
+				"reques",
+				"request"
+			],
+			[
+				"quers",
+				"querySelector"
+			],
+			[
+				"q",
+				"querySelector"
+			],
+			[
+				"js-clien",
+				"js-client-panel"
+			],
+			[
+				"clos",
+				"closeAll"
+			],
+			[
+				"clien",
+				"client"
+			],
+			[
+				"strcase",
+				"strncasecmp"
+			],
+			[
+				"customerI",
+				"customer_ID"
+			],
+			[
+				"groupto",
+				"groupToggle"
+			],
+			[
+				"extract",
+				"extractPropertyUnique"
+			],
+			[
+				"user",
+				"user"
+			],
+			[
+				"old",
+				"oldMeta"
+			],
+			[
+				"usecliepa",
+				"userClientPanelMst"
+			],
+			[
+				"client",
+				"clientId"
+			],
+			[
+				"ajax",
+				"ajax\tajax"
+			],
+			[
+				"cliname",
+				"clientName"
+			],
+			[
+				"findb",
+				"findByIds"
+			],
+			[
+				"iscu",
+				"is_customer"
+			],
+			[
+				"block",
+				"block-margins"
+			],
+			[
+				"Manufa",
+				"Manufactured"
+			],
+			[
+				"manfac",
+				"manufacturerCode"
+			],
+			[
+				"manco",
+				"manCodeSql"
+			],
+			[
+				"mancos",
+				"manufacturerCodes"
+			],
+			[
+				"mnu",
+				"manufacturerCodes"
+			],
+			[
+				"forea",
+				"foreach\tforeach"
+			],
+			[
+				"servior",
+				"serviceOrderNumber"
+			],
+			[
+				"parcos",
+				"partsCost"
+			],
+			[
+				"parto",
+				"partsTotal"
+			],
+			[
+				"color",
+				"color"
+			],
+			[
+				"navre",
+				"navreport"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"dafr",
+				"dateFrom"
+			],
+			[
+				"dato",
+				"dateTo"
+			],
+			[
+				"daf",
+				"dateFrom"
+			],
+			[
+				"off",
+				"sqlOffset"
+			],
+			[
+				"condiid",
+				"asset_Condition_ID"
+			],
+			[
+				"ass",
+				"assets"
+			],
+			[
+				"ake",
+				"array_keys"
+			],
+			[
+				"ban",
+				"bankHolidays"
+			],
+			[
+				"engi",
+				"engineers"
+			],
+			[
+				"enlis",
+				"engineerlist"
+			],
+			[
+				"enginer",
+				"engineers"
+			],
+			[
+				"engine",
+				"engineer"
+			],
+			[
+				"newr",
+				"newEngineerName"
+			],
+			[
+				"en",
+				"engineer"
+			],
+			[
+				"headin",
+				"lineUpCalendarHeadings"
+			],
+			[
+				"strjob",
+				"start_job_role"
+			],
+			[
+				"strcas",
+				"strncasecmp"
+			],
+			[
+				"devid",
+				"deviceId"
+			],
+			[
+				"enquirid",
+				"enquiryId"
+			],
+			[
+				"extrac",
+				"extractProperty"
+			],
+			[
+				"mode",
+				"models"
+			],
+			[
+				"enqitem",
+				"EnquiryItem"
+			],
+			[
+				"enq",
+				"enquiry"
+			],
+			[
+				"querpars",
+				"queryParse"
+			],
+			[
+				"quer",
+				"query-parse"
+			],
+			[
+				"dail",
+				"dailyTotals"
+			],
+			[
+				"assreq",
+				"assetRequest"
+			],
+			[
+				"Deliv",
+				"delivered"
+			],
+			[
+				"enqitemen",
+				"enquiryItemEnquiry"
+			],
+			[
+				"enqite",
+				"enquiryItem"
+			],
+			[
+				"bindC",
+				"bindCompany"
+			],
+			[
+				"portle",
+				"portlet-body-padded"
+			],
+			[
+				"pos",
+				"post"
+			],
+			[
+				"posi",
+				"postId"
+			],
+			[
+				"requess",
+				"requests"
+			],
+			[
+				"asses",
+				"assets"
+			],
+			[
+				"row",
+				"rows"
+			],
+			[
+				"find",
+				"findFilterResults"
+			],
+			[
+				"asss",
+				"assets"
+			],
+			[
+				"ac",
+				"action"
+			],
+			[
+				"serv",
+				"servers"
+			],
+			[
+				"actdes",
+				"actionDescription"
+			],
+			[
+				"ser",
+				"servers"
+			],
+			[
+				"servid",
+				"serverId"
+			],
+			[
+				"serid",
+				"serverId"
+			],
+			[
+				"servi",
+				"serverId"
+			],
+			[
+				"acdes",
+				"actionDescription"
+			],
+			[
+				"seri",
+				"serverId"
+			],
+			[
+				"sernew",
+				"serverNewName"
+			],
+			[
+				"PARAM_i",
+				"PARAM_INT"
+			],
+			[
+				"seid",
+				"serverId"
+			],
+			[
+				"conts",
+				"contacts"
+			],
+			[
+				"enqirs",
+				"enquirys"
+			],
+			[
+				"enquir",
+				"enquirys"
+			],
+			[
+				"enqit",
+				"enquiryItem"
+			],
+			[
+				"enquiryIte",
+				"enquiryItem"
+			],
+			[
+				"enquiryItemsAl",
+				"enquiryItemsAll"
+			],
+			[
+				"enqitms",
+				"enquiryItems"
+			],
+			[
+				"transla",
+				"translateY()"
+			],
+			[
+				"err",
+				"systemError"
+			],
+			[
+				"dotte",
+				"dotted-wrap"
+			],
+			[
+				"colxs",
+				"col-xs-6"
+			],
+			[
+				"compan",
+				"company"
+			],
+			[
+				"enqui",
+				"enquirys"
+			],
+			[
+				"colsm",
+				"col-sm-6"
+			],
+			[
+				"col",
+				"col-xs-12"
+			],
+			[
+				"post",
+				"posts"
+			],
+			[
+				"comp",
+				"company"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "acmefgportal\nkPvp8MQ6scf9",
+			"settings":
+			{
+				"buffer_size": 25,
+				"line_ending": "Unix",
+				"name": "acmefgportal"
+			}
+		},
+		{
+			"file": "/tmp/fz3temp-1/config.php",
+			"settings":
+			{
+				"buffer_size": 531,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/tmp/fz3temp-1/index.php",
+			"settings":
+			{
+				"buffer_size": 975,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "select\nt.departmenttitle,\nt.ticketstatustitle\nfrom swtickets t\nleft join swticketposts tp on tp.ticketid = t.ticketid\nwhere t.ticketstatusid != 3",
+			"settings":
+			{
+				"buffer_size": 145,
+				"line_ending": "Unix",
+				"name": "select"
+			}
+		},
+		{
+			"file": "/var/www/html/acmefgportal/composer.json",
+			"settings":
+			{
+				"buffer_size": 261,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 331.0,
+		"last_filter": "menu",
+		"selected_items":
+		[
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"save",
+				"File: Save All"
+			],
+			[
+				"sav",
+				"File: Save All"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"seting",
+				"Preferences: Settings"
+			],
+			[
+				"setting",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"musta",
+				"Set Syntax: HTML with mustaches"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"listpack",
+				"Package Control: List Packages"
+			],
+			[
+				"remove pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"clos",
+				"File: Close All"
+			],
+			[
+				"sa",
+				"File: Save All"
+			],
+			[
+				"cloe",
+				"File: Close All"
+			],
+			[
+				"clo",
+				"File: Close All"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"listpac",
+				"Package Control: List Packages"
+			],
+			[
+				"open",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"brows",
+				"Preferences: Browse Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"stat",
+				"View: Toggle Status Bar"
+			],
+			[
+				"resource",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"keyb",
+				"Preferences: Key Bindings"
+			],
+			[
+				"status",
+				"View: Toggle Status Bar"
+			],
+			[
+				"removepac",
+				"Package Control: Remove Package"
+			],
+			[
+				"remoepacka",
+				"Package Control: Remove Package"
+			],
+			[
+				"listpck",
+				"Package Control: List Packages"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"tabs",
+				"View: Toggle Tabs"
+			],
+			[
+				"sett",
+				"Preferences: Settings"
+			],
+			[
+				"rmeovepa",
+				"Package Control: Remove Package"
+			],
+			[
+				"men",
+				"View: Toggle Menu"
+			],
+			[
+				"keybind",
+				"Preferences: Key Bindings"
+			],
+			[
+				"listpa",
+				"Package Control: List Packages"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"lsitpa",
+				"Package Control: List Packages"
+			],
+			[
+				"resoure",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"satusb",
+				"View: Toggle Status Bar"
+			],
+			[
+				"packaresou",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"Snippet: ",
+				"Snippet: scss-extend"
+			],
+			[
+				"sta",
+				"View: Toggle Status Bar"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"rmeovpa",
+				"Package Control: Remove Package"
+			],
+			[
+				"removepa",
+				"Package Control: Remove Package"
+			],
+			[
+				"lsit",
+				"Package Control: List Packages"
+			],
+			[
+				"padisable",
+				"Package Control: Disable Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"tab",
+				"View: Toggle Tabs"
+			],
+			[
+				"materialac",
+				"Material Theme: Activate theme"
+			],
+			[
+				"statu",
+				"View: Toggle Status Bar"
+			],
+			[
+				"clsoe",
+				"File: Close All"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings"
+			],
+			[
+				"snippet crea",
+				"Snippet: Create getter and setter methods"
+			],
+			[
+				"keybin",
+				"Preferences: Key Bindings"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"closs",
+				"Package Control: List Packages"
+			],
+			[
+				"me",
+				"View: Toggle Menu"
+			],
+			[
+				"user",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"settings",
+				"Preferences: Settings"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"sal",
+				"File: Save All"
+			],
+			[
+				"closeal",
+				"File: Close All"
+			],
+			[
+				"closeall",
+				"File: Close All"
+			],
+			[
+				"closea",
+				"File: Close All"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": true,
+		"show_open_files": false,
+		"show_tabs": true,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/html/acmefgportal",
+		"/var/www/html/acmefgportal/vendor",
+		"/var/www/html/acmefgportal/vendor/mwyatt",
+		"/var/www/html/acmefgportal/vendor/mwyatt/core",
+		"/var/www/html/acmefgportal/vendor/pimple"
+	],
+	"file_history":
+	[
+		"/var/www/html/acmefgportal/package.json",
+		"/tmp/fz3temp-1/services.php",
+		"/tmp/fz3temp-1/config.php",
+		"/var/www/html/acmefgportal/config-remote.php",
+		"/var/www/html/acmefgportal/config.php",
+		"/var/www/html/acmefgportal/template/head/content.php",
+		"/var/www/html/acmefgportal/template/login.php",
+		"/var/www/html/acmefgportal/ui/login.bundle.css",
+		"/var/www/html/acmefgportal/ui/common.bundle.css",
+		"/var/www/html/acmefgportal/src/Controller/User.php",
+		"/var/www/html/acmefgportal/routes.php",
+		"/var/www/html/acmefgportal/routes/manager.php",
+		"/var/www/html/acmefgportal/src/Controller/Manager.php",
+		"/var/www/html/acmefgportal/src/Repository/Aeromark/Client.php",
+		"/var/www/html/acmefgportal/src/Mapper/Aeromark/Customer.php",
+		"/var/www/html/acmefgportal/src/Controller/Admin/User.php",
+		"/var/www/html/acmefgportal/src/Controller.php",
+		"/var/www/html/acmefgportal/src/Middleware/Common.php",
+		"/var/www/html/acmefgportal/src/Mapper/Aeromark/Request.php",
+		"/var/www/html/acmefgportal/ui/manager/user.bundle.js",
+		"/var/www/html/acmefgportal/src/Controller/Request.php",
+		"/var/www/html/acmefgportal/template/dashboard.php",
+		"/var/www/html/acmefgportal/src/Mapper/Aeromark/Client.php",
+		"/var/www/html/acmefgportal/src/Repository/Aeromark/Request.php",
+		"/var/www/html/acmefgportal/.htaccess-remote",
+		"/var/www/html/acmefgportal/template/head.php",
+		"/var/www/html/acmefgportal/src/Mapper/Aeromark/Request/Job.php",
+		"/var/www/html/acmefgportal/src/Mapper/Aeromark/Request/Job/Mailbox.php",
+		"/var/www/html/acmefgportal/src/AbstractMapper.php",
+		"/var/www/html/acmefgportal/src/Repository/Aeromark/Request/Job.php",
+		"/var/www/html/acmefgportal/src/Repository/Aeromark/Job.php",
+		"/var/www/html/acmefgportal/src/Mapper/Aeromark/Request/Asset.php",
+		"/var/www/html/acmefgportal/vendor/mwyatt/core/src/Database/Pdo.php",
+		"/var/www/html/acmefgportal/index.php",
+		"/var/www/html/acmefgportal/src/Mapper/Aeromark/Request/Job/Status.php",
+		"/var/www/html/acmefgportal/src/Middleware/HeadStats.php",
+		"/var/www/html/acmefgportal/vendor/mwyatt/core/src/Iterator/Model.php",
+		"/var/www/html/acmefgportal/src/Mapper/Aeromark/Request/Status.php",
+		"/var/www/html/acmefgportal/robots.txt",
+		"/var/www/html/acmefgportal/vendor/mwyatt/core/src/AbstractMapper.php",
+		"/var/www/html/acmefgportal/ui/general.css",
+		"/var/www/html/acmefgportal/template/request/send-message.php",
+		"/var/www/html/acmefgportal/template/foot.php",
+		"/var/www/html/acmefgportal/template/foot/content.php",
+		"/var/www/html/acmefgportal/src/Service/User.php",
+		"/var/www/html/acmefgportal/src/Service/UserPermission.php",
+		"/var/www/html/acmefgportal/services.php",
+		"/var/www/html/acmefgportal/src/Service/Mail.php",
+		"/tmp/fz3temp-1/index.php",
+		"/var/www/html/acmefgportal/sql/definition.sql",
+		"/var/www/html/acmefgportal/ui/common.bundle.js",
+		"/var/www/html/acmefgportal/src/Repository/Aeromark/Customer.php",
+		"/var/www/html/acmefgportal/src/Mapper/Aeromark/Request/Order.php",
+		"/var/www/html/acmefgportal/src/Mapper/Aeromark/Order.php",
+		"/var/www/html/acmefgportal/ui/head.css",
+		"/var/www/html/acmefgportal/ui/head/logo.css",
+		"/var/www/html/acmefgportal/src/Iterator/Model/UserMeta.php",
+		"/var/www/html/acmefgportal/template/request/single.php",
+		"/var/www/html/acmefgportal/vendor/mwyatt/core/src/AbstractController.php",
+		"/var/www/html/acmefgportal/src/Model/User.php",
+		"/var/www/html/acmefgportal/ui/dashboard.bundle.css",
+		"/var/www/html/acmefgportal/src/AbstractMapperAeromark.php",
+		"/var/www/html/acmefgportal/template/mail/registration.php",
+		"/var/www/html/acmefgportal/routes/admin.php",
+		"/var/www/html/acmefgportal/src/Middleware/UserPermission.php",
+		"/var/www/html/acmefgportal/template/head/user-profile.php",
+		"/var/www/html/acmefgportal/template/mail/registration-jon.php",
+		"/var/www/html/acmefgportal/ui/accordion.js",
+		"/var/www/html/acmefgportal/template/manager/user.php",
+		"/var/www/html/acmefgportal/ui/manager/user.bundle.css",
+		"/var/www/html/acmefgportal/ui/manager/user-client-panel.mst",
+		"/var/www/html/acmefgportal/ui/admin/user/single.bundle.css",
+		"/var/www/html/acmefgportal/template/admin/user/permission.php",
+		"/var/www/html/acmefgportal/ui/admin/user/single.bundle.js",
+		"/var/www/html/acmefgportal/ui/accordion.css",
+		"/var/www/html/acmefgportal/template/admin/user.php",
+		"/var/www/html/acmefgportal/src/Model/UserMeta.php",
+		"/var/www/html/acmefgportal/src/Repository/UserMeta.php",
+		"/var/www/html/acmefgportal/gulpfile.js",
+		"/var/www/html/acmefgportal/ui/fuzzy-search.js",
+		"/var/www/html/acmefgportal/template/pagination.php",
+		"/var/www/html/acmefgportal/template/user/all.php",
+		"/var/www/html/acmefgportal/src/Service/Report.php",
+		"/var/www/html/acmefgportal/src/Controller/Error.php",
+		"/var/www/html/acmefgportal/template/filter-report-table.php",
+		"/var/www/html/acmefgportal/src/Iterator.php",
+		"/var/www/html/acmefgportal/ui/error.bundle.css",
+		"/var/www/html/acmefgportal/src/Mapper/User.php",
+		"/var/www/html/acmefgportal/composer.json",
+		"/var/www/html/acmefgportal/src/Middleware/Auth.php",
+		"/var/www/html/acmefgportal/template/forgot-password-change.php",
+		"/var/www/html/acmefgportal/template/forgot-password.php",
+		"/var/www/html/acmefgportal/template/head/menu-primary.php",
+		"/var/www/html/acmefgportal/template/register.php",
+		"/var/www/html/acmefgportal/vendor/mwyatt/core/src/Http/Kernel.php",
+		"/var/www/html/acmefgportal/vendor/gregwar/captcha/CaptchaBuilder.php",
+		"/var/www/html/acmefgportal/config-sample.php",
+		"/var/www/html/acmefgportal/vendor/mwyatt/core/src/Middleware/Common.php",
+		"/var/www/html/acmefgportal/src/Iterator/Model/User.php",
+		"/var/www/html/acmefgportal/src/Model/ArchivedTrait.php",
+		"/var/www/html/acmefgportal/sql/aeromark-sample.sql",
+		"/var/www/html/acmefgportal/.htaccess",
+		"/var/www/html/acmefgportal/src/Repository/BindUserTrait.php",
+		"/var/www/html/acmefgportal/src/Mapper/UserAction.php",
+		"/var/www/html/acmefgportal/src/Mapper/UserActionMeta.php",
+		"/var/www/html/acmefgportal/src/Mapper/UserMeta.php",
+		"/var/www/html/acmefgportal/src/Model/TimeCreatedTrait.php",
+		"/var/www/html/acmefgportal/src/AbstractRepository.php",
+		"/var/www/html/acmefgportal/src/Model/UserAction.php",
+		"/var/www/html/acmefgportal/src/Model/UserActionMeta.php",
+		"/var/www/html/acmefgportal/src/Repository/User.php",
+		"/var/www/html/acmefgportal/src/Repository/UserAction.php",
+		"/var/www/html/acmefgportal/src/Repository/UserActionMeta.php",
+		"/var/www/html/acmefgportal/src/Service/UrlHistory.php",
+		"/var/www/html/acmefgportal/src/Service/ArrayIterator.php",
+		"/var/www/html/acmefgportal/src/Service/Bread.php",
+		"/var/www/html/acmefgportal/src/Service/MenuBuilder.php",
+		"/var/www/html/acmefgportal/src/Iterator/Model/Route.php",
+		"/var/www/html/acmefgportal/template/error/generic.php",
+		"/var/www/html/bms/src/Service/UserAction.php",
+		"/var/www/html/bms/ui/crmcanopy/calendar.bundle.js",
+		"/var/www/html/bms/ui/crmcanopy/enquiry/single-item.mst",
+		"/var/www/html/bms/src/Controller/Crmcanopy/Enquiry.php",
+		"/var/www/html/bms/src/Controller/Navreport/Dashboard.php",
+		"/var/www/html/bms/src/Repository/Navreport/Sales.php",
+		"/var/www/html/bms/src/Mapper/Navreport/Sales.php",
+		"/var/www/html/bms/template/head.php",
+		"/var/www/html/bms/ui/navreports/mario.bundle.css"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			"-node_modules/, -asset/, -vendor/,  -cache/, -metronic/,",
+			"-node_modules/, -asset/, -vendor/,  -cache/, -metronic/, *.sql",
+			"-node_modules/, -asset/, -vendor/,  -cache/, -metronic/, .sql",
+			"-node_modules/, -asset/, -vendor/,  -cache/, -metronic/, ",
+			"-node_modules/, -asset/, -vendor/,  -cache/, -metronic/, <open files>",
+			"-node_modules/, -asset/, -vendor/,  -cache/, -metronic/, ",
+			"-node_modules/, -asset/, -vendor/,  -cache/, -metronic/, template/",
+			"-node_modules/, -asset/, -vendor/,  -cache/, -metronic/",
+			"-node_modules/, -asset/, -vendor/,  -cache/",
+			"-node_modules/, -asset/, -vendor/, -metronic/, -cache/",
+			"-node_modules/, -asset/, -vendor/, -metronic/",
+			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, src/Mapper/Appraisal/",
+			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, test/",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, vendor/",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, -vendor/, home.scss",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, -vendor/, sass/",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, -vendor/, sass/",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, -vendor/, js/",
+			"-node_modules/, -asset/, -vendor/, *.tpl",
+			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, *.tpl",
+			"-node_modules/, -asset/, -vendor/,",
+			"-node_modules/, -asset/, -vendor/, js/",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, -vendor/, *.tpl",
+			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, *.tpl",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, ",
+			"-node_modules/, -asset/, js/, -vendor/",
+			"-node_modules/, -asset/, js/",
+			"-node_modules/, -asset/, ",
+			"-node_modules/, -asset/, js/",
+			"-node_modules/, -asset/",
+			"-node_modules/, -asset/, sass/",
+			"-node_modules/, -asset/,",
+			"-node_modules/, -asset/, ",
+			"-node_modules/, -asset/, sass/",
+			"-node_modules/, -asset/, sass",
+			"-node_modules/, -asset/, js/",
+			"-node_modules/, -asset/, sass/",
+			"-node_modules/, -asset/, -vendor/, sass/",
+			"-node_modules/, -asset/, -vendor/, sass/admin/",
+			"-node_modules/, -asset/, -vendor/, sass/",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, ",
+			"-node_modules/, -asset/, js/",
+			"-node_modules/, -asset/, ",
+			"-node_modules/, -asset/, js/",
+			"-node_modules/, -asset/",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, -vendor/, js/",
+			"-node_modules/, -asset/, -vendor/, js/, ",
+			"-node_modules/, -asset/, -vendor/, js/, -administration/",
+			"-node_modules/, -asset/, -vendor/, js/",
+			"-node_modules/, -asset/, -vendor/,",
+			"-node_modules/, -asset/, -vendor/, js/admin/",
+			"-node_modules/, -asset/, -vendor/, js/",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/",
+			"-node_modules/",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"core",
+			"kernel",
+			"acmefgportal_1",
+			"Customer Portal",
+			"request_SYS_Deleted",
+			"managerClientSearchName",
+			"query",
+			"clients",
+			"activeClients",
+			"client",
+			"customers",
+			"clientsWithRequests",
+			"request",
+			"enerate() ?>asse",
+			" href=\"/",
+			"/",
+			"AlterName",
+			"rj_Request_ID",
+			"AlterName",
+			"row",
+			"bindSpecialInstructions",
+			"mailboxs",
+			"bindMailboxes",
+			"model",
+			"findByJobIds",
+			"findSpecialInstructionsByJobIds",
+			"findByJobIds",
+			"bindSpecialInstructions",
+			"getIterator",
+			"mf_mailbox",
+			"getInSql",
+			"clients",
+			"mailboxs",
+			"request",
+			"asset",
+			"headStat",
+			"clientsWithRequests",
+			"totalClientRequests",
+			"customers",
+			"clients",
+			"clientsWithRequests",
+			"requestsOpen",
+			"clientIds",
+			"customer_Client_ID",
+			"clients",
+			"customers",
+			"customerIds",
+			"FETCH_OBJ",
+			"customerId",
+			"customerIds",
+			"] => ",
+			"bindCustomers",
+			"totalClientRequests",
+			"clientsWithRequests",
+			"totalClientRequests",
+			"totalOpenJob",
+			"headStats",
+			"totalOpenJob",
+			"customerIds",
+			"totalJobsCreatedThisYear",
+			"requests",
+			"totalJobsCreatedThisYear",
+			"totalJobsCreatedWithin30Days",
+			"totalOpenJobs",
+			"headStats",
+			"totalOpenJobs",
+			"loggedUser",
+			"customerIds",
+			"findByCustomerIds",
+			"inIndex",
+			"time()",
+			"thirtyDaysAgo",
+			"request_Status_ID",
+			"statusIds",
+			"clients",
+			"requestsOpen",
+			"requests",
+			"request_Work_Done",
+			"request_Description",
+			"td",
+			"request_Description",
+			"request",
+			"request_Description",
+			"request_Work_Done",
+			"request2job",
+			"assetMapper",
+			"assets",
+			"<?php",
+			"div",
+			"rj_Request_ID",
+			"requests",
+			"problem_Name",
+			"status_Name",
+			"asset_Description",
+			"product_Name",
+			"request_Description",
+			"request_ID",
+			"request->",
+			"jobMapper",
+			"job",
+			"timeTo",
+			"timeFrom",
+			"From",
+			");\n",
+			"$dateFrom = date(",
+			"Close",
+			"status",
+			"job",
+			"request_Description",
+			"request_ID",
+			"request_Customer_ID",
+			"total",
+			"oneYearAgo",
+			"thirtyDaysAgo",
+			"total",
+			"inIndex",
+			"totalJobsCreatedThisYear",
+			"id",
+			"request_Customer_ID",
+			"requests",
+			"customerId",
+			"timeFrom",
+			"findDateCreatedBetween",
+			"findTotalCreatedBetweenByCustomerIds",
+			"findDateCreatedBetween",
+			"find",
+			"findDateCreatedBetween",
+			"findByCustomerAndStatusIds"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\\Portal",
+			"extends \\Mwyatt\\Core\\AbstractMapper",
+			"\\Portal",
+			"getDailyTotalsByDateLocation",
+			"getCreditTotalByDateLocation",
+			"$this->adapter",
+			"<a class=\"link\" href",
+			"row form-group",
+			"<div class=\"col-xs-12 col-md-6\">",
+			"container-fluid-disabled",
+			"$this->redirect('dashboard');",
+			"$this->view->getTemplate('dashboard-shared')",
+			"crmContactArchive",
+			"crmEnquiryCreateNotify",
+			"$this->view->offsetSet('pageHeadingAutoPos', true);\n$this->view->offsetSet('pageHeading'",
+			"ms\\Model\\Crm\\StatusTrait",
+			"bindOneToOneById",
+			"crmCompanys",
+			"sitory('Company\\Department",
+			"findEmployeesByDepartmentIds",
+			"findManagersByDepartmentIds",
+			"generate('adminUser'",
+			"getTotalFromTimeCreatedBetween",
+			"servicecallsCallLogReport",
+			"servicecallsManagerNoaeromarkAll",
+			"servicecallsLogCall",
+			"servicecallsDashboard",
+			"namespace Acmefg\\Bms\\Repository\\Servicecalls;",
+			"namespace Acmefg\\Bms\\Mapper\\Servicecalls;",
+			"namespace Acmefg\\Bms\\Model\\Servicecalls;",
+			"getMapper('Appraisal\\Questions",
+			"getMapper('Appraisal\\AgreedObjective",
+			"getMapper('Appraisal\\AppStatus",
+			"getMapper('Appraisal\\MailLog",
+			"extends \\Acmefg\\Bms\\AbstractMapperAppraisal",
+			"namespace Acmefg\\Bms\\Model\\Appraisal;",
+			"namespace Acmefg\\Bms\\Mapper\\Appraisal;",
+			"namespace Acmefg\\Bms\\Repository\\Appraisal;",
+			"namespace Acmefg\\Bms\\Appraisal\\Repository",
+			"<?php echo $url->",
+			"\\Bms",
+			"assets/",
+			"source",
+			"pageTitle",
+			"namespace Acmefg\\Crm",
+			"$this->getModelClassAbs()",
+			"\\Mwyatt\\Core\\Iterator\\Model $",
+			"protected $publicCols",
+			"Created",
+			"public function updateById(",
+			"ENGINE=InnoDB",
+			"throw new \\Mwyatt\\Core\\DatabaseException;",
+			"",
+			"$this->getTableNameLazy()",
+			"extends \\Mwyatt\\Core\\AbstractFactory",
+			"Iterator\\Model",
+			"AbstractMapper",
+			"AbstractService",
+			"require('mwyatt-grid')",
+			"templateSingle: require('feedbackQueueSingleMst')",
+			"templateContainer: require('feedbackQueueContainerMst')",
+			"orderId",
+			"require('mwyatt-codex/",
+			"require('mwyatt-dialogue'",
+			"return false; // should not run, return needed to be removed",
+			"require('./vendor/jqGrid');",
+			"require('./vendor/grid.locale-en');",
+			"'./user",
+			"'../feedbackStream",
+			"'./feedbackStream",
+			"'../feedbackStream",
+			"require('./utility/url')",
+			"require('./buttonToTop'",
+			"require('./smoothScroll')",
+			"mustache",
+			"require('./config')",
+			"require('./finance')",
+			"require('./equalHeight')",
+			"require('/equalHeight')",
+			"require('admin/vendor/grid.locale-en');",
+			"require('vendor/grid.locale-en');",
+			"owl-carousel-2/owl.carousel",
+			"owl-carousel-2",
+			"jquery-scrolltofixed",
+			"vendor/jquery.hoverIntent",
+			"jquery.hoverIntent",
+			"braintree-web",
+			"require('jquery-ui')"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 25,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13,
+								13
+							]
+						],
+						"settings":
+						{
+							"auto_name": "acmefgportal",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/tmp/fz3temp-1/config.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 531,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								116,
+								116
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/tmp/fz3temp-1/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 975,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								975,
+								975
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 145,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								145,
+								145
+							]
+						],
+						"settings":
+						{
+							"auto_name": "select",
+							"incomplete_sync": null,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/var/www/html/acmefgportal/composer.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 261,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/zzz A File Icon zzz/aliases/JSON (Composer).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 37.0
+	},
+	"input":
+	{
+		"height": 68.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 168.0
+	},
+	"pinned_build_system": "",
+	"project": "acmefg-portal.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"compo",
+				"composer.json"
+			],
+			[
+				"pacak",
+				"package.json"
+			],
+			[
+				"confrep",
+				"config-remote.php"
+			],
+			[
+				"confi",
+				"config.php"
+			],
+			[
+				"logincss",
+				"ui/login.bundle.css"
+			],
+			[
+				"com",
+				"ui/common.bundle.css"
+			],
+			[
+				"login",
+				"template/login.php"
+			],
+			[
+				"headcon",
+				"template/head/content.php"
+			],
+			[
+				"middle/",
+				"src/Middleware/Common.php"
+			],
+			[
+				"contro",
+				"src/Controller.php"
+			],
+			[
+				"controllermanage",
+				"src/Controller/Manager.php"
+			],
+			[
+				"routemna",
+				"routes/manager.php"
+			],
+			[
+				"route",
+				"routes.php"
+			],
+			[
+				"controlleruser",
+				"src/Controller/User.php"
+			],
+			[
+				"controlleradminuser",
+				"src/Controller/Admin/User.php"
+			],
+			[
+				"controlleruer",
+				"src/Controller/User.php"
+			],
+			[
+				"controlmana",
+				"src/Controller/Manager.php"
+			],
+			[
+				"routemanage",
+				"routes/manager.php"
+			],
+			[
+				"controller/",
+				"src/Controller/Request.php"
+			],
+			[
+				"cont",
+				"src/Controller.php"
+			],
+			[
+				"controlleramin",
+				"src/Controller/Admin/User.php"
+			],
+			[
+				"htaccremote",
+				".htaccess-remote"
+			],
+			[
+				"mapperclient",
+				"src/Mapper/Aeromark/Client.php"
+			],
+			[
+				"",
+				"src/Repository/Aeromark/Client.php"
+			],
+			[
+				"repoclient",
+				"src/Repository/Aeromark/Client.php"
+			],
+			[
+				"reporeques",
+				"src/Repository/Aeromark/Request.php"
+			],
+			[
+				"contr",
+				"src/Controller.php"
+			],
+			[
+				"dashbo",
+				"template/dashboard.php"
+			],
+			[
+				"htacc",
+				".htaccess"
+			],
+			[
+				"head",
+				"template/head.php"
+			],
+			[
+				"htac",
+				".htaccess"
+			],
+			[
+				"dashb",
+				"template/dashboard.php"
+			],
+			[
+				"mapperjob",
+				"src/Mapper/Aeromark/Request/Job.php"
+			],
+			[
+				"dash",
+				"template/dashboard.php"
+			],
+			[
+				"absma",
+				"src/AbstractMapper.php"
+			],
+			[
+				"mapperjobmail",
+				"src/Mapper/Aeromark/Request/Job/Mailbox.php"
+			],
+			[
+				"reporquesjob",
+				"src/Repository/Aeromark/Request/Job.php"
+			],
+			[
+				"control.php",
+				"src/Controller.php"
+			],
+			[
+				"mapjobsta",
+				"src/Mapper/Aeromark/Request/Job/Status.php"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"middle",
+				"src/Middleware/Common.php"
+			],
+			[
+				"mapperreques",
+				"src/Mapper/Aeromark/Request.php"
+			],
+			[
+				"mapper/",
+				"src/Mapper/Aeromark/Request/Job/Status.php"
+			],
+			[
+				"controller/mana",
+				"src/Controller/Manager.php"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"middleware/",
+				"src/Middleware/HeadStats.php"
+			],
+			[
+				"middlecomm",
+				"src/Middleware/Common.php"
+			],
+			[
+				"mapperrequest",
+				"src/Mapper/Aeromark/Request.php"
+			],
+			[
+				"dashboar",
+				"template/dashboard.php"
+			],
+			[
+				"middlecommon",
+				"src/Middleware/Common.php"
+			],
+			[
+				"aeromarkreques",
+				"src/Repository/Aeromark/Request.php"
+			],
+			[
+				"itermodel",
+				"vendor/mwyatt/core/src/Iterator/Model.php"
+			],
+			[
+				"dashboa",
+				"template/dashboard.php"
+			],
+			[
+				"mapperasst",
+				"src/Mapper/Aeromark/Request/Asset.php"
+			],
+			[
+				"absmapper",
+				"src/AbstractMapper.php"
+			],
+			[
+				"mapperrequest/",
+				"src/Mapper/Aeromark/Request/Order.php"
+			],
+			[
+				"middlec",
+				"src/Middleware/Common.php"
+			],
+			[
+				"middlecom",
+				"src/Middleware/Common.php"
+			],
+			[
+				"absmp",
+				"src/AbstractMapper.php"
+			],
+			[
+				"absmappe",
+				"src/AbstractMapper.php"
+			],
+			[
+				"gener",
+				"ui/general.css"
+			],
+			[
+				"mapperreqorder",
+				"src/Mapper/Aeromark/Request/Order.php"
+			],
+			[
+				"sendmes",
+				"template/request/send-message.php"
+			],
+			[
+				"foot",
+				"template/foot.php"
+			],
+			[
+				"footcont",
+				"template/foot/content.php"
+			],
+			[
+				"genera",
+				"ui/general.css"
+			],
+			[
+				"combuncss",
+				"ui/common.bundle.css"
+			],
+			[
+				"serviceuser",
+				"src/Service/User.php"
+			],
+			[
+				"service",
+				"services.php"
+			],
+			[
+				"config",
+				"config.php"
+			],
+			[
+				"pdo",
+				"vendor/mwyatt/core/src/Database/Pdo.php"
+			],
+			[
+				"confremote",
+				"config-remote.php"
+			],
+			[
+				"servmail",
+				"src/Service/Mail.php"
+			],
+			[
+				"confremo",
+				"config-remote.php"
+			],
+			[
+				"confgi",
+				"config.php"
+			],
+			[
+				"defi",
+				"sql/definition.sql"
+			],
+			[
+				"routes",
+				"routes.php"
+			],
+			[
+				"combunjs",
+				"ui/common.bundle.js"
+			],
+			[
+				"mapperorder",
+				"src/Mapper/Aeromark/Request/Order.php"
+			],
+			[
+				"reporequest",
+				"src/Repository/Aeromark/Request.php"
+			],
+			[
+				"mapperrequs/",
+				"src/Mapper/Aeromark/Request/Order.php"
+			],
+			[
+				"mappercuste",
+				"src/Mapper/Aeromark/Customer.php"
+			],
+			[
+				"repocut",
+				"src/Repository/Aeromark/Customer.php"
+			],
+			[
+				"headlog",
+				"ui/head/logo.css"
+			],
+			[
+				"headcss",
+				"ui/head.css"
+			],
+			[
+				"generc",
+				"ui/general.css"
+			],
+			[
+				"sendme",
+				"template/request/send-message.php"
+			],
+			[
+				"servimail",
+				"src/Service/Mail.php"
+			],
+			[
+				"iteratormeta",
+				"src/Iterator/Model/UserMeta.php"
+			],
+			[
+				"iteratormodel",
+				"vendor/mwyatt/core/src/Iterator/Model.php"
+			],
+			[
+				"servi",
+				"services.php"
+			],
+			[
+				"sendmess",
+				"template/request/send-message.php"
+			],
+			[
+				"controller/req",
+				"src/Controller/Request.php"
+			],
+			[
+				"comb",
+				"ui/common.bundle.css"
+			],
+			[
+				"controluser",
+				"src/Controller/User.php"
+			],
+			[
+				"midlecomm",
+				"src/Middleware/Common.php"
+			],
+			[
+				"requsingle",
+				"template/request/single.php"
+			],
+			[
+				"controllerrequ",
+				"src/Controller/Request.php"
+			],
+			[
+				"headstat",
+				"src/Middleware/HeadStats.php"
+			],
+			[
+				"controlreque",
+				"src/Controller/Request.php"
+			],
+			[
+				"ge",
+				"ui/general.css"
+			],
+			[
+				"gen",
+				"ui/general.css"
+			],
+			[
+				"headcont",
+				"template/head/content.php"
+			],
+			[
+				"hedcs",
+				"ui/head.css"
+			],
+			[
+				"combun",
+				"ui/common.bundle.css"
+			],
+			[
+				"controladminuser",
+				"src/Controller/Admin/User.php"
+			],
+			[
+				"combuncs",
+				"ui/common.bundle.css"
+			],
+			[
+				"logocss",
+				"ui/head/logo.css"
+			],
+			[
+				"controlreq",
+				"src/Controller/Request.php"
+			],
+			[
+				"headcontent",
+				"template/head/content.php"
+			],
+			[
+				"iteratorusermeta",
+				"src/Iterator/Model/UserMeta.php"
+			],
+			[
+				"modeluse",
+				"src/Model/User.php"
+			],
+			[
+				"modeluser",
+				"src/Model/User.php"
+			],
+			[
+				"controllerrequest",
+				"src/Controller/Request.php"
+			],
+			[
+				"reposi/",
+				"src/Repository/Aeromark/Client.php"
+			],
+			[
+				"repocustomer",
+				"src/Repository/Aeromark/Customer.php"
+			],
+			[
+				"reporeuqe",
+				"src/Repository/Aeromark/Request.php"
+			],
+			[
+				"headuser",
+				"template/head/user-profile.php"
+			],
+			[
+				"userpermiss",
+				"src/Middleware/UserPermission.php"
+			],
+			[
+				"routeadmin",
+				"routes/admin.php"
+			],
+			[
+				"common",
+				"src/Middleware/Common.php"
+			],
+			[
+				"mappercus",
+				"src/Mapper/Aeromark/Customer.php"
+			],
+			[
+				"controllermanager",
+				"src/Controller/Manager.php"
+			],
+			[
+				"accor",
+				"ui/accordion.js"
+			],
+			[
+				"manageruser",
+				"template/manager/user.php"
+			],
+			[
+				"adminuserbunde",
+				"ui/admin/user/single.bundle.js"
+			],
+			[
+				"accordi",
+				"ui/accordion.js"
+			],
+			[
+				"clientpanel",
+				"ui/manager/user-client-panel.mst"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "bms",
+		"selected_items":
+		[
+			[
+				"bms",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
+			],
+			[
+				"",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
+			],
+			[
+				"acme",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
+			],
+			[
+				"el",
+				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"bm",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
+			],
+			[
+				"elt",
+				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"core",
+				"/var/www/html/dotfiles/sublime-text-workspaces/core.sublime-workspace"
+			],
+			[
+				"portfo",
+				"/var/www/html/dotfiles/sublime-text-workspaces/portfolio.sublime-workspace"
+			],
+			[
+				"elttl",
+				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"acmefgacmefg",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-acmefg.sublime-project"
+			],
+			[
+				"dash",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-itdashboard.sublime-workspace"
+			],
+			[
+				"sericesupp",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-acmeservicesupport.sublime-project"
+			],
+			[
+				"itdb",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-itdb.sublime-project"
+			],
+			[
+				"acmeservice",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-acmeservicesupport.sublime-project"
+			],
+			[
+				"apprai",
+				"/var/www/html/dotfiles/sublime-text-workspaces/appraisal.sublime-project"
+			],
+			[
+				"itdash",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-itdashboard.sublime-workspace"
+			],
+			[
+				"servicesupp",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-acmeservicesupport.sublime-project"
+			],
+			[
+				"itdas",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-itdashboard.sublime-workspace"
+			],
+			[
+				"code",
+				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
+				"pent",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-pentlandwholesale.sublime-project"
+			],
+			[
+				"acmeservi",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-acmeservicesupport.sublime-project"
+			],
+			[
+				"prot",
+				"/var/www/html/dotfiles/sublime-text-workspaces/portfolio.sublime-workspace"
+			],
+			[
+				"petn",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-pentlandwholesale.sublime-project"
+			],
+			[
+				"dialo",
+				"/var/www/html/dotfiles/sublime-text-workspaces/dialogue.sublime-workspace"
+			],
+			[
+				"port",
+				"/var/www/html/dotfiles/sublime-text-workspaces/portfolio.sublime-workspace"
+			],
+			[
+				"codex",
+				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
+				"game",
+				"/var/www/html/dotfiles/sublime-text-workspaces/game-engine.sublime-workspace"
+			],
+			[
+				"itd",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-itdb.sublime-project"
+			],
+			[
+				"acmeac",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-acmefg.sublime-project"
+			],
+			[
+				"por",
+				"/var/www/html/dotfiles/sublime-text-workspaces/portfolio.sublime-workspace"
+			],
+			[
+				"sand",
+				"/var/www/html/dotfiles/sublime-text-workspaces/sandbox.sublime-workspace"
+			],
+			[
+				"codx",
+				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
+				"eng",
+				"/var/www/html/dotfiles/sublime-text-workspaces/game-engine.sublime-workspace"
+			],
+			[
+				"gameen",
+				"/var/www/html/dotfiles/sublime-text-workspaces/game-engine.sublime-workspace"
+			],
+			[
+				"pentland",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-pentlandwholesale.sublime-project"
+			],
+			[
+				"acmeacme",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-acmefg.sublime-project"
+			],
+			[
+				"crm",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-crm.sublime-project"
+			],
+			[
+				"gameengine",
+				"/var/www/html/dotfiles/sublime-text-workspaces/game-engine.sublime-workspace"
+			],
+			[
+				"appra",
+				"/var/www/html/dotfiles/sublime-text-workspaces/appraisal.sublime-project"
+			],
+			[
+				"gam",
+				"/var/www/html/dotfiles/sublime-text-workspaces/game-engine.sublime-workspace"
+			],
+			[
+				"gmae",
+				"/var/www/html/dotfiles/sublime-text-workspaces/game-engine.sublime-workspace"
+			],
+			[
+				"pe",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-pentlandwholesale.sublime-project"
+			],
+			[
+				"dialogu",
+				"/var/www/html/dotfiles/sublime-text-workspaces/dialogue.sublime-workspace"
+			],
+			[
+				"dia",
+				"/var/www/html/dotfiles/sublime-text-workspaces/dialogue.sublime-workspace"
+			],
+			[
+				"cod",
+				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
+				"aero",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-aeromarkreports.sublime-project"
+			],
+			[
+				"nav",
+				"/var/www/html/dotfiles/sublime-text-workspaces/pentland-navreports.sublime-project"
+			],
+			[
+				"aerorepo",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-aeromarkreports.sublime-project"
+			],
+			[
+				"e",
+				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"pentlnd",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-pentlandwholesale.sublime-project"
+			],
+			[
+				"pentl",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-pentlandwholesale.sublime-project"
+			],
+			[
+				"cor",
+				"/var/www/html/dotfiles/sublime-text-workspaces/core.sublime-workspace"
+			],
+			[
+				"acmbm",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
+			],
+			[
+				"pentla",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-pentlandwholesale.sublime-project"
+			],
+			[
+				"close",
+				"/var/www/html/dotfiles/sublime-text-workspaces/core.sublime-workspace"
+			],
+			[
+				"serv",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-servicecalls.sublime-project"
+			],
+			[
+				"appri",
+				"/var/www/html/dotfiles/sublime-text-workspaces/appraisal.sublime-workspace"
+			],
+			[
+				"appr",
+				"/var/www/html/dotfiles/sublime-text-workspaces/appraisal.sublime-workspace"
+			],
+			[
+				"servi",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-servicecalls.sublime-project"
+			],
+			[
+				"ser",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-servicecalls.sublime-project"
+			],
+			[
+				"apri",
+				"/var/www/html/dotfiles/sublime-text-workspaces/appraisal.sublime-workspace"
+			],
+			[
+				"vans",
+				"/var/www/html/dotfiles/sublime-text-workspaces/pentland-vanstox.sublime-project"
+			],
+			[
+				"acmefgac",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-acmefg.sublime-project"
+			],
+			[
+				"a",
+				"/var/www/html/dotfiles/sublime-text-workspaces/appraisal.sublime-workspace"
+			],
+			[
+				"apr",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
+			],
+			[
+				"co",
+				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
+				"coreui",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-coreui.sublime-project"
+			],
+			[
+				"corre",
+				"/var/www/html/dotfiles/sublime-text-workspaces/core.sublime-workspace"
+			],
+			[
+				"aeror",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-aeromarkreports.sublime-project"
+			],
+			[
+				"appria",
+				"/var/www/html/dotfiles/sublime-text-workspaces/appraisal.sublime-workspace"
+			],
+			[
+				"app",
+				"/var/www/html/dotfiles/sublime-text-workspaces/appraisal.sublime-workspace"
+			],
+			[
+				"brand",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-brand-guidelines.sublime-project"
+			],
+			[
+				"bran",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-brand-guidelines.sublime-project"
+			],
+			[
+				"un",
+				"/var/www/html/untitled.sublime-project"
+			],
+			[
+				"servca",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-servicecalls.sublime-project"
+			],
+			[
+				"intra",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-intranet.sublime-workspace"
+			],
+			[
+				"acmefg-",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-aeromarkreports.sublime-project"
+			],
+			[
+				"acmebra",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-brand-guidelines.sublime-project"
+			],
+			[
+				"store",
+				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"s",
+				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"stor",
+				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"sto",
+				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"stoe",
+				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"stot",
+				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"sote",
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"pos",
+				"/var/www/html/setting/sublime-text-workspaces/possession.sublime-project"
+			],
+			[
+				"st",
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"eltt",
+				"/var/www/html/setting/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"claire",
+				"/var/www/html/setting/sublime-text-workspaces/claire.sublime-workspace"
+			],
+			[
+				"file",
+				"/var/www/html/setting/sublime-text-workspaces/file-browser.sublime-workspace"
+			],
+			[
+				"inv",
+				"/var/www/html/setting/sublime-text-workspaces/inventory.sublime-workspace"
+			],
+			[
+				"url",
+				"/var/www/html/setting/sublime-text-workspaces/url.sublime-workspace"
+			],
+			[
+				"grid",
+				"/var/www/html/sublime-workspace/grid.sublime-workspace"
+			],
+			[
+				"gri",
+				"/var/www/html/sublime-workspace/grid.sublime-workspace"
+			],
+			[
+				"diao",
+				"/var/www/html/sublime-workspace/dialogue.sublime-workspace"
+			],
+			[
+				"dial",
+				"/var/www/html/sublime-workspace/dialogue.sublime-workspace"
+			],
+			[
+				"diua",
+				"/var/www/html/sublime-workspace/dialogue.sublime-workspace"
+			],
+			[
+				"g",
+				"/var/www/html/grid/grid.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 253.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

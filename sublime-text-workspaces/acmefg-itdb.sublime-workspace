@@ -4,6 +4,50 @@
 		"selected_items":
 		[
 			[
+				"usds",
+				"usersById"
+			],
+			[
+				"compani",
+				"company_id"
+			],
+			[
+				"compan",
+				"company"
+			],
+			[
+				"asc",
+				"ASC"
+			],
+			[
+				"expire",
+				"timeContractExpire"
+			],
+			[
+				"csv",
+				"csvLines"
+			],
+			[
+				"csvl",
+				"csvLine"
+			],
+			[
+				"conexpire",
+				"timeContractExpire"
+			],
+			[
+				"simnu",
+				"sim_number"
+			],
+			[
+				"contrac",
+				"contract_expire_date"
+			],
+			[
+				"contracex",
+				"timeContractExpire"
+			],
+			[
 				"pv",
 				"pv\tmw-php-printPre"
 			],
@@ -439,42 +483,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/var/www/html/itdb/addstock.php",
-			"settings":
-			{
-				"buffer_size": 22973,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/itdb/.gitignore",
-			"settings":
-			{
-				"buffer_size": 24,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/itdb/css/style.css",
-			"settings":
-			{
-				"buffer_size": 93547,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/itdb/composer.json",
-			"settings":
-			{
-				"buffer_size": 58,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -483,10 +491,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 354.0,
-		"last_filter": "men",
+		"height": 121.0,
+		"last_filter": "mini",
 		"selected_items":
 		[
+			[
+				"mini",
+				"View: Toggle Minimap"
+			],
 			[
 				"men",
 				"View: Toggle Menu"
@@ -572,7 +584,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 431.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -597,9 +609,27 @@
 	],
 	"file_history":
 	[
+		"/var/www/html/itdb/index.php",
+		"/var/www/html/itdb/viewsim.php",
+		"/var/www/html/sandbox/updateSims.php",
+		"/var/www/html/itdb/vendor/mwyatt/core/test-data.sql",
+		"/home/martin/Downloads/sims.sql",
+		"/var/www/html/itdb/models/db-settings.php",
+		"/tmp/fz3temp-1/db-settings.php",
+		"/var/www/html/itdb/addstock.php",
+		"/var/www/html/itdb/addsim.php",
+		"/var/www/html/itdb/models/config.php",
+		"/var/www/html/itdb/models/funcs.php",
+		"/var/www/html/itdb/models/languages/en.php",
+		"/var/www/html/itdb/sql/sims-add-timeContractExpire.sql",
+		"/var/www/html/itdb/navigation.php",
+		"/var/www/html/itdb/edit-sim.php",
+		"/var/www/html/itdb/sql/itemstatus-add-timeContractExpire.sql",
+		"/var/www/html/itdb/.gitignore",
+		"/var/www/html/itdb/css/style.css",
+		"/var/www/html/itdb/composer.json",
 		"/var/www/html/dotfiles/sublime-text-workspaces/sandbox.sublime-workspace",
 		"/var/www/html/itdb/template/pagination.php",
-		"/var/www/html/itdb/models/db-settings.php",
 		"/var/www/html/itdb/sql/permissionSetup.sql",
 		"/var/www/html/servicecalls/src/Middleware/Auth.php",
 		"/var/www/html/servicecalls/.htaccess",
@@ -706,29 +736,11 @@
 		"/var/www/html/servicecalls/css/style-responsive.css",
 		"/var/www/html/servicecalls/package.json",
 		"/var/www/html/servicecalls/gulpfile.js",
-		"/var/www/html/servicecalls/models/db-settings.php",
-		"/var/www/html/servicecalls/models/db-settings-remote.php",
-		"/var/www/html/servicecalls/acme-lognewcall.php",
-		"/var/www/html/servicecalls/sql/additional-data.sql",
-		"/var/www/html/servicecalls/sql/definition.sql",
-		"/var/www/html/servicecalls/acme-otherrequest.php",
-		"/var/www/html/servicecalls/acme-noaeromark.php",
-		"/var/www/html/servicecalls/src/Mapper/NoAeromark.php",
-		"/var/www/html/servicecalls/vendor/mwyatt/core/src/AbstractController.php",
-		"/var/www/html/servicecalls/template/mail/no-aeromark.php",
-		"/var/www/html/servicecalls/ui/logcall.bundle.js",
-		"/var/www/html/servicecalls/getlogcalldata.php",
-		"/var/www/html/servicecalls/ui/logcall/companies.mst",
-		"/var/www/html/servicecalls/js/logcall.bundle.js",
-		"/var/www/html/servicecalls/js/jquery.js",
-		"/var/www/html/servicecalls/asset/logcall.bundle.js",
-		"/var/www/html/servicecalls/logcall.bundle.js",
-		"/var/www/html/servicecalls/logcall.js",
-		"/var/www/html/servicecalls/css/logcall.css"
+		"/var/www/html/servicecalls/models/db-settings.php"
 	],
 	"find":
 	{
-		"height": 70.0
+		"height": 37.0
 	},
 	"find_in_files":
 	{
@@ -747,6 +759,94 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"data",
+			"companies",
+			"user_id",
+			"csvLines",
+			"export",
+			"company_id",
+			"$_GET['order'",
+			"order",
+			"company",
+			"Order By",
+			"scroll",
+			"time",
+			"timeContractExpire",
+			"contract_expire_date",
+			"company_id",
+			"contract_expire_date",
+			"timeContractExpire",
+			"contract_expire_date",
+			"timeContractExpire",
+			"contract_expire_date",
+			"datethign",
+			"textarea",
+			"simnumber",
+			"SIM Number",
+			"dir",
+			"ASC",
+			"mobilenumber",
+			"timeContractExpire",
+			"option",
+			"contract_expire_date",
+			"$order",
+			"order",
+			"contract_expire_date",
+			"order_by",
+			"dateTime",
+			"csvLines",
+			"mysql_fetch_array",
+			"output",
+			"setHeader",
+			"reportFilename",
+			"csvLine",
+			"<?php",
+			"result2",
+			"Contract Expir",
+			"query2",
+			"_GET['",
+			"where",
+			"from",
+			"search",
+			"$search",
+			"search",
+			"query2",
+			"search",
+			"_POST",
+			"/>",
+			"contract_expire_date",
+			"$type",
+			"div",
+			"'",
+			"div",
+			"echo",
+			"query2",
+			"Search",
+			"from",
+			"filter[",
+			"'filter'",
+			"search",
+			"required",
+			"11",
+			"form-group",
+			"Contract Expiry",
+			"search",
+			"$row['timeContractExpire']",
+			"timeContractExpire",
+			"user_id",
+			"row",
+			"Delete",
+			"timeContractExpire",
+			"status_id",
+			"contract_expire_date",
+			"status_id",
+			"contract_expire_date",
+			"mobilenumber",
+			"timeContractExpire",
+			"departquer",
+			"form",
+			"<!--",
+			"Dept",
 			"_POST",
 			"Search through",
 			"qa",
@@ -786,95 +886,7 @@
 			"callChaseTodayAcme",
 			"totalCallsCancelAcme",
 			"totalCallsTodayAcme",
-			"totalCallsThisMonth",
-			"totalCallsThisWeek",
-			"callToday",
-			"callLogged",
-			"totalCallsToday",
-			"totalCallsLogged",
-			"\";",
-			"callOther",
-			"callSales",
-			"todo",
-			"callOther",
-			"todo",
-			"totalCallsManagerJoylonToday",
-			"totalCallsCancelAcme",
-			"answer8",
-			"answer9",
-			"answer6s",
-			"answer7s",
-			"answer9s",
-			"answer20",
-			"answer21",
-			"answer20",
-			"answer21",
-			"totalCallsChaseTodaySevern",
-			"answer8s",
-			"answer8",
-			"answer7",
-			"company_id",
-			"totalCallsTodayAcme",
-			"answer6",
-			"totalCallsTodayAcme",
-			"answer6",
-			"totalCallsThisMonth",
-			"answer5",
-			"totalCallsThisWeek",
-			"answer4",
-			"answer2",
-			"$result",
-			"$query",
-			"query3",
-			"result2",
-			"query2",
-			"answer3",
-			"percent",
-			"percent1",
-			"answer3",
-			"Total Phone Calls Today",
-			"answer21",
-			"answer9",
-			"query20",
-			"answer9",
-			"Calls To Manager",
-			"headings",
-			"snappy",
-			"pdf-call-log-report",
-			"header(",
-			"call-log-custom-report",
-			"call-log",
-			"aeromark",
-			"type",
-			"require_once(\"models/config.php\");\nif (!securePage($_SERVER['PHP_SELF'])){die();}\n\n",
-			"Report Sing",
-			"company_id",
-			"companys",
-			"Company",
-			"table",
-			"limit",
-			"users",
-			"calllogs",
-			"findByFiltersLimit",
-			"totalRows",
-			"generate",
-			"totalRows",
-			"setPossiblePages",
-			"Choose",
-			"company_id",
-			"typeofcall",
-			"getTypes",
-			"getType",
-			"Company",
-			"calllogs",
-			"calllogSingle",
-			"callLogReport",
-			"n\">",
-			"urlService",
-			"href=\"\"",
-			"company_id",
-			"filters",
-			"$filters['date']['from']"
+			"totalCallsThisMonth"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -904,138 +916,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/var/www/html/itdb/addstock.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 22973,
-						"regions":
-						{
-							"bookmarks":
-							{
-								"flags": 144,
-								"icon": "bookmark",
-								"regions":
-								[
-									[
-										13427,
-										13427
-									]
-								],
-								"scope": "bookmarks"
-							}
-						},
-						"selection":
-						[
-							[
-								12961,
-								12961
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 9842.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/var/www/html/itdb/.gitignore",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 24,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								24,
-								24
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/var/www/html/itdb/css/style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 93547,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								93543,
-								93543
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 114399.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/var/www/html/itdb/composer.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 58,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								55,
-								55
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1088,6 +970,82 @@
 		"selected_items":
 		[
 			[
+				"ind",
+				"index.php"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				".sql",
+				"vendor/mwyatt/core/test-data.sql"
+			],
+			[
+				"dbsett",
+				"models/db-settings.php"
+			],
+			[
+				"viewsim",
+				"viewsim.php"
+			],
+			[
+				"addsim",
+				"addsim.php"
+			],
+			[
+				"addstock",
+				"addstock.php"
+			],
+			[
+				"modelconfi",
+				"models/config.php"
+			],
+			[
+				"funcs",
+				"models/funcs.php"
+			],
+			[
+				"langen",
+				"models/languages/en.php"
+			],
+			[
+				"languaen",
+				"models/languages/en.php"
+			],
+			[
+				"dbse",
+				"models/db-settings.php"
+			],
+			[
+				"modelconfig",
+				"models/config.php"
+			],
+			[
+				"dbsettings",
+				"models/db-settings.php"
+			],
+			[
+				"dbset",
+				"models/db-settings.php"
+			],
+			[
+				"config",
+				"models/config.php"
+			],
+			[
+				"editsim",
+				"edit-sim.php"
+			],
+			[
+				"tiemcone",
+				"sql/sims-add-timeContractExpire.sql"
+			],
+			[
+				"naviga",
+				"navigation.php"
+			],
+			[
 				"gitig",
 				".gitignore"
 			],
@@ -1106,10 +1064,6 @@
 			[
 				"addsto",
 				"addstock.php"
-			],
-			[
-				"dbse",
-				"models/db-settings.php"
 			],
 			[
 				"",
@@ -1170,10 +1124,6 @@
 			[
 				"repocalllog",
 				"src/Repository/Calllog.php"
-			],
-			[
-				"index",
-				"index.php"
 			],
 			[
 				"dash",
@@ -1324,10 +1274,6 @@
 				"src/Repository/Calllog.php"
 			],
 			[
-				"config",
-				"config.php"
-			],
-			[
 				"kerne",
 				"vendor/mwyatt/core/src/Http/Kernel.php"
 			],
@@ -1418,14 +1364,6 @@
 			[
 				"ser",
 				"vendor/mwyatt/core/services.php"
-			],
-			[
-				"modelconfig",
-				"models/config.php"
-			],
-			[
-				"naviga",
-				"navigation.php"
 			],
 			[
 				"permiss",
@@ -1542,62 +1480,6 @@
 			[
 				"servicecalllog",
 				"src/Service/Calllog.php"
-			],
-			[
-				"acmecn",
-				"acme-cancellivecall.php"
-			],
-			[
-				"modelnoar",
-				"src/Model/NoAeromark.php"
-			],
-			[
-				"repordas",
-				"reportdashboard.php"
-			],
-			[
-				"readme",
-				"README.md"
-			],
-			[
-				"formnoa",
-				"template/form-no-aeromark.php"
-			],
-			[
-				"noaerosingle",
-				"manager-noaeromark-single.php"
-			],
-			[
-				"model",
-				"src/Model/NoAeromark.php"
-			],
-			[
-				"modelno",
-				"src/Model/NoAeromark.php"
-			],
-			[
-				"mannoatabl",
-				"template/manager-noaeromark-all-table.php"
-			],
-			[
-				"noaeall",
-				"template/manager-noaeromark-all.php"
-			],
-			[
-				"modelnoa",
-				"src/Model/NoAeromark.php"
-			],
-			[
-				"aeroall",
-				"manager-noaeromark-all.php"
-			],
-			[
-				"packa",
-				"package.json"
-			],
-			[
-				"gulp",
-				"gulpfile.js"
 			]
 		],
 		"width": 0.0
@@ -1605,12 +1487,44 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "itdasho",
 		"selected_items":
 		[
 			[
+				"itdasho",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-itdashboard.sublime-workspace"
+			],
+			[
 				"",
-				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-crm.sublime-project"
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
+			],
+			[
+				"bms",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
+			],
+			[
+				"bmd",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-brand-guidelines.sublime-project"
+			],
+			[
+				"pentla",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-pentlandwholesale.sublime-project"
+			],
+			[
+				"elt",
+				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"bm",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
+			],
+			[
+				"el",
+				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"apprai",
+				"/var/www/html/dotfiles/sublime-text-workspaces/appraisal.sublime-project"
 			],
 			[
 				"core",
@@ -1649,23 +1563,11 @@
 				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"
 			],
 			[
-				"elt",
-				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
-			],
-			[
-				"el",
-				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
-			],
-			[
 				"appir",
 				"/var/www/html/dotfiles/sublime-text-workspaces/appraisal.sublime-workspace"
 			],
 			[
 				"appria",
-				"/var/www/html/dotfiles/sublime-text-workspaces/appraisal.sublime-workspace"
-			],
-			[
-				"apprai",
 				"/var/www/html/dotfiles/sublime-text-workspaces/appraisal.sublime-workspace"
 			],
 			[
@@ -1756,10 +1658,10 @@
 	"settings":
 	{
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 318.0,
 	"status_bar_visible": true,
 	"template_settings":

@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+<?php foreach (\$${1}s as \$${1}): ?>
+
+    ${2}
+
+<?php endforeach ?>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>foreach-php</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.html</scope> -->
+</snippet>

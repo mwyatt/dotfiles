@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+echo '<pre>'; print_r(\$e->getMessage()); print_r(\$e->getTraceAsString()); echo '</pre>'; exit;
+${1}
+]]></content>
+	<tabTrigger>pve</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

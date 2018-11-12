@@ -13,9 +13,19 @@
   <property name="backdrop" type="empty">
     <property name="screen0" type="empty">
       <property name="monitor0" type="empty">
-        <property name="image-path" type="string" value="/home/martin/Downloads/90911.jpg"/>
+        <property name="image-path" type="string" value="/home/martin/Downloads/wallpaper2you_472137.jpg"/>
         <property name="image-style" type="int" value="0"/>
         <property name="image-show" type="empty"/>
+        <property name="workspace0" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="3"/>
+          <property name="last-image" type="string" value="/home/martin/Downloads/90911.jpg"/>
+        </property>
+        <property name="workspace1" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="3"/>
+          <property name="last-image" type="string" value="/home/martin/Downloads/90911.jpg"/>
+        </property>
       </property>
       <property name="monitor1" type="empty">
         <property name="image-path" type="empty"/>
@@ -63,12 +73,19 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="3"/>
-          <property name="last-image" type="string" value="/home/martin/Downloads/90911.jpg"/>
+          <property name="last-image" type="string" value="/home/martin/Downloads/thumb-1920-511052.jpg"/>
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="3"/>
           <property name="last-image" type="string" value="/home/martin/Downloads/90911.jpg"/>
+        </property>
+      </property>
+      <property name="monitorVGA1" type="empty">
+        <property name="workspace0" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="3"/>
+          <property name="last-image" type="string" value="/home/martin/Downloads/wallpaper2you_472137.jpg"/>
         </property>
       </property>
     </property>

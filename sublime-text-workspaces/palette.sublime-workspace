@@ -1,0 +1,2714 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"colos",
+				"colors.php"
+			],
+			[
+				"colo",
+				"color"
+			],
+			[
+				"sele",
+				"selected"
+			],
+			[
+				"formla",
+				"form-control-label \tBootstrap 4 Class"
+			],
+			[
+				"reqt",
+				"requestType"
+			],
+			[
+				"Ref",
+				"Refrigerant"
+			],
+			[
+				"reques",
+				"requests"
+			],
+			[
+				"req",
+				"requests"
+			],
+			[
+				"deliveryAd",
+				"deliveryAddress\t(Sales.php)"
+			],
+			[
+				"invaddress",
+				"invoiceAddress"
+			],
+			[
+				"contra",
+				"contract"
+			],
+			[
+				"quono",
+				"quoteNotes"
+			],
+			[
+				"proe",
+				"property"
+			],
+			[
+				"tal",
+				"ta-l\ttext-align: left;"
+			],
+			[
+				"invoiceA",
+				"invoiceAddress1\t(Sales.php)"
+			],
+			[
+				"wid",
+				"width\tAttr"
+			],
+			[
+				"backgrr",
+				"background-green\t(quote.bundle.css)"
+			],
+			[
+				"aero",
+				"aeroRequestId"
+			],
+			[
+				"expor",
+				"exportPDF"
+			],
+			[
+				"enq",
+				"enquiry"
+			],
+			[
+				"enqui",
+				"enquiries\t(Crm.php)"
+			],
+			[
+				"paghe",
+				"pageHeadingAutoPos"
+			],
+			[
+				"coss",
+				"controller-view-offsetSet\tcontroller-view-offsetSet"
+			],
+			[
+				"uaso",
+				"uasort"
+			],
+			[
+				"enqu",
+				"enquiries"
+			],
+			[
+				"uasor",
+				"uasort"
+			],
+			[
+				"cvs",
+				"controller-view-offsetSet\tcontroller-view-offsetSet"
+			],
+			[
+				"enquir",
+				"enquiries"
+			],
+			[
+				"openqn",
+				"openEnquiriesBySalespersonOld\t(crm.php)"
+			],
+			[
+				"search",
+				"searchCol"
+			],
+			[
+				"arid",
+				"aeroRequestId"
+			],
+			[
+				"jobi",
+				"jobId"
+			],
+			[
+				"aeropro",
+				"aeroProduct\t(Job.php)"
+			],
+			[
+				"asse",
+				"asset_ID]:2"
+			],
+			[
+				"sett",
+				"settings"
+			],
+			[
+				"jobit",
+				"jobItem"
+			],
+			[
+				"delop",
+				"deliveryOption"
+			],
+			[
+				"cospri",
+				"costPrice\t(grandTotals.js)"
+			],
+			[
+				"proper",
+				"property"
+			],
+			[
+				"getcreds",
+				"getCreditStatus"
+			],
+			[
+				"pays",
+				"paymentStage"
+			],
+			[
+				"opt",
+				"options"
+			],
+			[
+				"types",
+				"types\t(Job.php)"
+			],
+			[
+				"refres",
+				"refreshSelect\t(job.bundle.js)"
+			],
+			[
+				"profmin",
+				"profitMinPercents"
+			],
+			[
+				"profm",
+				"profitMinPercents"
+			],
+			[
+				"js-produ",
+				"js-product-card\t(job.php)"
+			],
+			[
+				"js-lab",
+				"js-labour-card\t(job.php)"
+			],
+			[
+				"apie",
+				"apiAeromarkService"
+			],
+			[
+				"col4",
+				"col-sm-4 \tBootstrap 4 Class"
+			],
+			[
+				"prodnal",
+				"productNameLike\t(Aeroreport.php)"
+			],
+			[
+				"pronal",
+				"productNameLike"
+			],
+			[
+				"filena",
+				"filename"
+			],
+			[
+				"templfi",
+				"templateField"
+			],
+			[
+				"stockTemplateF",
+				"stockTemplateField\t(It.php)"
+			],
+			[
+				"getprev",
+				"getPrettyValueByFieldName\t(StockTemplateField.php)"
+			],
+			[
+				"temfield",
+				"templateField"
+			],
+			[
+				"templafi",
+				"templateField"
+			],
+			[
+				"tem",
+				"template"
+			],
+			[
+				"templaid",
+				"templateId"
+			],
+			[
+				"itStoc",
+				"itStocks\t(it.php)"
+			],
+			[
+				"templid",
+				"templateId"
+			],
+			[
+				"stockas",
+				"stocksAssigned"
+			],
+			[
+				"assuid",
+				"assignedUserId"
+			],
+			[
+				"assius",
+				"assignedUser"
+			],
+			[
+				"offse",
+				"offset-10 \tBootstrap 4 Class"
+			],
+			[
+				"casecm",
+				"strncasecmp"
+			],
+			[
+				"thro",
+				"throw\tthrow"
+			],
+			[
+				"depar",
+				"department"
+			],
+			[
+				"set",
+				"setting"
+			],
+			[
+				"cgq",
+				"controller-request-get\tcontroller-request-get"
+			],
+			[
+				"cols",
+				"col-sm"
+			],
+			[
+				"bprimar",
+				"btn-primary \tBootstrap 4 Class"
+			],
+			[
+				"dashb",
+				"dashboardItems"
+			],
+			[
+				"utf",
+				"utf8_encode"
+			],
+			[
+				"contyp",
+				"contractType"
+			],
+			[
+				"cgrepos",
+				"controller-get-repository\tcontroller-get-repository"
+			],
+			[
+				"invtota",
+				"invoiceTotal"
+			],
+			[
+				"invrepo",
+				"invoiceResponse"
+			],
+			[
+				"yc",
+				"yearCurr"
+			],
+			[
+				"compan",
+				"companyName"
+			],
+			[
+				"dashturnse",
+				"dashboardTurnoverSettings"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"profi",
+				"profitPercents"
+			],
+			[
+				"profper",
+				"profitPercents"
+			],
+			[
+				"jobType",
+				"jobTypeName\t(Sales.php)"
+			],
+			[
+				"profit",
+				"profitPercent\t(Sales.php)"
+			],
+			[
+				"profice",
+				"profitPercent"
+			],
+			[
+				"profipec",
+				"profitPercent"
+			],
+			[
+				"delopts",
+				"deliveryOptions"
+			],
+			[
+				"joti",
+				"jobItem"
+			],
+			[
+				"sucbon",
+				"subcontractors\t(subcontractors.js)"
+			],
+			[
+				"jobie",
+				"jobItems\t(Sales.php)"
+			],
+			[
+				"jobites",
+				"jobItems\t(Sales.php)"
+			],
+			[
+				"jobitems",
+				"jobItems"
+			],
+			[
+				"joitems",
+				"jobItems"
+			],
+			[
+				"jobIt",
+				"jobItems"
+			],
+			[
+				"joite",
+				"jobItem"
+			],
+			[
+				"aja",
+				"ajax\tajax"
+			],
+			[
+				"statcha",
+				"statusChange"
+			],
+			[
+				"paystagac",
+				"paymentStagesAccountsNeedApproval"
+			],
+			[
+				"paysg",
+				"paymentStage"
+			],
+			[
+				"getkey",
+				"getByKeyFirstValue\t(Sales.php)"
+			],
+			[
+				"paymentS",
+				"paymentStages"
+			],
+			[
+				"psta",
+				"paymentStage"
+			],
+			[
+				"mails",
+				"mailSent"
+			],
+			[
+				"creds",
+				"creditStatus"
+			],
+			[
+				"pas",
+				"paymentStages"
+			],
+			[
+				"findcred",
+				"findCreditUnchecked"
+			],
+			[
+				"getcred",
+				"getCreditStatusUnchecked"
+			],
+			[
+				"credit",
+				"credit-status"
+			],
+			[
+				"getcredst",
+				"getCreditStatusUnchecked\t(Job.php)"
+			],
+			[
+				"offs",
+				"offsetSet"
+			],
+			[
+				"senemiuser",
+				"sendEmailUserIds"
+			],
+			[
+				"senemaius",
+				"sendEmailUserIds"
+			],
+			[
+				"senemid",
+				"sendEmailUserIds"
+			],
+			[
+				"getcredi",
+				"getCreditStatusDenied\t(Job.php)"
+			],
+			[
+				"getcredsi",
+				"getCreditStatusApproved"
+			],
+			[
+				"credstaa",
+				"getCreditStatusApproved"
+			],
+			[
+				"userce",
+				"userCheck"
+			],
+			[
+				"userche",
+				"userCheck"
+			],
+			[
+				"userdir",
+				"usersDirectors"
+			],
+			[
+				"usei",
+				"userId"
+			],
+			[
+				"userpos",
+				"usersPost"
+			],
+			[
+				"userme",
+				"userMeta"
+			],
+			[
+				"tr",
+				"try\ttry"
+			],
+			[
+				"metake",
+				"metaKey\t(User.php)"
+			],
+			[
+				"ajax",
+				"ajax\tajax"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/var/www/html/palette/home.php",
+			"settings":
+			{
+				"buffer_size": 8315,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/palette/color.php",
+			"settings":
+			{
+				"buffer_size": 713,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/palette/colors.php",
+			"settings":
+			{
+				"buffer_size": 3669,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/palette/wheel.svg",
+			"settings":
+			{
+				"buffer_size": 3657,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/var/www/html/palette/index.php",
+			"settings":
+			{
+				"buffer_size": 3363,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 49.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"setting user",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"settings user",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"clos",
+				"File: Close All"
+			],
+			[
+				"bind",
+				"Preferences: Key Bindings"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"setting",
+				"Preferences: Settings"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"settings",
+				"Preferences: Settings"
+			],
+			[
+				"sett",
+				"Preferences: Settings"
+			],
+			[
+				"material",
+				"Material Theme: Advanced configuration"
+			],
+			[
+				"mate",
+				"Material Theme: Advanced configuration"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"vew",
+				"View: Toggle Menu"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"sav",
+				"File: Save All"
+			],
+			[
+				"about",
+				"About"
+			],
+			[
+				"removepack",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"gulp",
+				"Gulp"
+			],
+			[
+				"gitsta",
+				"Git: Status"
+			],
+			[
+				"gitcomm",
+				"Git: Commit"
+			],
+			[
+				"gitstat",
+				"Git: Status"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings"
+			],
+			[
+				"filename",
+				"AutoFileName: Default Settings"
+			],
+			[
+				"instaa",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"save",
+				"File: Save All"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"dot",
+				"Set Syntax: Graphviz (DOT)"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"seting",
+				"Preferences: Settings"
+			],
+			[
+				"musta",
+				"Set Syntax: HTML with mustaches"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"listpack",
+				"Package Control: List Packages"
+			],
+			[
+				"remove pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"sa",
+				"File: Save All"
+			],
+			[
+				"cloe",
+				"File: Close All"
+			],
+			[
+				"clo",
+				"File: Close All"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"listpac",
+				"Package Control: List Packages"
+			],
+			[
+				"open",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"brows",
+				"Preferences: Browse Packages"
+			],
+			[
+				"stat",
+				"View: Toggle Status Bar"
+			],
+			[
+				"resource",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"keyb",
+				"Preferences: Key Bindings"
+			],
+			[
+				"status",
+				"View: Toggle Status Bar"
+			],
+			[
+				"removepac",
+				"Package Control: Remove Package"
+			],
+			[
+				"remoepacka",
+				"Package Control: Remove Package"
+			],
+			[
+				"listpck",
+				"Package Control: List Packages"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"tabs",
+				"View: Toggle Tabs"
+			],
+			[
+				"rmeovepa",
+				"Package Control: Remove Package"
+			],
+			[
+				"men",
+				"View: Toggle Menu"
+			],
+			[
+				"keybind",
+				"Preferences: Key Bindings"
+			],
+			[
+				"listpa",
+				"Package Control: List Packages"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"lsitpa",
+				"Package Control: List Packages"
+			],
+			[
+				"resoure",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"satusb",
+				"View: Toggle Status Bar"
+			],
+			[
+				"packaresou",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"Snippet: ",
+				"Snippet: scss-extend"
+			],
+			[
+				"sta",
+				"View: Toggle Status Bar"
+			],
+			[
+				"rmeovpa",
+				"Package Control: Remove Package"
+			],
+			[
+				"removepa",
+				"Package Control: Remove Package"
+			],
+			[
+				"lsit",
+				"Package Control: List Packages"
+			],
+			[
+				"padisable",
+				"Package Control: Disable Package"
+			],
+			[
+				"tab",
+				"View: Toggle Tabs"
+			],
+			[
+				"materialac",
+				"Material Theme: Activate theme"
+			],
+			[
+				"statu",
+				"View: Toggle Status Bar"
+			],
+			[
+				"clsoe",
+				"File: Close All"
+			],
+			[
+				"snippet crea",
+				"Snippet: Create getter and setter methods"
+			],
+			[
+				"keybin",
+				"Preferences: Key Bindings"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"closs",
+				"Package Control: List Packages"
+			],
+			[
+				"me",
+				"View: Toggle Menu"
+			],
+			[
+				"user",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"sal",
+				"File: Save All"
+			],
+			[
+				"closeal",
+				"File: Close All"
+			],
+			[
+				"closeall",
+				"File: Close All"
+			],
+			[
+				"closea",
+				"File: Close All"
+			]
+		],
+		"width": 431.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": true,
+		"show_open_files": false,
+		"show_tabs": true,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/html/palette"
+	],
+	"file_history":
+	[
+		"/var/www/html/bms/src/Controller/Aeroreport.php",
+		"/var/www/html/bms/src/Mapper/Aeroreport/Request.php",
+		"/var/www/html/bms/template/aeroreport/request/grouped-request-created-form.php",
+		"/var/www/html/bms/template/aeroreport/request/grouped-request-created.php",
+		"/var/www/html/bms/template/filter-report-table.php",
+		"/var/www/html/bms/template/filter-report.php",
+		"/var/www/html/bms/routes/aeroreport.php",
+		"/var/www/html/bms/src/Service/MenuBuilder.php",
+		"/var/www/html/bms/src/Mapper/Aeromark/Request.php",
+		"/var/www/html/bms/template/aeroreport/request/grouped-react-quoted.php",
+		"/var/www/html/bms/src/Mapper/Aeroreport/Invoice.php",
+		"/var/www/html/bms/template/aeroreport/service-jobs-invoices-form.php",
+		"/var/www/html/bms/template/aeroreport/request/groupedByDateForm.php",
+		"/var/www/html/bms/src/Controller/Sales.php",
+		"/var/www/html/bms/template/sales/quote/foot.php",
+		"/var/www/html/bms/ui/sales/job/quote.bundle.css",
+		"/var/www/html/bms/src/Model/Aeromark/Contract.php",
+		"/var/www/html/bms/src/Model/Sales/Job.php",
+		"/var/www/html/bms/src/Model/Sales/JobItem.php",
+		"/var/www/html/bms/template/sales/quote.php",
+		"/var/www/html/bms/src/Model/Aeromark/Customer.php",
+		"/var/www/html/bms/template/sales/job.php",
+		"/var/www/html/bms/src/Mapper/Aeromark/Contract.php",
+		"/var/www/html/bms/vendor/mwyatt/core/src/AbstractMapper.php",
+		"/var/www/html/bms/template/head.php",
+		"/var/www/html/bms/index.php",
+		"/var/www/html/bms/src/Model/It/Stock.php",
+		"/var/www/html/bms/src/Controller/It.php",
+		"/var/www/html/bms/template/it/stock.php",
+		"/var/www/html/bms/composer.json",
+		"/var/www/html/bms/ui/navreports/mario.bundle.css",
+		"/var/www/html/bms/sql/sales/definition.sql",
+		"/var/www/html/bms/src/Mapper/Sales/Job.php",
+		"/var/www/html/bms/config.php",
+		"/tmp/fz3temp-1/config.php",
+		"/var/www/html/bms/src/Controller/Navreport/Dashboard.php",
+		"/var/www/html/bms/ui/sales/job.bundle.js",
+		"/var/www/html/bms/src/Service/Api/Aeromark.php",
+		"/var/www/html/bms/ui/sales/job/grandTotals.js",
+		"/var/www/html/bms/template/sales/quote/head.php",
+		"/var/www/html/bms/ui/common.bundle.css",
+		"/var/www/html/bms/routes.php",
+		"/var/www/html/bms/src/Controller/Upload.php",
+		"/var/www/html/bms/vendor/mwyatt/core/src/Request.php",
+		"/var/www/html/bms/src/Service/Thumb.php",
+		"/var/www/html/bms/.htaccess",
+		"/var/www/html/bms/src/Controller/Thumb.php",
+		"/var/www/html/bms/ui/sales/job/labour.js",
+		"/var/www/html/bms/ui/sales/job/paymentStage.mst",
+		"/var/www/html/bms/ui/sales/job/payments.js",
+		"/var/www/html/bms/package.json",
+		"/var/www/html/bms/ui/fuzzy-search.js",
+		"/var/www/html/bms/src/Repository/Sales/Job.php",
+		"/var/www/html/bms/src/Middleware/Common.php",
+		"/var/www/html/bms/routes/sales.php",
+		"/var/www/html/bms/src/Service/View/Money.php",
+		"/var/www/html/bms/src/Model/Company.php",
+		"/var/www/html/bms/src/Repository/BindUserTrait.php",
+		"/var/www/html/bms/template/dashboard.php",
+		"/var/www/html/bms/services.php",
+		"/home/martin/.config/sublime-text-3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
+		"/home/martin/.config/sublime-text-3/Packages/User/ColorHighlighter.sublime-settings",
+		"/home/martin/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/var/www/html/bms/template/head/content.php",
+		"/var/www/html/bms/sql/it/definition.sql",
+		"/home/martin/Downloads/it_stock.sql",
+		"/var/www/html/bms/template/it/dashboard.php",
+		"/usr/share/phpmyadmin/export.php",
+		"/var/www/html/bms/ui/sales/job/grandTotals.mst",
+		"/home/martin/Downloads/pentland_website.sql",
+		"/home/martin/Downloads/pentland_1.sql",
+		"/var/www/html/bms/config-sample.php",
+		"/var/www/html/bms/ui/sales/job/creditConfirm.mst",
+		"/var/www/html/bms/template/sales/job/actions.php",
+		"/var/www/html/bms/ui/sales/job/delivery.js",
+		"/var/www/html/bms/ui/sales/job/deliverySelect.mst",
+		"/var/www/html/bms/vendor/mwyatt/core/src/Database/Pdo.php",
+		"/var/www/html/bms/template/crm/open-enquiries-by-salesperson-old-report.php",
+		"/var/www/html/bms/src/Service/Report.php",
+		"/var/www/html/bms/routes/crm.php",
+		"/var/www/html/bms/src/Controller/Crm.php",
+		"/var/www/html/bms/template/crm/open-enquiries-by-salesperson-old-report-form.php",
+		"/var/www/html/bms/template/crm/open-enquiries-by-salesperson-old-report-pdf.php",
+		"/var/www/html/bms/template/aeroreport/commercial-requests.php",
+		"/var/www/html/bms/template/user.php",
+		"/var/www/html/bms/template/siclops/purchase-order/from-to-results.php",
+		"/var/www/html/bms/src/Database/Pdo.php",
+		"/var/www/html/bms/template/aeroreport/job-profit-form.php",
+		"/var/www/html/bms/src/Mapper/Aeroreport/Job.php",
+		"/var/www/html/bms/ui/sales/job/products.js",
+		"/var/www/html/bms/ui/sales/job/materials.js",
+		"/var/www/html/bms/ui/sales/job/subcontractors.js",
+		"/var/www/html/bms/routes/it.php",
+		"/var/www/html/bms/ui/it/stock/notes.js",
+		"/var/www/html/bms/ui/it/stock.bundle.js",
+		"/var/www/html/bms/src/Model/It/StockNote.php",
+		"/var/www/html/bms/template/it/email-user-signed-for-stock.php",
+		"/var/www/html/bms/routes/stock.php",
+		"/var/www/html/bms/src/Controller/Stock.php",
+		"/var/www/html/bms/src/Mapper/It/StockNote.php",
+		"/var/www/html/bms/src/Repository/It/StockNote.php",
+		"/var/www/html/bms/src/Mapper/Sales/StockNote.php",
+		"/var/www/html/bms/ui/sales/job/deliveryOption.mst",
+		"/var/www/html/bms/ui/sales/job.bundle.css",
+		"/var/www/html/bms/ui/sales/job/sendToUserGroup.mst",
+		"/var/www/html/bms/ui/sales/job/note.mst",
+		"/var/www/html/bms/ui/sales/job/notes.js",
+		"/var/www/html/bms/src/Iterator/Model/UserMeta.php",
+		"/var/www/html/bms/src/Iterator/Model/Sales/JobItem.php",
+		"/var/www/html/bms/ui/sales/job/product.mst",
+		"/var/www/html/bms/vendor/mwyatt/core/src/Iterator/Collection.php",
+		"/var/www/html/bms/ui/sales/job/item.mst",
+		"/var/www/html/bms/ui/sales/job/resources.js",
+		"/var/www/html/bms/src/Mapper/Sales/JobItem.php",
+		"/var/www/html/bms/src/Mapper/Sales/DeliveryOption.php",
+		"/var/www/html/bms/src/Model/Sales/DeliveryOption.php",
+		"/var/www/html/bms/src/Mapper/Sales/JobProduct.php",
+		"/var/www/html/bms/src/Model/Sales/JobProduct.php",
+		"/var/www/html/bms/src/Model/User.php",
+		"/var/www/html/bms/src/Controller/Admin/User.php",
+		"/var/www/html/bms/src/Model/Sales/JobPaymentStage.php",
+		"/var/www/html/bms/template/aeroreport/job-profit.php",
+		"/var/www/html/bms/routes/aeromark.php",
+		"/var/www/html/bms/src/Mapper/Aeromark/Product.php",
+		"/var/www/html/bms/ui/sales/job/sendQuote.mst",
+		"/var/www/html/bms/src/Service/Mail.php",
+		"/var/www/html/bms/vendor/mwyatt/core/src/Http/Config.php",
+		"/var/www/html/bms/src/Service/Calendar.php"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			"-node_modules/, -asset/,   -cache/, -metronic/, -temp/,",
+			"-node_modules/, -asset/,   -cache/, -metronic/,",
+			"-node_modules/, -asset/,   -cache/, -metronic/, sql/",
+			"-node_modules/, -asset/,   -cache/, -metronic/,",
+			"-node_modules/, -asset/,   -cache/, -metronic/, css/",
+			"-node_modules/, -asset/,   -cache/, -metronic/, ",
+			"-node_modules/, -asset/, -vendor/,  -cache/, -metronic/, ",
+			"-node_modules/, -asset/, -vendor/,  -cache/, -metronic/, *.php",
+			"-node_modules/, -asset/, -vendor/,  -cache/, -metronic/, .php",
+			"-node_modules/, -asset/, -vendor/,  -cache/, -metronic/,",
+			"",
+			"-node_modules/, -asset/, -vendor/,  -cache/, -metronic/,",
+			"-node_modules/, -asset/, -vendor/,  -cache/, -metronic/, *.sql",
+			"-node_modules/, -asset/, -vendor/,  -cache/, -metronic/, .sql",
+			"-node_modules/, -asset/, -vendor/,  -cache/, -metronic/, ",
+			"-node_modules/, -asset/, -vendor/,  -cache/, -metronic/, <open files>",
+			"-node_modules/, -asset/, -vendor/,  -cache/, -metronic/, ",
+			"-node_modules/, -asset/, -vendor/,  -cache/, -metronic/, template/",
+			"-node_modules/, -asset/, -vendor/,  -cache/, -metronic/",
+			"-node_modules/, -asset/, -vendor/,  -cache/",
+			"-node_modules/, -asset/, -vendor/, -metronic/, -cache/",
+			"-node_modules/, -asset/, -vendor/, -metronic/",
+			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, src/Mapper/Appraisal/",
+			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, test/",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, vendor/",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, -vendor/, home.scss",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, -vendor/, sass/",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, -vendor/, sass/",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, -vendor/, js/",
+			"-node_modules/, -asset/, -vendor/, *.tpl",
+			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, *.tpl",
+			"-node_modules/, -asset/, -vendor/,",
+			"-node_modules/, -asset/, -vendor/, js/",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, -vendor/, *.tpl",
+			"-node_modules/, -asset/, -vendor/, ",
+			"-node_modules/, -asset/, -vendor/, *.tpl",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, ",
+			"-node_modules/, -asset/, js/, -vendor/",
+			"-node_modules/, -asset/, js/",
+			"-node_modules/, -asset/, ",
+			"-node_modules/, -asset/, js/",
+			"-node_modules/, -asset/",
+			"-node_modules/, -asset/, sass/",
+			"-node_modules/, -asset/,",
+			"-node_modules/, -asset/, ",
+			"-node_modules/, -asset/, sass/",
+			"-node_modules/, -asset/, sass",
+			"-node_modules/, -asset/, js/",
+			"-node_modules/, -asset/, sass/",
+			"-node_modules/, -asset/, -vendor/, sass/",
+			"-node_modules/, -asset/, -vendor/, sass/admin/",
+			"-node_modules/, -asset/, -vendor/, sass/",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, ",
+			"-node_modules/, -asset/, js/",
+			"-node_modules/, -asset/, ",
+			"-node_modules/, -asset/, js/",
+			"-node_modules/, -asset/",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/, -vendor/, js/",
+			"-node_modules/, -asset/, -vendor/, js/, ",
+			"-node_modules/, -asset/, -vendor/, js/, -administration/",
+			"-node_modules/, -asset/, -vendor/, js/",
+			"-node_modules/, -asset/, -vendor/,",
+			"-node_modules/, -asset/, -vendor/, js/admin/",
+			"-node_modules/, -asset/, -vendor/, js/",
+			"-node_modules/, -asset/, -vendor/",
+			"-node_modules/, -asset/",
+			"-node_modules/",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"Idea",
+			"#",
+			" 'label' => 'Wish'",
+			"Wish",
+			"Idea",
+			"z-index: 1;",
+			".color-hsl {",
+			"$hsl[",
+			"Idea",
+			"Stone",
+			"number_format",
+			"Oxford",
+			"80455f",
+			"Light",
+			"Coming",
+			"Wish",
+			"#",
+			"7c7560",
+			"f69120",
+			"176e2a",
+			"33423d",
+			"#",
+			"732a42",
+			"orderKey",
+			"h2",
+			"Violet",
+			"Yellow",
+			"hSteps",
+			"hslRange",
+			"$hsl[0]",
+			"pre",
+			"hSteps",
+			"ahsl",
+			"hStepsTotal",
+			"hSteps",
+			"#",
+			"2db0df",
+			"666f79",
+			"485057",
+			"222a2e",
+			"formulas",
+			"js-hex-copy",
+			"copy",
+			"$('.js-color-wrap')",
+			"names",
+			"copy",
+			"js-mix-palette",
+			"wid",
+			"100%",
+			"540",
+			"width",
+			"/ <a class=\"\"",
+			"badge badge-secondary",
+			"<div class=\"col\">",
+			"col",
+			"color-mix-count",
+			"0",
+			"span",
+			"color-mix-cou",
+			"js-mix",
+			"$pageHead",
+			"<th>",
+			"requestsFiltered",
+			"exportCsv",
+			"Download CSV",
+			"Export CSV",
+			"requestTypes",
+			"requestsByType",
+			"oks",
+			"shortName",
+			"aeroreportInvoiceUsers",
+			"Invoice",
+			",",
+			"<th>",
+			"_",
+			"requestsByType",
+			"request",
+			"requestsByType",
+			"type_Name",
+			"Catering",
+			"requests",
+			"request2job",
+			"request_Closed",
+			"Mapper",
+			"$timeFrom",
+			"col-xs",
+			"requestByDateGrouped",
+			"request",
+			"<td>",
+			"100px",
+			"25%",
+			"vertical",
+			"getFilledAddressLines",
+			"job",
+			"contract_Address",
+			"address",
+			"getFilledAddressLines",
+			"contract_ID",
+			"required",
+			"Quote Title",
+			"protected",
+			"font-family: 'Patua One';",
+			"stock",
+			"Customer",
+			"customer",
+			"card",
+			"customer",
+			"CEP Live",
+			"stock",
+			"project",
+			"print_",
+			".table-terms",
+			"foot",
+			"head",
+			"background-image: url(",
+			"customer->name",
+			"head",
+			"logo.p",
+			"logo",
+			"quoteNotes",
+			"card",
+			"quoteTitle",
+			"deliveryAddress1",
+			"255",
+			"quoteTitle",
+			"font-family",
+			"family: ",
+			"w"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": false,
+		"replace_history":
+		[
+			"getCreditStatus",
+			"getPathThumbLabel($user->profileImageFile->pathRelative, 'profile'",
+			"notBeenAccountsApprovedOnce",
+			"<a href=\"<?php echo $url->generate('login') ?>\" class=\"text-secondary\">Back</a>",
+			"val(getPriceTotal($row).toFixed(2))",
+			"require('/feedbackQueue')",
+			"require('feedbackQueue')",
+			"<div class=\"card mb-4\">",
+			"border-radius: 3px;",
+			"require('./dialogue')",
+			"<a href=\"<?php echo $url->generate('login') ?>\" class=\"text-secondary\">Login</a>",
+			"public function findByIds($ids)",
+			"ProductQuestionnaire",
+			"getDailyTotalsByDateLocation",
+			"getCreditTotalByDateLocation",
+			"$this->adapter",
+			"<a class=\"link\" href",
+			"row form-group",
+			"<div class=\"col-xs-12 col-md-6\">",
+			"container-fluid-disabled",
+			"$this->redirect('dashboard');",
+			"$this->view->getTemplate('dashboard-shared')",
+			"crmContactArchive",
+			"crmEnquiryCreateNotify",
+			"$this->view->offsetSet('pageHeadingAutoPos', true);\n$this->view->offsetSet('pageHeading'",
+			"ms\\Model\\Crm\\StatusTrait",
+			"bindOneToOneById",
+			"crmCompanys",
+			"sitory('Company\\Department",
+			"findEmployeesByDepartmentIds",
+			"findManagersByDepartmentIds",
+			"generate('adminUser'",
+			"getTotalFromTimeCreatedBetween",
+			"servicecallsCallLogReport",
+			"servicecallsManagerNoaeromarkAll",
+			"servicecallsLogCall",
+			"servicecallsDashboard",
+			"namespace Acmefg\\Bms\\Repository\\Servicecalls;",
+			"namespace Acmefg\\Bms\\Mapper\\Servicecalls;",
+			"namespace Acmefg\\Bms\\Model\\Servicecalls;",
+			"getMapper('Appraisal\\Questions",
+			"getMapper('Appraisal\\AgreedObjective",
+			"getMapper('Appraisal\\AppStatus",
+			"getMapper('Appraisal\\MailLog",
+			"extends \\Acmefg\\Bms\\AbstractMapperAppraisal",
+			"namespace Acmefg\\Bms\\Model\\Appraisal;",
+			"namespace Acmefg\\Bms\\Mapper\\Appraisal;",
+			"namespace Acmefg\\Bms\\Repository\\Appraisal;",
+			"namespace Acmefg\\Bms\\Appraisal\\Repository",
+			"<?php echo $url->",
+			"\\Bms",
+			"assets/",
+			"source",
+			"pageTitle",
+			"namespace Acmefg\\Crm",
+			"$this->getModelClassAbs()",
+			"\\Mwyatt\\Core\\Iterator\\Model $",
+			"protected $publicCols",
+			"Created",
+			"public function updateById(",
+			"ENGINE=InnoDB",
+			"throw new \\Mwyatt\\Core\\DatabaseException;",
+			"",
+			"$this->getTableNameLazy()",
+			"extends \\Mwyatt\\Core\\AbstractFactory",
+			"Iterator\\Model",
+			"AbstractMapper",
+			"AbstractService",
+			"require('mwyatt-grid')",
+			"templateSingle: require('feedbackQueueSingleMst')",
+			"templateContainer: require('feedbackQueueContainerMst')",
+			"orderId",
+			"require('mwyatt-codex/",
+			"require('mwyatt-dialogue'",
+			"return false; // should not run, return needed to be removed",
+			"require('./vendor/jqGrid');",
+			"require('./vendor/grid.locale-en');",
+			"'./user",
+			"'../feedbackStream",
+			"'./feedbackStream",
+			"'../feedbackStream",
+			"require('./utility/url')",
+			"require('./buttonToTop'",
+			"require('./smoothScroll')",
+			"mustache",
+			"require('./config')",
+			"require('./finance')",
+			"require('./equalHeight')",
+			"require('/equalHeight')",
+			"require('admin/vendor/grid.locale-en');",
+			"require('vendor/grid.locale-en');",
+			"owl-carousel-2/owl.carousel",
+			"owl-carousel-2",
+			"jquery-scrolltofixed",
+			"vendor/jquery.hoverIntent",
+			"jquery.hoverIntent",
+			"braintree-web",
+			"require('jquery-ui')"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/var/www/html/palette"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/var/www/html/palette/home.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8315,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3057,
+								3057
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2791.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/var/www/html/palette/color.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 713,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								101,
+								101
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 640.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/var/www/html/palette/colors.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3669,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2157,
+								2157
+							],
+							[
+								2228,
+								2228
+							],
+							[
+								2302,
+								2302
+							],
+							[
+								2374,
+								2374
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 659.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/var/www/html/palette/wheel.svg",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3657,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								391,
+								391
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/zzz A File Icon zzz/aliases/XML (SVG).sublime-syntax"
+						},
+						"translation.x": 624.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/var/www/html/palette/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3363,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3103,
+								3103
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1008.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 68.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 136.0
+	},
+	"output.gulp_output":
+	{
+		"height": 136.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 168.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"home.php"
+			],
+			[
+				"home",
+				"home.php"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"color",
+				"colors.php"
+			],
+			[
+				"wheel",
+				"wheel.svg"
+			],
+			[
+				"grouperequescrea",
+				"template/aeroreport/request/grouped-request-created.php"
+			],
+			[
+				"serjobinvform",
+				"template/aeroreport/service-jobs-invoices-form.php"
+			],
+			[
+				"controlleraerorepor",
+				"src/Controller/Aeroreport.php"
+			],
+			[
+				"templateaeroreporeque",
+				"template/aeroreport/request/grouped-request-created.php"
+			],
+			[
+				"mapperrequest",
+				"src/Mapper/Aeroreport/Request.php"
+			],
+			[
+				"menubuild",
+				"src/Service/MenuBuilder.php"
+			],
+			[
+				"groupedreque",
+				"template/aeroreport/request/grouped-request-created.php"
+			],
+			[
+				"groupreac",
+				"template/aeroreport/request/grouped-react-quoted.php"
+			],
+			[
+				"mapperaeromakreque",
+				"src/Mapper/Aeromark/Request.php"
+			],
+			[
+				"mapperaeroreporreque",
+				"src/Mapper/Aeroreport/Request.php"
+			],
+			[
+				"servjobinvoice",
+				"template/aeroreport/service-jobs-invoices.php"
+			],
+			[
+				"servjobinvfo",
+				"template/aeroreport/service-jobs-invoices-form.php"
+			],
+			[
+				"routeaerorepo",
+				"routes/aeroreport.php"
+			],
+			[
+				"controlleraeroreport",
+				"src/Controller/Aeroreport.php"
+			],
+			[
+				"mapperaerorequest",
+				"src/Mapper/Aeromark/Request.php"
+			],
+			[
+				"controlsale",
+				"src/Controller/Sales.php"
+			],
+			[
+				"modelitem",
+				"src/Model/Sales/JobItem.php"
+			],
+			[
+				"modelcustomer",
+				"src/Model/Aeromark/Customer.php"
+			],
+			[
+				"modelcontra",
+				"src/Model/Aeromark/Contract.php"
+			],
+			[
+				"quotebund",
+				"ui/sales/job/quote.bundle.css"
+			],
+			[
+				"quotefoot",
+				"template/sales/quote/foot.php"
+			],
+			[
+				"tempatequoet",
+				"template/sales/quote.php"
+			],
+			[
+				"templatejob",
+				"template/sales/job.php"
+			],
+			[
+				"modeljo",
+				"src/Model/Sales/Job.php"
+			],
+			[
+				"modelclient",
+				"src/Model/Aeromark/Client.php"
+			],
+			[
+				"mapperaeromark",
+				"src/Mapper/Aeromark/Client.php"
+			],
+			[
+				"quobundle",
+				"ui/sales/job/quote.bundle.css"
+			],
+			[
+				"templaquote",
+				"template/sales/quote.php"
+			],
+			[
+				"controllersales",
+				"src/Controller/Sales.php"
+			],
+			[
+				"head",
+				"template/head.php"
+			],
+			[
+				"modelstock",
+				"src/Model/It/Stock.php"
+			],
+			[
+				"templateitstock",
+				"template/it/stock.php"
+			],
+			[
+				"controllerit",
+				"src/Controller/It.php"
+			],
+			[
+				"quotehead",
+				"template/sales/quote/head.php"
+			],
+			[
+				"templatesalesjob",
+				"template/sales/job.php"
+			],
+			[
+				"salesdefi",
+				"sql/sales/definition.sql"
+			],
+			[
+				"mapperjob",
+				"src/Mapper/Sales/Job.php"
+			],
+			[
+				"modeljob",
+				"src/Model/Sales/Job.php"
+			],
+			[
+				"compos",
+				"composer.json"
+			],
+			[
+				"quotebundlcs",
+				"ui/sales/job/quote.bundle.css"
+			],
+			[
+				"templatequote",
+				"template/sales/quote.php"
+			],
+			[
+				"navrepodashbo",
+				"src/Controller/Navreport/Dashboard.php"
+			],
+			[
+				"confi",
+				"config.php"
+			],
+			[
+				"salesdef",
+				"sql/sales/definition.sql"
+			],
+			[
+				"controllerasle",
+				"src/Controller/Sales.php"
+			],
+			[
+				"config",
+				"config.php"
+			],
+			[
+				"salesdeifni",
+				"sql/sales/definition.sql"
+			],
+			[
+				"salesdefini",
+				"sql/sales/definition.sql"
+			],
+			[
+				"templasalesjob",
+				"template/sales/job.php"
+			],
+			[
+				"quote",
+				"template/sales/quote.php"
+			],
+			[
+				"templajob",
+				"template/sales/job.php"
+			],
+			[
+				"modeljobitem",
+				"src/Model/Sales/JobItem.php"
+			],
+			[
+				"combuncss",
+				"ui/common.bundle.css"
+			],
+			[
+				"controllersale",
+				"src/Controller/Sales.php"
+			],
+			[
+				"salequotehead",
+				"template/sales/quote/head.php"
+			],
+			[
+				"quotecs",
+				"ui/sales/job/quote.bundle.css"
+			],
+			[
+				"route",
+				"routes.php"
+			],
+			[
+				"servicethumb",
+				"src/Service/Thumb.php"
+			],
+			[
+				"controllerthum",
+				"src/Controller/Thumb.php"
+			],
+			[
+				"hta",
+				".htaccess"
+			],
+			[
+				"htacc",
+				".htaccess"
+			],
+			[
+				"routes.",
+				"routes.php"
+			],
+			[
+				"fuz",
+				"ui/fuzzy-search.js"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"laborjs",
+				"ui/sales/job/labour.js"
+			],
+			[
+				"jobpaymentstae",
+				"ui/sales/job/paymentStage.mst"
+			],
+			[
+				"quotebundl",
+				"ui/sales/job/quote.bundle.css"
+			],
+			[
+				"routesales",
+				"routes/sales.php"
+			],
+			[
+				"middlewarecomm",
+				"src/Middleware/Common.php"
+			],
+			[
+				"money",
+				"src/Service/View/Money.php"
+			],
+			[
+				"modelcompany",
+				"src/Model/Company.php"
+			],
+			[
+				"repojob",
+				"src/Repository/Sales/Job.php"
+			],
+			[
+				"dashbo",
+				"template/dashboard.php"
+			],
+			[
+				"salesquote",
+				"template/sales/quote.php"
+			],
+			[
+				"quotebundle",
+				"ui/sales/job/quote.bundle.css"
+			],
+			[
+				"apiaeromark",
+				"src/Service/Api/Aeromark.php"
+			],
+			[
+				"serv",
+				"services.php"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"controlersales",
+				"src/Controller/Sales.php"
+			],
+			[
+				"combun",
+				"ui/common.bundle.css"
+			],
+			[
+				"commbundle",
+				"ui/common.bundle.css"
+			],
+			[
+				"middlecommon",
+				"src/Middleware/Common.php"
+			],
+			[
+				"headcontn",
+				"template/head/content.php"
+			],
+			[
+				"salesjobbundl",
+				"ui/sales/job.bundle.css"
+			],
+			[
+				"services",
+				"services.php"
+			],
+			[
+				"sqlsalesdef",
+				"sql/sales/definition.sql"
+			],
+			[
+				"itdefini",
+				"sql/it/definition.sql"
+			],
+			[
+				"dashboa",
+				"template/dashboard.php"
+			],
+			[
+				"mapperaeormarkreq",
+				"src/Mapper/Aeromark/Request.php"
+			],
+			[
+				"grandtot",
+				"ui/sales/job/grandTotals.mst"
+			],
+			[
+				"totals",
+				"ui/sales/job/grandTotals.js"
+			],
+			[
+				"controllsales",
+				"src/Controller/Sales.php"
+			],
+			[
+				"sample",
+				"config-sample.php"
+			],
+			[
+				"paymentstagemst",
+				"ui/sales/job/paymentStage.mst"
+			],
+			[
+				"oldrepo",
+				"template/crm/open-enquiries-by-salesperson-old-report.php"
+			],
+			[
+				"oldreport",
+				"template/crm/open-enquiries-by-salesperson-old-report.php"
+			],
+			[
+				"servic",
+				"services.php"
+			],
+			[
+				"routecrm",
+				"routes/crm.php"
+			],
+			[
+				"purchaseorders",
+				"template/siclops/purchase-order/from-to-results.php"
+			],
+			[
+				"templacrm/",
+				"template/crm/company.php"
+			],
+			[
+				"pdo",
+				"src/Database/Pdo.php"
+			],
+			[
+				"service",
+				"services.php"
+			],
+			[
+				"confsampl",
+				"config-sample.php"
+			],
+			[
+				"jobprofform",
+				"template/aeroreport/job-profit-form.php"
+			],
+			[
+				"controllaerorepo",
+				"src/Controller/Aeroreport.php"
+			],
+			[
+				"jobactions",
+				"template/sales/job/actions.php"
+			],
+			[
+				"actions",
+				"template/sales/job/actions.php"
+			],
+			[
+				"paymentjs",
+				"ui/sales/job/payments.js"
+			],
+			[
+				"paystagemst",
+				"ui/sales/job/paymentStage.mst"
+			],
+			[
+				"jobbundlejs",
+				"ui/sales/job.bundle.js"
+			],
+			[
+				"producjs",
+				"ui/sales/job/products.js"
+			],
+			[
+				"subcon",
+				"ui/sales/job/subcontractors.js"
+			],
+			[
+				"grand",
+				"ui/sales/job/grandTotals.js"
+			],
+			[
+				"maerialjs",
+				"ui/sales/job/materials.js"
+			],
+			[
+				"jobbundle",
+				"ui/sales/job.bundle.js"
+			],
+			[
+				"emailuserassign",
+				"template/it/email-user-assigned-stock.php"
+			],
+			[
+				"controllerstock",
+				"src/Controller/Stock.php"
+			],
+			[
+				"routesotck",
+				"routes/stock.php"
+			],
+			[
+				"routeit",
+				"routes/it.php"
+			],
+			[
+				"routestock",
+				"routes/stock.php"
+			],
+			[
+				"mapperstocknot",
+				"src/Mapper/It/StockNote.php"
+			],
+			[
+				"modelstocknot",
+				"src/Model/It/StockNote.php"
+			],
+			[
+				"repostocknot",
+				"src/Repository/It/StockNote.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "bms",
+		"selected_items":
+		[
+			[
+				"bms",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
+			],
+			[
+				"",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
+			],
+			[
+				"port",
+				"/var/www/html/dotfiles/sublime-text-workspaces/portfolio.sublime-workspace"
+			],
+			[
+				"bm",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
+			],
+			[
+				"sand",
+				"/var/www/html/dotfiles/sublime-text-workspaces/sandbox.sublime-workspace"
+			],
+			[
+				"pent",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-pentlandwholesale.sublime-project"
+			],
+			[
+				"pentlandwhole",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-pentlandwholesale.sublime-project"
+			],
+			[
+				"crm",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-crm.sublime-project"
+			],
+			[
+				"blog",
+				"/var/www/html/dotfiles/sublime-text-workspaces/blog.sublime-workspace"
+			],
+			[
+				"itdah",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-itdashboard.sublime-workspace"
+			],
+			[
+				"pentlan",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-pentlandwholesale.sublime-project"
+			],
+			[
+				"blocg",
+				"/var/www/html/dotfiles/sublime-text-workspaces/blog.sublime-workspace"
+			],
+			[
+				"pentla",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-pentlandwholesale.sublime-project"
+			],
+			[
+				"blo",
+				"/var/www/html/dotfiles/sublime-text-workspaces/blog.sublime-workspace"
+			],
+			[
+				"pentl",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-pentlandwholesale.sublime-project"
+			],
+			[
+				"pentland",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-pentlandwholesale.sublime-project"
+			],
+			[
+				"eltt",
+				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"el",
+				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"elt",
+				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"pentwhoe",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-pentlandwholesale.sublime-project"
+			],
+			[
+				"pentwhole",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-pentlandwholesale.sublime-project"
+			],
+			[
+				"itdash",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-itdashboard.sublime-workspace"
+			],
+			[
+				"pentw",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-pentlandwholesale.sublime-project"
+			],
+			[
+				"codex",
+				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
+				"code",
+				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
+				"dialo",
+				"/var/www/html/dotfiles/sublime-text-workspaces/dialogue.sublime-workspace"
+			],
+			[
+				"l",
+				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"core",
+				"/var/www/html/dotfiles/sublime-text-workspaces/core.sublime-workspace"
+			],
+			[
+				"itdb",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-itdb.sublime-project"
+			],
+			[
+				"acmefpor",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-portal.sublime-project"
+			],
+			[
+				"portal",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-portal.sublime-project"
+			],
+			[
+				"acmefg",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
+			],
+			[
+				"aerorepo",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-aeromarkreports.sublime-project"
+			],
+			[
+				"eas",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-servicecalls.sublime-project"
+			],
+			[
+				"acmeporrt",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-portal.sublime-project"
+			],
+			[
+				"protal",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-portal.sublime-project"
+			],
+			[
+				"servicesupo",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-acmeservicesupport.sublime-project"
+			],
+			[
+				"porta",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-portal.sublime-project"
+			],
+			[
+				"elttl",
+				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"acmefport",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-portal.sublime-project"
+			],
+			[
+				"itdas",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-itdashboard.sublime-workspace"
+			],
+			[
+				"idas",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-itdashboard.sublime-workspace"
+			],
+			[
+				"cro",
+				"/var/www/html/dotfiles/sublime-text-workspaces/core.sublime-workspace"
+			],
+			[
+				"sericesupp",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-acmeservicesupport.sublime-project"
+			],
+			[
+				"acmeservice",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-acmeservicesupport.sublime-project"
+			],
+			[
+				"apprai",
+				"/var/www/html/dotfiles/sublime-text-workspaces/appraisal.sublime-project"
+			],
+			[
+				"servicesupp",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-acmeservicesupport.sublime-project"
+			],
+			[
+				"acmeservi",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-acmeservicesupport.sublime-project"
+			],
+			[
+				"prot",
+				"/var/www/html/dotfiles/sublime-text-workspaces/portfolio.sublime-workspace"
+			],
+			[
+				"petn",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-pentlandwholesale.sublime-project"
+			],
+			[
+				"game",
+				"/var/www/html/dotfiles/sublime-text-workspaces/game-engine.sublime-workspace"
+			],
+			[
+				"itd",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-itdb.sublime-project"
+			],
+			[
+				"acmeac",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-acmefg.sublime-project"
+			],
+			[
+				"por",
+				"/var/www/html/dotfiles/sublime-text-workspaces/portfolio.sublime-workspace"
+			],
+			[
+				"codx",
+				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
+				"eng",
+				"/var/www/html/dotfiles/sublime-text-workspaces/game-engine.sublime-workspace"
+			],
+			[
+				"gameen",
+				"/var/www/html/dotfiles/sublime-text-workspaces/game-engine.sublime-workspace"
+			],
+			[
+				"acmeacme",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-acmefg.sublime-project"
+			],
+			[
+				"gameengine",
+				"/var/www/html/dotfiles/sublime-text-workspaces/game-engine.sublime-workspace"
+			],
+			[
+				"appra",
+				"/var/www/html/dotfiles/sublime-text-workspaces/appraisal.sublime-project"
+			],
+			[
+				"gam",
+				"/var/www/html/dotfiles/sublime-text-workspaces/game-engine.sublime-workspace"
+			],
+			[
+				"gmae",
+				"/var/www/html/dotfiles/sublime-text-workspaces/game-engine.sublime-workspace"
+			],
+			[
+				"pe",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-pentlandwholesale.sublime-project"
+			],
+			[
+				"dialogu",
+				"/var/www/html/dotfiles/sublime-text-workspaces/dialogue.sublime-workspace"
+			],
+			[
+				"dia",
+				"/var/www/html/dotfiles/sublime-text-workspaces/dialogue.sublime-workspace"
+			],
+			[
+				"cod",
+				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
+				"aero",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-aeromarkreports.sublime-project"
+			],
+			[
+				"nav",
+				"/var/www/html/dotfiles/sublime-text-workspaces/pentland-navreports.sublime-project"
+			],
+			[
+				"e",
+				"/var/www/html/dotfiles/sublime-text-workspaces/elttl.sublime-workspace"
+			],
+			[
+				"pentlnd",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-pentlandwholesale.sublime-project"
+			],
+			[
+				"cor",
+				"/var/www/html/dotfiles/sublime-text-workspaces/core.sublime-workspace"
+			],
+			[
+				"acmbm",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
+			],
+			[
+				"close",
+				"/var/www/html/dotfiles/sublime-text-workspaces/core.sublime-workspace"
+			],
+			[
+				"serv",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-servicecalls.sublime-project"
+			],
+			[
+				"appri",
+				"/var/www/html/dotfiles/sublime-text-workspaces/appraisal.sublime-workspace"
+			],
+			[
+				"appr",
+				"/var/www/html/dotfiles/sublime-text-workspaces/appraisal.sublime-workspace"
+			],
+			[
+				"servi",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-servicecalls.sublime-project"
+			],
+			[
+				"ser",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-servicecalls.sublime-project"
+			],
+			[
+				"apri",
+				"/var/www/html/dotfiles/sublime-text-workspaces/appraisal.sublime-workspace"
+			],
+			[
+				"vans",
+				"/var/www/html/dotfiles/sublime-text-workspaces/pentland-vanstox.sublime-project"
+			],
+			[
+				"acmefgac",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-acmefg.sublime-project"
+			],
+			[
+				"a",
+				"/var/www/html/dotfiles/sublime-text-workspaces/appraisal.sublime-workspace"
+			],
+			[
+				"apr",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
+			],
+			[
+				"co",
+				"/var/www/html/dotfiles/sublime-text-workspaces/codex.sublime-workspace"
+			],
+			[
+				"coreui",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-coreui.sublime-project"
+			],
+			[
+				"corre",
+				"/var/www/html/dotfiles/sublime-text-workspaces/core.sublime-workspace"
+			],
+			[
+				"aeror",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-aeromarkreports.sublime-project"
+			],
+			[
+				"appria",
+				"/var/www/html/dotfiles/sublime-text-workspaces/appraisal.sublime-workspace"
+			],
+			[
+				"app",
+				"/var/www/html/dotfiles/sublime-text-workspaces/appraisal.sublime-workspace"
+			],
+			[
+				"brand",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-brand-guidelines.sublime-project"
+			],
+			[
+				"bran",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-brand-guidelines.sublime-project"
+			],
+			[
+				"un",
+				"/var/www/html/untitled.sublime-project"
+			],
+			[
+				"servca",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-servicecalls.sublime-project"
+			],
+			[
+				"intra",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-intranet.sublime-workspace"
+			],
+			[
+				"acmefg-",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-aeromarkreports.sublime-project"
+			],
+			[
+				"acmebra",
+				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-brand-guidelines.sublime-project"
+			],
+			[
+				"store",
+				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"s",
+				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"stor",
+				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"sto",
+				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"stoe",
+				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"stot",
+				"/var/www/html/dotfiles/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"sote",
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"pos",
+				"/var/www/html/setting/sublime-text-workspaces/possession.sublime-project"
+			],
+			[
+				"st",
+				"/var/www/html/setting/sublime-text-workspaces/store.sublime-workspace"
+			],
+			[
+				"claire",
+				"/var/www/html/setting/sublime-text-workspaces/claire.sublime-workspace"
+			],
+			[
+				"file",
+				"/var/www/html/setting/sublime-text-workspaces/file-browser.sublime-workspace"
+			],
+			[
+				"inv",
+				"/var/www/html/setting/sublime-text-workspaces/inventory.sublime-workspace"
+			],
+			[
+				"url",
+				"/var/www/html/setting/sublime-text-workspaces/url.sublime-workspace"
+			],
+			[
+				"grid",
+				"/var/www/html/sublime-workspace/grid.sublime-workspace"
+			],
+			[
+				"gri",
+				"/var/www/html/sublime-workspace/grid.sublime-workspace"
+			],
+			[
+				"diao",
+				"/var/www/html/sublime-workspace/dialogue.sublime-workspace"
+			],
+			[
+				"dial",
+				"/var/www/html/sublime-workspace/dialogue.sublime-workspace"
+			],
+			[
+				"diua",
+				"/var/www/html/sublime-workspace/dialogue.sublime-workspace"
+			],
+			[
+				"g",
+				"/var/www/html/grid/grid.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 256.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

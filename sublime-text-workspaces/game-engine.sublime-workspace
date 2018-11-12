@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"acce",
+				"accellerate"
+			],
+			[
+				"rotat",
+				"rotate"
+			],
+			[
 				"keyco",
 				"keyCodes"
 			],
@@ -220,53 +228,12 @@
 	"buffers":
 	[
 		{
-			"file": "/var/www/html/game-engine/index-ivank.php",
+			"file": "/var/www/html/game-engine/src/common.bundle.js",
 			"settings":
 			{
-				"buffer_size": 763,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/var/www/html/game-engine/index-three.php",
-			"settings":
-			{
-				"buffer_size": 1218,
+				"buffer_size": 1032,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/game-engine/gulpfile.js",
-			"settings":
-			{
-				"buffer_size": 820,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/var/www/html/game-engine/ui/common.bundle.js",
-			"settings":
-			{
-				"buffer_size": 797,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/game-engine/vendor/ivank-1.2.js",
-			"settings":
-			{
-				"buffer_size": 64620,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/var/www/html/game-engine/index.php",
-			"settings":
-			{
-				"buffer_size": 199,
-				"line_ending": "Windows"
 			}
 		}
 	],
@@ -278,9 +245,13 @@
 	"command_palette":
 	{
 		"height": 392.0,
-		"last_filter": "ja",
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
 			[
 				"ja",
 				"Set Syntax: JavaScript"
@@ -347,35 +318,55 @@
 	},
 	"expanded_folders":
 	[
-		"/var/www/html/game-engine"
+		"/var/www/html/game-engine",
+		"/var/www/html/game-engine/dist",
+		"/var/www/html/game-engine/src",
+		"/var/www/html/game-engine/src/temp",
+		"/var/www/html/game-engine/src/utility",
+		"/var/www/html/game-engine/ui",
+		"/var/www/html/game-engine/ui/test"
 	],
 	"file_history":
 	[
+		"/var/www/html/game-engine/src/common-pixi.bundle.js",
+		"/var/www/html/game-engine/package.json",
+		"/var/www/html/game-engine/index.php",
+		"/var/www/html/game-engine/src/scenery.js",
+		"/var/www/html/game-engine/src/scenery/level.js",
+		"/var/www/html/game-engine/src/ship.js",
+		"/var/www/html/game-engine/src/utility/keycode.js",
+		"/var/www/html/game-engine/ui/ball.js",
+		"/var/www/html/game-engine/src/fps.js",
+		"/var/www/html/game-engine/src/temp/button.js",
+		"/var/www/html/game-engine/src/temp/buttonGroup.js",
+		"/var/www/html/game-engine/src/stage.js",
+		"/var/www/html/game-engine/src/common-archive.bundle.js",
+		"/var/www/html/game-engine/src/mouse.js",
+		"/var/www/html/game-engine/ui/hittest.js",
+		"/var/www/html/game-engine/ui/fps.js",
+		"/var/www/html/game-engine/ui/scenery.js",
+		"/var/www/html/game-engine/vendor/ivank-1.2.js",
+		"/var/www/html/game-engine/gulpfile.js",
+		"/var/www/html/game-engine/index-three.php",
+		"/var/www/html/game-engine/index-test.php",
+		"/var/www/html/game-engine/index-ivank.php",
 		"/var/www/html/game-engine/ui/ivank.bundle.js",
 		"/var/www/html/game-engine/ui/vendor/ivank.js",
 		"/var/www/html/game-engine/index-particle.php",
 		"/var/www/html/game-engine/ui/particle.bundle.js",
-		"/var/www/html/game-engine/gulpfile.js",
-		"/var/www/html/game-engine/ui/scenery.js",
 		"/var/www/html/game-engine/ui/stage.js",
 		"/var/www/html/game-engine/ui/button.js",
 		"/var/www/html/game-engine/ui/common.bundle.js",
-		"/var/www/html/game-engine/ui/ball.js",
 		"/var/www/html/game-engine/ui/block.js",
 		"/var/www/html/game-engine/ui/paddle.js",
-		"/var/www/html/game-engine/ui/fps.js",
 		"/var/www/html/game-engine/ui/setup.js",
-		"/var/www/html/game-engine/index.php",
 		"/var/www/html/game-engine/ui/buttonGroup.js",
-		"/var/www/html/game-engine/ui/hittest.js",
 		"/var/www/html/game-engine/ui/mouse.js",
 		"/home/martin/.config/sublime-text-3/Packages/User/snippet/js/module-exports.sublime-snippet",
 		"/var/www/html/game-engine/ui/common.js",
 		"/var/www/html/game-engine/asset/test/test.bundle.js",
 		"/var/www/html/game-engine/ui/test/test.bundle.js",
-		"/var/www/html/game-engine/package.json",
 		"/var/www/html/game-engine/ui/test/include.js",
-		"/var/www/html/game-engine/index-test.php",
 		"/var/www/html/game-engine/ui/test.js",
 		"/var/www/html/game-engine/ui/animation.js",
 		"/var/www/html/game-engine/js/ball.js",
@@ -464,29 +455,15 @@
 		"/var/www/html/store/trunk/js/admin/product/stock-reminder.bundle.js",
 		"/var/www/html/store/trunk/js/admin/mediaBrowser.js",
 		"/var/www/html/store/trunk/js/popOver.js",
-		"/var/www/html/store/trunk/js/admin/features.js",
-		"/var/www/html/store/trunk/sass/admin/header/_menu.scss",
-		"/var/www/html/store/trunk/app/classes/admin/modules/exceptions.php",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/exceptions/search.tpl",
-		"/var/www/html/store/trunk/js/admin/common.bundle.js",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/exceptions/_list-content.tpl",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/exceptions/_follow.tpl",
-		"/var/www/html/store/trunk/js/config.js",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/exceptions/template/create-update.tpl",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/exceptions/_follow-bar.tpl",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/exceptions/single.tpl",
-		"/var/www/html/store/trunk/app/skin/custom/admin/modules/exceptions/list.tpl",
-		"/var/www/html/store/trunk/sass/admin/vendor/mwyatt/grid.scss",
-		"/var/www/html/store/trunk/js/admin/exception/search.js",
-		"/var/www/html/store/trunk/package.json"
+		"/var/www/html/store/trunk/js/admin/features.js"
 	],
 	"find":
 	{
-		"height": 37.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 158.0,
 		"where_history":
 		[
 			"-node_modules/, -asset/, -vendor/",
@@ -524,134 +501,134 @@
 		"case_sensitive": true,
 		"find_history":
 		[
-			"buildJs",
-			"0.1",
-			"Start",
-			"200",
-			"stage",
+			"add",
+			"00",
+			"src/games/firstgame",
+			"accellerate",
+			"15",
+			"deccelleration",
+			"*",
+			"16",
+			"05",
+			"50",
+			".1",
+			"10",
+			"1",
+			"ship.rotate",
+			"rotation",
+			"position",
+			"accellerate",
+			"pkeys",
+			"position",
+			"bunny",
+			"amt",
+			"accellerate",
+			"move",
+			"this.triangle",
+			"this.triangleContainer",
+			"triangleContainer",
+			"triangle",
+			"let",
+			"triangleContainer",
+			"pkeys[code]",
+			"var",
+			"keyboard",
+			"20",
+			"triangleContainer",
+			"var",
+			"app",
+			"container",
+			"height",
+			"60",
+			"container",
+			"32",
+			"triangle",
+			"-15",
 			"graphics",
-			"stage",
-			"Sprite",
-			"Start",
-			"function",
-			"common",
-			"test",
-			"stage.",
-			"this",
-			"positiveDecimal",
-			"animationIntro",
-			"positiveDecimal",
-			"length",
-			"animationDestroy",
-			"this",
-			"scenery",
-			"reason",
-			"scenes",
-			"scenery",
-			"setupSceneLevel",
-			"clearScenery",
-			"setupSceneLevel",
-			"scenery",
-			"showLevelComplete",
-			"blocksRemaining",
-			"countBlocks",
-			"i",
-			"getSceneryByType",
-			"blocks",
-			"blockHitThisFrame",
-			"scenery",
+			"ship.",
+			"ship.x",
+			"graphics",
+			"Obj",
+			"graphics",
+			"pp",
+			"PIXI",
+			"ang",
+			"y",
+			"30",
+			"vX",
 			"paddle",
-			"animationDestroy",
-			"paddle",
-			"new ball",
-			"endConditionMet",
-			"setupZones",
-			"hitZones",
-			"ball",
-			"new ballFactory",
-			"updateHitZone",
-			"new ballFactory",
-			"animationGrow",
-			"blockHitThisFrame",
-			".color",
-			"updateHitZone",
-			"stage",
-			"setupSceneLevel",
-			"stage",
-			"fps",
-			"stage",
-			"endConditionMet",
-			"fps",
-			"function ",
-			"stage",
+			"vpos",
+			"quarterStageH",
 			"paddleFactory",
-			"blockFactory",
-			"buttonGroupFactory",
-			"buttonFactory",
-			"hitTest",
-			"ballFactory",
-			"setupZones",
-			"stage.hitZones",
-			"hitZones",
-			"zone",
-			"hitZones",
-			"function() {",
-			"Fps",
-			"fps",
-			"stage",
-			"fps",
-			"frameTime",
+			"paddle",
+			"paddleFactory",
+			"setupPaddle",
 			"frames",
-			"frameInfo",
-			"sce",
-			"fps",
-			"frameInfo",
-			"frameTime",
-			"frameInfo",
+			"level",
 			"hitTest",
-			"mouseFactory",
+			"scenery",
+			"stage",
+			"setupLevel",
+			"setupSceneLevel",
+			"update",
+			"keyCodes",
+			"keycode",
+			"keyCodes",
+			"stage",
+			"buttonPlay",
+			"this",
+			"buttonPlay",
+			"buttonX",
+			"stage",
+			"buttonGroup",
+			"stage",
+			"render",
+			"stage",
+			"fps",
+			"./",
+			"buttonGroup =",
+			"buttonGroup",
+			"scenery.",
+			"scenery",
+			"start",
+			"loop",
+			"setupStage",
+			"renderStage",
+			"stage.scenery.push",
+			"stage.",
+			"stage.scenery.push(fps)",
+			"clearScenery",
+			"hitTest",
+			"scenery",
+			"clearScenery",
+			"scenery",
+			"clearScenery",
+			"setupSceneLogo",
+			"stage",
+			"setupStage",
+			"scenery",
+			"passed",
+			"update",
+			"timeThen",
+			"scenery",
 			"requestFrameId",
-			"paddleFactory",
+			"loop",
+			"hitZones",
+			"gutter",
 			"sceneryId",
+			"getNewId",
+			"sceneryId",
+			"getSceneryByType",
+			"mouseFactory",
+			"palette",
+			"stage",
+			"blue",
 			"keyCodes",
 			"requestFrameId",
-			"hitTest",
-			"hittest",
-			"stage",
-			"require('",
-			"hitTest",
-			"ui/",
 			"common",
-			";",
-			"console",
-			"gutil.colors",
-			"gutil",
-			"gulp",
-			"var",
-			"browserify",
-			"domain",
-			"plumber",
-			";",
-			"tap",
-			"settings",
-			"buffer",
-			"browserify",
-			";",
-			"jscs",
-			"uglify",
-			"browserify",
-			"buffer",
-			"runSequence",
-			"tap",
-			"gutil",
-			"watch",
-			"zone",
-			"maxW",
-			"block",
-			"zone",
-			".zone",
-			"Grow",
-			"pixelsBigger"
+			"buildJs",
+			"0.1",
+			"Start"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -701,84 +678,31 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/var/www/html/game-engine/index-ivank.php",
+					"file": "/var/www/html/game-engine/src/common.bundle.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 763,
+						"buffer_size": 1032,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								669,
-								669
+								185,
+								185
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 480.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/var/www/html/game-engine/index-three.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1218,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1051,
-								1051
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 632.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/var/www/html/game-engine/gulpfile.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 820,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								159,
-								820
-							]
-						],
-						"settings":
-						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
@@ -787,101 +711,17 @@
 					},
 					"stack_index": 0,
 					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/var/www/html/game-engine/ui/common.bundle.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 797,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								364,
-								364
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 432.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/var/www/html/game-engine/vendor/ivank-1.2.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 64620,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 632.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/var/www/html/game-engine/index.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 199,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								82,
-								82
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 544.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
 				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 32.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 70.0
 	},
 	"layout":
 	{
@@ -914,11 +754,15 @@
 	{
 		"height": 0.0
 	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
 	"pinned_build_system": "",
 	"project": "",
 	"replace":
 	{
-		"height": 50.0
+		"height": 60.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -928,44 +772,156 @@
 		"selected_items":
 		[
 			[
-				"gul",
-				"gulpfile.js"
+				"combun",
+				"src/common.bundle.js"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"commbon",
+				"src/common.bundle.js"
+			],
+			[
+				"com",
+				"src/common.bundle.js"
+			],
+			[
+				"pacak",
+				"package.json"
+			],
+			[
+				"comar",
+				"src/common-archive.bundle.js"
 			],
 			[
 				"",
-				"index-ivank.php"
+				"src/common.bundle.js"
 			],
 			[
-				"combun",
-				"ui/common.bundle.js"
-			],
-			[
-				"vendori",
-				"vendor/ivank-1.2.js"
+				"packa",
+				"package.json"
 			],
 			[
 				"inde",
 				"index.php"
 			],
 			[
-				"index",
-				"index-test.php"
+				"level",
+				"src/scenery/level.js"
 			],
 			[
-				"uiven",
-				"ui/vendor/ivank.js"
+				"keyco",
+				"src/utility/keycode.js"
+			],
+			[
+				"paddl",
+				"ui/paddle.js"
+			],
+			[
+				"f",
+				"src/fps.js"
+			],
+			[
+				"fps",
+				"src/fps.js"
+			],
+			[
+				"stage",
+				"src/stage.js"
+			],
+			[
+				"mous",
+				"src/mouse.js"
+			],
+			[
+				"butg",
+				"src/temp/buttonGroup.js"
+			],
+			[
+				"but",
+				"src/temp/button.js"
+			],
+			[
+				"button",
+				"src/temp/button.js"
+			],
+			[
+				"buttong",
+				"src/temp/buttonGroup.js"
+			],
+			[
+				"padd",
+				"ui/paddle.js"
+			],
+			[
+				"ball",
+				"ui/ball.js"
+			],
+			[
+				"buttongr",
+				"src/temp/buttonGroup.js"
 			],
 			[
 				"sta",
-				"ui/stage.js"
+				"src/stage.js"
+			],
+			[
+				"scene",
+				"src/scenery.js"
+			],
+			[
+				"scener",
+				"src/scenery.js"
+			],
+			[
+				"sce",
+				"src/stage.js"
+			],
+			[
+				"utto",
+				"ui/button.js"
+			],
+			[
+				"bugr",
+				"ui/buttonGroup.js"
 			],
 			[
 				"butt",
 				"ui/button.js"
 			],
 			[
-				"ball",
-				"ui/ball.js"
+				"stag",
+				"src/stage.js"
+			],
+			[
+				"hittes",
+				"ui/hittest.js"
+			],
+			[
+				"gul",
+				"gulpfile.js"
+			],
+			[
+				"paka",
+				"package.json"
+			],
+			[
+				"ivank",
+				"index-ivank.php"
+			],
+			[
+				"ind",
+				"index.php"
+			],
+			[
+				"vendori",
+				"vendor/ivank-1.2.js"
+			],
+			[
+				"uiven",
+				"ui/vendor/ivank.js"
 			],
 			[
 				"comb",
@@ -976,30 +932,6 @@
 				"ui/block.js"
 			],
 			[
-				"scener",
-				"ui/scenery.js"
-			],
-			[
-				"stage",
-				"ui/stage.js"
-			],
-			[
-				"padd",
-				"ui/paddle.js"
-			],
-			[
-				"sce",
-				"ui/scenery.js"
-			],
-			[
-				"paddl",
-				"ui/paddle.js"
-			],
-			[
-				"fps",
-				"ui/fps.js"
-			],
-			[
 				"common",
 				"ui/common.bundle.js"
 			],
@@ -1008,24 +940,12 @@
 				"ui/buttonGroup.js"
 			],
 			[
-				"com",
-				"ui/common.bundle.js"
-			],
-			[
-				"but",
-				"ui/button.js"
-			],
-			[
 				"hitte",
 				"ui/hittest.js"
 			],
 			[
 				"pad",
 				"ui/paddle.js"
-			],
-			[
-				"mous",
-				"ui/mouse.js"
 			],
 			[
 				"bug",
@@ -1041,10 +961,6 @@
 			],
 			[
 				"pac",
-				"package.json"
-			],
-			[
-				"packa",
 				"package.json"
 			],
 			[
@@ -1076,16 +992,8 @@
 				"ui/block.js"
 			],
 			[
-				"hittes",
-				"ui/hittest.js"
-			],
-			[
 				"htites",
 				"ui/hittest.js"
-			],
-			[
-				"stag",
-				"js/stage.js"
 			],
 			[
 				"uimous",
@@ -1374,70 +1282,6 @@
 			[
 				"popover",
 				"js/popOver.js"
-			],
-			[
-				"excepfollowbr",
-				"app/skin/custom/admin/modules/exceptions/_follow-bar.tpl"
-			],
-			[
-				"exceptioncreup",
-				"app/skin/custom/admin/modules/exceptions/template/create-update.tpl"
-			],
-			[
-				"exceptionsingle",
-				"app/skin/custom/admin/modules/exceptions/single.tpl"
-			],
-			[
-				"exceptionfollow",
-				"app/skin/custom/admin/modules/exceptions/_follow.tpl"
-			],
-			[
-				"exceplistcontent",
-				"app/skin/custom/admin/modules/exceptions/_list-content.tpl"
-			],
-			[
-				"adminexceptionlisttpl",
-				"app/skin/custom/admin/modules/exceptions/list.tpl"
-			],
-			[
-				"adminmodexcep",
-				"app/classes/admin/modules/exceptions.php"
-			],
-			[
-				"gridexcepi",
-				"app/classes/admin/grids/modules/exception.php"
-			],
-			[
-				"config",
-				"js/config.js"
-			],
-			[
-				"admincommon",
-				"js/admin/common.bundle.js"
-			],
-			[
-				"exceptionlist",
-				"app/skin/custom/admin/modules/exceptions/list.tpl"
-			],
-			[
-				"venmwyagri",
-				"sass/admin/vendor/mwyatt/grid.scss"
-			],
-			[
-				"exceplist",
-				"app/skin/custom/admin/modules/exceptions/list.tpl"
-			],
-			[
-				"exception",
-				"js/admin/exception.js"
-			],
-			[
-				"excepsing",
-				"js/admin/exception/single.js"
-			],
-			[
-				"adminexcep",
-				"js/admin/exception.js"
 			]
 		],
 		"width": 0.0
@@ -1455,6 +1299,10 @@
 			[
 				"bms",
 				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
+			],
+			[
+				"port",
+				"/var/www/html/dotfiles/sublime-text-workspaces/portfolio.sublime-workspace"
 			],
 			[
 				"bm",
@@ -1551,7 +1399,7 @@
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 236.0,
 	"status_bar_visible": true,
 	"template_settings":

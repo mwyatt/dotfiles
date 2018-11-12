@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"tr",
+				"try\ttry"
+			],
+			[
+				"jscolo",
+				"js-color-wrap"
+			],
+			[
+				"aja",
+				"ajax\tajax"
+			],
+			[
+				"selec",
+				"selected"
+			],
+			[
+				"classme",
+				"get_class_methods"
+			],
+			[
 				"user",
 				"User"
 			],
@@ -107,10 +127,26 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 79.0,
-		"last_filter": "mini",
+		"height": 92.0,
+		"last_filter": "statusb",
 		"selected_items":
 		[
+			[
+				"statusb",
+				"View: Toggle Status Bar"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"htm",
+				"HTML: Encode Special Characters"
+			],
 			[
 				"mini",
 				"View: Toggle Minimap"
@@ -144,7 +180,7 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 485.0
+		"width": 557.0
 	},
 	"console":
 	{
@@ -165,10 +201,31 @@
 	},
 	"expanded_folders":
 	[
-		"/var/www/html/sandbox"
+		"/var/www/html/sandbox",
+		"/var/www/html/sandbox/temp-monitor",
+		"/var/www/html/sandbox/ttdb-scrape"
 	],
 	"file_history":
 	[
+		"/var/www/html/sandbox/temp-monitor/script.py",
+		"/var/www/html/sandbox/temp-monitor/index.php",
+		"/var/www/html/sandbox/color-manager/colorwheel.js",
+		"/var/www/html/sandbox/color-manager/colors.php",
+		"/var/www/html/sandbox/color-manager/index.php",
+		"/var/www/html/sandbox/color-manager/mix.php",
+		"/var/www/html/sandbox/color-manager/home.php",
+		"/var/www/html/sandbox/color-manager/helpers.php",
+		"/var/www/html/sandbox/blog-template/index.html",
+		"/var/www/html/sandbox/bootstrap/index.php",
+		"/var/www/html/sandbox/bulma/index.php",
+		"/var/www/html/sandbox/ttdb-scrape/example-list.html",
+		"/var/www/html/sandbox/reevoo-scrape/scrape.php",
+		"/var/www/html/sandbox/ttdb-scrape/composer.json",
+		"/var/www/html/sandbox/ttdb-scrape/scrape.php",
+		"/var/www/html/sandbox/dnd1/index2.html",
+		"/var/www/html/sandbox/dnd1/index1.html",
+		"/var/www/html/sandbox/amk-aeromark/index.php",
+		"/var/www/html/bms/node_modules/sortablejs/Sortable.js",
 		"/var/www/html/sandbox/mithril/src/view/UserForm.js",
 		"/var/www/html/sandbox/mithril/index.php",
 		"/var/www/html/sandbox/mithril/package.json",
@@ -196,7 +253,6 @@
 		"/var/www/html/sandbox/monolog/your.log",
 		"/var/www/html/sandbox/monolog/index.php",
 		"/var/www/html/sandbox/monolog/composer.json",
-		"/var/www/html/sandbox/blog-template/index.html",
 		"/var/www/html/sandbox/Jcrop-master/index.html",
 		"/var/www/html/sandbox/possesions/index.php",
 		"/var/www/html/sandbox/browserify-shim/common.js",
@@ -227,7 +283,6 @@
 		"/var/www/html/sandbox/cups/print-code",
 		"/var/www/html/sandbox/reevoo-scrape/store-reviews.php",
 		"/var/www/html/sandbox/reevoo-scrape/cache-done.json",
-		"/var/www/html/sandbox/reevoo-scrape/scrape.php",
 		"/var/www/html/sandbox/reevoo-scrape/scraped-reviews.json",
 		"/home/martin/.config/sublime-text-3/Packages/User/Emmet.sublime-settings",
 		"/var/www/html/sandbox/royal-mail-shipping-api/dan/AudioVisualOnline-Create01-Request",
@@ -279,32 +334,15 @@
 		"/var/www/html/store/trunk/asset/logo.svg",
 		"/var/www/html/store/trunk/js/admin/mediaBrowser/mustacheTemplates.js",
 		"/var/www/html/store/trunk/app/classes/common/media.php",
-		"/var/www/html/store/trunk/sass/admin/common.scss",
-		"/var/www/html/store/trunk/sass/admin/vendor/_zebra-datepicker.scss",
-		"/var/www/html/store/trunk/sass/admin/vendor/_ui.jqgrid.scss",
-		"/var/www/html/store/trunk/sass/admin/vendor/mwyatt/grid.scss",
-		"/var/www/html/store/trunk/sass/_grid.scss",
-		"/var/www/html/store/trunk/js/admin/misc.js",
-		"/var/www/html/store/trunk/app/classes/frontend/modules/media.php",
-		"/var/www/html/store/trunk/index.php",
-		"/var/www/html/store/trunk/sass/_form.scss",
-		"/var/www/html/store/trunk/sass/admin/order/_email-authorised.scss",
-		"/var/www/html/store/trunk/sass/admin/tinymceContent.scss",
-		"/var/www/html/store/trunk/app/config/config.php",
-		"/var/www/html/store/trunk/js/buttonToTop.js",
-		"/var/www/html/store/trunk/mustache/admin/media/browser/tree.mst",
-		"/var/www/html/store/trunk/mustache/admin/media/browser/layout-control.mst",
-		"/var/www/html/store/trunk/app/classes/admin/modules/features.php",
-		"/var/www/html/store/trunk/app/classes/admin/modules/inbox.php",
-		"/var/www/html/store/trunk/app/classes/admin/modules/media.php"
+		"/var/www/html/store/trunk/sass/admin/common.scss"
 	],
 	"find":
 	{
-		"height": 37.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 158.0,
 		"where_history":
 		[
 			"-node_modules/, -asset/, ",
@@ -340,6 +378,67 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"deleted",
+			"connection",
+			"select",
+			"' =",
+			"print",
+			"return",
+			"print",
+			"28",
+			"ba",
+			"aff",
+			"output",
+			"return",
+			"selected",
+			"$(this)",
+			"this",
+			"js-color-wrap",
+			"safari",
+			"type",
+			"key",
+			"R56bvF8KD7y",
+			"type",
+			"key",
+			"reqHeaders",
+			"selected",
+			"trycolors",
+			"hidden",
+			"'' ",
+			"isset",
+			"empty",
+			"0",
+			"order",
+			"ahsl",
+			"colors",
+			"hexToHsl",
+			"#",
+			"Dark",
+			"#",
+			"Neutral",
+			"span ",
+			"span",
+			"<span>",
+			"p-3",
+			"hi there",
+			"cell_char",
+			"equipments",
+			"table",
+			"ratingtable",
+			"review_ratings_table",
+			"UserRatingsTable",
+			"article",
+			"client",
+			" - ",
+			"     ",
+			"      ",
+			"     ",
+			"    ",
+			"   ",
+			"html",
+			"<div>",
+			"dragga",
+			"el",
 			"onsubmit",
 			"User",
 			"first",
@@ -406,68 +505,7 @@
 			"productSku",
 			"Id",
 			"data",
-			"customerLocation",
-			"rows",
-			"productIdSkus",
-			"idSkus",
-			"Occ",
-			"Occurence",
-			"Format",
-			"requestCreateShipment",
-			"Format",
-			"(),\n",
-			"orderId",
-			"things",
-			"$this->ch",
-			"UsernameToken",
-			"UsernameToken-",
-			"requestD1Ranges",
-			"Offering",
-			"creationDate",
-			"data",
-			"data\n",
-			"orderTrackingWeight",
-			"response",
-			"shippingCompany",
-			"<wsse:UsernameToken wsu:Id=\"UsernameToken-0000\">",
-			"xmlns:wsse=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd",
-			"transactionId",
-			"applicationId",
-			"creationDate",
-			"orderTrackingWeight",
-			"orderTrackingBoxes",
-			"requestD1Ranges",
-			"requestD1Ranges\n",
-			"orderTrackingBoxes",
-			"transactionId",
-			"local_cert",
-			"https://api.royalmail.com/shipping/onboarding",
-			"location",
-			"onboarding",
-			"soapaction",
-			"wss",
-			"$firstImage->url",
-			"$firstImage",
-			"firstImage",
-			"getMediaImagesSorted",
-			"firstImage",
-			".home .product-tag-new,",
-			"product-tag-new",
-			"get_name",
-			"// reset checkbox to off",
-			"\t\t\t\tid,\n\t\t\t\tname,\n\t\t\t\tcontent,\n\t\t\t\timage,\n\t\t\t\ttime_start,\n\t\t\t\ttime_end,\n\t\t\t\thidden_field,\n\t\t\t\tstatus\n",
-			"$entity->imageOnly ? 1 : 0",
-			"input-checkbox",
-			"image",
-			"Please create the promotion first to then assign products.",
-			"filesAttached",
-			"// forget about ie8 now?",
-			"owlCarousel",
-			"owl",
-			"'time ",
-			"Time Start",
-			"Time",
-			"Time Start"
+			"customerLocation"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -524,7 +562,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 32.0
 	},
 	"input":
 	{
@@ -561,11 +599,15 @@
 	{
 		"height": 0.0
 	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
 	"pinned_build_system": "",
 	"project": "",
 	"replace":
 	{
-		"height": 50.0
+		"height": 60.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -574,6 +616,26 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"colowhe",
+				"color-manager/colorwheel.js"
+			],
+			[
+				"",
+				"color-manager/mix.php"
+			],
+			[
+				"index",
+				"blog-template/index.html"
+			],
+			[
+				"scrapecomposer",
+				"ttdb-scrape/composer.json"
+			],
+			[
+				"index1",
+				"dnd1/index1.html"
+			],
 			[
 				"modeluser",
 				"mithril/src/model/User.js"
@@ -629,10 +691,6 @@
 			[
 				"helper",
 				"staticclasses/Helper.php"
-			],
-			[
-				"index",
-				"blog-template/index.html"
 			],
 			[
 				"index.htm",
@@ -773,10 +831,6 @@
 			[
 				"comtem",
 				"app/classes/common/template.php"
-			],
-			[
-				"",
-				"app/skin/custom/admin/modules/products/bundle/_product.tpl"
 			],
 			[
 				"invpro",
@@ -1073,18 +1127,6 @@
 			[
 				"mediabrowser",
 				"trunk/js/admin/mediaBrowser.js"
-			],
-			[
-				"ajaxmediabrow",
-				"trunk/app/classes/admin/ajax/modules/mediabrowser.php"
-			],
-			[
-				"showroomclear",
-				"trunk/app/skin/custom/frontend/modules/showroomclearance/single.tpl"
-			],
-			[
-				"adminajax.php",
-				"trunk/administration/ajax.php"
 			]
 		],
 		"width": 0.0
@@ -1092,19 +1134,27 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "gam",
 		"selected_items":
 		[
+			[
+				"gam",
+				"/var/www/html/dotfiles/sublime-text-workspaces/game-engine.sublime-workspace"
+			],
+			[
+				"pale",
+				"/var/www/html/dotfiles/sublime-text-workspaces/palette.sublime-workspace"
+			],
 			[
 				"",
 				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
 			],
 			[
-				"bm",
+				"bms",
 				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
 			],
 			[
-				"bms",
+				"bm",
 				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
 			],
 			[
@@ -1194,9 +1244,9 @@
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 269.0,
-	"status_bar_visible": false,
+	"status_bar_visible": true,
 	"template_settings":
 	{
 	}

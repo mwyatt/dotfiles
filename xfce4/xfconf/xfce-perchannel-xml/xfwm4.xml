@@ -7,7 +7,7 @@
     <property name="show_popup_shadow" type="empty"/>
     <property name="theme" type="string" value="Numix"/>
     <property name="use_compositing" type="empty"/>
-    <property name="workspace_count" type="empty"/>
+    <property name="workspace_count" type="int" value="1"/>
     <property name="workspace_names" type="empty"/>
     <property name="activate_action" type="empty"/>
     <property name="box_move" type="empty"/>
@@ -58,7 +58,7 @@
     <property name="cycle_minimum" type="bool" value="true"/>
     <property name="cycle_workspaces" type="bool" value="false"/>
     <property name="double_click_action" type="string" value="maximize"/>
-    <property name="easy_click" type="string" value="Alt"/>
+    <property name="easy_click" type="string" value="None"/>
     <property name="focus_hint" type="bool" value="true"/>
     <property name="inactive_opacity" type="int" value="100"/>
     <property name="move_opacity" type="int" value="100"/>

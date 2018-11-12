@@ -1,9 +1,10 @@
 <snippet>
     <content><![CDATA[
-for (\$index = ${1:0}; \$index <${2: ${3:99}}; \$index++) {
-    ${4}
-}
-${5}
+for (\$index = ${1}; \$index < ${2}; \$index++) { ?>
+
+    ${3}   
+
+<?php } 
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>for</tabTrigger>

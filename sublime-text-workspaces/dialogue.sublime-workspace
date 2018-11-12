@@ -132,6 +132,22 @@
 			}
 		},
 		{
+			"file": "/var/www/html/dialogue/js/container.mustache",
+			"settings":
+			{
+				"buffer_size": 1088,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/dialogue/css/common.bundle.css",
+			"settings":
+			{
+				"buffer_size": 3054,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "/var/www/html/dialogue/js/common.bundle.js",
 			"settings":
 			{
@@ -237,6 +253,7 @@
 	],
 	"file_history":
 	[
+		"/var/www/html/dialogue/js/container.mustache",
 		"/var/www/html/dialogue/css/common.bundle.css",
 		"/var/www/html/dialogue/js/dialogue.js",
 		"/var/www/html/dialogue/bin/deploy.sh",
@@ -251,7 +268,6 @@
 		"/var/www/html/dialogue/package.json",
 		"/var/www/html/dialogue/npm-debug.log",
 		"/var/www/html/dialogue/js/common.bundle.js",
-		"/var/www/html/dialogue/js/container.mustache",
 		"/var/www/html/dialogue/index.js",
 		"/var/www/html/dialogue/js/ready.js",
 		"/var/www/html/dialogue/css/settings.css",
@@ -399,6 +415,9 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"HTML",
+			"Html",
+			"After",
 			"actions",
 			"clientFrame",
 			"cssSettings",
@@ -523,10 +542,7 @@
 			"closeInstance",
 			"buttonOk",
 			"$",
-			"options",
-			"dialogue.actions",
-			"setActionEvent",
-			"actions"
+			"options"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -575,7 +591,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 7,
 			"sheets":
 			[
 				{
@@ -597,13 +613,15 @@
 						],
 						"settings":
 						{
+							"remote_loading": false,
+							"synced": false,
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 1087.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -625,13 +643,15 @@
 						],
 						"settings":
 						{
+							"remote_loading": false,
+							"synced": false,
 							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 216.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -647,19 +667,22 @@
 						"selection":
 						[
 							[
-								3083,
+								0,
 								3083
 							]
 						],
 						"settings":
 						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
 							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
-						"translation.x": 0.0,
-						"translation.y": 2363.0,
+						"translation.x": 616.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -675,56 +698,93 @@
 						"selection":
 						[
 							[
-								2532,
-								2671
+								0,
+								0
 							]
 						],
 						"settings":
 						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
-						"translation.x": 0.0,
-						"translation.y": 1294.0,
+						"translation.x": 632.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "/var/www/html/dialogue/js/common.bundle.js",
+					"file": "/var/www/html/dialogue/js/container.mustache",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4430,
+						"buffer_size": 1088,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1373,
-								1462
+								0,
+								1088
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML Mustache/Syntaxes/HTMLMustache.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 580.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "/var/www/html/dialogue/package.json",
+					"file": "/var/www/html/dialogue/css/common.bundle.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1378,
+						"buffer_size": 3054,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3054,
+								3054
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2825.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/var/www/html/dialogue/js/common.bundle.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4430,
 						"regions":
 						{
 						},
@@ -737,13 +797,47 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
-						"translation.x": 520.0,
+						"translation.x": 632.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/var/www/html/dialogue/package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1378,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								603,
+								677
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -788,6 +882,10 @@
 	{
 		"height": 0.0
 	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
 	"pinned_build_system": "",
 	"project": "",
 	"replace":
@@ -802,6 +900,34 @@
 		"selected_items":
 		[
 			[
+				"packa",
+				"package.json"
+			],
+			[
+				"conta",
+				"js/container.mustache"
+			],
+			[
+				"dialos",
+				"js/dialogue.js"
+			],
+			[
+				"combunjs",
+				"js/common.bundle.js"
+			],
+			[
+				"comub",
+				"css/common.bundle.css"
+			],
+			[
+				"defau",
+				"css/default.css"
+			],
+			[
+				"combuncss",
+				"css/common.bundle.css"
+			],
+			[
 				"combun",
 				"js/common.bundle.js"
 			],
@@ -812,14 +938,6 @@
 			[
 				".css",
 				"css/common.bundle.css"
-			],
-			[
-				"defau",
-				"css/default.css"
-			],
-			[
-				"packa",
-				"package.json"
 			],
 			[
 				"gul",
@@ -1070,10 +1188,6 @@
 				"css/common.bundle.css"
 			],
 			[
-				"combunjs",
-				"js/common.bundle.js"
-			],
-			[
 				"template/",
 				"template/index.php"
 			],
@@ -1296,22 +1410,6 @@
 			[
 				"product",
 				"trunk/js/product.js"
-			],
-			[
-				"config",
-				"trunk/js/config.js"
-			],
-			[
-				"jsproduc",
-				"trunk/js/product.js"
-			],
-			[
-				"equl",
-				"trunk/js/equalHeight.js"
-			],
-			[
-				"localeen",
-				"trunk/js/admin/vendor/grid.locale-en.js"
 			]
 		],
 		"width": 0.0
@@ -1325,6 +1423,10 @@
 			[
 				"",
 				"/var/www/html/dotfiles/sublime-text-workspaces/acmefg-bms.sublime-project"
+			],
+			[
+				"dialog",
+				"/var/www/html/dotfiles/sublime-text-workspaces/dialogue.sublime-workspace"
 			],
 			[
 				"code",
