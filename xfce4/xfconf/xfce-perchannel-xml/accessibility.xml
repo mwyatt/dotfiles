@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<channel name="accessibility" version="1.0">
-  <property name="MouseKeys" type="bool" value="true">
-    <property name="Delay" type="int" value="120"/>
-  </property>
-</channel>

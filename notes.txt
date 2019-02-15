@@ -1,0 +1,3 @@
+# Sublime Text
+
+Is your css snippets not working? Get PackageResourceViewer and edit the CSS -> Completion Rules file - remove the <string></string> insides under cancelCompletion
